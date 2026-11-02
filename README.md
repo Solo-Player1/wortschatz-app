@@ -112,6 +112,20 @@ bash C:/Users/abdel/AndroidDev/install.sh
 
 ---
 
+## التحديث من جوه الأبلكيشن (زرار «حدّث»)
+
+من الإصدار 1.1.0: الأبلكيشن بيفحص `updates/manifest.json` على GitHub مرة في اليوم (أو من الإعدادات ← «اتحقق من تحديثات»)، ولو فيه تحديث بيظهر بانر فيه «حدّث دلوقتي».
+
+- **تحديث ملفات (الأغلب):** ألعاب، محتوى، شاشات، صوت، PDF. الزرار بينزّل zip صغير، والأبلكيشن بيفتح من جديد متحدّث على طول، من غير ما تسطّب حاجة. لو النسخة الجديدة ما فتحتش، أول فتحة جاية بترجع لوحدها للنسخة اللي في الـ APK.
+  ```bash
+  python tools/web_update.py make --notes "إيه اللي اتغيّر"   # بيرفع WEB_BUILD ويعمل dist/www-<n>.zip ويكتب manifest.web
+  gh release create web-<n> dist/www-<n>.zip -R Solo-Player1/wortschatz-app --title "Web update <n>"
+  git add -A && git commit -m "Web update <n>" && git push       # المانيفست بعد ما الـ release يترفع
+  ```
+- **إصدار أندرويد جديد** (plugin جديد، صلاحيات، أيقونة): `python tools/bump_version.py 1.2.0 --notes "..."` ← `bash tools/build_apk.sh` ← `gh release create v1.2.0 dist/Wortschatz-v1.2.0.apk` ← push. الزرار ساعتها بينزّل الـ APK ويفتح شاشة التثبيت (أول مرة أندرويد هيطلب «السماح بتثبيت التطبيقات» من Wortschatz).
+
+---
+
 ## التحديثات: إضافة دروس جديدة
 
 لما تخلص الدروس 1–15 وعايز تضيف 16–20 مثلًا:
