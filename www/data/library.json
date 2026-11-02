@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "groups": ["امتحانات", "شروحات", "مراجع"],
+  "items": [
+    {"id": "exam-letters", "type": "html", "file": "lib/exam-letters.html", "group": "امتحانات", "icon": "🔤", "title": "امتحان الحروف الألمانية", "subtitle": "الحروف والتركيبات، 70 كلمة، والأرقام من 0 لـ 12 — أسئلة بتتغير كل مرة"},
+    {"id": "exam-a1-basics", "type": "html", "file": "lib/exam-a1-basics.html", "group": "امتحانات", "icon": "📝", "title": "امتحان أساسيات الألمانية A1", "subtitle": "الضمائر، sein و haben، أفعال الحياة اليومية، وتكوين الجمل — 30 سؤال"},
+    {"id": "exam-nicos-1-5", "type": "html", "file": "lib/exam-nicos-1-5.html", "group": "امتحانات", "icon": "🎧", "title": "امتحان نيكوس ويج 1–5", "subtitle": "كلمات وقواعد أول 5 دروس بصوت DW الأصلي — 30 سؤال"},
+    {"id": "guide-articles-plural", "type": "html", "file": "lib/guide-articles-plural.html", "group": "شروحات", "icon": "🧩", "title": "الأدوات والجمع – شرح المستوى التاني", "subtitle": "der / die / das وقواعد الجمع بالعربي، بأمثلة من الدروس 1–5"},
+    {"id": "guide-nicos-6-15", "type": "html", "file": "lib/guide-nicos-6-15.html", "group": "شروحات", "icon": "🗺️", "title": "نيكوس ويج – شرح وخطة الدروس 6–15", "subtitle": "شرح كامل بالعربي لكل درس + خطة زمنية للمذاكرة"},
+    {"id": "a1-basics", "type": "pdf", "file": "lib/a1-basics.pdf", "group": "مراجع", "icon": "📄", "pages": 4, "title": "أساسيات الألمانية A1", "subtitle": "الملف الأصلي اللي امتحان الأساسيات مبني عليه — 4 صفحات"},
+    {"id": "nicos-vocab-1-5", "type": "pdf", "file": "lib/nicos-vocab-1-5.pdf", "group": "مراجع", "icon": "📘", "pages": 7, "title": "كلمات نيكوس ويج 1–5 بالعربي", "subtitle": "قوايم كلمات الدروس 1–5 من DW بالترجمة العربية — 7 صفحات"},
+    {"id": "guide-nicos-6-15-pdf", "type": "pdf", "file": "lib/guide-nicos-6-15.pdf", "group": "شروحات", "icon": "📕", "pages": 30, "title": "نيكوس ويج – شرح وخطة الدروس 6–15 (PDF)", "subtitle": "نفس الشرح كملف PDF للطباعة أو المذاكرة جنب الفيديو — 30 صفحة"},
+    {"id": "guide-articles-plural-pdf", "type": "pdf", "file": "lib/guide-articles-plural.pdf", "group": "شروحات", "icon": "📗", "pages": 15, "title": "الأدوات والجمع – شرح المستوى التاني (PDF)", "subtitle": "der / die / das وقواعد الجمع كملف PDF — 15 صفحة"}
+  ]
+}

@@ -1,0 +1,147 @@
+WEBVTT
+
+
+STYLE
+::cue(.S2) {
+font-weight: normal;
+font-size: 156%;
+font-family: Arial;
+}
+
+STYLE
+::cue(.S3) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:09.320 --> 00:00:12.320 region:R1 align:center
+<c.S1><c.S2>– So, hier ist noch meine Handynummer.</c></c>
+
+2
+00:00:12.480 --> 00:00:14.560 region:R1 align:center
+<c.S1><c.S2>– Ist das eine Zwei oder eine Sieben?</c></c>
+
+3
+00:00:14.600 --> 00:00:23.040 region:R1 align:center
+<c.S1><c.S2>– Das ist eine Sieben …</c>
+<c.S2>0173 90 76 34 29 58.</c></c>
+
+4
+00:00:23.360 --> 00:00:30.160 region:R1 align:center
+<c.S1><c.S2>– 0173 90 76 34 29 58.</c></c>
+
+5
+00:00:30.680 --> 00:00:31.840 region:R1 align:center
+<c.S1><c.S2>– Alles klar, danke.</c></c>
+
+6
+00:00:32.000 --> 00:00:33.480 region:R1 align:center
+<c.S1><c.S2>– Ja, hallo! Wie heißt du?</c></c>
+
+7
+00:00:33.520 --> 00:00:35.160 region:R1 align:center
+<c.S1><c.S2>– Nico, wie geht’s?</c></c>
+
+8
+00:00:35.200 --> 00:00:36.560 region:R1 align:center
+<c.S1><c.S2>– Danke, danke, mir geht’s gut.</c></c>
+
+9
+00:00:36.600 --> 00:00:38.280 region:R1 align:center
+<c.S1><c.S2>– Oh mein Gott …</c>
+<c.S2>– Wie geht’s dir?</c></c>
+
+10
+00:00:38.320 --> 00:00:39.960 region:R1 align:center
+<c.S1><c.S2>– Hmm. Nicht so gut.</c></c>
+
+11
+00:00:40.000 --> 00:00:42.120 region:R1 align:center
+<c.S1><c.S2>– Nicht so gut? Warum nicht so gut?</c></c>
+
+12
+00:00:42.160 --> 00:00:46.240 region:R1 align:center
+<c.S1><c.S2>– Meine Tasche. Meine Tasche ...</c>
+<c.S2>Tasche verloren ...</c></c>
+
+13
+00:00:46.280 --> 00:00:48.840 region:R1 align:center
+<c.S1><c.S2>– Oh, okay, Moment ...</c></c>
+
+14
+00:00:49.000 --> 00:00:52.720 region:R1 align:center
+<c.S1><c.S2>Du hast deine Tasche verloren?</c>
+<c.S2>Wie ist das passiert?</c></c>
+
+15
+00:00:53.120 --> 00:00:53.840 region:R1 align:center
+<c.S1><c.S2>– Hallo?</c></c>
+
+16
+00:00:53.880 --> 00:00:55.760 region:R1 align:center
+<c.S1><c.S2>– Oh, hallo ... Wer bist du denn?</c></c>
+
+17
+00:00:56.080 --> 00:00:59.360 region:R1 align:center
+<c.S1><c.S2>– Entschuldigung. Ich bin nicht Nico.</c>
+<c.S2>Mein Name ist Lisa.</c></c>
+
+18
+00:00:59.840 --> 00:01:03.080 region:R1 align:center
+<c.S1><c.S2>Nico spricht nicht so gut Deutsch.</c>
+<c.S2>Er sucht seine Tasche.</c></c>
+
+19
+00:01:03.160 --> 00:01:05.800 region:R1 align:center
+<c.S1><c.S2>Seine Tasche ist schwarz und ...</c></c>
+
+20
+00:01:09.960 --> 00:01:12.640 region:R1 align:center
+<c.S1><c.S2>... sie hat einen Aufnäher</c>
+<c.S2>mit einem Fahrrad.</c></c>
+
+21
+00:01:12.720 --> 00:01:13.560 region:R1 align:center
+<c.S1><c.S2>– Okay.</c></c>
+
+22
+00:01:13.600 --> 00:01:14.960 region:R1 align:center
+<c.S1><c.S2>– Nicos Pass ist in der Tasche.</c></c>
+
+23
+00:01:15.040 --> 00:01:19.920 region:R1 align:center
+<c.S3>Also wenn ihr die Tasche findet, dann gebt
+sie bitte bei der Polizeistelle Ost ab.</c>
+
+24
+00:01:20.120 --> 00:01:23.480 region:R1 align:center
+<c.S3>Die ist in der Schreinerstraße 144.</c>
+
+25
+00:01:23.560 --> 00:01:25.560 region:R1 align:center
+<c.S3>– Scheinerstraße 144?</c>
+
+26
+00:01:25.600 --> 00:01:32.720 region:R1 align:center
+<c.S3>– Nein, Schreinerstraße, mit „R“,
+S-C-H-R-E-I-N-E-R.</c>
+
+27
+00:01:32.760 --> 00:01:34.960 region:R1 align:center
+<c.S3>Und die Hausnummer ist die 144.</c>
+
+28
+00:01:35.080 --> 00:01:37.240 region:R1 align:center
+<c.S3>– Danke euch! Viel Glück!</c>
+
+29
+00:01:38.680 --> 00:01:39.600 region:R1 align:center
+<c.S3>– Was soll das denn?</c>
+
+30
+00:01:39.640 --> 00:01:40.520 region:R1 align:center
+<c.S3>– Entschuldigung ...</c>

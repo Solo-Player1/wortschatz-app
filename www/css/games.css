@@ -1,0 +1,139 @@
+/* ==========================================================================
+   games.css — الألعاب + الامتحان + التدريب. كل الكلاسات بادئة gm- (ومحور الألعاب gh-)
+   الألوان من tokens بتاعة app.css بس (فاتح/غامق أوتوماتيك)
+   ========================================================================== */
+
+/* ---------- محور الألعاب ---------- */
+.gh-hero { display: flex; align-items: center; gap: 14px; }
+.gh-hero .gh-big { font-size: 42px; line-height: 1; flex: none; }
+.gh-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+.gh-card { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 14px 12px; margin: 0; color: var(--ink); text-decoration: none; min-height: 132px; position: relative; transition: transform .12s; }
+.gh-card:active { transform: scale(.97); }
+.gh-card .gh-ico { font-size: 34px; line-height: 1.1; }
+.gh-card b { font-family: var(--font-head); font-size: 15.5px; line-height: 1.4; }
+.gh-card .gh-desc { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+.gh-card .gh-best { position: absolute; top: 10px; left: 10px; font-size: 11.5px; padding: 2px 8px; }
+.gh-card.new::after { content: 'جديدة'; position: absolute; top: 10px; left: 10px; font-size: 11px; font-weight: 700; color: var(--good-text); background: var(--good-tint); padding: 2px 8px; border-radius: 999px; }
+@media (max-width: 340px) { .gh-grid { grid-template-columns: 1fr; } }
+
+/* ---------- شاشة البداية ---------- */
+.gm-intro { display: grid; gap: 10px; }
+.gm-intro .card { margin: 0; }
+.gm-intro-card { text-align: center; }
+.gm-intro-ico { font-size: 56px; line-height: 1.2; margin-bottom: 4px; }
+.gm-how { text-align: right; margin: 10px 0 0; padding-inline-start: 20px; color: var(--ink-2); font-size: 14.5px; line-height: 1.8; }
+.gm-badges { justify-content: center; }
+.gm-pool .seg { margin-top: 8px; }
+.gm-pool select { margin-top: 10px; width: 100%; }
+.gm-pool-hint { margin-top: 8px; }
+
+/* ---------- اللعب ---------- */
+.gm-wrap { display: flex; flex-direction: column; min-height: calc(100dvh - var(--safe-t) - var(--safe-b) - 40px); padding-bottom: 150px; }
+.gm-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.gm-hearts { display: flex; gap: 2px; font-size: 22px; line-height: 1; }
+.gm-heart.off { opacity: .45; filter: grayscale(1); }
+.gm-hearts.shake { animation: gm-shake .4s; }
+@keyframes gm-shake { 0%,100% { transform: none; } 20% { transform: translateX(-5px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(3px); } }
+.gm-combo { font: 800 14px/1 var(--font-de); color: var(--warn-text); background: var(--warn-tint); padding: 6px 10px; border-radius: 999px; animation: gm-pulse .3s; }
+@keyframes gm-pulse { from { transform: scale(1.3); } to { transform: none; } }
+.gm-score { margin-inline-start: auto; position: relative; display: flex; align-items: baseline; gap: 4px; }
+.gm-score b { font: 800 22px/1 var(--font-de); color: var(--blue); }
+.gm-score small { color: var(--muted); font-size: 12px; }
+.gm-pop { position: absolute; top: -6px; left: 0; font: 800 15px/1 var(--font-de); color: var(--good); animation: gm-float .7s ease-out forwards; pointer-events: none; }
+@keyframes gm-float { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(-26px); } }
+.gm-bar { margin: 2px 0 12px; height: 10px; }
+.gm-bar.gm-timer > i { transition: width .1s linear; }
+.gm-bar.low > i { background: var(--bad); }
+.gm-clock { align-self: center; font: 800 18px/1 var(--font-de); color: var(--ink-2); background: var(--surface-2); padding: 8px 14px; border-radius: 999px; margin-bottom: 10px; }
+.gm-clock.low { color: var(--bad-text); background: var(--bad-tint); animation: gm-pulse .5s infinite alternate; }
+.gm-stage { flex: 1; display: flex; flex-direction: column; gap: 14px; }
+
+.gm-q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 16px; text-align: center; position: relative; }
+.gm-prompt { display: grid; gap: 8px; justify-items: center; }
+.gm-prompt .de, .gm-de-big { font-family: var(--font-de); font-size: 28px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+.gm-ar { font-family: var(--font-head); font-size: 20px; font-weight: 700; line-height: 1.6; margin: 0; }
+.gm-big-ico { font-size: 52px; line-height: 1.1; }
+.gm-speaker { width: 72px; height: 72px; border-radius: 50%; border: none; background: var(--blue); color: #fff; font-size: 32px; cursor: pointer; box-shadow: var(--shadow); margin: 0 auto 6px; display: grid; place-items: center; }
+.gm-speaker:active { transform: scale(.95); }
+.gm-speaker.sm { width: 46px; height: 46px; font-size: 20px; position: absolute; top: 10px; left: 10px; margin: 0; }
+.gm-hint-btn { margin-top: 4px; }
+
+/* كتابة */
+.gm-type { display: grid; gap: 10px; }
+.gm-input { font: 600 22px/1.3 var(--font-de); text-align: center; direction: ltr; min-height: 58px; }
+.gm-umlauts { display: flex; justify-content: center; gap: 8px; direction: ltr; }
+.gm-umlauts button { width: 52px; height: 48px; border-radius: 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); font: 700 20px var(--font-de); cursor: pointer; }
+.gm-umlauts button:active { background: var(--surface-2); }
+
+/* اختيارات */
+.gm-choices { display: grid; gap: 10px; }
+.gm-choices.cols-2 { grid-template-columns: 1fr 1fr; }
+.gm-choices.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+.gm-choices.cols-1 { grid-template-columns: 1fr; }
+.gm-choice { min-height: 60px; padding: 10px 12px; border-radius: 14px; border: 2px solid var(--line-strong); background: var(--surface); color: var(--ink); font: 600 17px/1.4 var(--font-body); cursor: pointer; overflow-wrap: anywhere; transition: transform .1s; }
+.gm-choice .de { font-family: var(--font-de); font-size: 18px; }
+.gm-choice:active { transform: scale(.97); }
+.gm-choice.right { border-color: var(--good); background: var(--good-tint); color: var(--good-text); }
+.gm-choice.wrong { border-color: var(--bad); background: var(--bad-tint); color: var(--bad-text); animation: gm-shake .35s; }
+.gm-choice:disabled { cursor: default; }
+.gm-choice.art-der { border-color: var(--der); } .gm-choice.art-die { border-color: var(--die); } .gm-choice.art-das { border-color: var(--das); }
+
+/* بلاطات الجملة */
+.gm-tiles { display: grid; gap: 12px; }
+.gm-answer { min-height: 64px; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; border-radius: 14px; border: 2px dashed var(--line-strong); background: var(--surface-2); direction: ltr; justify-content: flex-start; align-content: flex-start; }
+.gm-answer.empty::before { content: 'دوس على الكلمات بالترتيب'; color: var(--muted); font-size: 14px; direction: rtl; width: 100%; text-align: center; align-self: center; }
+.gm-bank { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; direction: ltr; min-height: 52px; }
+.gm-tile { min-height: 48px; padding: 8px 14px; border-radius: 12px; border: 1px solid var(--line-strong); border-bottom-width: 3px; background: var(--surface); color: var(--ink); font: 600 18px var(--font-de); cursor: pointer; }
+.gm-tile:active { transform: translateY(2px); border-bottom-width: 1px; }
+.gm-tile:disabled { opacity: .8; cursor: default; }
+
+/* فيدباك */
+.gm-fb { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; max-width: 560px; margin: 0 auto; padding: 14px 16px calc(14px + var(--safe-b)); border-top: 3px solid transparent; border-radius: 18px 18px 0 0;
+         transform: translateY(110%); visibility: hidden; transition: transform .2s ease-in, visibility 0s .2s; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; box-shadow: 0 -6px 20px rgba(0,0,0,.12); }
+.gm-fb.show { transform: none; visibility: visible; transition: transform .22s cubic-bezier(.2,.8,.2,1), visibility 0s; }
+.gm-fb.ok { background: var(--good-tint); border-top-color: var(--good); color: var(--good-text); }
+.gm-fb.bad { background: var(--bad-tint); border-top-color: var(--bad); color: var(--bad-text); }
+.gm-fb-body { flex: 1; min-width: 60%; font-size: 17px; line-height: 1.6; }
+.gm-fb-body b { font-family: var(--font-head); font-size: 18px; }
+.gm-fb-ans { margin-top: 2px; font-size: 16px; color: var(--ink); }
+.gm-fb-ans .de { font-family: var(--font-de); font-weight: 700; font-size: 19px; overflow-wrap: anywhere; }
+.gm-fb-next { flex-basis: 100%; }
+.gm-fb .ss-say { background: var(--surface); color: inherit; }
+
+/* ---------- النتيجة ---------- */
+.gm-results { display: grid; gap: 10px; }
+.gm-results .card { margin: 0; }
+.gm-res-card { text-align: center; }
+.gm-res-card.win { border-color: var(--good); }
+.gm-res-ico { font-size: 54px; line-height: 1.2; }
+.gm-stars { font-size: 34px; letter-spacing: 4px; margin: 6px 0; }
+.gm-res-score b { display: block; font: 800 48px/1.1 var(--font-de); color: var(--blue); }
+.gm-res-score span { color: var(--muted); }
+.gm-record { font-weight: 800; color: var(--warn-text); margin: 6px 0 0; }
+.gm-res-chips { justify-content: center; }
+.gm-res-actions { display: grid; gap: 10px; }
+.gm-mis .de { font-family: var(--font-de); font-weight: 700; overflow-wrap: anywhere; }
+.gm-mis .grow { min-width: 0; }          /* كلمة طويلة (أرقام الآلاف) ما توسّعش العمود برّه الشاشة */
+
+/* ---------- الامتحان (الوحش) ---------- */
+.gm-boss { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.gm-boss-ico { font-size: 40px; line-height: 1; flex: none; }
+.gm-boss-ico.hit { animation: gm-shake .35s; }
+.gm-boss .bar { flex: 1; height: 14px; }
+.gm-boss .bar > i { background: var(--bad); }
+.gm-boss small { font: 700 13px var(--font-de); color: var(--muted); min-width: 52px; text-align: center; }
+
+/* ألعاب ليها مساحة لعب خاصة */
+.gm-arena { position: relative; flex: 1; min-height: 360px; border-radius: var(--radius); background: var(--surface-2); overflow: hidden; border: 1px solid var(--line); }
+.gm-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.gm-cards.cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+/* إصلاحات صغيرة: الكومبو ما يتكسرش، والتوست بعرض الكلام */
+.gm-combo { white-space: nowrap; }
+.toast { width: max-content; max-width: calc(100vw - 32px); text-align: center; }
+.gm-speaker.sm { width: 48px; height: 48px; }
+.gm-tile { min-width: 48px; }
+.gm-links { display: grid; gap: 6px; margin-top: 8px; }
+.gm-hearts.many { font-size: 18px; gap: 0; }
+.gm-top { min-width: 0; }
+.gm-tile.done { border-color: var(--good); color: var(--good-text); background: var(--good-tint); cursor: default; }

@@ -1,0 +1,273 @@
+{
+ "__typename": "Course",
+ "id": 36519911,
+ "name": "Nicos Weg",
+ "title": "Nicos Weg",
+ "dkLearningLevel": 2,
+ "namedUrl": "/ar/nicos-weg/c-36519911",
+ "navigations": [
+  {
+   "__ref": "Navigation:9229"
+  }
+ ],
+ "mainContentImageLink": {
+  "__typename": "ContentLink",
+  "additionalInformation": "DEUTSCHKURSE | Nicos Weg A1 | Header",
+  "target": {
+   "__ref": "Image:62607222"
+  }
+ },
+ "contentLinks({\"targetTypes\":\"LESSON\"})": [
+  {
+   "__ref": "ContentLink:37942133"
+  },
+  {
+   "__ref": "ContentLink:37947220"
+  },
+  {
+   "__ref": "ContentLink:37945997"
+  },
+  {
+   "__ref": "ContentLink:37946833"
+  },
+  {
+   "__ref": "ContentLink:37946090"
+  },
+  {
+   "__ref": "ContentLink:37947005"
+  },
+  {
+   "__ref": "ContentLink:37947707"
+  },
+  {
+   "__ref": "ContentLink:37947170"
+  },
+  {
+   "__ref": "ContentLink:37948646"
+  },
+  {
+   "__ref": "ContentLink:37950995"
+  },
+  {
+   "__ref": "ContentLink:37952299"
+  },
+  {
+   "__ref": "ContentLink:37957955"
+  },
+  {
+   "__ref": "ContentLink:37957378"
+  },
+  {
+   "__ref": "ContentLink:37957818"
+  },
+  {
+   "__ref": "ContentLink:37957932"
+  },
+  {
+   "__ref": "ContentLink:37958974"
+  },
+  {
+   "__ref": "ContentLink:37959086"
+  },
+  {
+   "__ref": "ContentLink:37959006"
+  },
+  {
+   "__ref": "ContentLink:37960900"
+  },
+  {
+   "__ref": "ContentLink:37961944"
+  },
+  {
+   "__ref": "ContentLink:37961895"
+  },
+  {
+   "__ref": "ContentLink:37964109"
+  },
+  {
+   "__ref": "ContentLink:37964862"
+  },
+  {
+   "__ref": "ContentLink:37967668"
+  },
+  {
+   "__ref": "ContentLink:37968474"
+  },
+  {
+   "__ref": "ContentLink:37971392"
+  },
+  {
+   "__ref": "ContentLink:37971708"
+  },
+  {
+   "__ref": "ContentLink:37971824"
+  },
+  {
+   "__ref": "ContentLink:37975379"
+  },
+  {
+   "__ref": "ContentLink:37974698"
+  },
+  {
+   "__ref": "ContentLink:37975143"
+  },
+  {
+   "__ref": "ContentLink:37975420"
+  },
+  {
+   "__ref": "ContentLink:37975974"
+  },
+  {
+   "__ref": "ContentLink:37983609"
+  },
+  {
+   "__ref": "ContentLink:37980403"
+  },
+  {
+   "__ref": "ContentLink:37983977"
+  },
+  {
+   "__ref": "ContentLink:37981147"
+  },
+  {
+   "__ref": "ContentLink:37983847"
+  },
+  {
+   "__ref": "ContentLink:37984537"
+  },
+  {
+   "__ref": "ContentLink:37986898"
+  },
+  {
+   "__ref": "ContentLink:37987444"
+  },
+  {
+   "__ref": "ContentLink:37995280"
+  },
+  {
+   "__ref": "ContentLink:37987781"
+  },
+  {
+   "__ref": "ContentLink:37989645"
+  },
+  {
+   "__ref": "ContentLink:37994159"
+  },
+  {
+   "__ref": "ContentLink:37994833"
+  },
+  {
+   "__ref": "ContentLink:37996534"
+  },
+  {
+   "__ref": "ContentLink:37997001"
+  },
+  {
+   "__ref": "ContentLink:37998277"
+  },
+  {
+   "__ref": "ContentLink:37998278"
+  },
+  {
+   "__ref": "ContentLink:38000235"
+  },
+  {
+   "__ref": "ContentLink:38018077"
+  },
+  {
+   "__ref": "ContentLink:38019233"
+  },
+  {
+   "__ref": "ContentLink:38019140"
+  },
+  {
+   "__ref": "ContentLink:38019244"
+  },
+  {
+   "__ref": "ContentLink:38019831"
+  },
+  {
+   "__ref": "ContentLink:38021748"
+  },
+  {
+   "__ref": "ContentLink:38023943"
+  },
+  {
+   "__ref": "ContentLink:38023823"
+  },
+  {
+   "__ref": "ContentLink:38025771"
+  },
+  {
+   "__ref": "ContentLink:38026760"
+  },
+  {
+   "__ref": "ContentLink:38026749"
+  },
+  {
+   "__ref": "ContentLink:38027364"
+  },
+  {
+   "__ref": "ContentLink:38027341"
+  },
+  {
+   "__ref": "ContentLink:38027501"
+  },
+  {
+   "__ref": "ContentLink:38027511"
+  },
+  {
+   "__ref": "ContentLink:38029360"
+  },
+  {
+   "__ref": "ContentLink:38030001"
+  },
+  {
+   "__ref": "ContentLink:38162888"
+  },
+  {
+   "__ref": "ContentLink:38166491"
+  },
+  {
+   "__ref": "ContentLink:38164632"
+  },
+  {
+   "__ref": "ContentLink:38167554"
+  },
+  {
+   "__ref": "ContentLink:38030965"
+  },
+  {
+   "__ref": "ContentLink:38039811"
+  },
+  {
+   "__ref": "ContentLink:38038588"
+  },
+  {
+   "__ref": "ContentLink:38038661"
+  },
+  {
+   "__ref": "ContentLink:43879925"
+  }
+ ],
+ "mainContentImage": {
+  "__ref": "Image:62607222"
+ },
+ "description": "تعلّم الألمانية حالًا مجانًا  أونلاين عن طريق دورة DW للمبتدئين \"Nicos Weg\"  المخصص للمستوى A1 مع دروس قواعد وافية.",
+ "teaser": "طريق نيقو A1",
+ "lastPublicationDate": "2022-03-11T11:42:05.386Z",
+ "firstPublicationDate": "2018-01-18T11:03:48.169Z",
+ "canonicalUrl": "https://learngerman.dw.com/ar/nicos-weg/c-36519911",
+ "language": "ARABIC",
+ "trackingLanguageCode": 8,
+ "trackingFirstPublicationDate": 20180118,
+ "subjects": [],
+ "categories": [
+  {
+   "__typename": "Category",
+   "originId": "19990003"
+  }
+ ],
+ "departments": [],
+ "unifiedPrograms": []
+}

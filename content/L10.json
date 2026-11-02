@@ -1,0 +1,284 @@
+{
+  "n": 10,
+  "sentences": [
+    {
+      "id": "s10-001",
+      "de": "Wie alt ist Lotte jetzt?",
+      "ar": "لوته عندها كام سنة دلوقتي؟",
+      "kind": "question",
+      "focus": ["age", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "alt", "opts": ["alt", "viele", "Jahre"] },
+      "src": "episode"
+    },
+    {
+      "id": "s10-002",
+      "de": "Sie ist acht.",
+      "ar": "عندها 8 سنين.",
+      "kind": "answer",
+      "focus": ["age", "number"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "bist", "bin"] },
+      "src": "episode"
+    },
+    {
+      "id": "s10-003",
+      "de": "Emma ist auch acht Jahre alt.",
+      "ar": "إيما كمان عندها 8 سنين.",
+      "kind": "statement",
+      "focus": ["age", "number"],
+      "alts": ["Auch Emma ist acht Jahre alt.", "Acht Jahre ist Emma auch alt.", "Acht Jahre ist auch Emma alt."],
+      "cloze": { "word": "Jahre", "opts": ["Jahre", "Jahr", "Zahlen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s10-004",
+      "de": "Ich habe meine Tasche verloren.",
+      "ar": "أنا ضيّعت شنطتي.",
+      "kind": "statement",
+      "focus": ["verb:verlieren"],
+      "alts": ["Meine Tasche habe ich verloren."],
+      "cloze": { "word": "habe", "opts": ["habe", "hast", "hat"] },
+      "src": "episode"
+    },
+    {
+      "id": "s10-005",
+      "de": "Die Telefonnummer ist 08007773344.",
+      "ar": "رقم التليفون 08007773344.",
+      "kind": "statement",
+      "focus": ["phone", "number"],
+      "alts": [],
+      "cloze": { "word": "Die", "opts": ["Die", "Der", "Das"] },
+      "src": "episode"
+    },
+    {
+      "id": "s10-006",
+      "de": "Dreimal die Sieben, zweimal die Drei.",
+      "ar": "تلات مرات سبعة، مرتين تلاتة.",
+      "kind": "statement",
+      "focus": ["phone", "number"],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s10-007",
+      "de": "Wie ist deine Telefonnummer?",
+      "ar": "رقم تليفونك كام؟",
+      "kind": "question",
+      "focus": ["phone", "informal", "possessive"],
+      "alts": [],
+      "cloze": { "word": "deine", "opts": ["deine", "dein", "Ihr"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-008",
+      "de": "Meine Telefonnummer ist 257764.",
+      "ar": "رقم تليفوني 257764.",
+      "kind": "answer",
+      "focus": ["phone", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Meine", "opts": ["Meine", "Mein", "Meinen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-009",
+      "de": "Wie ist Ihre Telefonnummer?",
+      "ar": "رقم تليفون حضرتك كام؟ (رسمي)",
+      "kind": "question",
+      "focus": ["phone", "formal", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Ihre", "opts": ["Ihre", "Ihr", "Sie"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-010",
+      "de": "Die Polizei hat die Nummer eins, eins, null.",
+      "ar": "الشرطة رقمها واحد، واحد، صفر.",
+      "kind": "statement",
+      "focus": ["phone", "number"],
+      "alts": [],
+      "cloze": { "word": "hat", "opts": ["hat", "hast", "habe"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-011",
+      "de": "Die Nummer 112 ist sehr wichtig.",
+      "ar": "رقم 112 مهم جدًا.",
+      "kind": "statement",
+      "focus": ["phone", "number"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "sind", "hat"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-012",
+      "de": "Wie alt bist du?",
+      "ar": "عندك كام سنة؟",
+      "kind": "question",
+      "focus": ["age", "informal"],
+      "alts": [],
+      "cloze": { "word": "bist", "opts": ["bist", "bin", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-013",
+      "de": "Ich bin 23 Jahre alt.",
+      "ar": "عمري 23 سنة.",
+      "kind": "answer",
+      "focus": ["age", "number"],
+      "alts": ["23 Jahre bin ich alt."],
+      "cloze": { "word": "bin", "opts": ["bin", "bist", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-014",
+      "de": "Wie alt sind Sie?",
+      "ar": "حضرتك عندك كام سنة؟ (رسمي)",
+      "kind": "question",
+      "focus": ["age", "formal"],
+      "alts": [],
+      "cloze": { "word": "sind", "opts": ["sind", "bist", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-015",
+      "de": "Nico hört Radio.",
+      "ar": "نيكو بيسمع راديو.",
+      "kind": "statement",
+      "focus": ["verb:hören"],
+      "alts": [],
+      "cloze": { "word": "hört", "opts": ["hört", "höre", "hörst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-016",
+      "de": "Ich frage im Fundbüro.",
+      "ar": "هسأل في مكتب المفقودات.",
+      "kind": "statement",
+      "focus": ["verb:fragen"],
+      "alts": [],
+      "cloze": { "word": "frage", "opts": ["frage", "fragst", "fragt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-017",
+      "de": "Er antwortet nicht.",
+      "ar": "هو مش بيرد.",
+      "kind": "statement",
+      "focus": ["verb:antworten", "negation"],
+      "alts": [],
+      "cloze": { "word": "antwortet", "opts": ["antwortet", "antwortt", "antwortest"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-018",
+      "de": "Ich spreche mit der Polizei.",
+      "ar": "أنا بتكلم مع الشرطة.",
+      "kind": "statement",
+      "focus": ["verb:sprechen"],
+      "alts": [],
+      "cloze": { "word": "spreche", "opts": ["spreche", "sprichst", "spricht"] },
+      "src": "authored"
+    },
+    {
+      "id": "s10-019",
+      "de": "Hast du ein Handy?",
+      "ar": "معاك موبايل؟",
+      "kind": "question",
+      "focus": ["phone", "verb:haben"],
+      "alts": [],
+      "cloze": { "word": "ein", "opts": ["ein", "eine", "einen"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w10-01",
+      "q": "___ ist deine Telefonnummer?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Woher", "Wie viele"],
+      "ar": "رقم تليفونك كام؟",
+      "reply": "Meine Telefonnummer ist 257764.",
+      "reply_ar": "رقم تليفوني 257764."
+    },
+    {
+      "id": "w10-02",
+      "q": "___ alt sind Sie?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wo", "Was", "Wer"],
+      "ar": "حضرتك عندك كام سنة؟ (رسمي)",
+      "reply": "Ich bin 23 Jahre alt.",
+      "reply_ar": "عمري 23 سنة."
+    },
+    {
+      "id": "w10-03",
+      "q": "___ hört Radio?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wie", "Wo", "Woher"],
+      "ar": "مين بيسمع راديو؟",
+      "reply": "Nico hört Radio.",
+      "reply_ar": "نيكو بيسمع راديو."
+    },
+    {
+      "id": "w10-04",
+      "q": "___ hast du verloren?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Woher", "Wie alt"],
+      "ar": "ضيّعت إيه؟",
+      "reply": "Meine Tasche.",
+      "reply_ar": "شنطتي."
+    },
+    {
+      "id": "w10-05",
+      "q": "___ Telefonnummern hast du?",
+      "answer": "Wie viele",
+      "opts": ["Wie viele", "Wie alt", "Wo", "Woher"],
+      "ar": "عندك كام رقم تليفون؟",
+      "reply": "Ich habe zwei Telefonnummern.",
+      "reply_ar": "عندي رقمين تليفون."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-1",
+      "h": "رقم التليفون بيتقال رقم رقم",
+      "body": "رقم التليفون بيتقال رقم رقم: 257764 = zwei, fünf, sieben, sieben, sechs, vier. وممكن كل رقمين مع بعض: fünfundzwanzig, siebenundsiebzig, vierundsechzig. والصفر null. ولو رقم متكرر بنقول zweimal / dreimal: 777 = dreimal die Sieben.",
+      "examples": [
+        { "de": "Meine Telefonnummer ist 257764.", "ar": "رقم تليفوني 257764." },
+        { "de": "Die Polizei hat die Nummer eins, eins, null.", "ar": "الشرطة رقمها واحد، واحد، صفر." },
+        { "de": "Dreimal die Sieben, zweimal die Drei.", "ar": "تلات مرات سبعة، مرتين تلاتة." }
+      ]
+    },
+    {
+      "id": "g10-2",
+      "h": "dein ولا Ihr؟",
+      "body": "مع صاحبك بتقول dein / deine، ومع حد غريب أو موظف بتقول Ihr / Ihre (بحرف كبير دايمًا). وبما إن die Telefonnummer و die Handynummer مؤنث، بنقول deine / Ihre: Wie ist Ihre Handynummer?",
+      "examples": [
+        { "de": "Wie ist deine Telefonnummer?", "ar": "رقم تليفونك كام؟" },
+        { "de": "Wie ist Ihre Handynummer?", "ar": "رقم موبايل حضرتك كام؟ (رسمي)" }
+      ],
+      "table": [["غير رسمي (du)", "رسمي (Sie)", "المعنى"], ["Wie ist deine Telefonnummer?", "Wie ist Ihre Telefonnummer?", "رقم تليفونك كام؟"], ["Wie alt bist du?", "Wie alt sind Sie?", "عندك كام سنة؟"]]
+    },
+    {
+      "id": "g10-3",
+      "h": "السن بـ sein مش haben",
+      "body": "في العربي بنقول «عندي 23 سنة»، لكن في الألماني السن بفعل sein: Ich bin 23 Jahre alt. ما تقولش Ich habe 23 Jahre. وممكن تختصر وتقول: Ich bin 23.",
+      "examples": [
+        { "de": "Wie alt bist du?", "ar": "عندك كام سنة؟" },
+        { "de": "Ich bin 23 Jahre alt.", "ar": "عمري 23 سنة." },
+        { "de": "Wie alt sind Sie?", "ar": "حضرتك عندك كام سنة؟ (رسمي)" }
+      ]
+    },
+    {
+      "id": "g10-4",
+      "h": "أفعال الدرس: antworten و verlieren",
+      "body": "antworten جذره آخره t، فبنزوّد e قبل النهاية مع du و er/sie/es و ihr عشان النطق: du antwortest، er antwortet. أما fragen و hören فماشيين على القاعدة العادية. و verlieren هتحتاجه في مكتب المفقودات في جملة جاهزة: Ich habe meine Tasche verloren. = ضيّعت شنطتي (احفظها زي ما هي).",
+      "examples": [
+        { "de": "Er antwortet nicht.", "ar": "هو مش بيرد." },
+        { "de": "Ich habe meine Tasche verloren.", "ar": "أنا ضيّعت شنطتي." },
+        { "de": "Ich frage im Fundbüro.", "ar": "هسأل في مكتب المفقودات." }
+      ],
+      "table": [["الضمير", "antworten", "fragen", "hören"], ["ich", "antworte", "frage", "höre"], ["du", "antwortest", "fragst", "hörst"], ["er / sie / es", "antwortet", "fragt", "hört"], ["wir", "antworten", "fragen", "hören"], ["ihr", "antwortet", "fragt", "hört"], ["sie / Sie", "antworten", "fragen", "hören"]]
+    }
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "n": 4,
+  "sentences": [
+    {
+      "id": "s04-001",
+      "de": "Mein Name ist Emma!",
+      "ar": "اسمي إيما!",
+      "kind": "statement",
+      "focus": [
+        "introduce",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-002",
+      "de": "Und das ist meine Tante.",
+      "ar": "ودي خالتي.",
+      "kind": "statement",
+      "focus": [
+        "introduce",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-003",
+      "de": "Nein, Lisa ist nicht meine Mama.",
+      "ar": "لأ، ليزا مش مامتي.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "nein",
+          "kein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-004",
+      "de": "Sie ist meine Tante.",
+      "ar": "هي خالتي.",
+      "kind": "statement",
+      "focus": [
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-005",
+      "de": "Hast du die Adresse?",
+      "ar": "معاك العنوان؟",
+      "kind": "question",
+      "focus": [
+        "address",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Hat",
+          "Habe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-006",
+      "de": "Mein Name ist Nico.",
+      "ar": "اسمي نيكو.",
+      "kind": "answer",
+      "focus": [
+        "introduce"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s04-007",
+      "de": "Ist das deine Tante?",
+      "ar": "دي خالتك؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "dein",
+          "du"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-008",
+      "de": "Straße und Hausnummer?",
+      "ar": "الشارع ونمرة البيت؟",
+      "kind": "question",
+      "focus": [
+        "address"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s04-009",
+      "de": "Wie ist Ihr Name bitte?",
+      "ar": "اسم حضرتك إيه لو سمحت؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihr",
+        "opts": [
+          "Ihr",
+          "Ihre",
+          "Ihren"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-010",
+      "de": "Wie schreibt man das?",
+      "ar": "دي بتتكتب إزاي؟",
+      "kind": "question",
+      "focus": [
+        "spelling"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schreibt",
+        "opts": [
+          "schreibt",
+          "heißt",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-011",
+      "de": "Bitte buchstabieren Sie das.",
+      "ar": "لو سمحت اتهجّاها (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "spelling",
+        "formal"
+      ],
+      "alts": [
+        "Buchstabieren Sie bitte das."
+      ],
+      "cloze": {
+        "word": "buchstabieren",
+        "opts": [
+          "buchstabieren",
+          "buchstabiere",
+          "buchstabierst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-012",
+      "de": "Bitte buchstabiere das.",
+      "ar": "لو سمحت اتهجّاها (لصاحبك).",
+      "kind": "statement",
+      "focus": [
+        "spelling",
+        "informal"
+      ],
+      "alts": [
+        "Buchstabiere bitte das."
+      ],
+      "cloze": {
+        "word": "buchstabiere",
+        "opts": [
+          "buchstabiere",
+          "buchstabieren",
+          "buchstabierst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-013",
+      "de": "Mit Ü oder mit U?",
+      "ar": "بـ Ü ولا بـ U؟",
+      "kind": "question",
+      "focus": [
+        "spelling"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s04-014",
+      "de": "Straße schreibt man mit ß.",
+      "ar": "كلمة Straße بتتكتب بـ ß.",
+      "kind": "statement",
+      "focus": [
+        "spelling"
+      ],
+      "alts": [
+        "Man schreibt Straße mit ß."
+      ],
+      "cloze": {
+        "word": "schreibt",
+        "opts": [
+          "schreibt",
+          "schreibe",
+          "schreiben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-015",
+      "de": "Noch einmal bitte.",
+      "ar": "مرة كمان لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "polite"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s04-016",
+      "de": "Langsam bitte, Frau Schneider.",
+      "ar": "بالراحة لو سمحتي يا مدام شنايدر.",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "formal"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s04-017",
+      "de": "Mein Name hat vier Buchstaben.",
+      "ar": "اسمي أربع حروف.",
+      "kind": "statement",
+      "focus": [
+        "spelling",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "habe",
+          "hast"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-018",
+      "de": "Ich suche meine Tante.",
+      "ar": "أنا بدوّر على خالتي.",
+      "kind": "statement",
+      "focus": [
+        "verb:suchen",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "suche",
+        "opts": [
+          "suche",
+          "sucht",
+          "suchst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-019",
+      "de": "Ist das deine Mama?",
+      "ar": "دي مامتك؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ist",
+        "opts": [
+          "Ist",
+          "Bist",
+          "Bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s04-020",
+      "de": "Ich fliege zu meiner Tante.",
+      "ar": "أنا مسافر لخالتي بالطيارة.",
+      "kind": "statement",
+      "focus": [
+        "verb:fliegen",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fliege",
+        "opts": [
+          "fliege",
+          "fliegt",
+          "fliegen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-021",
+      "de": "Nein, ich heiße nicht Lisa.",
+      "ar": "لأ، أنا اسمي مش ليزا.",
+      "kind": "answer",
+      "focus": [
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nein",
+        "opts": [
+          "Nein",
+          "Nicht",
+          "Kein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s04-022",
+      "de": "Die Straße heißt Adalbert-Stifter-Straße.",
+      "ar": "اسم الشارع أدالبرت-شتيفتر-شتراسه.",
+      "kind": "statement",
+      "focus": [
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w04-01",
+      "q": "___ ist dein Name?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wann",
+        "Wohin"
+      ],
+      "ar": "اسمك إيه؟",
+      "reply": "Mein Name ist Emma.",
+      "reply_ar": "اسمي إيما."
+    },
+    {
+      "id": "w04-02",
+      "q": "___ ist Ihr Name?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wann",
+        "Wohin"
+      ],
+      "ar": "اسم حضرتك إيه؟",
+      "reply": "Mein Name ist Müller.",
+      "reply_ar": "اسمي مولر."
+    },
+    {
+      "id": "w04-03",
+      "q": "___ schreibt man das?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "دي بتتكتب إزاي؟",
+      "reply": "Straße schreibt man mit ß.",
+      "reply_ar": "كلمة Straße بتتكتب بـ ß."
+    },
+    {
+      "id": "w04-04",
+      "q": "___ heißt deine Tante?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "خالتك اسمها إيه؟",
+      "reply": "Meine Tante heißt Yara.",
+      "reply_ar": "خالتي اسمها يارا."
+    },
+    {
+      "id": "w04-05",
+      "q": "___ ist die Adresse?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "العنوان إيه؟",
+      "reply": "Adalbert-Stifter-Straße 9.",
+      "reply_ar": "شارع أدالبرت-شتيفتر رقم 9."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g04-1",
+      "h": "الحروف الزيادة: ä ö ü ß",
+      "body": "الألماني فيه 26 حرف زي الإنجليزي، وزيادة عليهم ä و ö و ü (اسمهم Umlaut) و ß (اسمه Eszett وبيتنطق زي ss). وإنت بتتهجّى بتقول: Ä أو A-Umlaut، Ö أو O-Umlaut، Ü أو U-Umlaut، Eszett. و ü غير u خالص: Müller مش Muller، عشان كده الألمان بيسألوا: Mit Ü oder mit U?",
+      "examples": [
+        {
+          "de": "Straße schreibt man mit ß.",
+          "ar": "كلمة Straße بتتكتب بـ ß."
+        },
+        {
+          "de": "Mit Ü oder mit U?",
+          "ar": "بـ Ü ولا بـ U؟"
+        }
+      ],
+      "table": [
+        [
+          "الحرف",
+          "في التهجئة",
+          "مثال"
+        ],
+        [
+          "ä",
+          "Ä / A-Umlaut",
+          "Männer"
+        ],
+        [
+          "ö",
+          "Ö / O-Umlaut",
+          "schön"
+        ],
+        [
+          "ü",
+          "Ü / U-Umlaut",
+          "Müller"
+        ],
+        [
+          "ß",
+          "Eszett",
+          "Straße"
+        ]
+      ]
+    },
+    {
+      "id": "g04-2",
+      "h": "مش فاهم؟ اسأل واطلب التهجئة",
+      "body": "مسمعتش اسم أو كلمة كويس؟ اسأل: Wie schreibt man das? واطلب التهجئة: Bitte buchstabieren Sie das. للرسمي، و Bitte buchstabiere das. لصاحبك. ولو الكلام سريع قول: Langsam bitte. ولو عايزه يعيد: Noch einmal bitte.",
+      "examples": [
+        {
+          "de": "Wie schreibt man das?",
+          "ar": "دي بتتكتب إزاي؟"
+        },
+        {
+          "de": "Bitte buchstabieren Sie das.",
+          "ar": "لو سمحت اتهجّاها (رسمي)."
+        },
+        {
+          "de": "Noch einmal bitte.",
+          "ar": "مرة كمان لو سمحت."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "غير رسمي (du)",
+          "رسمي (Sie)"
+        ],
+        [
+          "اتهجّاها",
+          "Bitte buchstabiere das.",
+          "Bitte buchstabieren Sie das."
+        ],
+        [
+          "اسمك إيه؟",
+          "Wie ist dein Name?",
+          "Wie ist Ihr Name?"
+        ]
+      ]
+    },
+    {
+      "id": "g04-3",
+      "h": "mein و dein و Ihr",
+      "body": "mein = بتاعي، dein = بتاعك، Ihr = بتاع حضرتك (بحرف I كبير دايمًا). مع اسم مذكر زي der Name بنقول mein Name. مع اسم مؤنث زي die Tante و die Mama و die Adresse بنزوّد e: meine Tante، deine Mama، Ihre Adresse.",
+      "examples": [
+        {
+          "de": "Mein Name ist Emma!",
+          "ar": "اسمي إيما!"
+        },
+        {
+          "de": "Und das ist meine Tante.",
+          "ar": "ودي خالتي."
+        },
+        {
+          "de": "Wie ist Ihr Name bitte?",
+          "ar": "اسم حضرتك إيه لو سمحت؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "der Name (مذكر)",
+          "die Tante (مؤنث)"
+        ],
+        [
+          "بتاعي",
+          "mein Name",
+          "meine Tante"
+        ],
+        [
+          "بتاعك",
+          "dein Name",
+          "deine Tante"
+        ],
+        [
+          "بتاع حضرتك",
+          "Ihr Name",
+          "Ihre Tante"
+        ]
+      ]
+    },
+    {
+      "id": "g04-4",
+      "h": "nein ولا nicht؟",
+      "body": "nein = لأ: رد لوحده على سؤال، وبييجي في أول الجملة وبعده فاصلة. nicht = مش: بتنفي حاجة جوه الجملة. وممكن الاتنين ييجوا في جملة واحدة.",
+      "examples": [
+        {
+          "de": "Nein, Lisa ist nicht meine Mama.",
+          "ar": "لأ، ليزا مش مامتي."
+        },
+        {
+          "de": "Nein, ich heiße nicht Lisa.",
+          "ar": "لأ، أنا اسمي مش ليزا."
+        }
+      ]
+    }
+  ]
+}

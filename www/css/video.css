@@ -1,0 +1,98 @@
+/* ==========================================================================
+   video.css — شاشة الفيديو (#/video/:n) + كروت التيزر + قسم «الفيديوهات» في الإعدادات
+   كل الكلاسات بادئة vd- ، الألوان من tokens بتاعة app.css (فاتح/غامق أوتوماتيك)
+   ========================================================================== */
+.vd-wrap { display: flex; flex-direction: column; gap: 12px; }
+
+/* ---------- الصف العلوي: رجوع + العنوان + حالة ---------- */
+.vd-top { display: flex; align-items: center; gap: 10px; min-height: 48px; }
+.vd-title { font-size: 18px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vd-title .n { font-size: 18px; color: inherit; }
+.vd-back { background: var(--surface-2); border-color: transparent; color: var(--ink-2); font-size: 24px; line-height: 1; text-decoration: none; }
+.vd-back:active { background: var(--line); }
+.vd-status { flex: none; max-width: 48%; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- المشغّل 16:9 بعرض الشاشة ---------- */
+.vd-player { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.vd-player.is-empty { background: var(--surface); border: 1px solid var(--line); }
+.vd-video { display: block; width: 100%; height: 100%; background: #000; object-fit: contain; }
+@media (max-width: 600px) { .vd-player { margin-inline: -16px; border-radius: 0; box-shadow: none; } }
+
+/* الترجمة الألمانية (WebVTT) — مقروءة على التليفون وفي الوضعين */
+video::cue { background: rgba(0,0,0,.7); color: #fff; font: 600 1rem/1.3 var(--font-de, 'Inter', sans-serif); }
+@media (min-width: 600px) { video::cue { font-size: 1.15rem; } }
+
+/* خطأ تشغيل: طبقة فوق الفيديو مع «جرّب تاني» */
+.vd-err { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+          padding: 16px; background: rgba(0,0,0,.72); color: #fff; text-align: center; font-weight: 600; }
+.vd-err .btn { min-width: 160px; }
+
+/* مفيش نت ومش محفوظ */
+.vd-offline { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px; text-align: center; color: var(--ink-2); font-weight: 600; }
+.vd-offline .big { font-size: 40px; line-height: 1.2; }
+.vd-offline .hint { font-weight: 400; }
+
+/* ---------- معلومات الحلقة ---------- */
+.vd-info h2 { font-size: 20px; }
+.vd-info h2 .de { font-size: 22px; font-weight: 700; overflow-wrap: anywhere; }
+.vd-info .hint { margin-top: 2px; }
+.vd-info .hint .de { font-size: 14px; }
+.vd-sub-row { margin-top: 10px; padding-bottom: 0; border-top: 1px solid var(--line); }
+.vd-sub-row b { display: block; }
+.vd-sub-row .hint { font-size: 13px; line-height: 1.5; }
+.vd-sub-row .switch { flex: none; }
+
+/* ---------- كارت الحفظ / التنزيل ---------- */
+.vd-store { display: grid; gap: 12px; }
+.vd-store-row { align-items: center; }
+.vd-store-row b { display: block; font-weight: 700; }
+.vd-store-ico { flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--blue-tint); display: grid; place-items: center; font-size: 22px; line-height: 1; }
+.vd-store .btn-big { margin: 0; font-size: 15.5px; line-height: 1.35; padding-inline: 14px; }
+.vd-label { display: inline; text-align: center; }     /* نص الزرار كله عنصر flex واحد عشان يلتف طبيعي */
+.vd-nowrap { white-space: nowrap; }
+.vd-store .hint.center { margin-top: -6px; }
+.vd-bar { height: 10px; }
+.vd-progress { display: grid; gap: 8px; }
+.vd-progress .btn { justify-self: center; min-width: 140px; }
+
+/* ---------- الأزرار ---------- */
+.vd-actions { display: grid; gap: 10px; margin-bottom: 8px; }
+.vd-actions .grid2 .btn { min-height: 52px; }
+.vd-eps .btn { min-height: 44px; font-size: 14px; }
+.vd-empty .empty { padding-bottom: 14px; }
+.vd-empty .empty h2 { margin-top: 4px; color: var(--ink); }
+
+/* ---------- تيزر الفيديو (كارت الدرس) ---------- */
+.vd-teaser { display: block; padding: 0; overflow: hidden; color: var(--ink); text-decoration: none; transition: transform .12s; }
+.vd-teaser:active { transform: scale(.985); }
+.vd-poster { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--navy); }
+.vd-poster img, .vd-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.vd-play { position: absolute; inset: 0; margin: auto; width: 60px; height: 60px; border-radius: 50%; background: rgba(20,49,94,.85); color: #fff;
+           display: grid; place-items: center; font-size: 24px; line-height: 1; padding-inline-start: 4px; direction: ltr; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+.vd-play.sm { width: 32px; height: 32px; font-size: 13px; padding-inline-start: 2px; }
+.vd-dur { position: absolute; bottom: 8px; left: 8px; padding: 1px 8px; border-radius: 999px; background: rgba(0,0,0,.7); color: #fff !important; font-size: 12px; }
+.vd-teaser-row { display: flex; align-items: center; gap: 10px; padding: 12px 14px; }
+.vd-teaser b { display: block; font-weight: 700; font-size: 16px; }
+.vd-teaser-sub { display: block; color: var(--ink-2); font-size: 13.5px; line-height: 1.5; }
+.vd-teaser-sub .de { font-size: 14px; }
+.vd-chev { flex: none; color: var(--muted); font-size: 28px; line-height: 1; direction: ltr; unicode-bidi: isolate; }   /* من غير mirroring: يفضل شاور لليسار */
+
+/* نسخة صغيرة (الرئيسية) */
+.vd-teaser.compact { display: flex; align-items: center; gap: 12px; padding: 10px 12px; min-height: 72px; }
+.vd-thumb { position: relative; flex: none; width: 96px; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: var(--navy); }
+
+/* ---------- قسم الإعدادات ---------- */
+.vd-set { display: grid; gap: 10px; }
+.vd-sum { padding: 6px 0; font-weight: 600; }
+.vd-sum b { font-weight: 700; white-space: nowrap; }
+.vd-sum .n { font-size: 14px; color: var(--ink); }
+.vd-set .btn-big { font-size: 15.5px; line-height: 1.35; padding-inline: 14px; }
+
+/* ---------- شاشات ضيّقة (360px) ---------- */
+@media (max-width: 380px) {
+  .vd-title { font-size: 16.5px; }
+  .vd-status { font-size: 12px; padding-inline: 9px; }
+  .vd-info h2 .de { font-size: 20px; }
+  .vd-set .btn-big, .vd-store .btn-big { font-size: 14.5px; }
+  .vd-thumb { width: 84px; }
+}

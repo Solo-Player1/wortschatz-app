@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>امتحان أساسيات الألمانية — A1</title>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<script>
+// الثيم: ?theme=dark|light من الأبلكيشن، وإلا إعداد الأبلكيشن المحفوظ، وإلا النظام
+(function () { try {
+  var t = new URLSearchParams(location.search).get('theme');
+  if (!t) { var s = JSON.parse(localStorage.getItem('ws:v1') || '{}'); t = s.settings && s.settings.theme; }
+  if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+} catch (e) {} })();
+</script>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f3f5f9; --surface: #ffffff; --surface-2: #e9edf4;
+    --ink: #131a24; --ink-2: #4b5666; --muted: #7b8593;
+    --line: #d8dee8; --line-strong: #b9c3d1;
+    --navy: #14315e; --navy-ink: #ffffff; --blue: #2a78d6; --blue-tint: #e6f0fc;
+    --good: #0ca30c; --good-tint: #e6f5e6; --good-text: #0a6b0a;
+    --bad: #d23b3b; --bad-tint: #fdeaea; --bad-text: #9a1f1f;
+    --warn-tint: #fff3d3; --warn: #fab219; --warn-text: #7a5300;
+    --shadow: 0 1px 2px rgba(19,26,36,.06), 0 8px 24px -12px rgba(19,26,36,.18);
+    --font-body: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-head: "Noto Kufi Arabic", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-de: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0f1419; --surface: #171d24; --surface-2: #1f2731;
+      --ink: #eef1f5; --ink-2: #b6bfca; --muted: #8c96a4;
+      --line: #2b3440; --line-strong: #3b4654;
+      --navy: #a9c6f2; --navy-ink: #0f1419; --blue: #4a94ec; --blue-tint: #16283f;
+      --good: #2bb52b; --good-tint: #17301a; --good-text: #6fd66f;
+      --bad: #e05a5a; --bad-tint: #3a1a1a; --bad-text: #f19a9a;
+      --warn-tint: #3a2f12; --warn: #fab219; --warn-text: #f5c95c;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  /* الثيم المفروض من الأبلكيشن (data-theme) بيغلب إعداد النظام */
+  html[data-theme="light"] {
+    color-scheme: light;
+    --bg: #f3f5f9; --surface: #ffffff; --surface-2: #e9edf4;
+    --ink: #131a24; --ink-2: #4b5666; --muted: #7b8593;
+    --line: #d8dee8; --line-strong: #b9c3d1;
+    --navy: #14315e; --navy-ink: #ffffff; --blue: #2a78d6; --blue-tint: #e6f0fc;
+    --good: #0ca30c; --good-tint: #e6f5e6; --good-text: #0a6b0a;
+    --bad: #d23b3b; --bad-tint: #fdeaea; --bad-text: #9a1f1f;
+    --warn-tint: #fff3d3; --warn: #fab219; --warn-text: #7a5300;
+    --shadow: 0 1px 2px rgba(19,26,36,.06), 0 8px 24px -12px rgba(19,26,36,.18);
+    --font-body: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-head: "Noto Kufi Arabic", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-de: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0f1419; --surface: #171d24; --surface-2: #1f2731;
+    --ink: #eef1f5; --ink-2: #b6bfca; --muted: #8c96a4;
+    --line: #2b3440; --line-strong: #3b4654;
+    --navy: #a9c6f2; --navy-ink: #0f1419; --blue: #4a94ec; --blue-tint: #16283f;
+    --good: #2bb52b; --good-tint: #17301a; --good-text: #6fd66f;
+    --bad: #e05a5a; --bad-tint: #3a1a1a; --bad-text: #f19a9a;
+    --warn-tint: #3a2f12; --warn: #fab219; --warn-text: #f5c95c;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.75; -webkit-text-size-adjust: 100%; }
+  h1, h2, h3 { font-family: var(--font-head); margin: 0; line-height: 1.4; text-wrap: balance; }
+  h1 { font-size: 26px; font-weight: 800; }
+  h2 { font-size: 18px; font-weight: 700; }
+  h3 { font-size: 15px; font-weight: 700; }
+  p { margin: 0; }
+  a { color: var(--blue); }
+  .de { font-family: var(--font-de); direction: ltr; unicode-bidi: isolate; }
+  .flag { height: 5px; background: linear-gradient(to bottom, #000 0 33.4%, #dd0000 33.4% 66.7%, #ffce00 66.7%); }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 20px 16px 120px; }
+
+  button { font: inherit; font-size: 14px; font-weight: 600; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  button.primary { background: var(--navy); color: var(--navy-ink); border-color: var(--navy); }
+  button.big { font-size: 17px; padding: 13px 28px; width: 100%; font-family: var(--font-head); }
+  button:hover:not(:disabled) { filter: brightness(.96); }
+  button:disabled { cursor: default; }
+  :focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+  /* ---------- top bar ---------- */
+  .top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--surface) 94%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .top-inner { max-width: 820px; margin: 0 auto; padding: 9px 16px; display: flex; align-items: center; gap: 12px; }
+  .brand { font-family: var(--font-head); font-weight: 800; color: var(--navy); font-size: 15px; white-space: nowrap; }
+  .progress { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .bar { flex: 1; height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--blue); border-radius: 999px; transition: width .25s; }
+  .clock { font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); white-space: nowrap; }
+  @media (max-width: 480px) { .brand { display: none; } }
+
+  /* ---------- start ---------- */
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); padding: 24px 20px; }
+  .hero { text-align: center; margin-bottom: 22px; }
+  .abc { display: inline-flex; gap: 6px; margin-bottom: 12px; }
+  .abc span { width: 46px; height: 52px; display: grid; place-items: center; border-radius: 12px; font: 800 26px/1 var(--font-de); color: #fff; }
+  .abc span:nth-child(1) { background: #1c1c1c; box-shadow: inset 0 0 0 1px rgba(255,255,255,.18); }
+  .abc span:nth-child(2) { background: #dd0000; }
+  .abc span:nth-child(3) { background: #ffce00; color: #1c1c1c; }
+  .lead { color: var(--ink-2); max-width: 56ch; margin: 8px auto 0; }
+  .field { margin-bottom: 20px; }
+  .field-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+  .mini { display: flex; gap: 6px; }
+  .mini button { font-size: 12.5px; padding: 3px 12px; }
+  .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .chip { direction: ltr; font-family: var(--font-de); font-size: 15px; font-weight: 700; padding: 10px 8px; border-radius: 12px; border: 1.5px solid var(--line-strong); background: var(--surface); color: var(--muted); text-align: center; }
+  .chip[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-tint); color: var(--ink); }
+  .chip .ar { font-family: var(--font-body); }
+  .seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .seg button { border-radius: 12px; padding: 10px 6px; line-height: 1.5; border-width: 1.5px; }
+  .seg button small { display: block; font-weight: 500; color: var(--muted); font-size: 12.5px; }
+  .seg button[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-tint); }
+  .est { text-align: center; color: var(--ink-2); font-size: 14px; margin: 0 0 12px; min-height: 1.75em; }
+  .tips { margin: 20px 0 0; padding: 14px 34px 14px 16px; background: var(--surface-2); border-radius: 12px; color: var(--ink-2); font-size: 14.5px; }
+  .tips li { margin-bottom: 4px; }
+  .tips li:last-child { margin-bottom: 0; }
+  kbd { font: 700 14px var(--font-de); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 6px; padding: 0 6px; display: inline-block; direction: ltr; }
+  .hist { margin-top: 14px; text-align: center; font-size: 14px; color: var(--muted); }
+
+  /* ---------- sections & questions ---------- */
+  .sec { margin-top: 30px; }
+  .sec-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .sec-idx { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--navy); color: var(--navy-ink); font: 800 16px var(--font-head); display: grid; place-items: center; }
+  .sec-head > div { flex: 1; min-width: 0; }
+  .sec-head p { color: var(--ink-2); font-size: 14.5px; }
+  .sec-score { flex: none; font-weight: 700; font-size: 14px; padding: 3px 12px; border-radius: 999px; background: var(--surface-2); direction: ltr; }
+  .q { display: flex; gap: 12px; padding: 16px 14px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 14px; margin-bottom: 10px; }
+  .q-num { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--surface-2); color: var(--ink-2); font-weight: 700; font-size: 13px; display: grid; place-items: center; }
+  .q-body { flex: 1; min-width: 0; }
+  .prompt { margin-bottom: 10px; font-weight: 500; }
+  .ar-word { font-size: 19px; font-weight: 700; }
+  .big { font-size: 22px; font-weight: 700; }
+  .hint { color: var(--muted); font-size: 14.5px; font-weight: 500; }
+  .de-line { direction: ltr; text-align: center; font: 700 22px var(--font-de); margin-bottom: 12px; }
+  .de-line .hint { font-family: var(--font-body); margin-left: 12px; }
+  .gapart { display: inline-block; width: 46px; border-bottom: 2.5px solid var(--blue); margin-inline-end: 6px; transform: translateY(-3px); }
+  .digit { display: inline-grid; place-items: center; min-width: 52px; height: 52px; padding: 0 10px; border-radius: 12px; background: var(--surface-2); font: 800 26px var(--font-de); vertical-align: middle; margin-inline-start: 8px; }
+
+  .txt { width: 100%; max-width: 360px; display: block; font: 600 18px var(--font-de); padding: 10px 14px; border-radius: 12px; border: 1.5px solid var(--line-strong); background: var(--bg); color: var(--ink); text-align: left; }
+  .txt::placeholder { font: 400 14.5px var(--font-body); color: var(--muted); text-align: right; }
+  .txt:focus, .gap:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-tint); }
+  .gapword { direction: ltr; text-align: center; font: 700 24px var(--font-de); letter-spacing: .04em; padding: 4px 0; white-space: nowrap; }
+  .gapword .art { color: var(--muted); font-weight: 500; font-size: 19px; letter-spacing: 0; margin-right: 8px; }
+  .gap { font: inherit; letter-spacing: .06em; width: calc(var(--n) * .78em + .7em); text-align: center; padding: 3px 0; margin: 0 3px; border: 1.5px solid var(--blue); border-radius: 9px; background: var(--blue-tint); color: var(--ink); }
+  .gap::placeholder { color: var(--blue); opacity: .55; }
+
+  .opts { display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .opts.three { grid-template-columns: repeat(3, minmax(0, 1fr)); direction: ltr; }
+  .opts.four { grid-template-columns: repeat(4, minmax(0, 1fr)); direction: ltr; }
+  .opts.long { grid-template-columns: 1fr; }
+  @media (max-width: 520px) { .opts:not(.three):not(.four) { grid-template-columns: 1fr; } }
+  .opt { position: relative; display: flex; align-items: center; justify-content: center; text-align: center; min-height: 48px; padding: 8px 12px; border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--surface); cursor: pointer; font-weight: 600; line-height: 1.5; transition: background .12s, border-color .12s; }
+  .opt input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+  .opt .de { font-size: 18px; }
+  .opt.sel { border-color: var(--blue); background: var(--blue-tint); }
+  .opt:focus-within { outline: 2px solid var(--blue); outline-offset: 2px; }
+  .graded .opt, .graded .opt input { cursor: default; }
+  .opt.is-correct { border-color: var(--good); background: var(--good-tint); color: var(--good-text); }
+  .opt.is-wrong { border-color: var(--bad); background: var(--bad-tint); color: var(--bad-text); }
+
+  .slots, .tiles { display: flex; flex-wrap: wrap; gap: 6px; direction: ltr; justify-content: center; }
+  .slots { margin-bottom: 14px; }
+  .slot, .tile { width: 42px; height: 48px; padding: 0; border-radius: 10px; font: 700 21px var(--font-de); display: grid; place-items: center; }
+  .slot { border: 1.5px dashed var(--line-strong); background: var(--surface-2); color: var(--ink); }
+  .slot.filled { border-style: solid; border-color: var(--blue); background: var(--blue-tint); }
+  .tile { border: 1.5px solid var(--line-strong); background: var(--surface); box-shadow: 0 2px 0 var(--line-strong); color: var(--ink); }
+  .tile.used { visibility: hidden; }
+  .graded .tiles { display: none; }
+  .graded .slots { margin-bottom: 0; }
+  @media (max-width: 400px) { .slot, .tile { width: 36px; height: 44px; font-size: 19px; } }
+
+  /* ---------- grading ---------- */
+  .q.ok { border-color: var(--good); }
+  .q.bad { border-color: var(--bad); }
+  .q.ok .q-num { background: var(--good); color: #fff; }
+  .q.bad .q-num { background: var(--bad); color: #fff; }
+  .fb { margin-top: 12px; padding: 10px 12px; border-radius: 10px; font-size: 15px; }
+  .q.ok .fb { background: var(--good-tint); color: var(--good-text); }
+  .q.bad .fb { background: var(--bad-tint); color: var(--bad-text); }
+  .fb b { font-weight: 700; }
+  .fb .de { font-size: 17px; font-weight: 700; }
+  .fb .note { display: block; margin-top: 4px; color: var(--ink-2); font-size: 14px; }
+  .fb .yours { display: block; margin-top: 2px; font-size: 14px; opacity: .85; }
+  .say { padding: 2px 9px; font-size: 15px; margin-inline-start: 6px; border-color: transparent; background: color-mix(in srgb, currentColor 12%, transparent); }
+  .only-wrong .q.ok, .only-wrong .sec.all-ok { display: none; }
+  .submit-row { margin-top: 28px; }
+
+  /* ---------- result ---------- */
+  .res-top { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center; text-align: center; }
+  .ring { --p: 0; flex: none; width: 132px; height: 132px; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--ring, var(--good)) calc(var(--p) * 1%), var(--surface-2) 0); }
+  .ring::before { content: ""; grid-area: 1 / 1; width: 104px; height: 104px; border-radius: 50%; background: var(--surface); }
+  .ring b { grid-area: 1 / 1; z-index: 1; font: 800 28px var(--font-de); direction: ltr; }
+  .res-main .score { font: 800 30px var(--font-head); }
+  .res-main .grade { font-size: 18px; font-weight: 700; color: var(--navy); margin-top: 2px; }
+  .res-main .meta { color: var(--muted); font-size: 14px; margin-top: 4px; }
+  .breakdown { margin-top: 22px; display: grid; gap: 9px; }
+  .brow { display: grid; grid-template-columns: minmax(0, 150px) 1fr 52px; align-items: center; gap: 10px; font-size: 14.5px; }
+  .brow .bar i { background: var(--good); }
+  .brow .n { direction: ltr; text-align: left; font-variant-numeric: tabular-nums; color: var(--ink-2); font-weight: 600; }
+  .review { margin-top: 20px; padding: 14px; border-radius: 12px; background: var(--warn-tint); color: var(--warn-text); }
+  .review h3 { margin-bottom: 8px; }
+  .review .lst { display: flex; flex-wrap: wrap; gap: 6px; direction: ltr; justify-content: flex-end; }
+  .review a { font: 700 15px var(--font-de); text-decoration: none; padding: 3px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--warn); color: var(--ink); }
+  .review a small { font-weight: 500; color: var(--muted); margin-left: 4px; }
+  .res-actions { margin-top: 20px; display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .res-actions button { flex: 1 1 160px; padding: 11px 14px; }
+
+  /* ---------- special chars (desktop) ---------- */
+  .charbar { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 9; display: flex; align-items: center; gap: 5px; padding: 7px 10px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; box-shadow: var(--shadow); direction: ltr; }
+  .charbar span { font-size: 12.5px; color: var(--muted); padding: 0 4px; font-family: var(--font-body); }
+  .charbar button { width: 38px; height: 36px; padding: 0; border-radius: 10px; font: 700 17px var(--font-de); }
+  @media (pointer: coarse) { .charbar { display: none !important; } }
+
+  dialog { border: 1px solid var(--line); border-radius: 16px; padding: 22px 20px; max-width: min(420px, calc(100vw - 32px)); background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+  dialog::backdrop { background: rgba(10, 14, 20, .55); }
+  dialog p { color: var(--ink-2); margin: 8px 0 18px; }
+  .dlg-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .dlg-actions button { flex: 1 1 120px; padding: 10px; }
+
+  /* ---------- إضافات امتحان A1 ---------- */
+  .seg.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .seg button b { display: block; font-family: var(--font-head); font-size: 15.5px; margin-bottom: 2px; }
+  .lvl-badge { display: inline-block; font: 700 12px var(--font-body); padding: 1px 9px; border-radius: 999px; background: var(--surface-2); color: var(--muted); margin-inline-start: 6px; }
+  .blank { display: inline-block; min-width: 74px; border-bottom: 2.5px solid var(--blue); margin: 0 6px; }
+  .slots.words, .tiles.words { gap: 7px; }
+  .slots.words .slot { width: auto; min-width: 74px; padding: 0 10px; font-size: 18px; }
+  .tiles.words .tile { width: auto; min-width: 58px; padding: 0 14px; font-size: 18px; }
+  .src { text-align: center; font-size: 13.5px; color: var(--muted); margin-top: 10px; }
+  .src b { color: var(--ink-2); font-weight: 600; }
+  .reset-row { margin-top: 12px; text-align: center; }
+  .reset-row button { font-size: 12.5px; padding: 4px 14px; }
+  .pool { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 13.5px; color: var(--ink-2); }
+  .pool .bar { height: 7px; }
+  .pool .bar i { background: var(--good); transition: width .3s; }
+  .qtag { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 1px 10px; margin-bottom: 8px; }
+  .fb .note b { color: inherit; }
+</style>
+</head>
+<body>
+<div class="flag"></div>
+
+<header class="top" id="top" hidden>
+  <div class="top-inner">
+    <span class="brand">امتحان A1</span>
+    <div class="progress"><span id="progTxt" dir="ltr">0 / 0</span><div class="bar"><i id="progBar"></i></div></div>
+    <span class="clock" id="clock">00:00</span>
+    <button type="button" class="primary" id="btnSubmit">تسليم</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="start" class="card">
+    <div class="hero">
+      <div class="abc" dir="ltr" aria-hidden="true"><span>A</span><span>1</span></div>
+      <h1>امتحان أساسيات الألمانية</h1>
+      <p class="lead">الضمائر الشخصية، الفعلان <bdi class="de">sein</bdi> و <bdi class="de">haben</bdi>، أفعال الحياة اليومية، وتكوين الجمل. كل امتحان <b>30 سؤال</b> بيتسحبوا من بنك كبير، ومش بيتكرروا عليك.</p>
+    </div>
+
+    <div class="field">
+      <div class="field-head"><h3>اختار المستوى</h3></div>
+      <div class="seg two" id="seg">
+        <button type="button" data-lvl="1"><b>المستوى الأول</b><small>معاني ونطق: الضمائر، صيغ <bdi class="de">sein/haben</bdi>، الكلمات والجمل</small></button>
+        <button type="button" data-lvl="2"><b>المستوى التاني</b><small>تطبيق: تصريف الأفعال، القواعد، تكوين الجمل وتصحيح الغلط</small></button>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="pool"><span id="poolTxt"></span><div class="bar"><i id="poolBar"></i></div></div>
+      <p class="est" id="est"></p>
+      <button type="button" class="primary big" id="btnStart">ابدأ الامتحان</button>
+      <div class="reset-row"><button type="button" id="btnReset">صفّر العدّاد وابدأ لفّة جديدة</button></div>
+    </div>
+
+    <ul class="tips">
+      <li>الأسئلة كلها مبنية على الأربع صفحات بس — مفيش أي كلمة ألمانية من برّه الملف.</li>
+      <li>الدرجة والتصحيح بيظهروا بعد ما تسلّم، ومع كل غلط هتلاقي القاعدة ورقم الصفحة.</li>
+      <li>في أسئلة بتكتب فيها الإجابة: الحروف الكبيرة والصغيرة مش هتنقّصك، وأزرار <kbd>ä</kbd> <kbd>ö</kbd> <kbd>ü</kbd> <kbd>ß</kbd> تحت في الشاشة.</li>
+      <li>زرار 🔊 جنب الكلمة بينطقها لو جهازك عليه صوت ألماني.</li>
+    </ul>
+    <p class="src">المصدر: <b>German_A1_Basics_AR.pdf</b> — أساسيات اللغة الألمانية، المستوى A1 (4 صفحات)</p>
+    <div class="hist" id="hist"></div>
+  </section>
+
+  <section id="result" class="card" hidden></section>
+  <form id="exam" hidden novalidate autocomplete="off"></form>
+</main>
+
+<div class="charbar" id="charbar" hidden>
+  <span>حروف خاصة</span>
+  <button type="button">ä</button><button type="button">ö</button><button type="button">ü</button><button type="button">ß</button>
+  <button type="button">Ä</button><button type="button">Ö</button><button type="button">Ü</button>
+</div>
+
+<dialog id="dlg">
+  <h3>تسليم الامتحان</h3>
+  <p id="dlgMsg"></p>
+  <div class="dlg-actions">
+    <button type="button" id="dlgGo" hidden>ودّيني لأول سؤال فاضي</button>
+    <button type="button" id="dlgNo">أكمّل الحل</button>
+    <button type="button" id="dlgYes" class="primary">سلّم دلوقتي</button>
+  </div>
+</dialog>
+
+<script>
+'use strict';
+
+/* ==================================================================
+   البيانات — كلها مأخوذة حرفيًا من الأربع صفحات بتاعة
+   German_A1_Basics_AR.pdf. ممنوع أي كلمة ألمانية من برّه الملف.
+   ================================================================== */
+
+const SECS = [
+  { key: 'pron', page: 1, title: 'الضمائر الشخصية',        help: 'Personalpronomen — صفحة 1' },
+  { key: 'sh',   page: 2, title: 'الفعلان sein و haben',    help: 'الفعلان المساعدان الأساسيان — صفحة 2' },
+  { key: 'verb', page: 3, title: 'أفعال الحياة اليومية',    help: 'التصريف وقاعدة النهايات — صفحة 3' },
+  { key: 'satz', page: 4, title: 'تكوين الجمل والمفردات',   help: 'Sätze bilden — صفحة 4' },
+];
+
+/* --- صفحة 1: الضمائر --- */
+const PRON = [
+  { id: 'ich',    de: 'ich', ar: 'أنا',                say: 'إش' },
+  { id: 'du',     de: 'du',  ar: 'أنتَ / أنتِ',        say: 'دو' },
+  { id: 'er',     de: 'er',  ar: 'هو (للمذكّر)',       say: 'إر' },
+  { id: 'sie-f',  de: 'sie', ar: 'هي (للمؤنّث)',       say: 'زي' },
+  { id: 'es',     de: 'es',  ar: 'هو / هي (للمحايد)',  say: 'إس' },
+  { id: 'wir',    de: 'wir', ar: 'نحن',                say: 'فير' },
+  { id: 'ihr',    de: 'ihr', ar: 'أنتم / أنتنّ',       say: 'إير' },
+  { id: 'sie-pl', de: 'sie', ar: 'هم / هنّ',           say: 'زي' },
+  { id: 'Sie',    de: 'Sie', ar: 'حضرتك / حضراتكم',    say: 'زي' },
+];
+const PR_AR = PRON.map(p => p.ar);
+const PR_DE = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie'];
+const PR_SAY = ['إش', 'دو', 'إر', 'زي', 'إس', 'فير', 'إير'];
+
+/* --- صفحة 2: sein و haben --- */
+const SEIN = [
+  { p: 'ich', p1: 'ich', f: 'bin',  say: 'بن' },
+  { p: 'du',  p1: 'du',  f: 'bist', say: 'بست' },
+  { p: 'er / sie / es', p1: 'er', f: 'ist', say: 'إست' },
+  { p: 'wir', p1: 'wir', f: 'sind', say: 'زنت' },
+  { p: 'ihr', p1: 'ihr', f: 'seid', say: 'زايت' },
+  { p: 'sie / Sie', p1: 'sie', f: 'sind', say: 'زنت' },
+];
+const HABEN = [
+  { p: 'ich', p1: 'ich', f: 'habe', say: 'هابه' },
+  { p: 'du',  p1: 'du',  f: 'hast', say: 'هاست' },
+  { p: 'er / sie / es', p1: 'er', f: 'hat', say: 'هات' },
+  { p: 'wir', p1: 'wir', f: 'haben', say: 'هابن' },
+  { p: 'ihr', p1: 'ihr', f: 'habt', say: 'هابت' },
+  { p: 'sie / Sie', p1: 'sie', f: 'haben', say: 'هابن' },
+];
+const SEIN_F  = ['bin', 'bist', 'ist', 'sind', 'seid'];
+const HABEN_F = ['habe', 'hast', 'hat', 'haben', 'habt'];
+const SH_SAY  = ['بن', 'بست', 'إست', 'زنت', 'زايت', 'هابه', 'هاست', 'هات', 'هابن', 'هابت'];
+
+/* أمثلة صفحة 2 */
+const EX2 = [
+  { de: 'Ich bin müde.',      ar: 'أنا متعب.',                    v: 'bin',   w: ['Ich', 'bin', 'müde'] },
+  { de: 'Ich habe Hunger.',   ar: 'أنا جائع (حرفيًا: عندي جوع).', v: 'habe',  w: ['Ich', 'habe', 'Hunger'] },
+  { de: 'Er ist Student.',    ar: 'هو طالب.',                     v: 'ist',   w: ['Er', 'ist', 'Student'] },
+  { de: 'Sie hat ein Auto.',  ar: 'هي تملك سيارة.',               v: 'hat',   w: ['Sie', 'hat', 'ein', 'Auto'] },
+  { de: 'Wir sind zu Hause.', ar: 'نحن في البيت.',                v: 'sind',  w: ['Wir', 'sind', 'zu', 'Hause'] },
+  { de: 'Wir haben Zeit.',    ar: 'لدينا وقت.',                   v: 'haben', w: ['Wir', 'haben', 'Zeit'] },
+];
+
+/* --- صفحة 3: الأفعال --- */
+const ENDINGS = [
+  { p: 'ich', e: '-e' }, { p: 'du', e: '-st' }, { p: 'er / sie / es', e: '-t' },
+  { p: 'wir', e: '-en' }, { p: 'ihr', e: '-t' }, { p: 'sie / Sie', e: '-en' },
+];
+const VERBS = [
+  { inf: 'essen',   ar: 'يأكل',        say: 'إسن',    stem: 'ess',   irr: 'e → i',
+    f: { ich: 'esse', du: 'isst', er: 'isst', wir: 'essen', ihr: 'esst', sie: 'essen' },
+    s: { ich: 'إسه', er: 'إست', wir: 'إسن' } },
+  { inf: 'spielen', ar: 'يلعب',        say: 'شبيلن',  stem: 'spiel',
+    f: { ich: 'spiele', du: 'spielst', er: 'spielt', wir: 'spielen', ihr: 'spielt', sie: 'spielen' },
+    s: { ich: 'شبيله', er: 'شبيلت', wir: 'شبيلن' } },
+  { inf: 'laufen',  ar: 'يجري',        say: 'لاوفن',  stem: 'lauf',  irr: 'a → ä',
+    f: { ich: 'laufe', du: 'läufst', er: 'läuft', wir: 'laufen', ihr: 'lauft', sie: 'laufen' },
+    s: { ich: 'لاوفه', er: 'لويفت', wir: 'لاوفن' } },
+  { inf: 'trinken', ar: 'يشرب',        say: 'ترينكن', stem: 'trink',
+    f: { ich: 'trinke', du: 'trinkst', er: 'trinkt', wir: 'trinken', ihr: 'trinkt', sie: 'trinken' },
+    s: { ich: 'ترينكه', er: 'ترينكت', wir: 'ترينكن' } },
+  { inf: 'machen',  ar: 'يفعل / يصنع', say: 'ماخن',   stem: 'mach',
+    f: { ich: 'mache', du: 'machst', er: 'macht', wir: 'machen', ihr: 'macht', sie: 'machen' },
+    s: { ich: 'ماخه', er: 'ماخت', wir: 'ماخن' } },
+  { inf: 'gehen',   ar: 'يذهب',        say: 'غيهن',   stem: 'geh',
+    f: { ich: 'gehe', du: 'gehst', er: 'geht', wir: 'gehen', ihr: 'geht', sie: 'gehen' },
+    s: { ich: 'غيه', er: 'غيت', wir: 'غيهن' } },
+];
+const V_AR  = VERBS.map(v => v.ar);
+const V_INF = VERBS.map(v => v.inf);
+const V_SAY = VERBS.map(v => v.say);
+const PLABEL = { ich: 'ich', du: 'du', er: 'er / sie / es', wir: 'wir', ihr: 'ihr', sie: 'sie / Sie' };
+
+/* --- صفحة 4: الجمل والمفردات --- */
+const SATZ = [
+  { de: 'Ich heiße Abdullah.',        ar: 'أنا اسمي عبد الله.',        say: 'إش هايسه عبد الله',     w: ['Ich', 'heiße', 'Abdullah'] },
+  { de: 'Mein Name ist Abdullah.',    ar: 'اسمي عبد الله.',            say: 'ماين نامه إست عبد الله', w: ['Mein', 'Name', 'ist', 'Abdullah'] },
+  { de: 'Ich bin 20 Jahre alt.',      ar: 'عمري 20 عامًا.',            say: 'إش بن تسفانتسش ياره ألت', w: ['Ich', 'bin', '20', 'Jahre', 'alt'] },
+  { de: 'Ich spiele Fußball.',        ar: 'أنا ألعب كرة القدم.',       say: 'إش شبيله فوسبال',       w: ['Ich', 'spiele', 'Fußball'] },
+  { de: 'Ich spiele gern Fußball.',   ar: 'أنا أحب لعب كرة القدم.',    say: 'إش شبيله غيرن فوسبال',  w: ['Ich', 'spiele', 'gern', 'Fußball'] },
+  { de: 'Ich mag Fußball.',           ar: 'أنا أحب كرة القدم.',        say: 'إش ماك فوسبال',         w: ['Ich', 'mag', 'Fußball'] },
+  { de: 'Er isst einen Apfel.',       ar: 'هو يأكل تفاحة.',            say: 'إر إست أينن أبفل',      w: ['Er', 'isst', 'einen', 'Apfel'] },
+  { de: 'Er läuft.',                  ar: 'هو يجري.',                  say: 'إر لويفت' },
+  { de: 'Er trinkt Wasser.',          ar: 'هو يشرب الماء.',            say: 'إر ترينكت فاسر',        w: ['Er', 'trinkt', 'Wasser'] },
+  { de: 'Er isst einen Apfel, läuft und trinkt Wasser.', ar: 'هو يأكل تفاحة، ويجري، ويشرب الماء.', say: 'إر إست أينن أبفل، لويفت أونت ترينكت فاسر' },
+];
+const VOCAB = [
+  { de: 'heißen',          ar: 'يُسمّى',                   say: 'هايسن' },
+  { de: 'das Jahr / Jahre', ar: 'سنة / سنوات',             say: 'يار / ياره', tts: 'das Jahr' },
+  { de: 'alt',             ar: 'كبير في السن',             say: 'ألت' },
+  { de: 'der Fußball',     ar: 'كرة القدم',                say: 'دير فوسبال' },
+  { de: 'mögen',           ar: 'يحب',                      say: 'موغن (ماك)', tts: 'mögen', extra: 'مع ich بتبقى <bdi class="de">mag</bdi>.' },
+  { de: 'der Apfel',       ar: 'التفاحة',                  say: 'دير أبفل' },
+  { de: 'das Wasser',      ar: 'الماء',                    say: 'داس فاسر' },
+  { de: 'gern',            ar: 'بسرور (بيحب يعمل الحاجة)', say: 'غيرن' },
+  { de: 'und',             ar: 'و (حرف الربط)',            say: 'أونت' },
+  { de: 'müde',            ar: 'متعب' },
+  { de: 'Hunger',          ar: 'جوع' },
+  { de: 'Student',         ar: 'طالب' },
+  { de: 'ein Auto',        ar: 'سيارة' },
+  { de: 'Zeit',            ar: 'وقت' },
+  { de: 'zu Hause',        ar: 'في البيت' },
+  { de: 'das Buch',        ar: 'الكتاب' },
+  { de: 'Mein Name',       ar: 'اسمي' },
+];
+
+/* ==================================================================
+   أدوات بناء الأسئلة
+   ================================================================== */
+
+const uniq = a => [...new Set(a)];
+const de = t => `<bdi class="de">${t}</bdi>`;
+const line = (t, hint) => `<div class="de-line">${t}${hint ? `<span class="hint">${hint}</span>` : ''}</div>`;
+const ask = t => `<p class="prompt hint">${t}</p>`;
+const arw = t => `<p class="prompt"><span class="ar-word">${t}</span></p>`;
+
+/* اختيارات غلط ثابتة (مش عشوائية) عشان بنك الأسئلة يفضل هو هو */
+function wrongs(pool, ans, n, seed) {
+  const c = uniq(pool).filter(x => x && x !== ans), out = [];
+  for (let i = 0; i < c.length && out.length < n; i++) out.push(c[(seed + i) % c.length]);
+  return out;
+}
+
+const BANK = [];
+function addQ(q) {
+  if (BANK.some(x => x.id === q.id)) throw new Error('سؤال مكرر: ' + q.id);
+  BANK.push(q);
+}
+function mcq(id, lvl, sec, prompt, ans, bad, o = {}) {
+  addQ({ id, lvl, sec, kind: 'mcq', prompt, ans, opts: uniq([ans, ...bad]), cls: o.cls || '', say: o.say, note: o.note || '' });
+}
+function txt(id, lvl, sec, prompt, ans, o = {}) {
+  addQ({ id, lvl, sec, kind: 'text', prompt, ans, accept: uniq([ans, ...(o.accept || [])]), ph: o.ph || 'اكتب الإجابة بالألماني', say: o.say, note: o.note || '' });
+}
+function ord(id, lvl, sec, prompt, words, o = {}) {
+  addQ({ id, lvl, sec, kind: 'order', prompt, words, ans: words.join(' '), say: o.say, note: o.note || '' });
+}
+
+/* ==================================================================
+   صفحة 1 — الضمائر
+   ================================================================== */
+
+/* المستوى 1: ضمير ← معنى */
+['ich', 'du', 'er', 'es', 'wir', 'ihr', 'Sie'].forEach((k, i) => {
+  const p = PRON.find(x => x.id === k);
+  mcq('p-ar-' + k, 1, 'pron', line(de(p.de)) + ask('الضمير ده معناه إيه؟'),
+    p.ar, wrongs(PR_AR, p.ar, 3, i * 2),
+    { say: p.de, note: `${p.de} = ${p.ar} — وبينطق «${p.say}».` });
+});
+
+/* المستوى 1: معنى ← ضمير */
+PRON.forEach((p, i) => {
+  mcq('p-de-' + p.id, 1, 'pron', arw(p.ar) + ask('نقولها إزاي بالألماني؟'),
+    p.de, wrongs(PR_DE, p.de, 3, i + 1), { cls: 'four', say: p.de,
+    note: p.id === 'Sie' ? 'صيغة الاحترام <bdi class="de">Sie</bdi> بتتكتب دايمًا بحرف <bdi class="de">S</bdi> كبير.'
+        : p.id === 'sie-pl' ? 'همّ = <bdi class="de">sie</bdi> بحرف صغير، وبنعرفها من الفعل: <bdi class="de">sie sind</bdi>.'
+        : p.id === 'sie-f' ? 'هي = <bdi class="de">sie</bdi>، وبنعرفها من الفعل: <bdi class="de">sie ist</bdi>.'
+        : `${p.ar} = ${p.de}.` });
+});
+
+/* المستوى 1: نطق الضمائر */
+['ich', 'du', 'er', 'sie-f', 'es', 'wir', 'ihr'].forEach((k, i) => {
+  const p = PRON.find(x => x.id === k);
+  mcq('p-say-' + k, 1, 'pron', line(de(p.de)) + ask('بينطق إزاي؟'),
+    p.say, wrongs(PR_SAY, p.say, 3, i + 3), { cls: 'four', say: p.de,
+    note: k === 'ich' ? 'الحرفان <bdi class="de">ch</bdi> في <bdi class="de">ich</bdi> بينطقوا صوت خفيف بين الشين والخاء.' : `${p.de} ← «${p.say}».` });
+});
+
+/* المستوى 2: الاستعمال والفرق بين sie / sie / Sie */
+mcq('p-use-du', 2, 'pron', ask('بتكلم صاحبك أو أخوك — تستخدم أنهي ضمير؟'),
+  'du', ['Sie', 'ihr', 'es'], { cls: 'four', say: 'du', note: 'مع الأصدقاء والعائلة والأطفال بنستخدم <bdi class="de">du</bdi> (لواحد) و <bdi class="de">ihr</bdi> (لأكتر من واحد).' });
+mcq('p-use-ihr', 2, 'pron', ask('بتكلم كذا صاحب مع بعض، بشكل غير رسمي — تستخدم إيه؟'),
+  'ihr', ['du', 'wir', 'Sie'], { cls: 'four', say: 'ihr', note: '<bdi class="de">ihr</bdi> = أنتم (جمع مخاطبين، غير رسمي).' });
+mcq('p-use-Sie', 2, 'pron', ask('بتكلم موظف في دائرة حكومية أو حد غريب — تستخدم إيه؟'),
+  'Sie', ['du', 'ihr', 'sie'], { cls: 'four', say: 'Sie', note: 'مع الغرباء وفي المواقف الرسمية (العمل، الدوائر الحكومية) بنستخدم <bdi class="de">Sie</bdi>.' });
+mcq('p-use-es', 2, 'pron', `${line(de('das Buch'), 'الكتاب')}${ask('بنشاور على الكلمة دي بأنهي ضمير؟')}`,
+  'es', ['er', 'sie', 'ihr'], { cls: 'four', say: 'das Buch', note: '<bdi class="de">es</bdi> للمحايد، وغالبًا لغير العاقل زي <bdi class="de">das Buch</bdi>.' });
+mcq('p-sie-ist', 2, 'pron', line(de('sie ist')) + ask('معناها إيه؟'),
+  'هي', ['هم / هنّ', 'حضرتك', 'نحن'], { say: 'sie ist', note: 'الفعل <bdi class="de">ist</bdi> بيقولنا إن الضمير مفرد ← هي.' });
+mcq('p-sie-sind', 2, 'pron', line(de('sie sind'), 'بحرف s صغير') + ask('معناها إيه؟'),
+  'هم / هنّ', ['هي', 'حضرتك / حضراتكم', 'أنتم / أنتنّ'], { say: 'sie sind', note: '<bdi class="de">sie sind</bdi> بحرف صغير = هم. ولو <bdi class="de">Sie sind</bdi> بحرف كبير = حضرتك.' });
+mcq('p-Sie-sind', 2, 'pron', line(de('Sie sind'), 'بحرف S كبير') + ask('معناها إيه؟'),
+  'حضرتك / حضراتكم', ['هم / هنّ', 'هي', 'نحن'], { say: 'Sie sind', note: 'الحرف الكبير هو اللي بيفرّق صيغة الاحترام عن <bdi class="de">sie</bdi> (هي/هم).' });
+mcq('p-cap', 2, 'pron', ask('ليه <bdi class="de">Sie</bdi> بتتكتب بحرف كبير دايمًا؟'),
+  'عشان نفرّقها عن sie (هي / هم) — دي صيغة الاحترام', ['عشان دي أول الجملة', 'عشان دي جمع', 'مفيش سبب، الاتنين زي بعض'],
+  { cls: 'long', note: 'صيغة الاحترام للمفرد والجمع، وبتتكتب دايمًا بحرف <bdi class="de">S</bdi> كبير.' });
+mcq('p-3say', 2, 'pron', ask('أنهي ضمائر بتنطق كلها «زي»؟'),
+  'sie (هي) و sie (هم) و Sie (حضرتك)', ['sie (هي) و es (هو) بس', 'du و ihr', 'wir و ihr'],
+  { cls: 'long', note: 'التلاتة بينطقوا «زي»، وبنميّز بينهم من السياق ومن تصريف الفعل.' });
+mcq('p-ch', 2, 'pron', line(de('ich')) + ask('الحرفان <bdi class="de">ch</bdi> هنا بينطقوا إزاي؟'),
+  'صوت خفيف بين الشين والخاء', ['كاف زي الإنجليزي', 'شين تقيلة', 'مش بينطقوا خالص'],
+  { cls: 'long', say: 'ich', note: 'بنكتبها تقريبًا «إش».' });
+
+mcq('p-use-du2', 2, 'pron', ask('بتكلم طفلة صغيرة في العيلة — تستخدم أنهي ضمير؟'),
+  'du', ['Sie', 'wir', 'es'], { cls: 'four', say: 'du', note: 'مع الأطفال والعائلة بنستخدم <bdi class="de">du</bdi>.' });
+mcq('p-use-Sie2', 2, 'pron', ask('بتكلم أكتر من شخص بشكل رسمي (في الشغل مثلًا) — تستخدم إيه؟'),
+  'Sie', ['ihr', 'sie', 'du'], { cls: 'four', say: 'Sie', note: '<bdi class="de">Sie</bdi> صيغة رسمية للمفرد والجمع مع بعض.' });
+mcq('p-diff-du-ihr', 2, 'pron', ask('إيه الفرق بين <bdi class="de">du</bdi> و <bdi class="de">ihr</bdi>؟'),
+  'du لواحد، و ihr لأكتر من واحد', ['du للمذكّر، و ihr للمؤنّث', 'du رسمي، و ihr غير رسمي', 'مفيش فرق'],
+  { cls: 'long', note: 'الاتنين غير رسميين، بس <bdi class="de">du</bdi> مفرد و <bdi class="de">ihr</bdi> جمع.' });
+mcq('p-diff-ihr-Sie', 2, 'pron', ask('بتكلم مجموعة — إيه الفرق بين <bdi class="de">ihr</bdi> و <bdi class="de">Sie</bdi>؟'),
+  'ihr غير رسمي، و Sie رسمي', ['ihr رسمي، و Sie غير رسمي', 'ihr للمؤنّث بس', 'الاتنين رسميين'],
+  { cls: 'long', note: 'مع الأصدقاء <bdi class="de">ihr</bdi>، ومع الغرباء والمواقف الرسمية <bdi class="de">Sie</bdi>.' });
+mcq('p-sie-hat', 2, 'pron', line(de('sie hat ein Auto')) + ask('مين اللي عنده عربية؟'),
+  'هي', ['هم', 'حضرتك', 'أنا'], { say: 'sie hat ein Auto', note: 'الفعل <bdi class="de">hat</bdi> بيقول إن الضمير مفرد ← هي.' });
+mcq('p-sie-haben', 2, 'pron', line(de('sie haben Zeit'), 'بحرف s صغير') + ask('معناها إيه؟'),
+  'هم عندهم وقت', ['هي عندها وقت', 'حضرتك عندك وقت', 'أنتم عندكم وقت'],
+  { cls: 'long', say: 'sie haben Zeit', note: 'بحرف صغير = هم. ولو <bdi class="de">Sie haben</bdi> بحرف كبير تبقى حضرتك.' });
+mcq('p-es-what', 2, 'pron', ask('الضمير <bdi class="de">es</bdi> بنستخدمه إمتى؟'),
+  'للمحايد، وغالبًا لغير العاقل', ['للمذكّر العاقل', 'للمؤنّث', 'للجمع'],
+  { cls: 'long', say: 'es', note: 'زي <bdi class="de">das Buch</bdi> (الكتاب).' });
+mcq('p-ihr-mean', 2, 'pron', line(de('ihr seid müde')) + ask('معناها إيه؟'),
+  'أنتم متعبين', ['نحن متعبون', 'هم متعبون', 'حضرتك متعب'],
+  { say: 'ihr seid müde', note: '<bdi class="de">ihr</bdi> = أنتم، والصيغة معاها <bdi class="de">seid</bdi>.' });
+
+/* ==================================================================
+   صفحة 2 — sein و haben
+   ================================================================== */
+
+/* المستوى 1: كمّل صيغة الفعل */
+SEIN.forEach((r, i) => {
+  mcq('s-sein-' + i, 1, 'sh', line(de(r.p) + ' <span class="blank"></span>') + ask('كمّل بصيغة الفعل <bdi class="de">sein</bdi> (يكون).'),
+    r.f, wrongs(SEIN_F, r.f, 3, i), { cls: 'four', say: `${r.p1} ${r.f}`, note: `${r.p} ${r.f} — وبتنطق «${r.say}».` });
+});
+HABEN.forEach((r, i) => {
+  mcq('s-haben-' + i, 1, 'sh', line(de(r.p) + ' <span class="blank"></span>') + ask('كمّل بصيغة الفعل <bdi class="de">haben</bdi> (يملك).'),
+    r.f, wrongs(HABEN_F, r.f, 3, i), { cls: 'four', say: `${r.p1} ${r.f}`, note: `${r.p} ${r.f} — وبتنطق «${r.say}».` });
+});
+
+/* المستوى 1: نطق الصيغ */
+SEIN.slice(0, 5).concat(HABEN.slice(0, 5)).forEach((r, i) => {
+  mcq('s-say-' + r.f, 1, 'sh', line(de(r.f)) + ask('بتنطق إزاي؟'),
+    r.say, wrongs(SH_SAY, r.say, 3, i + 2), { cls: 'four', say: r.f, note: `${r.f} ← «${r.say}» (مع ${r.p}).` });
+});
+
+/* المستوى 1: معنى جمل صفحة 2 */
+EX2.forEach((s, i) => {
+  mcq('s-mean-' + i, 1, 'sh', line(de(s.de)) + ask('معناها إيه؟'),
+    s.ar, wrongs(EX2.map(x => x.ar), s.ar, 3, i), { cls: 'long', say: s.de, note: `${s.de} = ${s.ar}` });
+});
+
+/* المستوى 2: أنهي ضمير يكمّل الجملة */
+/* الاختيارات الغلط هنا مكتوبة بالإيد: لازم نتأكد إن مفيش ضمير تاني يصحّ مع نفس الصيغة */
+[['du', 'bist müde', ['ich', 'er', 'wir']],
+ ['wir', 'sind zu Hause', ['ich', 'du', 'er']],
+ ['ihr', 'habt Zeit', ['ich', 'du', 'wir']],
+ ['sie', 'hat ein Auto', ['ich', 'du', 'wir']],
+ ['ich', 'habe Hunger', ['du', 'wir', 'ihr']],
+ ['er', 'ist Student', ['ich', 'du', 'wir']]].forEach(([ans, rest, bad], i) => {
+  mcq('s-who-' + i, 2, 'sh', line('<span class="blank"></span> ' + de(rest) + '.') + ask('أنهي ضمير يكمّل الجملة من الاختيارات دي؟'),
+    ans, bad, { cls: 'four', say: `${ans} ${rest}`, note: `الصيغة <bdi class="de">${rest.split(' ')[0]}</bdi> بتمشي مع <bdi class="de">${ans}</bdi>.` });
+});
+
+/* المستوى 2: sein ولا haben؟ */
+EX2.forEach((s, i) => {
+  const gap = s.de.replace(' ' + s.v + ' ', ' <span class="blank"></span> ');
+  mcq('s-vs-' + i, 2, 'sh', line(de(gap)) + ask(`المعنى: ${s.ar}`),
+    s.v, wrongs(['bin', 'bist', 'ist', 'sind', 'seid', 'habe', 'hast', 'hat', 'haben', 'habt'], s.v, 3, i * 3),
+    { cls: 'four', say: s.de, note: `${s.de} — ${s.ar}` });
+});
+mcq('s-age', 2, 'sh', line(de('Ich <span class="blank"></span> 20 Jahre alt.')) + ask('المعنى: عمري 20 عامًا.'),
+  'bin', ['habe', 'ist', 'hat'], { cls: 'four', say: 'Ich bin 20 Jahre alt.',
+  note: 'العمر بيتقال بفعل <bdi class="de">sein</bdi> مش <bdi class="de">haben</bdi> — حرفيًا: أنا في العشرين من العمر.' });
+
+/* المستوى 2: عربي ← ألماني */
+EX2.forEach((s, i) => {
+  mcq('s-tr-' + i, 2, 'sh', arw(s.ar) + ask('أنهي جملة بتقول المعنى ده؟'),
+    s.de, wrongs(EX2.map(x => x.de), s.de, 3, i + 2), { cls: 'long', say: s.de, note: `${s.ar} = ${s.de}` });
+});
+
+/* المستوى 2: اكتب الصيغة */
+[['sein', 'ich', 'bin'], ['sein', 'du', 'bist'], ['sein', 'ihr', 'seid'], ['sein', 'wir', 'sind'],
+ ['haben', 'du', 'hast'], ['haben', 'er / sie / es', 'hat'], ['haben', 'ihr', 'habt'], ['haben', 'wir', 'haben']
+].forEach(([v, p, f], i) => {
+  txt('s-wr-' + i, 2, 'sh', ask(`اكتب صيغة الفعل <bdi class="de">${v}</bdi> مع الضمير <bdi class="de">${p}</bdi>:`),
+    f, { say: f, note: `${p} ← <bdi class="de">${f}</bdi>` });
+});
+
+/* المستوى 2: قواعد صفحة 2 */
+mcq('s-rule-1', 2, 'sh', ask('الضميران <bdi class="de">wir</bdi> و <bdi class="de">sie / Sie</bdi> بياخدوا صيغة واحدة؟'),
+  'أيوة: sind مع sein، و haben مع haben', ['لأ، كل واحد ليه صيغة', 'أيوة بس في sein بس', 'أيوة بس في haben بس'],
+  { cls: 'long', note: 'دي حاجة بتسهّل الحفظ: <bdi class="de">wir sind / sie sind</bdi> و <bdi class="de">wir haben / sie haben</bdi>.' });
+mcq('s-rule-2', 2, 'sh', ask('الصيغة مع <bdi class="de">er / sie / es</bdi> بتتغير بين التلاتة؟'),
+  'لأ، واحدة لا تتغير: ist و hat', ['أيوة، كل واحد ليه صيغة', 'بتتغير مع es بس', 'بتتغير مع sie بس'],
+  { cls: 'long', note: 'التلاتة بياخدوا <bdi class="de">ist</bdi> و <bdi class="de">hat</bdi>.' });
+mcq('s-rule-3', 2, 'sh', ask('الفعل <bdi class="de">sein</bdi> يعادل إيه بالإنجليزي؟'),
+  'am / is / are', ['have / has', 'do / does', 'can / could'], { cls: 'four', note: '<bdi class="de">sein</bdi> = فعل الكينونة (يكون).' });
+mcq('s-rule-4', 2, 'sh', ask('الفعل <bdi class="de">haben</bdi> يعادل إيه بالإنجليزي؟'),
+  'have / has', ['am / is / are', 'go / goes', 'make / makes'], { cls: 'four', note: '<bdi class="de">haben</bdi> = فعل الملكية (يملك / عنده).' });
+mcq('s-rule-5', 2, 'sh', ask('ليه لازم نحفظ <bdi class="de">sein</bdi> و <bdi class="de">haben</bdi> زي ما هما؟'),
+  'لأنهم فعلان شاذّان مش بيمشوا على القاعدة العامة', ['لأنهم نادرين', 'لأنهم بيتغيروا كل يوم', 'مش لازم نحفظهم'],
+  { cls: 'long', note: 'كلاهما فعل شاذّ، لذلك يُحفظ تصريفهما من الجدول.' });
+
+/* ==================================================================
+   صفحة 3 — أفعال الحياة اليومية
+   ================================================================== */
+
+/* المستوى 1: مصدر ← معنى ← نطق */
+VERBS.forEach((v, i) => {
+  mcq('v-ar-' + v.inf, 1, 'verb', line(de(v.inf)) + ask('الفعل ده معناه إيه؟'),
+    v.ar, wrongs(V_AR, v.ar, 3, i), { say: v.inf, note: `${v.inf} = ${v.ar} — وبينطق «${v.say}».` });
+  mcq('v-de-' + v.inf, 1, 'verb', arw(v.ar) + ask('الفعل ده بالألماني (المصدر)؟'),
+    v.inf, wrongs(V_INF, v.inf, 3, i + 1), { say: v.inf, note: `${v.ar} = ${v.inf}` });
+  mcq('v-say-' + v.inf, 1, 'verb', line(de(v.inf)) + ask('بينطق إزاي؟'),
+    v.say, wrongs(V_SAY, v.say, 3, i + 2), { cls: 'four', say: v.inf, note: `${v.inf} ← «${v.say}»` });
+});
+
+/* المستوى 1: الصيغ اللي في الجدول (ich / er / wir) */
+VERBS.forEach((v, vi) => {
+  const pool = uniq(Object.values(v.f));
+  ['ich', 'er', 'wir'].forEach((p, pi) => {
+    mcq(`v-t-${v.inf}-${p}`, 1, 'verb',
+      line(de(v.inf), v.ar) + ask(`إيه الصيغة الصح مع <bdi class="de">${PLABEL[p]}</bdi>؟`),
+      v.f[p], wrongs(pool, v.f[p], 3, vi + pi), { cls: 'four', say: `${p === 'er' ? 'er' : p} ${v.f[p]}`,
+      note: `${PLABEL[p]} <b>${v.f[p]}</b>${v.s[p] ? ` — «${v.s[p]}»` : ''}` });
+  });
+});
+
+/* المستوى 2: الضمائر الباقية (du بالكتابة، ihr و sie اختيار) */
+VERBS.forEach((v, vi) => {
+  const pool = uniq(Object.values(v.f));
+  txt('v-du-' + v.inf, 2, 'verb',
+    line(de(v.inf), v.ar) + ask('اكتب الصيغة مع الضمير <bdi class="de">du</bdi>:'),
+    v.f.du, { say: `du ${v.f.du}`, accept: v.inf === 'laufen' ? ['laeufst'] : [],
+    note: v.irr ? `فعل شبه منتظم: ${v.irr} مع <bdi class="de">du</bdi> و <bdi class="de">er</bdi> ← <b>${v.f.du}</b>` : `الجذر <bdi class="de">${v.stem}</bdi> + النهاية <bdi class="de">-st</bdi> = <b>${v.f.du}</b>` });
+  mcq('v-ihr-' + v.inf, 2, 'verb', line(de(v.inf), v.ar) + ask('إيه الصيغة مع <bdi class="de">ihr</bdi>؟'),
+    v.f.ihr, wrongs(pool, v.f.ihr, 3, vi + 2), { cls: 'four', say: `ihr ${v.f.ihr}`,
+    note: `الجذر <bdi class="de">${v.stem}</bdi> + النهاية <bdi class="de">-t</bdi> = <b>${v.f.ihr}</b>` });
+  mcq('v-sie-' + v.inf, 2, 'verb', line(de(v.inf), v.ar) + ask('إيه الصيغة مع <bdi class="de">sie / Sie</bdi>؟'),
+    v.f.sie, wrongs(pool, v.f.sie, 3, vi + 3), { cls: 'four', say: `sie ${v.f.sie}`,
+    note: `<bdi class="de">wir</bdi> و <bdi class="de">sie / Sie</bdi> بياخدوا النهاية <bdi class="de">-en</bdi> = <b>${v.f.sie}</b>` });
+});
+
+/* المستوى 2: قاعدة النهايات والجذر */
+ENDINGS.forEach((r, i) => {
+  mcq('v-end-' + i, 2, 'verb', ask(`الضمير <bdi class="de">${r.p}</bdi> بياخد أنهي نهاية على جذر الفعل المنتظم؟`),
+    r.e, wrongs(['-e', '-st', '-t', '-en'], r.e, 3, i), { cls: 'four',
+    note: `النهايات: <bdi class="de">ich -e · du -st · er/sie/es -t · wir -en · ihr -t · sie/Sie -en</bdi>` });
+});
+VERBS.forEach((v, i) => {
+  mcq('v-stem-' + v.inf, 2, 'verb', line(de(v.inf), v.ar) + ask('إيه جذر الفعل ده؟'),
+    v.stem, wrongs([v.f.ich, v.f.er, v.inf].concat(VERBS.map(x => x.stem)), v.stem, 3, 0),
+    { cls: 'four', note: `بنشيل <bdi class="de">-en</bdi> من المصدر ← الجذر <b>${v.stem}</b>.` });
+});
+
+/* المستوى 2: الفعلان شبه المنتظمين */
+mcq('v-irr-1', 2, 'verb', ask('أنهي فعلين من الستة بيتغير حرف العلة في جذرهم؟'),
+  'essen و laufen', ['spielen و machen', 'gehen و trinken', 'محدش فيهم بيتغير'],
+  { cls: 'long', note: 'التغيير بيحصل مع <bdi class="de">du</bdi> و <bdi class="de">er / sie / es</bdi> بس.' });
+mcq('v-irr-2', 2, 'verb', line(de('essen'), 'مع du و er') + ask('الحرف <bdi class="de">e</bdi> في الجذر بيتحول لإيه؟'),
+  'i', ['ä', 'e', 'o'],
+  { cls: 'four', say: 'er isst', note: '<bdi class="de">du isst / er isst</bdi> — ومع <bdi class="de">ich, wir, ihr, sie</bdi> بيتصرف بانتظام: <bdi class="de">esse, essen, esst, essen</bdi>.' });
+mcq('v-irr-3', 2, 'verb', line(de('laufen'), 'مع du و er') + ask('الحرف <bdi class="de">a</bdi> في الجذر بيتحول لإيه؟'),
+  'ä', ['i', 'e', 'o'],
+  { cls: 'four', say: 'er läuft', note: '<bdi class="de">du läufst / er läuft</bdi> — ومع باقي الضمائر بينتظم: <bdi class="de">laufe, laufen, lauft, laufen</bdi>.' });
+mcq('v-irr-4', 2, 'verb', ask('<bdi class="de">essen</bdi> و <bdi class="de">laufen</bdi> مع <bdi class="de">ich, wir, ihr, sie</bdi> بيتصرفوا إزاي؟'),
+  'بانتظام تمامًا', ['بيتغيروا برضه', 'بيتغيروا مع wir بس', 'مالهمش صيغة'],
+  { cls: 'long', note: 'التغيير محصور في <bdi class="de">du</bdi> و <bdi class="de">er / sie / es</bdi>.' });
+[['wir essen', ['wir isst', 'wir esst', 'wir esse']],
+ ['ich laufe', ['ich läufe', 'ich läufst', 'ich lauft']],
+ ['ihr esst', ['ihr isst', 'ihr essen', 'ihr esse']],
+ ['er läuft', ['er lauft', 'er laufe', 'er laufen']]].forEach(([ans, bad], i) => {
+  mcq('v-irr-ok-' + i, 2, 'verb', ask('أنهي واحدة مكتوبة صح؟'), ans, bad,
+    { cls: 'four', say: ans, note: `الصح: <b>${ans}</b>` });
+});
+
+/* المستوى 2: الصيغة دي من أنهي فعل */
+[['läuft', 'laufen'], ['isst', 'essen'], ['geht', 'gehen'], ['macht', 'machen'], ['trinkst', 'trinken'], ['spielst', 'spielen']]
+  .forEach(([f, inf], i) => {
+  mcq('v-which-' + f, 2, 'verb', line(de(f)) + ask('الصيغة دي من أنهي فعل؟'),
+    inf, wrongs(V_INF, inf, 3, i), { cls: 'four', say: f,
+    note: `${f} ← <bdi class="de">${inf}</bdi> (${VERBS.find(v => v.inf === inf).ar})` });
+});
+
+/* ==================================================================
+   صفحة 4 — تكوين الجمل والمفردات
+   ================================================================== */
+
+const S_AR = SATZ.map(s => s.ar), S_DE = SATZ.map(s => s.de);
+const VC_AR = VOCAB.map(v => v.ar), VC_DE = VOCAB.map(v => v.de);
+const VC_SAY = VOCAB.filter(v => v.say).map(v => v.say);
+
+/* المستوى 1: جملة ← معنى */
+SATZ.forEach((s, i) => {
+  mcq('t-mean-' + i, 1, 'satz', line(de(s.de)) + ask('معناها إيه؟'),
+    s.ar, wrongs(S_AR, s.ar, 3, i), { cls: 'long', say: s.de, note: `«${s.say}» — ${s.ar}` });
+});
+
+/* المستوى 1: الكلمات */
+VOCAB.forEach((v, i) => {
+  mcq('t-voc-ar-' + i, 1, 'satz', line(de(v.de)) + ask('الكلمة دي معناها إيه؟'),
+    v.ar, wrongs(VC_AR, v.ar, 3, i), { say: v.tts || v.de,
+    note: `${v.de} = ${v.ar}${v.say ? ` — «${v.say}»` : ''}${v.extra ? ' ' + v.extra : ''}` });
+  mcq('t-voc-de-' + i, 1, 'satz', arw(v.ar) + ask('الكلمة دي بالألماني؟'),
+    v.de, wrongs(VC_DE, v.de, 3, i + 2), { say: v.tts || v.de, note: `${v.ar} = ${v.de}` });
+});
+VOCAB.filter(v => v.say).forEach((v, i) => {
+  mcq('t-voc-say-' + i, 1, 'satz', line(de(v.de)) + ask('بتنطق إزاي؟'),
+    v.say, wrongs(VC_SAY, v.say, 3, i + 1), { cls: 'long', say: v.tts || v.de, note: `${v.de} ← «${v.say}»` });
+});
+
+/* المستوى 2: عربي ← جملة ألمانية */
+SATZ.forEach((s, i) => {
+  mcq('t-tr-' + i, 2, 'satz', arw(s.ar) + ask('أنهي جملة بتقول المعنى ده؟'),
+    s.de, wrongs(S_DE, s.de, 3, i + 1), { cls: 'long', say: s.de, note: `${s.ar} = ${s.de}` });
+});
+
+/* المستوى 2: رتّب الجملة */
+SATZ.filter(s => s.w).forEach((s, i) => {
+  ord('t-ord-' + i, 2, 'satz', arw(s.ar) + ask('رتّب الكلمات وكوّن الجملة — دوس على الكلمة عشان تنزل، ودوس على المكان عشان ترجّعها.'),
+    s.w, { say: s.de, note: 'الفعل المصرّف بييجي في المرتبة التانية في الجملة الخبرية.' });
+});
+
+/* المستوى 2: قواعد صفحة 4 */
+mcq('t-rule-pos', 2, 'satz', ask('الفعل المصرّف بييجي في المرتبة الكام في الجملة الخبرية؟'),
+  'التانية', ['الأولى', 'الأخيرة', 'في أي مكان'], { cls: 'four',
+  note: '<bdi class="de">Ich (1) – spiele (2) – Fußball (3)</bdi>' });
+mcq('t-rule-pos2', 2, 'satz', ask('أنهي جملة مرتّبة صح؟'),
+  'Ich spiele Fußball.', ['Ich Fußball spiele.', 'Spiele Fußball ich.', 'Fußball ich spiele.'],
+  { cls: 'long', say: 'Ich spiele Fußball.', note: 'الفعل في المرتبة التانية دايمًا.' });
+mcq('t-rule-age', 2, 'satz', line(de('Ich habe 20 Jahre.')) + ask('الجملة دي صح ولا غلط؟'),
+  'غلط — الصح Ich bin 20 Jahre alt.', ['صح', 'غلط — الصح Ich habe 20 Jahre alt.', 'الاتنين صح'],
+  { cls: 'long', say: 'Ich bin 20 Jahre alt.', note: 'العمر بيتقال بفعل <bdi class="de">sein</bdi> مش <bdi class="de">haben</bdi>.' });
+mcq('t-rule-gern', 2, 'satz', ask('كلمة <bdi class="de">gern</bdi> بتيجي فين في الجملة؟'),
+  'بعد الفعل', ['قبل الفعل', 'في أول الجملة', 'مكانها مش مهم'], { cls: 'four',
+  note: '<bdi class="de">Ich spiele gern Fußball</bdi> = أحب لعب كرة القدم.' });
+mcq('t-rule-gern2', 2, 'satz', ask('إيه الفرق بين <bdi class="de">Ich spiele Fußball</bdi> و <bdi class="de">Ich spiele gern Fußball</bdi>؟'),
+  'التانية معناها إني بحب ألعب كرة القدم', ['مفيش فرق', 'التانية معناها بلعب كتير', 'التانية سؤال'],
+  { cls: 'long', note: '<bdi class="de">gern</bdi> بتقول إنك بتحب تعمل الفعل ده.' });
+mcq('t-rule-und', 2, 'satz', ask('بعد <bdi class="de">und</bdi> بنكرر الضمير لو الفاعل هو نفسه؟'),
+  'لأ، مش بنكرره', ['أيوة لازم نكرره', 'بنكرره في الجمل الطويلة بس', 'بنحط الاسم مكانه'],
+  { cls: 'long', note: '<bdi class="de">Er isst einen Apfel, läuft und trinkt Wasser.</bdi>' });
+mcq('t-rule-und2', 2, 'satz', line(de('Er isst einen Apfel, läuft und trinkt Wasser.')) + ask('ليه مفيش <bdi class="de">er</bdi> قبل <bdi class="de">läuft</bdi>؟'),
+  'لأن الفاعل هو نفسه في الجملة كلها', ['لأن الجملة غلط', 'لأن läuft فعل شاذ', 'لأن الجملة سؤال'],
+  { cls: 'long', say: 'Er isst einen Apfel, läuft und trinkt Wasser.', note: 'الضمير مابيتكررش بعد <bdi class="de">und</bdi> طول ما الفاعل واحد.' });
+mcq('t-rule-name', 2, 'satz', ask('<bdi class="de">Ich heiße Abdullah</bdi> و <bdi class="de">Mein Name ist Abdullah</bdi> — إيه العلاقة بينهم؟'),
+  'الاتنين بنفس المعنى، صيغتين مختلفتين', ['الأولى غلط', 'التانية للجمع', 'الأولى بتتقال للأطفال بس'],
+  { cls: 'long', note: 'الاتنين = اسمي عبد الله.' });
+mcq('t-rule-mag', 2, 'satz', line(de('Ich <span class="blank"></span> Fußball.')) + ask('المعنى: أنا أحب كرة القدم.'),
+  'mag', ['mögen', 'magst', 'mage'], { cls: 'four', say: 'Ich mag Fußball.',
+  note: 'الفعل <bdi class="de">mögen</bdi> مع <bdi class="de">ich</bdi> بيبقى <bdi class="de">mag</bdi>.' });
+mcq('t-rule-20', 2, 'satz', line(de('zwanzig')) + ask('الرقم ده كام؟'),
+  '20', ['12', '2', '21'], { cls: 'four', say: 'zwanzig', note: '<bdi class="de">Ich bin 20 (zwanzig) Jahre alt.</bdi>' });
+
+/* المستوى 2: اختار الجملة الصح */
+[['Ich bin 20 Jahre alt.', ['Ich habe 20 Jahre alt.', 'Ich bin 20 Jahre.', 'Ich habe 20 Jahre.']],
+ ['Er isst einen Apfel.', ['Er esst einen Apfel.', 'Er essen einen Apfel.', 'Er esse einen Apfel.']],
+ ['Wir sind zu Hause.', ['Wir seid zu Hause.', 'Wir bin zu Hause.', 'Wir ist zu Hause.']],
+ ['Ihr habt Zeit.', ['Ihr haben Zeit.', 'Ihr hast Zeit.', 'Ihr habe Zeit.']],
+ ['Du läufst.', ['Du laufst.', 'Du läuft.', 'Du laufen.']],
+ ['Sie hat ein Auto.', ['Sie habt ein Auto.', 'Sie hast ein Auto.', 'Sie habe ein Auto.']],
+ ['Wir haben Zeit.', ['Wir habt Zeit.', 'Wir hat Zeit.', 'Wir habe Zeit.']],
+ ['Ihr esst.', ['Ihr isst.', 'Ihr essen.', 'Ihr esse.']]].forEach(([ans, bad], i) => {
+  mcq('t-err-' + i, 2, 'satz', ask('أنهي جملة مكتوبة صح؟'), ans, bad,
+    { cls: 'long', say: ans, note: `الصح: <b>${ans}</b>` });
+});
+
+/* ==================================================================
+   محرّك الامتحان
+   ================================================================== */
+
+const $  = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+const isAr = t => /[؀-ۿ]/.test(String(t));
+const asOpt = t => isAr(t) ? t : `<bdi class="de">${t}</bdi>`;
+const mmss = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+function shuffle(a) { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
+
+const N_Q = 30;
+const SEEN_KEY = 'a1-basics-seen-v1';
+const HIST_KEY = 'a1-basics-hist-v1';
+const LVL_NAME = { 1: 'المستوى الأول', 2: 'المستوى التاني' };
+
+const state = { lvl: 1, exam: null, graded: false, secs: 0, timer: null, lastInput: null };
+
+/* ---------- الأسئلة اللي شفتها قبل كده ---------- */
+const loadSeen = () => { try { return JSON.parse(localStorage.getItem(SEEN_KEY)) || {}; } catch (e) { return {}; } };
+const saveSeen = o => { try { localStorage.setItem(SEEN_KEY, JSON.stringify(o)); } catch (e) {} };
+const seenSet = lvl => new Set(loadSeen()['l' + lvl] || []);
+const bankOf = lvl => BANK.filter(q => q.lvl === lvl);
+
+/* ---------- توزيع الـ 30 سؤال على الأقسام الأربعة ---------- */
+function plan(counts, n) {
+  const keys = SECS.map(s => s.key);
+  const total = keys.reduce((a, k) => a + counts[k], 0);
+  const raw = {}; let sum = 0;
+  keys.forEach(k => { raw[k] = Math.min(counts[k], Math.max(3, Math.round(n * counts[k] / total))); sum += raw[k]; });
+  for (let guard = 100; sum !== n && guard; guard--) {
+    if (sum < n) {
+      const k = keys.filter(x => raw[x] < counts[x]).sort((a, b) => raw[a] / counts[a] - raw[b] / counts[b])[0];
+      if (!k) break; raw[k]++; sum++;
+    } else {
+      const k = keys.filter(x => raw[x] > 3).sort((a, b) => raw[b] / counts[b] - raw[a] / counts[a])[0];
+      if (!k) break; raw[k]--; sum--;
+    }
+  }
+  return raw;
+}
+
+/* ---------- سحب امتحان جديد: الأولوية لأسئلة لسه مجتش ---------- */
+function drawExam(lvl) {
+  const seen = seenSet(lvl), bySec = {}, counts = {};
+  SECS.forEach(s => { bySec[s.key] = BANK.filter(q => q.lvl === lvl && q.sec === s.key); counts[s.key] = bySec[s.key].length; });
+  const want = plan(counts, N_Q);
+  let cycled = false;
+  const picked = {};
+  SECS.forEach(s => {
+    const list = bySec[s.key], n = want[s.key];
+    let pool = shuffle(list.filter(q => !seen.has(q.id)));
+    if (pool.length < n) {                       // خلصنا القسم ده → نبدأ لفّة جديدة
+      cycled = true;
+      const keep = pool.slice();
+      list.forEach(q => seen.delete(q.id));
+      pool = keep.concat(shuffle(list.filter(q => !keep.includes(q))));
+    }
+    picked[s.key] = pool.slice(0, n);
+  });
+  const all = [].concat(...SECS.map(s => picked[s.key]));
+  all.forEach(q => seen.add(q.id));
+  const o = loadSeen(); o['l' + lvl] = [...seen]; saveSeen(o);
+  return assemble(picked, cycled);
+}
+
+function assemble(picked, cycled) {
+  let no = 0; const qs = [];
+  const sections = SECS.filter(s => picked[s.key] && picked[s.key].length).map(s => {
+    const list = picked[s.key].map(src => {
+      const q = { ...src, no: ++no, uid: 'a' + no, result: null };
+      if (q.kind === 'mcq') q.shown = shuffle(q.opts);
+      if (q.kind === 'order') { q.tiles = shuffle(q.words.map(w => w)); q.picked = []; }
+      qs.push(q); return q;
+    });
+    return { ...s, qs: list };
+  });
+  return { qs, sections, cycled };
+}
+
+/* ---------- رسم الأسئلة ---------- */
+function bodyHtml(q) {
+  if (q.kind === 'mcq')
+    return `<div class="opts ${q.cls || ''}">` + q.shown.map((o, i) =>
+      `<label class="opt"><input type="radio" name="${q.uid}" value="${i}"><span>${asOpt(o)}</span></label>`).join('') + '</div>';
+  if (q.kind === 'text')
+    return `<input type="text" class="txt" name="${q.uid}" placeholder="${esc(q.ph)}" spellcheck="false">`;
+  const slots = q.words.map((w, i) => {
+    const t = q.picked[i];
+    return `<button type="button" class="slot${t != null ? ' filled' : ''}" data-slot="${i}">${t != null ? esc(q.tiles[t]) : ''}</button>`;
+  }).join('');
+  const tiles = q.tiles.map((w, i) =>
+    `<button type="button" class="tile${q.picked.includes(i) ? ' used' : ''}" data-tile="${i}">${esc(w)}</button>`).join('');
+  return `<div class="slots words">${slots}</div><div class="tiles words">${tiles}</div>`;
+}
+
+function qHtml(q) {
+  return `<div class="q" id="q${q.no}" data-no="${q.no}"><div class="q-num">${q.no}</div><div class="q-body">${q.prompt}${bodyHtml(q)}<div class="fb" hidden></div></div></div>`;
+}
+
+function renderExam() {
+  $('#exam').innerHTML = state.exam.sections.map((s, i) =>
+    `<section class="sec" data-sec="${s.key}"><header class="sec-head"><span class="sec-idx">${i + 1}</span><div><h2>${s.title}</h2><p>${s.help}</p></div><span class="sec-score" hidden></span></header>${s.qs.map(qHtml).join('')}</section>`
+  ).join('') + '<div class="submit-row"><button type="button" class="primary big" id="btnSubmit2">سلّم الامتحان واعرف درجتك</button></div>';
+}
+
+/* ---------- التقدّم ---------- */
+function answered(q, form) {
+  if (q.kind === 'mcq') return !!form.querySelector(`input[name="${q.uid}"]:checked`);
+  if (q.kind === 'text') return !!((form.querySelector(`input[name="${q.uid}"]`) || {}).value || '').trim();
+  return q.picked.length === q.words.length;
+}
+function updateProgress() {
+  const form = $('#exam'), qs = state.exam.qs;
+  const n = qs.filter(q => answered(q, form)).length;
+  $('#progTxt').textContent = `${n} / ${qs.length}`;
+  $('#progBar').style.width = (n / qs.length * 100) + '%';
+  return n;
+}
+
+/* ---------- التصحيح ---------- */
+const norm = s => String(s).toLowerCase().replace(/\s+/g, ' ').trim();
+
+function gradeOne(q, form) {
+  if (q.kind === 'mcq') {
+    const el = form.querySelector(`input[name="${q.uid}"]:checked`);
+    const your = el ? q.shown[+el.value] : '';
+    return { answered: !!el, ok: your === q.ans, your };
+  }
+  if (q.kind === 'text') {
+    const raw = (form.querySelector(`input[name="${q.uid}"]`).value || '').trim();
+    const hit = q.accept.find(a => norm(a) === norm(raw));
+    return { answered: !!raw, ok: !!hit, your: raw, spell: hit && hit !== raw ? q.ans : '' };
+  }
+  const your = q.picked.map(i => q.tiles[i]).join(' ');
+  return { answered: q.picked.length > 0, ok: your === q.ans, your };
+}
+
+function fbHtml(q) {
+  const r = q.result;
+  const say = q.say && canSpeak() ? `<button type="button" class="say" data-say="${esc(q.say)}" title="اسمع النطق">🔊</button>` : '';
+  const note = q.note ? `<span class="note">${q.note}</span>` : '';
+  if (r.ok) {
+    const warn = r.spell ? `<span class="yours">الكتابة الصح: <bdi class="de">${r.spell}</bdi></span>` : '';
+    return `<b>صح</b>${say}${warn}${note}`;
+  }
+  const yours = r.answered ? `<span class="yours">إجابتك: ${asOpt(r.your)}</span>` : '<span class="yours">سِبته من غير إجابة</span>';
+  return `<b>الإجابة الصح: ${asOpt(q.ans)}</b>${say}${yours}${note}`;
+}
+
+function finish() {
+  clearInterval(state.timer);
+  state.graded = true;
+  const form = $('#exam');
+  form.classList.add('graded');
+  state.exam.qs.forEach(q => { q.result = gradeOne(q, form); });
+
+  for (const q of state.exam.qs) {
+    const box = $(`#q${q.no}`);
+    box.classList.add(q.result.ok ? 'ok' : 'bad');
+    if (q.kind === 'mcq') {
+      $$('.opt', box).forEach(l => {
+        const v = q.shown[+$('input', l).value];
+        l.classList.toggle('is-correct', v === q.ans);
+        l.classList.toggle('is-wrong', !q.result.ok && $('input', l).checked);
+        $('input', l).disabled = true;
+      });
+    } else if (q.kind === 'text') {
+      $('input', box).readOnly = true;
+    }
+    const fb = $('.fb', box);
+    fb.innerHTML = fbHtml(q); fb.hidden = false;
+  }
+  for (const s of state.exam.sections) {
+    const el = $(`.sec[data-sec="${s.key}"] .sec-score`), ok = s.qs.filter(q => q.result.ok).length;
+    el.textContent = `${ok} / ${s.qs.length}`; el.hidden = false;
+    $(`.sec[data-sec="${s.key}"]`).classList.toggle('all-ok', ok === s.qs.length);
+  }
+  $('#charbar').hidden = true;
+  renderResult();
+  saveHistory();
+  window.scrollTo({ top: 0 });
+}
+
+function renderResult() {
+  const { qs, sections } = state.exam;
+  const ok = qs.filter(q => q.result.ok).length, total = qs.length, pct = Math.round(ok / total * 100);
+  const un = qs.filter(q => !q.result.answered).length, wrong = total - ok;
+  const g = pct >= 90 ? ['Sehr gut!', 'ممتاز'] : pct >= 75 ? ['Gut!', 'جيد جدًا'] : pct >= 60 ? ['Befriedigend', 'جيد'] : pct >= 50 ? ['Ausreichend', 'مقبول'] : ['Noch einmal!', 'محتاج تراجع وتعيد'];
+  const ring = pct >= 75 ? 'var(--good)' : pct >= 50 ? 'var(--warn)' : 'var(--bad)';
+
+  const rows = sections.map(s => {
+    const o = s.qs.filter(q => q.result.ok).length;
+    return `<div class="brow"><span>${s.title}</span><div class="bar"><i style="width:${o / s.qs.length * 100}%"></i></div><span class="n">${o} / ${s.qs.length}</span></div>`;
+  }).join('');
+
+  const miss = new Map();
+  qs.filter(q => !q.result.ok).forEach(q => {
+    const p = SECS.find(s => s.key === q.sec).page;
+    miss.set(p, (miss.get(p) || 0) + 1);
+  });
+  const chips = [...miss.entries()].sort((a, b) => b[1] - a[1])
+    .map(([p, n]) => `<a>صفحة ${p} <small>×${n}</small></a>`).join('');
+
+  $('#result').innerHTML = `
+    <div class="res-top">
+      <div class="ring" style="--p:${pct};--ring:${ring}"><b>${pct}%</b></div>
+      <div class="res-main">
+        <div class="score">${ok} من ${total}</div>
+        <div class="grade"><bdi class="de">${g[0]}</bdi> — ${g[1]}</div>
+        <div class="meta">${LVL_NAME[state.lvl]} · الوقت: <bdi dir="ltr">${mmss(state.secs)}</bdi>${un ? ` · من غير إجابة: ${un}` : ''}</div>
+      </div>
+    </div>
+    <div class="breakdown">${rows}</div>
+    ${state.exam.cycled ? '<p class="src">خلصت الأسئلة الجديدة في المستوى ده، فبدأنا لفّة تانية — يعني ممكن تشوف أسئلة جت قبل كده.</p>' : ''}
+    ${chips ? `<div class="review"><h3>راجع الصفحات دي في الملف</h3><div class="lst">${chips}</div></div>` : ''}
+    <div class="res-actions">
+      ${wrong ? `<button type="button" id="btnOnlyWrong" aria-pressed="false">ورّيني أخطائي بس</button><button type="button" id="btnRetry">امتحنّي في أخطائي (${wrong})</button>` : ''}
+      <button type="button" class="primary" id="btnNew">امتحان جديد</button>
+    </div>`;
+  $('#result').hidden = false;
+  $('#progTxt').textContent = `${ok} / ${total}`;
+  $('#progBar').style.width = pct + '%';
+  $('#btnSubmit').textContent = 'امتحان جديد';
+}
+
+/* ---------- تشغيل ---------- */
+function startExam(exam) {
+  state.exam = exam; state.graded = false; state.secs = 0; state.lastInput = null;
+  renderExam();
+  const form = $('#exam');
+  form.className = ''; form.hidden = false;
+  $('#start').hidden = true; $('#result').hidden = true; $('#top').hidden = false;
+  $('.brand').textContent = LVL_NAME[state.lvl];
+  $('#btnSubmit').textContent = 'تسليم';
+  $('#clock').textContent = '00:00';
+  $('#charbar').hidden = !exam.qs.some(q => q.kind === 'text');
+  updateProgress();
+  clearInterval(state.timer);
+  state.timer = setInterval(() => { $('#clock').textContent = mmss(++state.secs); }, 1000);
+  window.scrollTo({ top: 0 });
+}
+
+function backToStart() {
+  clearInterval(state.timer);
+  state.exam = null; state.graded = false;
+  $('#exam').hidden = true; $('#result').hidden = true; $('#top').hidden = true; $('#charbar').hidden = true;
+  $('#start').hidden = false;
+  renderStart();
+  window.scrollTo({ top: 0 });
+}
+
+function retryWrong() {
+  const picked = {};
+  SECS.forEach(s => { picked[s.key] = []; });
+  for (const s of state.exam.sections)
+    picked[s.key] = s.qs.filter(q => !q.result.ok).map(q => {
+      const c = { ...q }; delete c.result; delete c.shown; delete c.tiles; delete c.picked; return c;
+    });
+  startExam(assemble(picked, false));
+}
+
+function askSubmit() {
+  const total = state.exam.qs.length, left = total - updateProgress();
+  const dlg = $('#dlg');
+  const cnt = left === 1 ? 'سؤال واحد' : left === 2 ? 'سؤالين' : left <= 10 ? `${left} أسئلة` : `${left} سؤال`;
+  const msg = left ? `لسه فيه ${cnt} من غير إجابة من أصل ${total}. لو سلّمت دلوقتي ${left === 1 ? 'هيتحسب' : 'هيتحسبوا'} غلط.` : 'جاوبت على كل الأسئلة. تسلّم وتشوف درجتك؟';
+  if (!dlg.showModal) { if (confirm(msg)) finish(); return; }
+  $('#dlgMsg').textContent = msg;
+  $('#dlgGo').hidden = !left;
+  dlg.showModal();
+}
+
+/* ---------- شاشة البداية ---------- */
+function renderStart() {
+  $$('#seg button').forEach(b => b.setAttribute('aria-pressed', +b.dataset.lvl === state.lvl));
+  const bank = bankOf(state.lvl), seen = seenSet(state.lvl);
+  const left = bank.filter(q => !seen.has(q.id)).length;
+  const done = bank.length - left;
+  $('#poolTxt').innerHTML = `شفت <b>${done}</b> من <b>${bank.length}</b> سؤال`;
+  $('#poolBar').style.width = (done / bank.length * 100) + '%';
+  $('#est').innerHTML = left >= N_Q
+    ? `الامتحان <b>${N_Q}</b> سؤال — كلهم أسئلة لسه ماجتلكش قبل كده (فاضل <b>${left}</b>).`
+    : `فاضل <b>${left}</b> سؤال جديد بس، فالامتحان ده هيكمّل من أسئلة قديمة ويبدأ لفّة جديدة.`;
+  $('#btnReset').hidden = done === 0;
+  let h = [];
+  try { h = JSON.parse(localStorage.getItem(HIST_KEY) || '[]'); } catch (e) {}
+  h = h.filter(x => x.lvl === state.lvl);
+  $('#hist').innerHTML = h.length
+    ? `آخر نتيجة: <b>${h[h.length - 1].ok} من ${h[h.length - 1].total}</b> (<bdi dir="ltr">${h[h.length - 1].pct}%</bdi>) · أفضل نتيجة: <b><bdi dir="ltr">${Math.max(...h.map(x => x.pct))}%</bdi></b> · عدد المحاولات: ${h.length}`
+    : '';
+}
+
+function saveHistory() {
+  try {
+    const { qs } = state.exam, ok = qs.filter(q => q.result.ok).length;
+    const h = JSON.parse(localStorage.getItem(HIST_KEY) || '[]');
+    h.push({ t: Date.now(), lvl: state.lvl, ok, total: qs.length, pct: Math.round(ok / qs.length * 100), secs: state.secs });
+    localStorage.setItem(HIST_KEY, JSON.stringify(h.slice(-60)));
+  } catch (e) {}
+}
+
+/* ---------- النطق ---------- */
+let voices = [];
+const loadVoices = () => { try { voices = speechSynthesis.getVoices() || []; } catch (e) { voices = []; } };
+if ('speechSynthesis' in window) { loadVoices(); try { speechSynthesis.addEventListener('voiceschanged', loadVoices); } catch (e) {} }
+const deVoice = () => voices.find(v => /^de([-_]|$)/i.test(v.lang));
+const canSpeak = () => 'speechSynthesis' in window && (voices.length === 0 || !!deVoice());
+function speak(text) {
+  try {
+    const u = new SpeechSynthesisUtterance(text), v = deVoice();
+    if (v) u.voice = v;
+    u.lang = v ? v.lang : 'de-DE'; u.rate = .85;
+    speechSynthesis.cancel(); speechSynthesis.speak(u);
+  } catch (e) {}
+}
+
+/* ---------- الأحداث ---------- */
+$('#seg').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  state.lvl = +b.dataset.lvl; renderStart();
+});
+$('#btnStart').addEventListener('click', () => startExam(drawExam(state.lvl)));
+$('#btnReset').addEventListener('click', () => {
+  const o = loadSeen(); delete o['l' + state.lvl]; saveSeen(o); renderStart();
+});
+$('#btnSubmit').addEventListener('click', () => state.graded ? backToStart() : askSubmit());
+
+const form = $('#exam');
+form.addEventListener('submit', e => e.preventDefault());
+form.addEventListener('input', () => { if (!state.graded) updateProgress(); });
+form.addEventListener('change', e => {
+  if (state.graded || e.target.type !== 'radio') return;
+  $$('.opt', e.target.closest('.opts')).forEach(l => l.classList.toggle('sel', $('input', l).checked));
+  updateProgress();
+});
+form.addEventListener('focusin', e => { if (e.target.matches('input[type=text]')) state.lastInput = e.target; });
+form.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' || !e.target.matches('input[type=text]')) return;
+  e.preventDefault();
+  const all = $$('input[type=text]', form), next = all[all.indexOf(e.target) + 1];
+  next ? next.focus() : e.target.blur();
+});
+form.addEventListener('click', e => {
+  const say = e.target.closest('.say'); if (say) { speak(say.dataset.say); return; }
+  if (e.target.closest('#btnSubmit2')) { askSubmit(); return; }
+  if (state.graded) return;
+  const tile = e.target.closest('.tile'), slot = e.target.closest('.slot.filled');
+  if (!tile && !slot) return;
+  const box = e.target.closest('.q'), q = state.exam.qs.find(x => x.no === +box.dataset.no);
+  if (tile) { const i = +tile.dataset.tile; if (!q.picked.includes(i) && q.picked.length < q.words.length) q.picked.push(i); }
+  else q.picked.splice(+slot.dataset.slot, 1);
+  $('.q-body', box).innerHTML = q.prompt + bodyHtml(q) + '<div class="fb" hidden></div>';
+  updateProgress();
+});
+
+$('#result').addEventListener('click', e => {
+  if (e.target.closest('#btnNew')) { backToStart(); return; }
+  if (e.target.closest('#btnRetry')) { retryWrong(); return; }
+  const ow = e.target.closest('#btnOnlyWrong');
+  if (ow) {
+    const on = ow.getAttribute('aria-pressed') !== 'true';
+    ow.setAttribute('aria-pressed', on);
+    ow.textContent = on ? 'ورّيني كل الأسئلة' : 'ورّيني أخطائي بس';
+    $('#exam').classList.toggle('only-wrong', on);
+    $('#exam').scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+$('#dlgNo').addEventListener('click', () => $('#dlg').close());
+$('#dlgYes').addEventListener('click', () => { $('#dlg').close(); finish(); });
+$('#dlgGo').addEventListener('click', () => {
+  $('#dlg').close();
+  const form = $('#exam');
+  const q = state.exam.qs.find(x => !answered(x, form));
+  if (q) $(`#q${q.no}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+$('#charbar').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  const inp = state.lastInput; if (!inp) return;
+  const s = inp.selectionStart ?? inp.value.length, en = inp.selectionEnd ?? s;
+  inp.value = inp.value.slice(0, s) + b.textContent + inp.value.slice(en);
+  inp.focus(); inp.setSelectionRange(s + 1, s + 1);
+  updateProgress();
+});
+
+window.addEventListener('beforeunload', e => {
+  if (state.exam && !state.graded) { e.preventDefault(); e.returnValue = ''; }
+});
+
+renderStart();
+</script>
+</body>
+</html>

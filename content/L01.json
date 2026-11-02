@@ -1,0 +1,547 @@
+{
+  "n": 1,
+  "sentences": [
+    {
+      "id": "s01-001",
+      "de": "Guten Morgen, Herr Müller, wie geht es Ihnen?",
+      "ar": "صباح الخير يا أستاذ مولر، إزي حضرتك؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [
+        "Herr Müller, guten Morgen, wie geht es Ihnen?"
+      ],
+      "cloze": {
+        "word": "Herr",
+        "opts": [
+          "Herr",
+          "Mann",
+          "Männer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-002",
+      "de": "Guten Morgen, Frau Schneider.",
+      "ar": "صباح الخير يا مدام شنايدر.",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Guten",
+        "opts": [
+          "Guten",
+          "Gute",
+          "Gut"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-003",
+      "de": "Danke, gut! Und Ihnen?",
+      "ar": "كويس، شكرًا! وحضرتك؟",
+      "kind": "answer",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Und",
+        "opts": [
+          "Und",
+          "Oder",
+          "Auch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-004",
+      "de": "Guten Tag, Frau Kamp.",
+      "ar": "نهارك سعيد يا مدام كامب.",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s01-005",
+      "de": "Guten Tag! Wie geht es Ihnen?",
+      "ar": "نهارك سعيد! إزي حضرتك؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "geht",
+        "opts": [
+          "geht",
+          "ist",
+          "heißt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-006",
+      "de": "Sehr gut, danke. Und Ihnen?",
+      "ar": "كويس جدًا، شكرًا. وحضرتك؟",
+      "kind": "answer",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "danke",
+        "opts": [
+          "danke",
+          "bitte",
+          "gut"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-007",
+      "de": "Hey, Lena! Wie geht’s?",
+      "ar": "هاي يا لينا! عاملة إيه؟",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "informal"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s01-008",
+      "de": "Hallo, Sarah. Wie geht’s dir?",
+      "ar": "أهلًا يا سارة. عاملة إيه؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "informal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "du",
+          "ich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s01-009",
+      "de": "Hi, Tom! Super, danke. Und dir?",
+      "ar": "هاي يا توم! تمام جدًا، شكرًا. وإنت؟",
+      "kind": "answer",
+      "focus": [
+        "greeting",
+        "informal"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s01-010",
+      "de": "Guten Abend, Herr Müller!",
+      "ar": "مساء الخير يا أستاذ مولر!",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "formal",
+        "time"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s01-011",
+      "de": "Wie geht es Ihnen, Frau Kamp?",
+      "ar": "إزي حضرتك يا مدام كامب؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihnen",
+        "opts": [
+          "Ihnen",
+          "dir",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-012",
+      "de": "Es geht mir gut.",
+      "ar": "أنا بخير.",
+      "kind": "answer",
+      "focus": [
+        "greeting",
+        "pronoun"
+      ],
+      "alts": [
+        "Mir geht es gut."
+      ],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "ich",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-013",
+      "de": "Es geht mir nicht so gut.",
+      "ar": "أنا مش كويس أوي.",
+      "kind": "answer",
+      "focus": [
+        "greeting",
+        "negation"
+      ],
+      "alts": [
+        "Mir geht es nicht so gut."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "nein",
+          "kein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-014",
+      "de": "Auch gut, danke.",
+      "ar": "أنا كمان كويس، شكرًا.",
+      "kind": "answer",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Auch",
+        "opts": [
+          "Auch",
+          "Oder",
+          "Und"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-015",
+      "de": "Wie geht es dir, Emma?",
+      "ar": "إزيك يا إيما؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "informal",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wie",
+        "opts": [
+          "Wie",
+          "Wo",
+          "Wer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-016",
+      "de": "Die Frau heißt Sarah.",
+      "ar": "الست اسمها سارة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-017",
+      "de": "Der Mann heißt Tom.",
+      "ar": "الراجل اسمه توم.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Mann",
+        "opts": [
+          "Mann",
+          "Frau",
+          "Männer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-018",
+      "de": "Es ist neun Uhr.",
+      "ar": "الساعة تسعة.",
+      "kind": "statement",
+      "focus": [
+        "number",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "neun",
+        "opts": [
+          "neun",
+          "nein",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-019",
+      "de": "Guten Morgen oder guten Tag?",
+      "ar": "صباح الخير ولا نهارك سعيد؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "auch",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s01-020",
+      "de": "Hier ist es schön.",
+      "ar": "المكان هنا حلو.",
+      "kind": "statement",
+      "focus": [
+        "adjective"
+      ],
+      "alts": [
+        "Es ist hier schön."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bin",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w01-01",
+      "q": "___ geht es Ihnen?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Was"
+      ],
+      "ar": "إزي حضرتك؟",
+      "reply": "Danke, gut! Und Ihnen?",
+      "reply_ar": "كويس، شكرًا! وحضرتك؟"
+    },
+    {
+      "id": "w01-02",
+      "q": "Hallo, Sarah. ___ geht’s dir?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "أهلًا يا سارة. عاملة إيه؟",
+      "reply": "Super, danke. Und dir?",
+      "reply_ar": "تمام جدًا، شكرًا. وإنت؟"
+    },
+    {
+      "id": "w01-03",
+      "q": "___ geht es dir, Emma?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إزيك يا إيما؟",
+      "reply": "Es geht mir nicht so gut.",
+      "reply_ar": "أنا مش كويسة أوي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g01-1",
+      "h": "رسمي ولا غير رسمي؟",
+      "body": "مع العيلة والأصحاب والناس اللي تعرفهم كويس بنتكلم غير رسمي: Hallo أو Hi أو Hey والاسم الأول، ونسأل بـ Wie geht’s dir? ومع الناس الغريبة وفي الشغل والمصالح الحكومية بنتكلم رسمي: Guten Tag، و Herr للراجل أو Frau للست + اسم العيلة، ونسأل بـ Wie geht es Ihnen? ولو محتار، اختار الرسمي.",
+      "examples": [
+        {
+          "de": "Hallo, Sarah. Wie geht’s dir?",
+          "ar": "أهلًا يا سارة. عاملة إيه؟ (لصاحبتك)"
+        },
+        {
+          "de": "Guten Tag, Frau Kamp.",
+          "ar": "نهارك سعيد يا مدام كامب. (رسمي)"
+        },
+        {
+          "de": "Wie geht es Ihnen, Frau Kamp?",
+          "ar": "إزي حضرتك يا مدام كامب؟ (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "غير رسمي (du)",
+          "رسمي (Sie)"
+        ],
+        [
+          "التحية",
+          "Hallo! / Hi! / Hey!",
+          "Guten Tag!"
+        ],
+        [
+          "عامل إيه؟",
+          "Wie geht es dir?",
+          "Wie geht es Ihnen?"
+        ],
+        [
+          "وإنت؟",
+          "Und dir?",
+          "Und Ihnen?"
+        ],
+        [
+          "المناداة",
+          "Sarah، Tom",
+          "Herr Müller، Frau Kamp"
+        ]
+      ]
+    },
+    {
+      "id": "g01-2",
+      "h": "التحية حسب الوقت",
+      "body": "Guten Morgen الصبح لحد الساعة 11 تقريبًا. Guten Tag من 11 لحد 6 المغرب تقريبًا، وهي أهم تحية رسمية وتنفع طول النهار. Guten Abend من 6 المسا. وخد بالك: Guten بحرف n في الآخر، مش Gute ولا Gut.",
+      "examples": [
+        {
+          "de": "Guten Morgen, Frau Schneider.",
+          "ar": "صباح الخير يا مدام شنايدر."
+        },
+        {
+          "de": "Guten Abend, Herr Müller!",
+          "ar": "مساء الخير يا أستاذ مولر!"
+        }
+      ],
+      "table": [
+        [
+          "الوقت",
+          "التحية"
+        ],
+        [
+          "الصبح لحد 11 تقريبًا",
+          "Guten Morgen!"
+        ],
+        [
+          "من 11 لحد 6 المغرب",
+          "Guten Tag!"
+        ],
+        [
+          "من 6 المسا",
+          "Guten Abend!"
+        ]
+      ]
+    },
+    {
+      "id": "g01-3",
+      "h": "بترد إزاي على Wie geht’s؟",
+      "body": "في ألمانيا السؤال عن الحال جزء من التحية. مع حد مش قريب منك يكفي رد قصير: Danke, gut! وبعدين رجّع السؤال: Und Ihnen? للرسمي أو Und dir? لصاحبك. وتقدر تقول الجملة كاملة: Es geht mir gut.",
+      "examples": [
+        {
+          "de": "Danke, gut! Und Ihnen?",
+          "ar": "كويس، شكرًا! وحضرتك؟"
+        },
+        {
+          "de": "Hi, Tom! Super, danke. Und dir?",
+          "ar": "هاي يا توم! تمام جدًا، شكرًا. وإنت؟"
+        },
+        {
+          "de": "Es geht mir nicht so gut.",
+          "ar": "أنا مش كويس أوي."
+        }
+      ],
+      "table": [
+        [
+          "الرد",
+          "المعنى"
+        ],
+        [
+          "Super!",
+          "تمام جدًا"
+        ],
+        [
+          "Sehr gut.",
+          "كويس جدًا"
+        ],
+        [
+          "Gut.",
+          "كويس"
+        ],
+        [
+          "Nicht so gut.",
+          "مش كويس أوي"
+        ]
+      ]
+    }
+  ]
+}

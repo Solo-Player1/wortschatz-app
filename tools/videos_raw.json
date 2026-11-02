@@ -1,0 +1,1262 @@
+[
+ {
+  "n": 1,
+  "video": {
+   "__typename": "Video",
+   "id": 38052231,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 1: Hallo!",
+   "contentDate": "2017-07-26T15:03:43.753Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384538_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L1_F1_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:21",
+   "duration": 81,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977685,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977685"
+    }
+   ],
+   "firstPublicationDate": "2017-11-07T14:45:08.089Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171107,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 1,
+  "video": {
+   "__typename": "Video",
+   "id": 41395568,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 1: Hallo! (mit Untertiteln)",
+   "contentDate": "2017-11-15T15:12:32.907Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384538_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:24",
+   "duration": 84,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-15T15:12:32.907Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171115,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 2,
+  "video": {
+   "__typename": "Video",
+   "id": 38052328,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 2: Kein Problem!",
+   "contentDate": "2017-07-26T15:05:18.219Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384554_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:35",
+   "duration": 95,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 73883273,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/73883273"
+    }
+   ],
+   "firstPublicationDate": "2017-11-07T14:42:09.796Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171107,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 2,
+  "video": {
+   "__typename": "Video",
+   "id": 41487075,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 2: Kein Problem! (mit Untertiteln)",
+   "contentDate": "2017-11-22T14:35:26.205Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384554_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:38",
+   "duration": 98,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T14:35:26.205Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 3,
+  "video": {
+   "__typename": "Video",
+   "id": 38052543,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 3: Tschüss!",
+   "contentDate": "2017-07-26T15:06:24.266Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384580_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L3_F3_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:12",
+   "duration": 72,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977848,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977848"
+    }
+   ],
+   "firstPublicationDate": "2017-07-26T15:20:09.82Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170726,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 3,
+  "video": {
+   "__typename": "Video",
+   "id": 41487102,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 3: Tschüss! (mit Untertiteln)",
+   "contentDate": "2017-11-22T14:39:29.108Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384580_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:15",
+   "duration": 75,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T14:39:29.108Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 4,
+  "video": {
+   "__typename": "Video",
+   "id": 38053006,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 4: Von A bis Z",
+   "contentDate": "2017-07-26T15:10:48.218Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384596_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L4_F4_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:34",
+   "duration": 94,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977849,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977849"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:25:25.503Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 4,
+  "video": {
+   "__typename": "Video",
+   "id": 41487139,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 4: Von A bis Z (mit Untertiteln)",
+   "contentDate": "2017-11-22T14:43:28.049Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37384596_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:37",
+   "duration": 97,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T14:43:28.049Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 5,
+  "video": {
+   "__typename": "Video",
+   "id": 38053281,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 5: Ich heiße Emma",
+   "contentDate": "2017-07-26T15:12:45.838Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397264_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L1_F5_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:08",
+   "duration": 68,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977850,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977850"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:41:36.106Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 5,
+  "video": {
+   "__typename": "Video",
+   "id": 41547163,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 5: Ich heiße Emma (mit Untertiteln)",
+   "contentDate": "2017-11-27T12:08:29.317Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397264_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:14",
+   "duration": 74,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-27T12:08:29.317Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171127,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 6,
+  "video": {
+   "__typename": "Video",
+   "id": 38053661,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 6: Das ist Nico",
+   "contentDate": "2017-07-26T15:22:37.262Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397280_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L2_F6_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "00:46",
+   "duration": 46,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977851,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977851"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:27:08.656Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 6,
+  "video": {
+   "__typename": "Video",
+   "id": 41487690,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 6: Das ist Nico (mit Untertiteln)",
+   "contentDate": "2017-11-22T15:04:20.81Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397280_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "00:49",
+   "duration": 49,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T15:04:20.81Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 7,
+  "video": {
+   "__typename": "Video",
+   "id": 38054256,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 7: Woher kommst du?",
+   "contentDate": "2017-07-26T15:23:41.394Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397458_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L3_F7_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:38",
+   "duration": 98,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977852,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977852"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:27:42.323Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 7,
+  "video": {
+   "__typename": "Video",
+   "id": 41547293,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 7: Woher kommst du? (mit Untertiteln)",
+   "contentDate": "2017-11-27T12:22:33.527Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397458_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:41",
+   "duration": 101,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-27T12:22:33.527Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171127,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 8,
+  "video": {
+   "__typename": "Video",
+   "id": 38054494,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 8: Nico hat ein Problem",
+   "contentDate": "2017-07-26T15:24:08.656Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/40993589_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L4_F8_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:28",
+   "duration": 88,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977853,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977853"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:28:27.656Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 8,
+  "video": {
+   "__typename": "Video",
+   "id": 41488107,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 8: Nico hat ein Problem (mit Untertiteln)",
+   "contentDate": "2017-11-22T15:17:05.397Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/40993589_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:31",
+   "duration": 91,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T15:17:05.397Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 9,
+  "video": {
+   "__typename": "Video",
+   "id": 38054508,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 9: Zahlen von 1 bis 100",
+   "contentDate": "2017-07-26T15:24:41.562Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397360_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L1_F9_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:34",
+   "duration": 94,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977854,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977854"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:29:27.891Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 9,
+  "video": {
+   "__typename": "Video",
+   "id": 41488226,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 9: Zahlen von 1 bis 100 (mit Untertiteln)",
+   "contentDate": "2017-11-22T15:20:17.616Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397360_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:37",
+   "duration": 97,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T15:20:17.616Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 10,
+  "video": {
+   "__typename": "Video",
+   "id": 38054547,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 10: Wichtige Nummern",
+   "contentDate": "2017-07-26T15:25:12.27Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397312_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L2_F10_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:30",
+   "duration": 90,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977855,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977855"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T15:51:19.356Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 10,
+  "video": {
+   "__typename": "Video",
+   "id": 41488315,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 10: Wichtige Nummern (mit Untertiteln)",
+   "contentDate": "2017-11-22T15:22:43.084Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397312_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:33",
+   "duration": 93,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T15:22:43.084Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 11,
+  "video": {
+   "__typename": "Video",
+   "id": 38054568,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 11: Adressen",
+   "contentDate": "2017-07-26T15:25:33.805Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397344_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L3_F11_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:43",
+   "duration": 103,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977856,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977856"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:33:51.752Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 11,
+  "video": {
+   "__typename": "Video",
+   "id": 41547315,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 11: Adressen (mit Untertiteln)",
+   "contentDate": "2017-11-28T08:39:09.91Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397344_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:49",
+   "duration": 109,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-28T08:39:09.91Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171128,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 12,
+  "video": {
+   "__typename": "Video",
+   "id": 38054725,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 12: Auf dem Amt",
+   "contentDate": "2017-07-26T15:27:02.381Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397410_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L4_F12_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "02:00",
+   "duration": 120,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977857,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977857"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:34:30.672Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 12,
+  "video": {
+   "__typename": "Video",
+   "id": 41488594,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 12: Auf dem Amt (mit Untertiteln)",
+   "contentDate": "2017-11-22T15:30:33.214Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397410_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "02:03",
+   "duration": 123,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-22T15:30:33.214Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171122,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 13,
+  "video": {
+   "__typename": "Video",
+   "id": 38054758,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 13: Was machst du hier?",
+   "contentDate": "2017-07-26T15:28:46.064Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397377_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L1_F13_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:55",
+   "duration": 115,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977858,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977858"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T15:57:48.394Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 13,
+  "video": {
+   "__typename": "Video",
+   "id": 41497181,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 13: Was machst du hier? (mit Untertiteln)",
+   "contentDate": "2017-11-28T08:40:39.777Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397377_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "02:01",
+   "duration": 121,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-28T08:40:39.777Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171128,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 14,
+  "video": {
+   "__typename": "Video",
+   "id": 38054824,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 14: Was trinkst du?",
+   "contentDate": "2017-07-26T15:29:15.266Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397393_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L2_F14_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:47",
+   "duration": 107,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977859,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977859"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T15:58:59.862Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 14,
+  "video": {
+   "__typename": "Video",
+   "id": 41547406,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 14: Was trinkst du? (mit Untertiteln)",
+   "contentDate": "2017-11-27T12:33:11.172Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397393_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:50",
+   "duration": 110,
+   "subtitles": [],
+   "firstPublicationDate": "2017-11-27T12:33:11.172Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20171127,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 15,
+  "video": {
+   "__typename": "Video",
+   "id": 38054979,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 15: Zwei Tee, bitte!",
+   "contentDate": "2017-07-26T15:29:41.854Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397474_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L3_F15_,sd,hd,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:54",
+   "duration": 114,
+   "subtitles": [
+    {
+     "__typename": "SimpleResourceLink",
+     "targetId": 69977860,
+     "srcLanguage": "de",
+     "language": "GERMAN",
+     "subtitleUrl": "https://www.dw.com/media/subtitles/69977860"
+    }
+   ],
+   "firstPublicationDate": "2017-03-21T16:36:47.695Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20170321,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ },
+ {
+  "n": 15,
+  "video": {
+   "__typename": "Video",
+   "id": 47297935,
+   "modelType": "VIDEO",
+   "name": "Nicos Weg (A1) – Folge 15: Eine Pizza,bitte! (mit Untertiteln)",
+   "contentDate": "2019-01-30T14:17:01.057Z",
+   "language": "GERMAN",
+   "posterImageUrl": "https://static.dw.com/image/37397474_605.webp",
+   "hlsVideoSrc": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "formattedDuration": "01:57",
+   "duration": 117,
+   "subtitles": [],
+   "firstPublicationDate": "2019-01-30T14:17:01.057Z",
+   "trackingLanguageCode": 1,
+   "trackingFirstPublicationDate": 20190130,
+   "navigations": [
+    {
+     "__ref": "Navigation:9515"
+    }
+   ],
+   "subjects": [],
+   "categories": [
+    {
+     "__typename": "Category",
+     "originId": "19990003"
+    }
+   ],
+   "departments": [
+    {
+     "__typename": "Department",
+     "name": "Bildungsprogramme"
+    }
+   ],
+   "unifiedPrograms": []
+  }
+ }
+]

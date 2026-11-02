@@ -1,0 +1,751 @@
+{
+  "n": 11,
+  "sentences": [
+    {
+      "id": "s11-001",
+      "de": "Hier ist meine Handynummer.",
+      "ar": "أهو رقم موبايلي.",
+      "kind": "statement",
+      "focus": [
+        "phone",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-002",
+      "de": "Ist das eine Zwei oder eine Sieben?",
+      "ar": "ده اتنين ولا سبعة؟",
+      "kind": "question",
+      "focus": [
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "auch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-003",
+      "de": "Hallo, wer ist da?",
+      "ar": "ألو، مين معايا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "phone"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wer",
+        "opts": [
+          "wer",
+          "wo",
+          "wie"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-004",
+      "de": "Wie geht's dir?",
+      "ar": "إنت عامل إيه؟",
+      "kind": "question",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "du",
+          "dich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-005",
+      "de": "Danke, mir geht's gut.",
+      "ar": "شكرًا، أنا كويس.",
+      "kind": "answer",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "ich",
+          "mich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-006",
+      "de": "Warum nicht so gut?",
+      "ar": "ليه مش كويس أوي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Warum",
+        "opts": [
+          "Warum",
+          "Woher",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-007",
+      "de": "Entschuldigung, ich bin nicht Nico.",
+      "ar": "لا مؤاخذة، أنا مش نيكو.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "introduce"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "nein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-008",
+      "de": "Nico spricht nicht so gut Deutsch.",
+      "ar": "نيكو مش بيتكلم ألماني كويس أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:sprechen",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "spricht",
+        "opts": [
+          "spricht",
+          "sprichst",
+          "sprechen",
+          "spreche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-009",
+      "de": "Nicos Pass ist in der Tasche.",
+      "ar": "باسبور نيكو في الشنطة.",
+      "kind": "statement",
+      "focus": [
+        "preposition"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "aus",
+          "von"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-010",
+      "de": "Die Polizei ist in der Schreinerstraße 144.",
+      "ar": "قسم الشرطة في شارع شراينر رقم 144.",
+      "kind": "statement",
+      "focus": [
+        "address",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s11-011",
+      "de": "Und die Hausnummer ist 144.",
+      "ar": "ورقم البيت 144.",
+      "kind": "statement",
+      "focus": [
+        "address",
+        "number"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s11-012",
+      "de": "Wie heißt die Straße?",
+      "ar": "الشارع اسمه إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heißt",
+        "opts": [
+          "heißt",
+          "heiße",
+          "heißen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-013",
+      "de": "Wie schreibt man das?",
+      "ar": "دي بتتكتب إزاي؟",
+      "kind": "question",
+      "focus": [
+        "spelling",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schreibt",
+        "opts": [
+          "schreibt",
+          "schreibe",
+          "schreiben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-014",
+      "de": "Entschuldigung, wo ist die Polizei?",
+      "ar": "لو سمحت، قسم الشرطة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wo",
+        "opts": [
+          "wo",
+          "woher",
+          "warum"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-015",
+      "de": "Ich wohne in der Schreinerstraße.",
+      "ar": "أنا ساكن في شارع شراينر.",
+      "kind": "answer",
+      "focus": [
+        "address",
+        "preposition"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wohne",
+        "opts": [
+          "wohne",
+          "wohnst",
+          "wohnt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-016",
+      "de": "Ich komme aus Ägypten und wohne in Kairo.",
+      "ar": "أنا من مصر وساكن في القاهرة.",
+      "kind": "statement",
+      "focus": [
+        "origin",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "aus",
+        "opts": [
+          "aus",
+          "in",
+          "von"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-017",
+      "de": "Ich heiße Nico und bin 22 Jahre alt.",
+      "ar": "اسمي نيكو وعندي 22 سنة.",
+      "kind": "statement",
+      "focus": [
+        "introduce",
+        "age"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bin",
+        "opts": [
+          "bin",
+          "habe",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-018",
+      "de": "Warum lernst du Deutsch?",
+      "ar": "إنت بتتعلم ألماني ليه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:lernen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "lernst",
+        "opts": [
+          "lernst",
+          "lernt",
+          "lerne"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-019",
+      "de": "Wo bist du jetzt?",
+      "ar": "إنت فين دلوقتي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "bin",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-020",
+      "de": "Ich telefoniere mit Lisa.",
+      "ar": "أنا بكلّم ليزا في التليفون.",
+      "kind": "statement",
+      "focus": [
+        "verb:telefonieren",
+        "phone"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "telefoniere",
+        "opts": [
+          "telefoniere",
+          "telefonierst",
+          "telefoniert"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s11-021",
+      "de": "Hier fehlt die Hausnummer.",
+      "ar": "رقم البيت ناقص هنا.",
+      "kind": "statement",
+      "focus": [
+        "verb:fehlen",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fehlt",
+        "opts": [
+          "fehlt",
+          "fehlen",
+          "fehle"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w11-01",
+      "q": "___ heißt du?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "اسمك إيه؟",
+      "reply": "Ich heiße Nico.",
+      "reply_ar": "اسمي نيكو."
+    },
+    {
+      "id": "w11-02",
+      "q": "___ kommst du?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wo",
+        "Was",
+        "Wer"
+      ],
+      "ar": "إنت منين؟",
+      "reply": "Ich komme aus Spanien.",
+      "reply_ar": "أنا من إسبانيا."
+    },
+    {
+      "id": "w11-03",
+      "q": "___ wohnen Sie?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wie alt",
+        "Wer"
+      ],
+      "ar": "حضرتك ساكن فين؟ (رسمي)",
+      "reply": "Ich wohne in Kairo.",
+      "reply_ar": "أنا ساكن في القاهرة."
+    },
+    {
+      "id": "w11-04",
+      "q": "___ alt bist du?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "عندك كام سنة؟",
+      "reply": "Ich bin 22 Jahre alt.",
+      "reply_ar": "عندي 22 سنة."
+    },
+    {
+      "id": "w11-05",
+      "q": "___ ist da?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wie",
+        "Woher",
+        "Wo"
+      ],
+      "ar": "مين معايا؟ (في التليفون)",
+      "reply": "Hier ist Lisa.",
+      "reply_ar": "معاك ليزا."
+    },
+    {
+      "id": "w11-06",
+      "q": "___ bist du nicht hier?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "إنت مش هنا ليه؟",
+      "reply": "Ich suche die Polizei.",
+      "reply_ar": "بدوّر على قسم الشرطة."
+    },
+    {
+      "id": "w11-07",
+      "q": "___ machst du hier?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إنت بتعمل إيه هنا؟",
+      "reply": "Ich suche meine Tasche.",
+      "reply_ar": "بدوّر على شنطتي."
+    },
+    {
+      "id": "w11-08",
+      "q": "___ geht's dir?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Woher",
+        "Wer",
+        "Was"
+      ],
+      "ar": "إنت عامل إيه؟",
+      "reply": "Nicht so gut.",
+      "reply_ar": "مش كويس أوي."
+    },
+    {
+      "id": "w11-09",
+      "q": "___ ist die Polizei?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Warum",
+        "Wie viele",
+        "Wer"
+      ],
+      "ar": "قسم الشرطة فين؟",
+      "reply": "Die Polizei ist in der Schreinerstraße.",
+      "reply_ar": "قسم الشرطة في شارع شراينر."
+    },
+    {
+      "id": "w11-10",
+      "q": "___ Sprachen sprichst du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "بتتكلم كام لغة؟",
+      "reply": "Ich spreche drei Sprachen.",
+      "reply_ar": "بتكلم 3 لغات."
+    },
+    {
+      "id": "w11-11",
+      "q": "___ spricht nicht so gut Deutsch?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين اللي مش بيتكلم ألماني كويس أوي؟",
+      "reply": "Nico.",
+      "reply_ar": "نيكو."
+    },
+    {
+      "id": "w11-12",
+      "q": "___ ist deine Handynummer?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "رقم موبايلك كام؟",
+      "reply": "Meine Handynummer ist 0173 907634.",
+      "reply_ar": "رقم موبايلي 0173 907634."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-1",
+      "h": "أدوات الاستفهام (W-Fragen)",
+      "body": "سؤال الـ W مابنردش عليه بـ ja أو nein، بنرد بمعلومة. والترتيب ثابت: أداة الاستفهام في الأول، وبعدها الفعل على طول، وبعدين الفاعل: Wie (1) heißt (2) du (3)? يعني الفعل دايمًا في المكان التاني.",
+      "examples": [
+        {
+          "de": "Wie heißt du?",
+          "ar": "اسمك إيه؟"
+        },
+        {
+          "de": "Woher kommen Sie?",
+          "ar": "حضرتك منين؟ (رسمي)"
+        },
+        {
+          "de": "Warum lernst du Deutsch?",
+          "ar": "إنت بتتعلم ألماني ليه؟"
+        }
+      ],
+      "table": [
+        [
+          "الأداة",
+          "يعني",
+          "مثال"
+        ],
+        [
+          "Wer",
+          "مين",
+          "Wer ist da?"
+        ],
+        [
+          "Was",
+          "إيه",
+          "Was machst du hier?"
+        ],
+        [
+          "Wie",
+          "إزاي / إيه",
+          "Wie heißt du?"
+        ],
+        [
+          "Wo",
+          "فين",
+          "Wo wohnst du?"
+        ],
+        [
+          "Woher",
+          "منين",
+          "Woher kommst du?"
+        ],
+        [
+          "Warum",
+          "ليه",
+          "Warum bist du nicht hier?"
+        ],
+        [
+          "Wie alt",
+          "عندك كام سنة",
+          "Wie alt bist du?"
+        ],
+        [
+          "Wie viele",
+          "كام (عدد)",
+          "Wie viele Sprachen sprichst du?"
+        ]
+      ]
+    },
+    {
+      "id": "g11-2",
+      "h": "wo ولا woher؟ — in ولا aus؟",
+      "body": "wo = فين (المكان اللي إنت فيه) والرد بـ in: Ich wohne in Kairo. woher = منين (جاي منين) والرد بـ aus: Ich komme aus Ägypten. ومع اسم الشارع بنقول in der: Ich wohne in der Schreinerstraße. شوية بلاد ليها أداة (aus dem Irak، aus der Türkei)، بس مصر من غير: aus Ägypten.",
+      "examples": [
+        {
+          "de": "Woher kommst du? – Ich komme aus Ägypten.",
+          "ar": "إنت منين؟ – أنا من مصر."
+        },
+        {
+          "de": "Wo wohnst du? – Ich wohne in Kairo.",
+          "ar": "ساكن فين؟ – ساكن في القاهرة."
+        },
+        {
+          "de": "Die Polizei ist in der Schreinerstraße.",
+          "ar": "قسم الشرطة في شارع شراينر."
+        }
+      ],
+      "table": [
+        [
+          "السؤال",
+          "الرد",
+          "الحرف"
+        ],
+        [
+          "Woher …?",
+          "Ich komme aus Ägypten.",
+          "aus = من"
+        ],
+        [
+          "Wo …?",
+          "Ich wohne in Kairo.",
+          "in = في"
+        ],
+        [
+          "Wo …? (شارع)",
+          "Ich wohne in der Schreinerstraße.",
+          "in der + الشارع"
+        ]
+      ]
+    },
+    {
+      "id": "g11-3",
+      "h": "بياناتك الشخصية",
+      "body": "لما حد يسألك عن بياناتك (في التليفون، في الراديو، في مكتب)، دول أهم 5 أسئلة وردودهم. خد بالك: العمر بـ sein مش haben: Ich bin 22 Jahre alt، مش Ich habe 22 Jahre.",
+      "examples": [
+        {
+          "de": "Ich heiße Nico und bin 22 Jahre alt.",
+          "ar": "اسمي نيكو وعندي 22 سنة."
+        },
+        {
+          "de": "Ich komme aus Ägypten und wohne in Kairo.",
+          "ar": "أنا من مصر وساكن في القاهرة."
+        }
+      ],
+      "table": [
+        [
+          "السؤال",
+          "ردّك"
+        ],
+        [
+          "Wie heißt du?",
+          "Ich heiße …"
+        ],
+        [
+          "Wie alt bist du?",
+          "Ich bin … Jahre alt."
+        ],
+        [
+          "Woher kommst du?",
+          "Ich komme aus …"
+        ],
+        [
+          "Wo wohnst du?",
+          "Ich wohne in …"
+        ],
+        [
+          "Wie ist deine Handynummer?",
+          "Meine Handynummer ist …"
+        ]
+      ]
+    },
+    {
+      "id": "g11-4",
+      "h": "على التليفون: Wer ist da? – Hier ist …",
+      "body": "لو إنت اللي بتتصل، عرّف نفسك بـ Hier ist + اسمك (= معاك فلان). ولو مش عارف مين بيكلمك: Wer ist da? (= مين معايا؟). ولو مافهمتش الرقم أو الاسم: Noch einmal bitte. أو Langsam bitte.",
+      "examples": [
+        {
+          "de": "Hallo, wer ist da?",
+          "ar": "ألو، مين معايا؟"
+        },
+        {
+          "de": "Hier ist Lisa.",
+          "ar": "معاك ليزا."
+        },
+        {
+          "de": "Noch einmal bitte.",
+          "ar": "تاني لو سمحت."
+        }
+      ]
+    }
+  ]
+}

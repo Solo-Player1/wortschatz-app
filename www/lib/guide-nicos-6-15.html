@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نيكوس ويج — شرح وخطة الدروس 6 إلى 15</title>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+  @page { size: A4; margin: 15mm 13mm 14mm; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  :root {
+    --ink: #16202c; --ink2: #44536a; --muted: #7c8899;
+    --navy: #14315e; --blue: #2a6fd6; --blue-t: #eaf1fc;
+    --red: #c3272b; --red-t: #fdeced; --gold: #b8860b; --gold-t: #fdf4de;
+    --green: #1a7a3c; --green-t: #e9f6ee;
+    --line: #d7dde7; --line2: #b9c4d2; --surf: #f5f7fa;
+    --fd: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  body { margin: 0; font-family: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+         font-size: 11.3pt; line-height: 1.8; color: var(--ink); }
+  h1, h2, h3, h4 { font-family: "Noto Kufi Arabic", "IBM Plex Sans Arabic", sans-serif; margin: 0; line-height: 1.5; }
+  p { margin: 0 0 8px; }
+  ul, ol { margin: 0 0 10px; padding-inline-start: 20px; }
+  li { margin-bottom: 5px; }
+  b, strong { font-weight: 700; }
+  .de { direction: ltr; unicode-bidi: isolate; font-family: var(--fd); font-weight: 600; white-space: nowrap; }
+  .de-l { direction: ltr; unicode-bidi: isolate; font-family: var(--fd); font-weight: 600; }
+
+  /* ---------- الغلاف ---------- */
+  .cover { height: 258mm; display: flex; flex-direction: column; justify-content: center; text-align: center; break-after: page; }
+  .flagbar { height: 9px; background: linear-gradient(to bottom, #111 0 33.3%, var(--red) 33.3% 66.6%, #f0c000 66.6%); border-radius: 2px; margin-bottom: 26px; }
+  .cover h1 { font-size: 30pt; color: var(--navy); margin-bottom: 6px; }
+  .cover .sub { font-size: 15pt; color: var(--ink2); font-weight: 600; }
+  .cover .tag { display: inline-block; margin-top: 18px; padding: 5px 20px; border: 2px solid var(--navy); border-radius: 999px; font-weight: 700; color: var(--navy); font-size: 12pt; }
+  .cover .meta { margin-top: 26px; color: var(--muted); font-size: 10.5pt; line-height: 2; }
+  .cover .box { margin: 28px auto 0; max-width: 150mm; background: var(--surf); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; text-align: right; font-size: 10.8pt; }
+
+  /* ---------- عناوين ---------- */
+  h2.part { break-before: page; font-size: 19pt; color: var(--navy); padding-bottom: 8px; border-bottom: 3px solid var(--navy); margin-bottom: 14px; }
+  h2.part span { font-family: var(--fd); direction: ltr; unicode-bidi: isolate; font-size: 15pt; color: var(--ink2); display: block; font-weight: 600; margin-top: 2px; }
+  h3 { font-size: 13pt; color: var(--navy); margin: 16px 0 7px; padding-inline-start: 10px; border-inline-start: 4px solid var(--blue); }
+  h4 { font-size: 11.8pt; margin: 12px 0 5px; color: var(--ink); }
+  .lead { color: var(--ink2); margin-bottom: 10px; }
+
+  /* ---------- صناديق ---------- */
+  .box { border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; margin: 10px 0; background: #fff; break-inside: avoid; }
+  .box.blue { background: var(--blue-t); border-color: #bcd6f5; }
+  .box.gold { background: var(--gold-t); border-color: #e8d49a; }
+  .box.red { background: var(--red-t); border-color: #f0c2c4; }
+  .box.green { background: var(--green-t); border-color: #b9e0c7; }
+  .box .t { font-family: "Noto Kufi Arabic", sans-serif; font-weight: 700; font-size: 11pt; margin-bottom: 5px; display: block; }
+  .box.gold .t { color: #7a5800; }
+  .box.red .t { color: #9b1f23; }
+  .box.green .t { color: #11582b; }
+  .box.blue .t { color: var(--navy); }
+  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
+
+  /* ---------- جداول ---------- */
+  table { width: 100%; border-collapse: collapse; margin: 9px 0 12px; font-size: 10.6pt; break-inside: avoid; }
+  th, td { border: 1px solid var(--line); padding: 5px 8px; text-align: right; vertical-align: top; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 10.4pt; }
+  tr:nth-child(even) td { background: #fafbfd; }
+  td.c, th.c { text-align: center; }
+  table.vocab td:first-child { width: 47%; direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; }
+  table.conj td:first-child { width: 34%; direction: ltr; text-align: left; font-family: var(--fd); }
+  table.conj td:nth-child(2) { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 700; color: var(--navy); width: 26%; }
+  table.num td { direction: ltr; text-align: left; font-family: var(--fd); }
+  table.num td:first-child { width: 14%; font-weight: 700; color: var(--red); text-align: center; }
+  .big-de { font-family: var(--fd); direction: ltr; font-size: 13pt; font-weight: 700; color: var(--navy); }
+
+  .ex { background: var(--surf); border-inline-start: 4px solid var(--blue); border-radius: 0 8px 8px 0; padding: 8px 12px; margin: 8px 0; break-inside: avoid; }
+  .ex div { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; margin-bottom: 2px; }
+  .ex small { display: block; color: var(--ink2); font-size: 10pt; font-family: "IBM Plex Sans Arabic", sans-serif; direction: rtl; text-align: right; font-weight: 400; }
+  .pill { display: inline-block; background: var(--navy); color: #fff; border-radius: 999px; padding: 1px 11px; font-size: 9.6pt; font-weight: 700; margin-inline-start: 6px; }
+  .pill.g { background: var(--green); } .pill.r { background: var(--red); } .pill.b { background: var(--blue); }
+  .facts { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 14px; }
+  .facts div { flex: 1 1 86px; border: 1px solid var(--line); border-radius: 9px; padding: 7px 4px; text-align: center; background: var(--surf); }
+  .facts b { display: block; font-size: 15pt; font-family: "Noto Kufi Arabic", sans-serif; color: var(--navy); line-height: 1.3; }
+  .facts span { font-size: 9.4pt; color: var(--muted); }
+  table.vocab2 td { padding: 4px 7px; font-size: 10.1pt; line-height: 1.6; }
+  table.vocab2 td:nth-child(odd) { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; width: 28%; }
+  table.vocab2 td:nth-child(even) { width: 22%; color: var(--ink2); }
+  .foot { margin-top: 14px; padding-top: 8px; border-top: 1px solid var(--line); color: var(--muted); font-size: 9.6pt; }
+  a { color: var(--blue); text-decoration: none; }
+</style>
+<style>
+  /* عرض على الشاشة (الموبايل) — ستايل الطباعة فوق زي ما هو */
+  @media screen {
+    html { -webkit-text-size-adjust: 100%; color-scheme: light; }
+    body { max-width: 860px; margin: 0 auto; padding: 18px 18px 48px; background: #fff; }
+  }
+  @media screen and (max-width: 700px) {
+    body { padding: 12px 14px 40px; font-size: 15px; line-height: 1.85; }
+    .cover { height: auto; min-height: 0; padding: 22px 0 6px; break-after: auto; }
+    .cover h1 { font-size: 26px; }
+    .cover .sub { font-size: 17px; }
+    .cover .box { max-width: none; margin-top: 20px; padding: 12px 14px; }
+    h2.part { break-before: auto; font-size: 22px; margin-top: 30px; }
+    h2.part span { font-size: 16px; }
+    h3 { font-size: 17px; }
+    h4 { font-size: 15.5px; }
+    .de { white-space: normal; }
+    table { table-layout: fixed; font-size: 13px; }
+    th, td { padding: 4px 6px; overflow-wrap: anywhere; }
+    table.vocab td:first-child { width: 48%; }
+    table.vocab2 td:nth-child(odd) { width: 30%; }
+    table.vocab2 td:nth-child(even) { width: 20%; }
+    .facts div { flex: 1 1 40%; }
+    .ex, .box { overflow-wrap: anywhere; }
+    ul, ol { padding-inline-start: 18px; }
+    img, svg { max-width: 100%; height: auto; }
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="flagbar"></div>
+  <h1>نيكوس ويج — الدروس من 6 لـ 15</h1>
+  <p class="sub">شرح كامل بالعربي + خطة زمنية للمذاكرة</p>
+  <div><span class="tag">Nicos Weg · A1 · Deutsche Welle</span></div>
+  <div class="box">
+    <p><b>الملف ده فيه إيه؟</b></p>
+    <p>شرح لكل درس من العشرة: هدف الدرس، القواعد الجديدة بالتفصيل وبأمثلة، جمل لازم تحفظها، كل كلمات الدرس في جدول، والغلطات اللي الناس بتقع فيها. وفي الآخر ملخص قواعد العشر دروس في صفحتين، وخطة 21 يوم تمشي عليها.</p>
+    <p style="margin-top:8px"><b>المحتوى كله مأخوذ من صفحات الدروس نفسها</b> على learngerman.dw.com — الكلمات والقواعد زي ما هي في الكورس بالظبط، مش من بره.</p>
+  </div>
+  <p class="meta">245 كلمة وعبارة · 124 تمرين · 17 شرح قواعد<br>اتعمل في 24 أكتوبر 2026</p>
+</section>
+
+<h2 class="part">نظرة سريعة على العشر دروس<span>Lektion 6 – 15</span></h2>
+
+<p class="lead">دي خريطة الطريق. لاحظ إن الدروس مش كلها نفس الحجم: درس 12 (<bdi class="de">Auf dem Amt</bdi>) لوحده قد تلات دروس صغيرة، فخطة الوقت اتبنت على الحجم الحقيقي مش على "درس في اليوم".</p>
+
+<table>
+  <tr><th class="c">#</th><th>الدرس</th><th>بتتعلم فيه إيه</th><th>القاعدة الجديدة</th><th class="c">كلمات</th><th class="c">تمارين</th><th class="c">وقت</th></tr>
+  <tr><td class="c">6</td><td class="de">Das ist Nico</td><td>تعرّف حد لحد تاني</td><td>er / sie · المهنة من غير أداة</td><td class="c">17</td><td class="c">8</td><td class="c">55 د</td></tr>
+  <tr><td class="c">7</td><td class="de">Woher kommst du?</td><td>تقول اسمك وبلدك</td><td>تصريف المضارع (1)</td><td class="c">33</td><td class="c">12</td><td class="c">90 د</td></tr>
+  <tr><td class="c">8</td><td class="de">Nico hat ein Problem</td><td>تسأل عن شخص</td><td>التصريف كامل · <bdi class="de">haben</bdi></td><td class="c">24</td><td class="c">11</td><td class="c">100 د</td></tr>
+  <tr><td class="c">9</td><td class="de">Zahlen von 1 bis 100</td><td>الأعداد والعمر</td><td>11–19 و 20–100</td><td class="c">35</td><td class="c">14</td><td class="c">110 د</td></tr>
+  <tr><td class="c">10</td><td class="de">Wichtige Nummern</td><td>أرقام التليفون</td><td>— (تطبيق على الأعداد)</td><td class="c">20</td><td class="c">12</td><td class="c">70 د</td></tr>
+  <tr><td class="c">11</td><td class="de">Adressen</td><td>بياناتك الشخصية</td><td>أدوات الاستفهام · <bdi class="de">aus / in</bdi></td><td class="c">12</td><td class="c">13</td><td class="c">85 د</td></tr>
+  <tr><td class="c">12</td><td class="de">Auf dem Amt</td><td>مصلحة حكومية</td><td>الأعداد بعد 100 · المخاطبة الرسمية</td><td class="c">36</td><td class="c">16</td><td class="c">130 د</td></tr>
+  <tr><td class="c">13</td><td class="de">Was machst du hier?</td><td>تتعرّف على ناس</td><td>— (تطبيق على الأسئلة)</td><td class="c">17</td><td class="c">9</td><td class="c">60 د</td></tr>
+  <tr><td class="c">14</td><td class="de">Was trinkst du?</td><td>تطلب مشروب</td><td><bdi class="de">der / die / das</bdi> · <bdi class="de">wer / was</bdi></td><td class="c">30</td><td class="c">13</td><td class="c">100 د</td></tr>
+  <tr><td class="c">15</td><td class="de">Eine Pizza bitte!</td><td>تطلب أكل</td><td>تحوّل <bdi class="de">e → i</bdi></td><td class="c">21</td><td class="c">16</td><td class="c">90 د</td></tr>
+  <tr><td class="c" colspan="4" style="background:var(--surf);font-weight:700">الإجمالي</td><td class="c" style="background:var(--surf);font-weight:700">245</td><td class="c" style="background:var(--surf);font-weight:700">124</td><td class="c" style="background:var(--surf);font-weight:700">~14.5 ساعة</td></tr>
+</table>
+
+<div class="box gold">
+  <span class="t">الوقت ده اتحسب إزاي؟</span>
+  <p>DW مش بتنشر مدة لكل درس، فحسبتها من حجم الدرس الفعلي اللي على الموقع:</p>
+  <p><b>الفيديو</b> 8 دقايق (تتفرج مرتين: مرة من غير ترجمة ومرة بيها) + <b>كل تمرين</b> 2.5 دقيقة + <b>كل صفحة قواعد</b> 6 دقايق + <b>كل كلمة جديدة</b> دقيقة + <b>20% زيادة</b> للمراجعة والغلط.</p>
+  <p>يعني لو قعدت أكتر من كده ماتقلقش — الأرقام دي للتخطيط مش للسباق.</p>
+</div>
+
+<h2 class="part">الخطة الزمنية — 21 يوم<span>3 أسابيع · ~50 دقيقة في اليوم</span></h2>
+
+<p class="lead">الخطة مبنية على إنك بتذاكر 6 أيام في الأسبوع واليوم السابع مراجعة أو راحة. الدروس الكبيرة اتقسمت على يومين عشان ما تاخدش أكتر من ساعة في اليوم.</p>
+
+<h3>الأسبوع الأول — الأساس: الأفعال والضمائر</h3>
+<table>
+  <tr><th class="c">اليوم</th><th>الشغل</th><th class="c">الوقت</th></tr>
+  <tr><td class="c">1</td><td>درس 6 كامل — <bdi class="de">Das ist Nico</bdi> (فيديو + تمارين + كلمات)</td><td class="c">55 د</td></tr>
+  <tr><td class="c">2</td><td>درس 7 — الفيديو + صفحة القواعد (تصريف المضارع) + أول 6 تمارين</td><td class="c">50 د</td></tr>
+  <tr><td class="c">3</td><td>درس 7 — باقي التمارين + حفظ الـ33 كلمة</td><td class="c">45 د</td></tr>
+  <tr><td class="c">4</td><td>درس 8 — الفيديو + ضمائر الغائب والجمع (<bdi class="de">er, sie, es, wir, ihr, sie</bdi>)</td><td class="c">50 د</td></tr>
+  <tr><td class="c">5</td><td>درس 8 — تصريف <bdi class="de">haben</bdi> + باقي التمارين + الكلمات</td><td class="c">50 د</td></tr>
+  <tr><td class="c">6</td><td><b>مراجعة:</b> اكتب جدول تصريف <bdi class="de">kommen / sein / haben</bdi> من دماغك 3 مرات</td><td class="c">40 د</td></tr>
+  <tr><td class="c">7</td><td>راحة — أو كرر الفيديوهات التلاتة من غير ترجمة</td><td class="c">—</td></tr>
+</table>
+
+<h3>الأسبوع التاني — الأرقام والبيانات الشخصية</h3>
+<table>
+  <tr><th class="c">اليوم</th><th>الشغل</th><th class="c">الوقت</th></tr>
+  <tr><td class="c">8</td><td>درس 9 — الأعداد من 1 لـ 20 (ده الجزء اللي محتاج تكرار)</td><td class="c">55 د</td></tr>
+  <tr><td class="c">9</td><td>درس 9 — العقود والأعداد المركّبة (21–100) + التمارين</td><td class="c">55 د</td></tr>
+  <tr><td class="c">10</td><td>درس 10 كامل — أرقام التليفون والعمر</td><td class="c">70 د</td></tr>
+  <tr><td class="c">11</td><td>درس 11 — أدوات الاستفهام + <bdi class="de">aus / in</bdi></td><td class="c">45 د</td></tr>
+  <tr><td class="c">12</td><td>درس 11 — باقي التمارين + الكلمات</td><td class="c">40 د</td></tr>
+  <tr><td class="c">13</td><td><b>مراجعة:</b> اقرا 20 رقم عشوائي بصوت عالي + قول بياناتك كاملة بالألماني</td><td class="c">40 د</td></tr>
+  <tr><td class="c">14</td><td>راحة</td><td class="c">—</td></tr>
+</table>
+
+<h3>الأسبوع التالت — الرسمي والأكل والشرب</h3>
+<table>
+  <tr><th class="c">اليوم</th><th>الشغل</th><th class="c">الوقت</th></tr>
+  <tr><td class="c">15</td><td>درس 12 — الأعداد بعد 100 + الفيديو</td><td class="c">65 د</td></tr>
+  <tr><td class="c">16</td><td>درس 12 — المخاطبة الرسمية في المصلحة + باقي التمارين <span class="pill r">أهم درس عمليًا</span></td><td class="c">65 د</td></tr>
+  <tr><td class="c">17</td><td>درس 13 كامل — <bdi class="de">Was machst du hier?</bdi></td><td class="c">60 د</td></tr>
+  <tr><td class="c">18</td><td>درس 14 — جنس الأسماء <bdi class="de">der/die/das</bdi> + المشروبات</td><td class="c">55 د</td></tr>
+  <tr><td class="c">19</td><td>درس 14 — <bdi class="de">wer/was</bdi> + <bdi class="de">mit/ohne</bdi> + التمارين</td><td class="c">45 د</td></tr>
+  <tr><td class="c">20</td><td>درس 15 — تحوّل <bdi class="de">e → i</bdi> (<bdi class="de">essen, nehmen</bdi>)</td><td class="c">50 د</td></tr>
+  <tr><td class="c">21</td><td>درس 15 — طلب الأكل + <b>مراجعة شاملة</b> على العشر دروس</td><td class="c">60 د</td></tr>
+</table>
+
+<div class="box green">
+  <span class="t">لو عندك ساعة ونص في اليوم</span>
+  <p>اضغط الخطة لـ <b>12 يوم</b>: ادمج اليومين بتوع كل درس في يوم واحد (7، 9، 11، 12، 14، 15)، وسيب يومين مراجعة في الآخر. بس ماتدمجش درس 9 و12 مع غيرهم — الأرقام محتاجة نوم عليها.</p>
+</div>
+
+<div class="box blue">
+  <span class="t">روتين الدرس الواحد — بالترتيب ده بالظبط</span>
+  <ol style="margin-bottom:0">
+    <li><b>الفيديو الأول من غير ترجمة</b> — مش هتفهم كل حاجة وده طبيعي، المهم تلتقط الجو.</li>
+    <li><b>الفيديو تاني بالترجمة العربية</b> — دلوقتي اربط اللي سمعته باللي فهمته.</li>
+    <li><b>صفحة القواعد</b> (لو الدرس فيه) — اقراها من الملف ده الأول بالعربي، وبعدين من الموقع.</li>
+    <li><b>التمارين بالترتيب</b> — ماتعدّيش تمرين عشان صعب، التمارين هي اللي بتثبّت.</li>
+    <li><b>الكلمات</b> — من جدول الدرس في الملف ده، وبصوت عالي مش بالعين بس.</li>
+    <li><b>في آخر اليوم</b> — افتح امتحان نيكوس ويج اللي عندك وحل 30 سؤال.</li>
+  </ol>
+</div>
+
+<h2 class="part">الدرس 6 — تعرّف حد لحد تاني<span>Das ist Nico</span></h2>
+<div class="facts"><div><b>17</b><span>كلمة</span></div><div><b>8</b><span>تمارين</span></div><div><b>0</b><span>صفحة قواعد</span></div><div><b>55</b><span>دقيقة</span></div></div>
+
+<p class="lead">لحد دلوقتي كنت بتتكلم عن نفسك (<bdi class="de">ich</bdi>) وبتسأل اللي قدامك (<bdi class="de">du / Sie</bdi>). الدرس ده بيضيف حاجة جديدة: تتكلم عن <b>شخص تالت</b> مش موجود في الكلام — <bdi class="de">er</bdi> (هو) و <bdi class="de">sie</bdi> (هي).</p>
+
+<h3>1. تقدّم حد: <bdi class="de">Das ist …</bdi></h3>
+<p>الجملة دي هتستعملها كل يوم. <bdi class="de">das</bdi> هنا معناها «ده / دي» مش أداة تعريف:</p>
+<div class="ex"><div>Das ist Nico. Er ist Taxifahrer.</div><small>ده نيقو. هو سائق تاكسي.</small></div>
+<div class="ex"><div>Das ist Lisa. Sie ist Deutschlehrerin.</div><small>دي ليزا. هي مدرّسة ألماني.</small></div>
+
+<h3>2. المهنة بتتقال من غير أداة</h3>
+<div class="box red">
+  <span class="t">خد بالك من الغلطة دي</span>
+  <p>في العربي والإنجليزي بتقول «هو <u>سائق</u>» / "He is <u>a</u> driver". في الألماني <b>مفيش أداة قبل المهنة</b>:</p>
+  <p><bdi class="de-l">Er ist Taxifahrer.</bdi> ✔ &nbsp;&nbsp; <bdi class="de-l" style="color:#9b1f23">Er ist ein Taxifahrer.</bdi> ✘</p>
+</div>
+<p>ولاحظ إن المؤنث بياخد <bdi class="de">-in</bdi> في الآخر — نفس القاعدة اللي خدتها في <bdi class="de">Student / Studentin</bdi>:</p>
+<table class="conj">
+  <tr><th>المذكّر</th><th>المؤنّث</th><th>المعنى</th></tr>
+  <tr><td>der Taxifahrer</td><td>die Taxifahrerin</td><td>سائق / سائقة تاكسي</td></tr>
+</table>
+
+<h3>3. الاسم في ألمانيا: شخصي + عائلة</h3>
+<p>التفرقة دي مهمة جدًا في أي استمارة رسمية هتملاها (وهتقابلها تاني في درس 12):</p>
+<table>
+  <tr><th>الكلمة</th><th>يعني إيه</th><th>مثال</th></tr>
+  <tr><td class="de">der Vorname</td><td>الاسم الشخصي (الأول)</td><td class="de">Nico</td></tr>
+  <tr><td class="de">der Familienname</td><td>اسم العائلة</td><td class="de">González</td></tr>
+</table>
+<div class="ex"><div>Mein Vorname ist Abdullah. Mein Familienname ist …</div><small>اسمي الشخصي عبد الله. واسم عائلتي…</small></div>
+
+<h3>4. عبارة مهمة: <bdi class="de">Keine Ahnung.</bdi></h3>
+<p>معناها «ملهاش فكرة / مش عارف». دي أكتر رد هتسمعه في الشارع لما تسأل حد عن حاجة مش عارفها.</p>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>das Beispiel, die Beispiele</td><td>مثال</td><td>(das) Deutsch</td><td>اللغة الألمانية</td></tr>
+  <tr><td>er</td><td>هو</td><td>der Familienname, die Familiennamen</td><td>اسم العائلة</td></tr>
+  <tr><td>(jemandem) helfen</td><td>ساعدَ (شخصاً)</td><td>in</td><td>في، بداخل</td></tr>
+  <tr><td>Keine Ahnung.</td><td>لا أعرف.، ليس لدي فكرة.</td><td>der Kurs, die Kurse</td><td>دورة</td></tr>
+  <tr><td>(etwas) lernen</td><td>تعلّمَ (شيئاً)</td><td>sie</td><td>هي</td></tr>
+  <tr><td>die Sprache, die Sprachen</td><td>لغة</td><td>der Taxifahrer, die Taxifahrer</td><td>سائق سيارة الأجرة</td></tr>
+  <tr><td>Er ist Taxifahrer.</td><td>هو سائق سيارة أجرة.</td><td>die Taxifahrerin, die Taxifahrerinnen</td><td>سائقة سيارة الأجرة</td></tr>
+  <tr><td>Sie ist Taxifahrerin.</td><td>هي سائقة سيارة أجرة.</td><td>der Vorname, die Vornamen</td><td>الاسم الشخصي</td></tr>
+  <tr><td>woher</td><td>من أين</td><td></td><td></td></tr>
+</table>
+
+<div class="box gold">
+  <span class="t">من الدرس · الأسماء في ألمانيا</span>
+  <p>لكل جيل أسماء دارجة: اللي اتولدوا في الستينات أسماءهم غالبًا <bdi class="de">Thomas, Michael, Petra, Claudia</bdi>، ودلوقتي الدارج <bdi class="de">Jonas, Luca, Laura, Lea</bdi>. وفيه أسماء كلاسيكية ما بتموتش زي <bdi class="de">Max</bdi> و <bdi class="de">Anna</bdi>.</p>
+</div>
+
+<h2 class="part">الدرس 7 — تصريف الفعل: أهم قاعدة لحد دلوقتي<span>Woher kommst du?</span></h2>
+<div class="facts"><div><b>33</b><span>كلمة</span></div><div><b>12</b><span>تمارين</span></div><div><b>1</b><span>صفحة قواعد</span></div><div><b>90</b><span>دقيقة</span></div></div>
+
+<p class="lead">ده أهم درس في العشرة. لو فهمت التصريف صح هنا، كل الدروس اللي بعده هتمشي معاك. وخد وقتك فيه — مفيش مشكلة يتقسم على يومين.</p>
+
+<h3>1. الفكرة: جذر + نهاية</h3>
+<p>كل فعل ألماني في المصدر بينتهي بـ <bdi class="de">-en</bdi>. بتشيلها فيفضل معاك <b>الجذر</b>، وبعدين بتلزق على الجذر <b>نهاية</b> حسب مين اللي بيعمل الفعل:</p>
+<div class="box blue">
+  <p style="text-align:center;margin:0"><span class="big-de">kommen</span> &nbsp;←&nbsp; شيل <bdi class="de">-en</bdi> &nbsp;←&nbsp; <span class="big-de">komm</span> &nbsp;+&nbsp; النهاية</p>
+</div>
+<table class="conj">
+  <tr><th>الضمير</th><th>الفعل</th><th>النهاية</th></tr>
+  <tr><td>ich</td><td>komm<b>e</b></td><td class="de">-e</td></tr>
+  <tr><td>du</td><td>komm<b>st</b></td><td class="de">-st</td></tr>
+  <tr><td>Sie (رسمي)</td><td>komm<b>en</b></td><td class="de">-en</td></tr>
+</table>
+<p>جرّبها على أي فعل تاني في الدرس: <bdi class="de">wohnen</bdi> ← <bdi class="de">ich wohne, du wohnst, Sie wohnen</bdi> · <bdi class="de">lernen</bdi> ← <bdi class="de">ich lerne, du lernst, Sie lernen</bdi>.</p>
+
+<h3>2. استثناء لازم تحفظه: الجذر اللي بينتهي بـ s, z, ß, x</h3>
+<p>لو الجذر آخره واحد من الحروف دي، مع <bdi class="de">du</bdi> بتضيف <b><bdi class="de">-t</bdi> بس</b> مش <bdi class="de">-st</bdi> (عشان ما تجيش <bdi class="de">ss-st</bdi> وتبقى تقيلة على اللسان):</p>
+<table class="conj">
+  <tr><th>الفعل</th><th>مع du</th><th>ملاحظة</th></tr>
+  <tr><td>heißen</td><td>du heiß<b>t</b></td><td>مش <bdi class="de">heißst</bdi></td></tr>
+</table>
+
+<h3>3. الفعل <bdi class="de">sein</bdi> شاذ — يتحفظ زي ما هو</h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>sein</th><th>المعنى</th></tr>
+  <tr><td>ich</td><td>bin</td><td>أنا أكون</td></tr>
+  <tr><td>du</td><td>bist</td><td>إنت تكون</td></tr>
+  <tr><td>Sie</td><td>sind</td><td>حضرتك تكون</td></tr>
+</table>
+
+<h3>4. منين وفين: <bdi class="de">aus</bdi> و <bdi class="de">in</bdi></h3>
+<div class="ex"><div>Woher kommst du? – Ich komme aus Spanien.</div><small>إنت منين؟ – أنا من إسبانيا. (<b>aus</b> = من، للبلد اللي جاي منه)</small></div>
+<div class="ex"><div>Wo wohnst du? – Ich wohne in Sevilla.</div><small>ساكن فين؟ – ساكن في إشبيلية. (<b>in</b> = في، للمكان اللي ساكن فيه)</small></div>
+<div class="box green">
+  <span class="t">جملتك إنت</span>
+  <p><bdi class="de-l">Ich komme aus Ägypten. Ich wohne in Kairo.</bdi> — <b>Ägypten</b> = مصر و <b>Kairo</b> = القاهرة. الكلمتين دول مش في كلمات الدرس، بس هتحتاجهم في أول جملة هتقولها عن نفسك.</p>
+</div>
+
+<h3>5. أدوات السؤال اللي في الدرس</h3>
+<table>
+  <tr><th>الأداة</th><th>معناها</th><th>مثال</th></tr>
+  <tr><td class="de">woher</td><td>منين</td><td class="de">Woher kommst du?</td></tr>
+  <tr><td class="de">wo</td><td>فين</td><td class="de">Wo wohnst du?</td></tr>
+  <tr><td class="de">was</td><td>إيه</td><td class="de">Was machst du hier?</td></tr>
+  <tr><td class="de">wie</td><td>إزاي</td><td class="de">Wie heißt du?</td></tr>
+</table>
+<div class="box red">
+  <span class="t">ما تخلطش بين دول</span>
+  <p><bdi class="de">wo</bdi> = فين (المكان اللي إنت فيه) &nbsp;·&nbsp; <bdi class="de">woher</bdi> = منين (المكان اللي جاي منه). الزيادة <bdi class="de">-her</bdi> معناها الحركة جاية من مكان.</p>
+</div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>aus</td><td>مِن</td><td>(das) Berlin</td><td>برلين</td></tr>
+  <tr><td>(das) Deutschland</td><td>ألمانيا</td><td>Entschuldigung, ...</td><td>المعذرة،...</td></tr>
+  <tr><td>hier</td><td>هنا</td><td>ja</td><td>نعم</td></tr>
+  <tr><td>kommen</td><td>جاء، أتى</td><td>Ich komme aus Spanien.</td><td>أنا من إسبانيا.</td></tr>
+  <tr><td>(etwas) lernen</td><td>تعلّمَ (شيئاً)</td><td>etwas machen</td><td>فَعَلَ شيئاً، عَمِلَ شيئاً</td></tr>
+  <tr><td>nein</td><td>لا</td><td>die Polizei</td><td>الشرطة</td></tr>
+  <tr><td>Sie</td><td>أنت، أنتم (صيغة رسميّة)</td><td>(das) Spanien</td><td>إسبانيا</td></tr>
+  <tr><td>der Sprachkurs, die Sprachkurse</td><td>دورة اللغة</td><td>sprechen</td><td>تكلّمَ، تحدَّثَ</td></tr>
+  <tr><td>Sie sprechen gut Deutsch.</td><td>أنت تتحدث الألمانية بشكلٍ جيد. (صيغة رسمية)</td><td>der Tourist, die Touristen</td><td>سائح</td></tr>
+  <tr><td>die Touristin, die Touristinnen</td><td>سائحة</td><td>der Vater, die Väter</td><td>أب</td></tr>
+  <tr><td>was</td><td>ماذا</td><td>Was machen Sie hier?</td><td>ماذا تفعل هنا؟ (صيغة رسمية)</td></tr>
+  <tr><td>Was machst du hier?</td><td>ماذا تفعل هنا؟ (صيغة غير رسمية)</td><td>wie</td><td>كيف</td></tr>
+  <tr><td>wir</td><td>نحن</td><td>wo</td><td>أين</td></tr>
+  <tr><td>Wo wohnen Sie?</td><td>أين تسكن؟ (صيغة رسمية)</td><td>Wo wohnst du?</td><td>أين تسكن؟ (صيغة غير رسمية)</td></tr>
+  <tr><td>woher</td><td>من أين</td><td>Woher kommen Sie?</td><td>من أين أنت؟ (صيغة رسمية )</td></tr>
+  <tr><td>Woher kommst du?</td><td>من أين أنت؟ (صيغة غير رسمية)</td><td>wohnen</td><td>سَكَنَ</td></tr>
+  <tr><td>Ich wohne in Sevilla.</td><td>أسكُن في إشبيلية.</td><td></td><td></td></tr>
+</table>
+
+<h2 class="part">الدرس 8 — التصريف كامل + <bdi class="de">haben</bdi><span>Nico hat ein Problem</span></h2>
+<div class="facts"><div><b>24</b><span>كلمة</span></div><div><b>11</b><span>تمارين</span></div><div><b>4</b><span>صفحات قواعد</span></div><div><b>100</b><span>دقيقة</span></div></div>
+
+<p class="lead">الدرس ده بيكمّل اللي بدأته في درس 7: بتاخد باقي الضمائر (<bdi class="de">er, sie, es, wir, ihr, sie</bdi>) والجدول الكامل للتصريف، وكمان الفعل <bdi class="de">haben</bdi>. أربع صفحات قواعد — ده أتقل درس من ناحية القواعد، فخده على يومين.</p>
+
+<h3>1. الضمائر كلها — الجدول اللي هتحفظه</h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>kommen</th><th>المعنى</th></tr>
+  <tr><td>ich</td><td>komm<b>e</b></td><td>أنا</td></tr>
+  <tr><td>du</td><td>komm<b>st</b></td><td>إنت / إنتِ</td></tr>
+  <tr><td>er / sie / es</td><td>komm<b>t</b></td><td>هو / هي / محايد</td></tr>
+  <tr><td>wir</td><td>komm<b>en</b></td><td>إحنا</td></tr>
+  <tr><td>ihr</td><td>komm<b>t</b></td><td>إنتوا</td></tr>
+  <tr><td>sie</td><td>komm<b>en</b></td><td>هم</td></tr>
+  <tr><td>Sie</td><td>komm<b>en</b></td><td>حضرتك / حضراتكم</td></tr>
+</table>
+<div class="box blue">
+  <span class="t">حاجات تريّحك في الجدول ده</span>
+  <ul style="margin-bottom:0">
+    <li><bdi class="de">wir</bdi> و <bdi class="de">sie</bdi> (هم) و <bdi class="de">Sie</bdi> (حضرتك) — تلاتتهم نفس الصيغة بالظبط: <bdi class="de">-en</bdi>، وهي نفسها المصدر.</li>
+    <li><bdi class="de">er/sie/es</bdi> و <bdi class="de">ihr</bdi> — الاتنين <bdi class="de">-t</bdi>.</li>
+    <li>يعني فعليًا إنت بتحفظ <b>4 نهايات</b> بس: <bdi class="de">-e · -st · -t · -en</bdi>.</li>
+  </ul>
+</div>
+
+<h3>2. الأفعال اللي جذرها بينتهي بـ <bdi class="de">-d</bdi> أو <bdi class="de">-t</bdi></h3>
+<p>زي <bdi class="de">arbeiten</bdi> (يشتغل) — الجذر <bdi class="de">arbeit</bdi>. لو ضفت <bdi class="de">-st</bdi> على طول تطلع <bdi class="de">arbeitst</bdi> وصعب تتنطق، فبنحط <b><bdi class="de">-e-</bdi></b> في النص:</p>
+<table class="conj">
+  <tr><th>الضمير</th><th>arbeiten</th></tr>
+  <tr><td>du</td><td>arbeit<b>e</b>st</td></tr>
+  <tr><td>er / sie / es</td><td>arbeit<b>e</b>t</td></tr>
+  <tr><td>ihr</td><td>arbeit<b>e</b>t</td></tr>
+  <tr><td>ich · wir · sie · Sie</td><td>عادي: arbeite · arbeiten</td></tr>
+</table>
+
+<h3>3. <bdi class="de">sein</bdi> و <bdi class="de">haben</bdi> كاملين</h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>sein (يكون)</th><th>haben (يملك)</th></tr>
+  <tr><td>ich</td><td>bin</td><td>habe</td></tr>
+  <tr><td>du</td><td>bist</td><td>hast</td></tr>
+  <tr><td>er / sie / es</td><td>ist</td><td>hat</td></tr>
+  <tr><td>wir</td><td>sind</td><td>haben</td></tr>
+  <tr><td>ihr</td><td>seid</td><td>habt</td></tr>
+  <tr><td>sie / Sie</td><td>sind</td><td>haben</td></tr>
+</table>
+<p>لاحظ إن <bdi class="de">haben</bdi> منتظم في كل حاجة <b>ما عدا</b> <bdi class="de">du hast</bdi> و <bdi class="de">er hat</bdi> — الحرف <bdi class="de">b</bdi> بيقع.</p>
+
+<h3>4. جمل من الدرس</h3>
+<div class="ex"><div>Welche Nummer hast du? – Ich habe die Nummer vier.</div><small>رقمك كام؟ – رقمي أربعة.</small></div>
+<div class="ex"><div>Hier ist Nico.</div><small>معاك نيقو. (بتتقال في التليفون لما تعرّف بنفسك)</small></div>
+
+<div class="box red">
+  <span class="t">أشهر لخبطة في الدرس ده</span>
+  <p><bdi class="de-l">sie kommen</bdi> = هم بييجوا &nbsp;|&nbsp; <bdi class="de-l">Sie kommen</bdi> = حضرتك بتيجي. الكلمتين بينطقوا بنفس الطريقة بالظبط، والفرق الوحيد <b>الحرف الكبير</b> في الكتابة، وفي الكلام بتعرفها من السياق.</p>
+</div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>die Arbeit</td><td>عمل</td><td>das Auto, die Autos</td><td>سيارة</td></tr>
+  <tr><td>das Café, die Cafés</td><td>مقهى</td><td>es</td><td>هو ( ضمير محايد )</td></tr>
+  <tr><td>das Fahrradgeschäft, die Fahrradgeschäfte</td><td>متجر الدراجات</td><td>die Familie, die Familien</td><td>عائلة</td></tr>
+  <tr><td>das Foto, die Fotos</td><td>صورة</td><td>der Freund, die Freunde</td><td>صديق</td></tr>
+  <tr><td>die Freundin, die Freundinnen</td><td>صديقة</td><td>etwas haben</td><td>لديه شيء، امتلك شيئاً</td></tr>
+  <tr><td>Hier ist …</td><td>معك... (في المكالمات الهاتفية )</td><td>ihr</td><td>أنتم</td></tr>
+  <tr><td>die Mutter, die Mütter</td><td>أم</td><td>die Nummer, die Nummern</td><td>رقم</td></tr>
+  <tr><td>der Papa, die Papas</td><td>بابا، أبي</td><td>der Pass, die Pässe</td><td>جواز السفر</td></tr>
+  <tr><td>der Polizist, die Polizisten</td><td>شرطي</td><td>die Polizistin, die Polizistinnen</td><td>شرطية</td></tr>
+  <tr><td>richtig</td><td>صحيح، صائب</td><td>sein</td><td>يكون</td></tr>
+  <tr><td>sie</td><td>هم، هن</td><td>sprechen</td><td>تكلّمَ، تحدَّثَ</td></tr>
+  <tr><td>etwas suchen</td><td>بَحَثَ عن شيء</td><td>der Vater, die Väter</td><td>أب</td></tr>
+</table>
+
+<h2 class="part">الدرس 9 — الأعداد من 1 لـ 100<span>Zahlen von 1 bis 100</span></h2>
+<div class="facts"><div><b>35</b><span>كلمة</span></div><div><b>14</b><span>تمارين</span></div><div><b>2</b><span>صفحة قواعد</span></div><div><b>110</b><span>دقيقة</span></div></div>
+
+<p class="lead">الأعداد مش صعبة، بس محتاجة <b>تكرار بصوت عالي</b> مش فهم. أحسن حاجة تقسمه على يومين: يوم للـ1–20 ويوم للباقي.</p>
+
+<h3>1. من 0 لـ 12 — حفظ صم</h3>
+<table class="num">
+  <tr><td>0</td><td>null</td><td>1</td><td>eins</td><td>2</td><td>zwei</td><td>3</td><td>drei</td></tr>
+  <tr><td>4</td><td>vier</td><td>5</td><td>fünf</td><td>6</td><td>sechs</td><td>7</td><td>sieben</td></tr>
+  <tr><td>8</td><td>acht</td><td>9</td><td>neun</td><td>10</td><td>zehn</td><td>11</td><td>elf</td></tr>
+  <tr><td>12</td><td>zwölf</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>2. من 13 لـ 19 — الرقم + <bdi class="de">zehn</bdi></h3>
+<p>سهلة جدًا: بتاخد العدد الأحادي وتلزق وراه <bdi class="de">zehn</bdi>:</p>
+<table class="num">
+  <tr><td>13</td><td>drei + zehn = dreizehn</td><td>14</td><td>vier + zehn = vierzehn</td></tr>
+  <tr><td>15</td><td>fünf + zehn = fünfzehn</td><td>18</td><td>acht + zehn = achtzehn</td></tr>
+  <tr><td>19</td><td>neun + zehn = neunzehn</td><td></td><td></td></tr>
+</table>
+<div class="box gold">
+  <span class="t">استثناءان بس</span>
+  <p><b>16</b> = <bdi class="de">sech<u>s</u>zehn</bdi> ✘ ← الصح <bdi class="de">sechzehn</bdi> (الـ s بتقع)<br>
+     <b>17</b> = <bdi class="de">sieb<u>en</u>zehn</bdi> ✘ ← الصح <bdi class="de">siebzehn</bdi> (الـ en بتقع)</p>
+</div>
+
+<h3>3. العقود (20، 30، 40 …)</h3>
+<table class="num">
+  <tr><td>20</td><td>zwanzig</td><td>30</td><td>dreißig</td><td>40</td><td>vierzig</td></tr>
+  <tr><td>50</td><td>fünfzig</td><td>60</td><td>sechzig</td><td>70</td><td>siebzig</td></tr>
+  <tr><td>80</td><td>achtzig</td><td>90</td><td>neunzig</td><td>100</td><td>(ein)hundert</td></tr>
+</table>
+<p>القاعدة: العدد + <bdi class="de">zig</bdi>. والشواذ اللي تحفظهم: <bdi class="de">zwanzig</bdi> (مش zweizig) · <bdi class="de">dreißig</bdi> (بـ <bdi class="de">ß</bdi> مش zig) · <bdi class="de">sechzig</bdi> · <bdi class="de">siebzig</bdi>.</p>
+
+<h3>4. المركّبة (21–99) — بالمقلوب زي العربي بالظبط</h3>
+<div class="box blue">
+  <p style="margin:0">الألماني بيقول الرقم زي ما إحنا بنقول «<b>واحد وعشرين</b>» — الآحاد الأول وبعدين <bdi class="de">und</bdi> وبعدين العشرات، <b>وكلهم كلمة واحدة ملزوقة</b>:</p>
+  <p style="text-align:center;margin:8px 0 0"><span class="big-de">21 = ein + und + zwanzig = einundzwanzig</span></p>
+</div>
+<table class="num">
+  <tr><td>24</td><td>vierundzwanzig</td><td>37</td><td>siebenunddreißig</td></tr>
+  <tr><td>52</td><td>zweiundfünfzig</td><td>99</td><td>neunundneunzig</td></tr>
+</table>
+<div class="box red">
+  <span class="t">خد بالك</span>
+  <p>العدد <bdi class="de">eins</bdi> بيفقد الـ <bdi class="de">s</bdi> لما يتركب: <bdi class="de">einundzwanzig</bdi> ✔ &nbsp; مش &nbsp;<bdi class="de" style="color:#9b1f23">einsundzwanzig</bdi> ✘</p>
+</div>
+
+<h3>5. العمر</h3>
+<div class="ex"><div>Wie alt ist Emma? – Emma ist acht Jahre alt.</div><small>إيما عندها كام سنة؟ – إيما عندها 8 سنين.</small></div>
+<div class="ex"><div>Lotte wird acht Jahre alt.</div><small>لوته هتكمل 8 سنين. (<bdi class="de">wird</bdi> = هيبقى / هتكمل — للعيد ميلاد الجاي)</small></div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>acht</td><td>ثمانية</td><td>achtzig</td><td>ثمانون</td></tr>
+  <tr><td>Bis morgen!</td><td>أراك غداً!</td><td>der Buchstabe, die Buchstaben</td><td>حرف</td></tr>
+  <tr><td>drei</td><td>ثلاثة</td><td>dreißig</td><td>ثلاثون</td></tr>
+  <tr><td>einhundert</td><td>مائة</td><td>die Einladung, die Einladungen</td><td>دعوة</td></tr>
+  <tr><td>eins</td><td>واحد</td><td>elf</td><td>أحد عشر</td></tr>
+  <tr><td>Emma ist acht Jahre alt.</td><td>عُمْر إيمّا ثمان سنوات.</td><td>feiern</td><td>احتفل</td></tr>
+  <tr><td>fünf</td><td>خمسة</td><td>fünfzig</td><td>خمسون</td></tr>
+  <tr><td>der Geburtstag, die Geburtstage</td><td>عيد الميلاد</td><td>das Geschenk, die Geschenke</td><td>هدية</td></tr>
+  <tr><td>die Hausnummer, die Hausnummern</td><td>رقم المبنى</td><td>Ich werde acht Jahre alt.</td><td>سيصبح عمري ثمان سنوات.</td></tr>
+  <tr><td>Lotte wird acht Jahre alt.</td><td>سيصبح عمر لوتِّه ثمان سنوات.</td><td>neun</td><td>تسعة</td></tr>
+  <tr><td>neunzig</td><td>تسعون</td><td>die Person, die Personen</td><td>شخص</td></tr>
+  <tr><td>sechs</td><td>ستة</td><td>sechzig</td><td>ستون</td></tr>
+  <tr><td>sieben</td><td>سبعة</td><td>siebzig</td><td>سبعون</td></tr>
+  <tr><td>vier</td><td>أربعة</td><td>vierzig</td><td>أربعون</td></tr>
+  <tr><td>Wie alt ist Emma?</td><td>كم عمر إيمّا؟</td><td>wie viele</td><td>كم عدد</td></tr>
+  <tr><td>die Zahl, die Zahlen</td><td>عدد</td><td>zehn</td><td>عشرة</td></tr>
+  <tr><td>zwanzig</td><td>عشرون</td><td>zwei</td><td>اثنان</td></tr>
+  <tr><td>zwölf</td><td>اثنا عشر</td><td></td><td></td></tr>
+</table>
+
+<h2 class="part">الدرس 10 — أرقام التليفون والعمر<span>Wichtige Nummern</span></h2>
+<div class="facts"><div><b>20</b><span>كلمة</span></div><div><b>12</b><span>تمارين</span></div><div><b>0</b><span>صفحة قواعد</span></div><div><b>70</b><span>دقيقة</span></div></div>
+
+<p class="lead">مفيش قواعد جديدة — الدرس ده كله تطبيق على الأعداد اللي خدتها، وده بالظبط اللي محتاجه عشان الأرقام تثبت.</p>
+
+<h3>1. رقم التليفون بيتقال رقم رقم</h3>
+<div class="ex"><div>Wie ist deine Telefonnummer? – Meine Telefonnummer ist 257764.</div><small>وبتقراها: <bdi class="de">zwei, fünf, sieben, sieben, sechs, vier</bdi></small></div>
+<p>وممكن كمان تقراها كل رقمين مع بعض: <bdi class="de">fünfundzwanzig, siebenundsiebzig, vierundsechzig</bdi>. كل ما الرقم يطول، كل ما الناس تميل تقراه رقم رقم.</p>
+
+<h3>2. السؤال بالرسمي وغير الرسمي</h3>
+<table>
+  <tr><th>غير رسمي (<bdi class="de">du</bdi>)</th><th>رسمي (<bdi class="de">Sie</bdi>)</th><th>المعنى</th></tr>
+  <tr><td class="de">Wie ist deine Telefonnummer?</td><td class="de">Wie ist Ihre Telefonnummer?</td><td>رقم تليفونك كام؟</td></tr>
+  <tr><td class="de">Wie alt bist du?</td><td class="de">Wie alt sind Sie?</td><td>عندك كام سنة؟</td></tr>
+</table>
+<p>لاحظ: <bdi class="de">dein/deine</bdi> (بتاعك، غير رسمي) ← <bdi class="de">Ihr/Ihre</bdi> (بتاعك، رسمي، وبحرف كبير دايمًا).</p>
+
+<div class="ex"><div>Ich bin 23 Jahre alt.</div><small>عمري 23 سنة. (<bdi class="de">dreiundzwanzig</bdi>)</small></div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>antworten</td><td>أجابَ، ردَّ</td><td>dreimal</td><td>ثلاث مرات</td></tr>
+  <tr><td>fragen</td><td>سأل</td><td>das Fundbüro, die Fundbüros</td><td>مكتب المفقودات</td></tr>
+  <tr><td>das Handy, die Handys</td><td>هاتف نقال، موبايل</td><td>die Handynummer, die Handynummern</td><td>رقم الهاتف النقال</td></tr>
+  <tr><td>(etwas) hören</td><td>سَمِعَ (شيئاً)</td><td>Ich bin 23 Jahre alt.</td><td>عمري 23 سنة.</td></tr>
+  <tr><td>null</td><td>صفر</td><td>das Radio, die Radios</td><td>راديو، مذياع</td></tr>
+  <tr><td>mit jemandem sprechen</td><td>تحدَّثَ مع أحدٍ ما</td><td>die Telefonnummer, die Telefonnummern</td><td>رقم الهاتف</td></tr>
+  <tr><td>Meine Telefonnummer ist ...</td><td>رقم هاتفي هو...</td><td>Wie ist deine Telefonnummer?</td><td>ماهو رقم هاتفك؟ (صيغة غير رسميّة )</td></tr>
+  <tr><td>Wie ist Ihre Telefonnummer?</td><td>ما هو رقم هاتفك؟ (صيغة رسميّة )</td><td>etwas verlieren</td><td>فقد، أضاع شيئاً</td></tr>
+  <tr><td>wichtig</td><td>مُهِم</td><td>Wie alt bist du?</td><td>كم عمرك؟ (صيغة غير رسميّة )</td></tr>
+  <tr><td>Wie alt sind Sie?</td><td>كم عمرك؟ (صيغة رسميّة)</td><td>zweimal</td><td>مرّتان</td></tr>
+</table>
+
+<div class="box gold">
+  <span class="t">من الدرس · ضاع منك حاجة في ألمانيا؟</span>
+  <p>في <bdi class="de">das Fundbüro</bdi> (مكتب المفقودات) في كل مدينة كبيرة، وكمان مكتب خاص بشركات المواصلات للحاجات اللي بتتنسي في الأتوبيس أو القطر. الخدمة <b>مجانية</b>. ولو إنت لقيت حاجة قيمتها فوق 10 يورو فإنت <b>ملزم قانونًا</b> تسلّمها.</p>
+</div>
+
+<h2 class="part">الدرس 11 — بياناتك الشخصية<span>Adressen</span></h2>
+<div class="facts"><div><b>12</b><span>كلمة</span></div><div><b>13</b><span>تمارين</span></div><div><b>3</b><span>صفحات قواعد</span></div><div><b>85</b><span>دقيقة</span></div></div>
+
+<p class="lead">كلمات قليلة بس قواعد مهمة. الدرس بيرتّب لك السؤال بأدوات الاستفهام، ويظبط حروف الجر اللي بتستعملها لما تتكلم عن بلدك وعنوانك.</p>
+
+<h3>1. ترتيب السؤال بأداة استفهام (<bdi class="de">W-Frage</bdi>)</h3>
+<p>السؤال اللي بيبدأ بأداة استفهام بحرف <bdi class="de">W</bdi> <b>ما ينفعش ترد عليه بـ «نعم» أو «لا»</b> — لازم ترد بمعلومة. والترتيب ثابت:</p>
+<div class="box blue">
+  <p style="text-align:center;margin:0"><span class="big-de">أداة الاستفهام + الفعل + الفاعل</span></p>
+  <p style="text-align:center;margin:6px 0 0"><bdi class="de-l">Wie (1) heißt (2) du (3)? · Woher (1) kommen (2) Sie (3)?</bdi></p>
+</div>
+<table>
+  <tr><th>الأداة</th><th>غير رسمي</th><th>رسمي</th></tr>
+  <tr><td class="de">Wie</td><td class="de">Wie heißt du?</td><td class="de">Wie heißen Sie?</td></tr>
+  <tr><td class="de">Woher</td><td class="de">Woher kommst du?</td><td class="de">Woher kommen Sie?</td></tr>
+  <tr><td class="de">Wo</td><td class="de">Wo wohnst du?</td><td class="de">Wo wohnen Sie?</td></tr>
+  <tr><td class="de">Warum</td><td colspan="2">ليه — <bdi class="de">Warum lernst du Deutsch?</bdi></td></tr>
+</table>
+
+<h3>2. <bdi class="de">aus</bdi> للبلد اللي جاي منه</h3>
+<div class="ex"><div>Ich komme aus Ägypten. / Ich komme aus Kairo.</div><small>أغلب البلاد والمدن بتيجي بعد <bdi class="de">aus</bdi> على طول من غير أداة.</small></div>
+<p>بس فيه بلاد ليها أداة تعريف، ولازم تيجي معاها:</p>
+<table>
+  <tr><th>الشكل</th><th>أمثلة من الدرس</th></tr>
+  <tr><td class="de">aus dem …</td><td class="de">aus dem Irak · aus dem Sudan · aus dem Libanon · aus dem Jemen · aus dem Oman</td></tr>
+  <tr><td class="de">aus der …</td><td class="de">aus der Türkei · aus der Schweiz · aus der Ukraine · aus der Mongolei</td></tr>
+  <tr><td class="de">aus den …</td><td class="de">aus den Niederlanden · aus den Philippinen · aus den Malediven</td></tr>
+</table>
+<p>مش لازم تحفظهم كلهم — احفظ بتاع بلدك وبلاد صحابك بس. ومصر من غير أداة: <bdi class="de">aus Ägypten</bdi>.</p>
+
+<h3>3. <bdi class="de">in</bdi> للمكان اللي ساكن فيه</h3>
+<table>
+  <tr><th>بتقول إيه</th><th>الشكل</th><th>مثال</th></tr>
+  <tr><td>المدينة</td><td class="de">in + المدينة</td><td class="de">Ich wohne in Berlin.</td></tr>
+  <tr><td>الشارع</td><td class="de">in der + …straße</td><td class="de">Ich wohne in der Schreinerstraße.</td></tr>
+  <tr><td>ميدان</td><td class="de">am + …platz</td><td class="de">Ich wohne am Adalbert-Stifter-Platz.</td></tr>
+  <tr><td>طريق</td><td class="de">im + …weg</td><td class="de">Ich wohne im Adalbert-Stifter-Weg.</td></tr>
+</table>
+
+<h3>4. جمل من الدرس</h3>
+<div class="ex"><div>Entschuldigung, wo ist die Polizei? – Die Polizei ist in der Schreinerstraße.</div><small>لو سمحت، فين قسم الشرطة؟ – قسم الشرطة في شارع شراينر.</small></div>
+<div class="ex"><div>Wer ist da? – Hier ist Nico.</div><small>مين؟ – معاك نيقو. (على الباب أو في التليفون)</small></div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>Die Polizei ist in der Schreinerstraße.</td><td>مركز الشرطة يقع في شارع شراينَر.</td><td>Entschuldigung</td><td>عذراً، المعذرة</td></tr>
+  <tr><td>fehlen</td><td>افتقد، نقَصَ</td><td>Mir geht&#x27;s gut.</td><td>أنا في حالة جيدة.، أنا بخير.</td></tr>
+  <tr><td>(etwas) schreiben</td><td>كتَبَ (شيئاً)</td><td>mit jemandem telefonieren</td><td>اتَّصَل بأحدٍ ما (هاتفياً)</td></tr>
+  <tr><td>Viel Glück!</td><td>حظاً موفقاً!</td><td>warum</td><td>لماذا</td></tr>
+  <tr><td>Wer ist da?</td><td>مَن هناك؟</td><td>Wie heißt die Straße?</td><td>ما اسم الشارع؟</td></tr>
+  <tr><td>Wo bist du?</td><td>أين أنت؟ (صيغة غير رسمية )</td><td>Wo ist die Polizei?</td><td>أين يقع مركز الشرطة؟</td></tr>
+</table>
+
+<h2 class="part">الدرس 12 — في المصلحة الحكومية<span>Auf dem Amt</span></h2>
+<div class="facts"><div><b>36</b><span>كلمة</span></div><div><b>16</b><span>تمارين</span></div><div><b>4</b><span>صفحات قواعد</span></div><div><b>130</b><span>دقيقة</span></div></div>
+
+<div class="box red">
+  <span class="t">الدرس ده مهم ليك إنت بالذات</span>
+  <p>أول حاجة هتعملها أول ما توصل ألمانيا هي <bdi class="de">Anmeldung</bdi> — تسجيل سكنك في <bdi class="de">das Amt</bdi>. الحوار اللي في الدرس ده هو حرفيًا الحوار اللي هيحصل معاك على الشباك. ذاكره كويس وخده على يومين.</p>
+</div>
+
+<h3>1. الأعداد بعد 100</h3>
+<table class="num">
+  <tr><td>100</td><td>(ein)hundert</td><td>200</td><td>zweihundert</td><td>500</td><td>fünfhundert</td></tr>
+  <tr><td>900</td><td>neunhundert</td><td>1000</td><td>(ein)tausend</td><td>5000</td><td>fünftausend</td></tr>
+</table>
+<p>الألمان غالبًا بيقولوا <bdi class="de">hundert</bdi> و <bdi class="de">tausend</bdi> من غير <bdi class="de">ein</bdi>.</p>
+
+<h3>2. ترتيب قراءة الرقم: آلاف ← مئات ← آخر رقمين</h3>
+<table class="num">
+  <tr><td>201</td><td>zweihunderteins</td><td>212</td><td>zweihundertzwölf</td></tr>
+  <tr><td>231</td><td>zweihunderteinunddreißig</td><td>878</td><td>achthundertachtundsiebzig</td></tr>
+</table>
+<p>يعني بتبدأ من الشمال عادي، وأول ما توصل لآخر رقمين بترجع تقلب (آحاد + <bdi class="de">und</bdi> + عشرات) زي ما خدت في درس 9. الرقم كله <b>كلمة واحدة</b>.</p>
+
+<h3>3. المخاطبة الرسمية — القواعد الخمسة</h3>
+<div class="box blue">
+  <ol style="margin-bottom:0">
+    <li>حيّي بـ <bdi class="de">Guten Tag</bdi> (أو <bdi class="de">Guten Morgen / Guten Abend</bdi> حسب الوقت).</li>
+    <li>لو تعرف اسمه: <bdi class="de">Guten Tag, Herr Brunner!</bdi> — <b>اسم العائلة</b> مش الاسم الشخصي.</li>
+    <li>استخدم <bdi class="de">Sie</bdi> في كل الأسئلة: <bdi class="de">Wie heißen Sie? · Woher kommen Sie? · Wo wohnen Sie? · Wie alt sind Sie?</bdi></li>
+    <li>بدل <bdi class="de">dein/deine</bdi> قول <bdi class="de">Ihr/Ihre</bdi>: <bdi class="de">Wie ist Ihr Name? · Wie ist Ihre Adresse?</bdi></li>
+    <li>وفي الآخر: <bdi class="de">Auf Wiedersehen.</bdi></li>
+  </ol>
+</div>
+
+<h3>4. كلمات الاستمارات — احفظهم كويس</h3>
+<table>
+  <tr><th>الكلمة</th><th>في الاستمارة يعني</th></tr>
+  <tr><td class="de">der Vorname</td><td>الاسم الشخصي</td></tr>
+  <tr><td class="de">der Nachname / der Familienname</td><td>اسم العائلة</td></tr>
+  <tr><td class="de">der Wohnort</td><td>محل الإقامة (المدينة)</td></tr>
+  <tr><td class="de">die Postleitzahl</td><td>الرمز البريدي</td></tr>
+  <tr><td class="de">die Passnummer / die Reisepassnummer</td><td>رقم جواز السفر</td></tr>
+  <tr><td class="de">das Heimatland</td><td>بلدك الأصلي</td></tr>
+  <tr><td class="de">das Amt</td><td>الدائرة / المصلحة الحكومية</td></tr>
+</table>
+<div class="ex"><div>Ich weiß es nicht.</div><small>مش عارف. — جملة هتحتاجها كتير قدام الموظف، وهي أأدب من السكوت.</small></div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>achthundert</td><td>ثمانمئة</td><td>achthundertachtundsiebzig</td><td>ثمانمئة وثمانية وسبعون</td></tr>
+  <tr><td>das Amt, die Ämter</td><td>دائرة، مصلحة (حكومية)</td><td>der Dialog, die Dialoge</td><td>حوار</td></tr>
+  <tr><td>dreihundert</td><td>ثلاثمائة</td><td>dreihundertdreiundzwanzig</td><td>ثلاثمائة و ثلاثة وعشرون</td></tr>
+  <tr><td>einhundert</td><td>مائة</td><td>einhunderteins</td><td>مائة وواحد</td></tr>
+  <tr><td>eintausend</td><td>ألف</td><td>fünfhundert</td><td>خمسمائة</td></tr>
+  <tr><td>fünfhundertfünfundvierzig</td><td>خمسمائة وخمسة وأربعون</td><td>das Heimatland, die Heimatländer</td><td>وطن</td></tr>
+  <tr><td>Ich weiß es nicht.</td><td>لا أدري.، لا أعلم.</td><td>etwas kosten</td><td>كلّفَ (ثمن)</td></tr>
+  <tr><td>der Nachname, die Nachnamen</td><td>اسم العائلة</td><td>neunhundert</td><td>تسعمائة</td></tr>
+  <tr><td>neunhundertneunundachtzig</td><td>تسعمائة وتسعة وثمانون</td><td>der Onkel, die Onkel</td><td>عم، خال</td></tr>
+  <tr><td>die Passnummer, die Passnummern</td><td>رقم جواز السفر</td><td>die Postleitzahl, die Postleitzahlen</td><td>الرمز البريدي</td></tr>
+  <tr><td>die Reisepassnummer, die Reisepassnummern</td><td>رقم جواز السفر</td><td>sechshundert</td><td>ستمائة</td></tr>
+  <tr><td>sechshundertsechsundfünfzig</td><td>ستمائة وستة وخمسون</td><td>siebenhundert</td><td>سبعمائة</td></tr>
+  <tr><td>siebenhundertsiebenundsechzig</td><td>سبعمائة وسبعة وستون</td><td>die Tochter, die Töchter</td><td>ابنة</td></tr>
+  <tr><td>vierhundert</td><td>أربعمائة</td><td>vierhundertvierunddreißig</td><td>أربعمائة وأربعة وثلاثون</td></tr>
+  <tr><td>warum</td><td>لماذا</td><td>Welche Nummer haben Sie?</td><td>ما الرقم الذي تحمله؟ (صيغة رسمية )</td></tr>
+  <tr><td>Welche Nummer hast du?</td><td>ما الرقم الذي تحمله؟ (صيغة غير رسمية )</td><td>Wie ist deine Adresse?</td><td>ما هو عنوانك؟ (صيغة غير رسمية )</td></tr>
+  <tr><td>Wie ist Ihre Adresse?</td><td>ما هو عنوانك؟ (صيغة رسمية )</td><td>der Wohnort, die Wohnorte</td><td>محل الإقامة</td></tr>
+  <tr><td>zweihundert</td><td>مائتان</td><td>zweihundertzwölf</td><td>مائتان واثنا عشر</td></tr>
+</table>
+
+<div class="box gold">
+  <span class="t">من الدرس · البيروقراطية الألمانية</span>
+  <p>استعد تملا نفس البيانات أكتر من مرة في أكتر من استمارة (اسم، اسم عائلة، تاريخ ومكان الميلاد، الجنسية، محل الإقامة، وأحيانًا مؤهلك). كل ألماني فوق 16 سنة لازم معاه بطاقة هوية، و<b>الأجنبي لازم يكون معاه جواز سفر ساري</b> — بس مش لازم تشيله معاك طول الوقت.</p>
+</div>
+
+<h2 class="part">الدرس 13 — تتعرّف على ناس<span>Was machst du hier?</span></h2>
+<div class="facts"><div><b>17</b><span>كلمة</span></div><div><b>9</b><span>تمارين</span></div><div><b>0</b><span>صفحة قواعد</span></div><div><b>60</b><span>دقيقة</span></div></div>
+
+<p class="lead">درس خفيف بعد درس 12 التقيل. مفيش قواعد جديدة — كله عبارات جاهزة بتستعملها في حفلة أو أول ما تتعرف على حد.</p>
+
+<h3>1. عبارات التعارف</h3>
+<div class="ex"><div>Herzlich willkommen!</div><small>أهلاً وسهلاً! (ترحيب بحد في بيتك أو في حفلة)</small></div>
+<div class="ex"><div>Wer ist denn das?</div><small>ومين ده؟ (<bdi class="de">denn</bdi> هنا بتخفّف السؤال وتخليه ودّي مش استجواب)</small></div>
+<div class="ex"><div>Was machst du hier?</div><small>بتعمل إيه هنا؟</small></div>
+
+<h3>2. عبارة ثقافية مهمة: <bdi class="de">Wollen wir uns nicht duzen?</bdi></h3>
+<div class="box blue">
+  <p style="margin:0">معناها حرفيًا «ما نتكلمش بـ <bdi class="de">du</bdi>؟» — يعني <b>نسيب الرسمية ونتكلم عادي</b>. في ألمانيا الانتقال من <bdi class="de">Sie</bdi> لـ <bdi class="de">du</bdi> مش بيحصل لوحده، لازم حد يعرضه، وغالبًا الأكبر سنًا أو الأعلى في الشغل هو اللي بيعرض. لو حد عرضها عليك ترد: <bdi class="de">Ja, gern!</bdi></p>
+</div>
+
+<h3>3. كلمات هتستعملها في البيت</h3>
+<table>
+  <tr><th>الكلمة</th><th>المعنى</th><th>مثال</th></tr>
+  <tr><td class="de">kaputt</td><td>بايظ / مش شغال</td><td class="de">Die Lampe ist kaputt.</td></tr>
+  <tr><td class="de">funktionieren</td><td>يشتغل (جهاز)</td><td class="de">Das Radio funktioniert nicht.</td></tr>
+  <tr><td class="de">wieder</td><td>تاني / مرة كمان</td><td class="de">Willkommen, wieder da!</td></tr>
+  <tr><td class="de">gern</td><td>بحب (تيجي بعد الفعل)</td><td class="de">Ich trinke gern Tee.</td></tr>
+</table>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>danke schön</td><td>شكراً جزيلاً</td><td>das Flugzeug, die Flugzeuge</td><td>طائرة</td></tr>
+  <tr><td>funktionieren</td><td>عمِلت، اشتغلت (آلة) سارت (الحياة، الأمور)</td><td>gern</td><td>بسرور</td></tr>
+  <tr><td>das Getränk, die Getränke</td><td>مشروب</td><td>Herzlich willkommen!</td><td>أهلاً وسهلاً!</td></tr>
+  <tr><td>kaputt</td><td>مُعطّل، لا يعمل</td><td>die Lampe, die Lampen</td><td>لمبة، مصباح</td></tr>
+  <tr><td>das Land, die Länder</td><td>دولة، بلد</td><td>die Party, die Partys</td><td>حفلة</td></tr>
+  <tr><td>schön</td><td>جميل</td><td>(etwas) trinken</td><td>شَرِبَ (شيئاَ)</td></tr>
+  <tr><td>Was machst du hier?</td><td>ماذا تفعل هنا؟ (صيغة غير رسمية)</td><td>Wer ist denn das?</td><td>من هذا؟</td></tr>
+  <tr><td>wieder</td><td>مجدداً</td><td>willkommen</td><td>أهلاً بك</td></tr>
+  <tr><td>Wollen wir uns nicht duzen?</td><td>هلّا تحدثنا بأسلوب غير رسمي؟</td><td></td><td></td></tr>
+</table>
+
+<div class="box gold">
+  <span class="t">من الدرس · السكن في ألمانيا</span>
+  <p>أكتر من نص الشقق في ألمانيا <b>إيجار</b>، وبتدفع الإيجار + مصاريف إضافية (كهربا، مياه، تدفئة، نضافة). المساحات صغيرة وغالية في المدن الكبيرة، عشان كده الطلبة بيتشاركوا في شقق اسمها <bdi class="de">Wohngemeinschaft</bdi> واختصارها <bdi class="de">WG</bdi> — دي غالبًا هتبقى أرخص حل ليك أول ما توصل.</p>
+</div>
+
+<h2 class="part">الدرس 14 — der / die / das<span>Was trinkst du?</span></h2>
+<div class="facts"><div><b>30</b><span>كلمة</span></div><div><b>13</b><span>تمارين</span></div><div><b>2</b><span>صفحة قواعد</span></div><div><b>100</b><span>دقيقة</span></div></div>
+
+<p class="lead">الدرس ده بيقدّملك أصعب حاجة في الألماني كلها — جنس الأسماء. مش لأنها معقّدة، لأنها <b>مفيش فيها قاعدة</b>: كل اسم وأداته، وبتتحفظ مع بعض.</p>
+
+<h3>1. التلات أدوات</h3>
+<table>
+  <tr><th>الأداة</th><th>الجنس</th><th>مشروبات من الدرس</th></tr>
+  <tr><td class="de" style="color:#1a4fa0;font-weight:700">der</td><td>مذكّر (maskulin)</td><td class="de">der Kaffee · der Tee · der Saft · der Wein · der Zucker</td></tr>
+  <tr><td class="de" style="color:#9b1f23;font-weight:700">die</td><td>مؤنّث (feminin)</td><td class="de">die Milch · die Limo · die Cola</td></tr>
+  <tr><td class="de" style="color:#11582b;font-weight:700">das</td><td>محايد (neutral)</td><td class="de">das Wasser · das Bier · das Eis</td></tr>
+</table>
+
+<div class="box red">
+  <span class="t">النصيحة اللي هتفرق معاك طول حياتك مع الألماني</span>
+  <p><b>ما تحفظش الكلمة لوحدها أبدًا.</b> احفظ <bdi class="de">der Kaffee</bdi> مش <bdi class="de">Kaffee</bdi>. الناس اللي بتحفظ الكلمة من غير أداتها بتدفع التمن بعدين لما تيجي تتعلم الحالات الإعرابية.</p>
+  <p>طرق بتساعد: لوّن كل أداة بلون في كشكولك (أزرق/أحمر/أخضر)، أو احفظ الكلمة جوه جملة قصيرة: <bdi class="de">Der Kaffee ist gut.</bdi></p>
+</div>
+
+<h3>2. <bdi class="de">wer</bdi> ولا <bdi class="de">was</bdi>؟</h3>
+<table>
+  <tr><th>الأداة</th><th>بتسأل عن</th><th>مثال</th></tr>
+  <tr><td class="de">wer</td><td>شخص</td><td class="de">Wer ist das? – Das ist Nico.</td></tr>
+  <tr><td class="de">was</td><td>حاجة (مش شخص)</td><td class="de">Was trinkst du? – Ich trinke Tee.</td></tr>
+</table>
+
+<h3>3. تطلب مشروب</h3>
+<div class="ex"><div>Was möchtest du trinken? – Ich möchte einen Kaffee.</div><small>عايز تشرب إيه؟ – عايز قهوة. (<bdi class="de">möchten</bdi> = أود / عايز — أأدب من <bdi class="de">wollen</bdi>)</small></div>
+<div class="ex"><div>Ich nehme einen Tee mit Milch, ohne Zucker.</div><small>هاخد شاي بلبن من غير سكر. (<b>mit</b> = بـ / مع · <b>ohne</b> = من غير)</small></div>
+<div class="ex"><div>Ich trinke lieber Wasser.</div><small>أنا أفضّل أشرب مية. (<bdi class="de">lieber</bdi> = أفضّل)</small></div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>der Apfelsaft, die Apfelsäfte</td><td>عصير تفاح</td><td>das Bier, die Biere</td><td>بيرة</td></tr>
+  <tr><td>die Cola, die Colas</td><td>كولا</td><td>das</td><td>أداة تعريف الأسماء المحايدة</td></tr>
+  <tr><td>der</td><td>أداة تعريف الأسماء المذكرة</td><td>die</td><td>أداة تعريف الأسماء المؤنثة</td></tr>
+  <tr><td>das Eis</td><td>ثلج (مكعبات)</td><td>der Fahrradladen, die Fahrradläden</td><td>متجر دراجات</td></tr>
+  <tr><td>fragen</td><td>سأل</td><td>Ich habe eine Idee.</td><td>لديَّ فكرة.</td></tr>
+  <tr><td>jemanden/etwas kennen</td><td>عَرَفَ شخصا، شيئاً</td><td>der Kühlschrank, die Kühlschränke</td><td>ثلاجة، برّاد</td></tr>
+  <tr><td>lieber</td><td>حبّذ، فضّل</td><td>die Limo, die Limos</td><td>عصير الليمون، شراب مرطب</td></tr>
+  <tr><td>die Limonade, die Limonaden</td><td>عصير الليمون، شراب مرطب</td><td>die Milch</td><td>حليب</td></tr>
+  <tr><td>mit</td><td>مع</td><td>möchten</td><td>ودَّ، أرادَ</td></tr>
+  <tr><td>etwas nehmen</td><td>أخذَ شيئاً</td><td>ohne</td><td>بدون</td></tr>
+  <tr><td>der Orangensaft, die Orangensäfte</td><td>عصير برتقال</td><td>etwas posten</td><td>نَشَر شيئاً (على وسائل التواصل الاجتماعي)</td></tr>
+  <tr><td>der Saft, die Säfte</td><td>عصير</td><td>die Speisekarte, die Speisekarten</td><td>قائمة الطعام</td></tr>
+  <tr><td>der Tee, die Tees</td><td>شاي</td><td>viel</td><td>كثير</td></tr>
+  <tr><td>das Wasser</td><td>ماء</td><td>der Wein, die Weine</td><td>نبيذ</td></tr>
+  <tr><td>wenig</td><td>قليل</td><td>der Zucker</td><td>سكر</td></tr>
+</table>
+
+<h2 class="part">الدرس 15 — تحوّل <bdi class="de">e → i</bdi> وطلب الأكل<span>Eine Pizza bitte!</span></h2>
+<div class="facts"><div><b>21</b><span>كلمة</span></div><div><b>16</b><span>تمارين</span></div><div><b>1</b><span>صفحة قواعد</span></div><div><b>90</b><span>دقيقة</span></div></div>
+
+<p class="lead">آخر درس في الخطة، وفيه أكتر عدد تمارين (16). القاعدة الجديدة صغيرة بس هتقابلك في أفعال كتير بعد كده.</p>
+
+<h3>1. أفعال بيتغير فيها حرف العلة</h3>
+<p>فيه أفعال شوية «شقية»: مع <bdi class="de">du</bdi> و <bdi class="de">er/sie/es</bdi> <b>بس</b>، الحرف <bdi class="de">e</bdi> اللي في الجذر بيتحول <bdi class="de">i</bdi>. مع باقي الضمائر بتتصرف عادي خالص:</p>
+<table class="conj">
+  <tr><th>الضمير</th><th>essen (ياكل)</th><th>ملاحظة</th></tr>
+  <tr><td>ich</td><td>esse</td><td>عادي</td></tr>
+  <tr><td>du</td><td><b>isst</b></td><td>e ← i</td></tr>
+  <tr><td>er / sie / es</td><td><b>isst</b></td><td>e ← i</td></tr>
+  <tr><td>wir</td><td>essen</td><td>عادي</td></tr>
+  <tr><td>ihr</td><td>esst</td><td>عادي</td></tr>
+  <tr><td>sie / Sie</td><td>essen</td><td>عادي</td></tr>
+</table>
+
+<h3>2. الفعل <bdi class="de">nehmen</bdi> — تغيير زيادة</h3>
+<p>نفس الحكاية بس بيتغير فيه حرف تاني كمان (الـ <bdi class="de">h</bdi> بتروح وتتحول <bdi class="de">m</bdi> مشدّدة):</p>
+<table class="conj">
+  <tr><th>الضمير</th><th>nehmen (ياخد)</th></tr>
+  <tr><td>ich</td><td>nehme</td></tr>
+  <tr><td>du</td><td><b>nimmst</b></td></tr>
+  <tr><td>er / sie / es</td><td><b>nimmt</b></td></tr>
+  <tr><td>wir / sie / Sie</td><td>nehmen</td></tr>
+  <tr><td>ihr</td><td>nehmt</td></tr>
+</table>
+
+<h3>3. حوار المطعم كامل</h3>
+<div class="ex"><div>Was gibt es denn? – Hier ist die Speisekarte.</div><small>فيه إيه عندكم؟ – اتفضل قائمة الطعام.</small></div>
+<div class="ex"><div>Ich nehme eine Pizza mit Salami, ohne Schinken.</div><small>هاخد بيتزا بالسلامي من غير لحم خنزير. (<b>جملة مهمة ليك</b> — <bdi class="de">Schinken</bdi> لحم خنزير)</small></div>
+<div class="ex"><div>Und was isst du gern? – Ich esse gern Pizza mit Käse.</div><small>وإنت بتحب تاكل إيه؟ – بحب البيتزا بالجبنة.</small></div>
+<div class="ex"><div>Sonst noch etwas? – Nein, danke.</div><small>أي حاجة تانية؟ – لأ، شكرًا.</small></div>
+<div class="ex"><div>Ich habe Hunger. / Ich habe Durst.</div><small>أنا جعان. / أنا عطشان. (بفعل <bdi class="de">haben</bdi> مش <bdi class="de">sein</bdi>)</small></div>
+
+<div class="box green">
+  <span class="t">كلمات أكل تهمّك كمسلم</span>
+  <p><bdi class="de">der Schinken</bdi> = لحم خنزير · <bdi class="de">die Salami</bdi> = سجق (غالبًا فيه خنزير) · <bdi class="de">der Vegetarier / die Vegetarierin</bdi> = نباتي/نباتية. جملة مفيدة: <bdi class="de-l">Ich esse kein Schweinefleisch.</bdi> (أنا ما باكلش لحم خنزير) — <bdi class="de">kein</bdi> هتاخدها في درس جاي.</p>
+</div>
+
+<h4>كلمات الدرس</h4>
+<table class="vocab2">
+  <tr><td>die Ananas, die Ananas</td><td>أناناس</td><td>(etwas) bestellen</td><td>طَلَبَ (شيئاً)</td></tr>
+  <tr><td>der Durst</td><td>عطَش</td><td>(etwas) essen</td><td>أكل (شيئاً)</td></tr>
+  <tr><td>gern</td><td>بسرور</td><td>der Hunger</td><td>الجوع</td></tr>
+  <tr><td>der Käse</td><td>جبنة</td><td>etwas/jemanden lieben</td><td>أحبَّ شيئاً، شخصاً</td></tr>
+  <tr><td>der Mozzarella</td><td>جبنة الموتزريلا</td><td>etwas nehmen</td><td>أخذَ شيئاً</td></tr>
+  <tr><td>die Salami, die Salamis</td><td>نوع من أنواع السجق</td><td>der Salat, die Salate</td><td>سَلَطَة</td></tr>
+  <tr><td>der Schinken, die Schinken</td><td>شرائح من لحم فخذ الخنزير</td><td>Sonst noch etwas?</td><td>أي شيء آخر؟</td></tr>
+  <tr><td>die Speisekarte, die Speisekarten</td><td>قائمة الطعام</td><td>das Sushi</td><td>سوشي</td></tr>
+  <tr><td>der Thunfisch, die Thunfische</td><td>سمك التونا</td><td>die Tomate, die Tomaten</td><td>الطماطم</td></tr>
+  <tr><td>der Vegetarier, die Vegetarier</td><td>نَباتيّ (شخص)</td><td>die Vegetarierin, die Vegetarierinnen</td><td>نَباتيّة (شخص)</td></tr>
+  <tr><td>Was gibt es denn?</td><td>ماذا يوجد (لديكم)؟</td><td></td><td></td></tr>
+</table>
+
+<h2 class="part">ملخص قواعد العشر دروس<span>كل اللي فات في صفحتين</span></h2>
+
+<h3>1. تصريف الفعل في المضارع</h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>النهاية</th><th>kommen</th><th>wohnen</th><th>arbeiten (جذر بـ t)</th></tr>
+  <tr><td>ich</td><td class="de">-e</td><td>komme</td><td>wohne</td><td>arbeite</td></tr>
+  <tr><td>du</td><td class="de">-st</td><td>kommst</td><td>wohnst</td><td>arbeitest</td></tr>
+  <tr><td>er / sie / es</td><td class="de">-t</td><td>kommt</td><td>wohnt</td><td>arbeitet</td></tr>
+  <tr><td>wir</td><td class="de">-en</td><td>kommen</td><td>wohnen</td><td>arbeiten</td></tr>
+  <tr><td>ihr</td><td class="de">-t</td><td>kommt</td><td>wohnt</td><td>arbeitet</td></tr>
+  <tr><td>sie / Sie</td><td class="de">-en</td><td>kommen</td><td>wohnen</td><td>arbeiten</td></tr>
+</table>
+<p><b>استثناءات:</b> جذر بينتهي بـ <bdi class="de">s/z/ß/x</bdi> ← مع <bdi class="de">du</bdi> نهاية <bdi class="de">-t</bdi> بس (<bdi class="de">du heißt</bdi>) · جذر بينتهي بـ <bdi class="de">d/t</bdi> ← نزوّد <bdi class="de">-e-</bdi> (<bdi class="de">du arbeitest</bdi>).</p>
+
+<h3>2. الأفعال الشاذة اللي خدتها</h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>sein</th><th>haben</th><th>essen</th><th>nehmen</th></tr>
+  <tr><td>ich</td><td>bin</td><td>habe</td><td>esse</td><td>nehme</td></tr>
+  <tr><td>du</td><td>bist</td><td>hast</td><td>isst</td><td>nimmst</td></tr>
+  <tr><td>er / sie / es</td><td>ist</td><td>hat</td><td>isst</td><td>nimmt</td></tr>
+  <tr><td>wir</td><td>sind</td><td>haben</td><td>essen</td><td>nehmen</td></tr>
+  <tr><td>ihr</td><td>seid</td><td>habt</td><td>esst</td><td>nehmt</td></tr>
+  <tr><td>sie / Sie</td><td>sind</td><td>haben</td><td>essen</td><td>nehmen</td></tr>
+</table>
+
+<h3>3. أدوات الاستفهام</h3>
+<table>
+  <tr><th>الأداة</th><th>المعنى</th><th>الأداة</th><th>المعنى</th></tr>
+  <tr><td class="de">wer</td><td>مين (شخص)</td><td class="de">was</td><td>إيه (حاجة)</td></tr>
+  <tr><td class="de">wie</td><td>إزاي</td><td class="de">wo</td><td>فين</td></tr>
+  <tr><td class="de">woher</td><td>منين</td><td class="de">warum</td><td>ليه</td></tr>
+  <tr><td class="de">wie alt</td><td>كام سنة</td><td class="de">wie viele</td><td>كام (عدد)</td></tr>
+</table>
+<p>الترتيب دايمًا: <b>أداة + فعل + فاعل</b> — <bdi class="de">Wo wohnst du?</bdi></p>
+
+<h3>4. الأعداد</h3>
+<table class="num">
+  <tr><td>0–12</td><td colspan="3">null · eins · zwei · drei · vier · fünf · sechs · sieben · acht · neun · zehn · elf · zwölf</td></tr>
+  <tr><td>13–19</td><td colspan="3">الرقم + zehn &nbsp;(استثناء: sechzehn · siebzehn)</td></tr>
+  <tr><td>العقود</td><td colspan="3">zwanzig · dreißig · vierzig · fünfzig · sechzig · siebzig · achtzig · neunzig</td></tr>
+  <tr><td>21–99</td><td colspan="3">آحاد + und + عشرات في كلمة واحدة: einundzwanzig</td></tr>
+  <tr><td>+100</td><td colspan="3">hundert · tausend &nbsp;→&nbsp; zweihunderteinunddreißig (231)</td></tr>
+</table>
+
+<h3>5. رسمي ولا غير رسمي</h3>
+<table>
+  <tr><th>الموقف</th><th>غير رسمي (<bdi class="de">du / ihr</bdi>)</th><th>رسمي (<bdi class="de">Sie</bdi>)</th></tr>
+  <tr><td>الاسم</td><td class="de">Wie heißt du?</td><td class="de">Wie heißen Sie?</td></tr>
+  <tr><td>البلد</td><td class="de">Woher kommst du?</td><td class="de">Woher kommen Sie?</td></tr>
+  <tr><td>السكن</td><td class="de">Wo wohnst du?</td><td class="de">Wo wohnen Sie?</td></tr>
+  <tr><td>العمر</td><td class="de">Wie alt bist du?</td><td class="de">Wie alt sind Sie?</td></tr>
+  <tr><td>الملكية</td><td class="de">dein Name / deine Adresse</td><td class="de">Ihr Name / Ihre Adresse</td></tr>
+  <tr><td>الوداع</td><td class="de">Tschüss!</td><td class="de">Auf Wiedersehen!</td></tr>
+</table>
+
+<h3>6. أدوات التعريف</h3>
+<p><bdi class="de">der</bdi> مذكّر · <bdi class="de">die</bdi> مؤنّث · <bdi class="de">das</bdi> محايد — <b>مفيش قاعدة، احفظ الأداة مع الكلمة.</b></p>
+
+<div class="box blue">
+  <span class="t">إزاي تعرف إنك خلّصت الدرس فعلاً؟</span>
+  <p>مش لما تخلص التمارين — لما تقدر تعمل التلاتة دول من غير ما تبص على حاجة:</p>
+  <ol style="margin-bottom:0">
+    <li>تقول جمل الدرس بصوت عالي وإنت فاهمها.</li>
+    <li>تكتب جدول القاعدة الجديدة من دماغك على ورقة.</li>
+    <li>تجيب 80% أو أكتر في امتحان الدرس عندك على الجهاز.</li>
+  </ol>
+</div>
+
+<p class="foot">المصدر: صفحات دروس <bdi class="de">Nicos Weg · A1</bdi> على learngerman.dw.com (الدروس 6–15) — الكلمات والقواعد مأخوذة من الدروس نفسها. الشرح والترتيب والخطة الزمنية مكتوبين مخصوص ليك.</p>
+
+</body>
+</html>

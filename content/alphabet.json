@@ -1,0 +1,356 @@
+{
+  "letters": [
+    {
+      "ch": "A",
+      "name": "A",
+      "say": "آ",
+      "word": {
+        "de": "die Adresse",
+        "ar": "عنوان"
+      }
+    },
+    {
+      "ch": "B",
+      "name": "Be",
+      "say": "بيه",
+      "word": {
+        "de": "der Buchstabe",
+        "ar": "حرف"
+      }
+    },
+    {
+      "ch": "C",
+      "name": "Ce",
+      "say": "تسيه",
+      "word": {
+        "de": "der Computer",
+        "ar": "حاسوب، كمبيوتر"
+      }
+    },
+    {
+      "ch": "D",
+      "name": "De",
+      "say": "ديه",
+      "word": {
+        "de": "Deutschland",
+        "ar": "ألمانيا"
+      }
+    },
+    {
+      "ch": "E",
+      "name": "E",
+      "say": "إيه",
+      "word": {
+        "de": "elf",
+        "ar": "أحد عشر"
+      }
+    },
+    {
+      "ch": "F",
+      "name": "Ef",
+      "say": "إف",
+      "word": {
+        "de": "die Familie",
+        "ar": "عائلة"
+      }
+    },
+    {
+      "ch": "G",
+      "name": "Ge",
+      "say": "غيه",
+      "word": {
+        "de": "das Geschenk",
+        "ar": "هدية"
+      }
+    },
+    {
+      "ch": "H",
+      "name": "Ha",
+      "say": "ها",
+      "word": {
+        "de": "das Handy",
+        "ar": "هاتف نقال، موبايل"
+      }
+    },
+    {
+      "ch": "I",
+      "name": "I",
+      "say": "إي",
+      "word": {
+        "de": "die Information",
+        "ar": "(مكتب) الاستعلامات"
+      }
+    },
+    {
+      "ch": "J",
+      "name": "Jot",
+      "say": "يوت",
+      "word": {
+        "de": "ja",
+        "ar": "نعم"
+      }
+    },
+    {
+      "ch": "K",
+      "name": "Ka",
+      "say": "كا",
+      "word": {
+        "de": "der Kaffee",
+        "ar": "قهوة"
+      }
+    },
+    {
+      "ch": "L",
+      "name": "El",
+      "say": "إل",
+      "word": {
+        "de": "die Lampe",
+        "ar": "لمبة، مصباح"
+      }
+    },
+    {
+      "ch": "M",
+      "name": "Em",
+      "say": "إم",
+      "word": {
+        "de": "die Mutter",
+        "ar": "أم"
+      }
+    },
+    {
+      "ch": "N",
+      "name": "En",
+      "say": "إن",
+      "word": {
+        "de": "der Name",
+        "ar": "اسم"
+      }
+    },
+    {
+      "ch": "O",
+      "name": "O",
+      "say": "أوه",
+      "word": {
+        "de": "der Onkel",
+        "ar": "عم، خال"
+      }
+    },
+    {
+      "ch": "P",
+      "name": "Pe",
+      "say": "پيه",
+      "word": {
+        "de": "die Pizza",
+        "ar": "بيتزا"
+      }
+    },
+    {
+      "ch": "Q",
+      "name": "Ku",
+      "say": "كو",
+      "word": {
+        "de": "das Quadrat",
+        "ar": "مربّع"
+      }
+    },
+    {
+      "ch": "R",
+      "name": "Er",
+      "say": "إر",
+      "word": {
+        "de": "das Radio",
+        "ar": "راديو، مذياع"
+      }
+    },
+    {
+      "ch": "S",
+      "name": "Es",
+      "say": "إس",
+      "word": {
+        "de": "der Saft",
+        "ar": "عصير"
+      }
+    },
+    {
+      "ch": "T",
+      "name": "Te",
+      "say": "تيه",
+      "word": {
+        "de": "die Tasche",
+        "ar": "حقيبة"
+      }
+    },
+    {
+      "ch": "U",
+      "name": "U",
+      "say": "أُو",
+      "word": {
+        "de": "die Universität",
+        "ar": "جامعة"
+      }
+    },
+    {
+      "ch": "V",
+      "name": "Vau",
+      "say": "فاو",
+      "word": {
+        "de": "der Vater",
+        "ar": "أب"
+      }
+    },
+    {
+      "ch": "W",
+      "name": "We",
+      "say": "ڤيه",
+      "word": {
+        "de": "das Wasser",
+        "ar": "ماء"
+      }
+    },
+    {
+      "ch": "X",
+      "name": "Ix",
+      "say": "إكس",
+      "word": {
+        "de": "das Xylophon",
+        "ar": "إكسيلوفون (آلة موسيقية)"
+      }
+    },
+    {
+      "ch": "Y",
+      "name": "Ypsilon",
+      "say": "إبسيلون",
+      "word": {
+        "de": "das Yoga",
+        "ar": "يوجا"
+      }
+    },
+    {
+      "ch": "Z",
+      "name": "Zett",
+      "say": "تسِت",
+      "word": {
+        "de": "der Zucker",
+        "ar": "سكر"
+      }
+    },
+    {
+      "ch": "Ä",
+      "name": "Ä",
+      "say": "إيه مفتوحة",
+      "word": {
+        "de": "Ägypten",
+        "ar": "مصر"
+      }
+    },
+    {
+      "ch": "Ö",
+      "name": "Ö",
+      "say": "إيه بشفايف مدوّرة",
+      "word": {
+        "de": "Österreich",
+        "ar": "النمسا"
+      }
+    },
+    {
+      "ch": "Ü",
+      "name": "Ü",
+      "say": "إي بشفايف مدوّرة",
+      "word": {
+        "de": "die Übung",
+        "ar": "تمرين"
+      }
+    },
+    {
+      "ch": "ß",
+      "name": "Eszett",
+      "say": "إس تسِت",
+      "word": {
+        "de": "die Straße",
+        "ar": "شارع"
+      }
+    }
+  ],
+  "spelling": [
+    {
+      "word": "Hallo",
+      "spelled": "Ha – A – El – El – O"
+    },
+    {
+      "word": "Müller",
+      "spelled": "Em – Ü – El – El – E – Er"
+    },
+    {
+      "word": "Emma",
+      "spelled": "E – Em – Em – A"
+    },
+    {
+      "word": "Taxi",
+      "spelled": "Te – A – Ix – I"
+    },
+    {
+      "word": "Bus",
+      "spelled": "Be – U – Es"
+    },
+    {
+      "word": "Büro",
+      "spelled": "Be – Ü – Er – O"
+    },
+    {
+      "word": "Pizza",
+      "spelled": "Pe – I – Zett – Zett – A"
+    },
+    {
+      "word": "Nico",
+      "spelled": "En – I – Ce – O"
+    },
+    {
+      "word": "Lisa",
+      "spelled": "El – I – Es – A"
+    },
+    {
+      "word": "Yara",
+      "spelled": "Ypsilon – A – Er – A"
+    },
+    {
+      "word": "Straße",
+      "spelled": "Es – Te – Er – A – Eszett – E"
+    },
+    {
+      "word": "Max",
+      "spelled": "Em – A – Ix"
+    },
+    {
+      "word": "Vater",
+      "spelled": "Vau – A – Te – E – Er"
+    },
+    {
+      "word": "Pass",
+      "spelled": "Pe – A – Es – Es"
+    },
+    {
+      "word": "zwölf",
+      "spelled": "Zett – We – Ö – El – Ef"
+    },
+    {
+      "word": "Handy",
+      "spelled": "Ha – A – En – De – Ypsilon"
+    },
+    {
+      "word": "Jürgen",
+      "spelled": "Jot – Ü – Er – Ge – E – En"
+    },
+    {
+      "word": "Tee",
+      "spelled": "Te – E – E"
+    },
+    {
+      "word": "Wasser",
+      "spelled": "We – A – Es – Es – E – Er"
+    },
+    {
+      "word": "Käse",
+      "spelled": "Ka – Ä – Es – E"
+    }
+  ]
+}

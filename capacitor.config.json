@@ -1,0 +1,21 @@
+{
+  "appId": "com.abdullah.wortschatz",
+  "appName": "Wortschatz",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#14315e",
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "style": "DARK",
+      "initialViewportFitValueHint": "cover"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_w",
+      "iconColor": "#2a78d6"
+    }
+  }
+}

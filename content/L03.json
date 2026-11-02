@@ -1,0 +1,386 @@
+{
+  "n": 3,
+  "sentences": [
+    {
+      "id": "s03-001",
+      "de": "Tschüss, Martina. Gute Reise!",
+      "ar": "باي يا مارتينا. توصلي بالسلامة!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "informal"
+      ],
+      "alts": [
+        "Gute Reise! Tschüss, Martina."
+      ],
+      "cloze": {
+        "word": "Gute",
+        "opts": [
+          "Gute",
+          "Guten",
+          "Gut"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s03-002",
+      "de": "Mach’s gut, Herbert. Bis bald!",
+      "ar": "خلّي بالك من نفسك يا هيربرت. أشوفك قريب!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "informal"
+      ],
+      "alts": [
+        "Bis bald! Mach’s gut, Herbert."
+      ],
+      "src": "episode"
+    },
+    {
+      "id": "s03-003",
+      "de": "Auf Wiedersehen, Herr Tillmanns. Gute Reise!",
+      "ar": "مع السلامة يا أستاذ تيلمانس. توصل بالسلامة!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "formal"
+      ],
+      "alts": [
+        "Gute Reise! Auf Wiedersehen, Herr Tillmanns."
+      ],
+      "cloze": {
+        "word": "Reise",
+        "opts": [
+          "Reise",
+          "Tag",
+          "Abend"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s03-004",
+      "de": "Danke schön! Auf Wiedersehen, Frau Scholl.",
+      "ar": "متشكر أوي! مع السلامة يا مدام شول.",
+      "kind": "answer",
+      "focus": [
+        "thanks",
+        "farewell",
+        "formal"
+      ],
+      "alts": [
+        "Auf Wiedersehen, Frau Scholl. Danke schön!"
+      ],
+      "cloze": {
+        "word": "schön",
+        "opts": [
+          "schön",
+          "gut",
+          "bald"
+        ],
+        "accept": [
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s03-005",
+      "de": "Die Tasche ist schön!",
+      "ar": "الشنطة حلوة!",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s03-006",
+      "de": "Ja, die Tasche!",
+      "ar": "أيوه، الشنطة!",
+      "kind": "answer",
+      "focus": [
+        "confirm"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s03-007",
+      "de": "Die Tasche ist im Taxi!",
+      "ar": "الشنطة في التاكسي!",
+      "kind": "statement",
+      "focus": [
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "in",
+          "ins"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s03-008",
+      "de": "Vielen Dank für die Hilfe!",
+      "ar": "ألف شكر على المساعدة!",
+      "kind": "statement",
+      "focus": [
+        "thanks"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Dank",
+        "opts": [
+          "Dank",
+          "Danke",
+          "Danken"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s03-009",
+      "de": "Tschüss, Emma! Bis bald!",
+      "ar": "باي يا إيما! أشوفك قريب!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "informal"
+      ],
+      "alts": [
+        "Bis bald! Tschüss, Emma!"
+      ],
+      "cloze": {
+        "word": "bald",
+        "opts": [
+          "bald",
+          "gut",
+          "schön"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s03-010",
+      "de": "Auf Wiedersehen, Frau Kamp!",
+      "ar": "مع السلامة يا مدام كامب!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Auf",
+        "opts": [
+          "Auf",
+          "Bis",
+          "Gute"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s03-011",
+      "de": "Mach’s gut, Lisa!",
+      "ar": "خلّي بالك من نفسك يا ليزا!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "informal"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s03-012",
+      "de": "Gute Reise und bis bald!",
+      "ar": "رحلة سعيدة، وأشوفك قريب!",
+      "kind": "greeting",
+      "focus": [
+        "farewell"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "und",
+        "opts": [
+          "und",
+          "oder",
+          "auch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s03-013",
+      "de": "Die Tasche ist nicht hier!",
+      "ar": "الشنطة مش هنا!",
+      "kind": "statement",
+      "focus": [
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "nein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s03-014",
+      "de": "Ist die Tasche im Taxi?",
+      "ar": "الشنطة في التاكسي؟",
+      "kind": "question",
+      "focus": [
+        "question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ist",
+        "opts": [
+          "Ist",
+          "Bist",
+          "Bin"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w03-01",
+      "q": "___ heißt die Frau?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الست اسمها إيه؟",
+      "reply": "Die Frau heißt Martina.",
+      "reply_ar": "الست اسمها مارتينا."
+    },
+    {
+      "id": "w03-02",
+      "q": "___ heißt der Mann?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "الراجل اسمه إيه؟",
+      "reply": "Der Mann heißt Herbert.",
+      "reply_ar": "الراجل اسمه هيربرت."
+    },
+    {
+      "id": "w03-03",
+      "q": "___ geht es Ihnen, Frau Scholl?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Was"
+      ],
+      "ar": "إزي حضرتك يا مدام شول؟",
+      "reply": "Sehr gut, danke schön!",
+      "reply_ar": "كويسة جدًا، متشكرة أوي!"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g03-1",
+      "h": "مع السلامة: رسمي ولا غير رسمي؟",
+      "body": "مع العيلة والأصحاب: Tschüss! (الأشهر)، و Mach’s gut! (خلّي بالك من نفسك)، و Bis bald! لو هتشوفه قريب. مع الناس الغريبة وفي الشغل والمصالح: Auf Wiedersehen! و Herr أو Frau + اسم العيلة. Gute Reise! تنفع مع الاتنين لما حد مسافر. ولو محتار، Auf Wiedersehen أأمن.",
+      "examples": [
+        {
+          "de": "Mach’s gut, Herbert. Bis bald!",
+          "ar": "خلّي بالك من نفسك يا هيربرت. أشوفك قريب!"
+        },
+        {
+          "de": "Auf Wiedersehen, Herr Tillmanns. Gute Reise!",
+          "ar": "مع السلامة يا أستاذ تيلمانس. توصل بالسلامة!"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "غير رسمي",
+          "رسمي"
+        ],
+        [
+          "مع السلامة",
+          "Tschüss! / Mach’s gut!",
+          "Auf Wiedersehen!"
+        ],
+        [
+          "أشوفك قريب",
+          "Bis bald!",
+          "Bis bald!"
+        ],
+        [
+          "لما حد مسافر",
+          "Gute Reise!",
+          "Gute Reise!"
+        ],
+        [
+          "المناداة",
+          "Martina، Herbert",
+          "Herr Tillmanns، Frau Scholl"
+        ]
+      ]
+    },
+    {
+      "id": "g03-2",
+      "h": "شكرًا: danke و Vielen Dank",
+      "body": "danke = شكرًا. danke schön و Vielen Dank = شكرًا جزيلًا، أقوى وأكتر أدب. خد بالك: Vielen Dank من غير e في الآخر، مش Vielen Danke. ولو حد شكرك، ترد بـ Bitte! أو Kein Problem! يعني العفو.",
+      "examples": [
+        {
+          "de": "Danke schön! Auf Wiedersehen, Frau Scholl.",
+          "ar": "متشكر أوي! مع السلامة يا مدام شول."
+        },
+        {
+          "de": "Vielen Dank für die Hilfe!",
+          "ar": "ألف شكر على المساعدة!"
+        }
+      ]
+    },
+    {
+      "id": "g03-3",
+      "h": "ليه Gute Reise بس Guten Tag؟",
+      "body": "Gute Reise من غير n لأن Reise كلمة مؤنثة (die Reise). أما Guten Morgen و Guten Tag و Guten Abend فبحرف n لأن الكلمات دي مذكرة (der Tag). مش لازم تحفظ القاعدة دلوقتي: احفظ كل تعبير زي ما هو.",
+      "examples": [
+        {
+          "de": "Tschüss, Martina. Gute Reise!",
+          "ar": "باي يا مارتينا. توصلي بالسلامة!"
+        },
+        {
+          "de": "Guten Tag, Frau Kamp.",
+          "ar": "نهارك سعيد يا مدام كامب."
+        }
+      ]
+    }
+  ]
+}

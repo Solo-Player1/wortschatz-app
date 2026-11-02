@@ -1,0 +1,695 @@
+{
+  "n": 15,
+  "sentences": [
+    {
+      "id": "s15-001",
+      "de": "Möchtest du etwas essen?",
+      "ar": "تحب تاكل حاجة؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "essen",
+        "opts": [
+          "essen",
+          "isst",
+          "esst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-002",
+      "de": "Was gibt es denn?",
+      "ar": "هو فيه إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Was",
+        "opts": [
+          "Was",
+          "Wo",
+          "Wie"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-003",
+      "de": "Hast du auch Durst?",
+      "ar": "إنت كمان عطشان؟",
+      "kind": "question",
+      "focus": [
+        "drink",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Bist",
+          "Habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-004",
+      "de": "Ich möchte eine Pizza bitte.",
+      "ar": "عايز بيتزا لو سمحت.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-005",
+      "de": "Was nehmt ihr?",
+      "ar": "هتاخدوا إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:nehmen",
+        "order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nehmt",
+        "opts": [
+          "nehmt",
+          "nimmt",
+          "nehmen",
+          "nimmst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-006",
+      "de": "Ich nehme auch eine Pizza mit Salami.",
+      "ar": "أنا كمان هاخد بيتزا بالسلامي.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "verb:nehmen"
+      ],
+      "alts": [
+        "Auch ich nehme eine Pizza mit Salami."
+      ],
+      "cloze": {
+        "word": "nehme",
+        "opts": [
+          "nehme",
+          "nimmst",
+          "nimmt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-007",
+      "de": "Möchtest du eine Pizza mit Thunfisch oder mit Salami?",
+      "ar": "تحب بيتزا بالتونة ولا بالسلامي؟",
+      "kind": "question",
+      "focus": [
+        "order",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "auch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-008",
+      "de": "Ich nehme meine Pizza Hawaii ohne Schinken.",
+      "ar": "أنا هاخد البيتزا هاواي بتاعتي من غير لحم خنزير.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "food"
+      ],
+      "alts": [
+        "Meine Pizza Hawaii nehme ich ohne Schinken."
+      ],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-009",
+      "de": "Das ist eine Pizza mit Ananas und Schinken.",
+      "ar": "دي بيتزا بالأناناس ولحم الخنزير.",
+      "kind": "statement",
+      "focus": [
+        "food"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s15-010",
+      "de": "Nina liebt Ananas.",
+      "ar": "نينا بتحب الأناناس.",
+      "kind": "statement",
+      "focus": [
+        "verb:lieben",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "liebt",
+        "opts": [
+          "liebt",
+          "liebst",
+          "liebe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-011",
+      "de": "Sie ist aber Vegetarierin.",
+      "ar": "بس هي نباتية.",
+      "kind": "statement",
+      "focus": [
+        "food"
+      ],
+      "alts": [
+        "Aber sie ist Vegetarierin."
+      ],
+      "cloze": {
+        "word": "aber",
+        "opts": [
+          "aber",
+          "oder",
+          "und"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-012",
+      "de": "Nina nimmt die Pizza ohne Schinken.",
+      "ar": "نينا بتاخد البيتزا من غير لحم خنزير.",
+      "kind": "statement",
+      "focus": [
+        "verb:nehmen",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nimmt",
+        "opts": [
+          "nimmt",
+          "nehmt",
+          "nimmst",
+          "nehme"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-013",
+      "de": "Habt ihr Hunger?",
+      "ar": "إنتوا جعانين؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Habt",
+        "opts": [
+          "Habt",
+          "Hast",
+          "Seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-014",
+      "de": "Hier, das ist die Speisekarte.",
+      "ar": "اتفضل، دي المنيو.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s15-015",
+      "de": "Was isst du gern?",
+      "ar": "بتحب تاكل إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:essen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "isst",
+        "opts": [
+          "isst",
+          "esst",
+          "esse",
+          "essen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-016",
+      "de": "Ich esse gern Pizza mit Käse.",
+      "ar": "بحب آكل بيتزا بالجبنة.",
+      "kind": "answer",
+      "focus": [
+        "verb:essen",
+        "food"
+      ],
+      "alts": [
+        "Gern esse ich Pizza mit Käse."
+      ],
+      "cloze": {
+        "word": "esse",
+        "opts": [
+          "esse",
+          "isst",
+          "esst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-017",
+      "de": "Nina isst keine Salami.",
+      "ar": "نينا مابتاكلش سلامي.",
+      "kind": "statement",
+      "focus": [
+        "verb:essen",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "isst",
+        "opts": [
+          "isst",
+          "esst",
+          "esse"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-018",
+      "de": "Nimmst du eine Pizza oder einen Salat?",
+      "ar": "هتاخد بيتزا ولا سلطة؟",
+      "kind": "question",
+      "focus": [
+        "verb:nehmen",
+        "order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nimmst",
+        "opts": [
+          "Nimmst",
+          "Nehmst",
+          "Nimmt",
+          "Nehmt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-019",
+      "de": "Nawin spricht sehr gut Deutsch.",
+      "ar": "نافين بيتكلم ألماني كويس جدًا.",
+      "kind": "statement",
+      "focus": [
+        "verb:sprechen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "spricht",
+        "opts": [
+          "spricht",
+          "sprecht",
+          "sprichst",
+          "spreche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-020",
+      "de": "Lisa hilft Nico.",
+      "ar": "ليزا بتساعد نيكو.",
+      "kind": "statement",
+      "focus": [
+        "verb:helfen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hilft",
+        "opts": [
+          "hilft",
+          "helft",
+          "hilfst",
+          "helfe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-021",
+      "de": "Ich bestelle eine Pizza mit Tomate und Mozzarella.",
+      "ar": "هطلب بيتزا بالطماطم والموتزاريلا.",
+      "kind": "statement",
+      "focus": [
+        "order",
+        "verb:bestellen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bestelle",
+        "opts": [
+          "bestelle",
+          "bestellst",
+          "bestellt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s15-022",
+      "de": "Sonst noch etwas?",
+      "ar": "أي حاجة تانية؟",
+      "kind": "question",
+      "focus": [
+        "order",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "noch",
+        "opts": [
+          "noch",
+          "nicht",
+          "auch"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w15-01",
+      "q": "___ möchtest du essen?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "تحب تاكل إيه؟",
+      "reply": "Ich möchte eine Pizza mit Thunfisch.",
+      "reply_ar": "عايز بيتزا بالتونة."
+    },
+    {
+      "id": "w15-02",
+      "q": "___ gibt es denn?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "هو فيه إيه؟",
+      "reply": "Es gibt Sushi, Pizza und Salat.",
+      "reply_ar": "فيه سوشي وبيتزا وسلطة."
+    },
+    {
+      "id": "w15-03",
+      "q": "___ Pizzen bestellen wir?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "هنطلب كام بيتزا؟",
+      "reply": "Wir bestellen vier Pizzen.",
+      "reply_ar": "هنطلب 4 بيتزا."
+    },
+    {
+      "id": "w15-04",
+      "q": "___ isst du gern?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتحب تاكل إيه؟",
+      "reply": "Ich esse gern Salat.",
+      "reply_ar": "بحب آكل سلطة."
+    },
+    {
+      "id": "w15-05",
+      "q": "___ nimmt die Pizza ohne Schinken?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين بياخد البيتزا من غير لحم خنزير؟",
+      "reply": "Nina. Sie ist Vegetarierin.",
+      "reply_ar": "نينا، أصلها نباتية."
+    },
+    {
+      "id": "w15-06",
+      "q": "___ heißt die Pizza mit Ananas?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "البيتزا اللي بالأناناس اسمها إيه؟",
+      "reply": "Pizza Hawaii.",
+      "reply_ar": "بيتزا هاواي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g15-1",
+      "h": "تحوّل e إلى i: essen، sprechen، helfen",
+      "body": "في أفعال الـ e اللي في جذرها بتبقى i، بس مع du و er / sie / es. باقي الضمائر عادي خالص (حتى ihr). وخد بالك: du isst بـ -t بس، عشان الجذر آخره ss، زي du heißt.",
+      "examples": [
+        {
+          "de": "Was isst du gern? – Ich esse gern Pizza mit Käse.",
+          "ar": "بتحب تاكل إيه؟ – بحب آكل بيتزا بالجبنة."
+        },
+        {
+          "de": "Nawin spricht sehr gut Deutsch.",
+          "ar": "نافين بيتكلم ألماني كويس جدًا."
+        },
+        {
+          "de": "Lisa hilft Nico.",
+          "ar": "ليزا بتساعد نيكو."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "essen",
+          "sprechen",
+          "helfen"
+        ],
+        [
+          "ich",
+          "esse",
+          "spreche",
+          "helfe"
+        ],
+        [
+          "du",
+          "isst",
+          "sprichst",
+          "hilfst"
+        ],
+        [
+          "er / sie / es",
+          "isst",
+          "spricht",
+          "hilft"
+        ],
+        [
+          "wir",
+          "essen",
+          "sprechen",
+          "helfen"
+        ],
+        [
+          "ihr",
+          "esst",
+          "sprecht",
+          "helft"
+        ],
+        [
+          "sie / Sie",
+          "essen",
+          "sprechen",
+          "helfen"
+        ]
+      ]
+    },
+    {
+      "id": "g15-2",
+      "h": "nehmen: nimmst و nimmt",
+      "body": "nehmen بيتغير أكتر شوية: مع du و er / sie / es الـ e بتبقى i، والـ h بتقع، والـ m بتتكرر (mm): du nimmst، er nimmt. ومع ihr عادي: ihr nehmt.",
+      "examples": [
+        {
+          "de": "Was nimmst du? – Ich nehme eine Pizza mit Salami.",
+          "ar": "هتاخد إيه؟ – هاخد بيتزا بالسلامي."
+        },
+        {
+          "de": "Nina nimmt die Pizza ohne Schinken.",
+          "ar": "نينا بتاخد البيتزا من غير لحم خنزير."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "nehmen"
+        ],
+        [
+          "ich",
+          "nehme"
+        ],
+        [
+          "du",
+          "nimmst"
+        ],
+        [
+          "er / sie / es",
+          "nimmt"
+        ],
+        [
+          "wir",
+          "nehmen"
+        ],
+        [
+          "ihr",
+          "nehmt"
+        ],
+        [
+          "sie / Sie",
+          "nehmen"
+        ]
+      ]
+    },
+    {
+      "id": "g15-3",
+      "h": "تطلب أكل",
+      "body": "عشان تطلب: Ich möchte … bitte. أو Ich nehme … وmit = بـ، ohne = من غير. الجرسون ممكن يسألك: Sonst noch etwas? (أي حاجة تانية؟) وترد: Nein, danke. والجوع والعطش بـ haben مش sein: Ich habe Hunger. / Ich habe Durst.",
+      "examples": [
+        {
+          "de": "Ich möchte eine Pizza mit Thunfisch.",
+          "ar": "عايز بيتزا بالتونة."
+        },
+        {
+          "de": "Sonst noch etwas? – Nein, danke.",
+          "ar": "أي حاجة تانية؟ – لأ، شكرًا."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "عايز بيتزا لو سمحت",
+          "Ich möchte eine Pizza bitte."
+        ],
+        [
+          "هاخد سلطة",
+          "Ich nehme einen Salat."
+        ],
+        [
+          "أي حاجة تانية؟",
+          "Sonst noch etwas?"
+        ],
+        [
+          "أنا جعان / عطشان",
+          "Ich habe Hunger. / Ich habe Durst."
+        ]
+      ]
+    },
+    {
+      "id": "g15-4",
+      "h": "كلمات أكل تهمّك",
+      "body": "der Schinken = لحم خنزير، والـ Salami غالبًا فيها خنزير. فاطلب ohne Schinken أو قول: Ich esse keine Salami. ونباتي = der Vegetarier / die Vegetarierin، ومن غير أداة بعد sein: Ich bin Vegetarier. (زي Er ist Taxifahrer.)",
+      "examples": [
+        {
+          "de": "Ich nehme eine Pizza Hawaii ohne Schinken.",
+          "ar": "هاخد بيتزا هاواي من غير لحم خنزير."
+        },
+        {
+          "de": "Nina ist Vegetarierin.",
+          "ar": "نينا نباتية."
+        }
+      ]
+    }
+  ]
+}

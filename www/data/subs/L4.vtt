@@ -1,0 +1,112 @@
+WEBVTT
+
+
+STYLE
+::cue(.S2) {
+color: white;
+background-color: black;
+line-height: normal;
+}
+
+STYLE
+::cue(.S3) {
+font-weight: normal;
+font-size: 156%;
+font-family: Arial;
+}
+
+1
+00:00:07.280 --> 00:00:08.360 region:R1 align:center
+<c.S1>– Yara.</c>
+
+2
+00:00:09.880 --> 00:00:11.560 region:R1 align:center
+<c.S1>– Wer ist Yara?</c>
+
+3
+00:00:11.600 --> 00:00:15.160 region:R1 align:center
+<c.S1>– Meine ... aunt?</c>
+
+4
+00:00:15.400 --> 00:00:16.600 region:R1 align:center
+<c.S1>– Deine Tante?</c>
+
+5
+00:00:16.640 --> 00:00:21.000 region:R1 align:center
+<c.S1>– Nicht schlecht! Du willst zu
+deiner Tante? Zu Yara?</c>
+
+6
+00:00:21.560 --> 00:00:26.000 region:R1 align:center
+<c.S1>Hast du die Adresse?
+Adresse: Straße, Hausnummer?</c>
+
+7
+00:00:26.040 --> 00:00:30.560 region:R1 align:center
+<c.S1> – Andel … Adelschiffstraße?</c>
+
+8
+00:00:31.000 --> 00:00:32.360 region:R1 align:center
+<c.S2><c.S3>– Die kenn ich nicht ...</c></c>
+
+9
+00:00:38.520 --> 00:00:40.200 region:R1 align:center
+<c.S2><c.S3>Komm, wir helfen dir!</c></c>
+
+10
+00:00:40.240 --> 00:00:41.320 region:R1 align:center
+<c.S2><c.S3>– Yippie!</c></c>
+
+11
+00:00:52.760 --> 00:00:53.760 region:R1 align:center
+<c.S2><c.S3>– Emma!</c></c>
+
+12
+00:00:53.880 --> 00:00:55.760 region:R1 align:center
+<c.S2><c.S3>– Mein Name ist Emma!</c></c>
+
+13
+00:00:55.920 --> 00:00:57.480 region:R1 align:center
+<c.S2><c.S3>Und das ist meine Tante.</c></c>
+
+14
+00:00:57.560 --> 00:00:58.760 region:R1 align:center
+<c.S2><c.S3>– Deine Mama?</c></c>
+
+15
+00:00:58.840 --> 00:01:02.080 region:R1 align:center
+<c.S2><c.S3>– Nein, Lisa ist nicht meine Mama.</c>
+<c.S3>Sie ist meine Tante.</c></c>
+
+16
+00:01:02.520 --> 00:01:03.640 region:R1 align:center
+<c.S2><c.S3>Meine Mama ...</c></c>
+
+17
+00:01:05.800 --> 00:01:08.360 region:R1 align:center
+<c.S2><c.S3>... fliegt nach Amerika.</c>
+<c.S3>Sie arbeitet da.</c></c>
+
+18
+00:01:09.480 --> 00:01:10.560 region:R1 align:center
+<c.S2><c.S3>Bitte!</c></c>
+
+19
+00:01:11.600 --> 00:01:12.840 region:R1 align:center
+<c.S2><c.S3>– Danke.</c></c>
+
+20
+00:01:19.240 --> 00:01:20.400 region:R1 align:center
+<c.S2><c.S3>– Nico.</c></c>
+
+21
+00:01:20.440 --> 00:01:23.120 region:R1 align:center
+<c.S2><c.S3>– Mein Name ist Nico.</c></c>
+
+22
+00:01:23.160 --> 00:01:24.280 region:R1 align:center
+<c.S2><c.S3>– Hallo, Nico.</c></c>
+
+23
+00:01:24.560 --> 00:01:25.960 region:R1 align:center
+<c.S2><c.S3>– Hallo, Emma.</c></c>

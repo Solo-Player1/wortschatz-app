@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- مصدر الأيقونة: يتم تصويره بـ Edge headless بمقاسات مختلفة. ?v=icon|round|fg|bg|splash|logo -->
+<html><head><meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; width: 100vw; height: 100vh; overflow: hidden; background: transparent; }
+  body { display: flex; align-items: center; justify-content: center; }
+  .tile { position: relative; width: 100vmin; height: 100vmin; background: #14315e; overflow: hidden; }
+  .w {
+    position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%);
+    font-family: "Segoe UI Black", "Segoe UI", "Arial Black", Arial, sans-serif; font-weight: 900;
+    color: #fff; line-height: 1; letter-spacing: -0.02em; user-select: none;
+  }
+  .flag { position: absolute; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; overflow: hidden; }
+  .flag i { display: block; flex: 1; }
+  .flag i:nth-child(1) { background: #000; }
+  .flag i:nth-child(2) { background: #dd0000; }
+  .flag i:nth-child(3) { background: #ffce00; }
+
+  /* الأيقونة الكاملة (مربع بزوايا) */
+  body[data-v="icon"] .tile { border-radius: 20vmin; }
+  body[data-v="icon"] .w { font-size: 60vmin; }
+  body[data-v="icon"] .flag { width: 46vmin; height: 6vmin; top: 80vmin; border-radius: 1.2vmin; }
+
+  /* الأيقونة الدائرية القديمة */
+  body[data-v="round"] .tile { border-radius: 50%; }
+  body[data-v="round"] .w { font-size: 54vmin; top: 45%; }
+  body[data-v="round"] .flag { width: 38vmin; height: 5.6vmin; top: 77vmin; border-radius: 1.1vmin; }
+
+  /* طبقة الـ foreground للأيقونة التكيفية: كل المحتوى جوه دايرة قطرها 61% */
+  body[data-v="fg"] .tile { background: transparent; }
+  body[data-v="fg"] .w { font-size: 40vmin; top: 46%; }
+  body[data-v="fg"] .flag { width: 28vmin; height: 5vmin; top: 67vmin; border-radius: 1vmin; }
+
+  /* الخلفية فقط */
+  body[data-v="bg"] .w, body[data-v="bg"] .flag { display: none; }
+
+  /* شاشة البداية: W في النص على كحلي */
+  body[data-v="splash"] .w { font-size: 26vmin; top: 47%; }
+  body[data-v="splash"] .flag { width: 18vmin; height: 3.2vmin; top: 61vmin; border-radius: .7vmin; }
+
+  /* لوجو شفاف لشاشة البداية (layer-list) */
+  body[data-v="logo"] .tile { background: transparent; }
+  body[data-v="logo"] .w { font-size: 72vmin; top: 42%; }
+  body[data-v="logo"] .flag { width: 50vmin; height: 9vmin; top: 84vmin; border-radius: 1.6vmin; }
+</style></head>
+<body>
+  <div class="tile">
+    <div class="w">W</div>
+    <div class="flag"><i></i><i></i><i></i></div>
+  </div>
+  <script>
+    const v = new URLSearchParams(location.search).get('v') || 'icon';
+    document.body.dataset.v = v;
+    document.title = 'icon-' + v;
+  </script>
+</body></html>

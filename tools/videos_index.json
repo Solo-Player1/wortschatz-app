@@ -1,0 +1,952 @@
+[
+ {
+  "n": 1,
+  "plain": {
+   "id": 38052231,
+   "name": "Nicos Weg (A1) – Folge 1: Hallo!",
+   "duration": 81,
+   "poster": "https://static.dw.com/image/37384538_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L1_F1_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L1_F1_sd.mp4",
+     "bytes": 7431385,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L1_F1_hd.mp4",
+     "bytes": 22402357,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977685"
+  },
+  "sub": {
+   "id": 41395568,
+   "name": "Nicos Weg (A1) – Folge 1: Hallo! (mit Untertiteln)",
+   "duration": 84,
+   "poster": "https://static.dw.com/image/37384538_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_480x270.mp4",
+     "bytes": 4128028,
+     "ok": true
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_512x288.mp4",
+     "bytes": 6707336,
+     "ok": true
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_640x360.mp4",
+     "bytes": 12229704,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_960x540.mp4",
+     "bytes": 28015516,
+     "ok": true
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_1280x720.mp4",
+     "bytes": 54097286,
+     "ok": true
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_1920x1080.mp4",
+     "bytes": 69210615,
+     "ok": true
+    }
+   }
+  }
+ },
+ {
+  "n": 2,
+  "plain": {
+   "id": 38052328,
+   "name": "Nicos Weg (A1) – Folge 2: Kein Problem!",
+   "duration": 95,
+   "poster": "https://static.dw.com/image/37384554_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_480x270.mp4",
+     "bytes": 4812086,
+     "ok": true
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_640x360.mp4",
+     "bytes": 14053425,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_960x540.mp4",
+     "bytes": 32150158,
+     "ok": true
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_1280x720.mp4",
+     "bytes": 61910995,
+     "ok": true
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_1920x1080.mp4",
+     "bytes": 79206119,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/73883273"
+  },
+  "sub": {
+   "id": 41487075,
+   "name": "Nicos Weg (A1) – Folge 2: Kein Problem! (mit Untertiteln)",
+   "duration": 98,
+   "poster": "https://static.dw.com/image/37384554_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_640x360.mp4",
+     "bytes": 14128585,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_1920x1080.mp4",
+     "bytes": 80330673,
+     "ok": true
+    }
+   }
+  }
+ },
+ {
+  "n": 3,
+  "plain": {
+   "id": 38052543,
+   "name": "Nicos Weg (A1) – Folge 3: Tschüss!",
+   "duration": 72,
+   "poster": "https://static.dw.com/image/37384580_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L3_F3_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L3_F3_sd.mp4",
+     "bytes": 6351063,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L3_F3_hd.mp4",
+     "bytes": 19994411,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977848"
+  },
+  "sub": {
+   "id": 41487102,
+   "name": "Nicos Weg (A1) – Folge 3: Tschüss! (mit Untertiteln)",
+   "duration": 75,
+   "poster": "https://static.dw.com/image/37384580_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_640x360.mp4",
+     "bytes": 10799451,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_960x540.mp4",
+     "bytes": 24876034,
+     "ok": true
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 4,
+  "plain": {
+   "id": 38053006,
+   "name": "Nicos Weg (A1) – Folge 4: Von A bis Z",
+   "duration": 94,
+   "poster": "https://static.dw.com/image/37384596_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E0_L4_F4_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L4_F4_sd.mp4",
+     "bytes": 8136316,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L4_F4_hd.mp4",
+     "bytes": 25251531,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977849"
+  },
+  "sub": {
+   "id": 41487139,
+   "name": "Nicos Weg (A1) – Folge 4: Von A bis Z (mit Untertiteln)",
+   "duration": 97,
+   "poster": "https://static.dw.com/image/37384596_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_512x288.mp4",
+     "bytes": 7687528,
+     "ok": true
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 5,
+  "plain": {
+   "id": 38053281,
+   "name": "Nicos Weg (A1) – Folge 5: Ich heiße Emma",
+   "duration": 68,
+   "poster": "https://static.dw.com/image/37397264_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L1_F5_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L1_F5_sd.mp4",
+     "bytes": 6096513,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L1_F5_hd.mp4",
+     "bytes": 19235491,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977850"
+  },
+  "sub": {
+   "id": 41547163,
+   "name": "Nicos Weg (A1) – Folge 5: Ich heiße Emma (mit Untertiteln)",
+   "duration": 74,
+   "poster": "https://static.dw.com/image/37397264_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L1-Folge-05-Ich-heisse-Emma_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 6,
+  "plain": {
+   "id": 38053661,
+   "name": "Nicos Weg (A1) – Folge 6: Das ist Nico",
+   "duration": 46,
+   "poster": "https://static.dw.com/image/37397280_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L2_F6_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L2_F6_sd.mp4",
+     "bytes": 4238560,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L2_F6_hd.mp4",
+     "bytes": 13177930,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977851"
+  },
+  "sub": {
+   "id": 41487690,
+   "name": "Nicos Weg (A1) – Folge 6: Das ist Nico (mit Untertiteln)",
+   "duration": 49,
+   "poster": "https://static.dw.com/image/37397280_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_640x360.mp4",
+     "bytes": 6955046,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 7,
+  "plain": {
+   "id": 38054256,
+   "name": "Nicos Weg (A1) – Folge 7: Woher kommst du?",
+   "duration": 98,
+   "poster": "https://static.dw.com/image/37397458_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L3_F7_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L3_F7_sd.mp4",
+     "bytes": 8475058,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L3_F7_hd.mp4",
+     "bytes": 26469984,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977852"
+  },
+  "sub": {
+   "id": 41547293,
+   "name": "Nicos Weg (A1) – Folge 7: Woher kommst du? (mit Untertiteln)",
+   "duration": 101,
+   "poster": "https://static.dw.com/image/37397458_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_640x360.mp4",
+     "bytes": 14477060,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_1280x720.mp4",
+     "bytes": 64029322,
+     "ok": true
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 8,
+  "plain": {
+   "id": 38054494,
+   "name": "Nicos Weg (A1) – Folge 8: Nico hat ein Problem",
+   "duration": 88,
+   "poster": "https://static.dw.com/image/40993589_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E1_L4_F8_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L4_F8_sd.mp4",
+     "bytes": 8092141,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L4_F8_hd.mp4",
+     "bytes": 24507417,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977853"
+  },
+  "sub": {
+   "id": 41488107,
+   "name": "Nicos Weg (A1) – Folge 8: Nico hat ein Problem (mit Untertiteln)",
+   "duration": 91,
+   "poster": "https://static.dw.com/image/40993589_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L4-Folge-08-Nico-hat-ein-Problem_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 9,
+  "plain": {
+   "id": 38054508,
+   "name": "Nicos Weg (A1) – Folge 9: Zahlen von 1 bis 100",
+   "duration": 94,
+   "poster": "https://static.dw.com/image/37397360_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L1_F9_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L1_F9_sd.mp4",
+     "bytes": 8144993,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L1_F9_hd.mp4",
+     "bytes": 25621931,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977854"
+  },
+  "sub": {
+   "id": 41488226,
+   "name": "Nicos Weg (A1) – Folge 9: Zahlen von 1 bis 100 (mit Untertiteln)",
+   "duration": 97,
+   "poster": "https://static.dw.com/image/37397360_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_960x540.mp4",
+     "bytes": 32299334,
+     "ok": true
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_1280x720.mp4",
+     "bytes": 62001781,
+     "ok": true
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_1920x1080.mp4",
+     "bytes": 79308501,
+     "ok": true
+    }
+   }
+  }
+ },
+ {
+  "n": 10,
+  "plain": {
+   "id": 38054547,
+   "name": "Nicos Weg (A1) – Folge 10: Wichtige Nummern",
+   "duration": 90,
+   "poster": "https://static.dw.com/image/37397312_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L2_F10_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L2_F10_sd.mp4",
+     "bytes": 7640970,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L2_F10_hd.mp4",
+     "bytes": 24277623,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977855"
+  },
+  "sub": {
+   "id": 41488315,
+   "name": "Nicos Weg (A1) – Folge 10: Wichtige Nummern (mit Untertiteln)",
+   "duration": 93,
+   "poster": "https://static.dw.com/image/37397312_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L2-Folge-10-Wichtige-Nummern_ut_AVC_1920x1080.mp4",
+     "bytes": 73932718,
+     "ok": true
+    }
+   }
+  }
+ },
+ {
+  "n": 11,
+  "plain": {
+   "id": 38054568,
+   "name": "Nicos Weg (A1) – Folge 11: Adressen",
+   "duration": 103,
+   "poster": "https://static.dw.com/image/37397344_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L3_F11_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L3_F11_sd.mp4",
+     "bytes": 8633338,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L3_F11_hd.mp4",
+     "bytes": 27493306,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977856"
+  },
+  "sub": {
+   "id": 41547315,
+   "name": "Nicos Weg (A1) – Folge 11: Adressen (mit Untertiteln)",
+   "duration": 109,
+   "poster": "https://static.dw.com/image/37397344_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L3-Folge-11-Adressen_ut_AVC_1920x1080.mp4",
+     "bytes": 85177312,
+     "ok": true
+    }
+   }
+  }
+ },
+ {
+  "n": 12,
+  "plain": {
+   "id": 38054725,
+   "name": "Nicos Weg (A1) – Folge 12: Auf dem Amt",
+   "duration": 120,
+   "poster": "https://static.dw.com/image/37397410_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E2_L4_F12_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L4_F12_sd.mp4",
+     "bytes": 10256251,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L4_F12_hd.mp4",
+     "bytes": 32323046,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977857"
+  },
+  "sub": {
+   "id": 41488594,
+   "name": "Nicos Weg (A1) – Folge 12: Auf dem Amt (mit Untertiteln)",
+   "duration": 123,
+   "poster": "https://static.dw.com/image/37397410_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_480x270.mp4",
+     "bytes": 5977201,
+     "ok": true
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 13,
+  "plain": {
+   "id": 38054758,
+   "name": "Nicos Weg (A1) – Folge 13: Was machst du hier?",
+   "duration": 115,
+   "poster": "https://static.dw.com/image/37397377_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L1_F13_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L1_F13_sd.mp4",
+     "bytes": 10289054,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L1_F13_hd.mp4",
+     "bytes": 31439277,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977858"
+  },
+  "sub": {
+   "id": 41497181,
+   "name": "Nicos Weg (A1) – Folge 13: Was machst du hier? (mit Untertiteln)",
+   "duration": 121,
+   "poster": "https://static.dw.com/image/37397377_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_1280x720.mp4",
+     "bytes": 75930256,
+     "ok": true
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L1-Folge-13-Was-machst-du-hier_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 14,
+  "plain": {
+   "id": 38054824,
+   "name": "Nicos Weg (A1) – Folge 14: Was trinkst du?",
+   "duration": 107,
+   "poster": "https://static.dw.com/image/37397393_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L2_F14_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L2_F14_sd.mp4",
+     "bytes": 9318981,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L2_F14_hd.mp4",
+     "bytes": 29359714,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977859"
+  },
+  "sub": {
+   "id": 41547406,
+   "name": "Nicos Weg (A1) – Folge 14: Was trinkst du? (mit Untertiteln)",
+   "duration": 110,
+   "poster": "https://static.dw.com/image/37397393_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_640x360.mp4",
+     "bytes": 15920680,
+     "ok": true
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_960x540.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_1920x1080.mp4",
+     "bytes": 280,
+     "ok": false
+    }
+   }
+  }
+ },
+ {
+  "n": 15,
+  "plain": {
+   "id": 38054979,
+   "name": "Nicos Weg (A1) – Folge 15: Zwei Tee, bitte!",
+   "duration": 114,
+   "poster": "https://static.dw.com/image/37397474_605.webp",
+   "hls": "https://hlsvod.dw.com/i/Events/mp4/nicosweg/A1_E3_L3_F15_,sd,hd,.mp4.csmil/master.m3u8",
+   "files": {
+    "sd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L3_F15_sd.mp4",
+     "bytes": 10222947,
+     "ok": true
+    },
+    "hd": {
+     "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L3_F15_hd.mp4",
+     "bytes": 31261636,
+     "ok": true
+    }
+   },
+   "subtitles": "https://www.dw.com/media/subtitles/69977860"
+  },
+  "sub": {
+   "id": 47297935,
+   "name": "Nicos Weg (A1) – Folge 15: Eine Pizza,bitte! (mit Untertiteln)",
+   "duration": 117,
+   "poster": "https://static.dw.com/image/37397474_605.webp",
+   "hls": "https://hlsvod.dw.com/i/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8",
+   "files": {
+    "AVC_480x270": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_480x270.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_512x288": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_512x288.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_640x360": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_640x360.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_960x540": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_960x540.mp4",
+     "bytes": 39087457,
+     "ok": true
+    },
+    "AVC_1280x720": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_1280x720.mp4",
+     "bytes": 280,
+     "ok": false
+    },
+    "AVC_1920x1080": {
+     "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_1920x1080.mp4",
+     "bytes": 96519751,
+     "ok": true
+    }
+   }
+  }
+ }
+]

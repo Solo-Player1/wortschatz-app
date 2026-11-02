@@ -1,0 +1,703 @@
+{
+  "n": 14,
+  "sentences": [
+    {
+      "id": "s14-001",
+      "de": "Kennt ihr Yaras Fahrradladen?",
+      "ar": "تعرفوا محل العجل بتاع يارا؟",
+      "kind": "question",
+      "focus": [
+        "verb:kennen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Kennt",
+        "opts": [
+          "Kennt",
+          "Kennst",
+          "Kenne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-002",
+      "de": "Was möchtet ihr trinken?",
+      "ar": "تحبوا تشربوا إيه؟",
+      "kind": "question",
+      "focus": [
+        "drink",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "möchtet",
+        "opts": [
+          "möchtet",
+          "möchtest",
+          "möchte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-003",
+      "de": "Wir haben Apfelsaft, Wasser und Cola.",
+      "ar": "عندنا عصير تفاح ومية وكولا.",
+      "kind": "statement",
+      "focus": [
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "habt",
+          "hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-004",
+      "de": "Für mich bitte einen Kaffee.",
+      "ar": "ليّا قهوة لو سمحت.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "drink",
+        "polite"
+      ],
+      "alts": [
+        "Bitte für mich einen Kaffee."
+      ],
+      "cloze": {
+        "word": "mich",
+        "opts": [
+          "mich",
+          "mir",
+          "ich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-005",
+      "de": "Ja, mit viel Milch, aber wenig Zucker.",
+      "ar": "أيوه، بلبن كتير بس سكر قليل.",
+      "kind": "answer",
+      "focus": [
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-006",
+      "de": "Was ist mit dir, Nico?",
+      "ar": "وإنت يا نيكو؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "du",
+          "dich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-007",
+      "de": "Was möchtest du trinken?",
+      "ar": "تحب تشرب إيه؟",
+      "kind": "question",
+      "focus": [
+        "drink",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "möchtest",
+        "opts": [
+          "möchtest",
+          "möchtet",
+          "möchten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-008",
+      "de": "Ich nehme Limonade.",
+      "ar": "أنا هاخد ليموناضة.",
+      "kind": "answer",
+      "focus": [
+        "drink",
+        "verb:nehmen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nehme",
+        "opts": [
+          "nehme",
+          "nehmt",
+          "nehmen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-009",
+      "de": "Ich habe eine Idee.",
+      "ar": "عندي فكرة.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-010",
+      "de": "Wir posten das Foto von Yara.",
+      "ar": "هننشر صورة يارا على النت.",
+      "kind": "statement",
+      "focus": [
+        "verb:posten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "posten",
+        "opts": [
+          "posten",
+          "postet",
+          "poste"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-011",
+      "de": "Wer kennt den Fahrradladen?",
+      "ar": "مين يعرف محل العجل؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:kennen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wer",
+        "opts": [
+          "Wer",
+          "Was",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-012",
+      "de": "Hier sind die Speisekarten!",
+      "ar": "اتفضلوا المنيوهات!",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-013",
+      "de": "Wo ist denn Nawin?",
+      "ar": "أمّال نافين فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "denn",
+        "opts": [
+          "denn",
+          "den",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s14-014",
+      "de": "Der Kaffee ist sehr gut.",
+      "ar": "القهوة حلوة أوي.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-015",
+      "de": "Wo ist die Milch?",
+      "ar": "اللبن فين؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-016",
+      "de": "Das Wasser ist im Kühlschrank.",
+      "ar": "المية في التلاجة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-017",
+      "de": "Der Kühlschrank ist kaputt.",
+      "ar": "التلاجة بايظة.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-018",
+      "de": "Die Limonade ist für Nina.",
+      "ar": "الليموناضة لنينا.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-019",
+      "de": "Das Bier ist für Sebastian.",
+      "ar": "البيرة لسيباستيان.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-020",
+      "de": "Das ist der Fahrradladen von Yara.",
+      "ar": "ده محل العجل بتاع يارا.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-021",
+      "de": "Ich möchte einen Tee mit Milch.",
+      "ar": "عايز شاي بلبن.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "drink",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "möchte",
+        "opts": [
+          "möchte",
+          "möchtest",
+          "möchtet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s14-022",
+      "de": "Ich trinke lieber Wasser.",
+      "ar": "أنا أفضّل أشرب مية.",
+      "kind": "statement",
+      "focus": [
+        "drink"
+      ],
+      "alts": [
+        "Lieber trinke ich Wasser."
+      ],
+      "cloze": {
+        "word": "trinke",
+        "opts": [
+          "trinke",
+          "trinkst",
+          "trinkt"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w14-01",
+      "q": "___ möchtest du trinken?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "تحب تشرب إيه؟",
+      "reply": "Ich möchte einen Tee.",
+      "reply_ar": "عايز شاي."
+    },
+    {
+      "id": "w14-02",
+      "q": "___ kennt den Fahrradladen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين يعرف محل العجل؟",
+      "reply": "Keine Ahnung.",
+      "reply_ar": "معنديش فكرة."
+    },
+    {
+      "id": "w14-03",
+      "q": "___ trinkt Cola?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Woher",
+        "Wo"
+      ],
+      "ar": "مين بيشرب كولا؟",
+      "reply": "Nico trinkt Cola.",
+      "reply_ar": "نيكو بيشرب كولا."
+    },
+    {
+      "id": "w14-04",
+      "q": "___ ist mit dir, Nico?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wie",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "وإنت يا نيكو؟",
+      "reply": "Eine Cola bitte.",
+      "reply_ar": "كولا لو سمحت."
+    },
+    {
+      "id": "w14-05",
+      "q": "___ ist die Milch?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wie viele",
+        "Warum"
+      ],
+      "ar": "اللبن فين؟",
+      "reply": "Die Milch ist im Kühlschrank.",
+      "reply_ar": "اللبن في التلاجة."
+    },
+    {
+      "id": "w14-06",
+      "q": "___ Zucker möchtest du?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie alt",
+        "Welche",
+        "Woher"
+      ],
+      "ar": "عايز سكر قد إيه؟",
+      "reply": "Wenig Zucker bitte.",
+      "reply_ar": "سكر قليل لو سمحت."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g14-1",
+      "h": "جنس الأسماء: der / die / das",
+      "body": "كل اسم في الألماني ليه أداة بتقول جنسه: der مذكّر، die مؤنّث، das محايد. مفيش قاعدة عامة، والجنس مش زي العربي (die Milch مؤنّث بس das Wasser محايد). عشان كده ماتحفظش الكلمة لوحدها أبدًا: احفظ der Kaffee مش Kaffee.",
+      "examples": [
+        {
+          "de": "Der Kaffee ist sehr gut.",
+          "ar": "القهوة حلوة أوي."
+        },
+        {
+          "de": "Die Limonade ist für Nina.",
+          "ar": "الليموناضة لنينا."
+        },
+        {
+          "de": "Das Wasser ist im Kühlschrank.",
+          "ar": "المية في التلاجة."
+        }
+      ],
+      "table": [
+        [
+          "der (مذكّر)",
+          "die (مؤنّث)",
+          "das (محايد)"
+        ],
+        [
+          "der Kaffee",
+          "die Milch",
+          "das Wasser"
+        ],
+        [
+          "der Tee",
+          "die Cola",
+          "das Bier"
+        ],
+        [
+          "der Saft",
+          "die Limo",
+          "das Eis"
+        ],
+        [
+          "der Zucker",
+          "die Speisekarte",
+          "das Foto"
+        ]
+      ]
+    },
+    {
+      "id": "g14-2",
+      "h": "الكلمة المركّبة: الأداة من آخر جزء",
+      "body": "لما كلمتين يتلزقوا في كلمة واحدة، الأداة بتيجي من آخر جزء دايمًا: Apfel + der Saft = der Apfelsaft. ونفس الحكاية: der Kühlschrank (der Schrank)، der Fahrradladen (der Laden)، die Speisekarte (die Karte)، زي die Hausnummer و die Telefonnummer.",
+      "examples": [
+        {
+          "de": "Der Apfelsaft ist im Kühlschrank.",
+          "ar": "عصير التفاح في التلاجة."
+        },
+        {
+          "de": "Das ist der Fahrradladen von Yara.",
+          "ar": "ده محل العجل بتاع يارا."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "آخر جزء",
+          "الأداة"
+        ],
+        [
+          "Apfelsaft",
+          "Saft",
+          "der"
+        ],
+        [
+          "Orangensaft",
+          "Saft",
+          "der"
+        ],
+        [
+          "Kühlschrank",
+          "Schrank",
+          "der"
+        ],
+        [
+          "Fahrradladen",
+          "Laden",
+          "der"
+        ],
+        [
+          "Speisekarte",
+          "Karte",
+          "die"
+        ]
+      ]
+    },
+    {
+      "id": "g14-3",
+      "h": "wer ولا was؟",
+      "body": "wer = مين، بنسأل بيها عن شخص. was = إيه، بنسأل بيها عن حاجة مش شخص. لو الرد اسم شخص يبقى السؤال بـ wer، ولو الرد حاجة (مشروب، أكل، جهاز) يبقى بـ was.",
+      "examples": [
+        {
+          "de": "Wer ist das? – Das ist Yara.",
+          "ar": "مين دي؟ – دي يارا."
+        },
+        {
+          "de": "Was ist das? – Das ist ein Kühlschrank.",
+          "ar": "إيه ده؟ – دي تلاجة."
+        }
+      ],
+      "table": [
+        [
+          "الأداة",
+          "بتسأل عن",
+          "مثال"
+        ],
+        [
+          "wer",
+          "شخص",
+          "Wer kennt den Fahrradladen?"
+        ],
+        [
+          "was",
+          "حاجة",
+          "Was möchtest du trinken?"
+        ]
+      ]
+    },
+    {
+      "id": "g14-4",
+      "h": "تطلب مشروب: möchten، mit، ohne",
+      "body": "möchten = عايز / أحب (بأدب). لو فيه فعل تاني بيروح آخر الجملة: Was möchtest du trinken? ولو مفيش: Ich möchte einen Tee. وكمان: mit = بـ (mit Milch = بلبن)، ohne = من غير (ohne Zucker)، lieber = أفضّل.",
+      "examples": [
+        {
+          "de": "Was möchtet ihr trinken?",
+          "ar": "تحبوا تشربوا إيه؟"
+        },
+        {
+          "de": "Ich möchte einen Tee mit Milch.",
+          "ar": "عايز شاي بلبن."
+        },
+        {
+          "de": "Ich trinke Kaffee ohne Zucker.",
+          "ar": "بشرب القهوة من غير سكر."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "möchten"
+        ],
+        [
+          "ich",
+          "möchte"
+        ],
+        [
+          "du",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "möchte"
+        ],
+        [
+          "wir",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "möchten"
+        ]
+      ]
+    }
+  ]
+}

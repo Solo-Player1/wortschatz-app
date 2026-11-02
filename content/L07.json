@@ -1,0 +1,316 @@
+{
+  "n": 7,
+  "sentences": [
+    {
+      "id": "s07-001",
+      "de": "Und wer bist du?",
+      "ar": "وإنت مين؟",
+      "kind": "question",
+      "focus": ["w-frage", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "bist", "opts": ["bist", "bin", "ist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-002",
+      "de": "Du kommst nicht aus Deutschland, oder?",
+      "ar": "إنت مش من ألمانيا، صح؟",
+      "kind": "question",
+      "focus": ["origin", "negation"],
+      "alts": [],
+      "cloze": { "word": "kommst", "opts": ["kommst", "komme", "kommen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-003",
+      "de": "Woher kommst du?",
+      "ar": "إنت منين؟",
+      "kind": "question",
+      "focus": ["origin", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "Woher", "opts": ["Woher", "Wo", "Wer"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-004",
+      "de": "Ich bin Max und ich komme aus Deutschland.",
+      "ar": "أنا ماكس وأنا من ألمانيا.",
+      "kind": "statement",
+      "focus": ["introduce", "origin"],
+      "alts": ["Max bin ich und ich komme aus Deutschland."],
+      "cloze": { "word": "komme", "opts": ["komme", "kommst", "kommt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-005",
+      "de": "Ich komme aus Spanien.",
+      "ar": "أنا من إسبانيا.",
+      "kind": "answer",
+      "focus": ["origin", "preposition"],
+      "alts": [],
+      "cloze": { "word": "aus", "opts": ["aus", "in", "woher"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-006",
+      "de": "Wo wohnst du in Spanien?",
+      "ar": "إنت ساكن فين في إسبانيا؟",
+      "kind": "question",
+      "focus": ["w-frage", "verb:wohnen"],
+      "alts": [],
+      "cloze": { "word": "wohnst", "opts": ["wohnst", "wohne", "wohnen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-007",
+      "de": "Wohnst du in Barcelona oder in Madrid?",
+      "ar": "إنت ساكن في برشلونة ولا في مدريد؟",
+      "kind": "question",
+      "focus": ["verb:wohnen"],
+      "alts": [],
+      "cloze": { "word": "Wohnst", "opts": ["Wohnst", "Wohne", "Wohnt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-008",
+      "de": "Ich wohne in Sevilla.",
+      "ar": "أنا ساكن في إشبيلية.",
+      "kind": "answer",
+      "focus": ["verb:wohnen"],
+      "alts": [],
+      "cloze": { "word": "wohne", "opts": ["wohne", "wohnst", "wohnt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-009",
+      "de": "Und was machst du jetzt?",
+      "ar": "وهتعمل إيه دلوقتي؟",
+      "kind": "question",
+      "focus": ["w-frage", "verb:machen"],
+      "alts": [],
+      "cloze": { "word": "machst", "opts": ["machst", "mache", "macht"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-010",
+      "de": "Mein Telefon ist weg.",
+      "ar": "تليفوني ضاع.",
+      "kind": "statement",
+      "focus": ["possessive"],
+      "alts": [],
+      "cloze": { "word": "Mein", "opts": ["Mein", "Meine", "Meinen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-011",
+      "de": "Nicos Tante wohnt in Deutschland.",
+      "ar": "خالة نيكو ساكنة في ألمانيا.",
+      "kind": "statement",
+      "focus": ["verb:wohnen", "family"],
+      "alts": [],
+      "cloze": { "word": "wohnt", "opts": ["wohnt", "wohne", "wohnst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-012",
+      "de": "Er hat die Adresse nicht.",
+      "ar": "هو معاهوش العنوان.",
+      "kind": "statement",
+      "focus": ["negation", "article"],
+      "alts": ["Die Adresse hat er nicht."],
+      "cloze": { "word": "die", "opts": ["die", "der", "das"] },
+      "src": "episode"
+    },
+    {
+      "id": "s07-013",
+      "de": "Woher kommen Sie?",
+      "ar": "حضرتك منين؟ (رسمي)",
+      "kind": "question",
+      "focus": ["origin", "formal", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "kommen", "opts": ["kommen", "kommst", "kommt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-014",
+      "de": "Ich komme aus Ägypten.",
+      "ar": "أنا من مصر.",
+      "kind": "answer",
+      "focus": ["origin"],
+      "alts": [],
+      "cloze": { "word": "komme", "opts": ["komme", "kommen", "kommt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-015",
+      "de": "Wo wohnen Sie?",
+      "ar": "حضرتك ساكن فين؟ (رسمي)",
+      "kind": "question",
+      "focus": ["w-frage", "formal", "verb:wohnen"],
+      "alts": [],
+      "cloze": { "word": "wohnen", "opts": ["wohnen", "wohnst", "wohnt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-016",
+      "de": "Ich wohne in Kairo.",
+      "ar": "أنا ساكن في القاهرة.",
+      "kind": "answer",
+      "focus": ["verb:wohnen", "preposition"],
+      "alts": [],
+      "cloze": { "word": "in", "opts": ["in", "aus", "woher"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-017",
+      "de": "Was machen Sie hier?",
+      "ar": "حضرتك بتعمل إيه هنا؟ (رسمي)",
+      "kind": "question",
+      "focus": ["w-frage", "formal", "verb:machen"],
+      "alts": [],
+      "cloze": { "word": "machen", "opts": ["machen", "machst", "macht"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-018",
+      "de": "Ich lerne hier Deutsch.",
+      "ar": "أنا بتعلّم ألماني هنا.",
+      "kind": "answer",
+      "focus": ["verb:lernen"],
+      "alts": ["Hier lerne ich Deutsch."],
+      "cloze": { "word": "lerne", "opts": ["lerne", "lernst", "lernen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-019",
+      "de": "Sie sprechen gut Deutsch.",
+      "ar": "حضرتك بتتكلم ألماني كويس. (رسمي)",
+      "kind": "statement",
+      "focus": ["verb:sprechen", "formal"],
+      "alts": ["Gut sprechen Sie Deutsch."],
+      "cloze": { "word": "sprechen", "opts": ["sprechen", "sprichst", "spreche"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-020",
+      "de": "Entschuldigung, sind Sie Tourist?",
+      "ar": "لو سمحت، حضرتك سايح؟",
+      "kind": "question",
+      "focus": ["polite", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "sind", "opts": ["sind", "ist", "bist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-021",
+      "de": "Ich mache hier einen Sprachkurs.",
+      "ar": "أنا باخد كورس لغة هنا.",
+      "kind": "statement",
+      "focus": ["verb:machen", "article"],
+      "alts": ["Hier mache ich einen Sprachkurs."],
+      "cloze": { "word": "einen", "opts": ["einen", "ein", "eine"] },
+      "src": "authored"
+    },
+    {
+      "id": "s07-022",
+      "de": "Sprichst du Deutsch?",
+      "ar": "بتتكلم ألماني؟",
+      "kind": "question",
+      "focus": ["verb:sprechen", "informal"],
+      "alts": [],
+      "cloze": { "word": "Sprichst", "opts": ["Sprichst", "Sprechst", "Spricht"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w07-01",
+      "q": "___ kommst du, Nico?",
+      "answer": "Woher",
+      "opts": ["Woher", "Wo", "Was", "Wer"],
+      "ar": "إنت منين يا نيكو؟",
+      "reply": "Ich komme aus Spanien.",
+      "reply_ar": "أنا من إسبانيا."
+    },
+    {
+      "id": "w07-02",
+      "q": "___ wohnen Sie?",
+      "answer": "Wo",
+      "opts": ["Wo", "Woher", "Wer", "Was"],
+      "ar": "حضرتك ساكن فين؟ (رسمي)",
+      "reply": "Ich wohne in Kairo.",
+      "reply_ar": "أنا ساكن في القاهرة."
+    },
+    {
+      "id": "w07-03",
+      "q": "___ machst du hier?",
+      "answer": "Was",
+      "opts": ["Was", "Wo", "Woher", "Wer"],
+      "ar": "إنت بتعمل إيه هنا؟",
+      "reply": "Ich lerne hier Deutsch.",
+      "reply_ar": "بتعلّم ألماني هنا."
+    },
+    {
+      "id": "w07-04",
+      "q": "___ heißen Sie?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wo", "Was", "Woher"],
+      "ar": "حضرتك اسمك إيه؟ (رسمي)",
+      "reply": "Ich heiße Lisa Brunner.",
+      "reply_ar": "اسمي ليزا برونر."
+    },
+    {
+      "id": "w07-05",
+      "q": "Und ___ wohnst du in Spanien?",
+      "answer": "wo",
+      "opts": ["wo", "woher", "wer", "was"],
+      "ar": "وإنت ساكن فين في إسبانيا؟",
+      "reply": "In Sevilla.",
+      "reply_ar": "في إشبيلية."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g07-1",
+      "h": "تصريف الفعل: جذر + نهاية",
+      "body": "الفعل في المصدر بيخلص بـ -en: kommen. شيل -en يفضل الجذر komm، وزوّد النهاية حسب الضمير: ich ← -e، du ← -st، Sie (رسمي) ← -en. ونفس الطريقة مع wohnen و lernen و machen: ich wohne، du wohnst، Sie wohnen.",
+      "examples": [
+        { "de": "Woher kommst du?", "ar": "إنت منين؟" },
+        { "de": "Woher kommen Sie?", "ar": "حضرتك منين؟ (رسمي)" },
+        { "de": "Ich komme aus Ägypten.", "ar": "أنا من مصر." }
+      ],
+      "table": [["الضمير", "kommen", "wohnen", "machen"], ["ich", "komme", "wohne", "mache"], ["du", "kommst", "wohnst", "machst"], ["Sie (رسمي)", "kommen", "wohnen", "machen"]]
+    },
+    {
+      "id": "g07-2",
+      "h": "heißen و sprechen: خلي بالك",
+      "body": "لو الجذر آخره s أو ß أو z أو x، مع du بتزوّد -t بس: du heißt (مش heißst). وفيه أفعال شقية زي sprechen: مع du الـ e بتبقى i ← du sprichst، لكن ich spreche و Sie sprechen عادي.",
+      "examples": [
+        { "de": "Wie heißt du?", "ar": "اسمك إيه؟" },
+        { "de": "Sprichst du Deutsch?", "ar": "بتتكلم ألماني؟" },
+        { "de": "Sie sprechen gut Deutsch.", "ar": "حضرتك بتتكلم ألماني كويس. (رسمي)" }
+      ],
+      "table": [["الضمير", "heißen", "sprechen"], ["ich", "heiße", "spreche"], ["du", "heißt", "sprichst"], ["Sie (رسمي)", "heißen", "sprechen"]]
+    },
+    {
+      "id": "g07-3",
+      "h": "sein شاذ",
+      "body": "الفعل sein (يكون) مالوش قاعدة، بيتحفظ زي ما هو: ich bin، du bist، Sie sind. في العربي بنقول «أنا نيكو» من غير فعل، لكن في الألماني لازم الفعل: Ich bin Nico. / Sind Sie Tourist?",
+      "examples": [
+        { "de": "Und wer bist du?", "ar": "وإنت مين؟" },
+        { "de": "Entschuldigung, sind Sie Tourist?", "ar": "لو سمحت، حضرتك سايح؟" }
+      ],
+      "table": [["الضمير", "sein"], ["ich", "bin"], ["du", "bist"], ["Sie (رسمي)", "sind"]]
+    },
+    {
+      "id": "g07-4",
+      "h": "woher + aus و wo + in",
+      "body": "woher = منين (المكان اللي إنت جاي منه) والرد بـ aus: Ich komme aus Spanien. wo = فين (المكان اللي إنت فيه) والرد بـ in: Ich wohne in Sevilla. ما تخلطش بينهم: الـ -her في woher معناها «جاي من».",
+      "examples": [
+        { "de": "Woher kommst du? – Ich komme aus Ägypten.", "ar": "إنت منين؟ – أنا من مصر." },
+        { "de": "Wo wohnst du? – Ich wohne in Kairo.", "ar": "ساكن فين؟ – ساكن في القاهرة." }
+      ],
+      "table": [["الأداة", "معناها", "مثال"], ["woher", "منين", "Woher kommst du?"], ["wo", "فين", "Wo wohnst du?"], ["was", "إيه", "Was machst du hier?"], ["wie", "إزاي / إيه", "Wie heißt du?"]]
+    }
+  ]
+}

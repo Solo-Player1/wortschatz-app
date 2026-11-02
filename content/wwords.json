@@ -1,0 +1,196 @@
+{
+  "wwords": [
+    {
+      "w": "Wie",
+      "ar": "إزاي / إيه",
+      "lesson": 1,
+      "use": "بنسأل بيها عن الحال والطريقة، ومع الاسم أو العنوان أو الرقم بتبقى «إيه»",
+      "examples": [
+        {
+          "de": "Wie geht es dir?",
+          "ar": "إزيك؟"
+        },
+        {
+          "de": "Wie geht es Ihnen?",
+          "ar": "إزي حضرتك؟ (رسمي)"
+        },
+        {
+          "de": "Wie heißt du?",
+          "ar": "اسمك إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wohin",
+      "ar": "على فين / رايح فين",
+      "lesson": 3,
+      "use": "للمكان اللي رايح له (حركة لمكان)؛ أما المكان اللي إنت فيه فبنسأل عنه بـ wo",
+      "examples": [
+        {
+          "de": "Wohin gehst du?",
+          "ar": "إنت رايح فين؟"
+        }
+      ]
+    },
+    {
+      "w": "Wer",
+      "ar": "مين",
+      "lesson": 5,
+      "use": "بنسأل بيها عن شخص",
+      "examples": [
+        {
+          "de": "Wer bist du?",
+          "ar": "إنت مين؟"
+        },
+        {
+          "de": "Wer ist das?",
+          "ar": "مين ده؟"
+        }
+      ]
+    },
+    {
+      "w": "Woher",
+      "ar": "منين",
+      "lesson": 6,
+      "use": "بنسأل بيها الواحد جاي منين، والرد بـ aus (Ich komme aus …)",
+      "examples": [
+        {
+          "de": "Woher kommst du?",
+          "ar": "إنت منين؟"
+        },
+        {
+          "de": "Woher kommen Sie?",
+          "ar": "حضرتك منين؟ (رسمي)"
+        }
+      ]
+    },
+    {
+      "w": "Was",
+      "ar": "إيه",
+      "lesson": 7,
+      "use": "بنسأل بيها عن حاجة أو عن اللي الواحد بيعمله (مش عن شخص — للشخص wer)",
+      "examples": [
+        {
+          "de": "Was machst du hier?",
+          "ar": "بتعمل إيه هنا؟"
+        },
+        {
+          "de": "Was ist das?",
+          "ar": "إيه ده؟"
+        }
+      ]
+    },
+    {
+      "w": "Wo",
+      "ar": "فين",
+      "lesson": 7,
+      "use": "بنسأل بيها عن المكان اللي الحاجة أو الشخص فيه",
+      "examples": [
+        {
+          "de": "Wo wohnst du?",
+          "ar": "إنت ساكن فين؟"
+        },
+        {
+          "de": "Wo ist die Tasche?",
+          "ar": "الشنطة فين؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie alt",
+      "ar": "عنده كام سنة",
+      "lesson": 9,
+      "use": "بنسأل بيها عن السن، والرد: … Jahre alt",
+      "examples": [
+        {
+          "de": "Wie alt ist Emma?",
+          "ar": "إيما عندها كام سنة؟"
+        },
+        {
+          "de": "Wie alt bist du?",
+          "ar": "إنت عندك كام سنة؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie viele",
+      "ar": "كام (عدد)",
+      "lesson": 9,
+      "use": "بنسأل بيها عن عدد حاجات بتتعدّ، والاسم اللي بعدها بييجي جمع",
+      "examples": [
+        {
+          "de": "Wie viele Zahlen sind das?",
+          "ar": "دول كام رقم؟"
+        },
+        {
+          "de": "Wie viele Geschenke hast du?",
+          "ar": "معاك كام هدية؟"
+        }
+      ]
+    },
+    {
+      "w": "Warum",
+      "ar": "ليه",
+      "lesson": 11,
+      "use": "بنسأل بيها عن السبب",
+      "examples": [
+        {
+          "de": "Warum lernst du Deutsch?",
+          "ar": "بتتعلّم ألماني ليه؟"
+        },
+        {
+          "de": "Warum ist Nico hier?",
+          "ar": "نيكو هنا ليه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wann",
+      "ar": "إمتى",
+      "lesson": 12,
+      "use": "بنسأل بيها عن الوقت",
+      "examples": [
+        {
+          "de": "Wann haben Sie Geburtstag?",
+          "ar": "عيد ميلاد حضرتك إمتى؟ (رسمي)"
+        },
+        {
+          "de": "Wann kommst du?",
+          "ar": "هتيجي إمتى؟"
+        }
+      ]
+    },
+    {
+      "w": "Welche",
+      "ar": "أنهي",
+      "lesson": 12,
+      "use": "بنختار بيها «أنهي واحد». مع die والجمع: welche (ومع der: welcher، ومع das: welches)",
+      "examples": [
+        {
+          "de": "Welche Nummer hast du?",
+          "ar": "معاك رقم كام؟"
+        },
+        {
+          "de": "Welche Sprachen sprichst du?",
+          "ar": "بتتكلم لغات إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie viel",
+      "ar": "قد إيه / بكام",
+      "lesson": 14,
+      "use": "بنسأل بيها عن كمية حاجة مابتتعدّش (سكر، لبن، مية) وعن السعر. للحاجات اللي بتتعدّ: wie viele",
+      "examples": [
+        {
+          "de": "Wie viel Zucker möchtest du?",
+          "ar": "عايز سكر قد إيه؟"
+        },
+        {
+          "de": "Wie viel kostet der Kaffee?",
+          "ar": "القهوة بكام؟"
+        }
+      ]
+    }
+  ]
+}

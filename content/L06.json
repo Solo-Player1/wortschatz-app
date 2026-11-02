@@ -1,0 +1,287 @@
+{
+  "n": 6,
+  "sentences": [
+    {
+      "id": "s06-001",
+      "de": "Hallo, ich bin Lisa Brunner.",
+      "ar": "أهلًا، أنا ليزا برونر.",
+      "kind": "statement",
+      "focus": ["introduce", "greeting"],
+      "alts": [],
+      "cloze": { "word": "bin", "opts": ["bin", "bist", "ist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-002",
+      "de": "Das ist Nico.",
+      "ar": "ده نيكو.",
+      "kind": "statement",
+      "focus": ["introduce"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "bin", "bist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-003",
+      "de": "Nico sucht die Tasche.",
+      "ar": "نيكو بيدوّر على الشنطة.",
+      "kind": "statement",
+      "focus": ["verb:suchen"],
+      "alts": [],
+      "cloze": { "word": "sucht", "opts": ["sucht", "suche", "suchst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-004",
+      "de": "Ist Nicos Tasche in Ihrem Taxi?",
+      "ar": "شنطة نيكو في تاكسي حضرتك؟ (رسمي)",
+      "kind": "question",
+      "focus": ["formal", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Ist", "opts": ["Ist", "Bist", "Bin"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-005",
+      "de": "Die Tasche ist nicht im Taxi.",
+      "ar": "الشنطة مش في التاكسي.",
+      "kind": "statement",
+      "focus": ["negation"],
+      "alts": [],
+      "cloze": { "word": "nicht", "opts": ["nicht", "kein", "keine"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-006",
+      "de": "Da ist keine Tasche.",
+      "ar": "مفيش شنطة هنا.",
+      "kind": "statement",
+      "focus": ["negation"],
+      "alts": [],
+      "cloze": { "word": "keine", "opts": ["keine", "kein", "nicht"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-007",
+      "de": "Hier ist die Tasche nicht.",
+      "ar": "الشنطة مش هنا.",
+      "kind": "statement",
+      "focus": ["negation", "article"],
+      "alts": ["Die Tasche ist hier nicht."],
+      "cloze": { "word": "die", "opts": ["die", "der", "das"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-008",
+      "de": "Komm, wir suchen die Tasche!",
+      "ar": "تعالى، يلا ندوّر على الشنطة!",
+      "kind": "statement",
+      "focus": ["verb:suchen"],
+      "alts": ["Komm, suchen wir die Tasche!"],
+      "cloze": { "word": "suchen", "opts": ["suchen", "sucht", "suchst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s06-009",
+      "de": "Nein, keine Ahnung.",
+      "ar": "لأ، معنديش فكرة.",
+      "kind": "answer",
+      "focus": ["negation"],
+      "alts": [],
+      "cloze": { "word": "keine", "opts": ["keine", "kein", "nicht"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-010",
+      "de": "Das ist Herr Weber. Er ist Taxifahrer.",
+      "ar": "ده أستاذ فيبر. هو سوّاق تاكسي.",
+      "kind": "statement",
+      "focus": ["introduce", "job"],
+      "alts": [],
+      "cloze": { "word": "Taxifahrer", "opts": ["Taxifahrer", "Taxifahrerin", "Taxifahrerinnen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-011",
+      "de": "Ist sie Taxifahrerin?",
+      "ar": "هي سوّاقة تاكسي؟",
+      "kind": "question",
+      "focus": ["job", "pronoun"],
+      "alts": [],
+      "cloze": { "word": "sie", "opts": ["sie", "er", "du"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-012",
+      "de": "Nein, sie ist Deutschlehrerin.",
+      "ar": "لأ، هي مدرّسة ألماني.",
+      "kind": "answer",
+      "focus": ["job"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "bist", "bin"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-013",
+      "de": "Woher kommt der Taxifahrer?",
+      "ar": "سوّاق التاكسي منين؟",
+      "kind": "question",
+      "focus": ["origin", "w-frage", "article"],
+      "alts": [],
+      "cloze": { "word": "der", "opts": ["der", "die", "das"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-014",
+      "de": "Er heißt Nico und kommt aus Spanien.",
+      "ar": "اسمه نيكو وهو من إسبانيا.",
+      "kind": "statement",
+      "focus": ["introduce", "origin"],
+      "alts": ["Nico heißt er und kommt aus Spanien."],
+      "cloze": { "word": "heißt", "opts": ["heißt", "heiße", "heißen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-015",
+      "de": "Wir lernen im Kurs Deutsch.",
+      "ar": "إحنا بنتعلم ألماني في الكورس.",
+      "kind": "statement",
+      "focus": ["verb:lernen"],
+      "alts": ["Im Kurs lernen wir Deutsch."],
+      "cloze": { "word": "lernen", "opts": ["lernen", "lernt", "lernst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-016",
+      "de": "Lernst du auch Deutsch?",
+      "ar": "إنت كمان بتتعلم ألماني؟",
+      "kind": "question",
+      "focus": ["verb:lernen"],
+      "alts": ["Lernst auch du Deutsch?"],
+      "cloze": { "word": "Lernst", "opts": ["Lernst", "Lernt", "Lerne"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-017",
+      "de": "Hilfst du mir?",
+      "ar": "هتساعدني؟",
+      "kind": "question",
+      "focus": ["verb:helfen"],
+      "alts": [],
+      "cloze": { "word": "Hilfst", "opts": ["Hilfst", "Helfst", "Hilft"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-018",
+      "de": "Deutsch ist eine schöne Sprache.",
+      "ar": "الألماني لغة حلوة.",
+      "kind": "statement",
+      "focus": ["article"],
+      "alts": [],
+      "cloze": { "word": "eine", "opts": ["eine", "ein", "einen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-019",
+      "de": "Mein Vorname ist Nico.",
+      "ar": "اسمي الأول نيكو.",
+      "kind": "statement",
+      "focus": ["introduce", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Mein", "opts": ["Mein", "Meine", "Mich"] },
+      "src": "authored"
+    },
+    {
+      "id": "s06-020",
+      "de": "Wie ist Ihr Familienname?",
+      "ar": "اسم عيلة حضرتك إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": ["w-frage", "formal", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Ihr", "opts": ["Ihr", "Ihre", "Sie"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w06-01",
+      "q": "___ kommt Nico?",
+      "answer": "Woher",
+      "opts": ["Woher", "Wer", "Wo", "Was"],
+      "ar": "نيكو منين؟",
+      "reply": "Nico kommt aus Spanien.",
+      "reply_ar": "نيكو من إسبانيا."
+    },
+    {
+      "id": "w06-02",
+      "q": "___ ist Taxifahrer?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wie", "Wo", "Woher"],
+      "ar": "مين اللي سوّاق تاكسي؟",
+      "reply": "Herr Weber ist Taxifahrer.",
+      "reply_ar": "أستاذ فيبر سوّاق تاكسي."
+    },
+    {
+      "id": "w06-03",
+      "q": "___ heißt sie?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Wo", "Woher"],
+      "ar": "هي اسمها إيه؟",
+      "reply": "Sie heißt Lisa.",
+      "reply_ar": "اسمها ليزا."
+    },
+    {
+      "id": "w06-04",
+      "q": "___ kommen Sie?",
+      "answer": "Woher",
+      "opts": ["Woher", "Wer", "Was", "Wo"],
+      "ar": "حضرتك منين؟ (رسمي)",
+      "reply": "Ich komme aus Ägypten.",
+      "reply_ar": "أنا من مصر."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g06-1",
+      "h": "تعرّف حد: Das ist … و er / sie",
+      "body": "عشان تعرّف حد على حد تاني قول: Das ist + الاسم. das هنا معناها «ده / دي» ومش بتتغير مع الراجل أو الست. ولو هتكمّل كلام عن نفس الشخص: er = هو، sie = هي، والفعل معاهم بيخلص بـ -t: er heißt، sie kommt. أما sein فشاذ: er ist / sie ist.",
+      "examples": [
+        { "de": "Das ist Nico.", "ar": "ده نيكو." },
+        { "de": "Das ist Herr Weber. Er ist Taxifahrer.", "ar": "ده أستاذ فيبر. هو سوّاق تاكسي." },
+        { "de": "Er heißt Nico und kommt aus Spanien.", "ar": "اسمه نيكو وهو من إسبانيا." }
+      ],
+      "table": [["الفعل", "er (هو)", "sie (هي)"], ["sein", "er ist", "sie ist"], ["heißen", "er heißt", "sie heißt"], ["kommen", "er kommt", "sie kommt"]]
+    },
+    {
+      "id": "g06-2",
+      "h": "المهنة من غير أداة",
+      "body": "في الألماني بتقول المهنة على طول من غير ein: Er ist Taxifahrer. (مش Er ist ein Taxifahrer). ولو ست بنزوّد -in في آخر الكلمة: Taxifahrer ← Taxifahrerin، Deutschlehrer ← Deutschlehrerin، Student ← Studentin.",
+      "examples": [
+        { "de": "Er ist Taxifahrer.", "ar": "هو سوّاق تاكسي." },
+        { "de": "Sie ist Taxifahrerin.", "ar": "هي سوّاقة تاكسي." },
+        { "de": "Nein, sie ist Deutschlehrerin.", "ar": "لأ، هي مدرّسة ألماني." }
+      ],
+      "table": [["مذكّر", "مؤنّث", "المعنى"], ["der Taxifahrer", "die Taxifahrerin", "سوّاق / سوّاقة تاكسي"], ["der Deutschlehrer", "die Deutschlehrerin", "مدرّس / مدرّسة ألماني"], ["der Student", "die Studentin", "طالب / طالبة"]]
+    },
+    {
+      "id": "g06-3",
+      "h": "Vorname و Familienname",
+      "body": "في أي استمارة في ألمانيا هتلاقي der Vorname (اسمك الأول) و der Familienname (اسم العيلة). السؤال الرسمي: Wie ist Ihr Vorname? / Wie ist Ihr Familienname? والرد: Mein Vorname ist … / Mein Familienname ist … ومع صاحبك بتقول: Wie ist dein Vorname?",
+      "examples": [
+        { "de": "Mein Vorname ist Nico.", "ar": "اسمي الأول نيكو." },
+        { "de": "Wie ist Ihr Familienname?", "ar": "اسم عيلة حضرتك إيه؟ (رسمي)" }
+      ],
+      "table": [["الكلمة", "معناها", "مثال"], ["der Vorname", "الاسم الأول", "Nico"], ["der Familienname", "اسم العيلة", "González"]]
+    },
+    {
+      "id": "g06-4",
+      "h": "lernen منتظم و helfen شقي",
+      "body": "lernen ماشي على القاعدة: ich lerne، du lernst، er lernt، wir lernen. لكن helfen شقي: مع du و er/sie الـ e بتبقى i ← du hilfst، er hilft. والشخص اللي بتساعده بييجي بعده mir / dir: Hilfst du mir? = هتساعدني؟",
+      "examples": [
+        { "de": "Wir lernen im Kurs Deutsch.", "ar": "إحنا بنتعلم ألماني في الكورس." },
+        { "de": "Hilfst du mir?", "ar": "هتساعدني؟" }
+      ],
+      "table": [["الضمير", "lernen", "helfen"], ["ich", "lerne", "helfe"], ["du", "lernst", "hilfst"], ["er / sie", "lernt", "hilft"], ["wir", "lernen", "helfen"]]
+    }
+  ]
+}

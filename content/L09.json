@@ -1,0 +1,314 @@
+{
+  "n": 9,
+  "sentences": [
+    {
+      "id": "s09-001",
+      "de": "Wie ist die Hausnummer, Emma? 38 oder 83?",
+      "ar": "رقم البيت كام يا إيما؟ 38 ولا 83؟",
+      "kind": "question",
+      "focus": ["number", "address"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "sind", "bist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-002",
+      "de": "Wir sind richtig hier.",
+      "ar": "إحنا في المكان الصح.",
+      "kind": "statement",
+      "focus": ["verb:sein"],
+      "alts": ["Richtig sind wir hier."],
+      "cloze": { "word": "sind", "opts": ["sind", "seid", "ist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-003",
+      "de": "Wie viele Zahlen sind das?",
+      "ar": "دول كام رقم؟",
+      "kind": "question",
+      "focus": ["w-frage", "number"],
+      "alts": [],
+      "cloze": { "word": "viele", "opts": ["viele", "alt", "Jahre"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-004",
+      "de": "Das sind 31 Zahlen.",
+      "ar": "دول 31 رقم.",
+      "kind": "answer",
+      "focus": ["number", "plural"],
+      "alts": [],
+      "cloze": { "word": "sind", "opts": ["sind", "ist", "bin"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-005",
+      "de": "Sechs, sieben, acht, neun, zehn, elf, zwölf.",
+      "ar": "ستة، سبعة، تمانية، تسعة، عشرة، حداشر، اتناشر.",
+      "kind": "statement",
+      "focus": ["number"],
+      "alts": [],
+      "cloze": { "word": "sieben", "opts": ["sieben", "siebzig", "siebzehn"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-006",
+      "de": "Was ist das?",
+      "ar": "إيه ده؟",
+      "kind": "question",
+      "focus": ["w-frage"],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s09-007",
+      "de": "Eine Einladung zum Geburtstag von Charlotte.",
+      "ar": "دعوة لعيد ميلاد شارلوت.",
+      "kind": "answer",
+      "focus": ["article"],
+      "alts": [],
+      "cloze": { "word": "Einladung", "opts": ["Einladung", "Geschenk", "Geburtstag"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-008",
+      "de": "Und das hier ist ein Geschenk.",
+      "ar": "ودي هدية.",
+      "kind": "statement",
+      "focus": ["article"],
+      "alts": [],
+      "cloze": { "word": "ein", "opts": ["ein", "eine", "einen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s09-009",
+      "de": "Tschüss, Nico! Bis morgen!",
+      "ar": "باي يا نيكو! أشوفك بكرة!",
+      "kind": "greeting",
+      "focus": ["farewell"],
+      "alts": ["Bis morgen! Tschüss, Nico!"],
+      "src": "episode"
+    },
+    {
+      "id": "s09-010",
+      "de": "Wie alt ist Emma?",
+      "ar": "إيما عندها كام سنة؟",
+      "kind": "question",
+      "focus": ["age", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "alt", "opts": ["alt", "viele", "Jahre"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-011",
+      "de": "Emma ist acht Jahre alt.",
+      "ar": "إيما عندها 8 سنين.",
+      "kind": "answer",
+      "focus": ["age", "number"],
+      "alts": ["Acht Jahre ist Emma alt."],
+      "cloze": { "word": "Jahre", "opts": ["Jahre", "Jahr", "Zahlen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-012",
+      "de": "Lotte wird acht Jahre alt.",
+      "ar": "لوته هتكمّل 8 سنين.",
+      "kind": "statement",
+      "focus": ["age", "verb:werden"],
+      "alts": ["Acht Jahre wird Lotte alt."],
+      "cloze": { "word": "wird", "opts": ["wird", "werde", "wirst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-013",
+      "de": "Morgen werde ich zwanzig.",
+      "ar": "بكرة هكمّل 20 سنة.",
+      "kind": "statement",
+      "focus": ["age", "verb:werden"],
+      "alts": ["Ich werde morgen zwanzig."],
+      "cloze": { "word": "werde", "opts": ["werde", "wird", "wirst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-014",
+      "de": "Ich bin 25 Jahre alt.",
+      "ar": "عمري 25 سنة.",
+      "kind": "statement",
+      "focus": ["age", "number"],
+      "alts": ["25 Jahre bin ich alt."],
+      "cloze": { "word": "bin", "opts": ["bin", "bist", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-015",
+      "de": "Mein Vater ist sechzig Jahre alt.",
+      "ar": "أبويا عنده 60 سنة.",
+      "kind": "statement",
+      "focus": ["age", "number", "family"],
+      "alts": ["Sechzig Jahre ist mein Vater alt."],
+      "cloze": { "word": "sechzig", "opts": ["sechzig", "sechszig", "sechsig"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-016",
+      "de": "Meine Mutter ist siebenundfünfzig Jahre alt.",
+      "ar": "أمي عندها 57 سنة.",
+      "kind": "statement",
+      "focus": ["age", "number", "family"],
+      "alts": ["Siebenundfünfzig Jahre ist meine Mutter alt."],
+      "cloze": { "word": "siebenundfünfzig", "opts": ["siebenundfünfzig", "fünfzigundsieben", "siebenfünfzig"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-017",
+      "de": "Max ist einundzwanzig Jahre alt.",
+      "ar": "ماكس عنده 21 سنة.",
+      "kind": "statement",
+      "focus": ["age", "number"],
+      "alts": ["Einundzwanzig Jahre ist Max alt."],
+      "cloze": { "word": "einundzwanzig", "opts": ["einundzwanzig", "einsundzwanzig", "zwanzigeins"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-018",
+      "de": "Dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn.",
+      "ar": "تلتاشر، أربعتاشر، خمستاشر، ستاشر، سبعتاشر.",
+      "kind": "statement",
+      "focus": ["number"],
+      "alts": [],
+      "cloze": { "word": "sechzehn", "opts": ["sechzehn", "sechszehn", "sechzig"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-019",
+      "de": "Sechzig, siebzig, achtzig, neunzig, einhundert.",
+      "ar": "ستين، سبعين، تمانين، تسعين، مية.",
+      "kind": "statement",
+      "focus": ["number"],
+      "alts": [],
+      "cloze": { "word": "siebzig", "opts": ["siebzig", "siebenzig", "siebzehn"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-020",
+      "de": "Lotte feiert heute Geburtstag.",
+      "ar": "لوته بتحتفل بعيد ميلادها النهارده.",
+      "kind": "statement",
+      "focus": ["verb:feiern"],
+      "alts": ["Heute feiert Lotte Geburtstag."],
+      "cloze": { "word": "feiert", "opts": ["feiert", "feiern", "feierst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-021",
+      "de": "Zehn Personen kommen zum Geburtstag.",
+      "ar": "عشرة أشخاص جايين عيد الميلاد.",
+      "kind": "statement",
+      "focus": ["number", "plural"],
+      "alts": [],
+      "cloze": { "word": "Personen", "opts": ["Personen", "Person", "Zahlen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s09-022",
+      "de": "Wie viele Buchstaben hat dein Name?",
+      "ar": "اسمك فيه كام حرف؟",
+      "kind": "question",
+      "focus": ["w-frage", "spelling"],
+      "alts": [],
+      "cloze": { "word": "hat", "opts": ["hat", "hast", "habe"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w09-01",
+      "q": "___ alt ist Emma?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wo", "Was", "Wer"],
+      "ar": "إيما عندها كام سنة؟",
+      "reply": "Emma ist acht Jahre alt.",
+      "reply_ar": "إيما عندها 8 سنين."
+    },
+    {
+      "id": "w09-02",
+      "q": "___ Zahlen sind das?",
+      "answer": "Wie viele",
+      "opts": ["Wie viele", "Wie alt", "Wo", "Wer"],
+      "ar": "دول كام رقم؟",
+      "reply": "Das sind 31 Zahlen.",
+      "reply_ar": "دول 31 رقم."
+    },
+    {
+      "id": "w09-03",
+      "q": "___ Personen kommen zum Geburtstag?",
+      "answer": "Wie viele",
+      "opts": ["Wie viele", "Wie alt", "Woher", "Was"],
+      "ar": "كام شخص جايين عيد الميلاد؟",
+      "reply": "Zehn Personen.",
+      "reply_ar": "عشرة أشخاص."
+    },
+    {
+      "id": "w09-04",
+      "q": "___ ist die Hausnummer? 38 oder 83?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Woher", "Wie viele"],
+      "ar": "رقم البيت كام؟ 38 ولا 83؟",
+      "reply": "Die Hausnummer ist elf.",
+      "reply_ar": "رقم البيت 11."
+    },
+    {
+      "id": "w09-05",
+      "q": "___ feiert heute Geburtstag?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wie", "Wo", "Woher"],
+      "ar": "مين عيد ميلاده النهارده؟",
+      "reply": "Lotte. Sie wird acht.",
+      "reply_ar": "لوته. هتكمّل 8 سنين."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g09-1",
+      "h": "الأرقام من 0 لـ 12: حفظ",
+      "body": "الأرقام من 0 لـ 12 مالهاش قاعدة، بتتحفظ زي ما هي، وأحسن طريقة إنك تعدّها بصوت عالي كل يوم. elf (11) و zwölf (12) ليهم أسامي خاصة، زي «حداشر» و«اتناشر» عندنا. والصفر = null.",
+      "examples": [
+        { "de": "Sechs, sieben, acht, neun, zehn, elf, zwölf.", "ar": "ستة، سبعة، تمانية، تسعة، عشرة، حداشر، اتناشر." },
+        { "de": "Die Hausnummer ist elf.", "ar": "رقم البيت 11." }
+      ],
+      "table": [["الرقم", "بالألماني", "الرقم", "بالألماني"], ["0", "null", "7", "sieben"], ["1", "eins", "8", "acht"], ["2", "zwei", "9", "neun"], ["3", "drei", "10", "zehn"], ["4", "vier", "11", "elf"], ["5", "fünf", "12", "zwölf"], ["6", "sechs", "", ""]]
+    },
+    {
+      "id": "g09-2",
+      "h": "من 13 لـ 19: الرقم + zehn",
+      "body": "بتقول الآحاد الأول وبعدين zehn، والاتنين كلمة واحدة: drei + zehn = dreizehn. فيه استثناءين بس: 16 = sechzehn (الـ s بتقع) و 17 = siebzehn (الـ en بتقع).",
+      "examples": [
+        { "de": "Dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn.", "ar": "تلتاشر، أربعتاشر، خمستاشر، ستاشر، سبعتاشر." },
+        { "de": "Die Hausnummer ist siebzehn.", "ar": "رقم البيت 17." }
+      ],
+      "table": [["الرقم", "التركيب", "بالألماني"], ["13", "drei + zehn", "dreizehn"], ["14", "vier + zehn", "vierzehn"], ["15", "fünf + zehn", "fünfzehn"], ["16", "sechs + zehn", "sechzehn"], ["17", "sieben + zehn", "siebzehn"], ["18", "acht + zehn", "achtzehn"], ["19", "neun + zehn", "neunzehn"]]
+    },
+    {
+      "id": "g09-3",
+      "h": "العشرات والأرقام المركّبة (20–100)",
+      "body": "العشرات = الرقم + zig، بس احفظ الشواذ: zwanzig، dreißig (بـ ß)، sechzig، siebzig. ومن 21 لـ 99 بتقول الآحاد + und + العشرات في كلمة واحدة، زي «واحد وعشرين» عندنا بالظبط: einundzwanzig. وخلي بالك: eins بتبقى ein.",
+      "examples": [
+        { "de": "Max ist einundzwanzig Jahre alt.", "ar": "ماكس عنده 21 سنة." },
+        { "de": "Meine Mutter ist siebenundfünfzig Jahre alt.", "ar": "أمي عندها 57 سنة." },
+        { "de": "Sechzig, siebzig, achtzig, neunzig, einhundert.", "ar": "ستين، سبعين، تمانين، تسعين، مية." }
+      ],
+      "table": [["الرقم", "بالألماني"], ["20", "zwanzig"], ["30", "dreißig"], ["40", "vierzig"], ["60", "sechzig"], ["70", "siebzig"], ["21", "einundzwanzig"], ["57", "siebenundfünfzig"], ["100", "(ein)hundert"]]
+    },
+    {
+      "id": "g09-4",
+      "h": "Wie alt …? و Wie viele …?",
+      "body": "Wie alt …? = عنده كام سنة؟ والرد بـ sein: Emma ist acht Jahre alt (أو باختصار: Emma ist acht). ولعيد الميلاد الجاي بنقول werden: Lotte wird acht. = لوته هتكمّل 8. أما Wie viele …? = كام (عدد)، والاسم بعدها بييجي جمع: Wie viele Zahlen sind das?",
+      "examples": [
+        { "de": "Wie alt ist Emma?", "ar": "إيما عندها كام سنة؟" },
+        { "de": "Lotte wird acht Jahre alt.", "ar": "لوته هتكمّل 8 سنين." },
+        { "de": "Wie viele Zahlen sind das?", "ar": "دول كام رقم؟" },
+        { "de": "Das sind 31 Zahlen.", "ar": "دول 31 رقم." }
+      ]
+    }
+  ]
+}

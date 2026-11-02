@@ -1,0 +1,588 @@
+{
+  "n": 5,
+  "sentences": [
+    {
+      "id": "s05-001",
+      "de": "Ich heiße Nico.",
+      "ar": "اسمي نيكو.",
+      "kind": "answer",
+      "focus": [
+        "introduce",
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heiße",
+        "opts": [
+          "heiße",
+          "heißt",
+          "heißen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-002",
+      "de": "Hallo, wie heißt du?",
+      "ar": "أهلًا، اسمك إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "informal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heißt",
+        "opts": [
+          "heißt",
+          "heiße",
+          "heißen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-003",
+      "de": "Hallo, ich heiße Nico. Und wie heißt du?",
+      "ar": "أهلًا، اسمي نيكو. وإنت اسمك إيه؟",
+      "kind": "question",
+      "focus": [
+        "introduce",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "wer",
+          "wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-004",
+      "de": "Ich heiße Lisa.",
+      "ar": "اسمي ليزا.",
+      "kind": "answer",
+      "focus": [
+        "introduce"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s05-005",
+      "de": "Nein, du heißt Nico.",
+      "ar": "لأ، إنت اسمك نيكو.",
+      "kind": "answer",
+      "focus": [
+        "pronoun",
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "du",
+        "opts": [
+          "du",
+          "ich",
+          "wir"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-006",
+      "de": "Das ist Emma.",
+      "ar": "دي إيما.",
+      "kind": "statement",
+      "focus": [
+        "introduce"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-007",
+      "de": "Jetzt ist das „N“ weg!",
+      "ar": "دلوقتي حرف الـ N راح!",
+      "kind": "statement",
+      "focus": [
+        "spelling"
+      ],
+      "alts": [
+        "Das „N“ ist jetzt weg!"
+      ],
+      "cloze": {
+        "word": "weg",
+        "opts": [
+          "weg",
+          "nein",
+          "kein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-008",
+      "de": "Wer ist Yara?",
+      "ar": "مين يارا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "sind"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-009",
+      "de": "Die Tasche ist weg.",
+      "ar": "الشنطة ضاعت.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s05-010",
+      "de": "Wer bist du?",
+      "ar": "إنت مين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "informal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "bin",
+          "sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-011",
+      "de": "Wer sind Sie?",
+      "ar": "حضرتك مين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "bist",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-012",
+      "de": "Wie heißen Sie?",
+      "ar": "حضرتك اسمك إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heißen",
+        "opts": [
+          "heißen",
+          "heißt",
+          "heiße"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-013",
+      "de": "Ich bin Emma.",
+      "ar": "أنا إيما.",
+      "kind": "answer",
+      "focus": [
+        "introduce",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bin",
+        "opts": [
+          "bin",
+          "bist",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-014",
+      "de": "Du bist Emma, oder?",
+      "ar": "إنتي إيما، صح؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "auch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-015",
+      "de": "Herr Müller ist Deutschlehrer.",
+      "ar": "أستاذ مولر مدرّس ألماني.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Deutschlehrer",
+        "opts": [
+          "Deutschlehrer",
+          "Deutschlehrerin",
+          "Deutschlehrerinnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-016",
+      "de": "Sind Sie Deutschlehrerin?",
+      "ar": "حضرتك مدرّسة ألماني؟",
+      "kind": "question",
+      "focus": [
+        "formal",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sind",
+        "opts": [
+          "Sind",
+          "Bist",
+          "Ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-017",
+      "de": "Ich bin nicht Lisa, ich bin Emma.",
+      "ar": "أنا مش ليزا، أنا إيما.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "nein",
+          "kein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-018",
+      "de": "Das ist Lisa, aber sie ist nicht meine Mama.",
+      "ar": "دي ليزا، بس هي مش مامتي.",
+      "kind": "statement",
+      "focus": [
+        "introduce",
+        "pronoun"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sie",
+        "opts": [
+          "sie",
+          "ich",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-019",
+      "de": "Ich bin Nico. Und wer bist du?",
+      "ar": "أنا نيكو. وإنت مين؟",
+      "kind": "question",
+      "focus": [
+        "introduce",
+        "w-frage"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s05-020",
+      "de": "Ich heiße Lisa Brunner. Und wie heißen Sie?",
+      "ar": "اسمي ليزا برونر. وحضرتك اسمك إيه؟",
+      "kind": "question",
+      "focus": [
+        "introduce",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sie",
+        "opts": [
+          "Sie",
+          "du",
+          "ihr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s05-021",
+      "de": "Heißt du Nico?",
+      "ar": "إنت اسمك نيكو؟",
+      "kind": "question",
+      "focus": [
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Heißt",
+        "opts": [
+          "Heißt",
+          "Heiße",
+          "Heißen"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w05-01",
+      "q": "___ heißt du?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "اسمك إيه؟",
+      "reply": "Ich heiße Nico.",
+      "reply_ar": "اسمي نيكو."
+    },
+    {
+      "id": "w05-02",
+      "q": "Und ___ heißen Sie?",
+      "answer": "wie",
+      "opts": [
+        "wie",
+        "wer",
+        "wo",
+        "was"
+      ],
+      "ar": "وحضرتك اسمك إيه؟",
+      "reply": "Ich heiße Lisa Brunner.",
+      "reply_ar": "اسمي ليزا برونر."
+    },
+    {
+      "id": "w05-03",
+      "q": "___ bist du?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wann",
+        "Wohin",
+        "Warum"
+      ],
+      "ar": "إنت مين؟",
+      "reply": "Ich bin Emma.",
+      "reply_ar": "أنا إيما."
+    },
+    {
+      "id": "w05-04",
+      "q": "___ sind Sie?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wohin",
+        "Wann",
+        "Warum"
+      ],
+      "ar": "حضرتك مين؟",
+      "reply": "Ich bin die Deutschlehrerin.",
+      "reply_ar": "أنا مدرّسة الألماني."
+    },
+    {
+      "id": "w05-05",
+      "q": "___ ist das? Emma oder Lisa?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين دي؟ إيما ولا ليزا؟",
+      "reply": "Das ist Emma.",
+      "reply_ar": "دي إيما."
+    },
+    {
+      "id": "w05-06",
+      "q": "___ ist Yara?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wann",
+        "Wohin",
+        "Warum"
+      ],
+      "ar": "مين يارا؟",
+      "reply": "Yara ist meine Tante.",
+      "reply_ar": "يارا خالتي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g05-1",
+      "h": "ich و du و Sie مع heißen و sein",
+      "body": "آخر الفعل بيتغير حسب الضمير: ich heiße و du heißt و Sie heißen، و ich bin و du bist و Sie sind. لصاحبك أو لطفل بنسأل Wie heißt du? و Wer bist du? وللرسمي بنسأل Wie heißen Sie? و Wer sind Sie?",
+      "examples": [
+        {
+          "de": "Hallo, ich heiße Nico. Und wie heißt du?",
+          "ar": "أهلًا، اسمي نيكو. وإنت اسمك إيه؟"
+        },
+        {
+          "de": "Ich bin Nico. Und wer bist du?",
+          "ar": "أنا نيكو. وإنت مين؟"
+        },
+        {
+          "de": "Wer sind Sie?",
+          "ar": "حضرتك مين؟ (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "الضمير",
+          "heißen",
+          "sein"
+        ],
+        [
+          "ich (أنا)",
+          "heiße",
+          "bin"
+        ],
+        [
+          "du (إنت)",
+          "heißt",
+          "bist"
+        ],
+        [
+          "Sie (حضرتك)",
+          "heißen",
+          "sind"
+        ]
+      ]
+    },
+    {
+      "id": "g05-2",
+      "h": "Sie الرسمية",
+      "body": "Sie بنستخدمها مع حد منعرفوش، ومع الدكتور والمدرّس وفي المصالح الحكومية. بتتكتب دايمًا بحرف S كبير حتى في نص الجملة، وهي هي للشخص الواحد ولأكتر من شخص. والفعل معاها زي الجمع: Sie heißen، Sie sind.",
+      "examples": [
+        {
+          "de": "Ich heiße Lisa Brunner. Und wie heißen Sie?",
+          "ar": "اسمي ليزا برونر. وحضرتك اسمك إيه؟"
+        },
+        {
+          "de": "Sind Sie Deutschlehrerin?",
+          "ar": "حضرتك مدرّسة ألماني؟"
+        }
+      ]
+    },
+    {
+      "id": "g05-3",
+      "h": "تلات طرق تقول بيها اسمك",
+      "body": "Ich heiße Nico. و Ich bin Nico. و Mein Name ist Nico. التلاتة معناهم: اسمي نيكو. وعشان تعرّف حد تاني: Das ist Emma. ومع المهنة مفيش أداة: Ich bin Deutschlehrer.",
+      "examples": [
+        {
+          "de": "Ich heiße Nico.",
+          "ar": "اسمي نيكو."
+        },
+        {
+          "de": "Mein Name ist Nico.",
+          "ar": "اسمي نيكو."
+        },
+        {
+          "de": "Das ist Emma.",
+          "ar": "دي إيما."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "غير رسمي",
+          "رسمي"
+        ],
+        [
+          "اسمك إيه؟",
+          "Wie heißt du?",
+          "Wie heißen Sie?"
+        ],
+        [
+          "إنت مين؟",
+          "Wer bist du?",
+          "Wer sind Sie?"
+        ],
+        [
+          "اسمك إيه؟",
+          "Wie ist dein Name?",
+          "Wie ist Ihr Name?"
+        ]
+      ]
+    }
+  ]
+}

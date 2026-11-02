@@ -1,0 +1,56 @@
+/* ==========================================================================
+   library.css — المكتبة (امتحانات / شروحات / مراجع) + عارض HTML (iframe) + عارض PDF
+   كل الألوان من tokens بتاعة app.css. بادئة الكلاسات: lb-
+   ========================================================================== */
+
+/* ---------- قائمة المكتبة ---------- */
+.lb-intro { display: flex; align-items: center; gap: 14px; }
+.lb-intro .lb-big { font-size: 40px; line-height: 1; flex: none; }
+.lb-intro .hint { margin-top: 2px; }
+.lb-group { margin-bottom: 6px; }
+.lb-item { color: var(--ink); text-decoration: none; padding: 12px 12px 12px 14px; }
+.lb-ico { flex: none; width: 46px; height: 46px; border-radius: 13px; background: var(--blue-tint); display: grid; place-items: center; font-size: 24px; line-height: 1; }
+.lb-item[data-type="pdf"] .lb-ico { background: var(--warn-tint); }
+.lb-item .lb-title { font-weight: 700; font-size: 15.5px; line-height: 1.45; }
+.lb-item .lb-sub { color: var(--muted); font-size: 12.5px; line-height: 1.5; margin-top: 2px; }
+.lb-item .chip { flex: none; }
+.lb-item .lb-arrow { flex: none; color: var(--muted); font-size: 18px; }
+
+/* ---------- شاشة العنصر (immersive) ---------- */
+.lb-view { display: flex; flex-direction: column; margin: 0 -16px; /* عرض كامل */
+           height: calc(100vh - var(--safe-t) - var(--safe-b) - 26px); }
+@supports (height: 100dvh) { .lb-view { height: calc(100dvh - var(--safe-t) - var(--safe-b) - 26px); } }
+.lb-top { display: flex; align-items: center; gap: 6px; min-height: 48px; padding: 0 8px 6px; flex: none; }
+.lb-back { flex: none; padding: 8px 10px; min-height: 44px; font-size: 15px; }
+.lb-top h2 { flex: 1; min-width: 0; font-size: 15.5px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-top .chip { flex: none; }
+.lb-body { position: relative; flex: 1; min-height: 0; background: var(--surface); border-top: 1px solid var(--line); }
+
+/* ---------- عارض HTML ---------- */
+.lb-frame { display: block; width: 100%; height: 100%; border: 0; background: var(--surface); }
+.lb-frame.lb-paper { background: #fff; }      /* الشروحات مصممة كورق أبيض */
+.lb-frame.is-loading { opacity: 0; }
+.lb-frame { transition: opacity .2s; }
+
+/* مؤشر التحميل */
+.lb-loading { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 12px; color: var(--muted); font-size: 14px; background: var(--surface); pointer-events: none; }
+.lb-spin { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--blue); animation: lb-spin .8s linear infinite; }
+@keyframes lb-spin { to { transform: rotate(360deg); } }
+.lb-body > .empty { padding: 40px 20px; }
+
+/* ---------- عارض PDF ---------- */
+.lb-pdf { position: absolute; inset: 0; display: flex; flex-direction: column; background: var(--bg); }
+.lb-scroll { flex: 1; min-height: 0; overflow: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; direction: ltr; }
+.lb-pages { display: grid; gap: 10px; padding: 10px 8px 90px; justify-items: start; width: max-content; min-width: 100%; }
+.lb-page { position: relative; background: #fff; box-shadow: var(--shadow); border-radius: 3px; overflow: hidden; flex: none; }
+.lb-page canvas { display: block; }
+.lb-page .lb-pnum { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font: 600 13px var(--font-de); background: #fff; }
+.lb-page.is-rendered .lb-pnum { display: none; }
+
+/* شريط التحكم (عداد الصفحات + الزوم) */
+.lb-bar { position: absolute; left: 50%; bottom: calc(14px + var(--safe-b)); transform: translateX(-50%); display: flex; align-items: center; gap: 4px;
+          padding: 4px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); direction: ltr; }
+.lb-bar .btn-icon { width: 44px; min-width: 44px; height: 44px; font-size: 22px; font-weight: 700; border-color: transparent; background: transparent; }
+.lb-bar .btn-icon:active { background: var(--surface-2); }
+.lb-zoom { min-width: 48px; text-align: center; font: 700 13px var(--font-de); color: var(--ink-2); }
+.lb-count { min-width: 64px; text-align: center; font: 700 14px var(--font-de); color: var(--ink); padding: 0 8px; border-inline-start: 1px solid var(--line); }

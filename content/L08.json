@@ -1,0 +1,324 @@
+{
+  "n": 8,
+  "sentences": [
+    {
+      "id": "s08-001",
+      "de": "Geht es Emma nicht gut?",
+      "ar": "إيما مش كويسة؟",
+      "kind": "question",
+      "focus": ["greeting", "negation"],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s08-002",
+      "de": "Emma geht es gut, aber Nico hat ein Problem.",
+      "ar": "إيما كويسة، بس نيكو عنده مشكلة.",
+      "kind": "answer",
+      "focus": ["greeting", "verb:haben"],
+      "alts": ["Es geht Emma gut, aber Nico hat ein Problem."],
+      "cloze": { "word": "hat", "opts": ["hat", "hast", "habe"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-003",
+      "de": "Nicos Pass ist in der Tasche.",
+      "ar": "باسبور نيكو في الشنطة.",
+      "kind": "statement",
+      "focus": ["verb:sein"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "sind", "hat"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-004",
+      "de": "Er kommt aus Spanien und er hat ein Problem.",
+      "ar": "هو من إسبانيا وعنده مشكلة.",
+      "kind": "statement",
+      "focus": ["pronoun", "origin", "verb:haben"],
+      "alts": ["Aus Spanien kommt er und er hat ein Problem."],
+      "cloze": { "word": "kommt", "opts": ["kommt", "kommst", "komme"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-005",
+      "de": "Er spricht nicht gut Deutsch.",
+      "ar": "هو مش بيتكلم ألماني كويس.",
+      "kind": "statement",
+      "focus": ["verb:sprechen", "negation"],
+      "alts": [],
+      "cloze": { "word": "spricht", "opts": ["spricht", "sprecht", "sprichst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-006",
+      "de": "Hast du einen Pass?",
+      "ar": "معاك باسبور؟",
+      "kind": "question",
+      "focus": ["verb:haben"],
+      "alts": [],
+      "cloze": { "word": "Hast", "opts": ["Hast", "Hat", "Habt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-007",
+      "de": "Aber er hat ein Foto.",
+      "ar": "بس معاه صورة.",
+      "kind": "statement",
+      "focus": ["verb:haben", "article"],
+      "alts": [],
+      "cloze": { "word": "ein", "opts": ["ein", "eine", "einen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-008",
+      "de": "Wir suchen eine Adresse.",
+      "ar": "إحنا بندوّر على عنوان.",
+      "kind": "statement",
+      "focus": ["pronoun", "verb:suchen"],
+      "alts": [],
+      "cloze": { "word": "suchen", "opts": ["suchen", "sucht", "suchst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-009",
+      "de": "Die Frau hat ein Fahrradgeschäft.",
+      "ar": "الست عندها محل عجل.",
+      "kind": "statement",
+      "focus": ["verb:haben"],
+      "alts": [],
+      "cloze": { "word": "hat", "opts": ["hat", "habe", "haben"] },
+      "src": "episode"
+    },
+    {
+      "id": "s08-010",
+      "de": "Hallo, hier ist Lisa.",
+      "ar": "ألو، معاك ليزا.",
+      "kind": "greeting",
+      "focus": ["phone", "greeting"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "bin", "sind"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-011",
+      "de": "Mein Vater ist Polizist.",
+      "ar": "أبويا ظابط شرطة.",
+      "kind": "statement",
+      "focus": ["family", "job"],
+      "alts": [],
+      "cloze": { "word": "Polizist", "opts": ["Polizist", "Polizistin", "Polizisten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-012",
+      "de": "Hat sie ein Auto?",
+      "ar": "هي عندها عربية؟",
+      "kind": "question",
+      "focus": ["verb:haben", "pronoun"],
+      "alts": [],
+      "cloze": { "word": "Hat", "opts": ["Hat", "Hast", "Habe"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-013",
+      "de": "Nein, sie hat kein Auto.",
+      "ar": "لأ، معندهاش عربية.",
+      "kind": "answer",
+      "focus": ["negation", "verb:haben"],
+      "alts": [],
+      "cloze": { "word": "kein", "opts": ["kein", "keine", "nicht"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-014",
+      "de": "Habt ihr ein Foto?",
+      "ar": "معاكم صورة؟",
+      "kind": "question",
+      "focus": ["verb:haben", "pronoun"],
+      "alts": [],
+      "cloze": { "word": "Habt", "opts": ["Habt", "Haben", "Hat"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-015",
+      "de": "Woher kommt ihr?",
+      "ar": "إنتوا منين؟",
+      "kind": "question",
+      "focus": ["origin", "pronoun", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "kommt", "opts": ["kommt", "kommen", "kommst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-016",
+      "de": "Ist das deine Freundin?",
+      "ar": "دي صاحبتك؟",
+      "kind": "question",
+      "focus": ["possessive"],
+      "alts": [],
+      "cloze": { "word": "deine", "opts": ["deine", "dein", "deinen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-017",
+      "de": "Nein, das ist meine Mutter.",
+      "ar": "لأ، دي أمي.",
+      "kind": "answer",
+      "focus": ["family", "possessive"],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s08-018",
+      "de": "Was macht dein Freund?",
+      "ar": "صاحبك بيعمل إيه؟",
+      "kind": "question",
+      "focus": ["w-frage", "verb:machen"],
+      "alts": [],
+      "cloze": { "word": "macht", "opts": ["macht", "machst", "mache"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-019",
+      "de": "Wo ist das Foto? Es ist hier.",
+      "ar": "فين الصورة؟ هي هنا.",
+      "kind": "answer",
+      "focus": ["pronoun"],
+      "alts": [],
+      "cloze": { "word": "Es", "opts": ["Es", "Er", "Sie"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-020",
+      "de": "Die Nummer ist richtig.",
+      "ar": "الرقم صح.",
+      "kind": "statement",
+      "focus": ["article"],
+      "alts": [],
+      "cloze": { "word": "Die", "opts": ["Die", "Der", "Das"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-021",
+      "de": "Das sind Max und Lisa.",
+      "ar": "دول ماكس وليزا.",
+      "kind": "statement",
+      "focus": ["introduce", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "sind", "opts": ["sind", "ist", "seid"] },
+      "src": "authored"
+    },
+    {
+      "id": "s08-022",
+      "de": "Ihr sprecht gut Deutsch.",
+      "ar": "إنتوا بتتكلموا ألماني كويس.",
+      "kind": "statement",
+      "focus": ["verb:sprechen", "pronoun"],
+      "alts": ["Gut sprecht ihr Deutsch."],
+      "cloze": { "word": "sprecht", "opts": ["sprecht", "sprechen", "sprichst"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w08-01",
+      "q": "___ heißt dein Freund?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Wo", "Woher"],
+      "ar": "صاحبك اسمه إيه؟",
+      "reply": "Er heißt Max.",
+      "reply_ar": "اسمه ماكس."
+    },
+    {
+      "id": "w08-02",
+      "q": "___ kommt sie?",
+      "answer": "Woher",
+      "opts": ["Woher", "Wo", "Wer", "Was"],
+      "ar": "هي منين؟",
+      "reply": "Sie kommt aus Deutschland.",
+      "reply_ar": "هي من ألمانيا."
+    },
+    {
+      "id": "w08-03",
+      "q": "___ wohnt Nicos Tante?",
+      "answer": "Wo",
+      "opts": ["Wo", "Woher", "Wer", "Was"],
+      "ar": "خالة نيكو ساكنة فين؟",
+      "reply": "Sie wohnt hier in Deutschland.",
+      "reply_ar": "ساكنة هنا في ألمانيا."
+    },
+    {
+      "id": "w08-04",
+      "q": "___ macht dein Vater?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Woher"],
+      "ar": "باباك بيشتغل إيه؟",
+      "reply": "Er ist Polizist.",
+      "reply_ar": "هو ظابط شرطة."
+    },
+    {
+      "id": "w08-05",
+      "q": "___ hat ein Fahrradgeschäft?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wie", "Wo", "Woher"],
+      "ar": "مين عنده محل عجل؟",
+      "reply": "Nicos Tante.",
+      "reply_ar": "خالة نيكو."
+    },
+    {
+      "id": "w08-06",
+      "q": "___ geht es Emma?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wo", "Was", "Wer"],
+      "ar": "إيما عاملة إيه؟",
+      "reply": "Emma geht es gut.",
+      "reply_ar": "إيما كويسة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g08-1",
+      "h": "er / sie / es",
+      "body": "عشان تتكلم عن حد تالت: er (هو) للمذكر، sie (هي) للمؤنث، و es للمحايد، يعني أي اسم أداته das زي das Foto و das Auto. والفعل معاهم بيخلص بـ -t: er kommt، sie wohnt. خلي بالك: «الصورة» في العربي هي، بس das Foto في الألماني es.",
+      "examples": [
+        { "de": "Er kommt aus Spanien.", "ar": "هو من إسبانيا." },
+        { "de": "Die Frau hat ein Fahrradgeschäft.", "ar": "الست عندها محل عجل." },
+        { "de": "Wo ist das Foto? Es ist hier.", "ar": "فين الصورة؟ هي هنا." }
+      ],
+      "table": [["", "مذكّر", "مؤنّث", "محايد"], ["الاسم", "der Vater", "die Mutter", "das Foto"], ["الضمير", "er", "sie", "es"]]
+    },
+    {
+      "id": "g08-2",
+      "h": "الجمع: wir / ihr / sie (و Sie)",
+      "body": "wir = إحنا، ihr = إنتوا (لصحابك أو للعيلة)، sie = هم. وخلي بالك: sie (هم) و Sie (حضرتك) ليهم نفس الفعل بالظبط، والفرق في الكتابة بس: Sie الرسمي دايمًا بحرف كبير، وفي الكلام بتفهمها من السياق.",
+      "examples": [
+        { "de": "Wir suchen eine Adresse.", "ar": "إحنا بندوّر على عنوان." },
+        { "de": "Woher kommt ihr?", "ar": "إنتوا منين؟" },
+        { "de": "Max und Lisa? Sie kommen aus Deutschland.", "ar": "ماكس وليزا؟ هما من ألمانيا." }
+      ],
+      "table": [["الضمير", "المعنى", "kommen"], ["wir", "إحنا", "kommen"], ["ihr", "إنتوا", "kommt"], ["sie", "هم", "kommen"], ["Sie", "حضرتك / حضراتكم", "kommen"]]
+    },
+    {
+      "id": "g08-3",
+      "h": "التصريف كامل: 4 نهايات بس",
+      "body": "دي النهايات كلها: ich -e، du -st، er/sie/es -t، wir -en، ihr -t، sie/Sie -en. يعني wir و sie و Sie زي المصدر بالظبط، و er و ihr الاتنين -t. واحفظ sprechen لوحده: du sprichst، er spricht (الـ e بتبقى i مع du و er بس).",
+      "examples": [
+        { "de": "Er spricht nicht gut Deutsch.", "ar": "هو مش بيتكلم ألماني كويس." },
+        { "de": "Ihr sprecht gut Deutsch.", "ar": "إنتوا بتتكلموا ألماني كويس." }
+      ],
+      "table": [["الضمير", "kommen", "wohnen", "sprechen"], ["ich", "komme", "wohne", "spreche"], ["du", "kommst", "wohnst", "sprichst"], ["er / sie / es", "kommt", "wohnt", "spricht"], ["wir", "kommen", "wohnen", "sprechen"], ["ihr", "kommt", "wohnt", "sprecht"], ["sie / Sie", "kommen", "wohnen", "sprechen"]]
+    },
+    {
+      "id": "g08-4",
+      "h": "haben و sein كاملين",
+      "body": "haben (عنده / معاه) منتظم تقريبًا، بس مع du و er/sie/es الـ b بتقع: du hast، er hat. وبنستعمله للملكية: Nico hat ein Problem. = نيكو عنده مشكلة. أما sein فشاذ في كل الضماير وبيتحفظ زي ما هو.",
+      "examples": [
+        { "de": "Hast du einen Pass?", "ar": "معاك باسبور؟" },
+        { "de": "Aber Nico hat ein Problem.", "ar": "بس نيكو عنده مشكلة." },
+        { "de": "Das sind Max und Lisa.", "ar": "دول ماكس وليزا." }
+      ],
+      "table": [["الضمير", "sein", "haben"], ["ich", "bin", "habe"], ["du", "bist", "hast"], ["er / sie / es", "ist", "hat"], ["wir", "sind", "haben"], ["ihr", "seid", "habt"], ["sie / Sie", "sind", "haben"]]
+    }
+  ]
+}

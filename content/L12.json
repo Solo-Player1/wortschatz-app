@@ -1,0 +1,684 @@
+{
+  "n": 12,
+  "sentences": [
+    {
+      "id": "s12-001",
+      "de": "Guten Tag, mein Name ist Jürgen Brunner.",
+      "ar": "نهارك سعيد، اسمي يورجن برونر.",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "introduce",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Name",
+        "opts": [
+          "Name",
+          "Vorname",
+          "Nachname"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-002",
+      "de": "Sind Sie Nico?",
+      "ar": "حضرتك نيكو؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "introduce"
+      ],
+      "alts": [
+        "Sie sind Nico?"
+      ],
+      "cloze": {
+        "word": "Sind",
+        "opts": [
+          "Sind",
+          "Bist",
+          "Ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-003",
+      "de": "Ja, ich heiße Nicolás González.",
+      "ar": "أيوه، اسمي نيكولاس جونزاليس.",
+      "kind": "answer",
+      "focus": [
+        "introduce"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heiße",
+        "opts": [
+          "heiße",
+          "heißt",
+          "heißen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-004",
+      "de": "Wie ist Ihr Nachname?",
+      "ar": "اسم عيلة حضرتك إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihr",
+        "opts": [
+          "Ihr",
+          "Ihre",
+          "Sie"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-005",
+      "de": "Ich wohne in der Wagnergasse 136.",
+      "ar": "أنا ساكن في شارع فاجنر رقم 136.",
+      "kind": "answer",
+      "focus": [
+        "address",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wohne",
+        "opts": [
+          "wohne",
+          "wohnst",
+          "wohnt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-006",
+      "de": "Wie ist Ihre Passnummer?",
+      "ar": "رقم باسبور حضرتك كام؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihre",
+        "opts": [
+          "Ihre",
+          "Ihr",
+          "Ihren"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-007",
+      "de": "Mein Pass ist weg.",
+      "ar": "الباسبور بتاعي ضاع.",
+      "kind": "answer",
+      "focus": [
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-008",
+      "de": "Und wer ist Yara?",
+      "ar": "ومين يارا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "sind"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-009",
+      "de": "Yara ist Ihre Tante.",
+      "ar": "يارا تبقى خالة حضرتك.",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Tante",
+        "opts": [
+          "Tante",
+          "Onkel",
+          "Vater"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-010",
+      "de": "Wo wohnt Yara?",
+      "ar": "يارا ساكنة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wohnt",
+        "opts": [
+          "wohnt",
+          "wohnst",
+          "wohne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-011",
+      "de": "Haben Sie eine Adresse?",
+      "ar": "حضرتك معاك عنوان؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Haben",
+        "opts": [
+          "Haben",
+          "Hast",
+          "Hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-012",
+      "de": "Warum ist er hier in Deutschland?",
+      "ar": "هو هنا في ألمانيا ليه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Warum",
+        "opts": [
+          "Warum",
+          "Woher",
+          "Welche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-013",
+      "de": "Ich weiß es nicht.",
+      "ar": "معرفش.",
+      "kind": "answer",
+      "focus": [
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "weiß",
+        "opts": [
+          "weiß",
+          "weißt",
+          "wissen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-014",
+      "de": "Ich helfe Nico.",
+      "ar": "أنا هساعد نيكو.",
+      "kind": "statement",
+      "focus": [
+        "verb:helfen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "helfe",
+        "opts": [
+          "helfe",
+          "hilfst",
+          "hilft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s12-015",
+      "de": "Welche Nummer haben Sie?",
+      "ar": "حضرتك معاك رقم كام؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "number",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Was",
+          "Wer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-016",
+      "de": "Ich habe die Nummer zweihundertzwölf.",
+      "ar": "معايا رقم 212.",
+      "kind": "answer",
+      "focus": [
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zweihundertzwölf",
+        "opts": [
+          "zweihundertzwölf",
+          "zweihundertzwanzig",
+          "zwölfhundertzwei"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-017",
+      "de": "Das Museum ist fünfhundert Jahre alt.",
+      "ar": "المتحف عمره 500 سنة.",
+      "kind": "statement",
+      "focus": [
+        "number",
+        "age"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fünfhundert",
+        "opts": [
+          "fünfhundert",
+          "fünfzig",
+          "fünfzehn"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-018",
+      "de": "Mein Heimatland ist Ägypten.",
+      "ar": "بلدي الأصلي مصر.",
+      "kind": "statement",
+      "focus": [
+        "origin"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Heimatland",
+        "opts": [
+          "Heimatland",
+          "Wohnort",
+          "Nachname"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-019",
+      "de": "Mein Wohnort ist Bonn.",
+      "ar": "مكان سكني بون.",
+      "kind": "statement",
+      "focus": [
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wohnort",
+        "opts": [
+          "Wohnort",
+          "Heimatland",
+          "Postleitzahl"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-020",
+      "de": "Mein Onkel wohnt in Kairo.",
+      "ar": "عمي ساكن في القاهرة.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "address"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Onkel",
+        "opts": [
+          "Onkel",
+          "Tante",
+          "Tochter"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-021",
+      "de": "Entschuldigung, wo ist das Amt?",
+      "ar": "لو سمحت، المصلحة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wo",
+        "opts": [
+          "wo",
+          "woher",
+          "warum"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s12-022",
+      "de": "Auf Wiedersehen, Herr Brunner!",
+      "ar": "مع السلامة يا أستاذ برونر!",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "polite"
+      ],
+      "alts": [],
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w12-01",
+      "q": "___ ist Ihre Adresse?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "عنوان حضرتك إيه؟ (رسمي)",
+      "reply": "Meine Adresse ist Wagnergasse 136.",
+      "reply_ar": "عنواني شارع فاجنر 136."
+    },
+    {
+      "id": "w12-02",
+      "q": "___ Nummer haben Sie?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "حضرتك معاك رقم كام؟ (رسمي)",
+      "reply": "Ich habe die Nummer hunderteins.",
+      "reply_ar": "معايا رقم 101."
+    },
+    {
+      "id": "w12-03",
+      "q": "___ wohnt Yara?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Was"
+      ],
+      "ar": "يارا ساكنة فين؟",
+      "reply": "Keine Ahnung.",
+      "reply_ar": "معنديش فكرة."
+    },
+    {
+      "id": "w12-04",
+      "q": "___ lernen Sie Deutsch?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Was",
+        "Welche"
+      ],
+      "ar": "حضرتك بتتعلم ألماني ليه؟ (رسمي)",
+      "reply": "Meine Tochter wohnt in Deutschland.",
+      "reply_ar": "عشان بنتي ساكنة في ألمانيا."
+    },
+    {
+      "id": "w12-05",
+      "q": "___ alt sind Sie?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "حضرتك عندك كام سنة؟ (رسمي)",
+      "reply": "Ich bin 45 Jahre alt.",
+      "reply_ar": "عندي 45 سنة."
+    },
+    {
+      "id": "w12-06",
+      "q": "___ kostet das?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "ده بكام؟",
+      "reply": "Ich weiß es nicht.",
+      "reply_ar": "معرفش."
+    },
+    {
+      "id": "w12-07",
+      "q": "___ ist Ihre Postleitzahl?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Warum",
+        "Wie viele"
+      ],
+      "ar": "الرقم البريدي بتاع حضرتك كام؟ (رسمي)",
+      "reply": "Meine Postleitzahl ist 53111.",
+      "reply_ar": "الرقم البريدي بتاعي 53111."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-1",
+      "h": "الأعداد بعد 100",
+      "body": "نفس طريقة درس 9 بالظبط: الأول المئات، وبعدين آخر رقمين بالمقلوب (الآحاد + und + العشرات)، والرقم كله كلمة واحدة. والألمان غالبًا بيقولوا hundert و tausend من غير ein.",
+      "examples": [
+        {
+          "de": "Ich wohne in der Wagnergasse 136.",
+          "ar": "أنا ساكن في شارع فاجنر رقم 136 (hundertsechsunddreißig)."
+        },
+        {
+          "de": "Ich habe die Nummer zweihundertzwölf.",
+          "ar": "معايا رقم 212."
+        }
+      ],
+      "table": [
+        [
+          "الرقم",
+          "بالألماني"
+        ],
+        [
+          "100",
+          "(ein)hundert"
+        ],
+        [
+          "101",
+          "hunderteins"
+        ],
+        [
+          "136",
+          "hundertsechsunddreißig"
+        ],
+        [
+          "212",
+          "zweihundertzwölf"
+        ],
+        [
+          "500",
+          "fünfhundert"
+        ],
+        [
+          "878",
+          "achthundertachtundsiebzig"
+        ],
+        [
+          "1000",
+          "(ein)tausend"
+        ]
+      ]
+    },
+    {
+      "id": "g12-2",
+      "h": "المخاطبة الرسمية في المصلحة",
+      "body": "في المصلحة أو القسم أو البنك الكلام رسمي: سلّم بـ Guten Tag، ونادي الموظف بـ Herr أو Frau + اسم العيلة (مش الاسم الأول). استخدم Sie بدل du، وIhr / Ihre بدل dein / deine (بحرف كبير دايمًا)، وفي الآخر قول Auf Wiedersehen.",
+      "examples": [
+        {
+          "de": "Guten Tag, Herr Brunner!",
+          "ar": "نهارك سعيد يا أستاذ برونر!"
+        },
+        {
+          "de": "Wie ist Ihre Passnummer?",
+          "ar": "رقم باسبور حضرتك كام؟ (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مع صاحبك (du)",
+          "في المصلحة (Sie)"
+        ],
+        [
+          "الاسم",
+          "Wie heißt du?",
+          "Wie heißen Sie?"
+        ],
+        [
+          "العنوان",
+          "Wie ist deine Adresse?",
+          "Wie ist Ihre Adresse?"
+        ],
+        [
+          "عندك …؟",
+          "Hast du eine Adresse?",
+          "Haben Sie eine Adresse?"
+        ],
+        [
+          "الوداع",
+          "Tschüss!",
+          "Auf Wiedersehen!"
+        ]
+      ]
+    },
+    {
+      "id": "g12-3",
+      "h": "كلمات الاستمارة",
+      "body": "أي استمارة في ألمانيا (تسجيل السكن، البنك، الجامعة) فيها نفس الخانات دي. احفظ كل كلمة بأداتها، وخد بالك إن der Nachname و der Familienname نفس المعنى: اسم العيلة.",
+      "examples": [
+        {
+          "de": "Mein Nachname ist González.",
+          "ar": "اسم عيلتي جونزاليس."
+        },
+        {
+          "de": "Mein Heimatland ist Ägypten.",
+          "ar": "بلدي الأصلي مصر."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "يعني"
+        ],
+        [
+          "der Vorname",
+          "الاسم الأول"
+        ],
+        [
+          "der Nachname",
+          "اسم العيلة"
+        ],
+        [
+          "der Wohnort",
+          "مكان السكن (المدينة)"
+        ],
+        [
+          "die Postleitzahl",
+          "الرقم البريدي"
+        ],
+        [
+          "das Heimatland",
+          "بلدك الأصلي"
+        ],
+        [
+          "die Passnummer",
+          "رقم الباسبور"
+        ]
+      ]
+    },
+    {
+      "id": "g12-4",
+      "h": "الأرقام الطويلة بتتقري إزاي؟",
+      "body": "الرقم القصير (رقم الدور، رقم البيت) بنقوله كامل: zweihundertzwölf. الرقم الطويل (التليفون، حساب البنك) بنقوله رقم رقم أو كل رقمين مع بعض. ولو مش متأكد قول: Ich weiß es nicht. أو Noch einmal bitte.",
+      "examples": [
+        {
+          "de": "Welche Nummer haben Sie? – Ich habe die Nummer zweihundertzwölf.",
+          "ar": "حضرتك معاك رقم كام؟ – معايا رقم 212."
+        },
+        {
+          "de": "Meine Telefonnummer ist zwei, fünf, sieben, sieben, sechs, vier.",
+          "ar": "رقم تليفوني 257764."
+        }
+      ]
+    }
+  ]
+}

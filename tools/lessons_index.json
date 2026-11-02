@@ -1,0 +1,618 @@
+[
+ {
+  "n": 1,
+  "id": "37942133",
+  "url": "/ar/hallo/l-37942133",
+  "title": "Hallo!",
+  "goal": "التحيّات",
+  "gram": "الصيغة الرسميّة وغير الرسميّة"
+ },
+ {
+  "n": 2,
+  "id": "37947220",
+  "url": "/ar/kein-problem/l-37947220",
+  "title": "Kein Problem!",
+  "goal": "الكلمات الأولى بالألمانية",
+  "gram": ""
+ },
+ {
+  "n": 3,
+  "id": "37945997",
+  "url": "/ar/tschüss/l-37945997",
+  "title": "Tschüss!",
+  "goal": "التوديع",
+  "gram": "الصيغة الرسميّة وغير الرسميّة"
+ },
+ {
+  "n": 4,
+  "id": "37946833",
+  "url": "/ar/von-a-bis-z/l-37946833",
+  "title": "Von A bis Z",
+  "goal": "تهجئة الحروف",
+  "gram": ""
+ },
+ {
+  "n": 5,
+  "id": "37946090",
+  "url": "/ar/ich-heiße-emma/l-37946090",
+  "title": "Ich heiße Emma",
+  "goal": "التعريف بالنفس",
+  "gram": "الضمائر الشخصية: ich, du"
+ },
+ {
+  "n": 6,
+  "id": "37947005",
+  "url": "/ar/das-ist-nico/l-37947005",
+  "title": "Das ist Nico",
+  "goal": "التعريف بالآخرين",
+  "gram": ""
+ },
+ {
+  "n": 7,
+  "id": "37947707",
+  "url": "/ar/woher-kommst-du/l-37947707",
+  "title": "Woher kommst du?",
+  "goal": "الاسم والبلد",
+  "gram": "تصريف الفعل المضارع"
+ },
+ {
+  "n": 8,
+  "id": "37947170",
+  "url": "/ar/nico-hat-ein-problem/l-37947170",
+  "title": "Nico hat ein Problem",
+  "goal": "التحري عن شخص ما",
+  "gram": "الضمائر الشخصية: er, sie"
+ },
+ {
+  "n": 9,
+  "id": "37948646",
+  "url": "/ar/zahlen-von-1-bis-100/l-37948646",
+  "title": "Zahlen von 1 bis 100",
+  "goal": "الأعداد من 1 إلى 100",
+  "gram": "الأعداد من 11 إلى 19"
+ },
+ {
+  "n": 10,
+  "id": "37950995",
+  "url": "/ar/wichtige-nummern/l-37950995",
+  "title": "Wichtige Nummern",
+  "goal": "أرقام مهمة",
+  "gram": ""
+ },
+ {
+  "n": 11,
+  "id": "37952299",
+  "url": "/ar/adressen/l-37952299",
+  "title": "Adressen",
+  "goal": "تقديم البيانات الشخصية",
+  "gram": "أدوات الاستفهام"
+ },
+ {
+  "n": 12,
+  "id": "37957955",
+  "url": "/ar/auf-dem-amt/l-37957955",
+  "title": "Auf dem Amt",
+  "goal": "مخاطبة رسمية",
+  "gram": "الأعداد بعد 100"
+ },
+ {
+  "n": 13,
+  "id": "37957378",
+  "url": "/ar/was-machst-du-hier/l-37957378",
+  "title": "Was machst du hier?",
+  "goal": "التواصل مع الآخرين",
+  "gram": ""
+ },
+ {
+  "n": 14,
+  "id": "37957818",
+  "url": "/ar/was-trinkst-du/l-37957818",
+  "title": "Was trinkst du?",
+  "goal": "تقديم المشروبات",
+  "gram": "جنس الأسماء"
+ },
+ {
+  "n": 15,
+  "id": "37957932",
+  "url": "/ar/eine-pizza-bitte/l-37957932",
+  "title": "Eine Pizza bitte!",
+  "goal": "طلب الطعام",
+  "gram": "تحوّل الحرف المتحرك e إلى i"
+ },
+ {
+  "n": 16,
+  "id": "37958974",
+  "url": "/ar/zahlen-bitte/l-37958974",
+  "title": "Zahlen bitte!",
+  "goal": "دفع فاتورة الحساب",
+  "gram": ""
+ },
+ {
+  "n": 17,
+  "id": "37959086",
+  "url": "/ar/ich-war-schon-in-berlin/l-37959086",
+  "title": "Ich war schon in Berlin",
+  "goal": "معالم سياحية",
+  "gram": "زمن الماضي البسيط: الفعل sein"
+ },
+ {
+  "n": 18,
+  "id": "37959006",
+  "url": "/ar/wo-liegt-das/l-37959006",
+  "title": "Wo liegt das?",
+  "goal": "معلومات جغرافية",
+  "gram": "جمل السؤال والجملة الخبرية"
+ },
+ {
+  "n": 19,
+  "id": "37960900",
+  "url": "/ar/in-europa/l-37960900",
+  "title": "In Europa",
+  "goal": "الحديث عن البلدان",
+  "gram": "الضمير غير المُحَدّد: man"
+ },
+ {
+  "n": 20,
+  "id": "37961944",
+  "url": "/ar/andere-länder/l-37961944",
+  "title": "Andere Länder",
+  "goal": "اللغات",
+  "gram": "تصريف الفعل sprechen "
+ },
+ {
+  "n": 21,
+  "id": "37961895",
+  "url": "/ar/was-ist-das/l-37961895",
+  "title": "Was ist das?",
+  "goal": "تسمية الأشياء",
+  "gram": "أدوات التعريف"
+ },
+ {
+  "n": 22,
+  "id": "37964109",
+  "url": "/ar/wem-gehört-das/l-37964109",
+  "title": "Wem gehört das?",
+  "goal": "السؤال عن الأشياء",
+  "gram": "أدوات التنكير"
+ },
+ {
+  "n": 23,
+  "id": "37964862",
+  "url": "/ar/ich-habe-kein/l-37964862",
+  "title": "… Ich habe kein",
+  "goal": "الأشياء التي تمتلكها والتي لا تمتلكها",
+  "gram": "تركيب الجمل: الفاعل  "
+ },
+ {
+  "n": 24,
+  "id": "37967668",
+  "url": "/ar/das-auto-ist-rot/l-37967668",
+  "title": "Das Auto ist rot",
+  "goal": "وصف الأشياء",
+  "gram": "الصفات بعد الفعل \"sein\""
+ },
+ {
+  "n": 25,
+  "id": "37968474",
+  "url": "/ar/so-wohne-ich/l-37968474",
+  "title": "So wohne ich",
+  "goal": "أنواع السكن",
+  "gram": "أدوات التّعريف والتّنكير "
+ },
+ {
+  "n": 26,
+  "id": "37971392",
+  "url": "/ar/meine-wohnung/l-37971392",
+  "title": "Meine Wohnung",
+  "goal": "غرف الشقة",
+  "gram": "النفي باستخدام nicht"
+ },
+ {
+  "n": 27,
+  "id": "37971708",
+  "url": "/ar/sofa-sessel-und-tisch/l-37971708",
+  "title": "Sofa, Sessel und Tisch",
+  "goal": "وصف الأثاث",
+  "gram": "استخدام zu + الصفة"
+ },
+ {
+  "n": 28,
+  "id": "37971824",
+  "url": "/ar/unser-haus/l-37971824",
+  "title": "Unser Haus",
+  "goal": "لمن هذا الشيء",
+  "gram": "ضمائر الملكية"
+ },
+ {
+  "n": 29,
+  "id": "37975379",
+  "url": "/ar/emmas-tag/l-37975379",
+  "title": "Emmas Tag",
+  "goal": "التحدث عن النشاطات اليومية",
+  "gram": "تحديد الوقت بالصيغة غير الرسمية"
+ },
+ {
+  "n": 30,
+  "id": "37974698",
+  "url": "/ar/tageszeiten/l-37974698",
+  "title": "Tageszeiten",
+  "goal": "التحدث عن الروتين اليومي",
+  "gram": "أفعال قابلة للانفصال (1)"
+ },
+ {
+  "n": 31,
+  "id": "37975143",
+  "url": "/ar/am-sonntag-koche-ich/l-37975143",
+  "title": "Am Sonntag koche ich",
+  "goal": "الأنشطة الترفيهية",
+  "gram": "حروف الجر: an"
+ },
+ {
+  "n": 32,
+  "id": "37975420",
+  "url": "/ar/emmas-wochenende/l-37975420",
+  "title": "Emmas Wochenende",
+  "goal": "عطلة نهاية الأسبوع",
+  "gram": "ظروف الزمان الدالة على التسلسل"
+ },
+ {
+  "n": 33,
+  "id": "37975974",
+  "url": "/ar/wie-spät-ist-es/l-37975974",
+  "title": "Wie spät ist es?",
+  "goal": "تعلّم قراءة الساعة",
+  "gram": "تحديد الوقت بالصيغة الرسمية"
+ },
+ {
+  "n": 34,
+  "id": "37983609",
+  "url": "/ar/hast-du-morgen-zeit/l-37983609",
+  "title": "Hast du morgen Zeit?",
+  "goal": "تحديد المواعيد",
+  "gram": "الأعداد الترتيبية"
+ },
+ {
+  "n": 35,
+  "id": "37980403",
+  "url": "/ar/wann-spielen-wir/l-37980403",
+  "title": "Wann spielen wir?",
+  "goal": "ترتيب ولقاء",
+  "gram": " تصريف الفعل können"
+ },
+ {
+  "n": 36,
+  "id": "37983977",
+  "url": "/ar/zu-spät/l-37983977",
+  "title": "?Zu spät!",
+  "goal": "تأخيرات",
+  "gram": " زمن الماضي البسيط: الفعل haben"
+ },
+ {
+  "n": 37,
+  "id": "37981147",
+  "url": "/ar/ich-bin-lehrerin/l-37981147",
+  "title": "Ich bin Lehrerin",
+  "goal": "التحدث عن المهن",
+  "gram": "بناء الكلمات: المهن"
+ },
+ {
+  "n": 38,
+  "id": "37983847",
+  "url": "/ar/mein-beruf/l-37983847",
+  "title": "Mein Beruf",
+  "goal": "شرح الوظائف",
+  "gram": "الأفعال المساعدة"
+ },
+ {
+  "n": 39,
+  "id": "37984537",
+  "url": "/ar/wo-ist-der-aufzug/l-37984537",
+  "title": "Wo ist der Aufzug?",
+  "goal": "معرفة المسار الصحيح داخل المبنى",
+  "gram": "حالة الجر "
+ },
+ {
+  "n": 40,
+  "id": "37986898",
+  "url": "/ar/traumberufe/l-37986898",
+  "title": "Traumberufe",
+  "goal": "الطموحات المهنية",
+  "gram": "الأفعال المساعدة: wollen"
+ },
+ {
+  "n": 41,
+  "id": "37987444",
+  "url": "/ar/wo-ist-der-bahnhof/l-37987444",
+  "title": "Wo ist der Bahnhof?",
+  "goal": "السكن والعمل",
+  "gram": " حروف الجر: bei, von"
+ },
+ {
+  "n": 42,
+  "id": "37995280",
+  "url": "/ar/an-der-ampel-links/l-37995280",
+  "title": "An der Ampel links",
+  "goal": "وصف الطريق",
+  "gram": "حروف الجر الدالة على المكان"
+ },
+ {
+  "n": 43,
+  "id": "37987781",
+  "url": "/ar/mit-bus-und-bahn/l-37987781",
+  "title": "Mit Bus und Bahn",
+  "goal": "وسائل النقل للوصول إلى العمل",
+  "gram": "حروف الجر: mit "
+ },
+ {
+  "n": 44,
+  "id": "37989645",
+  "url": "/ar/im-büro/l-37989645",
+  "title": "Im Büro",
+  "goal": "أشياء في غرفة المكتب",
+  "gram": "حروف الجر متغيّرة الحالة (2)"
+ },
+ {
+  "n": 45,
+  "id": "37994159",
+  "url": "/ar/lebensmittel/l-37994159",
+  "title": "Lebensmittel",
+  "goal": "التحدث عن الطعام",
+  "gram": "النفي: nicht/kein    "
+ },
+ {
+  "n": 46,
+  "id": "37994833",
+  "url": "/ar/ich-mag-nicht/l-37994833",
+  "title": "(Ich mag (nicht!",
+  "goal": "الطّعام المفضّل",
+  "gram": "المقارنة"
+ },
+ {
+  "n": 47,
+  "id": "37996534",
+  "url": "/ar/haushaltsarbeit/l-37996534",
+  "title": "Haushaltsarbeit",
+  "goal": "الأولوية في الأعمال المنزلية",
+  "gram": "المقارنات: wie/als"
+ },
+ {
+  "n": 48,
+  "id": "37997001",
+  "url": "/ar/was-macht-dir-spaß/l-37997001",
+  "title": "Was macht dir Spaß?",
+  "goal": "أنشطة في وقت الفراغ",
+  "gram": "gehen + الفعل بصيغة المصدر"
+ },
+ {
+  "n": 49,
+  "id": "37998277",
+  "url": "/ar/mengen-und-preise/l-37998277",
+  "title": "Mengen und Preise",
+  "goal": "شراء المواد الغذائية",
+  "gram": "حروف الجر: in, auf "
+ },
+ {
+  "n": 50,
+  "id": "37998278",
+  "url": "/ar/was-darf-es-sein/l-37998278",
+  "title": "Was darf es sein?",
+  "goal": "حوار التسوق",
+  "gram": ""
+ },
+ {
+  "n": 51,
+  "id": "38000235",
+  "url": "/ar/sonst-noch-etwas/l-38000235",
+  "title": "Sonst noch etwas?",
+  "goal": "الشراء من السوق",
+  "gram": "أداة الاستفهام: wie viel "
+ },
+ {
+  "n": 52,
+  "id": "38018077",
+  "url": "/ar/wie-viel-mehl/l-38018077",
+  "title": "Wie viel Mehl?",
+  "goal": "الطبخ حسب الوصفة",
+  "gram": "إرشادات"
+ },
+ {
+  "n": 53,
+  "id": "38019233",
+  "url": "/ar/wie-war-dein-urlaub/l-38019233",
+  "title": "Wie war dein Urlaub?",
+  "goal": "التحدث عن العطلة",
+  "gram": "زمن الماضي التام: الفعل المساعد \"haben\""
+ },
+ {
+  "n": 54,
+  "id": "38019140",
+  "url": "/ar/jahreszeiten/l-38019140",
+  "title": "Jahreszeiten",
+  "goal": "المقارنة بين فصول السنة",
+  "gram": "المقارنة"
+ },
+ {
+  "n": 55,
+  "id": "38019244",
+  "url": "/ar/der-ausflug/l-38019244",
+  "title": "Der Ausflug",
+  "goal": "التحدث عن الماضي",
+  "gram": "زمن الماضي التام: الفعل المساعد \"sein\""
+ },
+ {
+  "n": 56,
+  "id": "38019831",
+  "url": "/ar/wie-wird-das-wetter/l-38019831",
+  "title": "Wie wird das Wetter?",
+  "goal": "التحدث عن الطقس",
+  "gram": "الضمير es"
+ },
+ {
+  "n": 57,
+  "id": "38021748",
+  "url": "/ar/das-ist-jetzt-modern/l-38021748",
+  "title": "Das ist jetzt modern",
+  "goal": "التحدث عن الملابس",
+  "gram": "تصريف الصفة"
+ },
+ {
+  "n": 58,
+  "id": "38023943",
+  "url": "/ar/mein-lieblingspulli/l-38023943",
+  "title": "Mein Lieblingspulli",
+  "goal": " وصف الملابس",
+  "gram": "أدوات الاِستفهام: -welch"
+ },
+ {
+  "n": 59,
+  "id": "38023823",
+  "url": "/ar/das-passt-gut/l-38023823",
+  "title": "Das passt gut!",
+  "goal": "شراء الملابس",
+  "gram": "أفعال مع المفعول في حالة الجر"
+ },
+ {
+  "n": 60,
+  "id": "38025771",
+  "url": "/ar/schick/l-38025771",
+  "title": "Schick!",
+  "goal": "ملابس غير رسمية ",
+  "gram": ""
+ },
+ {
+  "n": 61,
+  "id": "38026760",
+  "url": "/ar/meine-familie/l-38026760",
+  "title": "Meine Familie",
+  "goal": "التحدث عن العائلة",
+  "gram": "تصريف الصفة"
+ },
+ {
+  "n": 62,
+  "id": "38026749",
+  "url": "/ar/meine-eltern/l-38026749",
+  "title": "Meine Eltern",
+  "goal": "التعريف بالوالدين",
+  "gram": "الضمائر الشخصية: حالة النصب"
+ },
+ {
+  "n": 63,
+  "id": "38027364",
+  "url": "/ar/meine-tante/l-38027364",
+  "title": "Meine Tante",
+  "goal": "اختيار المهنة",
+  "gram": "ضمائر الملكية"
+ },
+ {
+  "n": 64,
+  "id": "38027341",
+  "url": "/ar/mein-bruder/l-38027341",
+  "title": "Mein Bruder",
+  "goal": "التحدث عن الأشِقَّاء",
+  "gram": "الأفعال المساعدة: sollen "
+ },
+ {
+  "n": 65,
+  "id": "38027501",
+  "url": "/ar/von-kopf-bis-fuß/l-38027501",
+  "title": "Von Kopf bis Fuß",
+  "goal": "أنواع الرياضة",
+  "gram": "المقارنة"
+ },
+ {
+  "n": 66,
+  "id": "38027511",
+  "url": "/ar/bist-du-fit/l-38027511",
+  "title": "Bist du fit?",
+  "goal": "الرياضة والتدريبات",
+  "gram": "تحديد الوقت: ?... Wann"
+ },
+ {
+  "n": 67,
+  "id": "38029360",
+  "url": "/ar/fitness/l-38029360",
+  "title": "Fitness",
+  "goal": "نصائح للياقة البدنية",
+  "gram": "المقارنة"
+ },
+ {
+  "n": 68,
+  "id": "38030001",
+  "url": "/ar/ist-das-gesund/l-38030001",
+  "title": "Ist das gesund?",
+  "goal": "التحدث عن التغذية",
+  "gram": "فعل الأمر: الصيغة غير الرسميّة"
+ },
+ {
+  "n": 69,
+  "id": "38162888",
+  "url": "/ar/geht-es-dir-gut/l-38162888",
+  "title": "Geht es dir gut?",
+  "goal": "التحدث عن الأمراض",
+  "gram": "müssen أم ?sollen"
+ },
+ {
+  "n": 70,
+  "id": "38166491",
+  "url": "/ar/beim-arzt/l-38166491",
+  "title": "Beim Arzt",
+  "goal": "التسجيل في العيادة الطبية",
+  "gram": "الأفعال المساعدة: dürfen"
+ },
+ {
+  "n": 71,
+  "id": "38164632",
+  "url": "/ar/gute-besserung/l-38164632",
+  "title": "Gute Besserung!",
+  "goal": "السؤال عن المرضى",
+  "gram": "الماضي التام"
+ },
+ {
+  "n": 72,
+  "id": "38167554",
+  "url": "/ar/nehmen-sie/l-38167554",
+  "title": "… Nehmen Sie",
+  "goal": "زيارة الطبيب",
+  "gram": "حروف الجر: vor, nach"
+ },
+ {
+  "n": 73,
+  "id": "38030965",
+  "url": "/ar/meine-heimat/l-38030965",
+  "title": "Meine Heimat",
+  "goal": "تتحدث عن الموطن",
+  "gram": "تصريف الصفة"
+ },
+ {
+  "n": 74,
+  "id": "38039811",
+  "url": "/ar/leben-in-deutschland/l-38039811",
+  "title": "Leben in Deutschland",
+  "goal": "افتقاد شيء",
+  "gram": "الضمائر الشخصّية: حالة الجر"
+ },
+ {
+  "n": 75,
+  "id": "38038588",
+  "url": "/ar/anders-als-zu-hause/l-38038588",
+  "title": "Anders als zu Hause",
+  "goal": "مقارنات",
+  "gram": ""
+ },
+ {
+  "n": 76,
+  "id": "38038661",
+  "url": "/ar/ich-träume-von/l-38038661",
+  "title": "… Ich träume von",
+  "goal": "أمنيات وآمال",
+  "gram": "صيغة الاحتمالية: التمنّي"
+ },
+ {
+  "n": 77,
+  "id": "43879925",
+  "url": "/ar/امتحان-إنهاء-دورة-a1/l-43879925",
+  "title": "امتحان إنهاء دورة A1",
+  "goal": "اِختبر معلوماتك اللغوية",
+  "gram": ""
+ }
+]

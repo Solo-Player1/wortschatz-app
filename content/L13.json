@@ -1,0 +1,593 @@
+{
+  "n": 13,
+  "sentences": [
+    {
+      "id": "s13-001",
+      "de": "Wer ist denn das?",
+      "ar": "ومين ده بقى؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "introduce"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "denn",
+        "opts": [
+          "denn",
+          "den",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-002",
+      "de": "Die Party ist heute Abend.",
+      "ar": "الحفلة النهارده بالليل.",
+      "kind": "statement",
+      "focus": [
+        "time"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s13-003",
+      "de": "Was machst du hier?",
+      "ar": "إنت بتعمل إيه هنا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:machen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "machst",
+        "opts": [
+          "machst",
+          "macht",
+          "mache",
+          "machen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-004",
+      "de": "Ich habe ein Problem.",
+      "ar": "عندي مشكلة.",
+      "kind": "statement",
+      "focus": [
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "habe",
+        "opts": [
+          "habe",
+          "hast",
+          "hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-005",
+      "de": "Mein Handy und mein Pass sind auch weg.",
+      "ar": "موبايلي والباسبور بتاعي ضاعوا هما كمان.",
+      "kind": "statement",
+      "focus": [
+        "verb:sein",
+        "possessive"
+      ],
+      "alts": [
+        "Mein Pass und mein Handy sind auch weg.",
+        "Auch mein Handy und mein Pass sind weg.",
+        "Auch mein Pass und mein Handy sind weg."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-006",
+      "de": "Und woher kommst du?",
+      "ar": "وإنت منين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "origin"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "woher",
+        "opts": [
+          "woher",
+          "wo",
+          "wer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-007",
+      "de": "Yara ist Nicos Tante.",
+      "ar": "يارا تبقى خالة نيكو.",
+      "kind": "statement",
+      "focus": [
+        "family"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s13-008",
+      "de": "Aber er hat die Adresse nicht.",
+      "ar": "بس هو معاهوش العنوان.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "verb:haben"
+      ],
+      "alts": [
+        "Aber die Adresse hat er nicht."
+      ],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "hast",
+          "habe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-009",
+      "de": "Und wie alt bist du?",
+      "ar": "وإنت عندك كام سنة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "age"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "bin",
+          "ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-010",
+      "de": "Kommst du aus Deutschland?",
+      "ar": "إنت من ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "origin"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Kommst",
+        "opts": [
+          "Kommst",
+          "Kommt",
+          "Komme"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-011",
+      "de": "Ich komme auch aus Deutschland.",
+      "ar": "أنا كمان من ألمانيا.",
+      "kind": "answer",
+      "focus": [
+        "origin"
+      ],
+      "alts": [
+        "Auch ich komme aus Deutschland."
+      ],
+      "cloze": {
+        "word": "komme",
+        "opts": [
+          "komme",
+          "kommst",
+          "kommt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-012",
+      "de": "Willkommen in der Wagnergasse!",
+      "ar": "أهلاً بيك في شارع فاجنر!",
+      "kind": "greeting",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "aus",
+          "mit"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-013",
+      "de": "Ja, aber wir haben ein Problem.",
+      "ar": "أيوه، بس عندنا مشكلة.",
+      "kind": "statement",
+      "focus": [
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "habt",
+          "hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-014",
+      "de": "Die Lampe ist kaputt.",
+      "ar": "اللمبة بايظة.",
+      "kind": "statement",
+      "focus": [
+        "problem"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-015",
+      "de": "Die Lampe funktioniert wieder.",
+      "ar": "اللمبة اشتغلت تاني.",
+      "kind": "statement",
+      "focus": [
+        "verb:funktionieren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "funktioniert",
+        "opts": [
+          "funktioniert",
+          "funktionieren",
+          "funktionierst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-016",
+      "de": "Emma geht es gut.",
+      "ar": "إيما كويسة.",
+      "kind": "answer",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [
+        "Es geht Emma gut."
+      ],
+      "cloze": {
+        "word": "geht",
+        "opts": [
+          "geht",
+          "ist",
+          "sind"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s13-017",
+      "de": "Emmas Mutter ist im Flugzeug.",
+      "ar": "مامة إيما في الطيارة.",
+      "kind": "statement",
+      "focus": [
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "in",
+          "aus"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s13-018",
+      "de": "Wollen wir uns nicht duzen?",
+      "ar": "ما تيجي نشيل الرسميات بينّا؟",
+      "kind": "question",
+      "focus": [
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "uns",
+        "opts": [
+          "uns",
+          "wir",
+          "mich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s13-019",
+      "de": "Herzlich willkommen, Nico!",
+      "ar": "أهلاً وسهلاً يا نيكو!",
+      "kind": "greeting",
+      "focus": [
+        "greeting"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s13-020",
+      "de": "Was trinkst du gern?",
+      "ar": "بتحب تشرب إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:trinken"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "trinkst",
+        "opts": [
+          "trinkst",
+          "trinkt",
+          "trinke"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s13-021",
+      "de": "Ich trinke gern Kaffee.",
+      "ar": "بحب أشرب قهوة.",
+      "kind": "answer",
+      "focus": [
+        "verb:trinken"
+      ],
+      "alts": [
+        "Gern trinke ich Kaffee."
+      ],
+      "cloze": {
+        "word": "gern",
+        "opts": [
+          "gern",
+          "gut",
+          "sehr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s13-022",
+      "de": "Das Radio funktioniert nicht.",
+      "ar": "الراديو مش شغال.",
+      "kind": "statement",
+      "focus": [
+        "verb:funktionieren",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "nein"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w13-01",
+      "q": "___ machst du hier?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إنت بتعمل إيه هنا؟",
+      "reply": "Ich suche meine Tante.",
+      "reply_ar": "بدوّر على خالتي."
+    },
+    {
+      "id": "w13-02",
+      "q": "Und ___ kommst du?",
+      "answer": "woher",
+      "opts": [
+        "woher",
+        "wo",
+        "was",
+        "wer"
+      ],
+      "ar": "وإنت منين؟",
+      "reply": "Ich komme aus Spanien. Ich wohne in Sevilla.",
+      "reply_ar": "أنا من إسبانيا، وساكن في إشبيلية."
+    },
+    {
+      "id": "w13-03",
+      "q": "Und ___ alt bist du?",
+      "answer": "wie",
+      "opts": [
+        "wie",
+        "was",
+        "wo",
+        "wer"
+      ],
+      "ar": "وإنت عندك كام سنة؟",
+      "reply": "Ich bin 25 Jahre alt.",
+      "reply_ar": "عندي 25 سنة."
+    },
+    {
+      "id": "w13-04",
+      "q": "___ trinkst du gern?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتحب تشرب إيه؟",
+      "reply": "Ich trinke gern Kaffee.",
+      "reply_ar": "بحب أشرب قهوة."
+    },
+    {
+      "id": "w13-05",
+      "q": "___ ist kaputt?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "إيه اللي بايظ؟",
+      "reply": "Die Lampe ist kaputt.",
+      "reply_ar": "اللمبة بايظة."
+    },
+    {
+      "id": "w13-06",
+      "q": "___ wohnt in der Wagnergasse?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Woher",
+        "Wie"
+      ],
+      "ar": "مين ساكن في شارع فاجنر؟",
+      "reply": "Lisa, Nina und Sebastian wohnen da.",
+      "reply_ar": "ليزا ونينا وسيباستيان ساكنين هناك."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g13-1",
+      "h": "سؤال ja / nein: الفعل في الأول",
+      "body": "لو السؤال مالوش أداة استفهام والرد عليه ja أو nein، بنبدأ بالفعل وبعده الفاعل: Kommst du aus Deutschland? – Ja, … / Nein, … أما سؤال الـ W فالأداة الأول والفعل تاني: Woher kommst du?",
+      "examples": [
+        {
+          "de": "Kommst du aus Deutschland? – Ja, ich komme aus Deutschland.",
+          "ar": "إنت من ألمانيا؟ – أيوه، أنا من ألمانيا."
+        },
+        {
+          "de": "Wie alt bist du? – Ich bin 22 Jahre alt.",
+          "ar": "عندك كام سنة؟ – عندي 22 سنة."
+        }
+      ],
+      "table": [
+        [
+          "نوع السؤال",
+          "1",
+          "2",
+          "الباقي"
+        ],
+        [
+          "W-Frage",
+          "Woher",
+          "kommst",
+          "du?"
+        ],
+        [
+          "Ja/Nein",
+          "Kommst",
+          "du",
+          "aus Deutschland?"
+        ]
+      ]
+    },
+    {
+      "id": "g13-2",
+      "h": "denn في السؤال",
+      "body": "denn كلمة صغيرة بتخلي السؤال ودّي وطبيعي، مش استجواب، زي «بقى» أو «أمّال» في المصري. مالهاش ترجمة ثابتة، بتيجي بعد الفعل في السؤال، ومابنقولهاش في الرد.",
+      "examples": [
+        {
+          "de": "Wer ist denn das?",
+          "ar": "ومين ده بقى؟"
+        },
+        {
+          "de": "Was machst du denn hier?",
+          "ar": "إنت بتعمل إيه هنا بقى؟"
+        }
+      ]
+    },
+    {
+      "id": "g13-3",
+      "h": "من Sie لـ du: Wollen wir uns nicht duzen?",
+      "body": "في ألمانيا مابتنقلش من Sie لـ du لوحدك: لازم حد يعرض، وغالبًا الأكبر سنًا أو المدير. السؤال: Wollen wir uns nicht duzen? والرد: Ja, gern! بس الشباب والطلبة (زي الشقة المشتركة في الحلقة) بيقولوا لبعض du من أول مرة.",
+      "examples": [
+        {
+          "de": "Wollen wir uns nicht duzen?",
+          "ar": "ما تيجي نشيل الرسميات بينّا؟"
+        },
+        {
+          "de": "Ja, gern!",
+          "ar": "أيوه، يا ريت!"
+        }
+      ]
+    },
+    {
+      "id": "g13-4",
+      "h": "gern = بحب",
+      "body": "عشان تقول إنك بتحب تعمل حاجة، حط gern بعد الفعل: Ich trinke gern Kaffee. والسؤال: Was trinkst du gern? والنفي: Ich trinke nicht gern Kaffee.",
+      "examples": [
+        {
+          "de": "Ich trinke gern Kaffee.",
+          "ar": "بحب أشرب قهوة."
+        },
+        {
+          "de": "Was trinkst du gern?",
+          "ar": "بتحب تشرب إيه؟"
+        },
+        {
+          "de": "Ich trinke nicht gern Kaffee.",
+          "ar": "مابحبش أشرب قهوة."
+        }
+      ]
+    }
+  ]
+}

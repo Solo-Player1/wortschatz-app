@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الأدوات والجمع — شرح المستوى التاني</title>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+  @page { size: A4; margin: 15mm 13mm 14mm; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  :root {
+    --ink: #16202c; --ink2: #44536a; --muted: #7c8899;
+    --navy: #14315e; --blue: #2a6fd6; --blue-t: #eaf1fc;
+    --red: #c3272b; --red-t: #fdeced; --gold: #b8860b; --gold-t: #fdf4de;
+    --green: #1a7a3c; --green-t: #e9f6ee;
+    --line: #d7dde7; --line2: #b9c4d2; --surf: #f5f7fa;
+    --fd: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  body { margin: 0; font-family: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+         font-size: 11.3pt; line-height: 1.8; color: var(--ink); }
+  h1, h2, h3, h4 { font-family: "Noto Kufi Arabic", "IBM Plex Sans Arabic", sans-serif; margin: 0; line-height: 1.5; }
+  p { margin: 0 0 8px; }
+  ul, ol { margin: 0 0 10px; padding-inline-start: 20px; }
+  li { margin-bottom: 5px; }
+  b, strong { font-weight: 700; }
+  .de { direction: ltr; unicode-bidi: isolate; font-family: var(--fd); font-weight: 600; white-space: nowrap; }
+  .de-l { direction: ltr; unicode-bidi: isolate; font-family: var(--fd); font-weight: 600; }
+
+  /* ---------- الغلاف ---------- */
+  .cover { height: 258mm; display: flex; flex-direction: column; justify-content: center; text-align: center; break-after: page; }
+  .flagbar { height: 9px; background: linear-gradient(to bottom, #111 0 33.3%, var(--red) 33.3% 66.6%, #f0c000 66.6%); border-radius: 2px; margin-bottom: 26px; }
+  .cover h1 { font-size: 30pt; color: var(--navy); margin-bottom: 6px; }
+  .cover .sub { font-size: 15pt; color: var(--ink2); font-weight: 600; }
+  .cover .tag { display: inline-block; margin-top: 18px; padding: 5px 20px; border: 2px solid var(--navy); border-radius: 999px; font-weight: 700; color: var(--navy); font-size: 12pt; }
+  .cover .meta { margin-top: 26px; color: var(--muted); font-size: 10.5pt; line-height: 2; }
+  .cover .box { margin: 28px auto 0; max-width: 150mm; background: var(--surf); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; text-align: right; font-size: 10.8pt; }
+
+  /* ---------- عناوين ---------- */
+  h2.part { break-before: page; font-size: 19pt; color: var(--navy); padding-bottom: 8px; border-bottom: 3px solid var(--navy); margin-bottom: 14px; }
+  h2.part span { font-family: var(--fd); direction: ltr; unicode-bidi: isolate; font-size: 15pt; color: var(--ink2); display: block; font-weight: 600; margin-top: 2px; }
+  h3 { font-size: 13pt; color: var(--navy); margin: 16px 0 7px; padding-inline-start: 10px; border-inline-start: 4px solid var(--blue); }
+  h4 { font-size: 11.8pt; margin: 12px 0 5px; color: var(--ink); }
+  .lead { color: var(--ink2); margin-bottom: 10px; }
+
+  /* ---------- صناديق ---------- */
+  .box { border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; margin: 10px 0; background: #fff; break-inside: avoid; }
+  .box.blue { background: var(--blue-t); border-color: #bcd6f5; }
+  .box.gold { background: var(--gold-t); border-color: #e8d49a; }
+  .box.red { background: var(--red-t); border-color: #f0c2c4; }
+  .box.green { background: var(--green-t); border-color: #b9e0c7; }
+  .box .t { font-family: "Noto Kufi Arabic", sans-serif; font-weight: 700; font-size: 11pt; margin-bottom: 5px; display: block; }
+  .box.gold .t { color: #7a5800; }
+  .box.red .t { color: #9b1f23; }
+  .box.green .t { color: #11582b; }
+  .box.blue .t { color: var(--navy); }
+  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
+
+  /* ---------- جداول ---------- */
+  table { width: 100%; border-collapse: collapse; margin: 9px 0 12px; font-size: 10.6pt; break-inside: avoid; }
+  th, td { border: 1px solid var(--line); padding: 5px 8px; text-align: right; vertical-align: top; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 10.4pt; }
+  tr:nth-child(even) td { background: #fafbfd; }
+  td.c, th.c { text-align: center; }
+  table.vocab td:first-child { width: 47%; direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; }
+  table.conj td:first-child { width: 34%; direction: ltr; text-align: left; font-family: var(--fd); }
+  table.conj td:nth-child(2) { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 700; color: var(--navy); width: 26%; }
+  table.num td { direction: ltr; text-align: left; font-family: var(--fd); }
+  table.num td:first-child { width: 14%; font-weight: 700; color: var(--red); text-align: center; }
+  .big-de { font-family: var(--fd); direction: ltr; font-size: 13pt; font-weight: 700; color: var(--navy); }
+
+  .ex { background: var(--surf); border-inline-start: 4px solid var(--blue); border-radius: 0 8px 8px 0; padding: 8px 12px; margin: 8px 0; break-inside: avoid; }
+  .ex div { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; margin-bottom: 2px; }
+  .ex small { display: block; color: var(--ink2); font-size: 10pt; font-family: "IBM Plex Sans Arabic", sans-serif; direction: rtl; text-align: right; font-weight: 400; }
+  .pill { display: inline-block; background: var(--navy); color: #fff; border-radius: 999px; padding: 1px 11px; font-size: 9.6pt; font-weight: 700; margin-inline-start: 6px; }
+  .pill.g { background: var(--green); } .pill.r { background: var(--red); } .pill.b { background: var(--blue); }
+  .facts { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 14px; }
+  .facts div { flex: 1 1 86px; border: 1px solid var(--line); border-radius: 9px; padding: 7px 4px; text-align: center; background: var(--surf); }
+  .facts b { display: block; font-size: 15pt; font-family: "Noto Kufi Arabic", sans-serif; color: var(--navy); line-height: 1.3; }
+  .facts span { font-size: 9.4pt; color: var(--muted); }
+  table.vocab2 td { padding: 4px 7px; font-size: 10.1pt; line-height: 1.6; }
+  table.vocab2 td:nth-child(odd) { direction: ltr; text-align: left; font-family: var(--fd); font-weight: 600; width: 28%; }
+  table.vocab2 td:nth-child(even) { width: 22%; color: var(--ink2); }
+  table.gender th:nth-child(1), table.gender td:nth-child(1) { width: 33.3%; }
+  table.gender td { font-family: var(--fd); direction: ltr; text-align: left; font-size: 10.2pt; line-height: 1.75; }
+  th.der { background: #1a4fa0; } th.die { background: #9b1f23; } th.das { background: #11582b; }
+  .key { background: #fffbe8; border: 1.5px dashed var(--gold); border-radius: 10px; padding: 10px 14px; margin: 10px 0; break-inside: avoid; }
+  .key b { color: #7a5800; }
+  table.ref td:nth-child(1) { width: 11%; text-align: center; font-weight: 700; font-family: var(--fd); }
+  table.ref td:nth-child(2), table.ref td:nth-child(3) { width: 26%; direction: ltr; text-align: left; font-family: var(--fd); }
+  .foot { margin-top: 14px; padding-top: 8px; border-top: 1px solid var(--line); color: var(--muted); font-size: 9.6pt; }
+  a { color: var(--blue); text-decoration: none; }
+</style>
+<style>
+  /* عرض على الشاشة (الموبايل) — ستايل الطباعة فوق زي ما هو */
+  @media screen {
+    html { -webkit-text-size-adjust: 100%; color-scheme: light; }
+    body { max-width: 860px; margin: 0 auto; padding: 18px 18px 48px; background: #fff; }
+  }
+  @media screen and (max-width: 700px) {
+    body { padding: 12px 14px 40px; font-size: 15px; line-height: 1.85; }
+    .cover { height: auto; min-height: 0; padding: 22px 0 6px; break-after: auto; }
+    .cover h1 { font-size: 26px; }
+    .cover .sub { font-size: 17px; }
+    .cover .box { max-width: none; margin-top: 20px; padding: 12px 14px; }
+    h2.part { break-before: auto; font-size: 22px; margin-top: 30px; }
+    h2.part span { font-size: 16px; }
+    h3 { font-size: 17px; }
+    h4 { font-size: 15.5px; }
+    .de { white-space: normal; }
+    table { table-layout: fixed; font-size: 13px; }
+    th, td { padding: 4px 6px; overflow-wrap: anywhere; }
+    table.vocab td:first-child { width: 48%; }
+    table.vocab2 td:nth-child(odd) { width: 30%; }
+    table.vocab2 td:nth-child(even) { width: 20%; }
+    .facts div { flex: 1 1 40%; }
+    .ex, .box { overflow-wrap: anywhere; }
+    ul, ol { padding-inline-start: 18px; }
+    img, svg { max-width: 100%; height: auto; }
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="flagbar"></div>
+  <h1>der · die · das<br>وصيغ الجمع</h1>
+  <p class="sub">شرح المستوى التاني في امتحان نيكوس ويج</p>
+  <div><span class="tag">Artikel &amp; Plural · A1</span></div>
+  <div class="box">
+    <p><b>ليه إنت مش عارف تحل؟</b></p>
+    <p>مش عشان إنت مش فاهم — عشان <b>مفيش حاجة تتفهم أصلاً</b> في الموضوع ده. الأداة (<bdi class="de">der/die/das</bdi>) والجمع مش بيتحسبوا بعقلك، دول بيتخزنوا مع الكلمة زي ما بتتخزن حروفها. اللي بيحصل إنك بتحفظ الكلمة لوحدها وبعدين بتيجي في الامتحان تخمّن.</p>
+    <p style="margin-top:8px"><b>بس فيه حل.</b> مش كل الكلمات عشوائية — فيه <b>علامات</b> في آخر الكلمة بتقولك أداتها وجمعها، والعلامات دي بتغطي <b>أكتر من 80%</b> من الكلمات اللي في امتحانك. الملف ده بيوريك العلامات دي، وبعدين بيحط <b>كل كلمة في امتحانك</b> في مكانها الصح.</p>
+  </div>
+  <p class="meta">47 اسم من دروس نيكوس ويج 1–5 · مصنّفين بالأداة وبنوع الجمع<br>اتعمل في 24 أكتوبر 2026</p>
+</section>
+
+<h2 class="part">أول حاجة: القاعدة اللي بتحل ربع المشكلة<span>الكلمة المركّبة</span></h2>
+
+<p class="lead">الألماني بيلزق كلمتين في كلمة واحدة على طول. والقاعدة هنا <b>مظبوطة 100%، مفيش فيها استثناء</b>:</p>
+
+<div class="key">
+  <p style="text-align:center;margin:0;font-size:13pt"><b>الكلمة المركّبة بتاخد أداة <u>آخر</u> جزء فيها</b></p>
+</div>
+
+<table>
+  <tr><th>الكلمة المركّبة</th><th>آخر جزء</th><th>يبقى الأداة</th></tr>
+  <tr><td class="de">Hausnummer</td><td class="de">die Nummer</td><td class="de" style="color:#9b1f23;font-weight:700">die Hausnummer</td></tr>
+  <tr><td class="de">Supermarkt</td><td class="de">der Markt</td><td class="de" style="color:#1a4fa0;font-weight:700">der Supermarkt</td></tr>
+  <tr><td class="de">Flughafen</td><td class="de">der Hafen</td><td class="de" style="color:#1a4fa0;font-weight:700">der Flughafen</td></tr>
+  <tr><td class="de">Deutschlehrer</td><td class="de">der Lehrer</td><td class="de" style="color:#1a4fa0;font-weight:700">der Deutschlehrer</td></tr>
+  <tr><td class="de">Telefonnummer</td><td class="de">die Nummer</td><td class="de" style="color:#9b1f23;font-weight:700">die Telefonnummer</td></tr>
+  <tr><td class="de">Fahrradgeschäft</td><td class="de">das Geschäft</td><td class="de" style="color:#11582b;font-weight:700">das Fahrradgeschäft</td></tr>
+</table>
+
+<p>يعني مش محتاج تحفظ <bdi class="de">Hausnummer</bdi> و <bdi class="de">Telefonnummer</bdi> و <bdi class="de">Passnummer</bdi> كل واحدة لوحدها — تحفظ <bdi class="de">die Nummer</bdi> مرة واحدة وخلاص، وكل اللي آخره <bdi class="de">-nummer</bdi> يبقى <bdi class="de">die</bdi>. ونفس الكلام في الجمع بالظبط.</p>
+
+<h2 class="part">الجزء الأول: الأداة — der / die / das<span>Der bestimmte Artikel</span></h2>
+
+<p class="lead">دي العلامات اللي في آخر الكلمة وبتدلّك على الأداة. ماتحفظهاش كلها مرة واحدة — ركّز على اللي عليه علامة <span class="pill">الأهم</span>.</p>
+
+<h3>علامات <bdi class="de" style="color:#9b1f23">die</bdi> (المؤنّث) — وهي الأكتر عندك</h3>
+<table>
+  <tr><th>العلامة</th><th>أمثلة من امتحانك</th><th></th></tr>
+  <tr><td class="de">آخرها -e</td><td class="de">die Familie · die Tasche · die Straße · die Adresse · die Hilfe · die Tante · die Gitarre · die Toilette</td><td><span class="pill">الأهم</span></td></tr>
+  <tr><td class="de">آخرها -in</td><td class="de">die Studentin · die Pilotin · die Deutschlehrerin</td><td><span class="pill">الأهم</span></td></tr>
+  <tr><td class="de">آخرها -ion</td><td class="de">die Information</td><td></td></tr>
+  <tr><td class="de">آخرها -tät</td><td class="de">die Universität</td><td></td></tr>
+  <tr><td class="de">آخرها -ik</td><td class="de">die Musik</td><td></td></tr>
+  <tr><td class="de">آخرها -ur</td><td class="de">die Kultur</td><td></td></tr>
+  <tr><td class="de">آخرها -ung / -heit / -keit / -schaft</td><td>هتقابلهم في الدروس الجاية: <bdi class="de">die Wohnung · die Freiheit</bdi></td><td></td></tr>
+  <tr><td>ست أو بنت (مؤنّث طبيعي)</td><td class="de">die Frau · die Mutter · die Tochter · die Mama</td><td></td></tr>
+</table>
+
+<h3>علامات <bdi class="de" style="color:#1a4fa0">der</bdi> (المذكّر)</h3>
+<table>
+  <tr><th>العلامة</th><th>أمثلة من امتحانك</th><th></th></tr>
+  <tr><td>راجل أو ولد (مذكّر طبيعي)</td><td class="de">der Mann · der Student · der Pilot · der Vater · der Onkel</td><td><span class="pill">الأهم</span></td></tr>
+  <tr><td class="de">آخرها -er (اللي بيعمل الفعل أو الآلة)</td><td class="de">der Computer · der Deutschlehrer · der Taxifahrer</td><td><span class="pill">الأهم</span></td></tr>
+  <tr><td>أيام الأسبوع والشهور والفصول</td><td class="de">der Montag · der Januar · der Sommer</td><td></td></tr>
+  <tr><td>كلمات من غير علامة (تتحفظ)</td><td class="de">der Bus · der Kaffee · der Sport · der Name · der Buchstabe</td><td></td></tr>
+</table>
+
+<h3>علامات <bdi class="de" style="color:#11582b">das</bdi> (المحايد)</h3>
+<table>
+  <tr><th>العلامة</th><th>أمثلة من امتحانك</th><th></th></tr>
+  <tr><td class="de">كلمة أجنبية آخرها -o أو -i</td><td class="de">das Büro · das Kino · das Taxi · das Radio · das Hobby</td><td><span class="pill">الأهم</span></td></tr>
+  <tr><td class="de">آخرها -um</td><td class="de">das Museum · das Zentrum</td><td></td></tr>
+  <tr><td class="de">آخرها -ment / -ett / -ent</td><td class="de">das Konzert · das Restaurant</td><td></td></tr>
+  <tr><td class="de">آخرها -chen أو -lein (التصغير)</td><td class="de">das Mädchen</bdi> (بنت — حتى لو بنت!)</td><td></td></tr>
+  <tr><td>أسماء اللغات والبلاد</td><td class="de">das Deutsch · das Spanien · das Deutschland</td><td></td></tr>
+  <tr><td>كلمات من غير علامة (تتحفظ)</td><td class="de">das Hotel · das Telefon · das Problem · das Beispiel · das Theater</td><td></td></tr>
+</table>
+
+<div class="box red">
+  <span class="t">الاستثناءات اللي في امتحانك بالذات — دول بس اللي محتاجين حفظ صم</span>
+  <p><bdi class="de">der Name</bdi> و <bdi class="de">der Buchstabe</bdi> و <bdi class="de">der Kaffee</bdi> — آخرهم <bdi class="de">-e</bdi> ومع ذلك <b>مذكّر</b> مش مؤنّث.</p>
+  <p><bdi class="de">die Bank</bdi> و <bdi class="de">die E-Mail</bdi> و <bdi class="de">die Pizza</bdi> — مفيهمش أي علامة وبرضه <b>مؤنّث</b>.</p>
+  <p style="margin-top:6px">خمس كلمات بس. اكتبهم على ورقة وعلّقهم قدامك.</p>
+</div>
+
+<h2 class="part">كل أسماء امتحانك مرتّبة بالأداة<span>47 اسم</span></h2>
+<p class="lead">دي الصفحة اللي هتذاكر منها. غطّي عمود وحاول تفتكر الأداة، أو اقراهم بصوت عالي <b>بالأداة</b> (مش «Bank» لأ، «<bdi class="de">die Bank</bdi>»).</p>
+<table class="gender">
+  <tr><th class="der">der (12)</th><th class="die">die (22)</th><th class="das">das (13)</th></tr>
+  <tr><td>Mann</td><td>Frau</td><td>Beispiel</td></tr>
+  <tr><td>Bus</td><td>Bank</td><td>Büro</td></tr>
+  <tr><td>Computer</td><td>E-Mail</td><td>Hobby</td></tr>
+  <tr><td>Flughafen</td><td>Familie</td><td>Hotel</td></tr>
+  <tr><td>Kaffee</td><td>Gitarre</td><td>Kino</td></tr>
+  <tr><td>Pilot</td><td>Information</td><td>Konzert</td></tr>
+  <tr><td>Sport</td><td>Kultur</td><td>Museum</td></tr>
+  <tr><td>Student</td><td>Musik</td><td>Problem</td></tr>
+  <tr><td>Supermarkt</td><td>Pilotin</td><td>Restaurant</td></tr>
+  <tr><td>Buchstabe</td><td>Pizza</td><td>Taxi</td></tr>
+  <tr><td>Name</td><td>Spaghetti</td><td>Telefon</td></tr>
+  <tr><td>Deutschlehrer</td><td>Studentin</td><td>Theater</td></tr>
+  <tr><td></td><td>Toilette</td><td>Zentrum</td></tr>
+  <tr><td></td><td>Universität</td><td></td></tr>
+  <tr><td></td><td>Hilfe</td><td></td></tr>
+  <tr><td></td><td>Tasche</td><td></td></tr>
+  <tr><td></td><td>Adresse</td><td></td></tr>
+  <tr><td></td><td>Hausnummer</td><td></td></tr>
+  <tr><td></td><td>Mama</td><td></td></tr>
+  <tr><td></td><td>Straße</td><td></td></tr>
+  <tr><td></td><td>Tante</td><td></td></tr>
+  <tr><td></td><td>Deutschlehrerin</td><td></td></tr>
+</table>
+
+<div class="box blue">
+  <span class="t">3 حيل بتخلّي الأداة تثبت</span>
+  <ul style="margin-bottom:0">
+    <li><b>اللون:</b> في كشكولك اكتب كل أداة بلون ثابت — <bdi class="de" style="color:#1a4fa0">der أزرق</bdi> · <bdi class="de" style="color:#9b1f23">die أحمر</bdi> · <bdi class="de" style="color:#11582b">das أخضر</bdi>. دماغك هيفتكر اللون قبل الكلمة.</li>
+    <li><b>الجملة:</b> ماتحفظش الكلمة لوحدها، احفظها في جملة قصيرة: <bdi class="de">Der Kaffee ist gut.</bdi> لو جيت تقول <bdi class="de">Die Kaffee</bdi> هتحس إنها وحشة في ودنك.</li>
+    <li><b>الصوت:</b> اقرا الكلمة بأداتها بصوت عالي 3 مرات. الأداة اللي بتتقال بتثبت أكتر من اللي بتتشاف.</li>
+  </ul>
+</div>
+
+<h2 class="part">الجزء التاني: الجمع<span>Der Plural</span></h2>
+
+<div class="key">
+  <p style="text-align:center;margin:0;font-size:13pt"><b>قبل أي حاجة: الجمع أداته <u>دايمًا</u> <bdi class="de" style="color:#9b1f23">die</bdi></b></p>
+  <p style="text-align:center;margin:6px 0 0">مهما كانت أداة المفرد: <bdi class="de">der Mann → die Männer</bdi> · <bdi class="de">das Büro → die Büros</bdi> · <bdi class="de">die Frau → die Frauen</bdi></p>
+</div>
+
+<p class="lead">الألماني عنده <b>5 طرق</b> للجمع (إحنا في العربي عندنا جمع سالم وتكسير، فالفكرة مش غريبة عليك). والطريقة بتعتمد على أداة الكلمة وآخر حروفها:</p>
+
+<h3>1. المؤنّث <bdi class="de" style="color:#9b1f23">die</bdi> ← <bdi class="de">-n</bdi> أو <bdi class="de">-en</bdi> <span class="pill">يغطي 90% من المؤنث</span></h3>
+<table>
+  <tr><th>لو الكلمة</th><th>تضيف</th><th>أمثلة من امتحانك</th></tr>
+  <tr><td>آخرها <bdi class="de">-e</bdi></td><td class="de">+n</td><td class="de">die Tasche → die Taschen · die Straße → die Straßen · die Adresse → die Adressen · die Hilfe → die Hilfen</td></tr>
+  <tr><td>آخرها حرف ساكن</td><td class="de">+en</td><td class="de">die Frau → die Frauen · die Bank → die Banken · die Universität → die Universitäten</td></tr>
+  <tr><td>آخرها <bdi class="de">-in</bdi></td><td class="de">+nen</td><td class="de">die Studentin → die Studentinnen · die Pilotin → die Pilotinnen</td></tr>
+</table>
+<div class="box gold">
+  <span class="t">ليه -nen بـ n مشدّدة؟</span>
+  <p>عشان في الألماني الحرف الساكن بيتكرر عشان الحرف اللي قبله يفضل قصير في النطق. فمش <bdi class="de">Studentinen</bdi> لأ، <bdi class="de">Studentin<b>nen</b></bdi>. دي أكتر غلطة في أسئلة الجمع.</p>
+</div>
+
+<h3>2. الكلمات الأجنبية ← <bdi class="de">-s</bdi> <span class="pill">سهلة جدًا</span></h3>
+<p>أي كلمة جاية من لغة تانية (إنجليزي، فرنساوي، إيطالي) بتاخد <bdi class="de">-s</bdi> زي الإنجليزي بالظبط — ودي أغلب كلمات درس <bdi class="de">Kein Problem!</bdi>:</p>
+<table>
+  <tr><td class="de">das Büro → die Büros</td><td class="de">das Kino → die Kinos</td><td class="de">das Taxi → die Taxis</td></tr>
+  <tr><td class="de">das Hotel → die Hotels</td><td class="de">das Restaurant → die Restaurants</td><td class="de">das Hobby → die Hobbys</td></tr>
+  <tr><td class="de">die E-Mail → die E-Mails</td><td class="de">der Kaffee → die Kaffees</td><td class="de">die Mama → die Mamas</td></tr>
+</table>
+
+<h3>3. المذكّر والمحايد ← <bdi class="de">-e</bdi></h3>
+<table>
+  <tr><td class="de">das Problem → die Probleme</td><td class="de">das Telefon → die Telefone</td></tr>
+  <tr><td class="de">das Beispiel → die Beispiele</td><td class="de">das Konzert → die Konzerte</td></tr>
+  <tr><td class="de">der Bus → die Bus<b>se</b></td><td class="de">der Supermarkt → die Supermärkte</td></tr>
+</table>
+<p><bdi class="de">Bus</bdi> بتاخد <bdi class="de">s</bdi> زيادة (<bdi class="de">Busse</bdi>) لنفس سبب الـ <bdi class="de">-nnen</bdi>. و<bdi class="de">Supermarkt</bdi> بتاخد <b>أوملاوت</b> كمان (<bdi class="de">a → ä</bdi>) — زي ما شُفت في <bdi class="de">laufen → läuft</bdi>.</p>
+
+<h3>4. اللي آخره <bdi class="de">-er</bdi> أو <bdi class="de">-el</bdi> أو <bdi class="de">-en</bdi> ← مابيتغيرش</h3>
+<table>
+  <tr><td class="de">der Computer → die Computer</td><td class="de">das Theater → die Theater</td></tr>
+  <tr><td class="de">der Deutschlehrer → die Deutschlehrer</td><td class="de">der Onkel → die Onkel</td></tr>
+</table>
+<p>الكلمة زي ما هي بالحرف! اللي بيفرّق هو <b>الأداة</b> بس: <bdi class="de">der Computer</bdi> (واحد) ← <bdi class="de">die Computer</bdi> (كذا واحد). وأحيانًا بتاخد أوملاوت بس: <bdi class="de">der Flughafen → die Flughäfen</bdi>.</p>
+
+<h3>5. الشواذّ اللي في امتحانك — 6 كلمات بس</h3>
+<table>
+  <tr><th>الكلمة</th><th>الجمع</th><th>السبب</th></tr>
+  <tr><td class="de">der Mann</td><td class="de">die Männer</td><td>أوملاوت + <bdi class="de">-er</bdi></td></tr>
+  <tr><td class="de">das Museum</td><td class="de">die Museen</td><td>لاتيني: <bdi class="de">-um</bdi> بتتشال وتتحط <bdi class="de">-en</bdi></td></tr>
+  <tr><td class="de">das Zentrum</td><td class="de">die Zentren</td><td>نفس حكاية <bdi class="de">-um</bdi></td></tr>
+  <tr><td class="de">die Pizza</td><td class="de">die Pizzen</td><td>إيطالي: <bdi class="de">-a</bdi> بتتشال</td></tr>
+  <tr><td class="de">der Student</td><td class="de">die Studenten</td><td>مذكّر بياخد <bdi class="de">-en</bdi></td></tr>
+  <tr><td class="de">der Pilot</td><td class="de">die Piloten</td><td>مذكّر بياخد <bdi class="de">-en</bdi></td></tr>
+</table>
+
+<h3>6. كلمات مالهاش جمع أصلاً</h3>
+<p>زي «موسيقى» و«رياضة» في العربي — مش بتتجمع:</p>
+<p><bdi class="de">die Musik</bdi> · <bdi class="de">die Kultur</bdi> · <bdi class="de">der Sport</bdi> · <bdi class="de">die Information</bdi> (بمعنى مكتب الاستعلامات) — دي <bdi class="de">nur Singular</bdi>.</p>
+<p>وفي العكس: <bdi class="de">die Spaghetti</bdi> جمع دايمًا (<bdi class="de">nur Plural</bdi>) — زي «مكرونة» مابتقولش «مكرونة واحدة».</p>
+
+<div class="key">
+  <p style="margin:0"><b>خلاصة الجمع في سطرين:</b> شوف الأداة الأول. <bdi class="de" style="color:#9b1f23">die</bdi> ← زوّد <bdi class="de">-n/-en/-nen</bdi>. كلمة أجنبية ← <bdi class="de">-s</bdi>. <bdi class="de" style="color:#1a4fa0">der</bdi>/<bdi class="de" style="color:#11582b">das</bdi> ← <bdi class="de">-e</bdi>. آخرها <bdi class="de">-er/-el/-en</bdi> ← ماتزوّدش حاجة.</p>
+</div>
+
+<h2 class="part">باقي أسئلة المستوى التاني<span>اللي مش أدوات ولا جمع</span></h2>
+
+<h3>1. رسمي ولا غير رسمي؟</h3>
+<p>السؤال في الامتحان بيقولك بتكلم مين، وإنت تختار. القاعدة: <b>صاحبك/أهلك ← <bdi class="de">du</bdi>&nbsp;&nbsp;·&nbsp;&nbsp;غريب/شغل/مصلحة ← <bdi class="de">Sie</bdi></b>. ولو محتار اختار الرسمي.</p>
+<table>
+  <tr><th>المعنى</th><th>مع صاحبك (غير رسمي)</th><th>مع <bdi class="de">Herr Müller</bdi> (رسمي)</th></tr>
+  <tr><td>التحية</td><td class="de">Hallo!</td><td class="de">Guten Tag!</td></tr>
+  <tr><td>إزيك؟</td><td class="de">Wie geht es dir?</td><td class="de">Wie geht es Ihnen?</td></tr>
+  <tr><td>وإنت؟</td><td class="de">Und dir?</td><td class="de">Und Ihnen?</td></tr>
+  <tr><td>الوداع</td><td class="de">Tschüss. / Mach’s gut!</td><td class="de">Auf Wiedersehen.</td></tr>
+  <tr><td>اسمك إيه؟</td><td class="de">Wie heißt du?</td><td class="de">Wie heißen Sie?</td></tr>
+  <tr><td>إنت مين؟</td><td class="de">Wer bist du?</td><td class="de">Wer sind Sie?</td></tr>
+  <tr><td>اسمك إيه؟ (بصيغة تانية)</td><td class="de">Wie ist dein Name?</td><td class="de">Wie ist Ihr Name?</td></tr>
+  <tr><td>تهجّاها من فضلك</td><td class="de">Bitte buchstabiere das.</td><td class="de">Bitte buchstabieren Sie das.</td></tr>
+</table>
+<div class="box blue">
+  <span class="t">إزاي تعرف الإجابة في ثانية</span>
+  <p>بصّ على الكلمة: لو فيها <bdi class="de">du · dir · dein · -st</bdi> ← <b>غير رسمي</b>. لو فيها <bdi class="de">Sie · Ihnen · Ihr · -en</bdi> ← <b>رسمي</b>. مش محتاج تقرا الجملة كلها.</p>
+</div>
+
+<h3>2. التحية حسب الوقت</h3>
+<table>
+  <tr><th>الوقت</th><th>بتقول</th></tr>
+  <tr><td>من الصبح لحد 11 تقريبًا</td><td class="de">Guten Morgen.</td></tr>
+  <tr><td>من 11 لحد 6 المسا</td><td class="de">Guten Tag.</td></tr>
+  <tr><td>من 6 المسا وطالع</td><td class="de">Guten Abend.</td></tr>
+  <tr><td>أي وقت (رسمي وآمن)</td><td class="de">Guten Tag.</td></tr>
+</table>
+
+<h3>3. الرد في الحوار</h3>
+<table>
+  <tr><th>لو حد قالك</th><th>ترد</th></tr>
+  <tr><td class="de">Wie geht es dir? / Wie geht es Ihnen?</td><td class="de">Es geht mir gut. / Danke, gut.</td></tr>
+  <tr><td class="de">Wie heißt du?</td><td class="de">Ich heiße … / Ich bin …</td></tr>
+  <tr><td class="de">Wer bist du?</td><td class="de">Ich bin …</td></tr>
+  <tr><td class="de">Wie ist dein Name?</td><td class="de">Mein Name ist …</td></tr>
+  <tr><td class="de">Vielen Dank!</td><td class="de">Kein Problem. / Bitte.</td></tr>
+  <tr><td class="de">Tschüss!</td><td class="de">Mach’s gut! / Tschüss!</td></tr>
+  <tr><td>حد ساعدك</td><td class="de">Vielen Dank!</td></tr>
+  <tr><td>حد مسافر</td><td class="de">Gute Reise.</td></tr>
+  <tr><td>المدرس بيتكلم بسرعة</td><td class="de">Langsam bitte.</td></tr>
+  <tr><td>مسمعتش الكلام</td><td class="de">Noch einmal bitte.</td></tr>
+  <tr><td>مش عارف الكلمة اتكتبت إزاي</td><td class="de">Wie schreibt man das?</td></tr>
+</table>
+
+<h3>4. <bdi class="de">ich / du / Sie</bdi> مع <bdi class="de">heißen</bdi> و <bdi class="de">sein</bdi></h3>
+<table class="conj">
+  <tr><th>الضمير</th><th>heißen</th><th>sein</th><th>مثال</th></tr>
+  <tr><td>ich</td><td>heiße</td><td>bin</td><td>Ich heiße Abdullah.</td></tr>
+  <tr><td>du</td><td>heißt</td><td>bist</td><td>Wie heißt du?</td></tr>
+  <tr><td>Sie</td><td>heißen</td><td>sind</td><td>Wie heißen Sie?</td></tr>
+</table>
+<p>ولاحظ: <bdi class="de">heißen</bdi> مع <bdi class="de">du</bdi> بتاخد <bdi class="de">-t</bdi> بس (<bdi class="de">du heißt</bdi>) مش <bdi class="de">-st</bdi>، عشان الجذر آخره <bdi class="de">ß</bdi>.</p>
+
+<h3>5. كلمات صغيرة بتلخبط</h3>
+<table>
+  <tr><th>الكلمة</th><th>معناها</th><th>مثال</th></tr>
+  <tr><td class="de">und</td><td>وَ (بتجمع حاجتين)</td><td class="de">Nico und Emma</td></tr>
+  <tr><td class="de">oder</td><td>أو (بتخيّر)</td><td class="de">Pizza oder Spaghetti?</td></tr>
+  <tr><td class="de">auch</td><td>كمان / أيضًا</td><td class="de">Emma ist auch Studentin.</td></tr>
+  <tr><td class="de">nicht</td><td>النفي <b>جوه</b> الجملة</td><td class="de">Es geht mir nicht so gut.</td></tr>
+  <tr><td class="de">nein</td><td>«لا» كرد على سؤال</td><td class="de">Nein, danke.</td></tr>
+</table>
+<p><b>الفرق بين <bdi class="de">nein</bdi> و <bdi class="de">nicht</bdi>:</b> <bdi class="de">nein</bdi> بتيجي لوحدها في أول الكلام كرد. <bdi class="de">nicht</bdi> بتيجي جوه الجملة عشان تنفي حاجة فيها.</p>
+
+<h3>6. المذكّر والمؤنّث في المهن</h3>
+<p>بتضيف <bdi class="de">-in</bdi> في الآخر، والأداة بتبقى <bdi class="de">die</bdi>:</p>
+<table>
+  <tr><th>مذكّر</th><th>مؤنّث</th><th>الجمع (مؤنّث)</th></tr>
+  <tr><td class="de">der Student</td><td class="de">die Studentin</td><td class="de">die Studentinnen</td></tr>
+  <tr><td class="de">der Pilot</td><td class="de">die Pilotin</td><td class="de">die Pilotinnen</td></tr>
+  <tr><td class="de">der Deutschlehrer</td><td class="de">die Deutschlehrerin</td><td class="de">die Deutschlehrerinnen</td></tr>
+  <tr><td class="de">der Taxifahrer</td><td class="de">die Taxifahrerin</td><td class="de">die Taxifahrerinnen</td></tr>
+</table>
+
+<h2 class="part">جدول المراجعة النهائي<span>الأداة + الجمع لكل كلمة في امتحانك</span></h2>
+<p class="lead">ده الجدول اللي تفتحه قبل ما تبدأ الامتحان. غطّي عمود «الأداة» وحاول تفتكره، وبعدين غطّي عمود «الجمع».</p>
+<table class="ref">
+  <tr><th>الأداة</th><th>المفرد</th><th>الجمع</th><th>المعنى</th></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Buchstabe</td><td>die Buchstaben</td><td>حرف</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Bus</td><td>die Busse</td><td>باص، حافلة</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Computer</td><td>die Computer</td><td>حاسوب، كمبيوتر</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Deutschlehrer</td><td>die Deutschlehrer</td><td>مدرس اللغة الألمانية</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Flughafen</td><td>die Flughäfen</td><td>مطار</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Kaffee</td><td>die Kaffees</td><td>قهوة</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Mann</td><td>die Männer</td><td>رجل</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Name</td><td>die Namen</td><td>اسم</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Pilot</td><td>die Piloten</td><td>طيار</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Sport</td><td>— مالهاش جمع</td><td>رياضة</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Student</td><td>die Studenten</td><td>طالب</td></tr>
+  <tr><td style="color:#1a4fa0">der</td><td>Supermarkt</td><td>die Supermärkte</td><td>سوبر ماركت</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Adresse</td><td>die Adressen</td><td>عنوان</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Bank</td><td>die Banken</td><td>مصرف، بنك</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Deutschlehrerin</td><td>die Deutschlehrerinnen</td><td>مُدرِّسة اللغة الألمانية</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>E-Mail</td><td>die E-Mails</td><td>بريد إلكتروني</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Familie</td><td>die Familien</td><td>عائلة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Frau</td><td>die Frauen</td><td>امرأة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Gitarre</td><td>die Gitarren</td><td>غيتار</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Hausnummer</td><td>die Hausnummern</td><td>رقم المبنى</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Hilfe</td><td>die Hilfen</td><td>مساعدة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Information</td><td>— مالهاش جمع</td><td>(مكتب) الاستعلامات</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Kultur</td><td>— مالهاش جمع</td><td>ثقافة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Mama</td><td>die Mamas</td><td>ماما</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Musik</td><td>— مالهاش جمع</td><td>موسيقى</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Pilotin</td><td>die Pilotinnen</td><td>طيارة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Pizza</td><td>die Pizzen</td><td>بيتزا</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Spaghetti</td><td>— مالهاش جمع</td><td>سباغيتي (نوع من المعكرونة)</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Straße</td><td>die Straßen</td><td>شارع</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Studentin</td><td>die Studentinnen</td><td>طالبة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Tante</td><td>die Tanten</td><td>خالة، عمة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Tasche</td><td>die Taschen</td><td>حقيبة</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Toilette</td><td>die Toiletten</td><td>دورة المياه</td></tr>
+  <tr><td style="color:#9b1f23">die</td><td>Universität</td><td>die Universitäten</td><td>جامعة</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Beispiel</td><td>die Beispiele</td><td>مثال</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Büro</td><td>die Büros</td><td>مكتب</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Hobby</td><td>die Hobbys</td><td>هواية</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Hotel</td><td>die Hotels</td><td>فندق</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Kino</td><td>die Kinos</td><td>سينما</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Konzert</td><td>die Konzerte</td><td>حفلة موسيقية</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Museum</td><td>die Museen</td><td>متحف</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Problem</td><td>die Probleme</td><td>مشكلة</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Restaurant</td><td>die Restaurants</td><td>مطعم</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Taxi</td><td>die Taxis</td><td>سيارة أجرة</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Telefon</td><td>die Telefone</td><td>هاتف</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Theater</td><td>die Theater</td><td>مسرح</td></tr>
+  <tr><td style="color:#11582b">das</td><td>Zentrum</td><td>die Zentren</td><td>مركز المدينة</td></tr>
+</table>
+
+<div class="box green">
+  <span class="t">خطة أسبوع واحد تخلّي المستوى التاني سهل</span>
+  <ol style="margin-bottom:0">
+    <li><b>يوم 1–2:</b> اقرا الجزء الأول (الأداة) وذاكر جدول المراجعة <b>بالأداة بس</b> — 15 كلمة في اليوم، بصوت عالي.</li>
+    <li><b>يوم 3–4:</b> اقرا الجزء التاني (الجمع) وذاكر نفس الجدول بس <b>بالجمع</b>.</li>
+    <li><b>يوم 5:</b> اقرا باقي المستوى التاني (رسمي/غير رسمي والحوار) — ده الجزء السهل وهتخلصه في نص ساعة.</li>
+    <li><b>يوم 6:</b> حل المستوى التاني في الامتحان. أول مرة هتجيب حوالي 60% — عادي.</li>
+    <li><b>يوم 7:</b> دوس «امتحنّي في أخطائي» وكرر لحد ما توصل 85%.</li>
+  </ol>
+</div>
+
+<p class="foot">الكلمات والأمثلة كلها من دروس <bdi class="de">Nicos Weg · A1</bdi> من 1 لـ 5 على learngerman.dw.com — نفس الكلمات اللي في امتحان نيكوس ويج عندك بالظبط. القواعد والشرح والترتيب مكتوبين مخصوص ليك.</p>
+
+</body>
+</html>

@@ -1,0 +1,523 @@
+{
+  "n": 2,
+  "sentences": [
+    {
+      "id": "s02-001",
+      "de": "Ins Zentrum bitte.",
+      "ar": "على وسط البلد لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "place"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s02-002",
+      "de": "Ins Restaurant oder zum Hotel?",
+      "ar": "على المطعم ولا على الفندق؟",
+      "kind": "question",
+      "focus": [
+        "place"
+      ],
+      "alts": [
+        "Zum Restaurant oder ins Hotel?"
+      ],
+      "src": "episode"
+    },
+    {
+      "id": "s02-003",
+      "de": "Zum Hotel Königshof bitte.",
+      "ar": "على فندق كونيجسهوف لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "place"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s02-004",
+      "de": "Okay, kein Problem.",
+      "ar": "أوكي، مفيش مشكلة.",
+      "kind": "answer",
+      "focus": [
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "nicht",
+          "nein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s02-005",
+      "de": "Da ist das Taxi!",
+      "ar": "التاكسي أهو!",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-006",
+      "de": "Das Hotel ist im Zentrum.",
+      "ar": "الفندق في وسط البلد.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-007",
+      "de": "Der Flughafen ist nicht im Zentrum.",
+      "ar": "المطار مش في وسط البلد.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-008",
+      "de": "Wie heißt das Hotel?",
+      "ar": "الفندق اسمه إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:heißen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heißt",
+        "opts": [
+          "heißt",
+          "heiße",
+          "heißen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-009",
+      "de": "Ich studiere Musik in Köln.",
+      "ar": "أنا بدرس مزيكا في كولونيا.",
+      "kind": "statement",
+      "focus": [
+        "verb:studieren"
+      ],
+      "alts": [
+        "Musik studiere ich in Köln."
+      ],
+      "cloze": {
+        "word": "studiere",
+        "opts": [
+          "studiere",
+          "studierst",
+          "studiert"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-010",
+      "de": "Frau Schneider ist Pilotin.",
+      "ar": "مدام شنايدر طيّارة.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Pilotin",
+        "opts": [
+          "Pilotin",
+          "Pilotinnen",
+          "Piloten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-011",
+      "de": "Sarah ist Studentin und Tom ist Student.",
+      "ar": "سارة طالبة، وتوم طالب.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Student",
+        "opts": [
+          "Student",
+          "Studentin",
+          "Studentinnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-012",
+      "de": "Ich habe ein Problem.",
+      "ar": "عندي مشكلة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-013",
+      "de": "Der Kaffee ist super!",
+      "ar": "القهوة تحفة!",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-014",
+      "de": "Pizza oder Spaghetti?",
+      "ar": "بيتزا ولا سباجيتي؟",
+      "kind": "question",
+      "focus": [
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "auch",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-015",
+      "de": "Meine Hobbys sind Sport und Musik.",
+      "ar": "هواياتي الرياضة والمزيكا.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "hobby"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "bin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-016",
+      "de": "Ich habe eine E-Mail für Sie.",
+      "ar": "عندي إيميل لحضرتك.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "formal"
+      ],
+      "alts": [
+        "Eine E-Mail habe ich für Sie."
+      ],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-017",
+      "de": "Ist die Universität in Bonn?",
+      "ar": "الجامعة في بون؟",
+      "kind": "question",
+      "focus": [
+        "question",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ist",
+        "opts": [
+          "Ist",
+          "Bist",
+          "Sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-018",
+      "de": "Meine Familie ist in Ägypten.",
+      "ar": "عيلتي في مصر.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Meine",
+        "opts": [
+          "Meine",
+          "Mein",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-019",
+      "de": "Das Konzert ist heute.",
+      "ar": "الحفلة النهارده.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s02-020",
+      "de": "Die Toilette ist hier.",
+      "ar": "الحمام هنا.",
+      "kind": "statement",
+      "focus": [
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bin",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s02-021",
+      "de": "Das Telefon ist im Büro.",
+      "ar": "التليفون في المكتب.",
+      "kind": "statement",
+      "focus": [
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "ins",
+          "in"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w02-01",
+      "q": "___ heißt das Hotel?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الفندق اسمه إيه؟",
+      "reply": "Das Hotel heißt Königshof.",
+      "reply_ar": "الفندق اسمه كونيجسهوف."
+    },
+    {
+      "id": "w02-02",
+      "q": "___ heißt die Studentin?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الطالبة اسمها إيه؟",
+      "reply": "Die Studentin heißt Sarah.",
+      "reply_ar": "الطالبة اسمها سارة."
+    },
+    {
+      "id": "w02-03",
+      "q": "___ heißt der Pilot?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "الطيار اسمه إيه؟",
+      "reply": "Der Pilot heißt Tom.",
+      "reply_ar": "الطيار اسمه توم."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g02-1",
+      "h": "كلمات عالمية… وحرف كبير",
+      "body": "كلمات زي Hotel و Taxi و Computer و Pizza اسمها كلمات عالمية: موجودة في لغات كتير بنفس المعنى، فهتفهمها على طول. حتى Kaffee أصلها عربي: قهوة! بس انطقها بالطريقة الألمانية، وخد بالك من قاعدة مهمة: كل الأسماء في الألماني بتتكتب بحرف كبير في أولها، في أي مكان في الجملة.",
+      "examples": [
+        {
+          "de": "Das Hotel ist im Zentrum.",
+          "ar": "الفندق في وسط البلد."
+        },
+        {
+          "de": "Der Kaffee ist super!",
+          "ar": "القهوة تحفة!"
+        }
+      ]
+    },
+    {
+      "id": "g02-2",
+      "h": "der و die و das",
+      "body": "كل اسم ليه أداة: der أو die أو das، ومفيش قاعدة سهلة تعرفها بيها (das Hotel بس die Bank). عشان كده احفظ كل اسم مع أداته. في الجمع الأداة دايمًا die: die Taxis. ومع النكرة: der و das بيبقوا ein، و die بتبقى eine. بس بعد haben (وأفعال زيه) المذكر بيبقى einen: Ich habe einen Computer.",
+      "examples": [
+        {
+          "de": "Der Flughafen ist nicht im Zentrum.",
+          "ar": "المطار مش في وسط البلد."
+        },
+        {
+          "de": "Ich habe ein Problem.",
+          "ar": "عندي مشكلة."
+        },
+        {
+          "de": "Ich habe eine E-Mail für Sie.",
+          "ar": "عندي إيميل لحضرتك."
+        }
+      ],
+      "table": [
+        [
+          "der",
+          "die",
+          "das"
+        ],
+        [
+          "der Bus",
+          "die Bank",
+          "das Hotel"
+        ],
+        [
+          "der Kaffee",
+          "die Pizza",
+          "das Taxi"
+        ],
+        [
+          "der Flughafen",
+          "die Universität",
+          "das Restaurant"
+        ]
+      ]
+    },
+    {
+      "id": "g02-3",
+      "h": "طالب وطالبة: in للست",
+      "body": "كتير من أسماء الناس والمهن ليها شكل للراجل وشكل للست. للست بنزوّد in في الآخر والأداة بتبقى die: der Student و die Studentin، der Pilot و die Pilotin. وجمع الستات بـ innen: die Studentinnen. ولما نقول المهنة بعد ist مفيش أداة: Frau Schneider ist Pilotin.",
+      "examples": [
+        {
+          "de": "Frau Schneider ist Pilotin.",
+          "ar": "مدام شنايدر طيّارة."
+        },
+        {
+          "de": "Sarah ist Studentin und Tom ist Student.",
+          "ar": "سارة طالبة، وتوم طالب."
+        }
+      ],
+      "table": [
+        [
+          "للراجل",
+          "للست",
+          "جمع الستات"
+        ],
+        [
+          "der Student",
+          "die Studentin",
+          "die Studentinnen"
+        ],
+        [
+          "der Pilot",
+          "die Pilotin",
+          "die Pilotinnen"
+        ]
+      ]
+    }
+  ]
+}

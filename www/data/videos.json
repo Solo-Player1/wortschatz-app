@@ -1,0 +1,236 @@
+{
+ "version": 1,
+ "source": "DW Nicos Weg (tv-download.dw.com)",
+ "videos": [
+  {
+   "n": 1,
+   "title": "Hallo!",
+   "duration": 84,
+   "poster": "img/posters/L1.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L1_F1_sd.mp4",
+    "bytes": 7431385,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L1-Folge-01-Hallo_ut_AVC_640x360.mp4",
+    "bytes": 12229704,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L1.vtt"
+  },
+  {
+   "n": 2,
+   "title": "Kein Problem!",
+   "duration": 98,
+   "poster": "img/posters/L2.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/A1_E0_L2_F2_neu_AVC_640x360.mp4",
+    "bytes": 14053425,
+    "q": "AVC_640x360"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L2-Folge-02-Kein-Problem_ut_AVC_640x360.mp4",
+    "bytes": 14128585,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L2.vtt"
+  },
+  {
+   "n": 3,
+   "title": "Tschüss!",
+   "duration": 75,
+   "poster": "img/posters/L3.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L3_F3_sd.mp4",
+    "bytes": 6351063,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L3-Folge-03-Tschuess_ut_AVC_640x360.mp4",
+    "bytes": 10799451,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L3.vtt"
+  },
+  {
+   "n": 4,
+   "title": "Von A bis Z",
+   "duration": 97,
+   "poster": "img/posters/L4.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E0_L4_F4_sd.mp4",
+    "bytes": 8136316,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E00-L4-Folge-04-Von-A-bis-Z_ut_AVC_512x288.mp4",
+    "bytes": 7687528,
+    "q": "AVC_512x288"
+   },
+   "vtt": "data/subs/L4.vtt"
+  },
+  {
+   "n": 5,
+   "title": "Ich heiße Emma",
+   "duration": 74,
+   "poster": "img/posters/L5.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L1_F5_sd.mp4",
+    "bytes": 6096513,
+    "q": "sd"
+   },
+   "vtt": "data/subs/L5.vtt"
+  },
+  {
+   "n": 6,
+   "title": "Das ist Nico",
+   "duration": 49,
+   "poster": "img/posters/L6.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L2_F6_sd.mp4",
+    "bytes": 4238560,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L2-Folge-06-Das-ist-Nico_ut_AVC_640x360.mp4",
+    "bytes": 6955046,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L6.vtt"
+  },
+  {
+   "n": 7,
+   "title": "Woher kommst du?",
+   "duration": 101,
+   "poster": "img/posters/L7.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L3_F7_sd.mp4",
+    "bytes": 8475058,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E01-L3-Folge-07-Woher-kommst-du_ut_AVC_640x360.mp4",
+    "bytes": 14477060,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L7.vtt"
+  },
+  {
+   "n": 8,
+   "title": "Nico hat ein Problem",
+   "duration": 91,
+   "poster": "img/posters/L8.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E1_L4_F8_sd.mp4",
+    "bytes": 8092141,
+    "q": "sd"
+   },
+   "vtt": "data/subs/L8.vtt"
+  },
+  {
+   "n": 9,
+   "title": "Zahlen von 1 bis 100",
+   "duration": 97,
+   "poster": "img/posters/L9.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L1_F9_sd.mp4",
+    "bytes": 8144993,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L1-Folge-09-Zahlen-von-1-bis-100_ut_AVC_960x540.mp4",
+    "bytes": 32299334,
+    "q": "AVC_960x540"
+   },
+   "vtt": "data/subs/L9.vtt"
+  },
+  {
+   "n": 10,
+   "title": "Wichtige Nummern",
+   "duration": 93,
+   "poster": "img/posters/L10.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L2_F10_sd.mp4",
+    "bytes": 7640970,
+    "q": "sd"
+   },
+   "vtt": "data/subs/L10.vtt"
+  },
+  {
+   "n": 11,
+   "title": "Adressen",
+   "duration": 109,
+   "poster": "img/posters/L11.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L3_F11_sd.mp4",
+    "bytes": 8633338,
+    "q": "sd"
+   },
+   "vtt": "data/subs/L11.vtt"
+  },
+  {
+   "n": 12,
+   "title": "Auf dem Amt",
+   "duration": 123,
+   "poster": "img/posters/L12.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E2_L4_F12_sd.mp4",
+    "bytes": 10256251,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E02-L4-Folge-12-Auf-dem-Amt_ut_AVC_480x270.mp4",
+    "bytes": 5977201,
+    "q": "AVC_480x270"
+   },
+   "vtt": "data/subs/L12.vtt"
+  },
+  {
+   "n": 13,
+   "title": "Was machst du hier?",
+   "duration": 121,
+   "poster": "img/posters/L13.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L1_F13_sd.mp4",
+    "bytes": 10289054,
+    "q": "sd"
+   },
+   "vtt": "data/subs/L13.vtt"
+  },
+  {
+   "n": 14,
+   "title": "Was trinkst du?",
+   "duration": 110,
+   "poster": "img/posters/L14.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L2_F14_sd.mp4",
+    "bytes": 9318981,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L2-Folge-14-Was-trinkst-du_ut_AVC_640x360.mp4",
+    "bytes": 15920680,
+    "q": "AVC_640x360"
+   },
+   "vtt": "data/subs/L14.vtt"
+  },
+  {
+   "n": 15,
+   "title": "Eine Pizza,bitte!",
+   "duration": 117,
+   "poster": "img/posters/L15.webp",
+   "video": {
+    "url": "https://tv-download.dw.com/Events/mp4/nicosweg/A1_E3_L3_F15_sd.mp4",
+    "bytes": 10222947,
+    "q": "sd"
+   },
+   "sub": {
+    "url": "https://tv-download.dw.com/dwtv_video/flv/nicosweg/de/Nicos-Weg-A1-E03-L3-Folge-15-Eine-Pizza-bitte_ut_AVC_960x540.mp4",
+    "bytes": 39087457,
+    "q": "AVC_960x540"
+   },
+   "vtt": "data/subs/L15.vtt"
+  }
+ ]
+}

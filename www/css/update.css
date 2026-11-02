@@ -1,0 +1,28 @@
+/* ==========================================================================
+   update.css — بانر التحديث في الرئيسية + كارت «التحديثات» في الإعدادات
+   كل الألوان من tokens بتاعة app.css (فاتح/غامق أوتوماتيك). كلاسات بادئة up-
+   ========================================================================== */
+.up-banner { background: var(--blue-tint); border-color: var(--blue); animation: up-in .22s ease-out; }
+.up-banner.up-out { transition: opacity .2s, transform .2s; opacity: 0; transform: translateY(-6px); }
+@keyframes up-in { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+.up-head { display: flex; align-items: flex-start; gap: 12px; }
+.up-ico { flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--surface); display: grid; place-items: center; font-size: 24px; line-height: 1; box-shadow: var(--shadow); }
+.up-title { font-size: 17px; color: var(--ink); }
+.up-title .de { font-weight: 700; color: var(--blue); }
+.up-notes { color: var(--ink-2); font-size: 14.5px; line-height: 1.6; margin-top: 4px; overflow-wrap: anywhere; }
+.up-date { margin-top: 2px; }
+.up-actions { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin-top: 14px; }
+.up-actions .btn-ghost { color: var(--ink-2); }
+html[data-theme="dark"] .up-banner { border-color: var(--blue); }
+html[data-theme="dark"] .up-ico { background: var(--surface-2); }
+
+/* settings card */
+.up-version { font-weight: 700; }
+.up-version .de { font-weight: 600; }
+.up-last { margin-top: 2px; }
+.up-inline { display: flex; align-items: center; gap: 10px; margin-top: 12px; padding: 10px 12px; border-radius: var(--radius-sm); background: var(--blue-tint); font-weight: 600; }
+.up-inline .btn { flex: none; min-height: 44px; padding: 8px 14px; }
+.up-settings-actions { margin-top: 12px; }
+.up-settings-actions .btn { padding-inline: 10px; font-size: 14.5px; }
+.up-help { margin-top: 12px; line-height: 1.6; }
+@media (max-width: 379px) { .up-settings-actions { grid-template-columns: 1fr; } }

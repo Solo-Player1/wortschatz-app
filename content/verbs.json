@@ -1,0 +1,994 @@
+{
+  "verbs": [
+    {
+      "inf": "gehen",
+      "ar": "يروح / يمشي",
+      "lesson": 1,
+      "type": "irregular",
+      "forms": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie": "gehen"
+      },
+      "note": "معناه يروح، بس هنا جاي في «إزيك»: Wie geht es dir? (حرفيًا: ماشية معاك إزاي؟). والمضارع منتظم.",
+      "examples": [
+        {
+          "de": "Wie geht es dir?",
+          "ar": "إزيك؟"
+        },
+        {
+          "de": "Es geht mir gut.",
+          "ar": "أنا كويس."
+        }
+      ]
+    },
+    {
+      "inf": "sein",
+      "ar": "يكون",
+      "lesson": 1,
+      "type": "irregular",
+      "forms": {
+        "ich": "bin",
+        "du": "bist",
+        "er": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie": "sind"
+      },
+      "note": "شاذ خالص، يتحفظ زي ما هو. وفي العربي بنشيله: Ich bin Nico = أنا نيكو.",
+      "examples": [
+        {
+          "de": "Ich bin Nico.",
+          "ar": "أنا نيكو."
+        },
+        {
+          "de": "Es ist neun Uhr.",
+          "ar": "الساعة تسعة."
+        }
+      ]
+    },
+    {
+      "inf": "studieren",
+      "ar": "يدرس (في الجامعة)",
+      "lesson": 2,
+      "type": "regular",
+      "forms": {
+        "ich": "studiere",
+        "du": "studierst",
+        "er": "studiert",
+        "wir": "studieren",
+        "ihr": "studiert",
+        "sie": "studieren"
+      },
+      "note": "للجامعة بس. تتعلّم أو تذاكر في كورس = lernen (درس 6).",
+      "examples": [
+        {
+          "de": "Ich studiere Musik.",
+          "ar": "أنا بدرس موسيقى."
+        },
+        {
+          "de": "Studierst du in Berlin?",
+          "ar": "إنت بتدرس في برلين؟"
+        }
+      ]
+    },
+    {
+      "inf": "arbeiten",
+      "ar": "يشتغل",
+      "lesson": 4,
+      "type": "regular",
+      "forms": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie": "arbeiten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du arbeitest, er arbeitet (القاعدة دي في درس 8).",
+      "examples": [
+        {
+          "de": "Sie arbeitet da.",
+          "ar": "هي بتشتغل هناك."
+        },
+        {
+          "de": "Arbeitest du heute?",
+          "ar": "إنت شغّال النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "buchstabieren",
+      "ar": "يتهجّى",
+      "lesson": 4,
+      "type": "regular",
+      "forms": {
+        "ich": "buchstabiere",
+        "du": "buchstabierst",
+        "er": "buchstabiert",
+        "wir": "buchstabieren",
+        "ihr": "buchstabiert",
+        "sie": "buchstabieren"
+      },
+      "note": "كل فعل آخره -ieren منتظم من غير مفاجآت (زي studieren و telefonieren).",
+      "examples": [
+        {
+          "de": "Ich buchstabiere meinen Namen.",
+          "ar": "أنا بتهجّى اسمي."
+        },
+        {
+          "de": "Bitte buchstabieren Sie das.",
+          "ar": "اتهجّاها لو سمحت. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "fliegen",
+      "ar": "يطير / يسافر بالطيارة",
+      "lesson": 4,
+      "type": "irregular",
+      "forms": {
+        "ich": "fliege",
+        "du": "fliegst",
+        "er": "fliegt",
+        "wir": "fliegen",
+        "ihr": "fliegt",
+        "sie": "fliegen"
+      },
+      "note": "المضارع منتظم عادي (الشذوذ في الماضي بس).",
+      "examples": [
+        {
+          "de": "Meine Mama fliegt heute.",
+          "ar": "ماما مسافرة بالطيارة النهارده."
+        },
+        {
+          "de": "Fliegst du auch?",
+          "ar": "إنت كمان مسافر بالطيارة؟"
+        }
+      ]
+    },
+    {
+      "inf": "schreiben",
+      "ar": "يكتب",
+      "lesson": 4,
+      "type": "irregular",
+      "forms": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie": "schreiben"
+      },
+      "note": "man (= الواحد / الناس) بتتصرّف زي er: man schreibt. والمضارع منتظم.",
+      "examples": [
+        {
+          "de": "Wie schreibt man das?",
+          "ar": "دي بتتكتب إزاي؟"
+        },
+        {
+          "de": "Ich schreibe eine E-Mail.",
+          "ar": "أنا بكتب إيميل."
+        }
+      ]
+    },
+    {
+      "inf": "suchen",
+      "ar": "يدوّر على",
+      "lesson": 4,
+      "type": "regular",
+      "forms": {
+        "ich": "suche",
+        "du": "suchst",
+        "er": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie": "suchen"
+      },
+      "examples": [
+        {
+          "de": "Ich suche meine Tante.",
+          "ar": "أنا بدوّر على خالتي."
+        },
+        {
+          "de": "Wir suchen die Tasche.",
+          "ar": "إحنا بندوّر على الشنطة."
+        }
+      ]
+    },
+    {
+      "inf": "heißen",
+      "ar": "اسمه / يتسمّى",
+      "lesson": 5,
+      "type": "irregular",
+      "forms": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie": "heißen"
+      },
+      "note": "الجذر آخره ß، فمع du بنزوّد -t بس: du heißt (مش heißst).",
+      "examples": [
+        {
+          "de": "Ich heiße Emma.",
+          "ar": "اسمي إيما."
+        },
+        {
+          "de": "Wie heißt du?",
+          "ar": "اسمك إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "helfen",
+      "ar": "يساعد",
+      "lesson": 6,
+      "type": "irregular",
+      "forms": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie": "helfen"
+      },
+      "note": "e بتبقى i مع du و er: du hilfst, er hilft. وبنقول Ich helfe dir (مش dich).",
+      "examples": [
+        {
+          "de": "Wir helfen dir.",
+          "ar": "إحنا هنساعدك."
+        },
+        {
+          "de": "Lisa hilft Nico.",
+          "ar": "ليزا بتساعد نيكو."
+        }
+      ]
+    },
+    {
+      "inf": "lernen",
+      "ar": "يتعلّم / يذاكر",
+      "lesson": 6,
+      "type": "regular",
+      "forms": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie": "lernen"
+      },
+      "examples": [
+        {
+          "de": "Ich lerne Deutsch.",
+          "ar": "أنا بتعلّم ألماني."
+        },
+        {
+          "de": "Lernst du auch Deutsch?",
+          "ar": "إنت كمان بتتعلّم ألماني؟"
+        }
+      ]
+    },
+    {
+      "inf": "anrufen",
+      "ar": "يتصل (بالتليفون)",
+      "lesson": 7,
+      "type": "separable",
+      "forms": {
+        "ich": "rufe … an",
+        "du": "rufst … an",
+        "er": "ruft … an",
+        "wir": "rufen … an",
+        "ihr": "ruft … an",
+        "sie": "rufen … an"
+      },
+      "note": "فعل بينفصل: an بتروح آخر الجملة (Ich rufe meine Tante an)، والشخص بعده على طول من غير «بـ».",
+      "examples": [
+        {
+          "de": "Ich rufe meine Tante an.",
+          "ar": "هتصل بخالتي."
+        },
+        {
+          "de": "Rufst du deinen Vater an?",
+          "ar": "هتتصل بأبوك؟"
+        }
+      ]
+    },
+    {
+      "inf": "kommen",
+      "ar": "ييجي",
+      "lesson": 7,
+      "type": "irregular",
+      "forms": {
+        "ich": "komme",
+        "du": "kommst",
+        "er": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie": "kommen"
+      },
+      "note": "الفعل اللي DW بتشرح بيه التصريف: منتظم في المضارع (الشذوذ في الماضي بس). والبلد بعده aus.",
+      "examples": [
+        {
+          "de": "Ich komme aus Ägypten.",
+          "ar": "أنا من مصر."
+        },
+        {
+          "de": "Woher kommst du?",
+          "ar": "إنت منين؟"
+        }
+      ]
+    },
+    {
+      "inf": "können",
+      "ar": "يقدر",
+      "lesson": 7,
+      "type": "modal",
+      "forms": {
+        "ich": "kann",
+        "du": "kannst",
+        "er": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie": "können"
+      },
+      "note": "فعل مساعد: ich و er من غير نهاية (kann)، والفعل التاني بييجي مصدر في آخر الجملة.",
+      "examples": [
+        {
+          "de": "Kannst du mir helfen?",
+          "ar": "ممكن تساعدني؟"
+        },
+        {
+          "de": "Kann dein Vater nicht helfen?",
+          "ar": "هو أبوك مايقدرش يساعد؟"
+        }
+      ]
+    },
+    {
+      "inf": "machen",
+      "ar": "يعمل",
+      "lesson": 7,
+      "type": "regular",
+      "forms": {
+        "ich": "mache",
+        "du": "machst",
+        "er": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie": "machen"
+      },
+      "note": "Mach’s gut! (درس 3) = خلّي بالك من نفسك، وده أمر من نفس الفعل.",
+      "examples": [
+        {
+          "de": "Was machst du hier?",
+          "ar": "بتعمل إيه هنا؟"
+        },
+        {
+          "de": "Ich mache Sport.",
+          "ar": "أنا بلعب رياضة."
+        }
+      ]
+    },
+    {
+      "inf": "sprechen",
+      "ar": "يتكلّم",
+      "lesson": 7,
+      "type": "irregular",
+      "forms": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie": "sprechen"
+      },
+      "note": "e بتبقى i مع du و er: du sprichst, er spricht. ومع حد: mit … sprechen (درس 10).",
+      "examples": [
+        {
+          "de": "Sie sprechen gut Deutsch.",
+          "ar": "حضرتك بتتكلم ألماني كويس. (رسمي)"
+        },
+        {
+          "de": "Nico spricht nicht so gut Deutsch.",
+          "ar": "نيكو مش بيتكلم ألماني كويس أوي."
+        }
+      ]
+    },
+    {
+      "inf": "wohnen",
+      "ar": "يسكن",
+      "lesson": 7,
+      "type": "regular",
+      "forms": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie": "wohnen"
+      },
+      "note": "ساكن فين = wohnen in، لكن إنت منين = kommen aus.",
+      "examples": [
+        {
+          "de": "Ich wohne in Kairo.",
+          "ar": "أنا ساكن في القاهرة."
+        },
+        {
+          "de": "Wo wohnst du?",
+          "ar": "إنت ساكن فين؟"
+        }
+      ]
+    },
+    {
+      "inf": "haben",
+      "ar": "عنده / معاه",
+      "lesson": 8,
+      "type": "irregular",
+      "forms": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie": "haben"
+      },
+      "note": "شاذ مع du و er بس، الـ b بتقع: du hast, er hat.",
+      "examples": [
+        {
+          "de": "Nico hat ein Problem.",
+          "ar": "نيكو عنده مشكلة."
+        },
+        {
+          "de": "Hast du einen Pass?",
+          "ar": "معاك باسبور؟"
+        }
+      ]
+    },
+    {
+      "inf": "feiern",
+      "ar": "يحتفل",
+      "lesson": 9,
+      "type": "regular",
+      "forms": {
+        "ich": "feiere",
+        "du": "feierst",
+        "er": "feiert",
+        "wir": "feiern",
+        "ihr": "feiert",
+        "sie": "feiern"
+      },
+      "note": "آخره -ern، فمع wir و sie بنزوّد -n بس: wir feiern.",
+      "examples": [
+        {
+          "de": "Lotte feiert heute Geburtstag.",
+          "ar": "لوته بتحتفل بعيد ميلادها النهارده."
+        },
+        {
+          "de": "Wo feiert ihr?",
+          "ar": "هتحتفلوا فين؟"
+        }
+      ]
+    },
+    {
+      "inf": "werden",
+      "ar": "يبقى / يكمّل (سن)",
+      "lesson": 9,
+      "type": "irregular",
+      "forms": {
+        "ich": "werde",
+        "du": "wirst",
+        "er": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie": "werden"
+      },
+      "note": "شاذ مع du و er: du wirst, er wird. ومع السن معناه «هيكمّل»: Ich werde acht.",
+      "examples": [
+        {
+          "de": "Lotte wird acht Jahre alt.",
+          "ar": "لوته هتكمّل تمن سنين."
+        },
+        {
+          "de": "Wie alt wirst du?",
+          "ar": "هتكمّل كام سنة؟"
+        }
+      ]
+    },
+    {
+      "inf": "antworten",
+      "ar": "يرد / يجاوب",
+      "lesson": 10,
+      "type": "regular",
+      "forms": {
+        "ich": "antworte",
+        "du": "antwortest",
+        "er": "antwortet",
+        "wir": "antworten",
+        "ihr": "antwortet",
+        "sie": "antworten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e-: du antwortest, er antwortet (زي arbeiten).",
+      "examples": [
+        {
+          "de": "Nico antwortet nicht.",
+          "ar": "نيكو مش بيرد."
+        },
+        {
+          "de": "Du antwortest richtig.",
+          "ar": "إنت بترد صح."
+        }
+      ]
+    },
+    {
+      "inf": "fragen",
+      "ar": "يسأل",
+      "lesson": 10,
+      "type": "regular",
+      "forms": {
+        "ich": "frage",
+        "du": "fragst",
+        "er": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie": "fragen"
+      },
+      "examples": [
+        {
+          "de": "Ich frage meine Mutter.",
+          "ar": "هسأل أمي."
+        },
+        {
+          "de": "Nico fragt die Polizei.",
+          "ar": "نيكو بيسأل الشرطة."
+        }
+      ]
+    },
+    {
+      "inf": "hören",
+      "ar": "يسمع",
+      "lesson": 10,
+      "type": "regular",
+      "forms": {
+        "ich": "höre",
+        "du": "hörst",
+        "er": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie": "hören"
+      },
+      "examples": [
+        {
+          "de": "Ich höre Musik.",
+          "ar": "أنا بسمع موسيقى."
+        },
+        {
+          "de": "Hörst du gern Radio?",
+          "ar": "بتحب تسمع راديو؟"
+        }
+      ]
+    },
+    {
+      "inf": "verlieren",
+      "ar": "يضيّع (حاجة)",
+      "lesson": 10,
+      "type": "irregular",
+      "forms": {
+        "ich": "verliere",
+        "du": "verlierst",
+        "er": "verliert",
+        "wir": "verlieren",
+        "ihr": "verliert",
+        "sie": "verlieren"
+      },
+      "note": "المضارع منتظم. في الفيديو هتسمع الماضي: Ich habe meine Tasche verloren = شنطتي ضاعت مني.",
+      "examples": [
+        {
+          "de": "Nico verliert die Tasche.",
+          "ar": "نيكو بيضيّع الشنطة."
+        }
+      ]
+    },
+    {
+      "inf": "fehlen",
+      "ar": "ناقص / مش موجود",
+      "lesson": 11,
+      "type": "regular",
+      "forms": {
+        "ich": "fehle",
+        "du": "fehlst",
+        "er": "fehlt",
+        "wir": "fehlen",
+        "ihr": "fehlt",
+        "sie": "fehlen"
+      },
+      "note": "الحاجة الناقصة هي الفاعل: Mein Pass fehlt = الباسبور بتاعي مش موجود.",
+      "examples": [
+        {
+          "de": "Die Hausnummer fehlt.",
+          "ar": "رقم البيت ناقص."
+        },
+        {
+          "de": "Was fehlt hier?",
+          "ar": "إيه اللي ناقص هنا؟"
+        }
+      ]
+    },
+    {
+      "inf": "telefonieren",
+      "ar": "يتكلّم في التليفون",
+      "lesson": 11,
+      "type": "regular",
+      "forms": {
+        "ich": "telefoniere",
+        "du": "telefonierst",
+        "er": "telefoniert",
+        "wir": "telefonieren",
+        "ihr": "telefoniert",
+        "sie": "telefonieren"
+      },
+      "note": "مع حد بنستعمل mit + الشخص. وزي كل أفعال -ieren منتظم.",
+      "examples": [
+        {
+          "de": "Ich telefoniere mit Lisa.",
+          "ar": "أنا بكلّم ليزا في التليفون."
+        },
+        {
+          "de": "Wir telefonieren morgen.",
+          "ar": "هنتكلّم في التليفون بكرة."
+        }
+      ]
+    },
+    {
+      "inf": "kosten",
+      "ar": "سعره / يتكلّف",
+      "lesson": 12,
+      "type": "regular",
+      "forms": {
+        "ich": "koste",
+        "du": "kostest",
+        "er": "kostet",
+        "wir": "kosten",
+        "ihr": "kostet",
+        "sie": "kosten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du kostest، es kostet (زي arbeiten).",
+      "examples": [
+        {
+          "de": "Was kostet das?",
+          "ar": "ده بكام؟"
+        },
+        {
+          "de": "Was kostet der Kaffee?",
+          "ar": "القهوة بكام؟"
+        }
+      ]
+    },
+    {
+      "inf": "wissen",
+      "ar": "يعرف (معلومة)",
+      "lesson": 12,
+      "type": "irregular",
+      "forms": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie": "wissen"
+      },
+      "note": "شاذ: ich و er نفس الشكل (weiß). wissen لمعلومة، و kennen لشخص أو مكان (درس 14).",
+      "examples": [
+        {
+          "de": "Ich weiß es nicht.",
+          "ar": "مش عارف."
+        },
+        {
+          "de": "Weißt du die Adresse?",
+          "ar": "إنت عارف العنوان؟"
+        }
+      ]
+    },
+    {
+      "inf": "duzen",
+      "ar": "يكلّم حد بـ du",
+      "lesson": 13,
+      "type": "regular",
+      "forms": {
+        "ich": "duze",
+        "du": "duzt",
+        "er": "duzt",
+        "wir": "duzen",
+        "ihr": "duzt",
+        "sie": "duzen"
+      },
+      "note": "الجذر آخره z، فمع du بنزوّد -t بس: du duzt (زي heißt). وعكسه siezen = تقول Sie.",
+      "examples": [
+        {
+          "de": "Wir duzen uns.",
+          "ar": "إحنا بنقول لبعض du (من غير رسميات)."
+        },
+        {
+          "de": "Duzt du Lisa?",
+          "ar": "إنت بتقول لليزا du؟"
+        }
+      ]
+    },
+    {
+      "inf": "funktionieren",
+      "ar": "يشتغل (جهاز)",
+      "lesson": 13,
+      "type": "regular",
+      "forms": {
+        "ich": "funktioniere",
+        "du": "funktionierst",
+        "er": "funktioniert",
+        "wir": "funktionieren",
+        "ihr": "funktioniert",
+        "sie": "funktionieren"
+      },
+      "examples": [
+        {
+          "de": "Die Lampe funktioniert wieder.",
+          "ar": "اللمبة اشتغلت تاني."
+        },
+        {
+          "de": "Das Radio funktioniert nicht.",
+          "ar": "الراديو مش شغّال."
+        }
+      ]
+    },
+    {
+      "inf": "trinken",
+      "ar": "يشرب",
+      "lesson": 13,
+      "type": "irregular",
+      "forms": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie": "trinken"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). و gern بعد الفعل معناها «بحب».",
+      "examples": [
+        {
+          "de": "Was trinkst du?",
+          "ar": "تشرب إيه؟"
+        },
+        {
+          "de": "Ich trinke gern Kaffee.",
+          "ar": "بحب أشرب قهوة."
+        }
+      ]
+    },
+    {
+      "inf": "wollen",
+      "ar": "عايز",
+      "lesson": 13,
+      "type": "modal",
+      "forms": {
+        "ich": "will",
+        "du": "willst",
+        "er": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie": "wollen"
+      },
+      "note": "فعل مساعد: ich و er = will من غير نهاية. والأكتر أدبًا منه möchten (درس 14).",
+      "examples": [
+        {
+          "de": "Wollen wir uns nicht duzen?",
+          "ar": "ما تيجي نشيل الرسميات ونقول لبعض du؟"
+        },
+        {
+          "de": "Ich will Deutsch lernen.",
+          "ar": "أنا عايز أتعلّم ألماني."
+        }
+      ]
+    },
+    {
+      "inf": "kennen",
+      "ar": "يعرف (شخص / مكان)",
+      "lesson": 14,
+      "type": "mixed",
+      "forms": {
+        "ich": "kenne",
+        "du": "kennst",
+        "er": "kennt",
+        "wir": "kennen",
+        "ihr": "kennt",
+        "sie": "kennen"
+      },
+      "note": "kennen لشخص أو مكان، و wissen لمعلومة (Ich weiß es nicht).",
+      "examples": [
+        {
+          "de": "Kennt ihr Yaras Fahrradladen?",
+          "ar": "تعرفوا محل العجل بتاع يارا؟"
+        },
+        {
+          "de": "Kennst du Emma?",
+          "ar": "تعرف إيما؟"
+        }
+      ]
+    },
+    {
+      "inf": "möchten",
+      "ar": "عايز (بأدب)",
+      "lesson": 14,
+      "type": "modal",
+      "forms": {
+        "ich": "möchte",
+        "du": "möchtest",
+        "er": "möchte",
+        "wir": "möchten",
+        "ihr": "möchtet",
+        "sie": "möchten"
+      },
+      "note": "ich و er نفس الشكل (möchte) من غير t. ده الطلب المؤدب في المطعم والكافيه.",
+      "examples": [
+        {
+          "de": "Was möchtest du trinken?",
+          "ar": "تحب تشرب إيه؟"
+        },
+        {
+          "de": "Ich möchte einen Kaffee.",
+          "ar": "أنا عايز قهوة."
+        }
+      ]
+    },
+    {
+      "inf": "nehmen",
+      "ar": "ياخد",
+      "lesson": 14,
+      "type": "irregular",
+      "forms": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie": "nehmen"
+      },
+      "note": "مع du و er الـ e بتبقى i والـ h بتروح والـ m بتتشدّد: du nimmst, er nimmt.",
+      "examples": [
+        {
+          "de": "Ich nehme einen Tee.",
+          "ar": "هاخد شاي."
+        },
+        {
+          "de": "Was nimmst du?",
+          "ar": "هتاخد إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "posten",
+      "ar": "ينشر (بوست)",
+      "lesson": 14,
+      "type": "regular",
+      "forms": {
+        "ich": "poste",
+        "du": "postest",
+        "er": "postet",
+        "wir": "posten",
+        "ihr": "postet",
+        "sie": "posten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e-: du postest, er postet.",
+      "examples": [
+        {
+          "de": "Wir posten das Foto von Yara.",
+          "ar": "هننشر صورة يارا."
+        },
+        {
+          "de": "Postest du das Foto?",
+          "ar": "هتنزّل الصورة؟"
+        }
+      ]
+    },
+    {
+      "inf": "bestellen",
+      "ar": "يطلب (أكل / حاجة)",
+      "lesson": 15,
+      "type": "regular",
+      "forms": {
+        "ich": "bestelle",
+        "du": "bestellst",
+        "er": "bestellt",
+        "wir": "bestellen",
+        "ihr": "bestellt",
+        "sie": "bestellen"
+      },
+      "examples": [
+        {
+          "de": "Ich bestelle eine Pizza.",
+          "ar": "هطلب بيتزا."
+        },
+        {
+          "de": "Was bestellst du?",
+          "ar": "هتطلب إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "essen",
+      "ar": "ياكل",
+      "lesson": 15,
+      "type": "irregular",
+      "forms": {
+        "ich": "esse",
+        "du": "isst",
+        "er": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie": "essen"
+      },
+      "note": "e بتبقى i مع du و er، والاتنين نفس الشكل: du isst, er isst.",
+      "examples": [
+        {
+          "de": "Was isst du gern?",
+          "ar": "بتحب تاكل إيه؟"
+        },
+        {
+          "de": "Ich esse gern Pizza mit Käse.",
+          "ar": "بحب آكل بيتزا بالجبنة."
+        }
+      ]
+    },
+    {
+      "inf": "geben",
+      "ar": "يدّي / (es gibt) فيه",
+      "lesson": 15,
+      "type": "irregular",
+      "forms": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie": "geben"
+      },
+      "note": "e بتبقى i مع du و er: du gibst, er gibt. و «es gibt» معناها «فيه».",
+      "examples": [
+        {
+          "de": "Was gibt es denn?",
+          "ar": "فيه إيه عندكم؟"
+        },
+        {
+          "de": "Es gibt Pizza und Salat.",
+          "ar": "فيه بيتزا وسلطة."
+        }
+      ]
+    },
+    {
+      "inf": "lieben",
+      "ar": "يحب",
+      "lesson": 15,
+      "type": "regular",
+      "forms": {
+        "ich": "liebe",
+        "du": "liebst",
+        "er": "liebt",
+        "wir": "lieben",
+        "ihr": "liebt",
+        "sie": "lieben"
+      },
+      "note": "lieben قوية (بموت في …)؛ للحاجات العادية بنقول gern: Ich esse gern Pizza.",
+      "examples": [
+        {
+          "de": "Nina liebt Ananas.",
+          "ar": "نينا بتحب الأناناس."
+        },
+        {
+          "de": "Ich liebe Pizza.",
+          "ar": "أنا بموت في البيتزا."
+        }
+      ]
+    }
+  ]
+}
