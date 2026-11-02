@@ -182,9 +182,9 @@ export function runGame(root, mod, params = {}) {
         ${meta.how && meta.how.length ? `<ul class="gm-how">${meta.how.map(h => `<li>${mixHtml(h)}</li>`).join('')}</ul>` : ''}
         ${meta.links && meta.links.length ? `<div class="gm-links">${meta.links.map(l => `<a class="btn btn-ghost" href="${esc(l.href)}">${esc(l.label)}</a>`).join('')}</div>` : ''}
         <div class="row wrap chips-row gm-badges">
-          ${meta.hearts ? `<span class="chip bad">${'❤️'.repeat(Math.min(meta.hearts, 5))} ${meta.hearts} قلوب</span>` : ''}
-          ${meta.clock ? `<span class="chip warn">⏱ ${meta.clock} ثانية</span>` : ''}
-          ${best ? `<span class="chip blue">🏆 أعلى سكور ${best}</span>` : ''}
+          ${meta.hearts ? `<span class="chip bad">❤️ ${meta.hearts} قلوب</span>` : ''}
+          ${meta.clock ? `<span class="chip warn">${meta.clock} ثانية</span>` : ''}
+          ${best ? `<span class="chip blue">أعلى سكور ${best}</span>` : ''}
         </div>
       </div>
       ${meta.source === 'none' ? '' : `<div class="card gm-pool">
@@ -198,7 +198,7 @@ export function runGame(root, mod, params = {}) {
         <p class="hint gm-pool-hint"></p>
       </div>`}
       <button type="button" class="btn btn-primary btn-big gm-go">▶ يلا نلعب</button>
-      <a class="btn btn-ghost" href="#/games">🎮 كل الألعاب</a>
+      <a class="btn btn-ghost" href="#/games">كل الألعاب</a>
     </section>`);
     root.innerHTML = '';
     root.appendChild(card);
@@ -415,7 +415,7 @@ function makeContext(root, mod, meta, sel, params, { replay, intro }) {
       drawHearts(true); drawScore(0);
       sfx.bad(); vibrate(40);
       const dead = st.maxHearts && st.hearts <= 0;
-      const head = dead ? 'خلصت القلوب 💔' : (msg || 'غلط');
+      const head = dead ? 'خلصت القلوب' : (msg || 'غلط');
       const html = `<b>${mixHtml(head)}</b>${dead && msg ? `<div>${mixHtml(msg)}</div>` : ''}${correctHtml ? `<div class="gm-fb-ans">الصح: ${correctHtml}</div>` : ''}`;
       return feedback(false, html, { wait: wait || dead, ms, wordId, raw: true }).then(() => {
         if (dead) { g.end({ win: false }); return false; }
@@ -484,7 +484,7 @@ function makeContext(root, mod, meta, sel, params, { replay, intro }) {
   return g;
 }
 
-const PRAISE = ['صح! 👏', 'برافو! 🎉', 'ممتاز 💪', 'عاش! 🔥', 'جامد! ⭐', 'تمام كده ✅'];
+const PRAISE = ['صح!', 'برافو!', 'ممتاز', 'عاش!', 'جامد!', 'تمام كده'];
 const randomPraise = () => PRAISE[Math.floor(Math.random() * PRAISE.length)];
 
 // ====================================================================
@@ -501,7 +501,7 @@ function showResults(root, meta, st, { win, error, timeUp, quit, replay, intro }
   const lost = st.maxHearts ? st.maxHearts - st.hearts : st.wrong;            // غلطات كلّفت قلوب
   const stars = !win ? 0 : lost === 0 ? 3 : lost === 1 ? 2 : 1;
   const acc = answered ? Math.round((100 * st.right) / answered) : 0;
-  const title = error ? 'حصلت مشكلة في اللعبة 😕' : quit ? 'خرجت من اللعبة' : win ? (timeUp ? '⏱ الوقت خلص!' : '🎉 برافو عليك!') : st.maxHearts && st.hearts <= 0 ? '💔 خلصت القلوب' : 'خلصت اللعبة';
+  const title = error ? 'حصلت مشكلة في اللعبة' : quit ? 'خرجت من اللعبة' : win ? (timeUp ? 'الوقت خلص!' : 'برافو عليك!') : st.maxHearts && st.hearts <= 0 ? 'خلصت القلوب' : 'خلصت اللعبة';
   const mistakes = st.mistakes.slice(-8);
   root.innerHTML = '';
   const card = el(`<section class="gm-results">
@@ -510,24 +510,24 @@ function showResults(root, meta, st, { win, error, timeUp, quit, replay, intro }
       <h1>${esc(title)}</h1>
       ${win && stars ? `<div class="gm-stars" aria-label="${stars} نجوم">${'⭐'.repeat(stars)}${'☆'.repeat(Math.max(0, 3 - stars))}</div>` : ''}
       <div class="gm-res-score"><b>${st.score}</b><span>نقطة</span></div>
-      ${rec.record && st.score > 0 ? '<p class="gm-record">🏆 رقم قياسي جديد!</p>' : `<p class="hint">أعلى سكور: ${rec.best | 0}</p>`}
+      ${rec.record && st.score > 0 ? '<p class="gm-record">رقم قياسي جديد!</p>' : `<p class="hint">أعلى سكور: ${rec.best | 0}</p>`}
       <div class="row wrap chips-row gm-res-chips">
         <span class="chip good">✓ ${st.right} صح</span>
         <span class="chip bad">✗ ${st.wrong} غلط</span>
-        ${answered ? `<span class="chip">🎯 ${acc}%</span>` : ''}
+        ${answered ? `<span class="chip">دقة ${acc}%</span>` : ''}
         ${st.bestCombo >= 3 ? `<span class="chip warn">🔥 ${st.bestCombo} ورا بعض</span>` : ''}
-        ${xp ? `<span class="chip blue">⭐ +${xp} XP</span>` : ''}
+        ${xp ? `<span class="chip blue">+${xp} XP</span>` : ''}
       </div>
     </div>
     ${mistakes.length ? `<div class="card gm-mistakes"><h2 class="sec-title">راجع اللي غلطت فيه</h2>
       <div class="list">${mistakes.map((m, i) => `<div class="list-item gm-mis" data-i="${i}">${m.wordId && DATA.byId.get(m.wordId)?.file ? `<button type="button" class="btn btn-icon say" data-w="${esc(m.wordId)}" aria-label="اسمع">🔊</button>` : ''}<div class="grow">${m.html || ''}${m.label ? `<div class="muted small">${esc(m.label)}</div>` : ''}</div></div>`).join('')}</div></div>` : ''}
     <div class="gm-res-actions">
-      <button type="button" class="btn btn-primary btn-big" data-act="again">🔁 كمان مرة</button>
+      <button type="button" class="btn btn-primary btn-big" data-act="again">كمان مرة</button>
       <div class="grid2">
-        <button type="button" class="btn" data-act="intro">⚙️ غيّر الكلمات</button>
-        <a class="btn" href="#/games">🎮 ألعاب تانية</a>
+        <button type="button" class="btn" data-act="intro">غيّر الكلمات</button>
+        <a class="btn" href="#/games">ألعاب تانية</a>
       </div>
-      <a class="btn btn-ghost" href="#/home">🏠 الرئيسية</a>
+      <a class="btn btn-ghost" href="#/home">الرئيسية</a>
     </div>
   </section>`);
   root.appendChild(card);

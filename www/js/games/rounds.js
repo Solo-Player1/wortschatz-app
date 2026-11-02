@@ -188,7 +188,7 @@ export function askTiles(g, { sentence, promptHtml, points = 15, extra = [], spe
         const spoken = speakAfter ? g.say(sentence.de) : null;
         let go;
         if (ok) {
-          go = await g.correct({ points: pts(points), itemId: sentence.id, msg: 'جملة مظبوطة! 👏' });
+          go = await g.correct({ points: pts(points), itemId: sentence.id, msg: 'جملة مظبوطة!' });
           // نستنى الجملة تخلص (بحد أقصى ٣٫٥ ثانية) — السؤال الجاي بيشغّل صوته فبيقطعها.
           // لو دوس 🔊 وهو مستني، القراية الأولى بتتلغي وبتبدأ واحدة جديدة → نستنى الأخيرة (g.lastSpeech)
           if (go && spoken) {

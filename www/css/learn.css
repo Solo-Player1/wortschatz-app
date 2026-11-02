@@ -114,3 +114,5 @@
 /* كروت روابط (إحصائياتي في الإعدادات، امتحان الدرس في الألعاب …) */
 a.card.list-item { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
 a.card.list-item b { font-family: var(--font-head); }
+
+.credit { margin: 18px 0 6px; }

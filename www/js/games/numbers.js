@@ -14,7 +14,7 @@ export const meta = {
   short: 'اسمع الرقم واكتبه — وخد بالك من 23 و 32',
   desc: 'أرقام على قد الدرس اللي وصلته: تسمع وتكتب، تختار الكلمة الصح، وتكتب الرقم بالحروف — كل غلطة بقلب!',
   how: [
-    '🔊 اسمع الرقم واكتبه بالأرقام — مش سامع؟ 👁 بيوريك الكلمة بنص النقط',
+    'اسمع الرقم واكتبه بالأرقام — مش سامع؟ «اعرض الكلمة» بيوريك الكلمة بنص النقط',
     'اختار الكلمة الألمانية الصح — خد بالك من الأرقام المقلوبة زي 23 و 32',
     'الأرقام بتكبر مع الدروس: لحد 20، ومن الدرس 9 لحد 100، ومن الدرس 12 لحد 1000 وأكتر',
   ],
@@ -121,14 +121,14 @@ function distractorNums(n, tier) {
 // كتابة الرقم بالحروف: الصح بالظبط، أو «تقريبًا» لو الغلط أوملاوت/ß أو مسافات (الرقم بيتكتب كلمة واحدة)
 function checkWord(g, n, typed) {
   const forms = numberForms(n);
-  const LETTERS = 'صح تقريبًا — خد بالك من الحروف (ä ö ü ß) في الكتابة الصح ☝️';
+  const LETTERS = 'صح تقريبًا — خد بالك من الحروف (ä ö ü ß) في الكتابة الصح';
   const r = g.checkTyped(forms, typed);
   if (r.ok) return { ok: true, almost: r.almost, note: LETTERS };
   const t = normDe(typed).replace(/\s+/g, '');
   const tv = [t, fold(t)];
   for (const f of forms) {
     const s = normDe(f);
-    if (s === t) return { ok: true, almost: true, note: 'صح — بس الرقم بيتكتب كلمة واحدة من غير مسافات ☝️' };
+    if (s === t) return { ok: true, almost: true, note: 'صح — بس الرقم بيتكتب كلمة واحدة من غير مسافات' };
     const fv = [s, fold(s), s.replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')];
     if (tv.some(x => fv.includes(x))) return { ok: true, almost: true, note: LETTERS };
   }
@@ -192,7 +192,7 @@ export function start(g) {
       const speak = () => voice.say(word, () => {
         if (answered || !listen) return;
         reveal(true);                                     // مش ذنبه إن الصوت مش شغال → نقط كاملة
-        if (note) { note.textContent = '🔇 الصوت الألماني مش شغال هنا — اقرا الكلمة واكتب الرقم'; note.hidden = false; }
+        if (note) { note.textContent = 'الصوت الألماني مش شغال هنا — اقرا الكلمة واكتب الرقم'; note.hidden = false; }
       });
       const spk = q.querySelector('.gm-speaker');
       if (spk) spk.addEventListener('click', speak);
@@ -219,7 +219,7 @@ export function start(g) {
           if (ok) {
             if (almost) q.appendChild(g.el(`<p class="gm-numbers-ok">${esc(okNote)}</p>`));   // الكلمة الصح ظاهرة فوقها
             // «تقريبًا» بيفضل ظاهر أطول عشان يلحق يقرا الكتابة الصح
-            go = await g.correct({ points: helped ? Math.round(points / 2) : points, msg: almost ? 'صح تقريبًا 👌' : undefined, ms: almost ? 1900 : undefined });
+            go = await g.correct({ points: helped ? Math.round(points / 2) : points, msg: almost ? 'صح تقريبًا' : undefined, ms: almost ? 1900 : undefined });
           } else {
             go = await g.wrong({ correctHtml: answerHtml(n), label: `كتبت: ${v}` });
           }
@@ -239,7 +239,7 @@ export function start(g) {
       const long = opts.some(o => deNumber(o.m).length > 13);
       g.stage.innerHTML = '';
       g.stage.appendChild(g.el(`<div class="gm-q gm-numbers-q">
-        <span class="gm-numbers-tag">🔤 اختار الكلمة</span>
+        <span class="gm-numbers-tag">اختار الكلمة</span>
         <p class="hint">الرقم ده بيتقال إزاي بالألماني؟</p>
         ${digitsDiv(n)}
       </div>`));
@@ -256,22 +256,22 @@ export function start(g) {
   const ROUND = {
     listen: n => askTyped({
       n, digits: true, points: 10, listen: true,
-      head: `<span class="gm-numbers-tag">🎧 اسمع واكتب</span>
+      head: `<span class="gm-numbers-tag">اسمع واكتب</span>
         <button type="button" class="gm-speaker" aria-label="اسمع تاني">🔊</button>
         <p class="hint">اكتب الرقم اللي سمعته بالأرقام</p>
         ${wordP(deNumber(n), 'soft', true)}
         <p class="gm-numbers-note" hidden></p>
-        <button type="button" class="btn btn-ghost gm-hint-btn">👁 مش سامع؟ اعرض الكلمة</button>`,
+        <button type="button" class="btn btn-ghost gm-hint-btn">مش سامع؟ اعرض الكلمة</button>`,
     }),
     read: n => askTyped({
       n, digits: true, points: 10,
-      head: `<span class="gm-numbers-tag">👀 اقرا واكتب الرقم</span>
+      head: `<span class="gm-numbers-tag">اقرا واكتب الرقم</span>
         <p class="hint">الكلمة دي رقم كام؟ اكتبه بالأرقام</p>
         ${wordP(deNumber(n), 'big')}`,
     }),
     write: n => askTyped({
       n, digits: false, points: 15,
-      head: `<span class="gm-numbers-tag">✍️ اكتب بالحروف</span>
+      head: `<span class="gm-numbers-tag">اكتب بالحروف</span>
         <p class="hint">اكتب الرقم ده بالألماني (بالحروف)</p>
         ${digitsDiv(n)}
         ${wordP(deNumber(n), 'soft', true)}`,

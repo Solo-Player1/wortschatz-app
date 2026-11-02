@@ -15,7 +15,7 @@ export const meta = {
   how: [
     'اختار معنى الكلمة اللي عليها 🎯 (أقرب واحدة للأرض)',
     'اختيار غلط = قلب، وكلمة توصل للأرض = قلب',
-    'كل ما تفرقع كلمات أكتر المطر بيسرع 🌧️',
+    'كل ما تفرقع كلمات أكتر المطر بيسرع',
   ],
   hearts: 3,
   kinds: ['noun', 'verb', 'word', 'phrase'],
@@ -216,7 +216,7 @@ export function start(g) {
     removeWord(it);
     it.chip.classList.add('splash');
     g.after(450, () => it.el.remove());
-    g.wrong({ wait: false, wordId: it.w.id, correctHtml: answerHtml(it.w), label: 'وقعت على الأرض', msg: 'وقعت على الأرض! 💧' });
+    g.wrong({ wait: false, wordId: it.w.id, correctHtml: answerHtml(it.w), label: 'وقعت على الأرض', msg: 'وقعت على الأرض!' });
     if (g.hearts <= 0) { finish(); return; }
     if (it === target) refreshSoon(260);
   }

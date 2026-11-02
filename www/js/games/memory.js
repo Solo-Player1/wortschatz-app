@@ -48,7 +48,7 @@ export const meta = {
   desc: 'لوحتين كروت مقلوبة (6 أزواج وبعدين 8): كل كلمة ألماني ليها كارت بمعناها بالعربي — افتكر أماكنهم!',
   how: [
     'اقلب كارتين: لو كلمة ومعناها بيفضلوا مفتوحين، لو لأ بيتقفلوا تاني',
-    'القلب بيروح بس لو نسيت: قلبت كارت كنت شفت الكارت بتاعه قبل كده وما جبتوش 🧠',
+    'القلب بيروح بس لو نسيت: قلبت كارت كنت شفت الكارت بتاعه قبل كده وما جبتوش',
     'الغلط العادي وانت لسه بتكتشف الكروت ببلاش',
   ],
   hearts: 5,
@@ -142,7 +142,7 @@ export function start(g) {
   const boardDone = () => {
     lock = true;
     if (bi + 1 < boards.length) {
-      g.toast('👏 اللوحة التانية!');
+      g.toast('اللوحة التانية!');
       g.after(1100, () => { bi++; renderBoard(); lock = false; });
       return;
     }
@@ -182,7 +182,7 @@ export function start(g) {
         wordId: x.w.id,
         correctHtml: pairHtml(x.w),
         label: 'غلطة ذاكرة — كنت شفت الكارت بتاعها قبل كده',
-        msg: fatal ? undefined : '🧠 نسيت مكانه!',
+        msg: fatal ? undefined : 'نسيت مكانه!',
         wait: false,
       });
       dead = g.hearts <= 0;

@@ -73,7 +73,7 @@ export function renderUpdateBanner(container) {
       </div>
     </div>
     <div class="up-actions">
-      <button type="button" class="btn btn-primary up-dl">⬇ نزّل التحديث</button>
+      <button type="button" class="btn btn-primary up-dl">نزّل التحديث</button>
       <button type="button" class="btn btn-ghost up-later">لاحقاً</button>
     </div>
   </section>`);
@@ -115,12 +115,12 @@ export function renderUpdateSettings(container) {
     <p class="up-last muted small">${lastCheckText(u.lastCheck)}</p>
     ${m ? `
     <div class="up-inline">
-      <span class="grow">🆕 الإصدار <bdi class="de">${esc(m.version || '')}</bdi> متاح</span>
-      <button type="button" class="btn btn-primary up-dl">⬇ نزّل</button>
+      <span class="grow">الإصدار <bdi class="de">${esc(m.version || '')}</bdi> متاح</span>
+      <button type="button" class="btn btn-primary up-dl">نزّل</button>
     </div>` : ''}
     <div class="grid2 up-settings-actions">
-      <button type="button" class="btn up-check">🔄 اتحقق من تحديثات</button>
-      <button type="button" class="btn up-releases">📦 صفحة التحديثات</button>
+      <button type="button" class="btn up-check">اتحقق من تحديثات</button>
+      <button type="button" class="btn up-releases">صفحة التحديثات</button>
     </div>
     <p class="hint up-help">التحديث ملف <bdi class="de">APK</bdi> بيتنزّل في المتصفح. افتحه وسطّبه فوق النسخة القديمة — كل كلماتك ونقاطك وإعداداتك بتفضل زي ما هي.</p>
   </section>`);
@@ -137,7 +137,7 @@ export function renderUpdateSettings(container) {
     if (navigator.onLine === false) { toast('مفيش نت — جرّب لما يبقى عندك اتصال'); return; }
     btn.disabled = true;
     const label = btn.textContent;
-    btn.textContent = '⏳ بفحص…';
+    btn.textContent = 'بفحص…';
     const before = u.lastCheck;
     const a = await checkForUpdate({ force: true });
     const ok = upd().lastCheck > before;   // الفحص وصل للسيرفر فعلاً
@@ -146,7 +146,7 @@ export function renderUpdateSettings(container) {
       store.save();
       toast('في إصدار جديد! شوف الرئيسية');
     } else if (ok) {
-      toast('أنت على آخر إصدار ✅');
+      toast('أنت على آخر إصدار');
     } else {
       toast('مقدرت أوصل لسيرفر التحديثات — جرّب تاني بعدين');
     }

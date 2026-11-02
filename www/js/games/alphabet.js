@@ -15,9 +15,9 @@ export const meta = {
   short: 'اسمع الحرف واختاره، واتهجّى الكلام',
   desc: 'الحروف الألماني بنطقها: تسمع اسم الحرف وتختاره، تعرف بيتنطق إزاي، وتكتب كلام متهجّي حرف حرف — كل غلطة بقلب!',
   how: [
-    '🔊 اسمع اسم الحرف واختار الحرف الصح (مش سامع؟ دوس 👁)',
+    'اسمع اسم الحرف واختار الحرف الصح (مش سامع؟ دوس «اعرض النطق»)',
     'شوف الحرف واختار نطقه بالعربي',
-    '«اتهجّى»: هتسمع حروف ورا بعض — اكتب الكلمة (💡 بيوريك الحروف بنص النقط)',
+    '«اتهجّى»: هتسمع حروف ورا بعض — اكتب الكلمة («اعرض الحروف» بيوريك الحروف بنص النقط)',
   ],
   hearts: 3,
   source: 'none',          // الحروف مش مربوطة بدرس → من غير اختيار «تلعب على إيه؟»
@@ -153,12 +153,12 @@ export function start(g) {
       let helped = false, answered = false;
       g.stage.innerHTML = '';
       const q = g.el(`<div class="gm-q gm-alphabet-q">
-        <span class="gm-alphabet-tag">${read ? '👀 اقرا النطق' : '🎧 اسمع الحرف'}</span>
+        <span class="gm-alphabet-tag">${read ? 'اقرا النطق' : 'اسمع الحرف'}</span>
         ${read ? '' : '<button type="button" class="gm-speaker" aria-label="اسمع تاني">🔊</button>'}
         <p class="hint">${read ? 'أنهي حرف بيتنطق كده؟' : 'سمعت أنهي حرف؟'}</p>
         <p class="gm-ar gm-alphabet-say"${read ? '' : ' hidden'}>«${esc(sayOf(L))}»</p>
         <p class="gm-alphabet-note" hidden></p>
-        ${read ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">👁 مش سامع؟ اعرض النطق</button>'}
+        ${read ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">مش سامع؟ اعرض النطق</button>'}
       </div>`);
       g.stage.appendChild(q);
       const sayEl = q.querySelector('.gm-alphabet-say'), helpBtn = q.querySelector('.gm-hint-btn'), note = q.querySelector('.gm-alphabet-note');
@@ -167,7 +167,7 @@ export function start(g) {
       const speak = () => voice.say(nameOf(L), () => {
         if (answered) return;
         reveal(true);
-        note.textContent = '🔇 الصوت الألماني مش شغال هنا — اقرا النطق واختار الحرف';
+        note.textContent = 'الصوت الألماني مش شغال هنا — اقرا النطق واختار الحرف';
         note.hidden = false;
       });
       const spk = q.querySelector('.gm-speaker');
@@ -193,7 +193,7 @@ export function start(g) {
       const opts = g.shuffle([L, ...confusables(L, 3, sayKey, X => !!X.say)]).map(X => ({ X, correct: X === L, html: esc(X.say) }));
       g.stage.innerHTML = '';
       g.stage.appendChild(g.el(`<div class="gm-q gm-alphabet-q">
-        <span class="gm-alphabet-tag">👀 الحرف ده</span>
+        <span class="gm-alphabet-tag">الحرف ده</span>
         <div class="gm-alphabet-big">${letterHtml(L)}</div>
         <p class="hint">بيتنطق إزاي؟</p>
       </div>`));
@@ -219,14 +219,14 @@ export function start(g) {
       let read = voice.broken, helped = false, answered = false;
       g.stage.innerHTML = '';
       const q = g.el(`<div class="gm-q gm-alphabet-q">
-        <span class="gm-alphabet-tag">🔡 اتهجّى</span>
+        <span class="gm-alphabet-tag">اتهجّى</span>
         ${read ? '' : '<button type="button" class="gm-speaker" aria-label="اسمع الحروف تاني">🔊</button>'}
         <p class="hint">${read ? 'اقرا الحروف (من اليمين) واكتب الكلمة' : 'اسمع الحروف واكتب الكلمة'}</p>
         <div class="gm-alphabet-slots" aria-hidden="true">${chars.map(c => `<i${c.trim() ? '' : ' class="gap"'}></i>`).join('')}</div>
         <p class="gm-ar gm-alphabet-sayline"${read ? '' : ' hidden'}>${esc(sayLine)}</p>
         <p class="gm-alphabet-spelled" hidden><bdi class="de">${esc(spelled)}</bdi></p>
         <p class="gm-alphabet-note" hidden></p>
-        ${read ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">💡 اعرض الحروف</button>'}
+        ${read ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">اعرض الحروف</button>'}
       </div>`);
       g.stage.appendChild(q);
       const slotsEl = q.querySelector('.gm-alphabet-slots'), slots = [...slotsEl.children];
@@ -241,7 +241,7 @@ export function start(g) {
         light(-1);
         sayLineEl.hidden = false;
         if (helpBtn) helpBtn.hidden = true;
-        note.textContent = '🔇 الصوت الألماني مش شغال هنا — اقرا الحروف واكتب الكلمة';
+        note.textContent = 'الصوت الألماني مش شغال هنا — اقرا الحروف واكتب الكلمة';
         note.hidden = false;
       };
       const spellOut = async () => {

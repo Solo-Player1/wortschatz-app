@@ -13,7 +13,7 @@ export const meta = {
   short: 'صرّف الفعل مع كل ضمير صح',
   desc: 'هتشوف الضمير والفعل في المصدر — قول الفعل متصرّف صح. كل غلطة بقلب!',
   how: [
-    'أول ٤ أسئلة اختيار، وبعد كده هتكتب الفعل بنفسك ✍️',
+    'أول ٤ أسئلة اختيار، وبعد كده هتكتب الفعل بنفسك',
     'الأفعال اللي بتنفصل دايمًا اختيار — الجزء التاني بيروح آخر الجملة',
     'لو غلطت هتشوف تصريف الفعل كله تراجعه',
   ],
@@ -112,7 +112,7 @@ export function start(g) {
     const form = v.forms[key];
     g.stage.innerHTML = '';
     const q = g.el(`<div class="gm-q"><div class="gm-prompt"><div class="gm-verbs-p" data-inf="${g.esc(v.inf)}" data-key="${key}" data-mode="${typing ? 'type' : 'choice'}">
-        <span class="chip ${typing ? 'warn' : 'blue'} gm-verbs-tag">${typing ? '✍️ اكتب الفعل متصرّف' : '🔁 اختار الصيغة الصح'}</span>
+        <span class="chip ${typing ? 'warn' : 'blue'} gm-verbs-tag">${typing ? 'اكتب الفعل متصرّف' : 'اختار الصيغة الصح'}</span>
         <p class="gm-verbs-q"><bdi class="de"><span class="gm-verbs-pron">${g.esc(pron.de)}</span> <span class="gm-verbs-blank"> </span> <span class="gm-verbs-inf">(${g.esc(v.inf)})</span></bdi></p>
         <p class="gm-verbs-ar"><b>${g.esc(pron.ar)}</b> · ${g.esc(v.ar || '')}</p>
       </div></div></div>`);
@@ -137,7 +137,7 @@ export function start(g) {
           if (r.ok && r.almost) msg = `صح تقريبًا — الكتابة الصح: ${form}`;
           if (!r.ok) {   // كتب الضمير كمان (du wohnst) → صح، بس ننبّهه
             r = g.checkTyped(`${pron.de} ${form}`, val);
-            if (r.ok) msg = 'صح 👍 — المرة الجاية اكتب الفعل بس';
+            if (r.ok) msg = 'صح — المرة الجاية اكتب الفعل بس';
           }
           finish(r.ok, { msg, label: `${v.ar || v.inf} · كتبت: ${val}` });
         },

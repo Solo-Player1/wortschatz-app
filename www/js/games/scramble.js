@@ -46,7 +46,7 @@ export const meta = {
   how: [
     'دوس على الحروف بالترتيب، ولو حطيت حرف غلط دوس عليه يرجع',
     'أول ما الحروف تكمل بتتصحح لوحدها — الغلط بقلب',
-    '💡 بيحطلك الحرف الجاي بس النقط بتبقى النص',
+    '«مساعدة» بيحطلك الحرف الجاي، بس النقط بتبقى النص',
   ],
   hearts: 3,
   kinds: KINDS,
@@ -103,7 +103,7 @@ export function start(g) {
       ? '<span class="gm-scramble-tile ghost" aria-hidden="true"></span>'
       : `<button type="button" class="gm-scramble-tile" data-k="${k}"${r.done ? ' disabled' : ''}>${g.esc(upper(r.letters[k]))}</button>`)).join('');
     const hb = g.stage.querySelector('.gm-scramble-hint');
-    hb.textContent = `💡 حرف (${r.maxHints - r.hints})`;
+    hb.textContent = `مساعدة (${r.maxHints - r.hints})`;
     hb.disabled = r.done || r.hints >= r.maxHints;
     g.stage.querySelector('.gm-scramble-clear').disabled = r.done || !r.slots.some((k, p) => k !== null && !r.locked.has(p));
   };

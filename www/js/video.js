@@ -274,12 +274,12 @@ export function videoTeaserHtml(n, { compact = false } = {}) {
   if (compact) {
     return `<a class="card vd-teaser compact" href="#/video/${+n}" aria-label="حلقة الدرس ${+n}">
       <span class="vd-thumb">${poster ? `<img src="${poster}" alt="" loading="lazy">` : ''}<i class="vd-play sm">▶</i></span>
-      <span class="grow"><b>🎬 حلقة الدرس ${+n}</b><span class="vd-teaser-sub"><bdi class="de">${esc(v.title || '')}</bdi> · <span class="n">${fmtDur(v.duration)}</span>${saved ? ' · 📱 محفوظة' : ''}</span></span>
+      <span class="grow"><b>حلقة الدرس ${+n}</b><span class="vd-teaser-sub"><bdi class="de">${esc(v.title || '')}</bdi> · <span class="n">${fmtDur(v.duration)}</span>${saved ? ' · محفوظة' : ''}</span></span>
       <span class="vd-chev" aria-hidden="true">‹</span></a>`;
   }
   return `<a class="card vd-teaser" href="#/video/${+n}" aria-label="اتفرج على حلقة الدرس ${+n}">
     <span class="vd-poster">${poster ? `<img src="${poster}" alt="" loading="lazy">` : ''}<i class="vd-play">▶</i><span class="vd-dur n">${fmtDur(v.duration)}</span></span>
-    <span class="vd-teaser-row"><span class="grow"><b>🎬 اتفرج على الحلقة</b><span class="vd-teaser-sub"><bdi class="de">${esc(v.title || '')}</bdi>${saved ? ' · 📱 محفوظة على التليفون' : ' · 🌐 أونلاين'}</span></span><span class="vd-chev" aria-hidden="true">‹</span></span></a>`;
+    <span class="vd-teaser-row"><span class="grow"><b>اتفرج على الحلقة</b><span class="vd-teaser-sub"><bdi class="de">${esc(v.title || '')}</bdi>${saved ? ' · محفوظة على التليفون' : ' · أونلاين'}</span></span><span class="vd-chev" aria-hidden="true">‹</span></span></a>`;
 }
 export const homeVideoTeaserHtml = () => videoTeaserHtml(currentLessonN(), { compact: true });
 
@@ -319,7 +319,7 @@ function emptyCard(icon, title, hint, n) {
     <div class="empty"><div class="big">${icon}</div><h2>${esc(title)}</h2>${hint ? `<p class="hint">${esc(hint)}</p>` : ''}</div>
     <div class="vd-actions">
       <a class="btn btn-big btn-primary" href="${n ? `#/lesson/${n}` : '#/lessons'}">${n ? '⬅ الدرس' : 'اختار درس'}</a>
-      <a class="btn btn-big" href="#/home">🏠 الرئيسية</a>
+      <a class="btn btn-big" href="#/home">الرئيسية</a>
     </div></section>`;
 }
 
@@ -349,7 +349,7 @@ function buildVideoScreen(root, n, ctrl) {
     <div class="vd-top">
       <a class="btn btn-icon vd-back" href="#/lesson/${n}" aria-label="رجوع للدرس">←</a>
       <h1 class="vd-title grow">فيديو الدرس <span class="n">${n}</span></h1>
-      <span class="chip ${saved ? 'good' : 'blue'} vd-status" id="vdStatus">${saved ? '📱 محفوظ على التليفون' : '🌐 بيتشغّل أونلاين'}</span>
+      <span class="chip ${saved ? 'good' : 'blue'} vd-status" id="vdStatus">${saved ? 'محفوظ على التليفون' : 'بيتشغّل أونلاين'}</span>
     </div>
     <div class="vd-player" id="vdPlayer"></div>
     <section class="card vd-info">
@@ -357,7 +357,7 @@ function buildVideoScreen(root, n, ctrl) {
       ${l ? `<p class="hint">الدرس ${n}${l.title && l.title !== v.title ? ` · <bdi class="de">${esc(l.title)}</bdi>` : ''}${l.goal ? ` — ${esc(l.goal)}` : ''}</p>` : ''}
       <div class="row wrap chips-row">
         <span class="chip">⏱ <span class="n">${fmtDur(v.duration)}</span></span>
-        <span class="chip">💾 ${esc(fmtMB(expected))}</span>
+        <span class="chip">${esc(fmtMB(expected))}</span>
         <span class="chip"><bdi class="de">DW · Nicos Weg</bdi></span>
       </div>
       ${v.vtt ? `<div class="setting-row vd-sub-row">
@@ -367,10 +367,10 @@ function buildVideoScreen(root, n, ctrl) {
     </section>
     <section class="card vd-store" id="vdStore"></section>
     <div class="vd-actions">
-      <a class="btn btn-primary btn-big" href="#/session?lesson=${n}">🎯 ذاكر كلمات الدرس</a>
+      <a class="btn btn-primary btn-big" href="#/session?lesson=${n}">ذاكر كلمات الدرس</a>
       <div class="grid2">
         <a class="btn" href="#/lesson/${n}">⬅ الدرس</a>
-        <a class="btn" href="#/home">🏠 الرئيسية</a>
+        <a class="btn" href="#/home">الرئيسية</a>
       </div>
       ${prev || next ? `<div class="grid2 vd-eps">
         ${prev ? `<a class="btn btn-ghost" href="#/video/${n - 1}">⏮ الحلقة ${n - 1}</a>` : '<span></span>'}
@@ -386,7 +386,7 @@ function buildVideoScreen(root, n, ctrl) {
   const storeCard = $('#vdStore');
   const setStatus = () => {
     const s = isDownloaded(n);
-    statusChip.textContent = s ? '📱 محفوظ على التليفون' : '🌐 بيتشغّل أونلاين';
+    statusChip.textContent = s ? 'محفوظ على التليفون' : 'بيتشغّل أونلاين';
     statusChip.classList.toggle('good', s);
     statusChip.classList.toggle('blue', !s);
   };
@@ -415,7 +415,7 @@ function buildVideoScreen(root, n, ctrl) {
       console.warn('[video] playback error', video.error && video.error.code, video.currentSrc);
       toast('مش قادر أشغّل الفيديو');
       if (player.querySelector('.vd-err')) return;
-      const err = el(`<div class="vd-err"><p>مش قادر أشغّل الفيديو${navigator.onLine === false ? ' — شكله مفيش نت' : ''}</p><button type="button" class="btn btn-primary">🔄 جرّب تاني</button></div>`);
+      const err = el(`<div class="vd-err"><p>مش قادر أشغّل الفيديو${navigator.onLine === false ? ' — شكله مفيش نت' : ''}</p><button type="button" class="btn btn-primary">جرّب تاني</button></div>`);
       err.querySelector('button').addEventListener('click', () => { err.remove(); video.src = srcFor(); video.load(); applySub(); });
       player.appendChild(err);
     };
@@ -454,7 +454,7 @@ function buildVideoScreen(root, n, ctrl) {
     settings().videoSub = subInput.checked;
     store.save();
     applySub();
-    toast(subInput.checked ? 'الترجمة الألمانية ظهرت ✅' : 'الترجمة اتخفت');
+    toast(subInput.checked ? 'الترجمة الألمانية ظهرت' : 'الترجمة اتخفت');
   });
 
   // ---------- كارت الحفظ / التنزيل ----------
@@ -473,7 +473,7 @@ function buildVideoScreen(root, n, ctrl) {
     if (s) {
       const rec = vids()[n];
       storeCard.innerHTML = `<div class="row vd-store-row"><span class="vd-store-ico">📱</span><div class="grow"><b>محفوظ على التليفون</b><p class="hint">تتفرج عليه من غير نت · ${esc(fmtMB(rec.bytes))}</p></div></div>
-        <button type="button" class="btn btn-danger btn-big" data-act="delete"><span class="vd-label">🗑 امسح الحلقة من التليفون <span class="vd-nowrap">(${esc(fmtMB(rec.bytes))})</span></span></button>`;
+        <button type="button" class="btn btn-danger btn-big" data-act="delete"><span class="vd-label">امسح الحلقة من التليفون <span class="vd-nowrap">(${esc(fmtMB(rec.bytes))})</span></span></button>`;
       return;
     }
     if (dl || bulkRunning) {
@@ -485,7 +485,7 @@ function buildVideoScreen(root, n, ctrl) {
       return;
     }
     storeCard.innerHTML = `<div class="row vd-store-row"><span class="vd-store-ico">🌐</span><div class="grow"><b>بيتشغّل أونلاين من DW</b><p class="hint">احفظه على التليفون وتتفرج عليه في أي وقت من غير نت</p></div></div>
-      <button type="button" class="btn btn-navy btn-big" data-act="download"${navigator.onLine === false ? ' disabled' : ''}><span class="vd-label">⬇ احفظه للمشاهدة من غير نت <span class="vd-nowrap">(${esc(fmtMB(expected))})</span></span></button>
+      <button type="button" class="btn btn-navy btn-big" data-act="download"${navigator.onLine === false ? ' disabled' : ''}><span class="vd-label">احفظه للمشاهدة من غير نت <span class="vd-nowrap">(${esc(fmtMB(expected))})</span></span></button>
       ${navigator.onLine === false ? '<p class="hint center">مفيش نت دلوقتي — جرّب لما يبقى عندك واي‑فاي</p>' : '<p class="hint center small">الأحسن على الواي‑فاي</p>'}`;
   };
   const updateBar = (bytes, total) => {
@@ -504,7 +504,7 @@ function buildVideoScreen(root, n, ctrl) {
       try {
         await downloadVideo(n);
         if (!ctrl.alive) return;
-        toast('الحلقة اتحفظت على التليفون ✅');
+        toast('الحلقة اتحفظت على التليفون');
         // لو الفيديو واقف من الأول نحوّله للنسخة المحفوظة
         if (video && video.paused && (video.currentTime || 0) < 1) { video.src = srcFor(); video.load(); applySub(); }
       } catch (err) {
@@ -568,18 +568,18 @@ export function renderVideoSettings(container) {
       body = `<div class="vd-progress">
         <div class="bar vd-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div>
         <p class="hint vd-progress-text">${bulk.cancel ? 'هيتوقف بعد الحلقة الحالية…' : `بينزّل الحلقة ${bulk.n} · ${bulk.index + 1} من ${bulk.total} · ${pct}% (${esc(fmtMB(bulk.bytes))} من ${esc(fmtMB(bulk.totalBytes))})`}</p>
-        <button type="button" class="btn" data-act="cancel"${bulk.cancel ? ' disabled' : ''}>✋ إلغاء</button>
+        <button type="button" class="btn" data-act="cancel"${bulk.cancel ? ' disabled' : ''}>إلغاء</button>
       </div>`;
     } else {
       body = remaining.length
-        ? `<button type="button" class="btn btn-navy btn-big" data-act="all"${navigator.onLine === false ? ' disabled' : ''}><span class="vd-label">⬇ نزّل كل الحلقات <span class="vd-nowrap">(${esc(nEpisodes(remaining.length))} · ${esc(approxMB(remainingBytes))})</span> — على الواي‑فاي</span></button>`
-        : '<p class="hint center">كل الحلقات محفوظة على التليفون ✅</p>';
+        ? `<button type="button" class="btn btn-navy btn-big" data-act="all"${navigator.onLine === false ? ' disabled' : ''}><span class="vd-label">نزّل كل الحلقات <span class="vd-nowrap">(${esc(nEpisodes(remaining.length))} · ${esc(approxMB(remainingBytes))})</span> — على الواي‑فاي</span></button>`
+        : '<p class="hint center">كل الحلقات محفوظة على التليفون</p>';
     }
     container.innerHTML = `<div class="vd-set">
       <p class="hint">الحلقات بتتشغّل أونلاين من DW. لو حفظتها على التليفون تتفرج عليها من غير نت.</p>
       <div class="row between vd-sum"><span>محفوظ على التليفون</span><b><span class="n">${savedN} / ${total}</span> · <span class="vd-sum-size">${esc(fmtMB(savedBytes))}</span></b></div>
       ${body}
-      <button type="button" class="btn btn-danger btn-big" data-act="delall"${savedN && !bulk.active ? '' : ' disabled'}><span class="vd-label">🗑 امسح كل الفيديوهات المحفوظة <span class="vd-nowrap">(${esc(fmtMB(savedBytes))})</span></span></button>
+      <button type="button" class="btn btn-danger btn-big" data-act="delall"${savedN && !bulk.active ? '' : ' disabled'}><span class="vd-label">امسح كل الفيديوهات المحفوظة <span class="vd-nowrap">(${esc(fmtMB(savedBytes))})</span></span></button>
     </div>`;
   };
   const updateBulk = () => {
@@ -608,7 +608,7 @@ export function renderVideoSettings(container) {
         if (!container.isConnected) return;
         if (res.cancelled) toast(`وقفنا التنزيل — ${nEpisodes(res.done)} اتحفظت`);
         else if (res.failed.length) toast(res.done ? `اتحفظت ${nEpisodes(res.done)} و${nEpisodes(res.failed.length)} ما نزلتش` : 'التنزيل ما كملش — اتأكد من النت وجرّب تاني');
-        else if (res.done) toast('كل الحلقات اتحفظت على التليفون ✅');
+        else if (res.done) toast('كل الحلقات اتحفظت على التليفون');
         draw();
       } else if (b.dataset.act === 'cancel') {
         cancelDownloadAll();

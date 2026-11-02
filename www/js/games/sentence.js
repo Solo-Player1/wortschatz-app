@@ -16,8 +16,8 @@ export const meta = {
   desc: 'هتشوف الجملة بالعربي وترتّب كلماتها بالألماني — كل غلطة بقلب!',
   how: [
     'دوس على الكلمات بالترتيب، ولو غلطت دوس على الكلمة ترجع مكانها',
-    'كل تالت جملة «اسمع ورتّب» 🎧 — و💡 بيورّيك المعنى بس النقط بتبقى النص',
-    'من الجملة السادسة فيه كلمة زيادة مش من الجملة — سيبها 😉',
+    'كل تالت جملة «اسمع ورتّب» — وزرار «المعنى» بيورّيك المعنى، بس النقط بتبقى النص',
+    'من الجملة السادسة فيه كلمة زيادة مش من الجملة — سيبها',
   ],
   hearts: 3,
   minItems: 4,
@@ -110,14 +110,14 @@ export function start(g) {
   const promptFor = (s, listen, nExtra) => {
     const extra = nExtra ? `<p class="gm-sentence-extra">⚠️ فيه ${nExtra === 1 ? 'كلمة زيادة' : 'كلمتين زيادة'} مش من الجملة</p>` : '';
     if (listen) return `<div class="gm-sentence-p" data-sid="${g.esc(s.id)}" data-mode="listen">
-        <span class="chip blue gm-sentence-tag">🎧 اسمع ورتّب</span>
+        <span class="chip blue gm-sentence-tag">اسمع ورتّب</span>
         <button type="button" class="gm-speaker gm-sentence-play" aria-label="اسمع الجملة تاني">🔊</button>
         <p class="gm-ar" hidden>${g.esc(s.ar)}</p>
-        <button type="button" class="btn btn-ghost gm-sentence-hint">💡 المعنى بالعربي (بنص النقط)</button>
+        <button type="button" class="btn btn-ghost gm-sentence-hint">المعنى بالعربي (بنص النقط)</button>
         ${extra}
       </div>`;
     return `<div class="gm-sentence-p" data-sid="${g.esc(s.id)}">
-        <span class="chip gm-sentence-tag">🧱 رتّب الجملة</span>
+        <span class="chip gm-sentence-tag">رتّب الجملة</span>
         <p class="gm-ar">${g.esc(s.ar)}</p>
         <p class="hint center">قولها بالألماني: رتّب الكلمات</p>
         ${extra}

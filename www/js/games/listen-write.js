@@ -9,7 +9,7 @@ export const meta = {
   title: 'اسمع واكتب',
   icon: '🎧',
   desc: 'هتسمع الكلمة بصوت DW واكتبها صح — كل غلطة بقلب!',
-  how: ['دوس 🔊 تسمعها تاني براحتك', 'الأسماء لازم بأداتها: der / die / das', '💡 بيورّيك المعنى بالعربي بس النقط بتبقى النص'],
+  how: ['دوس 🔊 تسمعها تاني براحتك', 'الأسماء لازم بأداتها: der / die / das', 'زرار «المعنى» بيورّيك المعنى بالعربي، بس النقط بتبقى النص'],
   hearts: 3,
   kinds: ['noun', 'verb', 'word'],
   needAudio: true,
@@ -54,7 +54,7 @@ export function start(g) {
     const go = await askType(g, {
       promptHtml: `<p class="hint center">${w.file ? 'اسمع واكتب' : 'اكتب بالألماني'}${w.k === 'noun' ? ' — المفرد بأداته (der / die / das)' : ''}</p>
         <p class="gm-ar"${showMeaning ? '' : ' hidden'}>${g.esc(w.ar)}</p>
-        ${showMeaning ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">💡 المعنى</button>'}`,
+        ${showMeaning ? '' : '<button type="button" class="btn btn-ghost gm-hint-btn">المعنى</button>'}`,
       expected: exp.accept,
       show: exp.show,
       wordId: w.id,

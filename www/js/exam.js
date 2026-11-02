@@ -160,24 +160,24 @@ function finishScreen(root, n, kind, st, { win, quit, replay }, opts0 = {}) {
   const step = nextStep(n, s);
   let title, ico, sub;
   if (kind === 'practice') {
-    title = quit ? 'وقفت التدريب' : win ? '👍 تدريب التثبيت عدّى' : '💔 لسه محتاج مراجعة';
+    title = quit ? 'وقفت التدريب' : win ? 'تدريب التثبيت عدّى' : 'لسه محتاج مراجعة';
     ico = '👑';
-    sub = s.crown ? 'الدرس واخد التاج 👑 من قبل — ده كان تدريب مراجعة' : `التاج الحقيقي بيتحسب ${crownWhen(s)} — تعالى ساعتها`;
+    sub = s.crown ? 'الدرس واخد التاج من قبل — ده كان تدريب مراجعة' : `التاج الحقيقي بيتحسب ${crownWhen(s)} — تعالى ساعتها`;
   } else if (isDrill) {
-    title = quit ? 'وقفت التدريب — اللي حلّيته اتحسب' : s.star3 && !opts0.star3 ? '🧱 النجمة التالتة بتاعتك!' : win ? 'خلصت التدريب 👏' : '💔 خلصت القلوب';
+    title = quit ? 'وقفت التدريب — اللي حلّيته اتحسب' : s.star3 && !opts0.star3 ? 'النجمة التالتة بتاعتك!' : win ? 'خلصت التدريب' : 'خلصت القلوب';
     ico = '🧱';
     sub = `جمل وأسئلة الدرس: ${s.itemsDone} من ${s.itemsTotal} (المطلوب ${s.itemsNeed})`;
   } else if (kind === 'crown') {
-    title = quit ? 'خرجت من امتحان التثبيت' : win ? '👑 الدرس ثابت — مش هتنساه!' : '💔 لسه محتاج مراجعة';
+    title = quit ? 'خرجت من امتحان التثبيت' : win ? 'الدرس ثابت — مش هتنساه!' : 'لسه محتاج مراجعة';
     ico = win ? '👑' : bossOf(n);
     sub = win ? 'كسبت تاج الدرس' : 'راجع الكلمات اللي غلطت فيها وجرّب تاني';
   } else {
-    title = quit ? 'خرجت من الامتحان' : win ? (first ? `🏁 الدرس ${n} خلصان!` : `🏁 نجحت تاني في امتحان الدرس ${n}`) : '💔 الوحش كسب المرة دي';
+    title = quit ? 'خرجت من الامتحان' : win ? (first ? `الدرس ${n} خلصان!` : `نجحت تاني في امتحان الدرس ${n}`) : 'الوحش كسب المرة دي';
     ico = win ? '🏆' : bossOf(n);
     sub = !win ? 'كل كلمة غلطت فيها رجعت للمراجعة — ذاكرها وجرّب تاني'
-      : s.crown ? 'الدرس ثابت 👑 من قبل — المراجعة دي بتثبّته أكتر'
-      : s.crownReady ? 'امتحان التثبيت 👑 متاح دلوقتي'
-      : `امتحان التثبيت 👑 هيفتح ${crownWhen(s)} عشان نتأكد إنك مش ناسي`;
+      : s.crown ? 'الدرس ثابت من قبل — المراجعة دي بتثبّته أكتر'
+      : s.crownReady ? 'امتحان التثبيت متاح دلوقتي'
+      : `امتحان التثبيت هيفتح ${crownWhen(s)} عشان نتأكد إنك مش ناسي`;
   }
   const mistakes = st.mistakes.slice(-10);
   const stepRow = (done, icon, label, val) => `<div class="ex-step${done ? ' done' : ''}">${done ? '✅' : icon} ${label}<span class="grow"></span>${val ? `<b class="n">${val}</b>` : ''}</div>`;
@@ -189,7 +189,7 @@ function finishScreen(root, n, kind, st, { win, quit, replay }, opts0 = {}) {
       <p class="hint">${esc(sub)}</p>
       <div class="row wrap chips-row gm-res-chips">
         <span class="chip good">✓ ${st.right} صح</span><span class="chip bad">✗ ${st.wrong} غلط</span>
-        ${xp ? `<span class="chip blue">⭐ +${xp} XP</span>` : ''}
+        ${xp ? `<span class="chip blue">+${xp} XP</span>` : ''}
       </div>
       <div class="ex-steps">
         ${stepRow(s.star1, '⭐', 'حفظت الكلمات', `${s.learned}/${s.words}`)}
@@ -202,10 +202,10 @@ function finishScreen(root, n, kind, st, { win, quit, replay }, opts0 = {}) {
     ${mistakes.length ? `<div class="card gm-mistakes"><h2 class="sec-title">راجع اللي غلطت فيه</h2><div class="list">${mistakes.map(m => `<div class="list-item gm-mis">${m.wordId && DATA.byId.get(m.wordId)?.file ? `<button type="button" class="btn btn-icon say" data-w="${esc(m.wordId)}" aria-label="اسمع">🔊</button>` : ''}<div class="grow">${m.html || ''}${m.label ? `<div class="muted small">${esc(m.label)}</div>` : ''}</div></div>`).join('')}</div></div>` : ''}
     <div class="gm-res-actions">
       ${step.href && step.key !== 'wait' && step.key !== 'done' ? `<a class="btn btn-primary btn-big" href="${step.href}">${step.icon} ${esc(step.label)}</a>` : ''}
-      ${!win ? '<button type="button" class="btn btn-big" data-act="again">🔁 جرّب تاني</button>' : ''}
+      ${!win ? '<button type="button" class="btn btn-big" data-act="again">جرّب تاني</button>' : ''}
       <div class="grid2">
-        <a class="btn" href="#/lesson/${n}">📚 الدرس ${n}</a>
-        <a class="btn" href="#/home">🏠 الرئيسية</a>
+        <a class="btn" href="#/lesson/${n}">الدرس ${n}</a>
+        <a class="btn" href="#/home">الرئيسية</a>
       </div>
     </div>
   </section>`);
@@ -238,10 +238,10 @@ export function renderExam(root, { lesson, kind = 'exam' } = {}) {
         ? `${l.title} — ${examItems(n, 'crown').length} سؤال من الدرس عشان نتأكد إنك لسه فاكره. ٣ غلطات وتخسر.`
         : `${l.title} — الوحش النهائي: كل كلمة في الدرس لازم تكتبها صح (الأسماء بأداتها) + جمل وأسئلة. عندك ٣ قلوب بس!`,
       how: crown
-        ? (st.crown ? ['الدرس ده واخد التاج 👑 خلاص — ده تدريب مراجعة بس', 'تعيده في أي وقت عشان الكلام يفضل ثابت']
-          : st.crownReady ? ['عدّى ٣ أيام على الامتحان — وقت التثبيت', 'لو نجحت الدرس ياخد التاج 👑']
-          : [`التاج بيتحسب ${crownWhen(st)} — تقدر تتدرّب دلوقتي`, 'التدريب ده مش بيتحسب، بس بيجهّزك للتاج 👑'])
-        : ['كل سؤال بتعدّيه بينزّل طاقة الوحش ⚔️', 'كل غلطة بقلب — ٣ غلطات والوحش يكسب', `نجومك دلوقتي: ${'⭐'.repeat(st.stars)}${'☆'.repeat(3 - st.stars)}${st.stars < 3 ? ' — الأحسن تخلّص النجوم الأول' : ' — جاهز!'}`],
+        ? (st.crown ? ['الدرس ده واخد التاج خلاص — ده تدريب مراجعة بس', 'تعيده في أي وقت عشان الكلام يفضل ثابت']
+          : st.crownReady ? ['عدّى ٣ أيام على الامتحان — وقت التثبيت', 'لو نجحت الدرس ياخد التاج']
+          : [`التاج بيتحسب ${crownWhen(st)} — تقدر تتدرّب دلوقتي`, 'التدريب ده مش بيتحسب، بس بيجهّزك للتاج'])
+        : ['كل سؤال بتعدّيه بينزّل طاقة الوحش', 'كل غلطة بقلب — ٣ غلطات والوحش يكسب', `نجومك دلوقتي: ${'⭐'.repeat(st.stars)}${'☆'.repeat(3 - st.stars)}${st.stars < 3 ? ' — الأحسن تخلّص النجوم الأول' : ' — جاهز!'}`],
       hearts: 3, source: 'none', minItems: 1, unit: 'سؤال',
       count: () => examItems(n, kind).length,
     },
@@ -281,7 +281,7 @@ export function renderDrill(root, { lesson } = {}) {
   const mod = {
     meta: {
       id: 'drill', title: `جمل الدرس ${n}`, icon: '🧱',
-      desc: `${l.title} — كوّن جمل الدرس وجاوب أسئلة الاستفهام. لما تخلّص ٨٠٪ منهم تاخد النجمة التالتة ⭐`,
+      desc: `${l.title} — كوّن جمل الدرس وجاوب أسئلة الاستفهام. لما تخلّص ٨٠٪ منهم تاخد النجمة التالتة`,
       how: ['رتّب الكلمات وكوّن الجملة', 'اللي بتحلّه صح بيتحسب ومش بيرجعلك تاني في التدريب', 'عندك ٥ قلوب'],
       hearts: 5, source: 'none', minItems: 1, unit: 'جملة',
       count: () => drillItems(n).length,

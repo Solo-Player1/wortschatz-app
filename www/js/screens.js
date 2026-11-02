@@ -83,7 +83,7 @@ function nSessions(n) {
 function planText(c, started) {
   const reviews = Math.min(30, c.due | 0);
   const news = Math.min(Math.max(0, +settings().newPerSession || 8), c.new | 0);
-  if (!reviews && !news) return started ? 'كل كلماتك متراجعة ✨ الجلسة الجاية هتبقى مراجعة مبكّرة' : 'يلا نبدأ أول جلسة!';
+  if (!reviews && !news) return started ? 'كل كلماتك متراجعة — الجلسة الجاية هتبقى مراجعة مبكّرة' : 'يلا نبدأ أول جلسة!';
   const parts = [];
   if (reviews) parts.push(nReviews(reviews));
   if (news) parts.push(nNewWords(news));
@@ -113,10 +113,10 @@ function dueText(st) {
 // سطر تحية حسب الوقت
 function dayLine() {
   const h = new Date().getHours();
-  if (h < 5) return 'سهران؟ جولة سريعة وبعدين ارتاح 😴';
-  if (h < 12) return 'صباح الخير! كلمتين دلوقتي أحسن من ساعة بكرة ☕';
-  if (h < 18) return 'يلا نحفظ شوية كلمات؟ 💪';
-  return 'مساء الخير! جولة صغيرة قبل النوم؟ 🌙';
+  if (h < 5) return 'سهران؟ جولة سريعة وبعدين ارتاح';
+  if (h < 12) return 'صباح الخير! كلمتين دلوقتي أحسن من ساعة بكرة';
+  if (h < 18) return 'يلا نحفظ شوية كلمات؟';
+  return 'مساء الخير! جولة صغيرة قبل النوم؟';
 }
 
 // نقط المرحلة ●●○○ : جديدة 0 · بتتعلمها 1 · عارفها 2–3 · ثابتة 4
@@ -174,40 +174,40 @@ export function renderHome(root) {
     : `<div class="row between ms-lesson"><div class="grow"><b>الدرس ${n}</b> <bdi class="de muted">${esc(l ? l.title : '')}</bdi></div>${starsHtml(st)}</div>
        <div class="bar${st.passed ? ' good' : ''}"><i style="width:${st.pct}%"></i></div>`;
   const cta = m.mode === 'goal'
-    ? `<a class="btn btn-primary btn-big" href="#/session">🎯 ابدأ المذاكرة</a>`
+    ? `<a class="btn btn-primary btn-big" href="#/session">ابدأ المذاكرة</a>`
     : m.review ? `<a class="btn btn-primary btn-big ms-cta" href="${step.href}">${step.icon} ${esc(step.label)}</a><p class="hint center">${esc(step.hint || '')}</p>`
     : `<a class="btn btn-primary btn-big ms-cta" href="${step.href}">${step.icon} ${esc(step.label)}</a><p class="hint center">${esc(step.hint || '')}</p>`;
 
   root.innerHTML = `
   <section class="card home-hero">
-    <div class="row between"><h1 class="home-greet">أهلًا يا ${esc(name || 'بطل')} 👋</h1><a class="chip blue lv-chip" href="#/stats" aria-label="المستوى">🏅 مستوى ${lv.level}</a></div>
+    <div class="row between"><h1 class="home-greet">أهلًا يا ${esc(name || 'بطل')}</h1><a class="chip blue lv-chip" href="#/stats" aria-label="المستوى">مستوى ${lv.level}</a></div>
     <p class="hint">${esc(dayLine())}</p>
     <div class="bar lv-bar" title="${lv.xp - lv.from} من ${lv.to - lv.from} XP للمستوى الجاي"><i style="width:${lv.pct}%"></i></div>
     <div class="row wrap chips-row">
       <span class="chip ${streak.current > 0 ? 'warn' : ''}" id="streakChip">🔥 ${streak.current > 0 ? esc(nDays(streak.current)) + ' ورا بعض' : 'ابدأ الستريك النهارده'}</span>
-      <span class="chip blue">⭐ ${store.state.xp | 0} XP</span>
-      <span class="chip">✍️ ${day.done | 0} إجابة النهارده</span>
+      <span class="chip blue">${store.state.xp | 0} XP</span>
+      <span class="chip">${day.done | 0} إجابة النهارده</span>
     </div>
   </section>
 
   ${s.introSeen ? '' : `<section class="card intro-card" id="introCard">
-    <h2>👋 إزاي تستخدم الأبلكيشن</h2>
+    <h2>إزاي تستخدم الأبلكيشن</h2>
     <ol class="intro-list">
-      <li>🎯 <b>مهمة النهارده</b>: درس كل يوم — الزرار الأزرق بيوديك للخطوة الجاية على طول.</li>
+      <li><b>مهمة النهارده</b>: درس كل يوم — الزرار الأزرق بيوديك للخطوة الجاية على طول.</li>
       <li>كل درس: ⭐ احفظ الكلمات ← ✍️ اكتبها صح ← 🧱 كوّن جمل ← 🏁 امتحان ← 👑 تثبيت بعد ٣ أيام.</li>
-      <li>🎮 العب في أي وقت — أي كلمة تغلط فيها بترجعلك في المراجعة.</li>
+      <li>العب في أي وقت — أي كلمة تغلط فيها بترجعلك في المراجعة.</li>
       <li>حافظ درس قبل كده؟ ادخل <b>امتحانه</b> على طول من صفحة الدرس، ولو نجحت يتحسب خلصان.</li>
-      <li>🔔 فعّل التذكير عشان يفكّرك كل ساعة لو المهمة لسه.</li>
+      <li>فعّل التذكير عشان يفكّرك كل ساعة لو المهمة لسه.</li>
     </ol>
-    <button type="button" class="btn btn-primary" id="introOk">فهمت 👍 يلا بينا</button>
+    <button type="button" class="btn btn-primary" id="introOk">فهمت، يلا بينا</button>
   </section>`}
 
   <section class="card mission ${m.done ? 'done' : ''}">
-    <div class="row between"><h2>🎯 مهمة النهارده</h2>${m.done ? '<span class="chip good">✓ خلصت</span>' : '<span class="chip warn">لسه</span>'}</div>
-    <p class="ms-title">${m.done ? '🎉 عاش! خلصت مهمة النهارده — أي مذاكرة زيادة بتثبّت أكتر' : esc(m.title)}</p>
+    <div class="row between"><h2>مهمة النهارده</h2>${m.done ? '<span class="chip good">✓ خلصت</span>' : '<span class="chip warn">لسه</span>'}</div>
+    <p class="ms-title">${m.done ? 'عاش! خلصت مهمة النهارده — أي مذاكرة زيادة بتثبّت أكتر' : esc(m.title)}</p>
     ${missionBody}
     ${cta}
-    ${m.mode === 'goal' ? '' : `<a class="btn btn-ghost" href="#/lesson/${n}">📚 خطة الدرس ${n}</a>`}
+    ${m.mode === 'goal' ? '' : `<a class="btn btn-ghost" href="#/lesson/${n}">خطة الدرس ${n}</a>`}
   </section>
 
   <div data-slot="notify"></div>
@@ -222,7 +222,7 @@ export function renderHome(root) {
   </div>
 
   <section class="card home-games">
-    <div class="row between"><h2>🎮 العب على الدرس ${n}</h2><a class="btn btn-ghost sm" href="#/games">الكل</a></div>
+    <div class="row between"><h2>العب على الدرس ${n}</h2><a class="btn btn-ghost sm" href="#/games">الكل</a></div>
     <div class="hg-row">
       <a class="hg" href="#/game/listen-write?lesson=${n}"><span>🎧</span>اسمع واكتب</a>
       <a class="hg" href="#/game/articles?lesson=${n}"><span>🎯</span>der die das</a>
@@ -232,7 +232,8 @@ export function renderHome(root) {
   </section>
 
   <div data-slot="video"></div>
-  ${lastLine ? `<p class="muted small center last-session">${esc(lastLine)}</p>` : ''}`;
+  ${lastLine ? `<p class="muted small center last-session">${esc(lastLine)}</p>` : ''}
+  <p class="muted small center credit">إنشاء وتصميم عبد الله جمال</p>`;
 
   renderUpdateBanner(root);
   fillVideoSlot(root.querySelector('[data-slot="video"]'), homeVideoTeaserHtml);
@@ -257,7 +258,7 @@ function fillNotifySlot(slot) {
     if (!card) return;
     card.querySelector('#ncOn').addEventListener('click', async () => {
       const ok = await requestNotifyPermission();
-      toast(ok ? 'التذكير اتفعّل ✅' : 'من غير الإذن مش هقدر أبعت تذكير — تقدر تفعّله من إعدادات التليفون');
+      toast(ok ? 'التذكير اتفعّل' : 'من غير الإذن مش هقدر أبعت تذكير — تقدر تفعّله من إعدادات التليفون');
       if (ok || p === 'denied') card.remove();
     });
     card.querySelector('#ncLater').addEventListener('click', () => { settings().notifyCardHidden = true; store.save(); card.remove(); });
@@ -280,8 +281,8 @@ export function renderLessons(root) {
     const s = sts[i];
     const c = lessonCounts(l.n);
     let chip = '';
-    if (l.n === cur && !s.passed) chip = '<span class="chip blue">📍 دلوقتي</span>';
-    else if (s.needsReview) chip = '<span class="chip warn">🔁 راجعه</span>';
+    if (l.n === cur && !s.passed) chip = '<span class="chip blue">دلوقتي</span>';
+    else if (s.needsReview) chip = '<span class="chip warn">راجعه</span>';
     else if (s.crownReady) chip = '<span class="chip warn">👑 التثبيت متاح</span>';
     else if (c.due > 0) chip = `<span class="chip warn">مستحق ${c.due}</span>`;
     return `
@@ -363,14 +364,14 @@ export function renderLesson(root, n) {
       <span class="lesson-num lg${st.crown ? ' crown' : st.passed ? ' passed' : ''}">${st.crown ? '👑' : l.n}</span>
       <div class="grow"><h1 class="lesson-title"><bdi class="de">${esc(l.title)}</bdi></h1><p class="hint">${esc(l.goal || '')}</p></div>
     </div>
-    ${l.gram ? `<p class="muted small gram">📖 ${esc(l.gram)}</p>` : ''}
+    ${l.gram ? `<p class="muted small gram">${esc(l.gram)}</p>` : ''}
     <div class="row between ln-meta">${starsHtml(st)}<span class="n muted">${st.pct}%</span></div>
     <div class="bar${st.passed ? ' good' : ''}"><i style="width:${st.pct}%"></i></div>
     ${step.key !== 'done' ? `<a class="btn btn-primary btn-big next-step" href="${step.href}">${step.icon} ${esc(step.label)}</a><p class="hint center">${esc(step.hint || '')}</p>` : '<p class="goal-done center">👑 الدرس ده ثابت — عاش!</p>'}
   </section>
 
   <section class="card plan">
-    <h2 class="sec-title">خطة الدرس — بضمير 💪</h2>
+    <h2 class="sec-title">خطة الدرس — بضمير</h2>
     ${planRow(st.star1, '⭐', '١. احفظ كل الكلمات', `${st.learned} من ${st.words} كلمة`, `#/session?lesson=${l.n}`, 'ذاكر')}
     ${planRow(st.star2, '✍️', '٢. اكتبها صح (الأسماء بأداتها)', `${st.typed} من ${st.typeNeed} كلمة`, `#/game/listen-write?lesson=${l.n}&mode=drill`, 'اكتب')}
     ${planRow(st.star3, '🧱', '٣. كوّن جمل وجاوب أسئلة', st.itemsTotal ? `${st.itemsDone} من ${st.itemsNeed} مطلوبين (من ${st.itemsTotal})` : 'مفيش جمل للدرس ده', st.itemsTotal ? `#/drill/${l.n}` : '', 'جمل')}
@@ -381,7 +382,7 @@ export function renderLesson(root, n) {
   <div data-slot="video"></div>
 
   <section class="card lesson-games">
-    <h2 class="sec-title">🎮 العب على الدرس ده</h2>
+    <h2 class="sec-title">العب على الدرس ده</h2>
     <div class="hg-row">
       <a class="hg" href="#/game/listen-write?lesson=${l.n}"><span>🎧</span>اسمع واكتب</a>
       <a class="hg" href="#/game/articles?lesson=${l.n}"><span>🎯</span>der die das</a>
@@ -392,12 +393,12 @@ export function renderLesson(root, n) {
     </div>
   </section>
 
-  ${gram.length ? `<details class="card lesson-gram"><summary><b>📖 شرح الدرس</b> <span class="muted small">${gram.length} نقطة</span></summary>${grammarHtml(l.n)}</details>` : ''}
+  ${gram.length ? `<details class="card lesson-gram"><summary><b>شرح الدرس</b> <span class="muted small">${gram.length} نقطة</span></summary>${grammarHtml(l.n)}</details>` : ''}
 
   <h2 class="sec-title row">الكلمات <span class="chip blue">${words.length}</span></h2>
   ${words.length ? `<div class="list word-list">${rows}</div>` : '<div class="empty"><div class="big">🫙</div><p>مفيش كلمات في الدرس ده</p></div>'}
 
-  ${sents.length ? `<details class="card lesson-sents"><summary><b>🧱 جمل الدرس</b> <span class="muted small">${sents.filter(x => itemDone(x.id)).length}/${sents.length} اتعملت</span></summary>
+  ${sents.length ? `<details class="card lesson-sents"><summary><b>جمل الدرس</b> <span class="muted small">${sents.filter(x => itemDone(x.id)).length}/${sents.length} اتعملت</span></summary>
     <div class="list">${sents.map(x => `<div class="list-item sent-row"><button type="button" class="btn btn-icon sm" data-say="${esc(x.de)}" aria-label="اسمع">🔊</button><div class="grow"><bdi class="de">${esc(x.de)}</bdi><div class="muted small">${esc(x.ar)}</div></div>${itemDone(x.id) ? '<span class="chip good">✓</span>' : ''}</div>`).join('')}</div>
   </details>` : ''}`;
 
@@ -453,7 +454,7 @@ function badgesHtml(v) {
     ['🎮', '10 ألعاب', v.games >= 10], ['🕹️', '50 لعبة', v.games >= 50], ['🏅', 'مستوى 5', v.level >= 5], ['🌟', 'مستوى 10', v.level >= 10],
   ];
   const got = list.filter(b => b[2]).length;
-  return `<section class="card badges"><div class="row between"><h2>🎖️ الأوسمة</h2><span class="chip blue">${got}/${list.length}</span></div>
+  return `<section class="card badges"><div class="row between"><h2>الأوسمة</h2><span class="chip blue">${got}/${list.length}</span></div>
     <div class="badge-grid">${list.map(([ico, label, ok]) => `<div class="badge-item${ok ? ' on' : ''}" title="${esc(label)}"><span>${ok ? ico : '🔒'}</span><small>${esc(label)}</small></div>`).join('')}</div></section>`;
 }
 
@@ -516,14 +517,14 @@ export function renderStats(root) {
       <span><i class="s-learning"></i>بتتعلمها ${c.learning}</span>
       <span><i class="s-new"></i>جديدة ${c.new}</span>
     </div>
-    <p class="hint">${learned ? `اتعلمت ${esc(nWords(learned))} من ${c.total} — ${pct(learned, c.total)}% من الطريق 🚶` : 'لسه ما اتعلمتش ولا كلمة — أول جلسة هتغيّر الصورة دي'}</p>
+    <p class="hint">${learned ? `اتعلمت ${esc(nWords(learned))} من ${c.total} — ${pct(learned, c.total)}% من الطريق` : 'لسه ما اتعلمتش ولا كلمة — أول جلسة هتغيّر الصورة دي'}</p>
   </section>
 
   <div class="grid2 stat-cards">
-    <div class="card stat-card"><b class="stat-num">🏅 ${lv.level}</b><span>المستوى</span><small>${xp} XP · فاضل ${lv.to - xp} للمستوى الجاي</small></div>
+    <div class="card stat-card"><b class="stat-num">${lv.level}</b><span>المستوى</span><small>${xp} XP · فاضل ${lv.to - xp} للمستوى الجاي</small></div>
     <div class="card stat-card"><b class="stat-num">🔥 ${streak.current | 0}</b><span>ستريك — أيام ورا بعض</span><small>${(streak.best | 0) > 0 ? `أفضل ستريك: ${esc(nDays(streak.best | 0))}` : 'أول جلسة هتبدأ العدّاد'}</small></div>
     <div class="card stat-card"><b class="stat-num">🏁 ${allSt.filter(s => s.passed).length}</b><span>دروس خلصانة</span><small>👑 ${allSt.filter(s => s.crown).length} ثابتة · ⭐ ${allSt.reduce((a, s) => a + s.stars, 0)} نجمة</small></div>
-    <div class="card stat-card"><b class="stat-num">✍️ ${typedAll}</b><span>كلمة كتبتها صح</span><small>🎮 ${gamesPlayed} لعبة لعبتها</small></div>
+    <div class="card stat-card"><b class="stat-num">✍️ ${typedAll}</b><span>كلمة كتبتها صح</span><small>${gamesPlayed} لعبة لعبتها</small></div>
   </div>
 
   <section class="card">
@@ -531,8 +532,8 @@ export function renderStats(root) {
     <div class="heat" role="img" aria-label="نشاط آخر 8 أسابيع">${cells}</div>
     <p class="hint">${anyActivity
       ? `ذاكرت في ${esc(nDays(activeDays))} · ${esc(nAnswers(answers))} · ${esc(nSessions(sessions))}`
-      : 'لسه مفيش نشاط. أول جلسة هتنوّر الشبكة دي ✨'}</p>
-    ${anyActivity ? '' : '<a class="btn btn-primary btn-big" href="#/session">🎯 ابدأ أول جلسة</a>'}
+      : 'لسه مفيش نشاط. أول جلسة هتنوّر الشبكة دي'}</p>
+    ${anyActivity ? '' : '<a class="btn btn-primary btn-big" href="#/session">ابدأ أول جلسة</a>'}
   </section>
 
   <section class="card">
@@ -542,22 +543,22 @@ export function renderStats(root) {
 
   ${badgesHtml({ learned, typedAll, streakBest: Math.max(streak.best | 0, streak.current | 0), passed: allSt.filter(s => s.passed).length, crowns: allSt.filter(s => s.crown).length, games: gamesPlayed, level: lv.level, total: c.total })}
 
-  <button type="button" class="btn btn-primary btn-big" id="btnShareProgress">📤 ابعت تقدمك لصاحبك</button>`;
+  <button type="button" class="btn btn-primary btn-big" id="btnShareProgress">ابعت تقدمك لصاحبك</button>`;
 
   root.querySelector('#btnShareProgress').addEventListener('click', async () => {
     const name = String(settings().name || '').trim() || 'أنا';
     const passedL = allSt.filter(s => s.passed).map(s => s.n);
     const text = [
-      `🇩🇪 ${name} في Wortschatz:`,
-      `🏅 مستوى ${lv.level} · ⭐ ${xp} XP · 🔥 ستريك ${streak.current | 0} يوم`,
-      `📚 اتعلمت ${learned} كلمة من ${c.total} · ✍️ كتبت ${typedAll} صح`,
-      `🏁 خلصت ${passedL.length} درس${passedL.length ? ` (${passedL.join('، ')})` : ''} · 👑 ${allSt.filter(s => s.crown).length} ثابتين`,
-      'وانت وصلت لفين؟ 😏',
+      `${name} في Wortschatz:`,
+      `مستوى ${lv.level} · ${xp} XP · ستريك ${streak.current | 0} يوم`,
+      `اتعلمت ${learned} كلمة من ${c.total} · كتبت ${typedAll} صح`,
+      `خلصت ${passedL.length} درس${passedL.length ? ` (${passedL.join('، ')})` : ''} · ${allSt.filter(s => s.crown).length} ثابتين`,
+      'وانت وصلت لفين؟',
     ].join('\n');
     const ok = await shareText('تقدمي في الألماني', text);
     if (!ok) {
       try { await navigator.clipboard.writeText(text); toast('اتنسخ — ابعته لصاحبك على واتساب'); }
-      catch (e) { toast('مقدرتش أشارك — خد سكرين شوت 😅'); }
+      catch (e) { toast('مقدرتش أشارك — خد سكرين شوت'); }
     }
   });
 }
@@ -604,9 +605,9 @@ async function exportBackup() {
         ok = await shareFile('Wortschatz backup', r && r.uri);
       }
     } catch (e) { console.warn('[settings] native backup failed:', e); }
-    if (ok) toast('اتبعتت النسخة ✅ — احفظها في درايف أو ابعتها لنفسك');
+    if (ok) toast('اتبعتت النسخة — احفظها في درايف أو ابعتها لنفسك');
     else {
-      toast('النسخة ما اتبعتتش — استخدم «📋 انسخ النسخة كنص» وابعتها لنفسك');
+      toast('النسخة ما اتبعتتش — استخدم «انسخ النسخة كنص» وابعتها لنفسك');
       const d = document.querySelector('details.paste');
       if (d) d.open = true;
     }
@@ -618,7 +619,7 @@ async function exportBackup() {
       const file = new File([json], name, { type: 'application/json' });
       if (navigator.canShare({ files: [file] })) {
         navigator.share({ files: [file], title: 'Wortschatz backup' })
-          .then(() => toast('اتبعتت النسخة ✅'))
+          .then(() => toast('اتبعتت النسخة'))
           .catch(err => {
             if (err && err.name === 'AbortError') return;        // المستخدم قفل نافذة المشاركة
             console.warn('[settings] share failed:', err);
@@ -642,9 +643,9 @@ export function renderSettings(root) {
   <section class="card">
     <h2 class="sec-title">المظهر</h2>
     <div class="seg" id="themeSeg" role="group" aria-label="المظهر">
-      <button type="button" data-v="light" aria-pressed="${theme === 'light'}">☀️ فاتح</button>
-      <button type="button" data-v="dark" aria-pressed="${theme === 'dark'}">🌙 غامق</button>
-      <button type="button" data-v="system" aria-pressed="${theme === 'system'}">📱 النظام</button>
+      <button type="button" data-v="light" aria-pressed="${theme === 'light'}">فاتح</button>
+      <button type="button" data-v="dark" aria-pressed="${theme === 'dark'}">غامق</button>
+      <button type="button" data-v="system" aria-pressed="${theme === 'system'}">النظام</button>
     </div>
   </section>
 
@@ -673,24 +674,24 @@ export function renderSettings(root) {
   </section>
 
   <section class="card">
-    <h2 class="sec-title">🎯 مهمة النهارده والتذكير</h2>
+    <h2 class="sec-title">مهمة النهارده والتذكير</h2>
     <div class="seg" id="missionSeg" role="group" aria-label="مهمة النهارده">
-      <button type="button" data-v="lesson" aria-pressed="${mode === 'lesson'}">🏁 درس كامل كل يوم</button>
-      <button type="button" data-v="goal" aria-pressed="${mode === 'goal'}">✍️ هدف إجابات</button>
+      <button type="button" data-v="lesson" aria-pressed="${mode === 'lesson'}">درس كامل كل يوم</button>
+      <button type="button" data-v="goal" aria-pressed="${mode === 'goal'}">هدف إجابات</button>
     </div>
-    <p class="hint set-note">«درس كامل»: المهمة بتخلص لما تنجح في امتحان درس 🏁 (أو تاخد تاج 👑) النهارده. «هدف إجابات»: لما توصل للهدف اليومي (${goalOf()} إجابة).</p>
+    <p class="hint set-note">«درس كامل»: المهمة بتخلص لما تنجح في امتحان درس (أو تاخد تاج) النهارده. «هدف إجابات»: لما توصل للهدف اليومي (${goalOf()} إجابة).</p>
     ${notifySupported() ? `
-    <div class="setting-row"><div><b>🔔 تذكير كل ساعة</b><p class="hint" id="notifyState">بنفحص الإذن…</p></div>${switchHtml('notify', s.notify !== false, 'تذكير كل ساعة')}</div>
+    <div class="setting-row"><div><b>تذكير كل ساعة</b><p class="hint" id="notifyState">بنفحص الإذن…</p></div>${switchHtml('notify', s.notify !== false, 'تذكير كل ساعة')}</div>
     <div class="setting-row"><div><b>يبدأ الساعة</b><p class="hint">الصبح</p></div>${stepperHtml('notifyStart', s.notifyStart, 6, 14, 1, 'بداية التذكير')}</div>
     <div class="setting-row"><div><b>آخر تذكير الساعة</b><p class="hint">بالليل (٢٤ ساعة)</p></div>${stepperHtml('notifyEnd', s.notifyEnd, 15, 23, 1, 'نهاية التذكير')}</div>
-    <button type="button" class="btn btn-big" id="btnTestNotify">🔔 جرّب تذكير (بعد ٥ ثواني)</button>` : '<p class="hint">🔔 التذكير كل ساعة بيشتغل في أبلكيشن الأندرويد.</p>'}
+    <button type="button" class="btn btn-big" id="btnTestNotify">جرّب تذكير (بعد ٥ ثواني)</button>` : '<p class="hint">التذكير كل ساعة بيشتغل في أبلكيشن الأندرويد.</p>'}
   </section>
 
   <section class="card">
-    <h2 class="sec-title">🔊 الصوت</h2>
+    <h2 class="sec-title">الصوت</h2>
     <div class="setting-row"><div><b>أصوات الألعاب</b><p class="hint">صوت الصح والغلط والفوز</p></div>${switchHtml('gameSounds', s.gameSounds !== false, 'أصوات الألعاب')}</div>
     <div class="setting-row"><div><b>نطق الجمل والأرقام والحروف</b><p class="hint" id="ttsState">بنفحص…</p></div><button type="button" class="btn" id="btnTtsTest">جرّب 🔊</button></div>
-    <button type="button" class="btn btn-big" id="btnTtsInstall" hidden>⬇️ نزّل الصوت الألماني للتليفون</button>
+    <button type="button" class="btn btn-big" id="btnTtsInstall" hidden>نزّل الصوت الألماني للتليفون</button>
     <p class="hint">الكلمات بصوت DW الأصلي. الجمل والأرقام والحروف بصوت التليفون الألماني (Google) — لو مش شغّال نزّله من الزرار.</p>
   </section>
 
@@ -703,14 +704,14 @@ export function renderSettings(root) {
     <h2 class="sec-title">النسخة الاحتياطية</h2>
     <p class="hint">احفظ تقدمك أو انقله لتليفون تاني. الملف اسمه <span class="kbd">wortschatz-backup.json</span></p>
     <div class="grid2 backup-actions">
-      <button type="button" class="btn" id="btnExport">⬇️ حفظ نسخة</button>
-      <button type="button" class="btn" id="btnImport">📂 استرجاع نسخة</button>
+      <button type="button" class="btn" id="btnExport">حفظ نسخة</button>
+      <button type="button" class="btn" id="btnImport">استرجاع نسخة</button>
     </div>
     <input type="file" id="fileImport" accept=".json,application/json" hidden>
     <details class="paste">
       <summary>نسخ ولصق كنص (لو الملفات مش شغّالة)</summary>
       <div class="stack">
-        <button type="button" class="btn" id="btnCopy">📋 انسخ النسخة كنص</button>
+        <button type="button" class="btn" id="btnCopy">انسخ النسخة كنص</button>
         <textarea id="pasteBox" class="input" rows="4" placeholder="الصق نص النسخة هنا" spellcheck="false"></textarea>
         <button type="button" class="btn" id="btnPaste">استرجع من النص</button>
       </div>
@@ -722,10 +723,10 @@ export function renderSettings(root) {
   <section class="card">
     <h2 class="sec-title">منطقة الخطر</h2>
     <p class="hint">بيمسح الكلمات والنقاط والستريك والإعدادات — ومفيش رجوع.</p>
-    <button type="button" class="btn btn-danger btn-big" id="btnReset">🗑️ امسح كل التقدم</button>
+    <button type="button" class="btn btn-danger btn-big" id="btnReset">امسح كل التقدم</button>
   </section>
 
-  <p class="about muted small center">Wortschatz · ${DATA.words.length} كلمة في ${DATA.lessons.length} درس<br>المحتوى من DW · Nicos Weg</p>`;
+  <p class="about muted small center">Wortschatz · ${DATA.words.length} كلمة في ${DATA.lessons.length} درس<br>إنشاء وتصميم <b>عبد الله جمال</b><br>المحتوى من DW · Nicos Weg</p>`;
 
   const $ = sel => root.querySelector(sel);
   const rerender = () => { root.innerHTML = ''; renderSettings(root); };
@@ -742,7 +743,7 @@ export function renderSettings(root) {
     store.save();
     mSeg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     replan();
-    toast(s.missionMode === 'goal' ? 'المهمة: هدف الإجابات اليومي' : 'المهمة: درس كامل كل يوم 💪');
+    toast(s.missionMode === 'goal' ? 'المهمة: هدف الإجابات اليومي' : 'المهمة: درس كامل كل يوم');
   });
 
   // التذكير
@@ -751,7 +752,7 @@ export function renderSettings(root) {
     if (!nState || !nState.isConnected) return;
     const sw = root.querySelector('input[data-key="notify"]');
     if (sw) sw.checked = s.notify !== false && p === 'granted';     // السويتش = الحالة الفعلية
-    nState.textContent = s.notify === false ? 'مقفول' : p === 'granted' ? `شغّال ✅ من ${s.notifyStart ?? 10} لـ ${s.notifyEnd ?? 22} — بيسكت لما المهمة تخلص` : p === 'denied' ? '⚠️ الإذن مرفوض — فعّله من إعدادات التليفون ← التطبيقات ← Wortschatz ← الإشعارات' : 'محتاج إذن — شغّل السويتش';
+    nState.textContent = s.notify === false ? 'مقفول' : p === 'granted' ? `شغّال من ${s.notifyStart ?? 10} لـ ${s.notifyEnd ?? 22} — بيسكت لما المهمة تخلص` : p === 'denied' ? '⚠️ الإذن مرفوض — فعّله من إعدادات التليفون ← التطبيقات ← Wortschatz ← الإشعارات' : 'محتاج إذن — شغّل السويتش';
   });
   if (nState) showNotifyState();
   const nSwitch = root.querySelector('input[data-key="notify"]');
@@ -769,7 +770,7 @@ export function renderSettings(root) {
   const tBtn = $('#btnTestNotify');
   if (tBtn) tBtn.addEventListener('click', async () => {
     const ok = await testNotification();
-    toast(ok ? 'استنى ٥ ثواني… 🔔' : 'مقدرتش أبعت تذكير — اتأكد إن الإشعارات مسموحة');
+    toast(ok ? 'استنى ٥ ثواني…' : 'مقدرتش أبعت تذكير — اتأكد إن الإشعارات مسموحة');
     showNotifyState();
   });
 
@@ -778,9 +779,9 @@ export function renderSettings(root) {
   ttsStatus().then(t => {
     if (!tState.isConnected) return;
     if (t.engine === 'native') {
-      tState.textContent = t.german ? '✅ الصوت الألماني جاهز' : t.german === false ? '⚠️ الصوت الألماني مش متنزّل على التليفون' : 'مش قادر أتأكد — جرّب';
+      tState.textContent = t.german ? 'الصوت الألماني جاهز' : t.german === false ? '⚠️ الصوت الألماني مش متنزّل على التليفون' : 'مش قادر أتأكد — جرّب';
       tInstall.hidden = t.german === true;
-    } else if (t.engine === 'web') tState.textContent = t.german ? '✅ صوت المتصفح الألماني' : 'في المتصفح ممكن الصوت يبقى مش ألماني';
+    } else if (t.engine === 'web') tState.textContent = t.german ? 'صوت المتصفح الألماني' : 'في المتصفح ممكن الصوت يبقى مش ألماني';
     else tState.textContent = 'مش متاح على الجهاز ده';
   });
   $('#btnTtsTest').addEventListener('click', async () => {
@@ -824,7 +825,7 @@ export function renderSettings(root) {
     inp.addEventListener('change', () => {
       s[inp.dataset.key] = inp.checked;
       store.save();
-      toast(inp.checked ? 'اتفعّل ✅' : 'اتقفل');
+      toast(inp.checked ? 'اتفعّل' : 'اتقفل');
     });
   });
 
@@ -841,7 +842,7 @@ export function renderSettings(root) {
   const importText = text => {
     if (store.importJSON(text)) {
       applyTheme(settings().theme);
-      toast('استرجعنا نسختك ✅');
+      toast('استرجعنا نسختك');
       rerender();
     } else {
       toast('الملف ده مش نسخة Wortschatz صالحة');
@@ -866,7 +867,7 @@ export function renderSettings(root) {
       toast('النسخة في الصندوق — حدّدها وانسخها');
     };
     try {
-      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(json).then(() => toast('اتنسخت ✅ الصقها في أي مكان'), fallback);
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(json).then(() => toast('اتنسخت — الصقها في أي مكان'), fallback);
       else fallback();
     } catch (e) { fallback(); }
   });
@@ -881,7 +882,7 @@ export function renderSettings(root) {
     if (!confirm('متأكد؟ هيتمسح كل تقدمك (الكلمات والنقاط والستريك) ومفيش رجوع.')) return;
     store.reset();
     applyTheme(settings().theme);
-    toast('اتمسح كل حاجة — بداية جديدة 🌱');
+    toast('اتمسح كل حاجة — بداية جديدة');
     rerender();
   });
 }

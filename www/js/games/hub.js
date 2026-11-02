@@ -42,7 +42,7 @@ export function renderGameRoute(root, id, params = {}) {
   const token = location.hash;
   loadGame(id).then(mod => {
     if (location.hash !== token) return;            // المستخدم راح صفحة تانية قبل ما اللعبة تتحمّل
-    if (!mod) { root.innerHTML = '<section class="card"><div class="empty"><div class="big">🤔</div><p>اللعبة دي مش موجودة</p></div><a class="btn btn-primary btn-big" href="#/games">🎮 الألعاب</a></section>'; return; }
+    if (!mod) { root.innerHTML = '<section class="card"><div class="empty"><div class="big">🤔</div><p>اللعبة دي مش موجودة</p></div><a class="btn btn-primary btn-big" href="#/games">الألعاب</a></section>'; return; }
     runGame(root, mod, params);
   });
 }

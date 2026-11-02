@@ -135,8 +135,8 @@ function startSession(root, lesson) {
 
   const lessonObj = lesson ? lessonOf(lesson) : null;
   const subChips = [
-    lessonObj ? `<span class="chip">📚 الدرس ${lessonObj.n} · <bdi class="de">${esc(lessonObj.title)}</bdi></span>` : '',
-    S.early ? '<span class="chip warn">⏩ مراجعة مبكرة</span>' : '',
+    lessonObj ? `<span class="chip">الدرس ${lessonObj.n} · <bdi class="de">${esc(lessonObj.title)}</bdi></span>` : '',
+    S.early ? '<span class="chip warn">مراجعة مبكرة</span>' : '',
   ].join('');
   const wrap = el(`<div class="ss-wrap">
     <div class="ss-top">
@@ -169,8 +169,8 @@ function startSession(root, lesson) {
   // ---------- الكروت ----------
   function tagRow(ex, item) {
     const chips = [];
-    if (item.extra) chips.push('<span class="chip">⚡ مراجعة سريعة</span>');
-    else if (item.retry) chips.push('<span class="chip warn">🔁 تاني مرة</span>');
+    if (item.extra) chips.push('<span class="chip">مراجعة سريعة</span>');
+    else if (item.retry) chips.push('<span class="chip warn">تاني مرة</span>');
     return `<div class="ss-tag"><span class="ss-hint">${esc(ex.prompt.hint || '')}</span>${chips.join('')}</div>`;
   }
   const sayBtn = (cls = '') => `<button type="button" class="ss-say ${cls}" data-act="say" aria-label="اسمع الكلمة">🔊</button>`;
@@ -192,7 +192,7 @@ function startSession(root, lesson) {
     switch (ex.type) {
       case 'intro': {
         const pl = pluralOf(w);
-        body = `<div class="ss-tag"><span class="chip blue">✨ كلمة جديدة</span>${ex.prompt.hint ? `<span class="chip">${esc(ex.prompt.hint)}</span>` : ''}</div>
+        body = `<div class="ss-tag"><span class="chip blue">كلمة جديدة</span>${ex.prompt.hint ? `<span class="chip">${esc(ex.prompt.hint)}</span>` : ''}</div>
           <div class="ss-flip" data-act="flip" role="button" tabindex="0" aria-label="اقلب الكارت">
             <div class="ss-flip-inner">
               <div class="ss-face ss-front">
@@ -212,7 +212,7 @@ function startSession(root, lesson) {
           <div class="ss-actions">
             <button type="button" class="btn btn-big btn-primary ss-flipbtn" data-act="flip">اقلب الكارت</button>
             <div class="grid2 ss-know" hidden>
-              <button type="button" class="btn btn-big" data-act="later">لسه 🤔</button>
+              <button type="button" class="btn btn-big" data-act="later">لسه</button>
               <button type="button" class="btn btn-big btn-primary" data-act="know">عارفها ✓</button>
             </div>
           </div>`;
@@ -417,8 +417,8 @@ function startSession(root, lesson) {
 
   function showFeedback(ex, item, res, xp) {
     const ok = res.ok;
-    const head = ok ? (item.retry && !item.extra ? 'صح! رجعتها 💪' : 'صح!') : (item.retry && !item.extra ? 'لسه غلط' : 'غلط');
-    const sub = ok ? '' : item.requeued ? 'هتيجي تاني كمان شوية 🔁' : 'هترجعلك في المراجعة الجاية 🔁';
+    const head = ok ? (item.retry && !item.extra ? 'صح! رجعتها' : 'صح!') : (item.retry && !item.extra ? 'لسه غلط' : 'غلط');
+    const sub = ok ? '' : item.requeued ? 'هتيجي تاني كمان شوية' : 'هترجعلك في المراجعة الجاية';
     fb.className = `ss-fb ${ok ? 'ok' : 'bad'}`;
     fb.innerHTML = `
       <div class="ss-fb-head"><b>${head}</b>${xp ? `<span class="ss-fb-xp">+${xp} XP</span>` : ''}</div>
@@ -467,13 +467,13 @@ function startSession(root, lesson) {
     const goal = Math.max(1, store.state.settings.dailyGoal | 0);
     const done = ((store.state.days || {})[today()] || {}).done | 0;
     const reached = done >= goal;
-    const title = pct === 100 ? 'كلها صح! 🏆' : pct >= 80 ? 'جامد جدًا! 👏' : pct >= 50 ? 'حلو، كمّل كده 💪' : 'ولا يهمك، التكرار بيعلّم 🙂';
+    const title = pct === 100 ? 'كلها صح!' : pct >= 80 ? 'جامد جدًا!' : pct >= 50 ? 'حلو، كمّل كده' : 'ولا يهمك، التكرار بيعلّم';
     const ringColor = pct >= 80 ? 'var(--good)' : pct >= 50 ? 'var(--blue)' : 'var(--warn)';
     const chips = [
-      st.newCount ? `<span class="chip blue">✨ ${nWords(st.newCount)} جديدة</span>` : '',
-      st.wrong ? `<span class="chip bad">❌ ${st.wrong} غلط</span>` : '',
-      st.retriesOk ? `<span class="chip good">🔁 ${st.retriesOk} رجعت صح</span>` : '',
-      S.early ? '<span class="chip warn">⏩ مراجعة مبكرة</span>' : '',
+      st.newCount ? `<span class="chip blue">${nWords(st.newCount)} جديدة</span>` : '',
+      st.wrong ? `<span class="chip bad">✗ ${st.wrong} غلط</span>` : '',
+      st.retriesOk ? `<span class="chip good">${st.retriesOk} رجعت صح</span>` : '',
+      S.early ? '<span class="chip warn">مراجعة مبكرة</span>' : '',
     ].join('');
     stage.innerHTML = '';
     stage.appendChild(el(`<section class="ss-card ss-results enter">
@@ -486,9 +486,9 @@ function startSession(root, lesson) {
       ${chips ? `<div class="ss-res-chips">${chips}</div>` : ''}
       <div class="ss-res-rows">
         <div class="ss-res-row"><span>🔥 ستريك: ${nDays(streak.current)}</span>${streak.best > streak.current ? `<span class="muted small">أحسن ستريك: ${streak.best}</span>` : ''}</div>
-        <div class="ss-res-row"><span>🎯 الهدف اليومي</span><span class="muted" dir="ltr">${Math.min(done, goal)}/${goal}</span></div>
+        <div class="ss-res-row"><span>الهدف اليومي</span><span class="muted" dir="ltr">${Math.min(done, goal)}/${goal}</span></div>
         <div class="bar ${reached ? 'good' : ''}"><i style="width:${Math.min(100, Math.round(done / goal * 100))}%"></i></div>
-        ${reached ? '<div class="ss-res-goal">✅ خلصت هدف النهارده</div>' : `<div class="muted small">فاضل ${nWords(goal - done)} وتخلص الهدف</div>`}
+        ${reached ? '<div class="ss-res-goal">✓ خلصت هدف النهارده</div>' : `<div class="muted small">فاضل ${nWords(goal - done)} وتخلص الهدف</div>`}
       </div>
       <div class="ss-res-actions">
         <button type="button" class="btn btn-big btn-primary" data-act="again">كمان جولة</button>
@@ -603,8 +603,8 @@ function startMatch(root, lesson) {
     <div class="ss-top">
       <button type="button" class="btn btn-icon ss-close" data-act="home" aria-label="خروج">✕</button>
       <div class="mg-mid">
-        <span class="chip">🧩 <b class="mg-count" dir="ltr">0/${n}</b></span>
-        ${lessonObj ? `<span class="chip">📚 الدرس ${lessonObj.n}</span>` : ''}
+        <span class="chip"><b class="mg-count" dir="ltr">0/${n}</b></span>
+        ${lessonObj ? `<span class="chip">الدرس ${lessonObj.n}</span>` : ''}
       </div>
       <span class="chip blue mg-timer" dir="ltr" aria-label="الوقت">00:00</span>
     </div>
@@ -663,9 +663,9 @@ function startMatch(root, lesson) {
     tick();
     try { addXp(MATCH_XP); store.bumpStreak(); } catch (e) { console.error('[match] addXp failed', e); }
     const card = el(`<section class="ss-card ss-results enter mg-done">
-      <div class="mg-done-ico">🎉</div>
+      <div class="mg-done-ico">🧩</div>
       <h2>وصّلت الكل!</h2>
-      <p class="hint">خلصت في <b dir="ltr">${fmtTime(ms)}</b> · ${wrongTaps ? `${wrongTaps} ${wrongTaps === 1 ? 'غلطة' : wrongTaps === 2 ? 'غلطتين' : 'غلطات'}` : 'من غير ولا غلطة 🎯'}</p>
+      <p class="hint">خلصت في <b dir="ltr">${fmtTime(ms)}</b> · ${wrongTaps ? `${wrongTaps} ${wrongTaps === 1 ? 'غلطة' : wrongTaps === 2 ? 'غلطتين' : 'غلطات'}` : 'من غير ولا غلطة'}</p>
       <div class="ss-res-xp"><b>+${MATCH_XP}</b> XP</div>
       <div class="ss-res-actions">
         <button type="button" class="btn btn-big btn-primary" data-act="again">كمان مرة</button>

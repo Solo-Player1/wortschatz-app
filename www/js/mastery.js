@@ -106,7 +106,7 @@ export function mission() {
   const passedToday = (day.exams | 0) > 0 || (day.crowns | 0) > 0;     // أول نجاح بس (progress.recordExam)
   if (allPassed()) {
     // كل الامتحانات خلصت: لو فيه تاج جاهز → المهمة التاج، غير كده مراجعة المستحق + ١٠ إجابات
-    if (st.crownReady) return { mode, done: passedToday, answers, goal, due, lesson, status: st, step: nextStep(lesson, st), title: `خد تاج الدرس ${lesson} 👑` };
+    if (st.crownReady) return { mode, done: passedToday, answers, goal, due, lesson, status: st, step: nextStep(lesson, st), title: `خد تاج الدرس ${lesson}` };
     const step = due > 0
       ? { key: 'review', icon: '🧠', label: 'راجع الكلمات المستحقة', hint: `${due} كلمة مستنية`, href: '#/session' }
       : { key: 'play', icon: '🎮', label: 'العب لعبة', hint: `${Math.max(0, 10 - answers)} إجابة وتخلص`, href: '#/games' };

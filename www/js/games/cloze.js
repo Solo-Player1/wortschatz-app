@@ -13,8 +13,8 @@ export const meta = {
   desc: 'في كل جملة كلمة ناقصة — اختارها، وبعدين اكتبها بنفسك. كل غلطة بقلب!',
   how: [
     'المعنى بالعربي تحت الجملة بيقولك الكلمة الناقصة إيه',
-    'النص الأول اختيار، والنص التاني هتكتب الكلمة بنفسك ✍️',
-    'بعد كل إجابة هتسمع الجملة كاملة 🔊',
+    'النص الأول اختيار، والنص التاني هتكتب الكلمة بنفسك',
+    'بعد كل إجابة هتسمع الجملة كاملة',
   ],
   hearts: 3,
   minItems: 4,
@@ -83,7 +83,7 @@ export function start(g) {
     const q = g.el(`<div class="gm-q">
       <button type="button" class="gm-speaker sm gm-cloze-say" aria-label="اسمع الجملة" hidden>🔊</button>
       <div class="gm-prompt"><div class="gm-cloze-p" data-sid="${g.esc(s.id)}" data-mode="${typing ? 'type' : 'choice'}">
-        <span class="chip ${typing ? 'warn' : 'blue'} gm-cloze-tag">${typing ? '✍️ اكتب الكلمة الناقصة' : '🫧 اختار الكلمة الناقصة'}</span>
+        <span class="chip ${typing ? 'warn' : 'blue'} gm-cloze-tag">${typing ? 'اكتب الكلمة الناقصة' : 'اختار الكلمة الناقصة'}</span>
         <p class="gm-cloze-de">${sentHtml(parts, '<span class="gm-cloze-blank" aria-label="كلمة ناقصة"> </span>')}</p>
         <p class="gm-ar">${g.esc(s.ar)}</p>
       </div></div>

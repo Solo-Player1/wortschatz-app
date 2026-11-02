@@ -7,7 +7,7 @@ const T_START = 6, T_STEP = 0.25, T_MIN = 2.5;
 const POOL_MIN = 10;                       // درس واحد أسماءه قليلة → نكمّل من الدروس اللي قبله («اللي ذاكرته» = اللي ذاكره بس)
 const ARTS = ['der', 'die', 'das'];
 const AUDIO_MS = 1800;                     // وقفة بعد الإجابة: صوت «الأداة + المفرد» يكمل قبل الكارت الجاي
-const FAST = ['⚡ سريع!', 'إيه السرعة دي! ⚡', 'صاروخ 🚀', 'طيارة! ✈️'];
+const FAST = ['سريع!', 'إيه السرعة دي!', 'صاروخ!', 'طيارة!'];
 
 const nounsOf = pool => pool.words({ kinds: ['noun'], min: pool.sel && pool.sel.kind === 'lesson' ? POOL_MIN : 3 }).filter(w => w && w.sg && ARTS.includes(w.art));
 const secsFor = rights => Math.max(T_MIN, T_START - T_STEP * rights);
@@ -20,9 +20,9 @@ export const meta = {
   short: 'اختار الأداة قبل الوقت ما يخلص',
   desc: 'هيظهرلك اسم من غير أداته — اختار der ولا die ولا das قبل الوقت ما يخلص!',
   how: [
-    'الوقت بيقصر مع كل إجابة صح ⏱ — وكل ما تجاوب أسرع النقط بتزيد ⚡',
+    'الوقت بيقصر مع كل إجابة صح — وكل ما تجاوب أسرع النقط بتزيد',
     'لو الوقت خلص قبل ما تختار تبقى غلطة بقلب',
-    'كل 5 صح ورا بعض = قلب زيادة ❤️',
+    'كل 5 صح ورا بعض = قلب زيادة',
   ],
   hearts: 3,
   kinds: ['noun'],
@@ -138,7 +138,7 @@ export function start(g) {
       const bonus = Math.round((10 * left) / secs);
       if (streak % 5 === 0 && g.hearts < g.meta.hearts) {
         g.addHeart();
-        g.toast('❤️ قلب زيادة!');
+        g.toast('قلب زيادة!');
       }
       // ١٫٨ ثانية: «der/die/das + الاسم» في صوت DW بيخلص في أقل من ١٫٥ ثانية لـ٩٠٪ من الأسماء — بعدها next() بيوقف «die + الجمع»
       go = await g.correct({ points: 10 + bonus, wordId: w.id, msg: bonus >= 6 ? FAST[Math.floor(Math.random() * FAST.length)] : undefined, ms: AUDIO_MS });
@@ -150,7 +150,7 @@ export function start(g) {
         wordId: w.id,
         correctHtml: g.wordHtml(w),
         label: w.ar,
-        msg: fatal || art ? undefined : '⏱ الوقت خلص!',
+        msg: fatal || art ? undefined : 'الوقت خلص!',
         wait: false,
         ms: AUDIO_MS,       // يسمع الأداة الصح كاملة
       });

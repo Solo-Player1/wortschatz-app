@@ -13,11 +13,11 @@ export const meta = {
   desc: 'كمّل السؤال بالأداة الصح، واعرف السؤال من الرد عليه — كل غلطة بقلب!',
   how: [
     'المعنى بالعربي تحت السؤال بيقولك بنسأل عن إيه',
-    'أحيانًا هتشوف الرد ولازم تختار السؤال بتاعه 🔄',
-    '📒 عايز تراجع؟ «كل أدوات الاستفهام» في صفحة المراجع',
+    'أحيانًا هتشوف الرد ولازم تختار السؤال بتاعه',
+    'عايز تراجع؟ «كل أدوات الاستفهام» في صفحة المراجع',
   ],
   // لينك صفحة المراجع (لو الإنجن عرض meta.links في شاشة البداية)
-  links: [{ href: '#/ref/wwords', label: '📒 كل أدوات الاستفهام' }],
+  links: [{ href: '#/ref/wwords', label: 'كل أدوات الاستفهام' }],
   hearts: 3,
   minItems: 3,     // الدرس الأول فيه ٣ أسئلة بس
   unit: 'سؤال',
@@ -137,7 +137,7 @@ export function start(g) {
     g.stage.innerHTML = '';
     const parts = it.q.split('___');
     const q = g.el(`<div class="gm-q"><div class="gm-prompt"><div class="gm-wfragen-p" data-wid="${g.esc(it.id)}" data-type="A">
-        <span class="chip blue gm-wfragen-tag">❓ كمّل السؤال</span>
+        <span class="chip blue gm-wfragen-tag">كمّل السؤال</span>
         <p class="gm-wfragen-q"><bdi class="de">${g.esc(parts[0])}<span class="gm-wfragen-blank">?</span>${g.esc(parts.slice(1).join('___'))}</bdi></p>
         <p class="gm-ar">${g.esc(it.ar || '')}</p>
         <div class="gm-wfragen-slot"></div>
@@ -165,7 +165,7 @@ export function start(g) {
   const askB = it => new Promise(resolve => {
     g.stage.innerHTML = '';
     g.stage.appendChild(g.el(`<div class="gm-q"><div class="gm-prompt"><div class="gm-wfragen-p" data-wid="${g.esc(it.id)}" data-type="B">
-        <span class="chip warn gm-wfragen-tag">🔄 إيه السؤال؟</span>
+        <span class="chip warn gm-wfragen-tag">إيه السؤال؟</span>
         ${replyHtml(it, 'big')}
         <p class="hint center">ده الرد — اختار السؤال بتاعه</p>
       </div></div></div>`));
