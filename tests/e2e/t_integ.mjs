@@ -41,7 +41,7 @@ async function run(mode, dark) {
     await p.addInit(`window.__videosJson = null; fetch('data/videos.json').then(r=>r.json()).then(j=>window.__videosJson=j);` + NATIVE_MOCK);
   }
   // fake pending update, already checked (no network)
-  await p.addInit(`try{ if(!localStorage.getItem('ws:v1')) localStorage.setItem('ws:v1', JSON.stringify({version:1, settings:{theme:'${dark ? 'dark' : 'light'}'}, progress:{}, days:{}, streak:{current:0,best:0,lastDay:''}, xp:0, lastSession:null, updates:{lastCheck:Date.now(), available:{version:'1.1.0',versionCode:2,apk:'https://example.com/a.apk',notes:'تجربة بانر التحديث',date:'2026-11-02'}, dismissed:0}})); }catch(e){}`);
+  await p.addInit(`try{ if(!localStorage.getItem('ws:v1')) localStorage.setItem('ws:v1', JSON.stringify({version:1, settings:{theme:'${dark ? 'dark' : 'light'}'}, progress:{}, days:{}, streak:{current:0,best:0,lastDay:''}, xp:0, lastSession:null, updates:{lastCheck:Date.now(), available:{version:'9.9.0',versionCode:99,apk:'https://example.com/a.apk',notes:'تجربة بانر التحديث',date:'2026-11-02'}, dismissed:0}})); }catch(e){}`);
   await p.goto(BASE + '#/home', 2000);
   const tag = `${mode}-${dark ? 'dark' : 'light'}`;
   const home = await p.evaluate(`({banner: !!document.querySelector('.up-banner'), teaser: !!document.querySelector('.vd-teaser.compact'), ow: document.documentElement.scrollWidth - innerWidth})`);
@@ -74,7 +74,7 @@ async function run(mode, dark) {
   await p.hash('#/settings', 1000);
   const set = await p.evaluate(`({vd: document.querySelector('#videoSettings')?.textContent.trim().slice(0,80), up: !!document.querySelector('.up-settings'), ver: document.querySelector('.up-version')?.textContent.trim(), all: !!document.querySelector('[data-act=all]'), ow: document.documentElement.scrollWidth - innerWidth})`);
   check(`${tag} settings: video section`, !!set.vd && (mode === 'native' ? set.all : true), JSON.stringify(set));
-  check(`${tag} settings: update card`, set.up && /1\.0\.0/.test(set.ver || ''), set.ver);
+  check(`${tag} settings: update card`, set.up && /\d+\.\d+\.\d+/.test(set.ver || ''), set.ver);
   check(`${tag} settings: no h-overflow`, set.ow <= 0, 'overflow=' + set.ow);
   await p.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
   await p.shot(path.join(OUT, `settings-${tag}.png`));

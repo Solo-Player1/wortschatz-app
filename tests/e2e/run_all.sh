@@ -9,3 +9,4 @@ echo "== notifications"; timeout 150 node t_notify.mjs 2>&1 | grep -E "^(PASS|FA
 echo "== monkey all games"; timeout 900 node t_monkey.mjs 2>&1 | grep -E "FAIL|ALL PASS|SOME"
 echo "== review-2 fixes"; timeout 300 node t_fixes2.mjs 2>&1 | grep -E "^FAIL|ALL PASS|SOME"
 echo "== review-3 latch"; timeout 200 node t_latch.mjs 2>&1 | grep -E "^FAIL|ALL PASS|SOME"
+echo "== in-app update"; timeout 200 node t_update.mjs 2>&1 | grep -E "^FAIL|ALL PASS|SOME"

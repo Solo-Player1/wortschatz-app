@@ -73,6 +73,8 @@ if errorlevel 1 (
   goto :fail
 )
 for %%F in ("dist\Wortschatz-v%VER%.apk") do echo == APK ready: %%~fF ^(%%~zF bytes^)
+rem snapshot of www\ inside this APK (base for in-app web updates: tools\web_update.py make)
+python -X utf8 tools\web_update.py baseline
 popd
 exit /b 0
 

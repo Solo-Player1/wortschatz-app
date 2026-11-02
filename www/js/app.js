@@ -87,6 +87,7 @@ async function boot() {
   });
   if (!location.hash) location.replace('#/home');
   render();
+  update.confirmBoot();       // النسخة دي فتحت تمام (بعد تحديث من جوه الأبلكيشن) + رسالة «اتحدّث»
   // فحص التحديثات بعد أول رسم (مرة في اليوم، ومش بيأخّر التشغيل)
   setTimeout(() => update.checkForUpdate().then(a => { if (a && (location.hash || '#/home').startsWith('#/home')) render(); }), 1500);
   // التذكير كل ساعة: بيتجدول تاني كل ما الأبلكيشن يتقفل أو يتفتح

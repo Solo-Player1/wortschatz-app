@@ -59,3 +59,6 @@ OUT="dist/Wortschatz-v$VERSION.apk"
 cp -f "$APK" "$OUT" || exit 1
 SIZE="$(du -h "$OUT" | cut -f1)"
 echo "== APK ready: $(cygpath -w "$ROOT/$OUT" 2>/dev/null || echo "$ROOT/$OUT") ($SIZE)"
+
+# 6) snapshot of www/ inside this APK (base for in-app web updates: tools/web_update.py make)
+python -X utf8 tools/web_update.py baseline || echo "WARNING: web baseline not written"
