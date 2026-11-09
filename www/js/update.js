@@ -40,7 +40,8 @@ const keyOf = m => `${+m.versionCode}.${webOf(m) ? +webOf(m).build : 0}`;       
 const versionOf = m => (updateKind(m) === 'web' ? webOf(m).version || m.version : m.version) || '';
 const notesOf = m => (updateKind(m) === 'web' ? webOf(m).notes : m.notes) || '';
 const updater = () => (isNative() ? plugin('Updater') : null);
-export const versionLabel = () => `${APP_VERSION}${WEB_BUILD ? ` · تحديث ${WEB_BUILD}` : ''}`;
+// رقم الإصدار: تحديثات الويب بتزوّد الرقم بالترتيب (1.4 ، 1.5 …) — أنضف من «1.1.0 · تحديث 4»
+export const versionLabel = () => (WEB_BUILD ? `1.${WEB_BUILD}` : APP_VERSION);
 
 // ---------- check ----------
 // بترجّع المانيفست لو فيه إصدار أجدد، غير كده null. أي خطأ شبكة → null بصمت.

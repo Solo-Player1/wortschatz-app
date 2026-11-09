@@ -77,7 +77,7 @@ def make(notes):
             z.write(os.path.join(WWW, k), k)
     man = json.load(open(MANIFEST, encoding='utf-8'))
     man['web'] = {
-        'build': build, 'version': f'{app_version} · تحديث {build}',
+        'build': build, 'version': f'1.{build}',
         'zip': f'https://github.com/{REPO}/releases/download/web-{build}/www-{build}.zip',
         'sha256': sha(zp), 'size': os.path.getsize(zp), 'minVersionCode': code,
         'notes': notes, 'date': datetime.date.today().isoformat(),

@@ -7,12 +7,12 @@
   "dataVersion": 1,
   "web": {
     "build": 4,
-    "version": "1.1.0 · تحديث 4",
+    "version": "1.4",
     "zip": "https://github.com/Solo-Player1/wortschatz-app/releases/download/web-4/www-4.zip",
-    "sha256": "7467faaff610cba8e5ea34d4d42f6a1dd28454e77fbee14e6d7155c53592cb27",
-    "size": 48475,
+    "sha256": "fca00eca961ca53d3ae192f3b4ee83e4c6fbba4bb0cc8cf5a4cb90991a9edc8a",
+    "size": 48541,
     "minVersionCode": 2,
-    "notes": "تبسيط: التذكير بقى أوتوماتيك كل ساعة (١٠ص–١٠م)، وشيلنا إعدادات مش مهمة.",
+    "notes": "تبسيط: تذكير أوتوماتيك كل ساعة (١٠ص–١٠م) + تنضيف الإعدادات.",
     "date": "2026-11-09"
   }
 }
