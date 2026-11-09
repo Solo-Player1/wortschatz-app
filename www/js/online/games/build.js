@@ -21,6 +21,9 @@ export function start(vs) {
   vs.on('intent', d => { if (vs.isHost) applyIntent(d.op, d.t); });   // الضيف بيبعت نيّة، المضيف بيطبّق
   vs.on('endco', d => vs.end({ win: d.win, coop: true, me: d.n, peer: d.n, msg: `كوّنتوا ${d.n} من ${ROUNDS} جملة` }));
 
+  // بعد رجوع الاتصال: المضيف يعيد إرسال الجولة واللوحة الحالية (عشان صاحبك يلحق أي تغيير فات عليه).
+  vs.onResync(() => { if (vs.isHost && round) { vs.send('round', { round }); vs.send('board', { placed }); vs.send('solved', { n: solvedCount }); } });
+
   if (vs.isHost) {
     const maxL = poolMaxLesson(vs.pool);
     const pool = (vs.pool && vs.pool.kind === 'lesson' ? sentencesOf(vs.pool.lesson) : sentencesUpTo(maxL)).filter(s => tilesOf(s).length >= 2);

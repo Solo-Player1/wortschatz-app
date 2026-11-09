@@ -19,6 +19,17 @@ export function runRace(vs, { kind, mode, rounds }) {
   if (vs.isHost) { plan = buildRacePlan(kind, vs.pool, rounds); vs.send('plan', { plan }); start(); }
   else { vs.stage.innerHTML = '<div class="vs-q"><p class="vs-wait">بنبدأ…</p></div>'; vs.on('plan', d => { if (plan) return; plan = d.plan; start(); }); }
 
+  // بعد رجوع الاتصال: نعيد إرسال الخطة (لو صاحبك ما وصلته) وإجابتي للجولة الحالية (لو اتبعتت وضاعت
+  // لحظة القطع) عشان الجولة ماتعلّقش وتتحسب عند الاتنين.
+  vs.onResync(() => {
+    if (vs.isHost && plan) vs.send('plan', { plan });
+    if (!plan) return;
+    for (let k = Math.max(0, i - 2); k <= i; k++) {   // آخر كام إجابة تكفي لتصليح أي فرق جولة بسيط
+      const q = plan[k];
+      if (q && myA[q.i]) vs.send('a', { i: q.i, c: myA[q.i].c, ms: Math.round(myA[q.i].ms) });
+    }
+  });
+
   function start() { i = 0; next(); }
 
   function next() {

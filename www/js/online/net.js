@@ -48,41 +48,80 @@ export function hasServer() {
 // جلسة اتصال واحدة: host(game,pool) أو join(code)، send(d)، أحداث عن طريق on(type, fn)
 export function connect() {
   let ws = null, url = '', closed = false, pingT = null;
+  let sid = '', code = '', intentCode = '';          // حالة إعادة الاتصال
+  let reconnecting = false, attempts = 0, giveUpT = null, retryT = null;
+  let lastPingAt = 0, rtt = 0;
   const handlers = {};   // type -> Set<fn>
   const on = (type, fn) => { (handlers[type] ||= new Set()).add(fn); return () => handlers[type] && handlers[type].delete(fn); };
   const emit = (type, data) => { (handlers[type] || []).forEach(fn => { try { fn(data); } catch (e) { console.warn('[net]', e); } }); (handlers['*'] || []).forEach(fn => { try { fn(type, data); } catch (e) { /* ignore */ } }); };
   const raw = o => { try { if (ws && ws.readyState === 1) ws.send(JSON.stringify(o)); } catch (e) { /* ignore */ } };
+  const clearPing = () => { if (pingT) clearInterval(pingT); pingT = null; };
+  const backoff = () => Math.min(5000, 400 + attempts * 600);
+
+  function endReconnect(ok) {
+    reconnecting = false;
+    if (giveUpT) { clearTimeout(giveUpT); giveUpT = null; }
+    if (retryT) { clearTimeout(retryT); retryT = null; }
+    if (!ok && !closed) emit('status', 'dropped');
+  }
+  function beginReconnect() {
+    if (closed || reconnecting) return;
+    reconnecting = true; attempts = 0;
+    emit('status', 'reconnecting');
+    giveUpT = setTimeout(() => endReconnect(false), 44000);   // يطابق مهلة السماح في السيرفر
+    attemptReconnect();
+  }
+  function attemptReconnect() { if (closed || !reconnecting) return; attempts++; api._open(true); }
 
   const api = {
     on,
     get ready() { return ws && ws.readyState === 1; },
+    get ping() { return rtt; },                         // آخر زمن ردّ (مللي ثانية)
     send(d) { raw({ t: 'game', d }); },                 // بيانات اللعبة (opaque للسيرفر)
     host(game, pool, name) { api._intent = { k: 'host', game, pool, name }; return api._open(); },
-    join(code, name) { api._intent = { k: 'join', code: String(code || '').trim().toUpperCase(), name }; return api._open(); },
-    bye() { raw({ t: 'bye' }); api.close(); },
-    close() { closed = true; if (pingT) clearInterval(pingT); try { ws && ws.close(); } catch (e) { /* ignore */ } },
+    join(c, name) { intentCode = String(c || '').trim().toUpperCase(); api._intent = { k: 'join', code: intentCode, name }; return api._open(); },
+    bye() { closed = true; raw({ t: 'bye' }); api.close(); },
+    close() { closed = true; endReconnect(true); clearPing(); try { ws && ws.close(); } catch (e) { /* ignore */ } },
 
-    async _open() {
-      url = await serverUrl();
+    async _open(isReconnect) {
+      if (!url || !isReconnect) url = await serverUrl();
       if (!url) { emit('status', 'noserver'); return api; }
-      emit('status', 'connecting');
-      try { ws = new WebSocket(url); } catch (e) { emit('status', 'error'); return api; }
+      emit('status', isReconnect ? 'reconnecting' : 'connecting');
+      try { ws = new WebSocket(url); } catch (e) {
+        if (isReconnect) { retryT = setTimeout(attemptReconnect, backoff()); return api; }
+        emit('status', 'error'); return api;
+      }
       ws.addEventListener('open', () => {
-        emit('status', 'online');
-        const i = api._intent;
-        if (i && i.k === 'host') raw({ t: 'host', game: i.game, pool: i.pool, name: i.name });
-        else if (i && i.k === 'join') raw({ t: 'join', code: i.code, name: i.name });
-        pingT = setInterval(() => raw({ t: 'ping' }), 20000);
+        if (reconnecting && sid && code) { raw({ t: 'rejoin', code, sid }); }   // نرجع لنفس الغرفة
+        else {
+          const i = api._intent;
+          if (i && i.k === 'host') raw({ t: 'host', game: i.game, pool: i.pool, name: i.name });
+          else if (i && i.k === 'join') raw({ t: 'join', code: i.code, name: i.name });
+        }
+        clearPing();
+        pingT = setInterval(() => { lastPingAt = Date.now(); raw({ t: 'ping' }); }, 4000);
+        lastPingAt = Date.now(); raw({ t: 'ping' });
+        if (!reconnecting) emit('status', 'online');
       });
       ws.addEventListener('message', e => {
         let m; try { m = JSON.parse(e.data); } catch (err) { return; }
         if (!m || !m.t) return;
-        if (m.t === 'pong') return;
+        if (m.t === 'pong') { if (lastPingAt) { rtt = Date.now() - lastPingAt; emit('rtt', rtt); } return; }
+        if (m.t === 'room') { code = m.code; if (m.sid) sid = m.sid; }
+        else if (m.t === 'joined') { code = intentCode || code; if (m.sid) sid = m.sid; }
+        else if (m.t === 'rejoined') { endReconnect(true); emit('status', 'online'); emit('resumed', m); return; }
+        else if (m.t === 'err' && reconnecting && m.code === 'gone') { endReconnect(false); return; }
         if (m.t === 'game') emit('game', m.d);          // بيانات الطرف التاني
-        else emit(m.t, m);                              // room / joined / peer / peerLeft / err
+        else emit(m.t, m);                              // room/joined/peer/peerAway/peerBack/peerLeft/err
       });
-      ws.addEventListener('close', () => { if (pingT) clearInterval(pingT); emit('status', closed ? 'closed' : 'dropped'); });
-      ws.addEventListener('error', () => emit('status', 'error'));
+      ws.addEventListener('close', () => {
+        clearPing();
+        if (closed) { emit('status', 'closed'); return; }
+        if (reconnecting) { retryT = setTimeout(attemptReconnect, backoff()); return; }
+        if (sid && code) { beginReconnect(); return; }   // كنا في غرفة → نحاول نرجع
+        emit('status', 'dropped');
+      });
+      ws.addEventListener('error', () => { /* 'close' هييجي بعدها */ });
       return api;
     },
   };

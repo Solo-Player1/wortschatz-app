@@ -7,11 +7,28 @@ import { shareText } from '../native.js';
 import { connect, hasServer } from './net.js';
 import { makeVs } from './engine2.js';
 import { VS_GAMES, vsGame } from './index.js';
+import { startPresence, stopPresence, onPresence } from './presence.js';
 
 let net = null, vs = null, sel = null;   // sel = { game, pool, isHost }
 
 function myName() { return (store.state.settings && store.state.settings.name || '').trim() || 'لاعب'; }
-function cleanup() { try { vs && vs.destroy(); } catch (e) { /* ignore */ } vs = null; try { net && net.close(); } catch (e) { /* ignore */ } net = null; }
+function cleanup() { stopPresence(); try { vs && vs.destroy(); } catch (e) { /* ignore */ } vs = null; try { net && net.close(); } catch (e) { /* ignore */ } net = null; }
+
+// مؤشر حالة السيرفر + البنج (زي الألعاب الكبيرة): يتحدّث لوحده من presence
+function connBadgeHtml() { return `<div class="vs-conn" id="vsConn" data-s="connecting"><span class="vs-conn-dot"></span><span class="vs-conn-txt">بنتأكد من السيرفر…</span></div>`; }
+function wireConnBadge(root) {
+  const b = root.querySelector('#vsConn'); if (!b) return;
+  const dot = b.querySelector('.vs-conn-dot'), txt = b.querySelector('.vs-conn-txt');
+  const off = onPresence(st => {
+    if (!document.body.contains(b)) { off(); return; }
+    let s = st.status, label;
+    if (s === 'online') { label = `السيرفر جاهز · ${st.ms}ms`; b.dataset.s = st.ms < 300 ? 'online' : 'weak'; if (st.ms >= 300) label = `اتصال ضعيف · ${st.ms}ms`; }
+    else if (s === 'weak') { label = `اتصال ضعيف · ${st.ms}ms`; b.dataset.s = 'weak'; }
+    else if (s === 'noserver' || s === 'dropped') { label = 'مفيش اتصال بالسيرفر'; b.dataset.s = 'off'; }
+    else { label = 'بنتأكد من السيرفر…'; b.dataset.s = 'connecting'; }
+    txt.textContent = label;
+  });
+}
 
 // أول ما نسيب #/vs نقفل الاتصال
 if (typeof window !== 'undefined' && !window.__vsHook) {
@@ -39,7 +56,8 @@ function chooseGame(root) {
   const lesson = currentLesson();
   root.innerHTML = `
     <section class="card vs-hero"><div class="row"><span class="vs-hero-ico">⚔️</span>
-      <div class="grow"><h1>العب مع صاحبك</h1><p class="hint">كل واحد من تليفونه. اعمل غرفة وابعت الكود لصاحبك، أو ادخل بكوده.</p></div></div></section>
+      <div class="grow"><h1>العب مع صاحبك</h1><p class="hint">كل واحد من تليفونه. اعمل غرفة وابعت الكود لصاحبك، أو ادخل بكوده.</p></div></div>
+      ${connBadgeHtml()}</section>
     <section class="card"><h2 class="sec-title">اختار اللعبة</h2>
       <div class="vs-grid">${VS_GAMES.map(g => `<button type="button" class="vs-card" data-g="${esc(g.meta.id)}">
         <span class="vs-card-ico">${g.meta.icon}</span><b>${esc(g.meta.title)}</b><span class="vs-card-desc">${esc(g.meta.short)}</span>
@@ -57,6 +75,8 @@ function chooseGame(root) {
       <button type="button" class="btn btn-big" id="vsJoinBtn" disabled>ادخل بكود صاحبك</button>
     </div>
     <p class="hint center vs-pick-hint">اختار لعبة الأول</p>`;
+
+  startPresence(); wireConnBadge(root);   // اتصال دافئ + مؤشر البنج
 
   let game = null, poolKind = 'lesson';
   const poolSeg = root.querySelector('.vs-pool-seg'), lessonSel = root.querySelector('.vs-lesson');
@@ -123,6 +143,7 @@ function joinWithCode(root, code, game, statusEl) {
 
 // ---------- تشغيل اللعبة ----------
 function launch(root, game, pool, isHost, peerName) {
+  stopPresence();   // الماتش له اتصاله الخاص (ومؤشر بنج خاص) — نقفل الاتصال الدافئ
   const mod = vsGame(game); if (!mod) { toast('لعبة مش موجودة'); location.hash = '#/vs'; return; }
   try { vs && vs.destroy(); } catch (e) { /* ignore */ }
   const onExit = reason => {

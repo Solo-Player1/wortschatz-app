@@ -8,18 +8,22 @@ const LINES = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8],
 export const meta = { id: 'bingo', title: 'بنجو الأرقام', icon: '🔢' };
 
 export function start(vs) {
-  let card = null, calls = null, word = n => String(n);
+  let card = null, calls = null, word = n => String(n), guestCard = null;
   const called = new Set(), marks = new Set();
   let callT = null, callIdx = 0, over = false, won = false;
 
-  vs.on('setup', d => { card = d.card; render(); });
+  vs.on('setup', d => { if (!card) { card = d.card; render(); } });
   vs.on('call', d => announce(d.n));
   vs.on('claim', () => { if (vs.isHost && !won) winner('guest'); });     // المضيف بيحكم
   vs.on('win', d => finish(d.who));
+  // بعد رجوع الاتصال: الضيف بيلحق أي أرقام اتنادت وهو مقطوع
+  vs.on('synccalls', d => { (d.nums || []).forEach(n => called.add(n)); refreshCallable(); });
+  // المضيف يعيد إرسال الكارت + كل الأرقام اللي اتنادت
+  vs.onResync(() => { if (vs.isHost) { if (guestCard) vs.send('setup', { card: guestCard }); vs.send('synccalls', { nums: [...called] }); } });
 
   if (vs.isHost) {
     const b = buildBingo(vs.pool, N);
-    card = b.hostCard; calls = b.calls; word = b.word;
+    card = b.hostCard; calls = b.calls; word = b.word; guestCard = b.guestCard;
     vs.send('setup', { card: b.guestCard });
     render();
     // النداء
@@ -39,7 +43,11 @@ export function start(vs) {
     const call = vs.root.querySelector('.vs-call');
     if (call) call.innerHTML = `<bdi class="de">${word(n)}</bdi><div class="muted" dir="ltr" style="font-size:20px">${n}</div>`;
     vs.say(String(word(n)));
-    // نحدّث القابل للتعليم
+    refreshCallable();
+  }
+
+  function refreshCallable() {
+    if (!card) return;
     vs.stage.querySelectorAll('.vs-bingo-cell').forEach((c, k) => c.classList.toggle('callable', called.has(card[k]) && !marks.has(k)));
   }
 

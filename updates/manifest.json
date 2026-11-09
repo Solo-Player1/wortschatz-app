@@ -4,5 +4,15 @@
   "apk": "https://github.com/Solo-Player1/wortschatz-app/releases/download/v1.5.0/Wortschatz-v1.5.0.apk",
   "notes": "نسخة 1.5: اللعب مع صاحبك، تذكير أوتوماتيك كل ساعة، وإعدادات أبسط.",
   "date": "2026-11-09",
-  "dataVersion": 1
+  "dataVersion": 1,
+  "web": {
+    "build": 6,
+    "version": "1.6",
+    "zip": "https://github.com/Solo-Player1/wortschatz-app/releases/download/web-6/www-6.zip",
+    "sha256": "725ca0870905a3a4c84996bfe3da62b9c34d974bc828280c2d8250a3e7b16884",
+    "size": 22281,
+    "minVersionCode": 3,
+    "notes": "تحسين الاتصال: لو الاتصال قطع ثانية بيرجع لوحده واللعبة تكمّل (مش بتقع)، ومؤشر بنج وحالة السيرفر قبل ما تبدأ.",
+    "date": "2026-11-09"
+  }
 }

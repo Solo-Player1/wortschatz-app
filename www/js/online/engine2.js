@@ -22,7 +22,7 @@ export function makeVs(root, { meta, net, isHost, meName, peerName, pool, onExit
     <div class="vs-top">
       <button type="button" class="btn btn-icon vs-close" aria-label="خروج">✕</button>
       <div class="vs-score vs-me"><b class="n">0</b><small>${esc(meName || 'أنا')}</small></div>
-      <div class="vs-mid"><span class="vs-ico" aria-hidden="true">${meta.icon || '⚔️'}</span><span class="vs-dot" title="الاتصال"></span></div>
+      <div class="vs-mid"><span class="vs-ico" aria-hidden="true">${meta.icon || '⚔️'}</span><span class="vs-dot" title="الاتصال"></span><span class="vs-ms" aria-hidden="true"></span></div>
       <div class="vs-score vs-peer"><b class="n">0</b><small>${esc(peerName || 'صاحبي')}</small></div>
     </div>
     <div class="vs-bar" hidden><i style="width:0%"></i></div>
@@ -32,7 +32,7 @@ export function makeVs(root, { meta, net, isHost, meName, peerName, pool, onExit
   root.appendChild(wrap);
   const $ = s => wrap.querySelector(s);
   const stage = $('.vs-stage'), fbEl = $('.vs-fb'), dot = $('.vs-dot');
-  const meEl = $('.vs-me .n'), peerEl = $('.vs-peer .n'), barEl = $('.vs-bar');
+  const meEl = $('.vs-me .n'), peerEl = $('.vs-peer .n'), barEl = $('.vs-bar'), msEl = $('.vs-ms');
 
   const setStatus = s => { dot.dataset.s = s; };
   setStatus(net.ready ? 'online' : 'connecting');
@@ -47,6 +47,7 @@ export function makeVs(root, { meta, net, isHost, meName, peerName, pool, onExit
     // ---------- اتصال اللعبة ----------
     send(k, extra) { net.send({ k, ...extra }); },
     on(k, fn) { const off = net.on('game', d => { if (d && d.k === k) fn(d); }); cleanups.push(off); return off; },
+    onResync(fn) { vs._resync = fn; },                 // تُستدعى بعد رجوع الاتصال لمزامنة الحالة
 
     // ---------- نقط ----------
     setScores(me, peer) { st.me = me; st.peer = peer; meEl.textContent = me; peerEl.textContent = peer; },
@@ -156,10 +157,32 @@ export function makeVs(root, { meta, net, isHost, meName, peerName, pool, onExit
     },
   };
 
-  // حالة الاتصال + خروج الطرف التاني
-  cleanups.push(net.on('status', s => { setStatus(s); if ((s === 'dropped' || s === 'closed') && !st.over) peerGone('مفيش اتصال'); }));
+  // حالة الاتصال + قياس البنج + إعادة الاتصال + خروج الطرف التاني
+  cleanups.push(net.on('rtt', ms => { if (msEl) { msEl.textContent = ms + 'ms'; msEl.dataset.q = ms < 120 ? 'good' : ms < 300 ? 'ok' : 'weak'; } }));
+  cleanups.push(net.on('status', s => {
+    setStatus(s);
+    if (s === 'reconnecting') netBusy(true, 'بيعيد الاتصال…');
+    else if (s === 'online') netBusy(false);
+    else if (s === 'dropped' && !st.over) peerGone('انقطع الاتصال');
+  }));
+  cleanups.push(net.on('resumed', () => { netBusy(false); doResync(); }));
+  cleanups.push(net.on('peerAway', () => { if (!st.over) netBusy(true, `${vs.peerName} بيعيد الاتصال…`); }));
+  cleanups.push(net.on('peerBack', () => { netBusy(false); doResync(); }));
   cleanups.push(net.on('peerLeft', () => { if (!st.over) peerGone(); }));
+
+  let recoEl = null;
+  function netBusy(on, text) {
+    if (st.over) { if (recoEl) recoEl.hidden = true; return; }
+    if (on) {
+      if (!recoEl) { recoEl = el('<div class="vs-reco"></div>'); wrap.appendChild(recoEl); }
+      recoEl.innerHTML = `<span class="vs-reco-dot"></span><span>${esc(text || 'بيعيد الاتصال…')}</span>`;
+      recoEl.hidden = false;
+    } else if (recoEl) { recoEl.hidden = true; }
+  }
+  function doResync() { if (vs._resync && !st.over) { try { vs._resync({ isHost }); } catch (e) { /* ignore */ } } }
+
   function peerGone(reason) {
+    if (recoEl) recoEl.hidden = true;
     st.over = true;
     for (const t of timers) { clearTimeout(t); clearInterval(t); } timers.clear();
     const ov = el(`<div class="vs-over"><div class="card"><div class="big">👋</div><h2>${esc(reason || 'صاحبك خرج من اللعبة')}</h2><a class="btn btn-primary btn-big" href="#/vs">غرفة جديدة</a><a class="btn btn-ghost" href="#/games">الألعاب</a></div></div>`);
@@ -192,8 +215,13 @@ const CSS = `
 .vs-mid { display: grid; justify-items: center; gap: 3px; }
 .vs-ico { font-size: 22px; line-height: 1; }
 .vs-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); }
-.vs-dot[data-s="online"] { background: var(--good); } .vs-dot[data-s="connecting"] { background: var(--warn); }
+.vs-dot[data-s="online"] { background: var(--good); } .vs-dot[data-s="connecting"], .vs-dot[data-s="reconnecting"] { background: var(--warn); animation: vs-dot-pulse 1s infinite; }
 .vs-dot[data-s="dropped"], .vs-dot[data-s="error"], .vs-dot[data-s="closed"] { background: var(--bad); }
+@keyframes vs-dot-pulse { 50% { opacity: .3; } }
+.vs-ms { font: 700 11px/1 var(--font-de); color: var(--ink-2); min-width: 34px; text-align: center; }
+.vs-ms[data-q="good"] { color: var(--good-text); } .vs-ms[data-q="ok"] { color: var(--warn-text); } .vs-ms[data-q="weak"] { color: var(--bad-text); }
+.vs-reco { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + var(--safe-b)); z-index: 45; display: flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; background: var(--warn-tint, var(--surface-2)); color: var(--warn-text); border: 1px solid var(--warn); font-weight: 800; box-shadow: 0 6px 20px rgba(0,0,0,.18); }
+.vs-reco-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--warn); animation: vs-dot-pulse .8s infinite; }
 .vs-bar { height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
 .vs-bar > i { display: block; height: 100%; background: var(--blue); border-radius: inherit; }
 .vs-bar.vs-timer > i { transition: width .1s linear; } .vs-bar.low > i { background: var(--bad); }
