@@ -1,18 +1,8 @@
 {
-  "version": "1.1.0",
-  "versionCode": 2,
-  "apk": "https://github.com/Solo-Player1/wortschatz-app/releases/download/v1.1.0/Wortschatz-v1.1.0.apk",
-  "notes": "زرار «حدّث» جوه الأبلكيشن: بينزّل التحديث ويفتح الأبلكيشن من جديد متحدّث. + أيقونة جديدة وإيموجي أقل ومكتبة PDF.",
-  "date": "2026-11-02",
-  "dataVersion": 1,
-  "web": {
-    "build": 4,
-    "version": "1.4",
-    "zip": "https://github.com/Solo-Player1/wortschatz-app/releases/download/web-4/www-4.zip",
-    "sha256": "fca00eca961ca53d3ae192f3b4ee83e4c6fbba4bb0cc8cf5a4cb90991a9edc8a",
-    "size": 48541,
-    "minVersionCode": 2,
-    "notes": "تبسيط: تذكير أوتوماتيك كل ساعة (١٠ص–١٠م) + تنضيف الإعدادات.",
-    "date": "2026-11-09"
-  }
+  "version": "1.5",
+  "versionCode": 3,
+  "apk": "https://github.com/Solo-Player1/wortschatz-app/releases/download/v1.5.0/Wortschatz-v1.5.0.apk",
+  "notes": "نسخة 1.5: اللعب مع صاحبك، تذكير أوتوماتيك كل ساعة، وإعدادات أبسط.",
+  "date": "2026-11-09",
+  "dataVersion": 1
 }

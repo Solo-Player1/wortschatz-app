@@ -12,7 +12,6 @@ import { openExternal, isNative, plugin } from './native.js';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const TIMEOUT_MS = 8000;
-export const RELEASES_URL = 'https://github.com/Solo-Player1/wortschatz-app/releases';
 
 // ---------- state ----------
 // الحالة الافتراضية + هجرة للنسخ القديمة اللي مفيهاش updates
@@ -198,10 +197,7 @@ export function renderUpdateSettings(container) {
       <span class="grow">تحديث <bdi class="de">${esc(versionOf(m))}</bdi> متاح</span>
       <button type="button" class="btn btn-primary up-dl">حدّث</button>
     </div>` : ''}
-    <div class="grid2 up-settings-actions">
-      <button type="button" class="btn up-check">اتحقق من تحديثات</button>
-      <button type="button" class="btn up-releases">صفحة التحديثات</button>
-    </div>
+    <button type="button" class="btn up-check">اتحقق من تحديثات</button>
     <p class="hint up-help">${U ? 'زرار «حدّث» بينزّل التحديث ويفتح الأبلكيشن من جديد متحدّث. لو التحديث إصدار أندرويد جديد، هتظهرلك شاشة التثبيت — دوس «تحديث».' : 'التحديث ملف <bdi class="de">APK</bdi> بيتنزّل في المتصفح. افتحه وسطّبه فوق النسخة القديمة.'} كل كلماتك ونقاطك وإعداداتك بتفضل زي ما هي.</p>
     ${U && WEB_BUILD ? '<button type="button" class="btn btn-ghost up-reset">رجّع نسخة الـ APK الأصلية</button>' : ''}
   </section>`);
@@ -216,8 +212,6 @@ export function renderUpdateSettings(container) {
     if (!confirm('ترجع لنسخة الأبلكيشن اللي جوه الـ APK؟ تقدّمك مش هيتأثر.')) return;
     U.reset().catch(() => toast('مقدرتش أرجّعها'));
   });
-
-  card.querySelector('.up-releases').addEventListener('click', () => openExternal(RELEASES_URL));
 
   const btn = card.querySelector('.up-check');
   btn.addEventListener('click', async () => {
