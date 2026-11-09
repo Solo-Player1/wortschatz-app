@@ -4,23 +4,32 @@
 import { store } from '../store.js';
 import { UPDATE_MANIFEST_URL } from '../version.js';
 
-// عنوان السيرفر: يدوي من الإعدادات، وإلا اللي جه من ملف التحديثات على GitHub، وإلا نجيبه مرة
+// ملف صغير على GitHub بيكتب فيه السيرفر عنوانه الحالي لوحده (بيتحدّث مع كل تشغيل)
+const ONLINE_JSON_URL = UPDATE_MANIFEST_URL.replace(/manifest\.json.*$/, 'online.json');
+let fetched = { at: 0, url: '' };   // كاش بسيط للجلسة
+
+// عنوان السيرفر: يدوي من الإعدادات أولاً، وإلا من online.json (الأحدث)، وإلا المحفوظ، وإلا المانيفست
 export async function serverUrl() {
   const manual = (store.state.settings && store.state.settings.wsUrl || '').trim();
   if (manual) return normalize(manual);
+  // online.json كل دقيقة بحد أقصى (العنوان بيتغيّر مع التونل المجاني)
+  if (Date.now() - fetched.at > 60000) {
+    const u = await grabJson(ONLINE_JSON_URL) || await grabJson(UPDATE_MANIFEST_URL);
+    fetched = { at: Date.now(), url: u || fetched.url };
+    if (u) { (store.state.updates ||= {}).wsUrl = u; store.save(); }
+  }
+  if (fetched.url) return normalize(fetched.url);
   const cached = store.state.updates && store.state.updates.wsUrl;
-  if (cached) return normalize(cached);
+  return cached ? normalize(cached) : '';
+}
+async function grabJson(base) {
   try {
-    const sep = UPDATE_MANIFEST_URL.includes('?') ? '&' : '?';
-    const r = await fetch(`${UPDATE_MANIFEST_URL}${sep}t=${Date.now()}`, { cache: 'no-store' });
+    const sep = base.includes('?') ? '&' : '?';
+    const r = await fetch(`${base}${sep}t=${Date.now()}`, { cache: 'no-store' });
+    if (!r.ok) return '';
     const m = await r.json();
-    if (m && typeof m.wsUrl === 'string' && m.wsUrl) {
-      (store.state.updates ||= {}).wsUrl = m.wsUrl;
-      store.save();
-      return normalize(m.wsUrl);
-    }
-  } catch (e) { /* مفيش نت أو مفيش عنوان */ }
-  return '';
+    return m && typeof m.wsUrl === 'string' && m.wsUrl ? m.wsUrl : '';
+  } catch (e) { return ''; }
 }
 function normalize(u) {
   u = String(u || '').trim();
