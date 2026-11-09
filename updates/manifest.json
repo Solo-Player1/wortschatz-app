@@ -6,13 +6,13 @@
   "date": "2026-11-02",
   "dataVersion": 1,
   "web": {
-    "build": 1,
-    "version": "1.1.0 · تحديث 1",
-    "zip": "https://github.com/Solo-Player1/wortschatz-app/releases/download/web-1/www-1.zip",
-    "sha256": "948e568925a110553a91fd269dd60263efb68b2c4d0cc55add1840f002096424",
-    "size": 368,
+    "build": 2,
+    "version": "1.1.0 · تحديث 2",
+    "zip": "https://github.com/Solo-Player1/wortschatz-app/releases/download/web-2/www-2.zip",
+    "sha256": "66ed246a945a09af9ea9508d82ecee5e48b7f9b6c831ca45a508ff727d5e70c3",
+    "size": 49085,
     "minVersionCode": 2,
-    "notes": "أول تحديث من جوه الأبلكيشن — لو شايف «تحديث 1» جنب رقم الإصدار في الإعدادات يبقى شغّال",
-    "date": "2026-11-02"
+    "notes": "لعبة جديدة: العب مع صاحبك أونلاين — 6 ألعاب (مبارزة، شد حبل، حرب تصريف، سباق اسمع واكتب، ابنوا الجملة سوا، بنجو الأرقام). محتاج سيرفر اللعب يكون شغّال.",
+    "date": "2026-11-09"
   }
 }
