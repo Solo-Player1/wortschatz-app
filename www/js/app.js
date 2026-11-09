@@ -75,6 +75,10 @@ async function boot() {
   store.load();
   applyTheme(store.state.settings.theme);
   store.refreshStreak();
+  // التذكير أوتوماتيك دايمًا: كل ساعة من ١٠ الصبح لـ ١٠ بالليل (مفيش تحكّم في الإعدادات)
+  const ns = store.state.settings;
+  ns.notify = true; ns.notifyStart = 10; ns.notifyEnd = 22;
+  store.save();
   try {
     await Promise.all([loadData(), loadContent()]);
   } catch (e) {
@@ -92,8 +96,13 @@ async function boot() {
   update.confirmBoot();       // النسخة دي فتحت تمام (بعد تحديث من جوه الأبلكيشن) + رسالة «اتحدّث»
   // فحص التحديثات بعد أول رسم (مرة في اليوم، ومش بيأخّر التشغيل)
   setTimeout(() => update.checkForUpdate().then(a => { if (a && (location.hash || '#/home').startsWith('#/home')) render(); }), 1500);
-  // التذكير كل ساعة: بيتجدول تاني كل ما الأبلكيشن يتقفل أو يتفتح
-  setTimeout(() => { notify.clearShown(); notify.replan(); }, 2500);
+  // التذكير كل ساعة أوتوماتيك: يطلب الإذن مرة لو لسه، وبيتجدول كل ما الأبلكيشن يتقفل أو يتفتح
+  setTimeout(async () => {
+    notify.clearShown();
+    try { if (notify.notifySupported() && (await notify.notifyPermission()) === 'prompt') await notify.requestNotifyPermission({ enable: true }); }
+    catch (e) { /* ignore */ }
+    notify.replan();
+  }, 2500);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') {
       store.refreshStreak();

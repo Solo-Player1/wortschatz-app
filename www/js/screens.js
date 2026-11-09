@@ -11,7 +11,7 @@ import { lessonStatus, nextStep, currentLesson, mission, level } from './mastery
 import { sentencesOf, grammarOf } from './content.js';
 import { itemDone, typedCount, gameRecord } from './progress.js';
 import { speak, ttsStatus, installGermanVoice } from './tts.js';
-import { notifySupported, notifyPermission, requestNotifyPermission, replan, testNotification } from './notify.js';
+import { notifySupported, notifyPermission, requestNotifyPermission, replan } from './notify.js';
 import { grammarHtml, wireRefSay } from './reference.js';
 import { shareText, shareFile, isNative, plugin } from './native.js';
 
@@ -27,10 +27,6 @@ const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
 const sortedLessons = () => DATA.lessons.slice().sort((a, b) => a.n - b.n);
 const learnedIn = words => words.filter(w => isLearned(w.id)).length;
 const goalOf = () => Math.max(1, +settings().dailyGoal || 20);
-
-// صفحة الإعدادات مفتوحة وراح يسمح بالإشعارات من إعدادات التليفون → لما يرجع نحدّث حالة السويتش
-let notifyRefresh = null;
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && notifyRefresh) setTimeout(notifyRefresh, 400); });
 
 // صيغ الجمع بالمصري (أرقام غربية)
 function nDays(n) {
@@ -197,7 +193,7 @@ export function renderHome(root) {
       <li>كل درس: ⭐ احفظ الكلمات ← ✍️ اكتبها صح ← 🧱 كوّن جمل ← 🏁 امتحان ← 👑 تثبيت بعد ٣ أيام.</li>
       <li>العب في أي وقت — أي كلمة تغلط فيها بترجعلك في المراجعة.</li>
       <li>حافظ درس قبل كده؟ ادخل <b>امتحانه</b> على طول من صفحة الدرس، ولو نجحت يتحسب خلصان.</li>
-      <li>فعّل التذكير عشان يفكّرك كل ساعة لو المهمة لسه.</li>
+      <li>التذكير بيشتغل لوحده كل ساعة لو مهمة النهارده لسه ما خلصتش.</li>
     </ol>
     <button type="button" class="btn btn-primary" id="introOk">فهمت، يلا بينا</button>
   </section>`}
@@ -674,17 +670,13 @@ export function renderSettings(root) {
   </section>
 
   <section class="card">
-    <h2 class="sec-title">مهمة النهارده والتذكير</h2>
+    <h2 class="sec-title">مهمة النهارده</h2>
     <div class="seg" id="missionSeg" role="group" aria-label="مهمة النهارده">
       <button type="button" data-v="lesson" aria-pressed="${mode === 'lesson'}">درس كامل كل يوم</button>
       <button type="button" data-v="goal" aria-pressed="${mode === 'goal'}">هدف إجابات</button>
     </div>
     <p class="hint set-note">«درس كامل»: المهمة بتخلص لما تنجح في امتحان درس (أو تاخد تاج) النهارده. «هدف إجابات»: لما توصل للهدف اليومي (${goalOf()} إجابة).</p>
-    ${notifySupported() ? `
-    <div class="setting-row"><div><b>تذكير كل ساعة</b><p class="hint" id="notifyState">بنفحص الإذن…</p></div>${switchHtml('notify', s.notify !== false, 'تذكير كل ساعة')}</div>
-    <div class="setting-row"><div><b>يبدأ الساعة</b><p class="hint">الصبح</p></div>${stepperHtml('notifyStart', s.notifyStart, 6, 14, 1, 'بداية التذكير')}</div>
-    <div class="setting-row"><div><b>آخر تذكير الساعة</b><p class="hint">بالليل (٢٤ ساعة)</p></div>${stepperHtml('notifyEnd', s.notifyEnd, 15, 23, 1, 'نهاية التذكير')}</div>
-    <button type="button" class="btn btn-big" id="btnTestNotify">جرّب تذكير (بعد ٥ ثواني)</button>` : '<p class="hint">التذكير كل ساعة بيشتغل في أبلكيشن الأندرويد.</p>'}
+    <p class="hint set-note">التذكير بيشتغل لوحده كل ساعة من ١٠ الصبح لـ ١٠ بالليل لو مهمة النهارده لسه — وبيسكت أول ما تخلّصها.</p>
   </section>
 
   <section class="card">
@@ -721,13 +713,6 @@ export function renderSettings(root) {
   <div id="updateSettings"></div>
 
   <section class="card">
-    <h2 class="sec-title">اللعب مع صاحبك (أونلاين)</h2>
-    <p class="hint">عنوان سيرفر اللعب بييجي لوحده مع التحديثات. سيبه فاضي إلا لو عايز تحط عنوان بنفسك.</p>
-    <input id="wsUrl" class="input" type="text" dir="ltr" inputmode="url" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="wss://…" value="${esc(s.wsUrl || '')}">
-    <p class="hint small" id="wsState"></p>
-  </section>
-
-  <section class="card">
     <h2 class="sec-title">منطقة الخطر</h2>
     <p class="hint">بيمسح الكلمات والنقاط والستريك والإعدادات — ومفيش رجوع.</p>
     <button type="button" class="btn btn-danger btn-big" id="btnReset">امسح كل التقدم</button>
@@ -751,34 +736,6 @@ export function renderSettings(root) {
     mSeg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     replan();
     toast(s.missionMode === 'goal' ? 'المهمة: هدف الإجابات اليومي' : 'المهمة: درس كامل كل يوم');
-  });
-
-  // التذكير
-  const nState = $('#notifyState');
-  const showNotifyState = () => notifyPermission().then(p => {
-    if (!nState || !nState.isConnected) return;
-    const sw = root.querySelector('input[data-key="notify"]');
-    if (sw) sw.checked = s.notify !== false && p === 'granted';     // السويتش = الحالة الفعلية
-    nState.textContent = s.notify === false ? 'مقفول' : p === 'granted' ? `شغّال من ${s.notifyStart ?? 10} لـ ${s.notifyEnd ?? 22} — بيسكت لما المهمة تخلص` : p === 'denied' ? '⚠️ الإذن مرفوض — فعّله من إعدادات التليفون ← التطبيقات ← Wortschatz ← الإشعارات' : 'محتاج إذن — شغّل السويتش';
-  });
-  if (nState) showNotifyState();
-  const nSwitch = root.querySelector('input[data-key="notify"]');
-  if (nSwitch) nSwitch.addEventListener('change', async () => {
-    if (nSwitch.checked && (await notifyPermission()) !== 'granted') {
-      const ok = await requestNotifyPermission();
-      // رفض الإذن: الرغبة (notify=true) بتفضل محفوظة — أول ما يسمح من إعدادات التليفون ويرجع، التذكيرات بتتجدول لوحدها
-      if (!ok) { nSwitch.checked = false; toast('من غير إذن الإشعارات مش هقدر أفكّرك — فعّله من إعدادات التليفون'); }
-    }
-    await replan();
-    showNotifyState();
-  });
-  notifyRefresh = showNotifyState;
-  root.querySelectorAll('.stepper[data-key^="notify"]').forEach(stp => stp.addEventListener('click', () => setTimeout(() => { replan(); showNotifyState(); }, 50)));
-  const tBtn = $('#btnTestNotify');
-  if (tBtn) tBtn.addEventListener('click', async () => {
-    const ok = await testNotification();
-    toast(ok ? 'استنى ٥ ثواني…' : 'مقدرتش أبعت تذكير — اتأكد إن الإشعارات مسموحة');
-    showNotifyState();
   });
 
   // الصوت الألماني
@@ -841,14 +798,6 @@ export function renderSettings(root) {
     s.name = String(e.target.value || '').trim().slice(0, 30);
     store.save();
   });
-
-  // عنوان سيرفر اللعب (يدوي)
-  const wsIn = $('#wsUrl'), wsState = $('#wsState');
-  if (wsIn) {
-    const showWs = () => { wsState.textContent = (s.wsUrl || '').trim() ? 'العنوان اتحفظ ✓' : (store.state.updates && store.state.updates.wsUrl ? 'شغّال من التحديثات ✓' : 'لسه ما اتظبطش'); };
-    showWs();
-    wsIn.addEventListener('input', e => { s.wsUrl = String(e.target.value || '').trim(); store.save(); showWs(); });
-  }
 
   // النسخة الاحتياطية
   $('#btnExport').addEventListener('click', exportBackup);
