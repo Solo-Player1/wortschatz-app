@@ -60,6 +60,7 @@ export async function checkForUpdate({ force = false } = {}) {
     m.versionCode = +m.versionCode;
     u.lastCheck = now;
     u.available = isNewer(m) ? m : null;
+    if (typeof m.wsUrl === 'string') u.wsUrl = m.wsUrl;     // عنوان سيرفر اللعب أونلاين (ييجي من نفس الملف)
     store.save();
     console.info('[update] checked:', keyOf(m), u.available ? `(${updateKind(m)} update available)` : '(up to date)');
     return u.available;

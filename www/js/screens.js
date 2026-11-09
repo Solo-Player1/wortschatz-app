@@ -721,6 +721,13 @@ export function renderSettings(root) {
   <div id="updateSettings"></div>
 
   <section class="card">
+    <h2 class="sec-title">اللعب مع صاحبك (أونلاين)</h2>
+    <p class="hint">عنوان سيرفر اللعب بييجي لوحده مع التحديثات. سيبه فاضي إلا لو عايز تحط عنوان بنفسك.</p>
+    <input id="wsUrl" class="input" type="text" dir="ltr" inputmode="url" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="wss://…" value="${esc(s.wsUrl || '')}">
+    <p class="hint small" id="wsState"></p>
+  </section>
+
+  <section class="card">
     <h2 class="sec-title">منطقة الخطر</h2>
     <p class="hint">بيمسح الكلمات والنقاط والستريك والإعدادات — ومفيش رجوع.</p>
     <button type="button" class="btn btn-danger btn-big" id="btnReset">امسح كل التقدم</button>
@@ -834,6 +841,14 @@ export function renderSettings(root) {
     s.name = String(e.target.value || '').trim().slice(0, 30);
     store.save();
   });
+
+  // عنوان سيرفر اللعب (يدوي)
+  const wsIn = $('#wsUrl'), wsState = $('#wsState');
+  if (wsIn) {
+    const showWs = () => { wsState.textContent = (s.wsUrl || '').trim() ? 'العنوان اتحفظ ✓' : (store.state.updates && store.state.updates.wsUrl ? 'شغّال من التحديثات ✓' : 'لسه ما اتظبطش'); };
+    showWs();
+    wsIn.addEventListener('input', e => { s.wsUrl = String(e.target.value || '').trim(); store.save(); showWs(); });
+  }
 
   // النسخة الاحتياطية
   $('#btnExport').addEventListener('click', exportBackup);

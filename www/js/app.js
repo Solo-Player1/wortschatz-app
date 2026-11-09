@@ -12,14 +12,15 @@ import * as games from './games/hub.js';
 import * as exam from './exam.js';
 import * as ref from './reference.js';
 import * as notify from './notify.js';
+import * as online from './online/lobby.js';
 
 const TITLES = {
   home: 'Wortschatz', lessons: 'الدروس', lesson: 'الدرس', session: 'مذاكرة', match: 'لعبة التوصيل', stats: 'إحصائياتي',
   settings: 'الإعدادات', video: 'فيديو الدرس', library: 'المكتبة', lib: 'المكتبة', games: 'الألعاب', game: 'لعبة',
-  exam: 'امتحان الدرس', drill: 'جمل الدرس', ref: 'مراجع',
+  exam: 'امتحان الدرس', drill: 'جمل الدرس', ref: 'مراجع', vs: 'العب مع صاحبك',
 };
 const IMMERSIVE = new Set(['session', 'match', 'video', 'lib', 'exam', 'drill']);
-const TAB_OF = { lesson: 'lessons', video: 'lessons', lib: 'library', game: 'games', exam: 'lessons', drill: 'lessons', ref: 'lessons', stats: 'home' };
+const TAB_OF = { lesson: 'lessons', video: 'lessons', lib: 'library', game: 'games', exam: 'lessons', drill: 'lessons', ref: 'lessons', stats: 'home', vs: 'games' };
 
 function parseRoute() {
   const h = (location.hash || '#/home').replace(/^#\/?/, '');
@@ -59,6 +60,7 @@ function render() {
       case 'exam': exam.renderExam(view, { lesson: +r.arg, kind: r.params.kind === 'crown' ? 'crown' : 'exam' }); break;
       case 'drill': exam.renderDrill(view, { lesson: +r.arg }); break;
       case 'ref': ref.renderRef(view, { page: r.arg || '', params: r.params }); break;
+      case 'vs': online.renderVs(view, r.params); break;
       default: screens.renderHome(view);
     }
   } catch (e) {

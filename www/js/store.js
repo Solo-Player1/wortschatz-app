@@ -5,7 +5,7 @@ const DEFAULTS = () => ({
   version: 1,
   settings: {
     theme: 'system', dailyGoal: 20, newPerSession: 8, typing: true, autoplay: true, name: '', videoSub: true,
-    missionMode: 'lesson', notify: true, notifyStart: 10, notifyEnd: 22, gameSounds: true,
+    missionMode: 'lesson', notify: true, notifyStart: 10, notifyEnd: 22, gameSounds: true, wsUrl: '',
   },
   progress: {},                                          // الكلمات: صناديق المراجعة + typed (كتبتها صح كام مرة)
   items: {},                                             // الجمل وأسئلة الاستفهام والتصريف: id → {ok, bad, last}
@@ -15,8 +15,9 @@ const DEFAULTS = () => ({
   streak: { current: 0, best: 0, lastDay: '' },
   xp: 0,
   lastSession: null,
+  vs: { wins: 0, losses: 0, ties: 0, played: 0, best: {} },   // نتايج اللعب مع صاحبك (بتتحفظ في النسخة الاحتياطية)
   videos: {},                                            // الحلقات المحفوظة على التليفون: n → {uri, bytes, date}
-  updates: { lastCheck: 0, available: null, dismissed: 0 },
+  updates: { lastCheck: 0, available: null, dismissed: 0, wsUrl: '' },   // wsUrl بيجي من ملف التحديثات على GitHub
 });
 
 // حاجات خاصة بالتليفون نفسه — ما تتنقلش في النسخة الاحتياطية

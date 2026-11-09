@@ -20,6 +20,7 @@ export function renderGames(root) {
       <div class="grow"><h1>الألعاب</h1><p class="hint">كل لعبة ليها قلوب ونقط — العب على الدرس اللي بتذاكره أو على كل اللي حفظته. أي غلطة الكلمة بترجعلك في المراجعة.</p></div>
     </section>
     ${examCard()}
+    <a class="card list-item link vs-entry" href="#/vs"><span class="gh-ico" aria-hidden="true" style="font-size:30px">⚔️</span><div class="grow"><b>العب مع صاحبك</b><p class="muted small">أونلاين، كل واحد من تليفونه — مبارزة، شد حبل، بنجو وأكتر</p></div><span aria-hidden="true">‹</span></a>
     <div class="gh-grid" aria-busy="true"><p class="hint">ثواني…</p></div>`;
   const grid = root.querySelector('.gh-grid');
   loadAllGames().then(mods => {
