@@ -1,0 +1,760 @@
+{
+  "n": 52,
+  "sentences": [
+    {
+      "id": "s52-001",
+      "de": "So schwer ist Kochen doch nicht.",
+      "ar": "الطبخ مش صعب أوي كده يعني.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "cooking"
+      ],
+      "alts": [
+        "Kochen ist doch nicht so schwer."
+      ],
+      "cloze": {
+        "word": "Kochen",
+        "opts": [
+          "Kochen",
+          "Koch",
+          "Kochbuch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-002",
+      "de": "Zwiebeln schneiden? Das mache ich.",
+      "ar": "تقطيع البصل؟ أنا اللي هعمله.",
+      "kind": "statement",
+      "focus": [
+        "infinitive",
+        "verb:schneiden"
+      ],
+      "alts": [
+        "Zwiebeln schneiden? Ich mache das."
+      ],
+      "cloze": {
+        "word": "schneiden",
+        "opts": [
+          "schneiden",
+          "schneide",
+          "schneidet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-003",
+      "de": "Du schneidest den Käse in kleine Stücke.",
+      "ar": "إنت هتقطّع الجبنة حتت صغيرة.",
+      "kind": "statement",
+      "focus": [
+        "instruction",
+        "verb:schneiden"
+      ],
+      "alts": [
+        "Den Käse schneidest du in kleine Stücke.",
+        "In kleine Stücke schneidest du den Käse."
+      ],
+      "cloze": {
+        "word": "schneidest",
+        "opts": [
+          "schneidest",
+          "schneidet",
+          "schneiden"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-004",
+      "de": "Ja, wir brauchen 250 Gramm.",
+      "ar": "أيوه، محتاجين 250 جرام.",
+      "kind": "answer",
+      "focus": [
+        "quantity",
+        "verb:brauchen"
+      ],
+      "alts": [
+        "Ja, 250 Gramm brauchen wir."
+      ],
+      "cloze": {
+        "word": "brauchen",
+        "opts": [
+          "brauchen",
+          "braucht",
+          "brauche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-005",
+      "de": "Danach schneidest du die Tomaten klein.",
+      "ar": "بعد كده تقطّع الطماطم حتت صغيرة.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "verb:schneiden"
+      ],
+      "alts": [
+        "Du schneidest danach die Tomaten klein.",
+        "Du schneidest die Tomaten danach klein.",
+        "Die Tomaten schneidest du danach klein."
+      ],
+      "cloze": {
+        "word": "klein",
+        "opts": [
+          "klein",
+          "kleine",
+          "kleinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-006",
+      "de": "Schneiden Sie zuerst den Käse klein.",
+      "ar": "قطّع الجبنة حتت صغيرة الأول (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "polite",
+        "sequence"
+      ],
+      "alts": [
+        "Schneiden Sie den Käse zuerst klein.",
+        "Zuerst schneiden Sie den Käse klein.",
+        "Den Käse schneiden Sie zuerst klein."
+      ],
+      "cloze": {
+        "word": "Schneiden",
+        "opts": [
+          "Schneiden",
+          "Schneidest",
+          "Schneidet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-007",
+      "de": "Schneiden Sie dann die Tomaten in Würfel.",
+      "ar": "بعدين قطّع الطماطم مكعبات (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "polite",
+        "sequence"
+      ],
+      "alts": [
+        "Schneiden Sie die Tomaten dann in Würfel.",
+        "Dann schneiden Sie die Tomaten in Würfel.",
+        "Die Tomaten schneiden Sie dann in Würfel.",
+        "In Würfel schneiden Sie dann die Tomaten."
+      ],
+      "cloze": {
+        "word": "Würfel",
+        "opts": [
+          "Würfel",
+          "Pfanne",
+          "Ofen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-008",
+      "de": "Meine Schwester kann sehr gut kochen und backen.",
+      "ar": "أختي بتعرف تطبخ وتخبز كويس جدًا.",
+      "kind": "statement",
+      "focus": [
+        "modal",
+        "verb:backen"
+      ],
+      "alts": [
+        "Meine Schwester kann sehr gut backen und kochen.",
+        "Kochen und backen kann meine Schwester sehr gut.",
+        "Backen und kochen kann meine Schwester sehr gut.",
+        "Sehr gut kann meine Schwester kochen und backen.",
+        "Sehr gut kann meine Schwester backen und kochen."
+      ],
+      "cloze": {
+        "word": "backen",
+        "opts": [
+          "backen",
+          "backt",
+          "bäckt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-009",
+      "de": "Ich auch nicht.",
+      "ar": "ولا أنا.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "short-answer"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "nein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-010",
+      "de": "Aber Pizzabacken ist leicht!",
+      "ar": "بس عمل البيتزا سهل!",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "verb:backen"
+      ],
+      "alts": [
+        "Pizzabacken ist aber leicht!"
+      ],
+      "cloze": {
+        "word": "leicht",
+        "opts": [
+          "leicht",
+          "leider",
+          "lieber"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s52-011",
+      "de": "Das Rezept steht im Kochbuch.",
+      "ar": "الوصفة مكتوبة في كتاب الطبخ.",
+      "kind": "statement",
+      "focus": [
+        "verb:stehen",
+        "cooking"
+      ],
+      "alts": [
+        "Im Kochbuch steht das Rezept."
+      ],
+      "cloze": {
+        "word": "steht",
+        "opts": [
+          "steht",
+          "stehst",
+          "stehen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-012",
+      "de": "Wie viel Mehl brauchen wir?",
+      "ar": "محتاجين دقيق قد إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "quantity"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "alt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-013",
+      "de": "Welche Zutaten brauchen wir?",
+      "ar": "محتاجين مكونات إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welcher",
+          "Welches"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-014",
+      "de": "Schälen Sie zuerst den Knoblauch.",
+      "ar": "قشّر التوم الأول (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "polite",
+        "verb:schälen"
+      ],
+      "alts": [
+        "Schälen Sie den Knoblauch zuerst.",
+        "Zuerst schälen Sie den Knoblauch.",
+        "Den Knoblauch schälen Sie zuerst."
+      ],
+      "cloze": {
+        "word": "Schälen",
+        "opts": [
+          "Schälen",
+          "Schälst",
+          "Schält"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-015",
+      "de": "Braten Sie den Tofu in der Pfanne.",
+      "ar": "حمّر التوفو في الطاسة (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:braten",
+        "article"
+      ],
+      "alts": [
+        "Den Tofu braten Sie in der Pfanne.",
+        "In der Pfanne braten Sie den Tofu."
+      ],
+      "cloze": {
+        "word": "Pfanne",
+        "opts": [
+          "Pfanne",
+          "Ofen",
+          "Würfel"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-016",
+      "de": "Gießen Sie die Mischung in die Form.",
+      "ar": "صُبّ الخليط في القالب (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:gießen",
+        "article"
+      ],
+      "alts": [
+        "Die Mischung gießen Sie in die Form.",
+        "In die Form gießen Sie die Mischung."
+      ],
+      "cloze": {
+        "word": "Form",
+        "opts": [
+          "Form",
+          "Teig",
+          "Pfeffer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-017",
+      "de": "Geben Sie die Pizza in den Ofen.",
+      "ar": "حط البيتزا في الفرن (رسمي).",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:geben"
+      ],
+      "alts": [
+        "Die Pizza geben Sie in den Ofen.",
+        "In den Ofen geben Sie die Pizza."
+      ],
+      "cloze": {
+        "word": "Geben",
+        "opts": [
+          "Geben",
+          "Gibst",
+          "Gibt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-018",
+      "de": "Die Paprika in Streifen schneiden.",
+      "ar": "نقطّع الفلفل الرومي شرايح طويلة.",
+      "kind": "statement",
+      "focus": [
+        "infinitive",
+        "verb:schneiden"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Streifen",
+        "opts": [
+          "Streifen",
+          "Teig",
+          "Salz"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-019",
+      "de": "Die Eier mit der Sahne verrühren.",
+      "ar": "نقلّب البيض مع الكريمة.",
+      "kind": "statement",
+      "focus": [
+        "infinitive",
+        "verb:verrühren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "verrühren",
+        "opts": [
+          "verrühren",
+          "verrührt",
+          "verrührst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-020",
+      "de": "Mit Salz und Pfeffer würzen.",
+      "ar": "نتبّل بالملح والفلفل الأسود.",
+      "kind": "statement",
+      "focus": [
+        "infinitive",
+        "verb:würzen"
+      ],
+      "alts": [
+        "Mit Pfeffer und Salz würzen."
+      ],
+      "cloze": {
+        "word": "würzen",
+        "opts": [
+          "würzen",
+          "würzt",
+          "würze"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-021",
+      "de": "Zum Schluss den Nudelauflauf mit Käse bestreuen.",
+      "ar": "في الآخر نرشّ جبنة على صينية المكرونة.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "infinitive",
+        "verb:bestreuen"
+      ],
+      "alts": [
+        "Den Nudelauflauf zum Schluss mit Käse bestreuen."
+      ],
+      "cloze": {
+        "word": "Schluss",
+        "opts": [
+          "Schluss",
+          "Schloss",
+          "Schlüssel"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s52-022",
+      "de": "Bei 180 Grad circa 30 Minuten backen.",
+      "ar": "نخبز على 180 درجة حوالي 30 دقيقة.",
+      "kind": "statement",
+      "focus": [
+        "infinitive",
+        "number",
+        "verb:backen"
+      ],
+      "alts": [
+        "Circa 30 Minuten bei 180 Grad backen."
+      ],
+      "cloze": {
+        "word": "Grad",
+        "opts": [
+          "Grad",
+          "Gramm",
+          "Minuten"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w52-01",
+      "q": "___ Mehl brauchen wir?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "محتاجين دقيق قد إيه؟",
+      "reply": "Circa 500 Gramm.",
+      "reply_ar": "حوالي 500 جرام."
+    },
+    {
+      "id": "w52-02",
+      "q": "___ Zwiebeln brauchen wir?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Welches"
+      ],
+      "ar": "محتاجين كام بصلة؟",
+      "reply": "Zwei Zwiebeln.",
+      "reply_ar": "بصلتين."
+    },
+    {
+      "id": "w52-03",
+      "q": "___ Gewürze brauchen wir?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "محتاجين توابل إيه؟",
+      "reply": "Salz und Pfeffer.",
+      "reply_ar": "ملح وفلفل أسود."
+    },
+    {
+      "id": "w52-04",
+      "q": "___ steht das Rezept?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wann",
+        "Wie viel"
+      ],
+      "ar": "الوصفة مكتوبة فين؟",
+      "reply": "Im Kochbuch.",
+      "reply_ar": "في كتاب الطبخ."
+    },
+    {
+      "id": "w52-05",
+      "q": "___ bleibt die Pizza im Ofen?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viel",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "البيتزا بتفضل في الفرن قد إيه؟",
+      "reply": "Circa 20 Minuten.",
+      "reply_ar": "حوالي 20 دقيقة."
+    },
+    {
+      "id": "w52-06",
+      "q": "___ kann gut backen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie viel"
+      ],
+      "ar": "مين بيعرف يخبز كويس؟",
+      "reply": "Meine Schwester.",
+      "reply_ar": "أختي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g52-1",
+      "h": "الأمر الرسمي: Schneiden Sie …!",
+      "body": "لما تكلّم حد بـ Sie وعايزه يعمل حاجة (زي في الوصفة أو كتاب الطبخ)، حط الفعل في أول الجملة وبعده Sie على طول، وبعدين باقي الكلام. الفعل بيفضل بشكل المصدر، حتى الأفعال اللي بتتغير: Braten Sie (مش Brät)، Geben Sie (مش Gibt). الاستثناء الوحيد: sein بيبقى Seien Sie. ده نفس ترتيب سؤال نعم/لا، والفرق في النبرة والنقطة أو علامة التعجب في الآخر. وده أشهر شكل للتعليمات.",
+      "examples": [
+        {
+          "de": "Schneiden Sie zuerst den Käse klein.",
+          "ar": "قطّع الجبنة حتت صغيرة الأول (رسمي)."
+        },
+        {
+          "de": "Braten Sie den Tofu in der Pfanne.",
+          "ar": "حمّر التوفو في الطاسة (رسمي)."
+        },
+        {
+          "de": "Geben Sie die Pizza in den Ofen.",
+          "ar": "حط البيتزا في الفرن (رسمي)."
+        }
+      ],
+      "table": [
+        [
+          "الفعل (الأول)",
+          "Sie",
+          "باقي الجملة"
+        ],
+        [
+          "Schneiden",
+          "Sie",
+          "den Käse in Würfel."
+        ],
+        [
+          "Schälen",
+          "Sie",
+          "den Knoblauch."
+        ],
+        [
+          "Gießen",
+          "Sie",
+          "die Mischung in die Form."
+        ],
+        [
+          "Servieren",
+          "Sie",
+          "den Nudelauflauf warm."
+        ]
+      ]
+    },
+    {
+      "id": "g52-2",
+      "h": "المصدر في الوصفات: Den Käse in Würfel schneiden.",
+      "body": "في الإرشادات المكتوبة زي الوصفات وكتب الطبخ، كتير بيكتبوا الفعل مصدر (Infinitiv) من غير فاعل خالص: مفيش Sie ولا du، والمصدر بيروح آخر الجملة. المصدر هو شكل الفعل اللي في القاموس، وأغلبه بيخلص بـ -en (schneiden، würzen)، وقليل بـ -n بس (wandern). المعنى زي الأمر بالظبط، وده زي ما بنكتب في الوصفات بالمصري: نقطّع، نتبّل، نخبز.",
+      "examples": [
+        {
+          "de": "Den Käse in Würfel schneiden.",
+          "ar": "نقطّع الجبنة مكعبات."
+        },
+        {
+          "de": "Die Tomaten in Scheiben schneiden.",
+          "ar": "نقطّع الطماطم شرايح."
+        },
+        {
+          "de": "Die Margarine mit dem Zucker verrühren.",
+          "ar": "نقلّب المارجرين مع السكر."
+        },
+        {
+          "de": "Bei 180 Grad circa 30 Minuten backen.",
+          "ar": "نخبز على 180 درجة حوالي 30 دقيقة."
+        }
+      ],
+      "table": [
+        [
+          "أمر رسمي",
+          "مصدر (في الوصفة)"
+        ],
+        [
+          "Schneiden Sie den Käse in Würfel.",
+          "Den Käse in Würfel schneiden."
+        ],
+        [
+          "Geben Sie den Teig in die Form.",
+          "Den Teig in die Form geben."
+        ],
+        [
+          "Würzen Sie mit Salz und Pfeffer.",
+          "Mit Salz und Pfeffer würzen."
+        ]
+      ]
+    },
+    {
+      "id": "g52-3",
+      "h": "خطوات بـ du: zuerst، dann، danach، zum Schluss",
+      "body": "مع صاحبك ممكن تقول الخطوات بجملة عادية بـ du: Du schneidest den Käse … (= إنت تقطّع …). ولترتيب الخطوات: zuerst (الأول)، dann (بعدين)، danach (بعد كده)، zum Schluss (في الآخر). لو حطيت كلمة منهم في أول الجملة، الفعل ييجي بعدها على طول وبعده الفاعل: Danach schneidest du … مش Danach du schneidest.",
+      "examples": [
+        {
+          "de": "Du schneidest den Käse in kleine Stücke.",
+          "ar": "إنت هتقطّع الجبنة حتت صغيرة."
+        },
+        {
+          "de": "Danach schneidest du die Tomaten klein.",
+          "ar": "بعد كده تقطّع الطماطم حتت صغيرة."
+        },
+        {
+          "de": "Zum Schluss bestreust du den Nudelauflauf mit Käse.",
+          "ar": "في الآخر ترشّ جبنة على صينية المكرونة."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "المعنى"
+        ],
+        [
+          "zuerst",
+          "الأول"
+        ],
+        [
+          "dann",
+          "بعدين"
+        ],
+        [
+          "danach",
+          "بعد كده"
+        ],
+        [
+          "zum Schluss",
+          "في الآخر"
+        ]
+      ]
+    },
+    {
+      "id": "g52-4",
+      "h": "تقرا وصفة: stehen، circa، Grad",
+      "body": "stehen هنا معناها «مكتوب»: Das Rezept steht im Kochbuch. وفي الوصفة هتلاقي الكمية (500 Gramm Mehl) والحرارة (bei 180 Grad) والوقت (circa 30 Minuten). circa = حوالي، وبتتكتب مختصرة ca. وبعد الرقم Gramm و Grad مابيتغيروش: 250 Gramm، 180 Grad. واسأل بـ Wie viel …? عن حاجة ماتتعدّش (Mehl) وبـ Wie viele …? عن حاجة بتتعد (Zwiebeln).",
+      "examples": [
+        {
+          "de": "Das Rezept steht im Kochbuch.",
+          "ar": "الوصفة مكتوبة في كتاب الطبخ."
+        },
+        {
+          "de": "Wie viel Mehl brauchen wir? – Circa 500 Gramm.",
+          "ar": "محتاجين دقيق قد إيه؟ – حوالي 500 جرام."
+        },
+        {
+          "de": "Wie viele Zwiebeln brauchen wir? – Zwei.",
+          "ar": "محتاجين كام بصلة؟ – اتنين."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "مكتوب في الوصفة",
+          "Im Rezept steht …"
+        ],
+        [
+          "حوالي 500 جرام",
+          "circa 500 Gramm"
+        ],
+        [
+          "على 180 درجة",
+          "bei 180 Grad"
+        ],
+        [
+          "حوالي 30 دقيقة",
+          "circa 30 Minuten"
+        ]
+      ]
+    }
+  ]
+}

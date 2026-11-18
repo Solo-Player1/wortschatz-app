@@ -1,0 +1,90 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.000 --> 00:00:09.080 region:R1 align:center
+<c.S1>– Also, was ist das?</c>
+
+2
+00:00:09.240 --> 00:00:10.840 region:R1 align:center
+<c.S1>– Das ist eine Tafel.</c>
+
+3
+00:00:10.880 --> 00:00:13.600 region:R1 align:center
+<c.S1>– Sehr gut. Kannst du das bitte
+buchstabieren?</c>
+
+4
+00:00:14.120 --> 00:00:17.160 region:R1 align:center
+<c.S1>– T-A-F-E-L.</c>
+
+5
+00:00:17.400 --> 00:00:18.960 region:R1 align:center
+<c.S1>– Super, Rana.</c>
+
+6
+00:00:19.040 --> 00:00:20.080 region:R1 align:center
+<c.S1>– Der Tafel.</c>
+
+7
+00:00:20.240 --> 00:00:22.520 region:R1 align:center
+<c.S1>– Entschuldigung, kannst du das
+noch mal wiederholen?</c>
+
+8
+00:00:22.560 --> 00:00:23.920 region:R1 align:center
+<c.S1>– Das Tafel?</c>
+
+9
+00:00:24.160 --> 00:00:25.600 region:R1 align:center
+<c.S1>– Die Tafel.</c>
+
+10
+00:00:25.960 --> 00:00:29.440 region:R1 align:center
+<c.S1>Nomen und Artikel gehören
+immer zusammen:</c>
+
+11
+00:00:29.480 --> 00:00:33.960 region:R1 align:center
+<c.S1>der Stuhl, die Tafel, das Buch.</c>
+
+12
+00:00:34.040 --> 00:00:36.120 region:R1 align:center
+<c.S1>Kennt ihr noch andere Nomen mit Artikeln?</c>
+
+13
+00:00:36.160 --> 00:00:37.760 region:R1 align:center
+<c.S1>– Die Tasche!</c>
+
+14
+00:00:37.800 --> 00:00:39.520 region:R1 align:center
+<c.S1>– Richtig. Die Tasche.</c>
+
+15
+00:00:43.480 --> 00:00:48.320 region:R1 align:center
+<c.S1>Das ist eine Tasche.
+Das ist auch eine Tasche.</c>
+
+16
+00:00:49.800 --> 00:00:51.480 region:R1 align:center
+<c.S1>Und das ist die Tasche von Jenny.</c>
+
+17
+00:00:51.800 --> 00:00:54.320 region:R1 align:center
+<c.S1>Die Tasche, eine Tasche.</c>
+
+18
+00:00:55.840 --> 00:00:57.840 region:R1 align:center
+<c.S1>So. Und jetzt alle Post-its schreiben!</c>
+
+19
+00:00:57.880 --> 00:00:59.560 region:R1 align:center
+<c.S1>Das Wörterbuch hilft.</c>

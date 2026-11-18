@@ -1,0 +1,144 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.200 --> 00:00:10.120 region:R1 align:center
+<c.S1>– Das ist die Adresse
+und die Telefonnummer.</c>
+
+2
+00:00:10.200 --> 00:00:12.760 region:R1 align:center
+<c.S1>– Ich kenne die Adresse.
+Ich komme morgen mit.</c>
+
+3
+00:00:13.120 --> 00:00:14.920 region:R1 align:center
+<c.S1>– Das ist super!</c>
+
+4
+00:00:15.840 --> 00:00:16.680 region:R1 align:center
+<c.S1>– Wohin gehst du?</c>
+
+5
+00:00:16.880 --> 00:00:19.840 region:R1 align:center
+<c.S1>– Ich habe gleich ein Bewerbungsgespräch.</c>
+
+6
+00:00:21.200 --> 00:00:24.240 region:R1 align:center
+<c.S1>– Was ist dein Beruf?
+Arbeitest du nicht als Lehrerin?</c>
+
+7
+00:00:24.280 --> 00:00:26.720 region:R1 align:center
+<c.S1>– Doch. Ich bin Lehrerin für
+Deutsch und Englisch.</c>
+
+8
+00:00:26.760 --> 00:00:29.120 region:R1 align:center
+<c.S1>Aber ich habe keine feste
+Arbeit an einer Schule.</c>
+
+9
+00:00:29.560 --> 00:00:31.640 region:R1 align:center
+<c.S1>– Und die Sprachkurse?</c>
+
+10
+00:00:32.120 --> 00:00:35.560 region:R1 align:center
+<c.S1>– Die Sprachkurse sind nur ein Nebenjob.
+Jetzt brauch ich eine richtige Arbeit.</c>
+
+11
+00:00:36.480 --> 00:00:37.240 region:R1 align:center
+<c.S1>– Viel Erfolg!</c>
+
+12
+00:00:37.280 --> 00:00:37.920 region:R1 align:center
+<c.S1>– Viel Glück!</c>
+
+13
+00:00:37.960 --> 00:00:38.920 region:R1 align:center
+<c.S1>– Danke. Tschüss!</c>
+
+14
+00:00:38.960 --> 00:00:40.400 region:R1 align:center
+<c.S1>– Ciao, Lisa!</c>
+
+15
+00:00:40.480 --> 00:00:41.760 region:R1 align:center
+<c.S1>– Arbeitest du schon?</c>
+
+16
+00:00:44.560 --> 00:00:46.400 region:R1 align:center
+<c.S1>Welchen Beruf findest du gut?</c>
+
+17
+00:00:46.440 --> 00:00:48.440 region:R1 align:center
+<c.S1>Möchtest du auch Lehrer werden?</c>
+
+18
+00:00:48.680 --> 00:00:51.000 region:R1 align:center
+<c.S1>– Meine Eltern sagen, Ingenieur ist gut.</c>
+
+19
+00:00:52.160 --> 00:00:53.400 region:R1 align:center
+<c.S1>– Und du?</c>
+
+20
+00:00:53.760 --> 00:00:56.840 region:R1 align:center
+<c.S1>Ich war lange in einer Bank.
+Ich bin Bankkaufmann.</c>
+
+21
+00:00:57.400 --> 00:01:00.080 region:R1 align:center
+<c.S1>– Das verstehe ich nicht.
+Du hast doch ein Restaurant.</c>
+
+22
+00:01:00.120 --> 00:01:02.240 region:R1 align:center
+<c.S1>– Stimmt. Zusammen mit Tarek.</c>
+
+23
+00:01:02.760 --> 00:01:05.200 region:R1 align:center
+<c.S1>Tarek ist eigentlich Elektriker von Beruf.</c>
+
+24
+00:01:05.600 --> 00:01:06.920 region:R1 align:center
+<c.S1>– Warum?</c>
+
+25
+00:01:07.880 --> 00:01:12.680 region:R1 align:center
+<c.S1>– Na ja, wir finden die Arbeit im
+Restaurant interessant. Es macht Spaß.</c>
+
+26
+00:01:13.560 --> 00:01:15.760 region:R1 align:center
+<c.S1>Und hier sind Tarek und ich die Chefs.</c>
+
+27
+00:01:16.400 --> 00:01:18.160 region:R1 align:center
+<c.S1>– Du arbeitest also gerne im Restaurant.</c>
+
+28
+00:01:18.280 --> 00:01:20.560 region:R1 align:center
+<c.S1>– Ja. Ich mag meine Arbeit.</c>
+
+29
+00:01:21.520 --> 00:01:23.040 region:R1 align:center
+<c.S1>Und Tarek auch. Oder, Tarek?</c>
+
+30
+00:01:23.760 --> 00:01:25.480 region:R1 align:center
+<c.S1>– Klar mag ich meinen Job.</c>
+
+31
+00:01:25.720 --> 00:01:28.480 region:R1 align:center
+<c.S1>Und du findest bestimmt auch
+noch ’ne gute Arbeit!</c>

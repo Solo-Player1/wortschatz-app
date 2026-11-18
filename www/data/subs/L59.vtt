@@ -1,0 +1,158 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:09.680 --> 00:00:11.080 region:R1 align:center
+<c.S1>– So …</c>
+
+2
+00:00:18.560 --> 00:00:20.200 region:R1 align:center
+<c.S1>Das Hemd ist toll.</c>
+
+3
+00:00:20.320 --> 00:00:22.080 region:R1 align:center
+<c.S1>– Ja, das gefällt mir.</c>
+
+4
+00:00:24.240 --> 00:00:25.960 region:R1 align:center
+<c.S1>– Die Jacke auch?</c>
+
+5
+00:00:26.000 --> 00:00:27.040 region:R1 align:center
+<c.S1>– Super.</c>
+
+6
+00:00:28.200 --> 00:00:29.800 region:R1 align:center
+<c.S1>– Nein, die ist besser.</c>
+
+7
+00:00:33.720 --> 00:00:35.040 region:R1 align:center
+<c.S1>Wie süß!</c>
+
+8
+00:00:35.160 --> 00:00:37.040 region:R1 align:center
+<c.S1>Wie findest du die Farbe?</c>
+
+9
+00:00:38.120 --> 00:00:39.520 region:R1 align:center
+<c.S1>Für mich!</c>
+
+10
+00:00:42.080 --> 00:00:43.760 region:R1 align:center
+<c.S1>Wie findest du das Hemd?</c>
+
+11
+00:00:44.400 --> 00:00:46.240 region:R1 align:center
+<c.S1>– Wie viel kostet das?</c>
+
+12
+00:00:48.320 --> 00:00:49.640 region:R1 align:center
+<c.S1>– 25 Euro.</c>
+
+13
+00:00:49.680 --> 00:00:50.800 region:R1 align:center
+<c.S1>Ist das okay?</c>
+
+14
+00:00:50.840 --> 00:00:52.440 region:R1 align:center
+<c.S1>– Ja, das ist okay.</c>
+
+15
+00:00:52.480 --> 00:00:53.640 region:R1 align:center
+<c.S1>– Super!</c>
+
+16
+00:01:02.920 --> 00:01:04.640 region:R1 align:center
+<c.S1>Das steht dir gut!</c>
+
+17
+00:01:04.760 --> 00:01:06.520 region:R1 align:center
+<c.S1>– Ja, das passt auch.</c>
+
+18
+00:01:08.480 --> 00:01:10.600 region:R1 align:center
+<c.S1>Wie findest du den Pullover?</c>
+
+19
+00:01:10.840 --> 00:01:11.840 region:R1 align:center
+<c.S1>– Schön.</c>
+
+20
+00:01:11.880 --> 00:01:13.560 region:R1 align:center
+<c.S1>Probier mal das andere Hemd an.</c>
+
+21
+00:01:15.000 --> 00:01:16.680 region:R1 align:center
+<c.S1>Welche Größe ist das?</c>
+
+22
+00:01:17.600 --> 00:01:18.680 region:R1 align:center
+<c.S1>– Ich weiß nicht.</c>
+
+23
+00:01:21.360 --> 00:01:22.480 region:R1 align:center
+<c.S1>– L.</c>
+
+24
+00:01:23.000 --> 00:01:25.320 region:R1 align:center
+<c.S1>Probier mal M an. Das ist zu groß.</c>
+
+25
+00:01:27.520 --> 00:01:29.920 region:R1 align:center
+<c.S1>Ja, die Jacke steht dir sehr gut.</c>
+
+26
+00:01:37.120 --> 00:01:38.600 region:R1 align:center
+<c.S1>Das finde ich schön.</c>
+
+27
+00:01:38.920 --> 00:01:39.880 region:R1 align:center
+<c.S1>So! Bitte schön.</c>
+
+28
+00:01:39.920 --> 00:01:41.200 region:R1 align:center
+<c.S1>– Vielen Dank.</c>
+
+29
+00:01:41.960 --> 00:01:44.240 region:R1 align:center
+<c.S1>– Eigentlich wollte ich gar nichts kaufen.</c>
+
+30
+00:01:44.800 --> 00:01:46.600 region:R1 align:center
+<c.S1>– Aber die Jacke …</c>
+
+31
+00:01:47.360 --> 00:01:49.640 region:R1 align:center
+<c.S1>die Jacke steht dir sehr gut.</c>
+
+32
+00:01:50.400 --> 00:01:52.040 region:R1 align:center
+<c.S1>– Das hat Spaß gemacht.</c>
+
+33
+00:01:57.000 --> 00:01:58.840 region:R1 align:center
+<c.S1>Gib mal deine Hand!</c>
+
+34
+00:01:59.480 --> 00:02:00.800 region:R1 align:center
+<c.S1>Nein …</c>
+
+35
+00:02:07.560 --> 00:02:10.400 region:R1 align:center
+<c.S1>Falls du mal wieder einkaufen willst.</c>
+
+36
+00:02:13.360 --> 00:02:15.040 region:R1 align:center
+<c.S1>– Wo ist meine Tasche?</c>
+
+37
+00:02:15.240 --> 00:02:16.480 region:R1 align:center
+<c.S1>– Da vorne!</c>

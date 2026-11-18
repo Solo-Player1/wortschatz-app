@@ -22,3 +22,9 @@ android/app/src/main/assets/capacitor.plugins.json
 
 # test screenshots
 tests/e2e/shots/
+
+# local backups and tool leftovers
+backups/
+*.tmp
+__pycache__/
+*.pyc

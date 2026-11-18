@@ -1,0 +1,115 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.240 --> 00:00:09.280 region:R1 align:center
+<c.S1>– Das ist mein Zimmer.</c>
+
+2
+00:00:09.320 --> 00:00:11.440 region:R1 align:center
+<c.S1>Vielleicht bald dein Zimmer?</c>
+
+3
+00:00:14.000 --> 00:00:16.960 region:R1 align:center
+<c.S1>– Ist das auch deine?
+– Oh.</c>
+
+4
+00:00:17.560 --> 00:00:19.240 region:R1 align:center
+<c.S1>Nein, das ist meine.</c>
+
+5
+00:00:19.280 --> 00:00:21.440 region:R1 align:center
+<c.S1>Die habe ich schon gesucht.
+Danke, Ulla!</c>
+
+6
+00:00:24.080 --> 00:00:26.200 region:R1 align:center
+<c.S1>– Ist das mein Bad?</c>
+
+7
+00:00:27.400 --> 00:00:29.840 region:R1 align:center
+<c.S1>– Nein, wir haben nur ein Bad.</c>
+
+8
+00:00:30.280 --> 00:00:32.080 region:R1 align:center
+<c.S1>Hier duschen alle.</c>
+
+9
+00:00:32.800 --> 00:00:34.040 region:R1 align:center
+<c.S1>– Alle?</c>
+
+10
+00:00:37.080 --> 00:00:39.680 region:R1 align:center
+<c.S1>Hier ist es nicht sehr sauber.</c>
+
+11
+00:00:39.920 --> 00:00:41.520 region:R1 align:center
+<c.S1>Wie oft putzt ihr denn?</c>
+
+12
+00:00:41.920 --> 00:00:43.800 region:R1 align:center
+<c.S1>– Na ja, das kommt drauf an.</c>
+
+13
+00:00:43.840 --> 00:00:46.360 region:R1 align:center
+<c.S1>Ist es dreckig, dann putzen wir.</c>
+
+14
+00:00:49.160 --> 00:00:51.160 region:R1 align:center
+<c.S1>– Und wie sind die Nachbarn?</c>
+
+15
+00:00:51.200 --> 00:00:52.760 region:R1 align:center
+<c.S1>Die sind nicht zu laut, oder?</c>
+
+16
+00:00:55.400 --> 00:00:59.240 region:R1 align:center
+<c.S1>– Doch!
+Die sind superlaut und nicht nett!</c>
+
+17
+00:01:02.800 --> 00:01:03.720 region:R1 align:center
+<c.S1>– Na dann …</c>
+
+18
+00:01:03.760 --> 00:01:06.160 region:R1 align:center
+<c.S1>– Na dann.
+Wir rufen dich an.</c>
+
+19
+00:01:06.200 --> 00:01:07.440 region:R1 align:center
+<c.S1>– Okay.</c>
+
+20
+00:01:08.200 --> 00:01:09.320 region:R1 align:center
+<c.S1>Tschüss!</c>
+
+21
+00:01:15.040 --> 00:01:17.800 region:R1 align:center
+<c.S1>– Was für eine Katastrophe!</c>
+
+22
+00:01:19.360 --> 00:01:22.920 region:R1 align:center
+<c.S1>– Ich glaube, wir finden nie
+einen Mieter für Nawins Zimmer!</c>
+
+23
+00:01:24.680 --> 00:01:26.360 region:R1 align:center
+<c.S1>– Die Sprachschule …</c>
+
+24
+00:01:28.400 --> 00:01:29.640 region:R1 align:center
+<c.S1>Oh nein!</c>
+
+25
+00:01:31.880 --> 00:01:33.400 region:R1 align:center
+<c.S1>– Was ist denn?</c>

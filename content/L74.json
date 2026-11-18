@@ -1,0 +1,854 @@
+{
+  "n": 74,
+  "sentences": [
+    {
+      "id": "s74-001",
+      "de": "Wir hoffen, es schmeckt dir.",
+      "ar": "بنتمنى إن الأكل يعجبك.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:schmecken"
+      ],
+      "alts": [
+        "Wir hoffen, dir schmeckt es."
+      ],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "du"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-002",
+      "de": "Ich mag Wurst und Gulasch.",
+      "ar": "أنا بحب السجق والجولاش.",
+      "kind": "statement",
+      "focus": [
+        "verb:mögen",
+        "food"
+      ],
+      "alts": [
+        "Ich mag Gulasch und Wurst.",
+        "Wurst und Gulasch mag ich.",
+        "Gulasch und Wurst mag ich."
+      ],
+      "cloze": {
+        "word": "mag",
+        "opts": [
+          "mag",
+          "magst",
+          "mögen"
+        ],
+        "accept": [
+          "liebe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-003",
+      "de": "Du musst zuerst probieren!",
+      "ar": "لازم تدوق الأول!",
+      "kind": "statement",
+      "focus": [
+        "verb:probieren",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Zuerst musst du probieren!"
+      ],
+      "cloze": {
+        "word": "probieren",
+        "opts": [
+          "probieren",
+          "probierst",
+          "probiert"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-004",
+      "de": "Das ist ein großes Kompliment!",
+      "ar": "ده مدح كبير!",
+      "kind": "statement",
+      "focus": [
+        "compliment",
+        "adjective"
+      ],
+      "alts": [
+        "Ein großes Kompliment ist das!"
+      ],
+      "cloze": {
+        "word": "großes",
+        "opts": [
+          "großes",
+          "große",
+          "großen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-005",
+      "de": "Spanisches Essen vermisse ich manchmal.",
+      "ar": "الأكل الإسباني بيوحشني ساعات.",
+      "kind": "statement",
+      "focus": [
+        "verb:vermissen",
+        "food"
+      ],
+      "alts": [
+        "Ich vermisse manchmal spanisches Essen.",
+        "Manchmal vermisse ich spanisches Essen.",
+        "Ich vermisse spanisches Essen manchmal."
+      ],
+      "cloze": {
+        "word": "vermisse",
+        "opts": [
+          "vermisse",
+          "vermisst",
+          "vermissen",
+          "fehle"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-006",
+      "de": "Hast du ein bisschen Heimweh?",
+      "ar": "عندك شوية حنين لبلدك؟",
+      "kind": "question",
+      "focus": [
+        "homesickness",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Bist",
+          "Habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-007",
+      "de": "Nein, ich habe kein Heimweh.",
+      "ar": "لأ، معنديش حنين لبلدي.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "homesickness"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "keinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-008",
+      "de": "Mir gefällt es hier.",
+      "ar": "المكان هنا عاجبني.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:gefallen"
+      ],
+      "alts": [
+        "Es gefällt mir hier.",
+        "Hier gefällt es mir."
+      ],
+      "cloze": {
+        "word": "Mir",
+        "opts": [
+          "Mir",
+          "Mich",
+          "Ich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-009",
+      "de": "Meine Freunde vermisse ich ein bisschen.",
+      "ar": "صحابي واحشينّي شوية.",
+      "kind": "statement",
+      "focus": [
+        "verb:vermissen",
+        "plural"
+      ],
+      "alts": [
+        "Ich vermisse meine Freunde ein bisschen.",
+        "Ein bisschen vermisse ich meine Freunde.",
+        "Ich vermisse ein bisschen meine Freunde."
+      ],
+      "cloze": {
+        "word": "Freunde",
+        "opts": [
+          "Freunde",
+          "Freund",
+          "Freunden"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-010",
+      "de": "Ich gehe in Yaras Laden und gieße da die Blumen.",
+      "ar": "أنا رايح محل يارا وهسقي الورد هناك.",
+      "kind": "statement",
+      "focus": [
+        "place",
+        "verb:gießen"
+      ],
+      "alts": [
+        "Ich gehe in Yaras Laden und gieße die Blumen da."
+      ],
+      "cloze": {
+        "word": "da",
+        "opts": [
+          "da",
+          "wo",
+          "wohin"
+        ],
+        "accept": [
+          "dort"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s74-011",
+      "de": "Du fehlst mir sehr.",
+      "ar": "وحشتني أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:fehlen",
+        "dative"
+      ],
+      "alts": [
+        "Mir fehlst du sehr."
+      ],
+      "cloze": {
+        "word": "fehlst",
+        "opts": [
+          "fehlst",
+          "fehlt",
+          "fehle"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-012",
+      "de": "Mein Opa ist traurig. Ihm fehlt seine Heimat.",
+      "ar": "جدي زعلان. بلده واحشاه.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:fehlen",
+        "feelings"
+      ],
+      "alts": [
+        "Mein Opa ist traurig. Seine Heimat fehlt ihm."
+      ],
+      "cloze": {
+        "word": "Ihm",
+        "opts": [
+          "Ihm",
+          "Ihn",
+          "Er"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-013",
+      "de": "Wie gefällt Ihnen Deutschland?",
+      "ar": "إيه رأي حضرتك في ألمانيا؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "verb:gefallen",
+        "dative",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gefällt",
+        "opts": [
+          "gefällt",
+          "gefallen",
+          "gefällst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-014",
+      "de": "Gut, aber das Wetter in Ägypten fehlt mir.",
+      "ar": "عاجباني، بس الجو في مصر واحشني.",
+      "kind": "answer",
+      "focus": [
+        "verb:fehlen",
+        "dative"
+      ],
+      "alts": [
+        "Gut, aber mir fehlt das Wetter in Ägypten."
+      ],
+      "cloze": {
+        "word": "fehlt",
+        "opts": [
+          "fehlt",
+          "fehlen",
+          "fehle"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-015",
+      "de": "Kannst du mir helfen?",
+      "ar": "ممكن تساعدني؟",
+      "kind": "question",
+      "focus": [
+        "verb:helfen",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "mich",
+          "ich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-016",
+      "de": "Klar, ich helfe dir gern!",
+      "ar": "طبعًا، هساعدك بكل سرور!",
+      "kind": "answer",
+      "focus": [
+        "verb:helfen",
+        "dative"
+      ],
+      "alts": [
+        "Klar, gern helfe ich dir!",
+        "Klar, dir helfe ich gern!"
+      ],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-017",
+      "de": "Bring uns bitte das Salz!",
+      "ar": "هات لنا الملح لو سمحت!",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "imperative"
+      ],
+      "alts": [
+        "Bitte bring uns das Salz!",
+        "Bring uns das Salz bitte!"
+      ],
+      "cloze": {
+        "word": "uns",
+        "opts": [
+          "uns",
+          "wir",
+          "unser"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-018",
+      "de": "Schmeckt euch das Gulasch?",
+      "ar": "الجولاش طعمه عاجبكم؟",
+      "kind": "question",
+      "focus": [
+        "verb:schmecken",
+        "dative",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Schmeckt",
+        "opts": [
+          "Schmeckt",
+          "Schmecken",
+          "Schmeckst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-019",
+      "de": "Meine Oma hat Geburtstag. Ich schenke ihr Blumen.",
+      "ar": "تيتة عيد ميلادها. هجيب لها ورد هدية.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:schenken"
+      ],
+      "alts": [
+        "Meine Oma hat Geburtstag. Ihr schenke ich Blumen.",
+        "Meine Oma hat Geburtstag. Blumen schenke ich ihr."
+      ],
+      "cloze": {
+        "word": "ihr",
+        "opts": [
+          "ihr",
+          "sie",
+          "ihn"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-020",
+      "de": "Ich wohne seit einem Jahr in Deutschland.",
+      "ar": "أنا ساكن في ألمانيا بقالي سنة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "Seit einem Jahr wohne ich in Deutschland.",
+        "In Deutschland wohne ich seit einem Jahr."
+      ],
+      "cloze": {
+        "word": "einem",
+        "opts": [
+          "einem",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-021",
+      "de": "Ich telefoniere oft mit meiner Mutter.",
+      "ar": "بكلم أمي في التليفون كتير.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "verb:telefonieren"
+      ],
+      "alts": [
+        "Oft telefoniere ich mit meiner Mutter.",
+        "Mit meiner Mutter telefoniere ich oft."
+      ],
+      "cloze": {
+        "word": "meiner",
+        "opts": [
+          "meiner",
+          "meine",
+          "meinem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s74-022",
+      "de": "Als Kind habe ich bei meinen Großeltern gewohnt.",
+      "ar": "وأنا صغير كنت ساكن عند جدي وجدتي.",
+      "kind": "statement",
+      "focus": [
+        "childhood",
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "Ich habe als Kind bei meinen Großeltern gewohnt.",
+        "Bei meinen Großeltern habe ich als Kind gewohnt."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meine",
+          "meiner"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w74-01",
+      "q": "___ vermisst du?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Woher",
+        "Wann"
+      ],
+      "ar": "إيه اللي واحشك؟",
+      "reply": "Spanisches Essen und das Wetter.",
+      "reply_ar": "الأكل الإسباني والجو."
+    },
+    {
+      "id": "w74-02",
+      "q": "___ gefällt es dir in Deutschland?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيه رأيك في العيشة في ألمانيا؟",
+      "reply": "Sehr gut. Mir gefällt es hier.",
+      "reply_ar": "حلوة جدًا. المكان هنا عاجبني."
+    },
+    {
+      "id": "w74-03",
+      "q": "___ hast du Heimweh?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "عندك حنين لبلدك ليه؟",
+      "reply": "Meine Familie fehlt mir.",
+      "reply_ar": "عيلتي واحشاني."
+    },
+    {
+      "id": "w74-04",
+      "q": "___ hilfst du?",
+      "answer": "Wem",
+      "opts": [
+        "Wem",
+        "Wen",
+        "Wer",
+        "Was"
+      ],
+      "ar": "بتساعد مين؟",
+      "reply": "Meiner Mutter.",
+      "reply_ar": "بساعد أمي."
+    },
+    {
+      "id": "w74-05",
+      "q": "___ wohnst du schon in Deutschland?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viel",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بقالك قد إيه ساكن في ألمانيا؟",
+      "reply": "Seit einem Jahr.",
+      "reply_ar": "بقالي سنة."
+    },
+    {
+      "id": "w74-06",
+      "q": "___ isst du am liebsten?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Woher",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "إيه أكتر أكلة بتحبها؟",
+      "reply": "Am liebsten esse ich Gulasch.",
+      "reply_ar": "أكتر أكلة بحبها الجولاش."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g74-1",
+      "h": "ضمائر الجر (Dativ): mir، dir، ihm …",
+      "body": "بعد أفعال زي helfen و gefallen و schmecken و fehlen، وبعد حروف زي mit و bei و von، الضمير بييجي في حالة الجر (Dativ): ich بتبقى mir، و du بتبقى dir، و er بتبقى ihm، و sie بتبقى ihr، و Sie بتبقى Ihnen (والباقي في الجدول). قارن بالنصب (درس 62): Ich sehe dich لكن Ich helfe dir. وخد بالك: ihr ممكن تبقى «إنتوا» أو «ليها».",
+      "examples": [
+        {
+          "de": "Klar, ich helfe dir gern!",
+          "ar": "طبعًا، هساعدك بكل سرور! (du بقت dir)"
+        },
+        {
+          "de": "Mein Opa ist traurig. Ihm fehlt seine Heimat.",
+          "ar": "جدي زعلان. بلده واحشاه. (er بقت ihm)"
+        },
+        {
+          "de": "Bring uns bitte das Salz!",
+          "ar": "هات لنا الملح لو سمحت! (wir بقت uns)"
+        },
+        {
+          "de": "Wie gefällt Ihnen Deutschland?",
+          "ar": "إيه رأي حضرتك في ألمانيا؟ (Sie بقت Ihnen)"
+        }
+      ],
+      "table": [
+        [
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)",
+          "جر (Dativ)",
+          "بالعربي"
+        ],
+        [
+          "ich",
+          "mich",
+          "mir",
+          "ليّا"
+        ],
+        [
+          "du",
+          "dich",
+          "dir",
+          "ليك"
+        ],
+        [
+          "er",
+          "ihn",
+          "ihm",
+          "ليه"
+        ],
+        [
+          "sie",
+          "sie",
+          "ihr",
+          "ليها"
+        ],
+        [
+          "es",
+          "es",
+          "ihm",
+          "ليه"
+        ],
+        [
+          "wir",
+          "uns",
+          "uns",
+          "لينا"
+        ],
+        [
+          "ihr",
+          "euch",
+          "euch",
+          "ليكم"
+        ],
+        [
+          "sie",
+          "sie",
+          "ihnen",
+          "ليهم"
+        ],
+        [
+          "Sie",
+          "Sie",
+          "Ihnen",
+          "لحضرتك (رسمي)"
+        ]
+      ]
+    },
+    {
+      "id": "g74-2",
+      "h": "حاجة واحشاك: vermissen ولا fehlen؟",
+      "body": "فيه فعلين: vermissen زي «افتقد»: إنت الفاعل واللي واحشك مفعول (Akkusativ): Ich vermisse meine Familie. أما fehlen فزي «وحش» بالمصري بالظبط: اللي واحشك هو الفاعل والفعل بيتصرّف معاه، وإنت في Dativ: Meine Familie fehlt mir = عيلتي واحشاني، والجمع: Meine Freunde fehlen mir. يعني Du fehlst mir = إنت وحشتني (مش «أنا وحشتك»). والحنين للبلد بـ haben: Ich habe Heimweh.",
+      "examples": [
+        {
+          "de": "Meine Freunde vermisse ich ein bisschen.",
+          "ar": "صحابي واحشينّي شوية. (vermissen + Akkusativ)"
+        },
+        {
+          "de": "Gut, aber das Wetter in Ägypten fehlt mir.",
+          "ar": "عاجباني، بس الجو في مصر واحشني. (fehlen + Dativ)"
+        },
+        {
+          "de": "Du fehlst mir sehr.",
+          "ar": "وحشتني أوي."
+        },
+        {
+          "de": "Hast du ein bisschen Heimweh?",
+          "ar": "عندك شوية حنين لبلدك؟"
+        }
+      ],
+      "table": [
+        [
+          "vermissen (Akkusativ)",
+          "fehlen (Dativ)",
+          "بالعربي"
+        ],
+        [
+          "Ich vermisse dich.",
+          "Du fehlst mir.",
+          "وحشتني"
+        ],
+        [
+          "Ich vermisse meine Familie.",
+          "Meine Familie fehlt mir.",
+          "عيلتي واحشاني"
+        ],
+        [
+          "Er vermisst seine Freunde.",
+          "Seine Freunde fehlen ihm.",
+          "صحابه واحشينه"
+        ],
+        [
+          "Wir vermissen euch.",
+          "Ihr fehlt uns.",
+          "وحشتونا"
+        ]
+      ]
+    },
+    {
+      "id": "g74-3",
+      "h": "أفعال مع Dativ (2): gefallen، schmecken، helfen",
+      "body": "زي درس 59 (gefallen و passen و stehen)، فيه أفعال تانية الشخص فيها Dativ: schmecken (طعمه يعجب)، fehlen (يوحش)، helfen (يساعد). في gefallen و schmecken الحاجة هي الفاعل: Das Gulasch schmeckt mir، و Mir gefällt es hier = المكان هنا عاجبني. ومع helfen: Ich helfe dir (مش dich!). ومع schenken و bringen الشخص Dativ والحاجة Akkusativ: Ich schenke ihr Blumen. وبنسأل عن الشخص بـ Wem? (لمين؟).",
+      "examples": [
+        {
+          "de": "Wir hoffen, es schmeckt dir.",
+          "ar": "بنتمنى إن الأكل يعجبك."
+        },
+        {
+          "de": "Mir gefällt es hier.",
+          "ar": "المكان هنا عاجبني."
+        },
+        {
+          "de": "Kannst du mir helfen? – Klar!",
+          "ar": "ممكن تساعدني؟ – طبعًا!"
+        },
+        {
+          "de": "Wem hilfst du? – Meiner Mutter.",
+          "ar": "بتساعد مين؟ – أمي."
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "مثال",
+          "بالعربي"
+        ],
+        [
+          "gefallen",
+          "Das gefällt mir.",
+          "ده عاجبني"
+        ],
+        [
+          "schmecken",
+          "Das schmeckt mir.",
+          "طعمه عاجبني"
+        ],
+        [
+          "fehlen",
+          "Du fehlst mir.",
+          "وحشتني"
+        ],
+        [
+          "helfen",
+          "Ich helfe dir.",
+          "هساعدك"
+        ],
+        [
+          "schenken / bringen",
+          "Ich schenke ihr Blumen.",
+          "هجيب لها ورد هدية"
+        ],
+        [
+          "mögen (+ Akkusativ!)",
+          "Ich mag Gulasch.",
+          "بحب الجولاش"
+        ]
+      ]
+    },
+    {
+      "id": "g74-4",
+      "h": "حروف الجر + Dativ: mit، bei، seit …",
+      "body": "الحروف دي بعدها دايمًا Dativ: aus، bei، mit، nach، seit، von، zu، ab. يعني der و das بيبقوا dem، و die بتبقى der، والجمع den والاسم بياخد n: mit meiner Mutter، bei meinen Großeltern. والاختصارات: zum = zu dem، zur = zu der، beim = bei dem، vom = von dem. و seit = بقالي: seit einem Jahr = بقالي سنة. ومع سؤال Wo? (فين؟) كمان in و an و auf بياخدوا Dativ: im Restaurant، auf dem Tisch.",
+      "examples": [
+        {
+          "de": "Ich wohne seit einem Jahr in Deutschland.",
+          "ar": "أنا ساكن في ألمانيا بقالي سنة."
+        },
+        {
+          "de": "Ich telefoniere oft mit meiner Mutter.",
+          "ar": "بكلم أمي في التليفون كتير."
+        },
+        {
+          "de": "Als Kind habe ich bei meinen Großeltern gewohnt.",
+          "ar": "وأنا صغير كنت ساكن عند جدي وجدتي."
+        },
+        {
+          "de": "Wo ist das Essen? – Auf dem Tisch.",
+          "ar": "الأكل فين؟ – على الترابيزة. (سؤال Wo? = Dativ)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مذكّر / محايد",
+          "مؤنّث",
+          "جمع"
+        ],
+        [
+          "الأداة",
+          "dem / einem / meinem",
+          "der / einer / meiner",
+          "den / meinen (+n)"
+        ],
+        [
+          "mit",
+          "mit dem Bus",
+          "mit meiner Mutter",
+          "mit meinen Freunden"
+        ],
+        [
+          "bei",
+          "beim Arzt",
+          "bei der Post",
+          "bei meinen Großeltern"
+        ],
+        [
+          "seit",
+          "seit einem Monat",
+          "seit einer Woche",
+          "seit zwei Jahren"
+        ],
+        [
+          "zu",
+          "zum Arzt",
+          "zur Arbeit",
+          "zu meinen Eltern"
+        ],
+        [
+          "in (Wo?)",
+          "im Restaurant",
+          "in der Küche",
+          "in den Bergen"
+        ]
+      ]
+    }
+  ]
+}

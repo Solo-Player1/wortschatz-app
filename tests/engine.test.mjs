@@ -51,14 +51,17 @@ const one = de => { const r = byDe(de); if (r.length !== 1) throw new Error(`fix
 const setState = (id, s) => { store.state.progress[id] = { box: 0, due: 0, seen: 1, ok: 0, bad: 0, last: 0, ...s }; };
 const uniq = arr => new Set(arr).size === arr.length;
 const singleLessonWords = n => wordsOfLesson(n).filter(w => w.lessons.length === 1);
+const au = w => (w.file ? 'audio/' + w.file : '');     // DW has no recording for a handful of words
 
 // ================================================================
 section('data sanity');
-test('data loaded: 15 lessons, 341 words, unique ids', () => {
-  eq(DATA.lessons.length, 15, 'lessons');
-  eq(W.length, 341, 'words');
+test('data loaded: whole A1 course (76 lessons), unique ids, (almost) every word has DW audio', () => {
+  eq(DATA.lessons.length, 76, 'lessons');
+  assert(DATA.lessons.every(l => l.words.length > 0), 'every lesson has words (DW exam page excluded)');
+  assert(W.length >= 1700, `words: ${W.length}`);
   assert(uniq(W.map(w => w.id)), 'ids unique');
-  assert(W.every(w => w.file), 'every word has an audio file');
+  const noAudio = W.filter(w => !w.file);
+  assert(noAudio.length <= 10, `${noAudio.length} words without an audio file: ${noAudio.map(w => w.de).join(', ')}`);
 });
 
 // ================================================================
@@ -190,7 +193,7 @@ test('newWords: unseen, lesson order, no duplicates, limit, lesson filter', () =
   const l1 = DATA.lessons.find(l => l.n === 1).words;
   eq(srs.newWords(5).map(w => w.id).join(','), l1.slice(0, 5).join(','), 'first 5 of lesson 1');
   const all = srs.newWords();
-  eq(all.length, 341, 'all unseen without limit');
+  eq(all.length, W.length, 'all unseen without limit');
   assert(uniq(all.map(w => w.id)), 'no duplicates (multi-lesson words appear once)');
   const pos = id => all.findIndex(w => w.id === id);
   const lastL1 = Math.max(...singleLessonWords(1).map(w => pos(w.id)));
@@ -209,7 +212,7 @@ test('newWords: unseen, lesson order, no duplicates, limit, lesson filter', () =
 test('counts()/countsAll()/lessonCounts()', () => {
   fresh();
   const c0 = srs.countsAll();
-  eq(c0.total, 341); eq(c0.new, 341); eq(c0.due, 0); eq(c0.learning + c0.known + c0.mastered, 0);
+  eq(c0.total, W.length); eq(c0.new, W.length); eq(c0.due, 0); eq(c0.learning + c0.known + c0.mastered, 0);
   const L3 = wordsOfLesson(3);
   eq(srs.lessonCounts(3).total, L3.length, 'lesson 3 total');
   setState(L3[0].id, { box: 0, due: T() });
@@ -218,7 +221,7 @@ test('counts()/countsAll()/lessonCounts()', () => {
   setState(L3[3].id, { box: 5, due: T() + 30 });
   const c = srs.counts(3);
   eq(c.new, L3.length - 4); eq(c.learning, 2); eq(c.known, 1); eq(c.mastered, 1); eq(c.due, 2);
-  eq(srs.countsAll().new, 341 - 4, 'global counts see the same records');
+  eq(srs.countsAll().new, W.length - 4, 'global counts see the same records');
   eq(srs.counts(99).total, 0, 'unknown lesson → empty counts');
 });
 
@@ -458,10 +461,10 @@ function checkExercise(w, type, e) {
   switch (type) {
     case 'intro':
       assert(e.prompt.de.startsWith('<bdi class="de'), 'intro de html');
-      eq(e.prompt.ar, w.ar); eq(e.prompt.audio, 'audio/' + w.file); assert(typeof e.prompt.hint === 'string');
+      eq(e.prompt.ar, w.ar); eq(e.prompt.audio, au(w)); assert(typeof e.prompt.hint === 'string');
       break;
     case 'mcq_de_ar': {
-      assert(e.prompt.de.includes('<bdi class="de'), 'de html'); eq(e.prompt.audio, 'audio/' + w.file); assert(!e.prompt.ar, 'no Arabic in prompt');
+      assert(e.prompt.de.includes('<bdi class="de'), 'de html'); eq(e.prompt.audio, au(w)); assert(!e.prompt.ar, 'no Arabic in prompt');
       checkOptions(e, 4, false);
       eq(e.options.find(o => o.correct).text, w.ar, 'correct is word.ar');
       // never a distractor that is actually a right answer (same German text, other meaning)
@@ -475,7 +478,7 @@ function checkExercise(w, type, e) {
     }
     case 'mcq_ar_de':
     case 'listen': {
-      if (type === 'listen') { eq(e.prompt.audio, 'audio/' + w.file); assert(!e.prompt.de && !e.prompt.ar, 'listen prompt has only audio'); }
+      if (type === 'listen') { eq(e.prompt.audio, au(w)); assert(w.file, 'listen only for words with audio'); assert(!e.prompt.de && !e.prompt.ar, 'listen prompt has only audio'); }
       else { eq(e.prompt.ar, w.ar); assert(!e.prompt.de && !e.prompt.audio, 'ar→de prompt has only Arabic'); }
       checkOptions(e, 4, true);
       eq(e.options.find(o => o.correct).text, displayDe(w), 'correct is displayDe');
@@ -508,7 +511,10 @@ function checkExercise(w, type, e) {
     case 'type': {
       eq(e.prompt.ar, w.ar); assert(!e.prompt.de, 'no German in prompt'); assert(Array.isArray(e.accept), 'accept array');
       assert(typeof e.answer === 'string' && e.answer.trim(), 'answer present');
-      if (w.k === 'noun') { eq(e.answer, w.sg, 'noun → sg'); assert(e.accept.includes(`${w.art} ${w.sg}`), 'accepts art sg'); }
+      if (w.k === 'noun') {
+        const sg = String(w.sg).replace(/\s*\(Plural\)\s*$/, '');     // plural-only nouns: no DW «(Plural)» note in the answer
+        eq(e.answer, sg, 'noun → sg'); assert(e.accept.includes(`${w.art} ${sg}`), 'accepts art sg');
+      }
       else {
         assert(!/^\(/.test(e.answer), 'no leading marker');
         assert(!/[.!?…,;:\s]$/.test(e.answer), 'no trailing punctuation');
@@ -528,7 +534,7 @@ test('every word × every applicable type × 4 rounds', () => {
     try { checkExercise(w, type, e); } catch (err) { throw new Error(`${w.de} [${type}]: ${err.message}`); }
     count++;
   }
-  assert(count > 341 * 4 * 4, 'ran a lot');
+  assert(count > W.length * 3 * 4, 'ran a lot');
   console.log(`       (${count} exercises generated)`);
 });
 

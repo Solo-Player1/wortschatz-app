@@ -1,0 +1,94 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:13.880 --> 00:00:15.480 region:R1 align:center
+<c.S1>– Lisa!</c>
+
+2
+00:00:15.960 --> 00:00:19.800 region:R1 align:center
+<c.S1>Ja, kein Problem. Ich habe noch genug
+Deutschübungen, die ich machen kann.</c>
+
+3
+00:00:19.880 --> 00:00:22.400 region:R1 align:center
+<c.S1>Ich freue mich aber schon,
+wenn du wiederkommst.</c>
+
+4
+00:00:23.080 --> 00:00:25.920 region:R1 align:center
+<c.S1>Wie ist denn der Urlaub?
+Habt ihr tolles Wetter?</c>
+
+5
+00:00:26.720 --> 00:00:29.080 region:R1 align:center
+<c.S1>Toll! Das klingt super!</c>
+
+6
+00:00:30.080 --> 00:00:32.080 region:R1 align:center
+<c.S1>Das Wetter bei mir?</c>
+
+7
+00:00:32.520 --> 00:00:35.600 region:R1 align:center
+<c.S1>Ich glaube, es sind so um
+die sieben Grad, und es ist bewölkt.</c>
+
+8
+00:00:36.160 --> 00:00:37.880 region:R1 align:center
+<c.S1>Abends soll es vielleicht noch regnen</c>
+
+9
+00:00:37.920 --> 00:00:39.960 region:R1 align:center
+<c.S1>und morgen wird es noch kälter.</c>
+
+10
+00:00:40.680 --> 00:00:42.840 region:R1 align:center
+<c.S1>Der Himmel ist einfach immer grau.</c>
+
+11
+00:00:44.760 --> 00:00:46.800 region:R1 align:center
+<c.S1>Ihr habt Sonne und 20 Grad?</c>
+
+12
+00:00:46.840 --> 00:00:48.960 region:R1 align:center
+<c.S1>Boah, das ist so gemein.</c>
+
+13
+00:00:52.840 --> 00:00:53.720 region:R1 align:center
+<c.S1>Du, Lisa?</c>
+
+14
+00:00:53.760 --> 00:00:56.920 region:R1 align:center
+<c.S1>Nico von der Party,
+der bei euch gewohnt hat …</c>
+
+15
+00:00:56.960 --> 00:00:58.600 region:R1 align:center
+<c.S1>Der hat doch seine Tasche verloren.</c>
+
+16
+00:00:59.240 --> 00:01:02.400 region:R1 align:center
+<c.S1>Was hat Nico im Radio gesagt,
+wie die Tasche aussieht?</c>
+
+17
+00:01:02.680 --> 00:01:05.800 region:R1 align:center
+<c.S1>Schwarz und ein Aufnäher
+mit einem Fahrrad?</c>
+
+18
+00:01:06.320 --> 00:01:07.760 region:R1 align:center
+<c.S1>Wieso?</c>
+
+19
+00:01:07.920 --> 00:01:10.320 region:R1 align:center
+<c.S1>Na ja, ich glaube,
+ich habe sie gefunden.</c>

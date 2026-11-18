@@ -1,0 +1,801 @@
+{
+  "n": 20,
+  "sentences": [
+    {
+      "id": "s20-001",
+      "de": "Sascha kommt aus Russland und Selma aus Syrien.",
+      "ar": "ساشا من روسيا، وسلمى من سوريا.",
+      "kind": "statement",
+      "focus": [
+        "origin",
+        "geo"
+      ],
+      "alts": [
+        "Selma kommt aus Syrien und Sascha aus Russland."
+      ],
+      "cloze": {
+        "word": "Russland",
+        "opts": [
+          "Russland",
+          "Russisch",
+          "Französisch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-002",
+      "de": "Ja, sie ist ein Flüchtling.",
+      "ar": "أيوه، هي لاجئة.",
+      "kind": "answer",
+      "focus": [
+        "article"
+      ],
+      "alts": [
+        "Ja, ein Flüchtling ist sie."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-003",
+      "de": "Sie hat noch keine Aufenthaltserlaubnis.",
+      "ar": "لسه معهاش تصريح إقامة.",
+      "kind": "statement",
+      "focus": [
+        "negation"
+      ],
+      "alts": [
+        "Noch hat sie keine Aufenthaltserlaubnis."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-004",
+      "de": "Sie spricht sehr gut Deutsch!",
+      "ar": "هي بتتكلم ألماني كويس أوي!",
+      "kind": "statement",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Sie spricht Deutsch sehr gut!",
+        "Deutsch spricht sie sehr gut!",
+        "Sehr gut spricht sie Deutsch!"
+      ],
+      "cloze": {
+        "word": "spricht",
+        "opts": [
+          "spricht",
+          "sprichst",
+          "sprecht",
+          "spreche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-005",
+      "de": "Sie lernt sehr schnell.",
+      "ar": "هي بتتعلم بسرعة أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:lernen"
+      ],
+      "alts": [
+        "Sehr schnell lernt sie."
+      ],
+      "cloze": {
+        "word": "lernt",
+        "opts": [
+          "lernt",
+          "lernst",
+          "lerne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-006",
+      "de": "Welche Sprachen sprichst du?",
+      "ar": "بتتكلم لغات إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sprichst",
+        "opts": [
+          "sprichst",
+          "spricht",
+          "sprechst",
+          "sprecht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-007",
+      "de": "Ich spreche Spanisch, ein bisschen Englisch und ein bisschen Deutsch.",
+      "ar": "بتكلم إسباني، وشوية إنجليزي، وشوية ألماني.",
+      "kind": "answer",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Ich spreche Spanisch, ein bisschen Deutsch und ein bisschen Englisch.",
+        "Ich spreche ein bisschen Englisch, ein bisschen Deutsch und Spanisch.",
+        "Ich spreche ein bisschen Deutsch, ein bisschen Englisch und Spanisch.",
+        "Ich spreche ein bisschen Englisch, Spanisch und ein bisschen Deutsch.",
+        "Ich spreche ein bisschen Deutsch, Spanisch und ein bisschen Englisch."
+      ],
+      "cloze": {
+        "word": "spreche",
+        "opts": [
+          "spreche",
+          "sprichst",
+          "spricht",
+          "sprechen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-008",
+      "de": "Ich spreche Deutsch, Englisch und Italienisch, aber sehr schlecht.",
+      "ar": "بتكلم ألماني وإنجليزي وإيطالي، بس الإيطالي بتاعي وحش أوي.",
+      "kind": "answer",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Ich spreche Englisch, Deutsch und Italienisch, aber sehr schlecht."
+      ],
+      "cloze": {
+        "word": "schlecht",
+        "opts": [
+          "schlecht",
+          "schnell",
+          "bisschen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-009",
+      "de": "Ich komme aus Thailand.",
+      "ar": "أنا من تايلاند.",
+      "kind": "answer",
+      "focus": [
+        "origin"
+      ],
+      "alts": [
+        "Aus Thailand komme ich."
+      ],
+      "cloze": {
+        "word": "Thailand",
+        "opts": [
+          "Thailand",
+          "Thai",
+          "Japanisch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-010",
+      "de": "Ich spreche Thai und Chinesisch.",
+      "ar": "بتكلم تايلاندي وصيني.",
+      "kind": "answer",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Ich spreche Chinesisch und Thai.",
+        "Thai und Chinesisch spreche ich.",
+        "Chinesisch und Thai spreche ich."
+      ],
+      "cloze": {
+        "word": "Chinesisch",
+        "opts": [
+          "Chinesisch",
+          "China",
+          "Japan"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s20-011",
+      "de": "Die Party war international.",
+      "ar": "الحفلة كانت إنترناشونال.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "adjective"
+      ],
+      "alts": [
+        "International war die Party."
+      ],
+      "cloze": {
+        "word": "international",
+        "opts": [
+          "international",
+          "verschieden",
+          "schnell"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-012",
+      "de": "Bleibt Selma in Deutschland?",
+      "ar": "سلمى هتفضل في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "verb:bleiben",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bleibt",
+        "opts": [
+          "Bleibt",
+          "Bleibst",
+          "Bleibe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-013",
+      "de": "Welche Sprachen sprechen Sie?",
+      "ar": "حضرتك بتتكلم لغات إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:sprechen",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sprechen",
+        "opts": [
+          "sprechen",
+          "sprecht",
+          "spricht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-014",
+      "de": "Sprichst du Deutsch?",
+      "ar": "بتتكلم ألماني؟",
+      "kind": "question",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sprichst",
+        "opts": [
+          "Sprichst",
+          "Sprechst",
+          "Spricht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-015",
+      "de": "Ja, aber nicht sehr gut.",
+      "ar": "أيوه، بس مش كويس أوي.",
+      "kind": "answer",
+      "focus": [
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sehr",
+        "opts": [
+          "sehr",
+          "viel",
+          "viele"
+        ],
+        "accept": [
+          "so"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-016",
+      "de": "Sprecht ihr auch Englisch?",
+      "ar": "إنتوا بتتكلموا إنجليزي كمان؟",
+      "kind": "question",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Sprecht auch ihr Englisch?"
+      ],
+      "cloze": {
+        "word": "Sprecht",
+        "opts": [
+          "Sprecht",
+          "Sprichst",
+          "Spricht",
+          "Sprechen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-017",
+      "de": "Ja, wir sprechen ein bisschen Englisch.",
+      "ar": "أيوه، بنتكلم شوية إنجليزي.",
+      "kind": "answer",
+      "focus": [
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Ja, Englisch sprechen wir ein bisschen.",
+        "Ja, ein bisschen Englisch sprechen wir."
+      ],
+      "cloze": {
+        "word": "bisschen",
+        "opts": [
+          "bisschen",
+          "sehr",
+          "viel"
+        ],
+        "accept": [
+          "wenig"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-018",
+      "de": "Meine Muttersprache ist Arabisch.",
+      "ar": "لغتي الأم هي العربي.",
+      "kind": "statement",
+      "focus": [
+        "language",
+        "possessive"
+      ],
+      "alts": [
+        "Arabisch ist meine Muttersprache."
+      ],
+      "cloze": {
+        "word": "Muttersprache",
+        "opts": [
+          "Muttersprache",
+          "Fremdsprache",
+          "Sprachen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-019",
+      "de": "Für mich ist Deutsch eine Fremdsprache.",
+      "ar": "بالنسبالي، الألماني لغة أجنبية.",
+      "kind": "statement",
+      "focus": [
+        "language"
+      ],
+      "alts": [
+        "Deutsch ist für mich eine Fremdsprache.",
+        "Deutsch ist eine Fremdsprache für mich."
+      ],
+      "cloze": {
+        "word": "Fremdsprache",
+        "opts": [
+          "Fremdsprache",
+          "Muttersprache",
+          "Fremdsprachen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-020",
+      "de": "In Ägypten spricht man Arabisch.",
+      "ar": "في مصر بيتكلموا عربي.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "verb:sprechen",
+        "language"
+      ],
+      "alts": [
+        "Man spricht in Ägypten Arabisch.",
+        "Arabisch spricht man in Ägypten.",
+        "Man spricht Arabisch in Ägypten."
+      ],
+      "cloze": {
+        "word": "spricht",
+        "opts": [
+          "spricht",
+          "sprechen",
+          "sprichst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-021",
+      "de": "Langsam bitte. Sie sprechen sehr schnell.",
+      "ar": "بالراحة لو سمحت، حضرتك بتتكلم بسرعة أوي. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "formal",
+        "verb:sprechen"
+      ],
+      "alts": [
+        "Bitte langsam. Sie sprechen sehr schnell.",
+        "Sie sprechen sehr schnell. Langsam bitte.",
+        "Sie sprechen sehr schnell. Bitte langsam."
+      ],
+      "cloze": {
+        "word": "schnell",
+        "opts": [
+          "schnell",
+          "schlecht",
+          "bisschen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s20-022",
+      "de": "Österreich liegt südlich von Deutschland.",
+      "ar": "النمسا جنوب ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "geo"
+      ],
+      "alts": [
+        "Südlich von Deutschland liegt Österreich."
+      ],
+      "cloze": {
+        "word": "südlich",
+        "opts": [
+          "südlich",
+          "nördlich",
+          "östlich",
+          "westlich"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w20-01",
+      "q": "___ Sprachen sprichst du?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "بتتكلم لغات إيه؟",
+      "reply": "Ich spreche Arabisch und ein bisschen Deutsch.",
+      "reply_ar": "بتكلم عربي وشوية ألماني."
+    },
+    {
+      "id": "w20-02",
+      "q": "___ kommt Sascha?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wo",
+        "Wer",
+        "Was"
+      ],
+      "ar": "ساشا منين؟",
+      "reply": "Er kommt aus Russland.",
+      "reply_ar": "هو من روسيا."
+    },
+    {
+      "id": "w20-03",
+      "q": "___ spricht sehr gut Deutsch?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين بيتكلم ألماني كويس أوي؟",
+      "reply": "Selma. Sie lernt sehr schnell.",
+      "reply_ar": "سلمى. بتتعلم بسرعة أوي."
+    },
+    {
+      "id": "w20-04",
+      "q": "___ ist deine Muttersprache?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "لغتك الأم إيه؟",
+      "reply": "Meine Muttersprache ist Arabisch.",
+      "reply_ar": "لغتي الأم العربي."
+    },
+    {
+      "id": "w20-05",
+      "q": "___ Sprache spricht man in Russland?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "في روسيا بيتكلموا أنهي لغة؟",
+      "reply": "In Russland spricht man Russisch.",
+      "reply_ar": "في روسيا بيتكلموا روسي."
+    },
+    {
+      "id": "w20-06",
+      "q": "___ liegt Österreich?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Was"
+      ],
+      "ar": "النمسا فين؟",
+      "reply": "Südlich von Deutschland.",
+      "reply_ar": "جنوب ألمانيا."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g20-1",
+      "h": "تصريف الفعل sprechen",
+      "body": "sprechen (يتكلم) الـ e اللي فيه بتبقى i مع du و er / sie / es بس: du sprichst، er spricht. باقي الضماير عادي خالص، حتى ihr sprecht. نفس حكاية essen و nehmen. وman بتاخد صيغة er: man spricht. وSie (حضرتك) زي الجمع بالظبط: Sprechen Sie Deutsch?",
+      "examples": [
+        {
+          "de": "Welche Sprachen sprichst du? – Ich spreche Arabisch.",
+          "ar": "بتتكلم لغات إيه؟ – بتكلم عربي."
+        },
+        {
+          "de": "Sie spricht sehr gut Deutsch.",
+          "ar": "هي بتتكلم ألماني كويس أوي."
+        },
+        {
+          "de": "Sprecht ihr auch Englisch?",
+          "ar": "إنتوا بتتكلموا إنجليزي كمان؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "sprechen"
+        ],
+        [
+          "ich",
+          "spreche"
+        ],
+        [
+          "du",
+          "sprichst"
+        ],
+        [
+          "er / sie / es",
+          "spricht"
+        ],
+        [
+          "wir",
+          "sprechen"
+        ],
+        [
+          "ihr",
+          "sprecht"
+        ],
+        [
+          "sie / Sie",
+          "sprechen"
+        ]
+      ]
+    },
+    {
+      "id": "g20-2",
+      "h": "بتتكلم لغات إيه؟",
+      "body": "تسأل: Welche Sprachen sprichst du? وللرسمي: Welche Sprachen sprechen Sie? وترد بـ Ich spreche + اسم اللغة، من غير أداة وبحرف كبير: Ich spreche Arabisch. وein bisschen لازم ييجي قبل اللغة: Ich spreche ein bisschen Deutsch، لكن sehr gut ينفع قبلها أو بعدها. وخد بالك: «كويس أوي» = sehr gut، مش viel gut. اللغة الأم = die Muttersprache، وأي لغة تانية غيرها = die Fremdsprache.",
+      "examples": [
+        {
+          "de": "Ich spreche Arabisch und ein bisschen Deutsch.",
+          "ar": "بتكلم عربي وشوية ألماني."
+        },
+        {
+          "de": "Sprichst du Deutsch? – Ja, aber nicht sehr gut.",
+          "ar": "بتتكلم ألماني؟ – أيوه، بس مش كويس أوي."
+        },
+        {
+          "de": "Meine Muttersprache ist Arabisch.",
+          "ar": "لغتي الأم العربي."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "كويس أوي",
+          "sehr gut"
+        ],
+        [
+          "كويس",
+          "gut"
+        ],
+        [
+          "شوية",
+          "ein bisschen"
+        ],
+        [
+          "مش كويس أوي",
+          "nicht so gut"
+        ],
+        [
+          "وحش",
+          "schlecht"
+        ]
+      ]
+    },
+    {
+      "id": "g20-3",
+      "h": "البلد واللغة: aus Russland – Russisch",
+      "body": "ماتخلطش بين البلد واللغة! بعد aus بييجي اسم البلد: Ich komme aus Russland. وبعد sprechen بييجي اسم اللغة: Ich spreche Russisch. وأغلب أسماء اللغات آخرها -isch. وعشان تقول «هنا / في البلد دي بيتكلموا…» استخدم man + spricht: Hier spricht man Deutsch.",
+      "examples": [
+        {
+          "de": "Ich komme aus Thailand. Ich spreche Thai.",
+          "ar": "أنا من تايلاند. بتكلم تايلاندي."
+        },
+        {
+          "de": "In Ägypten spricht man Arabisch.",
+          "ar": "في مصر بيتكلموا عربي."
+        },
+        {
+          "de": "In Österreich spricht man Deutsch.",
+          "ar": "في النمسا بيتكلموا ألماني."
+        }
+      ],
+      "table": [
+        [
+          "البلد",
+          "اللغة"
+        ],
+        [
+          "Deutschland / Österreich",
+          "Deutsch"
+        ],
+        [
+          "Ägypten / Syrien",
+          "Arabisch"
+        ],
+        [
+          "die USA",
+          "Englisch"
+        ],
+        [
+          "Frankreich",
+          "Französisch"
+        ],
+        [
+          "Italien",
+          "Italienisch"
+        ],
+        [
+          "Spanien",
+          "Spanisch"
+        ],
+        [
+          "Russland",
+          "Russisch"
+        ],
+        [
+          "China",
+          "Chinesisch"
+        ],
+        [
+          "Japan",
+          "Japanisch"
+        ],
+        [
+          "Thailand",
+          "Thai"
+        ],
+        [
+          "Schweden",
+          "Schwedisch"
+        ],
+        [
+          "Norwegen",
+          "Norwegisch"
+        ]
+      ]
+    },
+    {
+      "id": "g20-4",
+      "h": "nördlich، südlich، östlich، westlich",
+      "body": "عشان تقول بلد فين بالنسبة لبلد تانية: liegt + nördlich / südlich / östlich / westlich + von. الكلمات دي جاية من der Norden، der Süden، der Osten، der Westen (درس 18). والسؤال بـ Wo: Wo liegt Österreich? – Südlich von Deutschland.",
+      "examples": [
+        {
+          "de": "Österreich liegt südlich von Deutschland.",
+          "ar": "النمسا جنوب ألمانيا."
+        },
+        {
+          "de": "Frankreich liegt westlich von Deutschland.",
+          "ar": "فرنسا غرب ألمانيا."
+        },
+        {
+          "de": "Schweden liegt nördlich von Deutschland.",
+          "ar": "السويد شمال ألمانيا."
+        },
+        {
+          "de": "Russland liegt östlich von Deutschland.",
+          "ar": "روسيا شرق ألمانيا."
+        }
+      ],
+      "table": [
+        [
+          "الاتجاه",
+          "البلد فين؟"
+        ],
+        [
+          "der Norden (الشمال)",
+          "nördlich von"
+        ],
+        [
+          "der Süden (الجنوب)",
+          "südlich von"
+        ],
+        [
+          "der Osten (الشرق)",
+          "östlich von"
+        ],
+        [
+          "der Westen (الغرب)",
+          "westlich von"
+        ]
+      ]
+    }
+  ]
+}

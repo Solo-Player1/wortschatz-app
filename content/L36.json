@@ -1,0 +1,770 @@
+{
+  "n": 36,
+  "sentences": [
+    {
+      "id": "s36-001",
+      "de": "Ich bin viel zu spät!",
+      "ar": "أنا اتأخرت أوي!",
+      "kind": "statement",
+      "focus": [
+        "lateness",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zu",
+        "opts": [
+          "zu",
+          "so",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-002",
+      "de": "Normalerweise bin ich nicht so unpünktlich.",
+      "ar": "أنا عادةً مش بتأخر كده.",
+      "kind": "statement",
+      "focus": [
+        "lateness",
+        "word-order"
+      ],
+      "alts": [
+        "Ich bin normalerweise nicht so unpünktlich.",
+        "So unpünktlich bin ich normalerweise nicht."
+      ],
+      "cloze": {
+        "word": "unpünktlich",
+        "opts": [
+          "unpünktlich",
+          "pünktlich",
+          "langsam"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-003",
+      "de": "Ich war eine halbe Stunde im Stau.",
+      "ar": "كنت في الزحمة نص ساعة.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "verb:sein",
+        "lateness"
+      ],
+      "alts": [
+        "Eine halbe Stunde war ich im Stau.",
+        "Im Stau war ich eine halbe Stunde."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "hatte",
+          "warst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-004",
+      "de": "Es sind zu viele Autos auf den Straßen.",
+      "ar": "فيه عربيات كتير زيادة عن اللزوم في الشوارع.",
+      "kind": "statement",
+      "focus": [
+        "traffic",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viele",
+        "opts": [
+          "viele",
+          "viel",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-005",
+      "de": "Es geht alles sehr langsam.",
+      "ar": "كل حاجة ماشية ببطء أوي.",
+      "kind": "statement",
+      "focus": [
+        "traffic",
+        "verb:gehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "langsam",
+        "opts": [
+          "langsam",
+          "schnell",
+          "pünktlich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-006",
+      "de": "Es sind keine Zimmer frei.",
+      "ar": "مفيش أوض فاضية.",
+      "kind": "statement",
+      "focus": [
+        "hostel",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-007",
+      "de": "Nein, alle Zimmer sind reserviert.",
+      "ar": "لأ، كل الأوض محجوزة.",
+      "kind": "answer",
+      "focus": [
+        "hostel",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-008",
+      "de": "Ich habe doch Platz.",
+      "ar": "ما أنا عندي مكان!",
+      "kind": "statement",
+      "focus": [
+        "verb:haben",
+        "hostel"
+      ],
+      "alts": [
+        "Platz habe ich doch."
+      ],
+      "cloze": {
+        "word": "habe",
+        "opts": [
+          "habe",
+          "hatte",
+          "hast"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-009",
+      "de": "Er kann gern ein paar Tage bei mir wohnen.",
+      "ar": "أهلًا بيه يقعد عندي كام يوم.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:können"
+      ],
+      "alts": [
+        "Ein paar Tage kann er gern bei mir wohnen.",
+        "Bei mir kann er gern ein paar Tage wohnen.",
+        "Er kann gern bei mir ein paar Tage wohnen.",
+        "Gern kann er ein paar Tage bei mir wohnen."
+      ],
+      "cloze": {
+        "word": "paar",
+        "opts": [
+          "paar",
+          "bisschen",
+          "viele"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s36-010",
+      "de": "Sorry, ich hatte eine Panne.",
+      "ar": "سوري، العربية عطلت بيّا.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "verb:haben",
+        "apology"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Panne",
+        "opts": [
+          "Panne",
+          "Stau",
+          "Platz"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-011",
+      "de": "Warum hattest du Verspätung?",
+      "ar": "إنت اتأخرت ليه؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "verb:haben",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hattest",
+        "opts": [
+          "hattest",
+          "hatte",
+          "hattet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-012",
+      "de": "Der Bus hatte zwanzig Minuten Verspätung.",
+      "ar": "الأتوبيس اتأخر عشرين دقيقة.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "verb:haben",
+        "lateness"
+      ],
+      "alts": [
+        "Zwanzig Minuten Verspätung hatte der Bus.",
+        "Zwanzig Minuten hatte der Bus Verspätung."
+      ],
+      "cloze": {
+        "word": "hatte",
+        "opts": [
+          "hatte",
+          "war",
+          "hattet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-013",
+      "de": "Hattet ihr Langeweile?",
+      "ar": "إنتوا كنتوا زهقانين؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hattet",
+        "opts": [
+          "Hattet",
+          "Hattest",
+          "Hatten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-014",
+      "de": "Nein, wir hatten viel Spaß.",
+      "ar": "لأ، إحنا اتبسطنا أوي.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hatten",
+        "opts": [
+          "hatten",
+          "hattet",
+          "hatte"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-015",
+      "de": "Inge gibt Nico ihre Adresse.",
+      "ar": "إنجه بتدّي نيكو عنوانها.",
+      "kind": "statement",
+      "focus": [
+        "verb:geben",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gibt",
+        "opts": [
+          "gibt",
+          "gebt",
+          "gibst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-016",
+      "de": "Das macht nichts.",
+      "ar": "ولا يهمك.",
+      "kind": "answer",
+      "focus": [
+        "apology",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nichts",
+        "opts": [
+          "nichts",
+          "nicht",
+          "kein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-017",
+      "de": "Ist schon gut.",
+      "ar": "خلاص، حصل خير.",
+      "kind": "answer",
+      "focus": [
+        "apology",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gut",
+        "opts": [
+          "gut",
+          "gute",
+          "guten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-018",
+      "de": "Sorry, ich komme ein bisschen später.",
+      "ar": "سوري، هتأخر شوية.",
+      "kind": "statement",
+      "focus": [
+        "lateness",
+        "apology"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bisschen",
+        "opts": [
+          "bisschen",
+          "paar",
+          "viel"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-019",
+      "de": "Sagst du das Treffen ab?",
+      "ar": "إنت هتلغي المقابلة؟",
+      "kind": "question",
+      "focus": [
+        "verb:absagen",
+        "separable"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ab",
+        "opts": [
+          "ab",
+          "aus",
+          "mit"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-020",
+      "de": "Viele Europäer glauben, die Deutschen sind pünktlich.",
+      "ar": "أوروبيين كتير فاكرين إن الألمان مظبوطين في مواعيدهم.",
+      "kind": "statement",
+      "focus": [
+        "nationality",
+        "verb:glauben",
+        "plural"
+      ],
+      "alts": [
+        "Die Deutschen sind pünktlich, glauben viele Europäer."
+      ],
+      "cloze": {
+        "word": "Deutschen",
+        "opts": [
+          "Deutschen",
+          "Deutsche",
+          "Deutsch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-021",
+      "de": "Du bist pünktlich wie immer!",
+      "ar": "إنت في ميعادك زي كل مرة!",
+      "kind": "statement",
+      "focus": [
+        "punctuality",
+        "comparison"
+      ],
+      "alts": [
+        "Du bist wie immer pünktlich!",
+        "Wie immer bist du pünktlich!"
+      ],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "so",
+          "wo"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s36-022",
+      "de": "Das Hostel ist modern, aber leider voll.",
+      "ar": "الهوستل حديث، بس للأسف مليان.",
+      "kind": "statement",
+      "focus": [
+        "hostel",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "voll",
+        "opts": [
+          "voll",
+          "volle",
+          "vollen"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w36-01",
+      "q": "___ kommt zu spät?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Woher",
+        "Wo",
+        "Wie alt"
+      ],
+      "ar": "مين اللي جاي متأخر؟",
+      "reply": "Lisa. Sie war im Stau.",
+      "reply_ar": "ليزا. كانت في الزحمة."
+    },
+    {
+      "id": "w36-02",
+      "q": "___ hatten Sie Verspätung?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "حضرتك اتأخرت ليه؟ (رسمي)",
+      "reply": "Mein Auto hatte eine Panne.",
+      "reply_ar": "عربيتي عطلت."
+    },
+    {
+      "id": "w36-03",
+      "q": "___ warst du im Stau?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viel",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "فضلت في الزحمة قد إيه؟",
+      "reply": "Eine halbe Stunde.",
+      "reply_ar": "نص ساعة."
+    },
+    {
+      "id": "w36-04",
+      "q": "___ ist das Treffen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "المقابلة إمتى؟",
+      "reply": "Morgen um acht Uhr.",
+      "reply_ar": "بكرة الساعة تمانية."
+    },
+    {
+      "id": "w36-05",
+      "q": "___ war die Party?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "الحفلة كانت عاملة إزاي؟",
+      "reply": "Super! Wir hatten viel Spaß.",
+      "reply_ar": "تحفة! اتبسطنا أوي."
+    },
+    {
+      "id": "w36-06",
+      "q": "___ kann Nico wohnen?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wohin",
+        "Wer"
+      ],
+      "ar": "نيكو ممكن يقعد فين؟",
+      "reply": "Bei Inge. Sie hat Platz.",
+      "reply_ar": "عند إنجه. عندها مكان."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g36-1",
+      "h": "الماضي من haben: hatte",
+      "body": "عشان تقول «كان عندي» بنستخدم الماضي البسيط (Präteritum) من haben. الأساس hatte، ومع du بنزوّد st: du hattest، ومع wir و sie / Sie بنزوّد n: hatten، ومع ihr بنزوّد t: ihr hattet. وخد بالك: ich و er / sie / es نفس الشكل hatte من غير نهاية، زي war بالظبط. والسؤال بيبدأ بالفعل: Hattest du Spaß? و hatte بنقولها عادي في الكلام، مش في الكتابة بس.",
+      "examples": [
+        {
+          "de": "Sorry, ich hatte eine Panne.",
+          "ar": "سوري، العربية عطلت بيّا."
+        },
+        {
+          "de": "Warum hattest du Verspätung?",
+          "ar": "إنت اتأخرت ليه؟"
+        },
+        {
+          "de": "Der Bus hatte zwanzig Minuten Verspätung.",
+          "ar": "الأتوبيس اتأخر عشرين دقيقة."
+        },
+        {
+          "de": "Hattet ihr Langeweile? – Nein, wir hatten viel Spaß.",
+          "ar": "إنتوا كنتوا زهقانين؟ – لأ، إحنا اتبسطنا أوي."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "الحاضر (Präsens)",
+          "الماضي (Präteritum)"
+        ],
+        [
+          "ich",
+          "habe",
+          "hatte"
+        ],
+        [
+          "du",
+          "hast",
+          "hattest"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "hatte"
+        ],
+        [
+          "wir",
+          "haben",
+          "hatten"
+        ],
+        [
+          "ihr",
+          "habt",
+          "hattet"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "hatten"
+        ]
+      ]
+    },
+    {
+      "id": "g36-2",
+      "h": "war ولا hatte؟",
+      "body": "war = كان (الماضي من sein، درس 17)، و hatte = كان عنده (الماضي من haben). عشان تختار، قول الجملة في الحاضر الأول: Ich bin im Stau بتبقى Ich war im Stau، و Ich habe eine Panne بتبقى Ich hatte eine Panne. وخد بالك: حاجات بنقولها في العربي بـ «كنت» بتتقال في الألماني بـ haben + اسم: Ich hatte Langeweile (كنت زهقان)، Ich hatte Hunger (كنت جعان). ونفس الحكاية: zu spät مع sein، بس Verspätung مع haben.",
+      "examples": [
+        {
+          "de": "Ich war eine halbe Stunde im Stau.",
+          "ar": "كنت في الزحمة نص ساعة."
+        },
+        {
+          "de": "Ich war zu spät. Der Zug hatte Verspätung.",
+          "ar": "أنا اتأخرت. القطر كان متأخر."
+        },
+        {
+          "de": "Ich hatte Langeweile.",
+          "ar": "كنت زهقان."
+        },
+        {
+          "de": "Wir hatten viel Spaß.",
+          "ar": "إحنا اتبسطنا أوي."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "كنت في الزحمة",
+          "Ich war im Stau."
+        ],
+        [
+          "كنت متأخر",
+          "Ich war zu spät. / Ich hatte Verspätung."
+        ],
+        [
+          "كنت زهقان",
+          "Ich hatte Langeweile."
+        ],
+        [
+          "اتبسطت",
+          "Ich hatte Spaß."
+        ],
+        [
+          "كنت جعان",
+          "Ich hatte Hunger."
+        ],
+        [
+          "ماكانش عندي وقت",
+          "Ich hatte keine Zeit."
+        ]
+      ]
+    },
+    {
+      "id": "g36-3",
+      "h": "تعتذر عن التأخير وترد",
+      "body": "لو اتأخرت قول: Sorry! أو Entschuldigung! أو Tut mir leid! وبعدين قول السبب بالماضي: Ich war im Stau. / Ich hatte eine Panne. ولو لسه هتتأخر: Ich komme später. والرد على الاعتذار: Das macht nichts. أو Ist schon gut. أو Kein Problem. (كلهم معناهم «ولا يهمك»). و pünktlich = في الميعاد بالظبط، و unpünktlich = مش مظبوط في مواعيده.",
+      "examples": [
+        {
+          "de": "Sorry, ich hatte eine Panne. – Das macht nichts.",
+          "ar": "سوري، العربية عطلت بيّا. – ولا يهمك."
+        },
+        {
+          "de": "Ich bin viel zu spät! – Ist schon gut.",
+          "ar": "أنا اتأخرت أوي! – خلاص، حصل خير."
+        },
+        {
+          "de": "Sorry, ich komme ein bisschen später.",
+          "ar": "سوري، هتأخر شوية."
+        },
+        {
+          "de": "Tut mir leid, der Bus hatte Verspätung. – Kein Problem.",
+          "ar": "آسف، الأتوبيس اتأخر. – مفيش مشكلة."
+        }
+      ],
+      "table": [
+        [
+          "الموقف",
+          "بالألماني"
+        ],
+        [
+          "تعتذر",
+          "Sorry! / Entschuldigung! / Tut mir leid!"
+        ],
+        [
+          "تقول السبب",
+          "Ich war im Stau. / Ich hatte eine Panne."
+        ],
+        [
+          "لسه هتتأخر",
+          "Ich komme später."
+        ],
+        [
+          "ترد على الاعتذار",
+          "Das macht nichts. / Ist schon gut. / Kein Problem."
+        ]
+      ]
+    },
+    {
+      "id": "g36-4",
+      "h": "تلغي ميعاد وتسأل على أوضة",
+      "body": "absagen = يلغي، وده فعل بينفصل (درس 30): ab بتروح آخر الجملة: Ich sage das Treffen ab. ومع können بييجي كامل في الآخر (درس 35): Kannst du den Termin absagen? ورسالة الإلغاء بتخلص بـ Viele Grüße (تحياتي). وفي الهوستل تسأل: Haben Sie noch ein Zimmer frei? والرد ممكن يكون: Nein, alle Zimmer sind reserviert. يعني الهوستل voll (مليان).",
+      "examples": [
+        {
+          "de": "Ich sage das Treffen ab.",
+          "ar": "أنا هلغي المقابلة."
+        },
+        {
+          "de": "Kannst du den Termin absagen?",
+          "ar": "ممكن تلغي الميعاد؟"
+        },
+        {
+          "de": "Leider kann ich heute nicht kommen. Viele Grüße",
+          "ar": "للأسف مش هقدر آجي النهارده. تحياتي"
+        },
+        {
+          "de": "Haben Sie noch ein Zimmer frei? – Nein, alle Zimmer sind reserviert.",
+          "ar": "لسه عندكم أوضة فاضية؟ (رسمي) – لأ، كل الأوض محجوزة."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "absagen"
+        ],
+        [
+          "ich",
+          "sage … ab"
+        ],
+        [
+          "du",
+          "sagst … ab"
+        ],
+        [
+          "er / sie / es",
+          "sagt … ab"
+        ],
+        [
+          "wir",
+          "sagen … ab"
+        ],
+        [
+          "ihr",
+          "sagt … ab"
+        ],
+        [
+          "sie / Sie",
+          "sagen … ab"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:10.800 --> 00:00:11.880 region:R1 align:center
+<c.S1>– Hallo!</c>
+
+2
+00:00:11.920 --> 00:00:13.640 region:R1 align:center
+<c.S1>– Hallo!</c>
+
+3
+00:00:13.880 --> 00:00:14.880 region:R1 align:center
+<c.S1>– Hallo!</c>
+
+4
+00:00:16.320 --> 00:00:18.360 region:R1 align:center
+<c.S1>– Was ist das denn?</c>
+
+5
+00:00:18.440 --> 00:00:19.600 region:R1 align:center
+<c.S1>– Abendessen.</c>
+
+6
+00:00:19.640 --> 00:00:21.160 region:R1 align:center
+<c.S1>– Das sehe ich.</c>
+
+7
+00:00:21.960 --> 00:00:24.000 region:R1 align:center
+<c.S1>– Wie war dein Tag, Tante Lisa?</c>
+
+8
+00:00:24.640 --> 00:00:26.960 region:R1 align:center
+<c.S1>– Gut, und wie war euer Tag?</c>
+
+9
+00:00:28.880 --> 00:00:29.760 region:R1 align:center
+<c.S1>– Super.</c>
+
+10
+00:00:30.920 --> 00:00:33.080 region:R1 align:center
+<c.S1>– Ich koche total gerne Gemüse.</c>
+
+11
+00:00:33.120 --> 00:00:35.520 region:R1 align:center
+<c.S1>– Ja, ich auch.</c>
+
+12
+00:00:42.880 --> 00:00:45.120 region:R1 align:center
+<c.S1>Du spielst sehr gut Flöte.</c>
+
+13
+00:00:45.640 --> 00:00:47.000 region:R1 align:center
+<c.S1>– Meine Ferienwoche:</c>
+
+14
+00:00:47.040 --> 00:00:49.960 region:R1 align:center
+<c.S1>Am Montag spiele ich mit
+Tante Lisa draußen Fußball.</c>
+
+15
+00:00:50.000 --> 00:00:52.360 region:R1 align:center
+<c.S1>Am Dienstag gehe ich zum Musikkurs.</c>
+
+16
+00:00:52.400 --> 00:00:53.920 region:R1 align:center
+<c.S1>– Du gehst zum Musikkurs?</c>
+
+17
+00:00:53.960 --> 00:00:55.320 region:R1 align:center
+<c.S1>– Ja, manchmal …</c>
+
+18
+00:00:56.240 --> 00:00:58.400 region:R1 align:center
+<c.S1>Am Mittwoch wasche ich mit Opa das Auto.</c>
+
+19
+00:00:58.440 --> 00:01:00.400 region:R1 align:center
+<c.S1>Am Donnerstag räume ich mein Zimmer auf.</c>
+
+20
+00:01:00.440 --> 00:01:02.520 region:R1 align:center
+<c.S1>– Das glaube ich nicht!</c>
+
+21
+00:01:02.640 --> 00:01:04.160 region:R1 align:center
+<c.S1>– Am Freitag sehe ich fern.</c>
+
+22
+00:01:04.200 --> 00:01:06.720 region:R1 align:center
+<c.S1>Am Samstag stehe ich spät auf.</c>
+
+23
+00:01:06.760 --> 00:01:07.960 region:R1 align:center
+<c.S1>Am Sonntag …</c>
+
+24
+00:01:08.000 --> 00:01:10.520 region:R1 align:center
+<c.S1>– Am Sonntag koche ich mit Nico Paella.</c>
+
+25
+00:01:10.560 --> 00:01:11.800 region:R1 align:center
+<c.S1>– Au ja!</c>
+
+26
+00:01:12.160 --> 00:01:13.200 region:R1 align:center
+<c.S1>– Bist du fertig?</c>
+
+27
+00:01:13.240 --> 00:01:14.080 region:R1 align:center
+<c.S1>– Ja.</c>
+
+28
+00:01:14.120 --> 00:01:15.440 region:R1 align:center
+<c.S1>– Cool!</c>
+
+29
+00:01:16.880 --> 00:01:20.360 region:R1 align:center
+<c.S1>– Ich lese gleich noch ein Buch für die Schule
+und dann gehe ich ins Bett.</c>
+
+30
+00:01:20.840 --> 00:01:21.880 region:R1 align:center
+<c.S1>– Ah.</c>

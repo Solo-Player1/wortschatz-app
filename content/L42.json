@@ -1,0 +1,805 @@
+{
+  "n": 42,
+  "sentences": [
+    {
+      "id": "s42-001",
+      "de": "Das ist der Laden auf dem Foto.",
+      "ar": "ده المحل اللي في الصورة.",
+      "kind": "statement",
+      "focus": [
+        "place",
+        "dative",
+        "preposition"
+      ],
+      "alts": [
+        "Der Laden auf dem Foto ist das."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-002",
+      "de": "Zuerst fahrt ihr mit dem Bus bis zum Grafenplatz.",
+      "ar": "الأول هتركبوا الأتوبيس لحد ميدان جرافن.",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "preposition",
+        "sequence"
+      ],
+      "alts": [
+        "Ihr fahrt zuerst mit dem Bus bis zum Grafenplatz.",
+        "Mit dem Bus fahrt ihr zuerst bis zum Grafenplatz.",
+        "Bis zum Grafenplatz fahrt ihr zuerst mit dem Bus.",
+        "Ihr fahrt mit dem Bus zuerst bis zum Grafenplatz.",
+        "Zuerst fahrt ihr bis zum Grafenplatz mit dem Bus.",
+        "Ihr fahrt zuerst bis zum Grafenplatz mit dem Bus."
+      ],
+      "cloze": {
+        "word": "bis",
+        "opts": [
+          "bis",
+          "über",
+          "durch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-003",
+      "de": "Dann geht ihr über den Grafenplatz.",
+      "ar": "بعدين هتعدّوا ميدان جرافن.",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "accusative",
+        "preposition"
+      ],
+      "alts": [
+        "Ihr geht dann über den Grafenplatz.",
+        "Über den Grafenplatz geht ihr dann."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "dem",
+          "der"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-004",
+      "de": "Dann geht ihr am Theater vorbei.",
+      "ar": "بعدين هتعدّوا من جنب المسرح.",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "dative",
+        "verb:vorbeigehen"
+      ],
+      "alts": [
+        "Ihr geht dann am Theater vorbei.",
+        "Am Theater geht ihr dann vorbei."
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "im",
+          "zum"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-005",
+      "de": "An der nächsten Ampel rechts.",
+      "ar": "عند الإشارة الجاية يمين.",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "den"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-006",
+      "de": "Das ist nicht weit.",
+      "ar": "ده مش بعيد.",
+      "kind": "answer",
+      "focus": [
+        "direction",
+        "negation"
+      ],
+      "alts": [
+        "Weit ist das nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-007",
+      "de": "Gehen Sie bis zum Grafenplatz.",
+      "ar": "امشي لحد ميدان جرافن. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "formal",
+        "preposition"
+      ],
+      "alts": [
+        "Sie gehen bis zum Grafenplatz.",
+        "Bis zum Grafenplatz gehen Sie."
+      ],
+      "cloze": {
+        "word": "Gehen",
+        "opts": [
+          "Gehen",
+          "Geht",
+          "Gehst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-008",
+      "de": "Biegen Sie dann links in die Krugstraße.",
+      "ar": "بعدين لف شمال في شارع كروج. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "accusative",
+        "direction"
+      ],
+      "alts": [
+        "Dann biegen Sie links in die Krugstraße.",
+        "Sie biegen dann links in die Krugstraße."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "den"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-009",
+      "de": "Überqueren Sie die Schlossstraße.",
+      "ar": "عدّي شارع شلوس. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "formal",
+        "verb:überqueren"
+      ],
+      "alts": [
+        "Sie überqueren die Schlossstraße.",
+        "Die Schlossstraße überqueren Sie."
+      ],
+      "cloze": {
+        "word": "Überqueren",
+        "opts": [
+          "Überqueren",
+          "Überquert",
+          "Überquerst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-010",
+      "de": "Biegen Sie an der nächsten Kreuzung rechts in die Adalbert-Stifter-Straße.",
+      "ar": "عند التقاطع الجاي لف يمين في شارع أدالبرت شتيفتر. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "dative",
+        "accusative"
+      ],
+      "alts": [
+        "An der nächsten Kreuzung biegen Sie rechts in die Adalbert-Stifter-Straße.",
+        "Sie biegen an der nächsten Kreuzung rechts in die Adalbert-Stifter-Straße."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "den"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s42-011",
+      "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+      "ar": "لو سمحت، أروح محطة القطر إزاي؟",
+      "kind": "question",
+      "focus": [
+        "direction",
+        "preposition",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zum",
+        "opts": [
+          "zum",
+          "zur",
+          "zu"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-012",
+      "de": "Wie kommen wir dorthin?",
+      "ar": "نروح هناك إزاي؟",
+      "kind": "question",
+      "focus": [
+        "direction",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dorthin",
+        "opts": [
+          "dorthin",
+          "dort",
+          "hier"
+        ],
+        "accept": [
+          "dahin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-013",
+      "de": "Ist der Parkplatz hinter dem Rathaus?",
+      "ar": "هو الباركينج ورا مبنى البلدية؟",
+      "kind": "question",
+      "focus": [
+        "place",
+        "dative",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-014",
+      "de": "Wo kann ich hier parken?",
+      "ar": "أركن فين هنا؟",
+      "kind": "question",
+      "focus": [
+        "verb:parken",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "parken",
+        "opts": [
+          "parken",
+          "parke",
+          "parkt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-015",
+      "de": "Nein, Sie können zu Fuß gehen.",
+      "ar": "لأ، حضرتك ممكن تروح مشي.",
+      "kind": "answer",
+      "focus": [
+        "direction",
+        "verb:können"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Fuß",
+        "opts": [
+          "Fuß",
+          "Bus",
+          "Auto"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-016",
+      "de": "Gehen Sie geradeaus bis zur Ampel.",
+      "ar": "امشي على طول لحد الإشارة. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "preposition",
+        "direction"
+      ],
+      "alts": [
+        "Gehen Sie bis zur Ampel geradeaus.",
+        "Sie gehen geradeaus bis zur Ampel.",
+        "Sie gehen bis zur Ampel geradeaus.",
+        "Bis zur Ampel gehen Sie geradeaus.",
+        "Geradeaus gehen Sie bis zur Ampel."
+      ],
+      "cloze": {
+        "word": "zur",
+        "opts": [
+          "zur",
+          "zum",
+          "zu"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-017",
+      "de": "Gehen Sie die Krugstraße entlang.",
+      "ar": "امشي في شارع كروج على طول. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:entlanggehen",
+        "direction"
+      ],
+      "alts": [
+        "Sie gehen die Krugstraße entlang.",
+        "Die Krugstraße gehen Sie entlang."
+      ],
+      "cloze": {
+        "word": "entlang",
+        "opts": [
+          "entlang",
+          "vorbei",
+          "über"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-018",
+      "de": "Gehen Sie durch den Park.",
+      "ar": "امشي من جوّه الجنينة. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "accusative",
+        "preposition"
+      ],
+      "alts": [
+        "Sie gehen durch den Park.",
+        "Durch den Park gehen Sie."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "dem",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-019",
+      "de": "Fahren Sie über die Brücke.",
+      "ar": "عدّي الكوبري بالعربية. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "accusative",
+        "preposition"
+      ],
+      "alts": [
+        "Sie fahren über die Brücke.",
+        "Über die Brücke fahren Sie."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-020",
+      "de": "Nehmen Sie die zweite Straße links.",
+      "ar": "خد تاني شارع شمال. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "ordinal",
+        "direction"
+      ],
+      "alts": [
+        "Sie nehmen die zweite Straße links.",
+        "Die zweite Straße links nehmen Sie."
+      ],
+      "cloze": {
+        "word": "Nehmen",
+        "opts": [
+          "Nehmen",
+          "Nimmt",
+          "Nehmt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-021",
+      "de": "Die Kirche ist auf der linken Seite.",
+      "ar": "الكنيسة على إيدك الشمال.",
+      "kind": "statement",
+      "focus": [
+        "place",
+        "dative"
+      ],
+      "alts": [
+        "Auf der linken Seite ist die Kirche."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "den"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s42-022",
+      "de": "Ich finde den Weg nicht.",
+      "ar": "مش لاقي الطريق.",
+      "kind": "statement",
+      "focus": [
+        "verb:finden",
+        "negation"
+      ],
+      "alts": [
+        "Den Weg finde ich nicht."
+      ],
+      "cloze": {
+        "word": "finde",
+        "opts": [
+          "finde",
+          "findest",
+          "findet"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w42-01",
+      "q": "___ komme ich zum Bahnhof?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wohin",
+        "Was"
+      ],
+      "ar": "أروح محطة القطر إزاي؟",
+      "reply": "Gehen Sie immer geradeaus.",
+      "reply_ar": "امشي على طول. (رسمي)"
+    },
+    {
+      "id": "w42-02",
+      "q": "___ ist die Haltestelle?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wann"
+      ],
+      "ar": "محطة الأتوبيس فين؟",
+      "reply": "An der Ecke.",
+      "reply_ar": "على الناصية."
+    },
+    {
+      "id": "w42-03",
+      "q": "___ gehen wir jetzt?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "هنروح فين دلوقتي؟",
+      "reply": "In die Fußgängerzone.",
+      "reply_ar": "على منطقة المشاة."
+    },
+    {
+      "id": "w42-04",
+      "q": "___ weit ist es bis zum Rathaus?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Was",
+        "Wann"
+      ],
+      "ar": "مبنى البلدية بعيد قد إيه؟",
+      "reply": "Nicht weit, nur zehn Minuten zu Fuß.",
+      "reply_ar": "مش بعيد، عشر دقايق مشي بس."
+    },
+    {
+      "id": "w42-05",
+      "q": "___ kann ich hier parken?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "أركن فين هنا؟",
+      "reply": "Im Parkhaus am Bahnhof.",
+      "reply_ar": "في الجراج اللي عند المحطة."
+    },
+    {
+      "id": "w42-06",
+      "q": "___ Straße ist das?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wie",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "ده شارع إيه؟",
+      "reply": "Das ist die Schlossstraße.",
+      "reply_ar": "ده شارع شلوس."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g42-1",
+      "h": "Wo? ولا Wohin؟ — جر ولا نصب",
+      "body": "حروف الجر in، an، auf، über، unter، vor، hinter، neben، zwischen حالتها بتتغيّر حسب السؤال. Wo? (فين؟ = مكان ثابت، زي مع sein): الاسم بعدها في حالة الجر (Dativ): im Zentrum، an der Ampel. Wohin? (رايح فين؟ = حركة لمكان، زي مع gehen و biegen): الاسم في حالة النصب (Akkusativ): in die Krugstraße، über den Grafenplatz. وخد بالك: in + dem = im، in + das = ins، an + dem = am.",
+      "examples": [
+        {
+          "de": "Wo seid ihr? – Wir sind im Park.",
+          "ar": "إنتوا فين؟ – إحنا في الجنينة."
+        },
+        {
+          "de": "Wohin geht ihr? – Wir gehen in den Park.",
+          "ar": "رايحين فين؟ – رايحين الجنينة."
+        },
+        {
+          "de": "Auf der Autobahn ist Stau.",
+          "ar": "فيه زحمة على الطريق السريع. (Wo? يعني جر: der)"
+        },
+        {
+          "de": "Biegen Sie dann links in die Krugstraße.",
+          "ar": "بعدين لف شمال في شارع كروج. (Wohin? يعني نصب: die)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Wo? = جر (Dativ)",
+          "Wohin? = نصب (Akkusativ)"
+        ],
+        [
+          "der (مذكّر)",
+          "dem / einem",
+          "den / einen"
+        ],
+        [
+          "die (مؤنّث)",
+          "der / einer",
+          "die / eine"
+        ],
+        [
+          "das (محايد)",
+          "dem / einem",
+          "das / ein"
+        ],
+        [
+          "die (جمع)",
+          "den (+n)",
+          "die"
+        ]
+      ]
+    },
+    {
+      "id": "g42-2",
+      "h": "حروف حالتها ثابتة: zu، bis zu، an … vorbei، durch",
+      "body": "مش كل حروف الجر بتتغيّر. zu دايمًا جر (Dativ) حتى مع Wohin?: zum Bahnhof (zu + dem)، zur Haltestelle (zu + der). و bis zu = لحد، لما تحب تحدّد آخر نقطة: bis zum Grafenplatz. و an + جر + vorbei = تعدّي من جنب حاجة: am Theater vorbei. و durch + نصب (Akkusativ) = من جوّه / عبر: durch den Park. و entlang بييجي بعد الاسم: die Krugstraße entlang.",
+      "examples": [
+        {
+          "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+          "ar": "لو سمحت، أروح محطة القطر إزاي؟"
+        },
+        {
+          "de": "Gehen Sie geradeaus bis zur Ampel.",
+          "ar": "امشي على طول لحد الإشارة. (رسمي)"
+        },
+        {
+          "de": "Dann geht ihr am Theater vorbei.",
+          "ar": "بعدين هتعدّوا من جنب المسرح."
+        },
+        {
+          "de": "Gehen Sie durch den Park.",
+          "ar": "امشي من جوّه الجنينة. (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "حرف الجر",
+          "الحالة",
+          "مثال"
+        ],
+        [
+          "zu",
+          "جر (Dativ)",
+          "zum Bahnhof / zur Haltestelle"
+        ],
+        [
+          "bis zu",
+          "جر (Dativ)",
+          "bis zum Grafenplatz"
+        ],
+        [
+          "an … vorbei",
+          "جر (Dativ)",
+          "am Theater vorbei / an der Kirche vorbei"
+        ],
+        [
+          "durch",
+          "نصب (Akkusativ)",
+          "durch den Park / durch die Fußgängerzone"
+        ],
+        [
+          "… entlang",
+          "نصب (Akkusativ)",
+          "die Krugstraße entlang / den Fluss entlang"
+        ]
+      ]
+    },
+    {
+      "id": "g42-3",
+      "h": "فعل الأمر الرسمي: Gehen Sie …",
+      "body": "لما توصف الطريق لحد بتقوله Sie، بتستخدم الأمر الرسمي، وده سهل: خد جملة Sie العادية وحط الفعل في الأول وبعده Sie على طول: Sie gehen geradeaus. تبقى Gehen Sie geradeaus. والفعل اللي بينفصل جزءه الصغير بيفضل في آخر الجملة: Gehen Sie am Theater vorbei. والفعل الوحيد الشاذ هو sein: Seien Sie pünktlich!",
+      "examples": [
+        {
+          "de": "Gehen Sie immer geradeaus.",
+          "ar": "امشي على طول. (رسمي)"
+        },
+        {
+          "de": "Überqueren Sie die Schlossstraße.",
+          "ar": "عدّي شارع شلوس. (رسمي)"
+        },
+        {
+          "de": "Seien Sie bitte pünktlich.",
+          "ar": "ياريت حضرتك تيجي في الميعاد."
+        }
+      ],
+      "table": [
+        [
+          "جملة خبرية",
+          "جملة أمر (رسمي)"
+        ],
+        [
+          "Sie gehen geradeaus.",
+          "Gehen Sie geradeaus."
+        ],
+        [
+          "Sie überqueren die Schlossstraße.",
+          "Überqueren Sie die Schlossstraße."
+        ],
+        [
+          "Sie biegen links in die Krugstraße.",
+          "Biegen Sie links in die Krugstraße."
+        ],
+        [
+          "Sie gehen am Theater vorbei.",
+          "Gehen Sie am Theater vorbei."
+        ],
+        [
+          "Sie sind pünktlich.",
+          "Seien Sie pünktlich!"
+        ]
+      ]
+    },
+    {
+      "id": "g42-4",
+      "h": "تسأل عن الطريق وتوصفه",
+      "body": "عشان تسأل: Entschuldigung, wie komme ich zum / zur …? أو Wo ist …? وعشان تعرف المسافة: Ist das weit? والرد: Das ist nicht weit. أو Das ist nah. ولما توصف رتّب الخطوات بـ zuerst … dann …، واستخدم geradeaus (على طول)، links (شمال)، rechts (يمين)، an der Ampel، an der Kreuzung، auf der linken / rechten Seite. ولو المكان قريب: Sie können zu Fuß gehen.",
+      "examples": [
+        {
+          "de": "Wie kommen wir dorthin?",
+          "ar": "نروح هناك إزاي؟"
+        },
+        {
+          "de": "Ist das weit? – Nein, Sie können zu Fuß gehen.",
+          "ar": "هو بعيد؟ – لأ، حضرتك ممكن تروح مشي."
+        },
+        {
+          "de": "Die Kirche ist auf der linken Seite.",
+          "ar": "الكنيسة على إيدك الشمال."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "لو سمحت، أروح المحطة إزاي؟",
+          "Entschuldigung, wie komme ich zum Bahnhof?"
+        ],
+        [
+          "هو بعيد؟",
+          "Ist das weit?"
+        ],
+        [
+          "قريب / بعيد",
+          "nah / weit"
+        ],
+        [
+          "على طول",
+          "immer geradeaus"
+        ],
+        [
+          "عند الإشارة / التقاطع / الناصية",
+          "an der Ampel / an der Kreuzung / an der Ecke"
+        ],
+        [
+          "على إيدك الشمال / اليمين",
+          "auf der linken / rechten Seite"
+        ],
+        [
+          "ممكن تروح مشي",
+          "Sie können zu Fuß gehen."
+        ]
+      ]
+    }
+  ]
+}

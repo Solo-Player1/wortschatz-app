@@ -1,0 +1,809 @@
+{
+  "n": 31,
+  "sentences": [
+    {
+      "id": "s31-001",
+      "de": "Ich koche gerne Gemüse.",
+      "ar": "بحب أطبخ خضار.",
+      "kind": "statement",
+      "focus": [
+        "verb:kochen",
+        "food"
+      ],
+      "alts": [
+        "Gerne koche ich Gemüse.",
+        "Gemüse koche ich gerne."
+      ],
+      "cloze": {
+        "word": "Gemüse",
+        "opts": [
+          "Gemüse",
+          "Fußball",
+          "Zeit"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-002",
+      "de": "Am Montag spiele ich Fußball.",
+      "ar": "يوم الاتنين هلعب كورة.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition",
+        "word-order"
+      ],
+      "alts": [
+        "Ich spiele am Montag Fußball.",
+        "Fußball spiele ich am Montag."
+      ],
+      "cloze": {
+        "word": "Am",
+        "opts": [
+          "Am",
+          "Um",
+          "Im"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-003",
+      "de": "Am Mittwoch wasche ich das Auto.",
+      "ar": "يوم الأربع هغسل العربية.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:waschen"
+      ],
+      "alts": [
+        "Ich wasche am Mittwoch das Auto.",
+        "Ich wasche das Auto am Mittwoch.",
+        "Das Auto wasche ich am Mittwoch."
+      ],
+      "cloze": {
+        "word": "wasche",
+        "opts": [
+          "wasche",
+          "wäschst",
+          "wäscht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-004",
+      "de": "Am Donnerstag räume ich mein Zimmer auf.",
+      "ar": "يوم الخميس هرتّب أوضتي.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:aufräumen",
+        "possessive"
+      ],
+      "alts": [
+        "Ich räume am Donnerstag mein Zimmer auf.",
+        "Ich räume mein Zimmer am Donnerstag auf.",
+        "Mein Zimmer räume ich am Donnerstag auf."
+      ],
+      "cloze": {
+        "word": "mein",
+        "opts": [
+          "mein",
+          "meinen",
+          "meinem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-005",
+      "de": "Das glaube ich nicht!",
+      "ar": "مش مصدّق الكلام ده!",
+      "kind": "answer",
+      "focus": [
+        "verb:glauben",
+        "negation"
+      ],
+      "alts": [
+        "Ich glaube das nicht!"
+      ],
+      "cloze": {
+        "word": "glaube",
+        "opts": [
+          "glaube",
+          "glaubst",
+          "glaubt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-006",
+      "de": "Am Freitag sehe ich fern.",
+      "ar": "يوم الجمعة هتفرّج على التلفزيون.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:fernsehen"
+      ],
+      "alts": [
+        "Ich sehe am Freitag fern."
+      ],
+      "cloze": {
+        "word": "sehe",
+        "opts": [
+          "sehe",
+          "siehst",
+          "sieht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-007",
+      "de": "Am Samstag stehe ich spät auf.",
+      "ar": "يوم السبت هصحى متأخر.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:aufstehen"
+      ],
+      "alts": [
+        "Ich stehe am Samstag spät auf.",
+        "Spät stehe ich am Samstag auf."
+      ],
+      "cloze": {
+        "word": "spät",
+        "opts": [
+          "spät",
+          "fertig",
+          "gestern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-008",
+      "de": "Am Sonntag koche ich mit Nico.",
+      "ar": "يوم الحد هطبخ مع نيكو.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:kochen"
+      ],
+      "alts": [
+        "Ich koche am Sonntag mit Nico.",
+        "Ich koche mit Nico am Sonntag.",
+        "Mit Nico koche ich am Sonntag."
+      ],
+      "cloze": {
+        "word": "koche",
+        "opts": [
+          "koche",
+          "kochst",
+          "kocht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-009",
+      "de": "Bist du fertig?",
+      "ar": "خلّصت؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bist",
+        "opts": [
+          "Bist",
+          "Hast",
+          "Ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s31-010",
+      "de": "Was machst du am Sonntag?",
+      "ar": "هتعمل إيه يوم الحد؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "time",
+        "preposition"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "um",
+          "im"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-011",
+      "de": "Hast du am Freitag Zeit?",
+      "ar": "إنت فاضي يوم الجمعة؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "verb:haben",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Zeit",
+        "opts": [
+          "Zeit",
+          "Uhr",
+          "Tag"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-012",
+      "de": "Ja, am Nachmittag habe ich Zeit.",
+      "ar": "أيوه، بعد الضهر فاضي.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition",
+        "word-order"
+      ],
+      "alts": [
+        "Ja, ich habe am Nachmittag Zeit."
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "um",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-013",
+      "de": "Kommst du am Samstag mit?",
+      "ar": "هتيجي معانا يوم السبت؟",
+      "kind": "question",
+      "focus": [
+        "verb:mitkommen",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mit",
+        "opts": [
+          "mit",
+          "auf",
+          "aus"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-014",
+      "de": "Am Sonntag schläft Opa lange.",
+      "ar": "يوم الحد جدو بينام كتير.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:schlafen",
+        "family"
+      ],
+      "alts": [
+        "Opa schläft am Sonntag lange.",
+        "Lange schläft Opa am Sonntag."
+      ],
+      "cloze": {
+        "word": "lange",
+        "opts": [
+          "lange",
+          "fertig",
+          "gestern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-015",
+      "de": "In der Nacht ist es ruhig.",
+      "ar": "بالليل الدنيا بتبقى هادية.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition"
+      ],
+      "alts": [
+        "Es ist in der Nacht ruhig.",
+        "Es ist ruhig in der Nacht.",
+        "Ruhig ist es in der Nacht."
+      ],
+      "cloze": {
+        "word": "In",
+        "opts": [
+          "In",
+          "Am",
+          "Um"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-016",
+      "de": "Gestern war Montag.",
+      "ar": "إمبارح كان الاتنين.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "past"
+      ],
+      "alts": [
+        "Montag war gestern."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "ist",
+          "bin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-017",
+      "de": "Der Unterricht fängt um acht Uhr an.",
+      "ar": "الدرس بيبدأ الساعة تمانية.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition",
+        "verb:anfangen"
+      ],
+      "alts": [
+        "Um acht Uhr fängt der Unterricht an."
+      ],
+      "cloze": {
+        "word": "um",
+        "opts": [
+          "um",
+          "am",
+          "im"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-018",
+      "de": "Wann hört der Unterricht auf?",
+      "ar": "الدرس بيخلص إمتى؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:aufhören"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "an",
+          "mit"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-019",
+      "de": "Am Abend bereitet die Lehrerin den Unterricht vor.",
+      "ar": "في المسا المدرّسة بتحضّر الدرس.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:vorbereiten",
+        "class"
+      ],
+      "alts": [
+        "Die Lehrerin bereitet am Abend den Unterricht vor.",
+        "Die Lehrerin bereitet den Unterricht am Abend vor.",
+        "Den Unterricht bereitet die Lehrerin am Abend vor."
+      ],
+      "cloze": {
+        "word": "bereitet",
+        "opts": [
+          "bereitet",
+          "bereitest",
+          "bereite"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-020",
+      "de": "Am Dienstag korrigiert die Lehrerin die Übungen.",
+      "ar": "يوم التلات المدرّسة بتصحّح التمارين.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:korrigieren",
+        "plural"
+      ],
+      "alts": [
+        "Die Lehrerin korrigiert am Dienstag die Übungen.",
+        "Die Lehrerin korrigiert die Übungen am Dienstag.",
+        "Die Übungen korrigiert die Lehrerin am Dienstag."
+      ],
+      "cloze": {
+        "word": "korrigiert",
+        "opts": [
+          "korrigiert",
+          "korrigierst",
+          "korrigiere"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-021",
+      "de": "Die Schüler schreiben mit.",
+      "ar": "التلاميذ بيكتبوا اللي بيتقال.",
+      "kind": "statement",
+      "focus": [
+        "verb:mitschreiben",
+        "plural",
+        "class"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schreiben",
+        "opts": [
+          "schreiben",
+          "schreibt",
+          "schreibst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s31-022",
+      "de": "Die Schülerin liest den Text vor.",
+      "ar": "التلميذة بتقرا النص بصوت عالي.",
+      "kind": "statement",
+      "focus": [
+        "verb:vorlesen",
+        "class"
+      ],
+      "alts": [
+        "Den Text liest die Schülerin vor."
+      ],
+      "cloze": {
+        "word": "liest",
+        "opts": [
+          "liest",
+          "lest",
+          "lese"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w31-01",
+      "q": "___ spielst du Fußball?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتلعب كورة إمتى؟",
+      "reply": "Ich spiele am Dienstag Fußball.",
+      "reply_ar": "بلعب كورة يوم التلات."
+    },
+    {
+      "id": "w31-02",
+      "q": "___ machst du am Sonntag?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "هتعمل إيه يوم الحد؟",
+      "reply": "Am Sonntag koche ich mit Nico.",
+      "reply_ar": "يوم الحد هطبخ مع نيكو."
+    },
+    {
+      "id": "w31-03",
+      "q": "___ fängt der Unterricht an?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "الدرس بيبدأ إمتى؟",
+      "reply": "Er fängt um halb neun an.",
+      "reply_ar": "بيبدأ الساعة تمانية ونص."
+    },
+    {
+      "id": "w31-04",
+      "q": "___ wäscht am Mittwoch das Auto?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "مين هيغسل العربية يوم الأربع؟",
+      "reply": "Emma wäscht mit Opa das Auto.",
+      "reply_ar": "إيما هتغسل العربية مع جدو."
+    },
+    {
+      "id": "w31-05",
+      "q": "___ Tag ist heute?",
+      "answer": "Welcher",
+      "opts": [
+        "Welcher",
+        "Wann",
+        "Wer",
+        "Wie viele"
+      ],
+      "ar": "النهارده يوم إيه؟",
+      "reply": "Heute ist Dienstag.",
+      "reply_ar": "النهارده التلات."
+    },
+    {
+      "id": "w31-06",
+      "q": "___ war dein Tag, Tante Lisa?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "يومك كان عامل إزاي يا طنط ليزا؟",
+      "reply": "Gut, und wie war euer Tag?",
+      "reply_ar": "كويس، وإنتوا يومكم كان عامل إزاي؟"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g31-1",
+      "h": "am + أيام الأسبوع: am Montag",
+      "body": "عشان تقول «يوم الاتنين» بنستخدم حرف الجر an، و an + dem = am. وكل أيام الأسبوع مذكّر (der Montag)، فبنقول دايمًا: am Montag، am Dienstag … am Sonntag. والسؤال بـ Wann? (إمتى؟) والرد: Am Sonntag. بس لما بتقول النهارده يوم إيه، مابنحطّش am: Heute ist Dienstag. / Gestern war Montag.",
+      "examples": [
+        {
+          "de": "Wann spielst du Fußball? – Am Montag.",
+          "ar": "بتلعب كورة إمتى؟ – يوم الاتنين."
+        },
+        {
+          "de": "Am Sonntag koche ich mit Nico.",
+          "ar": "يوم الحد هطبخ مع نيكو."
+        },
+        {
+          "de": "Welcher Tag ist heute? – Heute ist Dienstag.",
+          "ar": "النهارده يوم إيه؟ – النهارده التلات. (من غير am)"
+        }
+      ],
+      "table": [
+        [
+          "بالعربي",
+          "اليوم",
+          "إمتى؟"
+        ],
+        [
+          "الاتنين",
+          "der Montag",
+          "am Montag"
+        ],
+        [
+          "التلات",
+          "der Dienstag",
+          "am Dienstag"
+        ],
+        [
+          "الأربع",
+          "der Mittwoch",
+          "am Mittwoch"
+        ],
+        [
+          "الخميس",
+          "der Donnerstag",
+          "am Donnerstag"
+        ],
+        [
+          "الجمعة",
+          "der Freitag",
+          "am Freitag"
+        ],
+        [
+          "السبت",
+          "der Samstag",
+          "am Samstag"
+        ],
+        [
+          "الحد",
+          "der Sonntag",
+          "am Sonntag"
+        ]
+      ]
+    },
+    {
+      "id": "g31-2",
+      "h": "أوقات اليوم: am Abend، بس in der Nacht",
+      "body": "أوقات اليوم كمان بـ am: am Morgen، am Vormittag، am Mittag، am Nachmittag، am Abend. الاستثناء: in der Nacht (بالليل)، احفظها كده. والساعة بـ um: um acht Uhr. ولو هتقول اليوم والساعة، اليوم الأول: am Montag um acht Uhr. و heute و morgen و gestern و jeden Tag مالهمش حرف جر خالص. وخد بالك: morgen = بكرة، لكن am Morgen = الصبح.",
+      "examples": [
+        {
+          "de": "Am Abend bereitet die Lehrerin den Unterricht vor.",
+          "ar": "في المسا المدرّسة بتحضّر الدرس."
+        },
+        {
+          "de": "In der Nacht ist es ruhig.",
+          "ar": "بالليل الدنيا بتبقى هادية."
+        },
+        {
+          "de": "Der Unterricht fängt am Montag um acht Uhr an.",
+          "ar": "الدرس بيبدأ يوم الاتنين الساعة تمانية."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "الصبح",
+          "am Morgen"
+        ],
+        [
+          "قبل الضهر",
+          "am Vormittag"
+        ],
+        [
+          "الضهر",
+          "am Mittag"
+        ],
+        [
+          "بعد الضهر",
+          "am Nachmittag"
+        ],
+        [
+          "المسا",
+          "am Abend"
+        ],
+        [
+          "بالليل (استثناء)",
+          "in der Nacht"
+        ],
+        [
+          "الساعة تمانية",
+          "um acht Uhr"
+        ],
+        [
+          "إمبارح / النهارده / بكرة",
+          "gestern / heute / morgen"
+        ]
+      ]
+    },
+    {
+      "id": "g31-3",
+      "h": "Am Montag spiele ich: الفعل في المكان التاني",
+      "body": "في الجملة العادية الفعل دايمًا في المكان التاني. لو بدأت بالوقت (Am Montag)، الفعل ييجي بعده على طول والفاعل (ich) يتأخّر بعد الفعل، والمعنى هو هو: Ich spiele am Montag Fußball. = Am Montag spiele ich Fußball. والفعل اللي بينفصل (aufstehen، fernsehen، anfangen، mitkommen) الجزء الصغير بتاعه بيروح آخر الجملة: Am Samstag stehe ich spät auf.",
+      "examples": [
+        {
+          "de": "Ich spiele am Montag Fußball.",
+          "ar": "هلعب كورة يوم الاتنين."
+        },
+        {
+          "de": "Am Montag spiele ich Fußball.",
+          "ar": "يوم الاتنين هلعب كورة. (نفس المعنى)"
+        },
+        {
+          "de": "Am Samstag stehe ich spät auf.",
+          "ar": "يوم السبت هصحى متأخر."
+        }
+      ],
+      "table": [
+        [
+          "المكان ١",
+          "المكان ٢: الفعل",
+          "الباقي",
+          "آخر الجملة"
+        ],
+        [
+          "Ich",
+          "spiele",
+          "am Montag Fußball.",
+          ""
+        ],
+        [
+          "Am Montag",
+          "spiele",
+          "ich Fußball.",
+          ""
+        ],
+        [
+          "Am Samstag",
+          "stehe",
+          "ich spät",
+          "auf."
+        ],
+        [
+          "Der Unterricht",
+          "fängt",
+          "um acht Uhr",
+          "an."
+        ]
+      ]
+    },
+    {
+      "id": "g31-4",
+      "h": "تتكلّم عن أسبوعك وتعزم حد",
+      "body": "عشان تسأل حد عن خططه: Was machst du am Sonntag? وعشان تعزمه: Hast du am Freitag Zeit? Kommst du mit? والرد: Ja, am Nachmittag habe ich Zeit. أو Nein, am Freitag habe ich keine Zeit. (بنقول keine Zeit، مش nicht Zeit). ولو حد قالك حاجة صعب تصدّقها: Das glaube ich nicht!",
+      "examples": [
+        {
+          "de": "Was machst du am Sonntag? – Am Sonntag koche ich.",
+          "ar": "هتعمل إيه يوم الحد؟ – يوم الحد هطبخ."
+        },
+        {
+          "de": "Hast du am Freitag Zeit? – Nein, am Freitag habe ich keine Zeit.",
+          "ar": "فاضي يوم الجمعة؟ – لأ، يوم الجمعة مش فاضي."
+        },
+        {
+          "de": "Kommst du am Samstag mit? – Ja, gern!",
+          "ar": "هتيجي معانا يوم السبت؟ – أيوه، أكيد!"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "هتعمل إيه يوم الحد؟",
+          "Was machst du am Sonntag?"
+        ],
+        [
+          "فاضي يوم الجمعة؟",
+          "Hast du am Freitag Zeit?"
+        ],
+        [
+          "تيجي معانا؟",
+          "Kommst du mit?"
+        ],
+        [
+          "أيوه، فاضي بعد الضهر.",
+          "Ja, am Nachmittag habe ich Zeit."
+        ],
+        [
+          "لأ، مش فاضي.",
+          "Nein, ich habe keine Zeit."
+        ],
+        [
+          "مش مصدّق!",
+          "Das glaube ich nicht!"
+        ]
+      ]
+    }
+  ]
+}

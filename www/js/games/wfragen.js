@@ -2,7 +2,7 @@
 // حوالي تلت الجولات بالعكس: بتشوف الرد ولازم تختار السؤال بتاعه («إيه السؤال؟»). كل غلطة = قلب.
 import { choiceGrid } from './rounds.js';
 import { injectCss } from './engine.js';
-import { wfragenUpTo } from '../content.js';
+import { wfragenUpTo, CONTENT } from '../content.js';
 import { normDe } from '../exercises.js';
 
 export const meta = {
@@ -67,12 +67,32 @@ const stems = (s, reply = false) => {
   return out;
 };
 const shares = (a, b) => { for (const x of a) if (b.has(x)) return true; return false; };
+// what a reply is about — two questions whose replies look alike ask the same thing («Mein Knie tut weh.» / «Mein Bauch
+// tut weh.», «Um halb acht.» / «Um acht Uhr.»), so one can't be the «wrong» option for the other's reply
+const TIME = /\b(uhr|halb|viertel|morgens|vormittags?|mittags|nachmittags?|abends|nachts|heute|morgen|gestern|übermorgen|montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag|wochenende)\b|\b(um|von|bis|ab|gegen) (\d|ein|eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf)\b/;
+const PRICE = /\b(euro|cent|kostet|kosten|teuer|miete)\b/;
+const LIKE = /\b(gern|gerne|lieber|liebsten|mag|magst|mögen)\b/;
+const replyCore = r => {
+  const n = normDe(r), out = new Set([...stems(r)].filter(x => x[0] !== '='));
+  if (TIME.test(n)) out.add('#time');
+  if (PRICE.test(n)) out.add('#price');
+  if (LIKE.test(n)) out.add('#like');
+  return out;
+};
 // «Wer bist du? / Wer sind Sie?» = سؤال عن الشخص → «Ich heiße Nico.» بيرد عليه برضه (Wer في STOP فبنشوفه من السؤال نفسه)
 const WHO = /^\s*___\s+(bist\s+du|sind\s+sie)\s*\?\s*$/i;
 const qStemsOf = o => { const s = stems(o.q); if (normDe(o.answer) === 'wer' && WHO.test(o.q)) s.add('#name'); return s; };
 const OPEN = /^\s*___\s+ist\s+mit\s+(dir|ihnen)\b/i;
-// رد فيه فعل (مش اسم بس زي «Pizza Hawaii.» أو «Zehn Personen.» اللي ينفعوا لأسئلة كتير)
-const hasVerb = r => String(r).split(/\s+/).slice(1).some(w => /^[a-zäöüß]{3,}[.,!?]*$/.test(w) && !STOP.has(normDe(w)));
+// رد فيه فعل (مش اسم بس زي «Pizza Hawaii.» أو «Zehn Personen.» أو «Um halb acht.» اللي ينفعوا لأسئلة كتير):
+// كلمة من تصريفات جدول الأفعال (٢٣٨ فعل) أو sein/haben — مش أي كلمة صغيرة (acht، blaue كانوا بيتحسبوا أفعال)
+let VERB_FORMS = null;
+// only the conjugated verb itself: «stehe … auf» → stehe (the particle «auf»/«um»/«mit» is not a verb), + the infinitive,
+// + the Präteritum of sein/haben/werden and the modals («Ich war in der Oper.»)
+const PAST = 'war warst waren wart hatte hattest hatten hattet wurde wurden konnte konntest konnten musste mussten wollte wollten sollte sollten durfte durften mochte';
+const verbForms = () => VERB_FORMS || (VERB_FORMS = new Set([...Object.keys(FORMS), ...PAST.split(' '),
+  ...(CONTENT.verbs || []).flatMap(v => [v.inf, ...Object.values(v.forms || {}).map(f => String(f).trim().split(/\s+/)[0])]).map(w => normDe(w))].filter(w => w.length >= 2)));
+// … and a capitalised word inside the sentence is a noun, not a verb («Das Essen.», «Die Liebe.»; but «Das kommt drauf an.»)
+const hasVerb = r => String(r).trim().split(/\s+/).some((raw, k) => verbForms().has(normDe(raw)) && (k === 0 || !/^\p{Lu}/u.test(raw)));
 
 export function start(g) {
   injectCss('wfragen', CSS);
@@ -86,17 +106,26 @@ export function start(g) {
   // ٣ أسئلة غلط مالهاش علاقة بالرد ده: ولا سؤال فيه كلمة من الرد (Wo wohnt Yara? مع «Ich wohne in Kairo.»)،
   // الأول أداة استفهام مختلفة، وبعدين نفس الأداة بس فعل تاني
   const qStems = new Map(bank.map(o => [o, qStemsOf(o)]));
+  const rCore = new Map(bank.map(o => [o, replyCore(o.reply || '')]));
+  // أسئلة عامة بتنفع لردود كتير («Was machst du hier?»، «Was gibt es?»، «Was magst du?»، «Was machst du in deiner
+  // Freizeit?») و«Warum …?» (أي سبب بينفع) — آخر اختيار بس: مع ٤٤٨ سؤال لحد الدرس ٧٦ عمرها ما بتتاخد
+  const GENERIC = /^(mach|tu|sag|pass|mein|denk|geht|gibt|los|mag$|mags|möch|darf|frei)/;
+  // sein/haben (=sein / =haben) and the # tags don't make a question specific: «Was ist passiert?» → {pass} → generic
+  const isGeneric = o => [...(qStems.get(o) || qStemsOf(o))].filter(x => x[0] !== '#' && x[0] !== '=').every(x => GENERIC.test(x));
   const distractorsFor = it => {
     const mine = qKey(it), myReply = normDe(it.reply), myAns = normDe(it.answer), myVerb = verbKey(it), replyStems = stems(it.reply, true);
-    const strong = [], weak = [], seen = new Set([mine]);
+    const myCore = replyCore(it.reply || '');
+    const strong = [], weak = [], risky = [], seen = new Set([mine]);
     for (const o of g.shuffle(bank)) {
       const k = qKey(o);
       if (OPEN.test(o.q)) continue;          // «Was ist mit dir?» بينفع لأي رد بيتكلم فيه عن نفسه
       if (o.id === it.id || seen.has(k) || (o.reply && normDe(o.reply) === myReply) || shares(qStems.get(o) || qStemsOf(o), replyStems)) continue;
-      if (normDe(o.answer) !== myAns) { strong.push(o); seen.add(k); }
-      else if (verbKey(o) !== myVerb) { weak.push(o); seen.add(k); }
+      if (shares(rCore.get(o) || replyCore(o.reply || ''), myCore)) continue;    // its own reply looks like this one
+      const bucket = normDe(o.answer) !== myAns ? strong : verbKey(o) !== myVerb ? weak : null;
+      if (!bucket) continue;
+      (isGeneric(o) || normDe(o.answer) === 'warum' ? risky : bucket).push(o); seen.add(k);
     }
-    return strong.concat(weak).slice(0, 3);
+    return strong.concat(weak, risky).slice(0, 3);
   };
   // «إيه السؤال؟» بس لو الرد خاص بالسؤال ده (فيه كلمة منه) — ردود زي «Keine Ahnung.» تنفع لأي سؤال
   const canB = it => !!(it.reply && String(it.reply).trim()) && hasVerb(it.reply) && shares(stems(it.q), stems(it.reply, true)) && distractorsFor(it).length >= 3;

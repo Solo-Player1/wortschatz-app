@@ -1,0 +1,141 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:08.120 --> 00:00:09.280 region:R1 align:center
+<c.S1>– Max?
+– Ja?</c>
+
+2
+00:00:09.320 --> 00:00:11.520 region:R1 align:center
+<c.S1>– Kannst du morgen vielleicht
+etwas früher kommen?</c>
+
+3
+00:00:11.560 --> 00:00:15.360 region:R1 align:center
+<c.S1>Morgen ist doch der Zweiundzwanzigste
+und ich hab um halb eins einen Termin.</c>
+
+4
+00:00:15.760 --> 00:00:17.760 region:R1 align:center
+<c.S1>– Ja, kein Problem.</c>
+
+5
+00:00:18.480 --> 00:00:19.640 region:R1 align:center
+<c.S1>Übermorgen auch?</c>
+
+6
+00:00:19.800 --> 00:00:20.800 region:R1 align:center
+<c.S1>– Übermorgen?</c>
+
+7
+00:00:20.840 --> 00:00:23.520 region:R1 align:center
+<c.S1>Also am Dreiundzwanzigsten?</c>
+
+8
+00:00:25.280 --> 00:00:27.240 region:R1 align:center
+<c.S1>– Kleiner Tipp: Morgen ist der
+Zweiundzwanzigste,</c>
+
+9
+00:00:27.280 --> 00:00:30.120 region:R1 align:center
+<c.S1>dann ist übermorgen der …
+Dreiundzwanzigste.</c>
+
+10
+00:00:30.160 --> 00:00:31.400 region:R1 align:center
+<c.S1>– Sehr witzig.</c>
+
+11
+00:00:31.440 --> 00:00:36.040 region:R1 align:center
+<c.S1>Nein, übermorgen habe ich mittags keine
+Termine. Nur morgen.</c>
+
+12
+00:00:36.080 --> 00:00:38.760 region:R1 align:center
+<c.S1>– Okay. Aber denkst du dran:</c>
+
+13
+00:00:38.800 --> 00:00:41.680 region:R1 align:center
+<c.S1>Vom ersten bis zum siebten November
+hab ich noch mal Frühdienst.</c>
+
+14
+00:00:41.720 --> 00:00:43.920 region:R1 align:center
+<c.S1>– Vom ersten bis zum siebten November.</c>
+
+15
+00:00:44.360 --> 00:00:46.200 region:R1 align:center
+<c.S1>Ja! Das habe ich auch so in
+meinem Kalender stehen.</c>
+
+16
+00:00:46.240 --> 00:00:47.800 region:R1 align:center
+<c.S1>– Gut, okay!</c>
+
+17
+00:00:51.680 --> 00:00:53.920 region:R1 align:center
+<c.S1>– „Das Marek“, hier ist Tarek!</c>
+
+18
+00:00:53.960 --> 00:00:55.160 region:R1 align:center
+<c.S1>Hallo.</c>
+
+19
+00:00:55.680 --> 00:00:58.480 region:R1 align:center
+<c.S1>Ja, auch am Wochenende öffnen
+wir morgens um neun</c>
+
+20
+00:00:58.520 --> 00:01:00.480 region:R1 align:center
+<c.S1>und schließen abends um elf Uhr.</c>
+
+21
+00:01:00.560 --> 00:01:01.720 region:R1 align:center
+<c.S1>Ja!</c>
+
+22
+00:01:02.000 --> 00:01:02.880 region:R1 align:center
+<c.S1>Heute Abend?</c>
+
+23
+00:01:02.920 --> 00:01:04.720 region:R1 align:center
+<c.S1>Sie möchten einen Tisch reservieren?</c>
+
+24
+00:01:08.080 --> 00:01:10.880 region:R1 align:center
+<c.S1>Um Viertel vor sieben …</c>
+
+25
+00:01:10.920 --> 00:01:14.360 region:R1 align:center
+<c.S1>Tut mir leid. Wir haben leider erst um
+Viertel vor acht einen Tisch frei.</c>
+
+26
+00:01:14.880 --> 00:01:17.040 region:R1 align:center
+<c.S1>Am Fenster, natürlich.</c>
+
+27
+00:01:17.240 --> 00:01:18.080 region:R1 align:center
+<c.S1>Alles klar.</c>
+
+28
+00:01:18.120 --> 00:01:21.240 region:R1 align:center
+<c.S1>Okay. Wir freuen uns auf Sie!
+Danke! Auf Wiederhören!</c>
+
+29
+00:01:22.520 --> 00:01:24.360 region:R1 align:center
+<c.S1>Danke, Nico, für deine Hilfe!</c>
+
+30
+00:01:24.400 --> 00:01:26.600 region:R1 align:center
+<c.S1>– Das mache ich gern.</c>

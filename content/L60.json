@@ -1,0 +1,114 @@
+{
+  "n": 60,
+  "sentences": [
+    {"id": "s60-001", "de": "Hallo, junger Mann.", "ar": "أهلًا يا شاب.", "kind": "greeting", "focus": ["greeting", "adjective"], "alts": [], "cloze": {"word": "junger", "opts": ["junger", "junge", "jungen", "junges"]}, "src": "episode"},
+    {"id": "s60-002", "de": "Wo kommst du denn jetzt her?", "ar": "إنت جاي منين دلوقتي؟", "kind": "question", "focus": ["verb:herkommen", "separable", "w-frage"], "alts": [], "cloze": {"word": "kommst", "opts": ["kommst", "kommt", "komme"]}, "src": "episode"},
+    {"id": "s60-003", "de": "Ich habe eine tolle Überraschung für dich.", "ar": "عندي ليك مفاجأة حلوة.", "kind": "statement", "focus": ["adjective", "accusative"], "alts": ["Ich habe für dich eine tolle Überraschung.", "Für dich habe ich eine tolle Überraschung.", "Eine tolle Überraschung habe ich für dich."], "cloze": {"word": "tolle", "opts": ["tolle", "toller", "tolles", "tollen"], "accept": ["schöne"]}, "src": "episode"},
+    {"id": "s60-004", "de": "Er lebt nicht mehr.", "ar": "هو مابقاش عايش (اتوفّى).", "kind": "statement", "focus": ["verb:leben", "negation"], "alts": [], "cloze": {"word": "mehr", "opts": ["mehr", "noch", "nie"]}, "src": "episode"},
+    {"id": "s60-005", "de": "Er hat immer sehr elegante Kleidung getragen.", "ar": "كان دايمًا بيلبس هدوم شيك أوي.", "kind": "statement", "focus": ["perfect", "verb:tragen", "adjective"], "alts": ["Immer hat er sehr elegante Kleidung getragen.", "Sehr elegante Kleidung hat er immer getragen."], "cloze": {"word": "getragen", "opts": ["getragen", "getragt", "geträgt"], "accept": ["angehabt"]}, "src": "episode"},
+    {"id": "s60-006", "de": "Na los, probier die Sachen an!", "ar": "يلا، قيس الحاجات دي!", "kind": "statement", "focus": ["imperative", "verb:anprobieren", "separable"], "alts": [], "cloze": {"word": "probier", "opts": ["probier", "probierst", "probieren"], "accept": ["probiere", "zieh", "ziehe"]}, "src": "episode"},
+    {"id": "s60-007", "de": "Die braune Hose steht dir sicher sehr gut.", "ar": "البنطلون البني أكيد هيبقى حلو عليك أوي.", "kind": "statement", "focus": ["adjective", "verb:stehen", "dative"], "alts": ["Sicher steht dir die braune Hose sehr gut.", "Dir steht die braune Hose sicher sehr gut."], "cloze": {"word": "braune", "opts": ["braune", "braunen", "brauner", "braunes"]}, "src": "episode"},
+    {"id": "s60-008", "de": "Ich finde, du bist ein hübscher junger Mann!", "ar": "أنا شايفة إنك شاب وسيم!", "kind": "statement", "focus": ["adjective", "verb:finden", "opinion"], "alts": [], "cloze": {"word": "hübscher", "opts": ["hübscher", "hübsche", "hübschen", "hübsches"], "accept": ["schöner"]}, "src": "episode"},
+    {"id": "s60-009", "de": "Ein gestreiftes Hemd und eine warme Hose!", "ar": "قميص مقلّم وبنطلون دافي!", "kind": "statement", "focus": ["adjective", "pattern", "clothes"], "alts": ["Eine warme Hose und ein gestreiftes Hemd!"], "cloze": {"word": "gestreiftes", "opts": ["gestreiftes", "gestreifter", "gestreifte", "gestreiften"]}, "src": "episode"},
+    {"id": "s60-010", "de": "Na ja, ich weiß nicht.", "ar": "يعني… مش عارف.", "kind": "answer", "focus": ["verb:wissen", "opinion"], "alts": [], "cloze": {"word": "weiß", "opts": ["weiß", "weißt", "wissen"]}, "src": "episode"},
+    {"id": "s60-011", "de": "Ich habe ein kariertes Hemd und bunte Socken an.", "ar": "أنا لابس قميص كاروهات وشرابات ملوّنة.", "kind": "statement", "focus": ["verb:anhaben", "adjective", "pattern"], "alts": ["Ich habe bunte Socken und ein kariertes Hemd an.", "Ein kariertes Hemd und bunte Socken habe ich an.", "Bunte Socken und ein kariertes Hemd habe ich an."], "cloze": {"word": "kariertes", "opts": ["kariertes", "karierter", "karierte", "karierten"]}, "src": "authored"},
+    {"id": "s60-012", "de": "Hast du heute eine Krawatte an?", "ar": "إنت لابس كرافتة النهارده؟", "kind": "question", "focus": ["verb:anhaben", "separable", "clothes"], "alts": [], "cloze": {"word": "Hast", "opts": ["Hast", "Hat", "Habe"]}, "src": "authored"},
+    {"id": "s60-013", "de": "Nein, das ist mir zu formell.", "ar": "لأ، دي رسمية زيادة بالنسبالي.", "kind": "answer", "focus": ["opinion", "zu-adjective"], "alts": ["Nein, mir ist das zu formell."], "cloze": {"word": "formell", "opts": ["formell", "formelle", "formellen"]}, "src": "authored"},
+    {"id": "s60-014", "de": "Max trägt einen Anzug mit Weste und Fliege.", "ar": "ماكس لابس بدلة بصديري وبابيون.", "kind": "statement", "focus": ["clothes", "accusative", "verb:tragen"], "alts": ["Max trägt einen Anzug mit Fliege und Weste.", "Einen Anzug mit Weste und Fliege trägt Max.", "Einen Anzug mit Fliege und Weste trägt Max."], "cloze": {"word": "einen", "opts": ["einen", "ein", "eine"]}, "src": "authored"},
+    {"id": "s60-015", "de": "Im Unternehmen trägt die Chefin einen Hosenanzug.", "ar": "في الشركة، المديرة بتلبس بدلة حريمي ببنطلون.", "kind": "statement", "focus": ["work-clothes", "article", "verb:tragen"], "alts": ["Die Chefin trägt im Unternehmen einen Hosenanzug.", "Einen Hosenanzug trägt die Chefin im Unternehmen.", "Die Chefin trägt einen Hosenanzug im Unternehmen."], "cloze": {"word": "Hosenanzug", "opts": ["Hosenanzug", "Kostüm", "Bluse"]}, "src": "authored"},
+    {"id": "s60-016", "de": "Das Kostüm ist schlicht, aber elegant.", "ar": "التايير سادة بس شيك.", "kind": "statement", "focus": ["adjective", "clothes"], "alts": ["Schlicht, aber elegant ist das Kostüm."], "cloze": {"word": "schlicht", "opts": ["schlicht", "schlichte", "schlichtes"]}, "src": "authored"},
+    {"id": "s60-017", "de": "Lisa hat ein gepunktetes Kleid an.", "ar": "ليزا لابسة فستان منقّط.", "kind": "statement", "focus": ["verb:anhaben", "pattern", "article"], "alts": ["Ein gepunktetes Kleid hat Lisa an."], "cloze": {"word": "Kleid", "opts": ["Kleid", "Bluse", "Rock"]}, "src": "authored"},
+    {"id": "s60-018", "de": "Inge trägt eine geblümte Bluse und ein Halstuch.", "ar": "إنجي لابسة بلوزة مورّدة وإيشارب.", "kind": "statement", "focus": ["adjective", "pattern", "verb:tragen"], "alts": ["Inge trägt ein Halstuch und eine geblümte Bluse.", "Eine geblümte Bluse und ein Halstuch trägt Inge.", "Ein Halstuch und eine geblümte Bluse trägt Inge."], "cloze": {"word": "geblümte", "opts": ["geblümte", "geblümten", "geblümter", "geblümtes"]}, "src": "authored"},
+    {"id": "s60-019", "de": "Krankenschwestern und Krankenpfleger tragen oft weiße Kleidung.", "ar": "الممرضات والممرضين غالبًا بيلبسوا هدوم بيضا.", "kind": "statement", "focus": ["work-clothes", "plural", "verb:tragen"], "alts": ["Krankenpfleger und Krankenschwestern tragen oft weiße Kleidung.", "Oft tragen Krankenschwestern und Krankenpfleger weiße Kleidung.", "Oft tragen Krankenpfleger und Krankenschwestern weiße Kleidung.", "Weiße Kleidung tragen Krankenschwestern und Krankenpfleger oft.", "Weiße Kleidung tragen Krankenpfleger und Krankenschwestern oft.", "Weiße Kleidung tragen oft Krankenschwestern und Krankenpfleger.", "Weiße Kleidung tragen oft Krankenpfleger und Krankenschwestern."], "cloze": {"word": "tragen", "opts": ["tragen", "trägt", "tragt"]}, "src": "authored"},
+    {"id": "s60-020", "de": "Der Schornsteinfeger trägt einen hohen Hut.", "ar": "منظّف المداخن بيلبس برنيطة عالية.", "kind": "statement", "focus": ["work-clothes", "adjective", "accusative"], "alts": ["Einen hohen Hut trägt der Schornsteinfeger."], "cloze": {"word": "hohen", "opts": ["hohen", "hochen", "hoher", "hohe"]}, "src": "authored"},
+    {"id": "s60-021", "de": "Der Kfz-Mechatroniker trägt Arbeitsschuhe und Handschuhe.", "ar": "ميكانيكي العربيات بيلبس جزمة شغل وجوانتي.", "kind": "statement", "focus": ["work-clothes", "plural", "verb:tragen"], "alts": ["Der Kfz-Mechatroniker trägt Handschuhe und Arbeitsschuhe.", "Arbeitsschuhe und Handschuhe trägt der Kfz-Mechatroniker.", "Handschuhe und Arbeitsschuhe trägt der Kfz-Mechatroniker."], "cloze": {"word": "trägt", "opts": ["trägt", "tragt", "trägst"]}, "src": "authored"},
+    {"id": "s60-022", "de": "Ist der Trainingsanzug nicht zu grell?", "ar": "الترينج ده مش فاقع زيادة؟", "kind": "question", "focus": ["article", "zu-adjective", "yes-no-question"], "alts": [], "cloze": {"word": "der", "opts": ["der", "die", "das"], "accept": ["dieser"]}, "src": "authored"}
+  ],
+  "wfragen": [
+    {"id": "w60-01", "q": "___ hast du heute an?", "answer": "Was", "opts": ["Was", "Wer", "Wo", "Woher"], "ar": "إنت لابس إيه النهارده؟", "reply": "Eine Jeans und ein gestreiftes Hemd.", "reply_ar": "بنطلون جينز وقميص مقلّم."},
+    {"id": "w60-02", "q": "___ kommst du denn jetzt her?", "answer": "Wo", "opts": ["Wo", "Wer", "Wie viel", "Welche"], "ar": "إنت جاي منين دلوقتي؟", "reply": "Ich war draußen.", "reply_ar": "كنت برّه."},
+    {"id": "w60-03", "q": "___ trägt der Schornsteinfeger?", "answer": "Was", "opts": ["Was", "Wer", "Woher", "Wie alt"], "ar": "منظّف المداخن بيلبس إيه؟", "reply": "Schwarze Kleidung und einen hohen Hut.", "reply_ar": "هدوم سودا وبرنيطة عالية."},
+    {"id": "w60-04", "q": "___ Kleid gefällt dir besser?", "answer": "Welches", "opts": ["Welches", "Welcher", "Wie", "Wo"], "ar": "أنهي فستان عاجبك أكتر؟", "reply": "Das gepunktete Kleid.", "reply_ar": "الفستان المنقّط."},
+    {"id": "w60-05", "q": "___ arbeitet eine Krankenschwester?", "answer": "Wo", "opts": ["Wo", "Wer", "Woher", "Wie viele"], "ar": "الممرضة بتشتغل فين؟", "reply": "Im Krankenhaus.", "reply_ar": "في المستشفى."},
+    {"id": "w60-06", "q": "___ steht mir besser, die Krawatte oder die Fliege?", "answer": "Was", "opts": ["Was", "Wer", "Wo", "Woher"], "ar": "إيه اللي لايق عليّا أكتر، الكرافتة ولا البابيون؟", "reply": "Die Fliege!", "reply_ar": "البابيون!"}
+  ],
+  "grammar": [
+    {
+      "id": "g60-1",
+      "h": "anhaben: لابس إيه؟",
+      "body": "anhaben = لابس (دلوقتي). فعل بينفصل زي anziehen: haben بيتصرّف عادي في مكان الفعل، و an بتروح آخر الجملة: Ich habe ein kariertes Hemd an. والسؤال: Was hast du heute an? و tragen معناه قريب (لابس أو بيلبس عادةً). أما anziehen فهو «يلبس» نفسه، يعني الحركة. والحاجة اللي لابسها بتبقى في النصب: einen Anzug، eine Krawatte، ein Kleid.",
+      "examples": [
+        {"de": "Was hast du heute an? – Ich habe ein kariertes Hemd und bunte Socken an.", "ar": "إنت لابس إيه النهارده؟ – لابس قميص كاروهات وشرابات ملوّنة."},
+        {"de": "Hast du heute eine Krawatte an? – Nein, das ist mir zu formell.", "ar": "إنت لابس كرافتة النهارده؟ – لأ، دي رسمية زيادة بالنسبالي."},
+        {"de": "Lisa hat ein gepunktetes Kleid an.", "ar": "ليزا لابسة فستان منقّط."}
+      ],
+      "table": [
+        ["", "anhaben"],
+        ["ich", "habe … an"],
+        ["du", "hast … an"],
+        ["er / sie / es", "hat … an"],
+        ["wir", "haben … an"],
+        ["ihr", "habt … an"],
+        ["sie / Sie", "haben … an"]
+      ]
+    },
+    {
+      "id": "g60-2",
+      "h": "توصف اللبس بالظبط: النقشة والشكل",
+      "body": "عشان توصف اللبس بالظبط: gestreift (مقلّم)، kariert (كاروهات)، gepunktet (منقّط)، geblümt (مورّد)، schlicht (سادة)، grell (فاقع). بعد sein مابتاخدش نهاية: Das Kostüm ist schlicht. وقبل الاسم بتاخد نهايات درس 57: ein gestreiftes Hemd، eine geblümte Bluse، einen karierten Rock، bunte Socken. وخد بالك: hoch قبل الاسم بتبقى hoh-: einen hohen Hut.",
+      "examples": [
+        {"de": "Ein gestreiftes Hemd und eine warme Hose!", "ar": "قميص مقلّم وبنطلون دافي!"},
+        {"de": "Das Kostüm ist schlicht, aber elegant.", "ar": "التايير سادة بس شيك. (بعد sein: من غير نهاية)"},
+        {"de": "Der Schornsteinfeger trägt einen hohen Hut.", "ar": "منظّف المداخن بيلبس برنيطة عالية. (hoch → hohen)"}
+      ],
+      "table": [
+        ["الكلمة", "معناها", "قبل الاسم (رفع)"],
+        ["gestreift", "مقلّم", "ein gestreiftes Hemd"],
+        ["kariert", "كاروهات", "ein kariertes Hemd"],
+        ["gepunktet", "منقّط", "ein gepunktetes Kleid"],
+        ["geblümt", "مورّد", "eine geblümte Bluse"],
+        ["schlicht", "سادة", "ein schlichtes Kostüm"],
+        ["grell", "فاقع", "ein greller Trainingsanzug"],
+        ["hoch", "عالي", "ein hoher Hut"]
+      ]
+    },
+    {
+      "id": "g60-3",
+      "h": "لبس الشغل واللبس الكاجوال",
+      "body": "في شغلانات كتير عادي تروح الشغل بـ Jeans، بس مع الزباين اللبس لسه formell: der Anzug مع die Krawatte أو die Fliege للرجالة، و der Hosenanzug أو das Kostüm للستات. die Krankenschwester و der Krankenpfleger غالبًا بيلبسوا أبيض، و der Schornsteinfeger لابس أسود وبرنيطة عالية (والألمان بيقولوا إنه بيجيب الحظ). وفي الورشة: Arbeitsschuhe و Handschuhe. وفي الـ Freizeit (وقت الفراغ): Jeans و T-Shirt و Turnschuhe، وللرياضة der Trainingsanzug.",
+      "examples": [
+        {"de": "Max trägt einen Anzug mit Weste und Fliege.", "ar": "ماكس لابس بدلة بصديري وبابيون."},
+        {"de": "Im Unternehmen trägt die Chefin einen Hosenanzug.", "ar": "في الشركة، المديرة بتلبس بدلة حريمي ببنطلون."},
+        {"de": "Krankenschwestern und Krankenpfleger tragen oft weiße Kleidung.", "ar": "الممرضات والممرضين غالبًا بيلبسوا هدوم بيضا."},
+        {"de": "In der Freizeit trage ich Jeans und Turnschuhe.", "ar": "في وقت فراغي بلبس جينز وكوتشي."}
+      ],
+      "table": [
+        ["فين؟ / مين؟", "بيلبس إيه؟"],
+        ["im Unternehmen", "der Anzug, die Krawatte, die Fliege, der Hosenanzug, das Kostüm"],
+        ["im Krankenhaus", "weiße Kleidung"],
+        ["der Schornsteinfeger / die Schornsteinfegerin", "schwarze Kleidung, ein hoher Hut"],
+        ["in der Werkstatt", "Arbeitsschuhe, Handschuhe"],
+        ["in der Freizeit", "Jeans, T-Shirt, Turnschuhe"],
+        ["zu Hause / beim Sport", "der Trainingsanzug"]
+      ]
+    },
+    {
+      "id": "g60-4",
+      "h": "جمل مهمة من الحلقة: wo … her، nicht mehr، steht dir",
+      "body": "Wo kommst du her? = Woher kommst du? بس her بتروح آخر الجملة (herkommen)، ومعناها «إنت جاي منين؟» أو «إنت منين؟». و nicht mehr = مابقاش / خلاص مش: Er lebt nicht mehr = مابقاش عايش. وعشان تمدح لبس حد: Das steht dir gut! (لايق عليك). ولو مش مقتنع بالهدوم: Na ja, ich weiß nicht.",
+      "examples": [
+        {"de": "Wo kommst du denn jetzt her? – Ich war draußen.", "ar": "إنت جاي منين دلوقتي؟ – كنت برّه."},
+        {"de": "Günther war mein Mann. Er lebt nicht mehr.", "ar": "جونتر كان جوزي. هو مابقاش عايش."},
+        {"de": "Die braune Hose steht dir sicher sehr gut.", "ar": "البنطلون البني أكيد هيبقى حلو عليك أوي."}
+      ],
+      "table": [
+        ["عايز تقول", "بالألماني"],
+        ["إنت جاي منين؟", "Wo kommst du her?"],
+        ["مابقاش عايش", "Er lebt nicht mehr."],
+        ["ده لايق عليك!", "Das steht dir gut!"],
+        ["يلا، قيس الحاجات دي!", "Probier die Sachen an!"],
+        ["يعني… مش عارف.", "Na ja, ich weiß nicht."]
+      ]
+    }
+  ]
+}

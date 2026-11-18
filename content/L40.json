@@ -1,0 +1,750 @@
+{
+  "n": 40,
+  "sentences": [
+    {
+      "id": "s40-001",
+      "de": "Du bist so still.",
+      "ar": "إنت ساكت أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:sein",
+        "feeling"
+      ],
+      "alts": [
+        "So still bist du."
+      ],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "ist",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-002",
+      "de": "Was ist denn?",
+      "ar": "هو فيه إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Was",
+        "opts": [
+          "Was",
+          "Wer",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-003",
+      "de": "Ich will nicht studieren.",
+      "ar": "أنا مش عايز أدرس.",
+      "kind": "answer",
+      "focus": [
+        "verb:wollen",
+        "negation"
+      ],
+      "alts": [
+        "Studieren will ich nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-004",
+      "de": "Ich hasse es.",
+      "ar": "أنا بكرهها (الدراسة).",
+      "kind": "statement",
+      "focus": [
+        "verb:hassen",
+        "likes"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hasse",
+        "opts": [
+          "hasse",
+          "hasst",
+          "hast"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-005",
+      "de": "Aber meine Eltern wollen das.",
+      "ar": "بس أهلي عايزين كده.",
+      "kind": "statement",
+      "focus": [
+        "verb:wollen",
+        "family"
+      ],
+      "alts": [
+        "Aber das wollen meine Eltern.",
+        "Meine Eltern wollen das aber.",
+        "Das wollen meine Eltern aber."
+      ],
+      "cloze": {
+        "word": "wollen",
+        "opts": [
+          "wollen",
+          "will",
+          "wollt",
+          "willst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-006",
+      "de": "Mein Vater sagt immer, ich muss studieren.",
+      "ar": "أبويا دايمًا بيقول إني لازم أدرس.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "family"
+      ],
+      "alts": [
+        "Ich muss studieren, sagt mein Vater immer.",
+        "Immer sagt mein Vater, ich muss studieren."
+      ],
+      "cloze": {
+        "word": "muss",
+        "opts": [
+          "muss",
+          "musst",
+          "müssen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-007",
+      "de": "Ich will weg von zu Hause.",
+      "ar": "أنا عايز أبعد عن البيت.",
+      "kind": "answer",
+      "focus": [
+        "verb:wollen",
+        "place"
+      ],
+      "alts": [
+        "Ich will von zu Hause weg.",
+        "Von zu Hause will ich weg.",
+        "Weg von zu Hause will ich."
+      ],
+      "cloze": {
+        "word": "weg",
+        "opts": [
+          "weg",
+          "nach",
+          "still"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-008",
+      "de": "Und was willst du hier machen?",
+      "ar": "وعايز تعمل إيه هنا؟",
+      "kind": "question",
+      "focus": [
+        "verb:wollen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "willst",
+        "opts": [
+          "willst",
+          "will",
+          "wollt",
+          "wollen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s40-009",
+      "de": "Willst du studieren?",
+      "ar": "إنت عايز تدرس؟",
+      "kind": "question",
+      "focus": [
+        "verb:wollen",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Willst",
+        "opts": [
+          "Willst",
+          "Will",
+          "Wollt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-010",
+      "de": "Was willst du später werden?",
+      "ar": "عايز تبقى إيه بعدين؟",
+      "kind": "question",
+      "focus": [
+        "verb:werden",
+        "w-frage",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "werden",
+        "opts": [
+          "werden",
+          "wirst",
+          "wird"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-011",
+      "de": "Ich will Fotograf werden.",
+      "ar": "أنا عايز أبقى مصوّر.",
+      "kind": "answer",
+      "focus": [
+        "verb:wollen",
+        "verb:werden",
+        "job"
+      ],
+      "alts": [
+        "Fotograf will ich werden."
+      ],
+      "cloze": {
+        "word": "will",
+        "opts": [
+          "will",
+          "willst",
+          "wollen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-012",
+      "de": "Meine Freundin will Designerin werden.",
+      "ar": "صاحبتي عايزة تبقى مصمّمة.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "feminine",
+        "verb:wollen"
+      ],
+      "alts": [
+        "Designerin will meine Freundin werden."
+      ],
+      "cloze": {
+        "word": "Designerin",
+        "opts": [
+          "Designerin",
+          "Designer",
+          "Designerinnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-013",
+      "de": "Meine Schwester wird Architektin.",
+      "ar": "أختي هتبقى مهندسة معمارية.",
+      "kind": "statement",
+      "focus": [
+        "verb:werden",
+        "job",
+        "feminine"
+      ],
+      "alts": [
+        "Architektin wird meine Schwester."
+      ],
+      "cloze": {
+        "word": "wird",
+        "opts": [
+          "wird",
+          "wirst",
+          "werde"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-014",
+      "de": "Was ist dein Traumberuf?",
+      "ar": "إيه الشغلانة اللي بتحلم بيها؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-015",
+      "de": "Nico will in einer Werkstatt arbeiten.",
+      "ar": "نيكو عايز يشتغل في ورشة عربيات.",
+      "kind": "statement",
+      "focus": [
+        "verb:wollen",
+        "dative",
+        "job"
+      ],
+      "alts": [
+        "In einer Werkstatt will Nico arbeiten."
+      ],
+      "cloze": {
+        "word": "einer",
+        "opts": [
+          "einer",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-016",
+      "de": "Ich kann Autos reparieren.",
+      "ar": "أنا بعرف أصلّح عربيات.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "job"
+      ],
+      "alts": [
+        "Autos kann ich reparieren."
+      ],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "können"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-017",
+      "de": "Ich möchte in Deutschland arbeiten.",
+      "ar": "نفسي أشتغل في ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "verb:möchten",
+        "polite"
+      ],
+      "alts": [
+        "In Deutschland möchte ich arbeiten."
+      ],
+      "cloze": {
+        "word": "möchte",
+        "opts": [
+          "möchte",
+          "möchtest",
+          "möchtet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-018",
+      "de": "Willst du heute zu Hause bleiben?",
+      "ar": "عايز تقعد في البيت النهارده؟",
+      "kind": "question",
+      "focus": [
+        "verb:wollen",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zu",
+        "opts": [
+          "zu",
+          "nach",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-019",
+      "de": "Wir wollen eine Reise machen.",
+      "ar": "إحنا عايزين نطلع رحلة.",
+      "kind": "statement",
+      "focus": [
+        "verb:wollen",
+        "travel"
+      ],
+      "alts": [
+        "Eine Reise wollen wir machen."
+      ],
+      "cloze": {
+        "word": "Reise",
+        "opts": [
+          "Reise",
+          "Reisen",
+          "Urlaub"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s40-020",
+      "de": "Er hasst Büroarbeit.",
+      "ar": "هو بيكره شغل المكاتب.",
+      "kind": "statement",
+      "focus": [
+        "verb:hassen",
+        "likes",
+        "job"
+      ],
+      "alts": [
+        "Büroarbeit hasst er."
+      ],
+      "cloze": {
+        "word": "hasst",
+        "opts": [
+          "hasst",
+          "hasse",
+          "hast"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w40-01",
+      "q": "___ willst du werden?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Woher",
+        "Wann"
+      ],
+      "ar": "عايز تبقى إيه؟",
+      "reply": "Ich will Fotografin werden.",
+      "reply_ar": "عايزة أبقى مصوّرة."
+    },
+    {
+      "id": "w40-02",
+      "q": "___ bist du in Deutschland?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Woher",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "إنت في ألمانيا ليه؟",
+      "reply": "Ich will weg von zu Hause.",
+      "reply_ar": "عايز أبعد عن البيت."
+    },
+    {
+      "id": "w40-03",
+      "q": "___ will Designerin werden?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين اللي عايزة تبقى مصمّمة؟",
+      "reply": "Meine Freundin.",
+      "reply_ar": "صاحبتي."
+    },
+    {
+      "id": "w40-04",
+      "q": "___ wollt ihr am Wochenende machen?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "عايزين تعملوا إيه في الويك إند؟",
+      "reply": "Wir wollen eine Reise machen.",
+      "reply_ar": "عايزين نطلع رحلة."
+    },
+    {
+      "id": "w40-05",
+      "q": "___ wollen Sie arbeiten?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "حضرتك عايز تشتغل فين؟ (رسمي)",
+      "reply": "In einer Werkstatt.",
+      "reply_ar": "في ورشة عربيات."
+    },
+    {
+      "id": "w40-06",
+      "q": "___ sagt dein Vater?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "أبوك بيقول إيه؟",
+      "reply": "Er sagt immer, ich muss studieren.",
+      "reply_ar": "دايمًا بيقول إني لازم أدرس."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g40-1",
+      "h": "تصريف wollen: ich will، du willst",
+      "body": "wollen = عايز / ناوي، وهو فعل مساعد زي können و müssen. في المفرد الـ o بتبقى i: ich will، du willst، er / sie / es will. ومع ich و er / sie / es مفيش نهاية خالص: ich will (مش wille) و er will (مش willt). في الجمع الـ o بترجع: wir wollen، ihr wollt، sie / Sie wollen. ونفس الحكاية في können (الـ ö بتبقى a) و müssen (الـ ü بتبقى u).",
+      "examples": [
+        {
+          "de": "Ich will nicht studieren.",
+          "ar": "أنا مش عايز أدرس."
+        },
+        {
+          "de": "Und was willst du hier machen?",
+          "ar": "وعايز تعمل إيه هنا؟"
+        },
+        {
+          "de": "Aber meine Eltern wollen das.",
+          "ar": "بس أهلي عايزين كده."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "wollen",
+          "können",
+          "müssen"
+        ],
+        [
+          "ich",
+          "will",
+          "kann",
+          "muss"
+        ],
+        [
+          "du",
+          "willst",
+          "kannst",
+          "musst"
+        ],
+        [
+          "er / sie / es",
+          "will",
+          "kann",
+          "muss"
+        ],
+        [
+          "wir",
+          "wollen",
+          "können",
+          "müssen"
+        ],
+        [
+          "ihr",
+          "wollt",
+          "könnt",
+          "müsst"
+        ],
+        [
+          "sie / Sie",
+          "wollen",
+          "können",
+          "müssen"
+        ]
+      ]
+    },
+    {
+      "id": "g40-2",
+      "h": "wollen + المصدر في آخر الجملة",
+      "body": "wollen بيتصرّف ويقف في المكان التاني، والفعل التاني بيروح آخر الجملة مصدر (من غير تصريف): Ich will Fotograf werden. و nicht بتيجي قبل المصدر: Ich will nicht studieren. وفي سؤال أيوه ولا لأ wollen بييجي الأول: Willst du studieren? ولو المعنى مفهوم ممكن wollen ييجي من غير فعل تاني: Ich will weg. و Meine Eltern wollen das.",
+      "examples": [
+        {
+          "de": "Ich will Fotograf werden.",
+          "ar": "أنا عايز أبقى مصوّر."
+        },
+        {
+          "de": "Willst du studieren? – Nein, ich will nicht studieren!",
+          "ar": "إنت عايز تدرس؟ – لأ، مش عايز أدرس!"
+        },
+        {
+          "de": "Ich will weg von zu Hause.",
+          "ar": "أنا عايز أبعد عن البيت."
+        }
+      ],
+      "table": [
+        [
+          "البداية",
+          "wollen",
+          "الوسط",
+          "آخر الجملة"
+        ],
+        [
+          "Ich",
+          "will",
+          "Fotograf",
+          "werden."
+        ],
+        [
+          "Ich",
+          "will",
+          "nicht",
+          "studieren."
+        ],
+        [
+          "Was",
+          "willst",
+          "du hier",
+          "machen?"
+        ],
+        [
+          "–",
+          "Willst",
+          "du",
+          "studieren?"
+        ],
+        [
+          "Ich",
+          "will",
+          "weg.",
+          "–"
+        ]
+      ]
+    },
+    {
+      "id": "g40-3",
+      "h": "معاني الأفعال المساعدة",
+      "body": "können = يقدر / يعرف (قدرة أو إمكانية). müssen = لازم (ضرورة أو إجبار). wollen = عايز (رغبة قوية أو خطة). möchten (أصله mögen) = نفسي / حابب (أمنية). wollen و möchten معناهم قريب، بس Ich möchte … أرقّ ومؤدب أكتر، و Ich will … أقوى ومباشر أكتر. عشان كده في الكافيه أو مع حد مش قريب منك قول Ich möchte … مش Ich will … وفي الأربعة ich و er نفس الشكل: kann، muss، will، möchte.",
+      "examples": [
+        {
+          "de": "Ich kann heute arbeiten.",
+          "ar": "أقدر أشتغل النهارده (فاضي / ينفع)."
+        },
+        {
+          "de": "Ich muss heute arbeiten.",
+          "ar": "لازم أشتغل النهارده (مفيش اختيار)."
+        },
+        {
+          "de": "Ich will heute arbeiten.",
+          "ar": "عايز أشتغل النهارده (ده قراري)."
+        },
+        {
+          "de": "Ich möchte heute arbeiten.",
+          "ar": "حابب أشتغل النهارده (أمنية بأدب)."
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "معناه",
+          "مثال"
+        ],
+        [
+          "können",
+          "يقدر / يعرف",
+          "Ich kann Autos reparieren."
+        ],
+        [
+          "müssen",
+          "لازم",
+          "Ich muss studieren."
+        ],
+        [
+          "wollen",
+          "عايز (أقوى)",
+          "Ich will Fotograf werden."
+        ],
+        [
+          "möchten",
+          "نفسي / حابب (بأدب)",
+          "Ich möchte in Deutschland arbeiten."
+        ]
+      ]
+    },
+    {
+      "id": "g40-4",
+      "h": "تتكلم عن شغلانة أحلامك",
+      "body": "عشان تقول عايز تشتغل إيه: Ich will + المهنة + werden، والمهنة من غير أداة (زي Ich bin Lehrerin.). werden = يبقى، وشاذ مع du و er: du wirst، er wird. وللست بنزوّد -in: die Fotografin، die Designerin، die Architektin. والحاجة اللي بتكرهها: Ich hasse … (du / er hasst)، واللي بتحبها: Ich liebe … أو Ich arbeite gern.",
+      "examples": [
+        {
+          "de": "Was willst du später werden? – Ich will Fotograf werden.",
+          "ar": "عايز تبقى إيه بعدين؟ – عايز أبقى مصوّر."
+        },
+        {
+          "de": "Meine Schwester wird Architektin.",
+          "ar": "أختي هتبقى مهندسة معمارية."
+        },
+        {
+          "de": "Er hasst Büroarbeit.",
+          "ar": "هو بيكره شغل المكاتب."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "عايز تبقى إيه؟",
+          "Was willst du werden?"
+        ],
+        [
+          "إيه الشغلانة اللي بتحلم بيها؟",
+          "Was ist dein Traumberuf?"
+        ],
+        [
+          "عايز أبقى مصوّر / مصوّرة",
+          "Ich will Fotograf / Fotografin werden."
+        ],
+        [
+          "أختي هتبقى مهندسة معمارية",
+          "Meine Schwester wird Architektin."
+        ],
+        [
+          "بكره شغل المكاتب",
+          "Ich hasse Büroarbeit."
+        ],
+        [
+          "بحب شغلي",
+          "Ich liebe meine Arbeit."
+        ]
+      ]
+    }
+  ]
+}

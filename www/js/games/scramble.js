@@ -14,8 +14,12 @@ export function solutionOf(w) {
   if (!w) return '';
   if (w.k === 'noun') return String(w.sg || '').trim();
   const base = displayDe(w);
-  if (w.k === 'verb') { const m = base.match(MARKERS); return (m ? m[1] : base).trim(); }
-  return base;
+  if (w.k === 'verb') {                                 // markers can stack: sich etwas teilen → teilen
+    let s = base, m;
+    while ((m = s.match(MARKERS))) s = m[1];
+    return s.replace(/\|/g, '').trim();                 // DW's separable mark: ein|kaufen → einkaufen (the letters to arrange)
+  }
+  return base.replace(/\|/g, '');
 }
 const okSolution = s => /^\p{L}{3,12}$/u.test(s);      // كلمة واحدة، حروف بس، من 3 لـ 12
 

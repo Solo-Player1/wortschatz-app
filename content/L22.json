@@ -1,0 +1,732 @@
+{
+  "n": 22,
+  "sentences": [
+    {
+      "id": "s22-001",
+      "de": "Also, was ist das?",
+      "ar": "طيب، إيه ده؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [
+        "Was ist das also?"
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-002",
+      "de": "Das ist eine Tafel.",
+      "ar": "دي سبّورة.",
+      "kind": "answer",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-003",
+      "de": "Kannst du das bitte buchstabieren?",
+      "ar": "ممكن تتهجّاها لو سمحت؟",
+      "kind": "question",
+      "focus": [
+        "spelling",
+        "polite"
+      ],
+      "alts": [
+        "Kannst du bitte das buchstabieren?",
+        "Kannst du das buchstabieren, bitte?",
+        "Bitte, kannst du das buchstabieren?"
+      ],
+      "cloze": {
+        "word": "Kannst",
+        "opts": [
+          "Kannst",
+          "Kann",
+          "Könnt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-004",
+      "de": "Entschuldigung, kannst du das noch mal wiederholen?",
+      "ar": "لا مؤاخذة، ممكن تعيدها تاني؟",
+      "kind": "question",
+      "focus": [
+        "verb:wiederholen",
+        "polite"
+      ],
+      "alts": [
+        "Entschuldigung, kannst du noch mal das wiederholen?"
+      ],
+      "cloze": {
+        "word": "wiederholen",
+        "opts": [
+          "wiederholen",
+          "wiederholst",
+          "wiederhole"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-005",
+      "de": "Richtig. Die Tasche.",
+      "ar": "صح. الشنطة.",
+      "kind": "answer",
+      "focus": [
+        "article"
+      ],
+      "alts": [
+        "Die Tasche, richtig."
+      ],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-006",
+      "de": "Das ist eine Tasche.",
+      "ar": "دي شنطة.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Tasche",
+        "opts": [
+          "Tasche",
+          "Ordner",
+          "Wörterbuch"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-007",
+      "de": "Das ist auch eine Tasche.",
+      "ar": "دي كمان شنطة.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [
+        "Auch das ist eine Tasche."
+      ],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-008",
+      "de": "Das ist die Tasche von Jenny.",
+      "ar": "دي الشنطة بتاعة جيني.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "von",
+        "opts": [
+          "von",
+          "aus",
+          "mit"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-009",
+      "de": "Das Wörterbuch hilft.",
+      "ar": "القاموس بيساعد.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:helfen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s22-010",
+      "de": "Das ist ein Ordner.",
+      "ar": "ده كلاسير.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-011",
+      "de": "Ist das der Ordner von Nico?",
+      "ar": "ده الكلاسير بتاع نيكو؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-012",
+      "de": "Das sind Wörterbücher.",
+      "ar": "دي قواميس.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wörterbücher",
+        "opts": [
+          "Wörterbücher",
+          "Wörterbuch",
+          "Wörterbucher",
+          "Wörterbuchs"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-013",
+      "de": "Liest du gern?",
+      "ar": "بتحب تقرا؟",
+      "kind": "question",
+      "focus": [
+        "verb:lesen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Liest",
+        "opts": [
+          "Liest",
+          "Lest",
+          "Lese",
+          "Lesen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-014",
+      "de": "Ja, ich lese gern.",
+      "ar": "أيوه، بحب أقرا.",
+      "kind": "answer",
+      "focus": [
+        "verb:lesen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "lese",
+        "opts": [
+          "lese",
+          "liest",
+          "lest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-015",
+      "de": "Nico liest eine Nachricht.",
+      "ar": "نيكو بيقرا رسالة.",
+      "kind": "statement",
+      "focus": [
+        "verb:lesen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "liest",
+        "opts": [
+          "liest",
+          "lest",
+          "lese",
+          "lesen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-016",
+      "de": "Lest ihr den Text?",
+      "ar": "إنتوا بتقروا النص؟",
+      "kind": "question",
+      "focus": [
+        "verb:lesen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Lest",
+        "opts": [
+          "Lest",
+          "Liest",
+          "Lesen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-017",
+      "de": "Die Kursteilnehmer schreiben Sätze.",
+      "ar": "المشتركين في الكورس بيكتبوا جُمل.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "verb:schreiben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sätze",
+        "opts": [
+          "Sätze",
+          "Satz",
+          "Satze"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-018",
+      "de": "Nein, der Satz ist falsch.",
+      "ar": "لأ، الجملة غلط.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "class"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-019",
+      "de": "Wir üben die Wörter.",
+      "ar": "إحنا بنتمرّن على الكلمات.",
+      "kind": "statement",
+      "focus": [
+        "verb:üben",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "üben",
+        "opts": [
+          "üben",
+          "übt",
+          "übst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-020",
+      "de": "Wir machen eine Pause.",
+      "ar": "هناخد بريك.",
+      "kind": "statement",
+      "focus": [
+        "class",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Pause",
+        "opts": [
+          "Pause",
+          "Text",
+          "Dialog"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-021",
+      "de": "Heute Nachmittag machen wir Hausaufgaben.",
+      "ar": "النهارده بعد الضهر هنعمل الواجب.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "time"
+      ],
+      "alts": [
+        "Wir machen heute Nachmittag Hausaufgaben."
+      ],
+      "cloze": {
+        "word": "Hausaufgaben",
+        "opts": [
+          "Hausaufgaben",
+          "Hausaufgabe",
+          "Hausaufgäben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s22-022",
+      "de": "Viele Wörter sind international, zum Beispiel „Hotel“.",
+      "ar": "كلمات كتير عالمية، زي مثلًا «أوتيل».",
+      "kind": "statement",
+      "focus": [
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wörter",
+        "opts": [
+          "Wörter",
+          "Wort",
+          "Worter",
+          "Worts"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w22-01",
+      "q": "___ ist das? Ein Ordner?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إيه ده؟ كلاسير؟",
+      "reply": "Nein, das ist ein Wörterbuch.",
+      "reply_ar": "لأ، ده قاموس."
+    },
+    {
+      "id": "w22-02",
+      "q": "___ ist die Tasche von Jenny?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wie viele",
+        "Warum"
+      ],
+      "ar": "شنطة جيني فين؟",
+      "reply": "Die Tasche ist hier.",
+      "reply_ar": "الشنطة هنا."
+    },
+    {
+      "id": "w22-03",
+      "q": "___ liest du gern?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتحب تقرا إيه؟",
+      "reply": "Ich lese gern Bücher.",
+      "reply_ar": "بحب أقرا كتب."
+    },
+    {
+      "id": "w22-04",
+      "q": "___ ist der Deutschunterricht?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "درس الألماني إمتى؟",
+      "reply": "Heute Nachmittag.",
+      "reply_ar": "النهارده بعد الضهر."
+    },
+    {
+      "id": "w22-05",
+      "q": "___ Sätze schreibt ihr?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "هتكتبوا كام جملة؟",
+      "reply": "Wir schreiben fünf Sätze.",
+      "reply_ar": "هنكتب خمس جمل."
+    },
+    {
+      "id": "w22-06",
+      "q": "___ ist die Kursteilnehmerin?",
+      "answer": "Wie alt",
+      "opts": [
+        "Wie alt",
+        "Wie viele",
+        "Warum",
+        "Wann"
+      ],
+      "ar": "المشتركة في الكورس عندها كام سنة؟",
+      "reply": "Sie ist 25 Jahre alt.",
+      "reply_ar": "عندها 25 سنة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g22-1",
+      "h": "أدوات التنكير: ein / eine",
+      "body": "لما نتكلم عن حاجة مش محدّدة (أي حاجة، مش حاجة بعينها) بنستخدم أداة التنكير، زي a في الإنجليزي: ein للمذكر والمحايد، وeine للمؤنث. والجمع مالوش أداة تنكير خالص: Das sind Wörterbücher. وخد بالك: das في «Das ist …» ثابتة مهما كان جنس الاسم: Das ist ein Ordner. / Das ist eine Tafel.",
+      "examples": [
+        {
+          "de": "Was ist das? – Das ist eine Tafel.",
+          "ar": "إيه ده؟ – دي سبّورة."
+        },
+        {
+          "de": "Das ist ein Ordner.",
+          "ar": "ده كلاسير."
+        },
+        {
+          "de": "Das sind Wörterbücher.",
+          "ar": "دي قواميس."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "معرّف",
+          "نكرة"
+        ],
+        [
+          "مذكر",
+          "der Ordner",
+          "ein Ordner"
+        ],
+        [
+          "مؤنث",
+          "die Tafel",
+          "eine Tafel"
+        ],
+        [
+          "محايد",
+          "das Wörterbuch",
+          "ein Wörterbuch"
+        ],
+        [
+          "جمع",
+          "die Wörterbücher",
+          "Wörterbücher"
+        ]
+      ]
+    },
+    {
+      "id": "g22-2",
+      "h": "معرّف ولا نكرة؟ + von (بتاع)",
+      "body": "ein / eine: لما نتكلم عن الحاجة بشكل عام، أو حاجة أول مرة نذكرها ومش معروفة: Das ist eine Tasche (أي شنطة). der / die / das: لما الحاجة محدّدة ومعروفة للي بيتكلم واللي بيسمع، أو عارفين عنها معلومة زيادة، زي مين صاحبها: Das ist die Tasche von Jenny. وvon + اسم الشخص = «بتاع / بتاعة».",
+      "examples": [
+        {
+          "de": "Das ist eine Tasche.",
+          "ar": "دي شنطة (أي شنطة)."
+        },
+        {
+          "de": "Das ist die Tasche von Jenny.",
+          "ar": "دي الشنطة بتاعة جيني."
+        },
+        {
+          "de": "Ist das der Ordner von Nico?",
+          "ar": "ده الكلاسير بتاع نيكو؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "إمتى؟",
+          "مثال"
+        ],
+        [
+          "ein / eine",
+          "حاجة عامة أو أول مرة نذكرها",
+          "Das ist eine Tasche."
+        ],
+        [
+          "der / die / das",
+          "حاجة معروفة أو عارفين صاحبها",
+          "Das ist die Tasche von Jenny."
+        ]
+      ]
+    },
+    {
+      "id": "g22-3",
+      "h": "الجمع: احفظ الاسم بجمعه",
+      "body": "مفيش قاعدة سهلة تعرف بيها جمع الاسم، فاحفظ كل اسم بأداته وجمعه مع بعض: der Satz، die Sätze. وأداة التعريف في الجمع دايمًا die. فيه ٥ نهايات للجمع (-n، -en، -e، -er، -s)، وأسماء جمعها زي مفردها بالظبط (der Ordner، die Ordner)، وفي أسماء الـ a أو o أو u اللي فيها بتاخد نقطتين في الجمع (Satz – Sätze، Wort – Wörter)، بس مش كلها (Jahr – Jahre). والقاموس غالبًا بيكتب نهاية الجمع بس.",
+      "examples": [
+        {
+          "de": "Die Kursteilnehmer schreiben Sätze.",
+          "ar": "المشتركين في الكورس بيكتبوا جُمل."
+        },
+        {
+          "de": "Wir üben die Wörter.",
+          "ar": "إحنا بنتمرّن على الكلمات."
+        },
+        {
+          "de": "Heute Nachmittag machen wir Hausaufgaben.",
+          "ar": "النهارده بعد الضهر هنعمل الواجب."
+        }
+      ],
+      "table": [
+        [
+          "الجمع بـ",
+          "المفرد",
+          "الجمع"
+        ],
+        [
+          "-n",
+          "die Tafel",
+          "die Tafeln"
+        ],
+        [
+          "-en",
+          "die Nachricht",
+          "die Nachrichten"
+        ],
+        [
+          "-e",
+          "der Text",
+          "die Texte"
+        ],
+        [
+          "-e + نقطتين",
+          "der Satz",
+          "die Sätze"
+        ],
+        [
+          "-er + نقطتين",
+          "das Wort",
+          "die Wörter"
+        ],
+        [
+          "-s",
+          "das Foto",
+          "die Fotos"
+        ],
+        [
+          "زي المفرد",
+          "der Ordner",
+          "die Ordner"
+        ]
+      ]
+    },
+    {
+      "id": "g22-4",
+      "h": "تصريف الفعل lesen (يقرا)",
+      "body": "lesen من الأفعال اللي حرفها المتحرك بيتغيّر: الـ e بتبقى ie مع du و er / sie / es بس، والـ ie بتتنطق i طويلة. باقي الضماير عادي، حتى ihr: ihr lest. ولاحظ إن du liest بـ -t بس، عشان الجذر آخره s (زي du heißt).",
+      "examples": [
+        {
+          "de": "Liest du gern? – Ja, ich lese gern.",
+          "ar": "بتحب تقرا؟ – أيوه، بحب أقرا."
+        },
+        {
+          "de": "Nico liest eine Nachricht.",
+          "ar": "نيكو بيقرا رسالة."
+        },
+        {
+          "de": "Lest ihr den Text?",
+          "ar": "إنتوا بتقروا النص؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "lesen"
+        ],
+        [
+          "ich",
+          "lese"
+        ],
+        [
+          "du",
+          "liest"
+        ],
+        [
+          "er / sie / es",
+          "liest"
+        ],
+        [
+          "wir",
+          "lesen"
+        ],
+        [
+          "ihr",
+          "lest"
+        ],
+        [
+          "sie / Sie",
+          "lesen"
+        ]
+      ]
+    }
+  ]
+}

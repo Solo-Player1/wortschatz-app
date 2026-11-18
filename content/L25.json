@@ -1,0 +1,731 @@
+{
+  "n": 25,
+  "sentences": [
+    {
+      "id": "s25-001",
+      "de": "Wir haben ein Problem.",
+      "ar": "عندنا مشكلة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-002",
+      "de": "Du kannst nur noch zwei Tage in der WG bleiben.",
+      "ar": "تقدر تقعد في الشقة المشتركة يومين كمان بس.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "verb:bleiben"
+      ],
+      "alts": [
+        "In der WG kannst du nur noch zwei Tage bleiben.",
+        "Nur noch zwei Tage kannst du in der WG bleiben.",
+        "Du kannst in der WG nur noch zwei Tage bleiben."
+      ],
+      "cloze": {
+        "word": "kannst",
+        "opts": [
+          "kannst",
+          "kann",
+          "könnt",
+          "können"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-003",
+      "de": "Unsere Heizung ist kaputt.",
+      "ar": "التدفئة عندنا بايظة.",
+      "kind": "statement",
+      "focus": [
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Heizung",
+        "opts": [
+          "Heizung",
+          "Miete",
+          "Garten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-004",
+      "de": "Wir fahren dann in Urlaub.",
+      "ar": "إحنا هنسافر إجازة ساعتها.",
+      "kind": "statement",
+      "focus": [
+        "verb:fahren"
+      ],
+      "alts": [
+        "Dann fahren wir in Urlaub."
+      ],
+      "cloze": {
+        "word": "Urlaub",
+        "opts": [
+          "Urlaub",
+          "Umzug",
+          "Garten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-005",
+      "de": "Ich suche ein Hotel.",
+      "ar": "بدوّر على فندق.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:suchen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-006",
+      "de": "Eine Jugendherberge ist besser.",
+      "ar": "بيت شباب أحسن.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Eine",
+        "opts": [
+          "Eine",
+          "Ein",
+          "Einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-007",
+      "de": "Eine Jugendherberge oder ein Hostel.",
+      "ar": "بيت شباب أو هوستل.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "housing"
+      ],
+      "alts": [
+        "Ein Hostel oder eine Jugendherberge."
+      ],
+      "cloze": {
+        "word": "Jugendherberge",
+        "opts": [
+          "Jugendherberge",
+          "Hostel",
+          "Hotel"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-008",
+      "de": "Hostels sind nicht so teuer wie ein Hotel.",
+      "ar": "الهوستلات مش غالية زي الفندق.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-009",
+      "de": "Ich frage meine Freunde und Bekannten.",
+      "ar": "هسأل صحابي ومعارفي.",
+      "kind": "statement",
+      "focus": [
+        "verb:fragen",
+        "plural"
+      ],
+      "alts": [
+        "Ich frage meine Bekannten und Freunde."
+      ],
+      "cloze": {
+        "word": "frage",
+        "opts": [
+          "frage",
+          "fragst",
+          "fragt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-010",
+      "de": "Vielleicht haben sie ein Zimmer frei.",
+      "ar": "يمكن يكون عندهم أوضة فاضية.",
+      "kind": "statement",
+      "focus": [
+        "housing"
+      ],
+      "alts": [
+        "Sie haben vielleicht ein Zimmer frei."
+      ],
+      "cloze": {
+        "word": "frei",
+        "opts": [
+          "frei",
+          "teuer",
+          "nett"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s25-011",
+      "de": "Nein, das ist kein Hotel.",
+      "ar": "لأ، ده مش فندق.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-012",
+      "de": "Suchst du einen Mitbewohner?",
+      "ar": "بتدوّر على شريك سكن؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "verb:suchen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-013",
+      "de": "Hat die Wohnung einen Balkon?",
+      "ar": "الشقة فيها بلكونة؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Balkon",
+        "opts": [
+          "Balkon",
+          "Heizung",
+          "Natur"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-014",
+      "de": "Das Hochhaus hat keinen Garten.",
+      "ar": "العمارة العالية مفيهاش جنينة.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-015",
+      "de": "In der Stadt sind die Wohnungen meist teuer.",
+      "ar": "في المدينة الشقق عادةً غالية.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "article"
+      ],
+      "alts": [
+        "Die Wohnungen sind in der Stadt meist teuer.",
+        "Die Wohnungen in der Stadt sind meist teuer.",
+        "Meist sind die Wohnungen in der Stadt teuer."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-016",
+      "de": "Auf dem Land ist die Natur schön.",
+      "ar": "في الريف الطبيعة حلوة.",
+      "kind": "statement",
+      "focus": [
+        "housing"
+      ],
+      "alts": [
+        "Die Natur ist auf dem Land schön.",
+        "Die Natur auf dem Land ist schön."
+      ],
+      "cloze": {
+        "word": "Land",
+        "opts": [
+          "Land",
+          "Stadt",
+          "Natur"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-017",
+      "de": "Wir teilen uns eine Wohnung.",
+      "ar": "إحنا ساكنين مع بعض في شقة واحدة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:teilen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-018",
+      "de": "Ich hoffe, meine Mitbewohnerin ist nett.",
+      "ar": "أتمنى شريكتي في السكن تكون لطيفة.",
+      "kind": "statement",
+      "focus": [
+        "verb:hoffen",
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hoffe",
+        "opts": [
+          "hoffe",
+          "hoffst",
+          "hofft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-019",
+      "de": "Kannst du mir beim Umzug helfen?",
+      "ar": "تقدر تساعدني في العزال؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "verb:helfen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "helfen",
+        "opts": [
+          "helfen",
+          "hilfst",
+          "hilft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-020",
+      "de": "Verstehst du das Problem?",
+      "ar": "فاهم المشكلة؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "verb:verstehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "den",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-021",
+      "de": "Hier leben viele Kinder.",
+      "ar": "فيه عيال كتير عايشين هنا.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "verb:leben"
+      ],
+      "alts": [
+        "Viele Kinder leben hier."
+      ],
+      "cloze": {
+        "word": "viele",
+        "opts": [
+          "viele",
+          "viel",
+          "sehr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s25-022",
+      "de": "Ziehst du bald um?",
+      "ar": "هتعزّل قريب؟",
+      "kind": "question",
+      "focus": [
+        "verb:umziehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ziehst",
+        "opts": [
+          "Ziehst",
+          "Zieht",
+          "Ziehe"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w25-01",
+      "q": "___ lebst du lieber, in der Stadt oder auf dem Land?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "تحب تعيش فين أكتر، في المدينة ولا في الريف؟",
+      "reply": "Ich lebe lieber auf dem Land.",
+      "reply_ar": "أفضّل أعيش في الريف."
+    },
+    {
+      "id": "w25-02",
+      "q": "___ Miete zahlst du?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wie alt",
+        "Wo"
+      ],
+      "ar": "بتدفع إيجار كام؟",
+      "reply": "Ich zahle 400 Euro.",
+      "reply_ar": "بدفع 400 يورو."
+    },
+    {
+      "id": "w25-03",
+      "q": "___ heißt dein Mitbewohner?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "شريكك في السكن اسمه إيه؟",
+      "reply": "Er heißt Sebastian.",
+      "reply_ar": "اسمه سيباستيان."
+    },
+    {
+      "id": "w25-04",
+      "q": "___ Kinder hast du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "عندك كام عيّل؟",
+      "reply": "Ich habe zwei Kinder.",
+      "reply_ar": "عندي عيّلين."
+    },
+    {
+      "id": "w25-05",
+      "q": "___ fahrt ihr in Urlaub?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Woher",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "هتسافروا إجازة فين؟",
+      "reply": "Wir fahren nach Spanien.",
+      "reply_ar": "هنسافر إسبانيا."
+    },
+    {
+      "id": "w25-06",
+      "q": "___ ist besser, ein Hotel oder eine Jugendherberge?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "إيه الأحسن، فندق ولا بيت شباب؟",
+      "reply": "Eine Jugendherberge. Sie ist nicht so teuer.",
+      "reply_ar": "بيت شباب، مش غالي أوي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g25-1",
+      "h": "der ولا ein ولا kein؟",
+      "body": "der / die / das (أداة التعريف) لحاجة معروفة ومحدّدة: إحنا والسامع عارفين أنهي واحدة. ein / eine (أداة التنكير) لحاجة مش محدّدة أو بنذكرها لأول مرة. kein / keine للنفي: بننفي بيها الاسم اللي معاه ein أو اللي من غير أداة، ومعناها «مش» أو «مفيش». فماتقولش nicht ein Hotel، قول kein Hotel.",
+      "examples": [
+        {
+          "de": "Ist das ein Hotel? – Nein, das ist kein Hotel.",
+          "ar": "ده فندق؟ – لأ، ده مش فندق."
+        },
+        {
+          "de": "Das ist eine Jugendherberge.",
+          "ar": "ده بيت شباب."
+        },
+        {
+          "de": "Das ist das Zimmer von Nico.",
+          "ar": "دي أوضة نيكو (أوضة معيّنة)."
+        }
+      ],
+      "table": [
+        [
+          "الأداة",
+          "إمتى؟",
+          "مثال"
+        ],
+        [
+          "der / die / das",
+          "حاجة معروفة ومحدّدة",
+          "das Zimmer von Nico"
+        ],
+        [
+          "ein / eine",
+          "حاجة مش محدّدة",
+          "ein Zimmer"
+        ],
+        [
+          "kein / keine",
+          "نفي الاسم",
+          "kein Hotel"
+        ]
+      ]
+    },
+    {
+      "id": "g25-2",
+      "h": "الرفع والنصب: المذكّر بس اللي بيتغيّر",
+      "body": "الفاعل (اللي بيعمل الفعل أو اللي بنتكلم عنه) بيبقى في حالة الرفع، والمفعول به في حالة النصب. في النصب المذكّر بس اللي بيتغيّر: den بدل der، einen بدل ein، keinen بدل kein. المؤنّث والمحايد والجمع زي ما همّا بالظبط. وأفعال كتير بتاخد مفعول في النصب، زي: haben، suchen، kennen، verstehen، fragen، nehmen، essen، trinken.",
+      "examples": [
+        {
+          "de": "Der Garten ist schön. – Das Haus hat einen Garten.",
+          "ar": "الجنينة حلوة. – البيت فيه جنينة."
+        },
+        {
+          "de": "Suchst du einen Mitbewohner?",
+          "ar": "بتدوّر على شريك سكن؟"
+        },
+        {
+          "de": "Das Hochhaus hat keinen Garten.",
+          "ar": "العمارة العالية مفيهاش جنينة."
+        },
+        {
+          "de": "Verstehst du das Problem?",
+          "ar": "فاهم المشكلة؟ (das زي ما هي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (فاعل)",
+          "نصب (مفعول به)"
+        ],
+        [
+          "مذكّر",
+          "der / ein / kein",
+          "den / einen / keinen"
+        ],
+        [
+          "مؤنّث",
+          "die / eine / keine",
+          "die / eine / keine"
+        ],
+        [
+          "محايد",
+          "das / ein / kein",
+          "das / ein / kein"
+        ],
+        [
+          "جمع",
+          "die / – / keine",
+          "die / – / keine"
+        ]
+      ]
+    },
+    {
+      "id": "g25-3",
+      "h": "الجمع: مفيش ein",
+      "body": "ein / eine معناها «واحد»، فمالهاش جمع: في الجمع غير المحدّد بنقول الاسم لوحده من غير أداة (ein Hostel، Hostels). المحدّد في الجمع دايمًا die، والنفي keine. وبعد viele (كتير) بييجي الجمع: viele Kinder.",
+      "examples": [
+        {
+          "de": "Hostels sind nicht so teuer wie ein Hotel.",
+          "ar": "الهوستلات مش غالية زي الفندق."
+        },
+        {
+          "de": "Hier leben viele Kinder.",
+          "ar": "فيه عيال كتير عايشين هنا."
+        },
+        {
+          "de": "Ich habe keine Kinder.",
+          "ar": "معنديش عيال."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مفرد",
+          "جمع"
+        ],
+        [
+          "محدّد",
+          "das Kind",
+          "die Kinder"
+        ],
+        [
+          "غير محدّد",
+          "ein Kind",
+          "Kinder"
+        ],
+        [
+          "نفي",
+          "kein Kind",
+          "keine Kinder"
+        ]
+      ]
+    },
+    {
+      "id": "g25-4",
+      "h": "تتكلّم عن سكنك",
+      "body": "عشان تسأل عن السكن: Wo wohnst du? (ساكن فين؟) أو Wie wohnst du? (ساكن إزاي؟). والرد: in der Stadt (في المدينة)، auf dem Land (في الريف)، in einer WG، in einem Hochhaus. بعد in الأداة بتتغيّر (einer / einem)، احفظها كده دلوقتي. وعشان توصف السكن استخدم haben + نصب: Die Wohnung hat einen Balkon.",
+      "examples": [
+        {
+          "de": "Wo wohnst du? – In der Stadt.",
+          "ar": "ساكن فين؟ – في المدينة."
+        },
+        {
+          "de": "Wie wohnst du? – In einer WG.",
+          "ar": "ساكن إزاي؟ – في شقة مشتركة."
+        },
+        {
+          "de": "Meine Eltern leben auf dem Land.",
+          "ar": "أهلي عايشين في الريف."
+        },
+        {
+          "de": "Die Wohnung hat einen Balkon.",
+          "ar": "الشقة فيها بلكونة."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "في المدينة",
+          "in der Stadt"
+        ],
+        [
+          "في الريف",
+          "auf dem Land"
+        ],
+        [
+          "في شقة مشتركة",
+          "in einer WG"
+        ],
+        [
+          "في عمارة عالية",
+          "in einem Hochhaus"
+        ],
+        [
+          "في بيت بجنينة",
+          "in einem Haus mit Garten"
+        ]
+      ]
+    }
+  ]
+}

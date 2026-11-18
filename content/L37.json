@@ -1,0 +1,826 @@
+{
+  "n": 37,
+  "sentences": [
+    {
+      "id": "s37-001",
+      "de": "Ich habe ein Bewerbungsgespräch.",
+      "ar": "عندي مقابلة شغل.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "article"
+      ],
+      "alts": [
+        "Ein Bewerbungsgespräch habe ich."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-002",
+      "de": "Was ist dein Beruf?",
+      "ar": "شغلتك إيه؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "possessive",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-003",
+      "de": "Ich bin Lehrerin für Deutsch und Englisch.",
+      "ar": "أنا مدرّسة ألماني وإنجليزي.",
+      "kind": "answer",
+      "focus": [
+        "job",
+        "feminine"
+      ],
+      "alts": [
+        "Ich bin Lehrerin für Englisch und Deutsch."
+      ],
+      "cloze": {
+        "word": "für",
+        "opts": [
+          "für",
+          "aus",
+          "von"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-004",
+      "de": "Ich habe keine feste Arbeit.",
+      "ar": "معنديش شغل ثابت.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "negation"
+      ],
+      "alts": [
+        "Keine feste Arbeit habe ich."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-005",
+      "de": "Welchen Beruf findest du gut?",
+      "ar": "أنهي مهنة شايفها كويسة؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "w-frage",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welchen",
+        "opts": [
+          "Welchen",
+          "Welcher",
+          "Welche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-006",
+      "de": "Meine Eltern sagen, Ingenieur ist gut.",
+      "ar": "أهلي بيقولوا إن شغلانة المهندس كويسة.",
+      "kind": "answer",
+      "focus": [
+        "job",
+        "possessive"
+      ],
+      "alts": [
+        "Ingenieur ist gut, sagen meine Eltern."
+      ],
+      "cloze": {
+        "word": "Meine",
+        "opts": [
+          "Meine",
+          "Mein",
+          "Meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-007",
+      "de": "Ich bin Bankkaufmann.",
+      "ar": "أنا موظف بنك.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "no-article"
+      ],
+      "alts": [
+        "Bankkaufmann bin ich."
+      ],
+      "cloze": {
+        "word": "Bankkaufmann",
+        "opts": [
+          "Bankkaufmann",
+          "Bankkaufmänner",
+          "Bankkauffrauen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-008",
+      "de": "Tarek ist Elektriker von Beruf.",
+      "ar": "طارق مهنته كهربائي.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "phrase"
+      ],
+      "alts": [
+        "Tarek ist von Beruf Elektriker.",
+        "Von Beruf ist Tarek Elektriker.",
+        "Elektriker ist Tarek von Beruf."
+      ],
+      "cloze": {
+        "word": "von",
+        "opts": [
+          "von",
+          "aus",
+          "mit"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-009",
+      "de": "Ich mag meine Arbeit.",
+      "ar": "أنا بحب شغلي.",
+      "kind": "answer",
+      "focus": [
+        "possessive",
+        "accusative",
+        "verb:mögen"
+      ],
+      "alts": [
+        "Meine Arbeit mag ich."
+      ],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "meinen",
+          "mein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-010",
+      "de": "Klar mag ich meinen Job.",
+      "ar": "أكيد بحب شغلانتي.",
+      "kind": "answer",
+      "focus": [
+        "possessive",
+        "accusative",
+        "verb:mögen"
+      ],
+      "alts": [
+        "Klar, ich mag meinen Job.",
+        "Ich mag meinen Job, klar.",
+        "Meinen Job mag ich, klar."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meine",
+          "mein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s37-011",
+      "de": "Viel Erfolg beim Bewerbungsgespräch!",
+      "ar": "بالتوفيق في مقابلة الشغل!",
+      "kind": "greeting",
+      "focus": [
+        "phrase",
+        "job"
+      ],
+      "alts": [
+        "Beim Bewerbungsgespräch viel Erfolg!"
+      ],
+      "cloze": {
+        "word": "Viel",
+        "opts": [
+          "Viel",
+          "Viele",
+          "Sehr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-012",
+      "de": "Was sind Sie von Beruf?",
+      "ar": "حضرتك مهنتك إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "job",
+        "polite",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Beruf",
+        "opts": [
+          "Beruf",
+          "Arbeit",
+          "Job"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-013",
+      "de": "Was machst du beruflich?",
+      "ar": "إنت بتشتغل إيه؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "beruflich",
+        "opts": [
+          "beruflich",
+          "Beruf",
+          "Berufe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-014",
+      "de": "Meine Schwester ist Anwältin.",
+      "ar": "أختي محامية.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "feminine",
+        "possessive"
+      ],
+      "alts": [
+        "Anwältin ist meine Schwester."
+      ],
+      "cloze": {
+        "word": "Anwältin",
+        "opts": [
+          "Anwältin",
+          "Anwaltin",
+          "Anwältinnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-015",
+      "de": "Meine Kollegin ist Informatikerin.",
+      "ar": "زميلتي مبرمجة.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "feminine",
+        "possessive"
+      ],
+      "alts": [
+        "Informatikerin ist meine Kollegin."
+      ],
+      "cloze": {
+        "word": "Kollegin",
+        "opts": [
+          "Kollegin",
+          "Kollege",
+          "Kollegen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-016",
+      "de": "Eine Köchin arbeitet in einem Restaurant.",
+      "ar": "الطبّاخة بتشتغل في مطعم.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "feminine",
+        "workplace"
+      ],
+      "alts": [
+        "In einem Restaurant arbeitet eine Köchin."
+      ],
+      "cloze": {
+        "word": "Köchin",
+        "opts": [
+          "Köchin",
+          "Koch",
+          "Kochin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-017",
+      "de": "Die Friseurin hat heute viele Kunden.",
+      "ar": "الكوافيرة عندها زباين كتير النهارده.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "feminine",
+        "plural"
+      ],
+      "alts": [
+        "Heute hat die Friseurin viele Kunden.",
+        "Viele Kunden hat die Friseurin heute."
+      ],
+      "cloze": {
+        "word": "Kunden",
+        "opts": [
+          "Kunden",
+          "Kunde",
+          "Kundin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-018",
+      "de": "Max und Tarek leiten ihr Restaurant.",
+      "ar": "ماكس وطارق بيديروا المطعم بتاعهم.",
+      "kind": "statement",
+      "focus": [
+        "verb:leiten",
+        "possessive",
+        "accusative"
+      ],
+      "alts": [
+        "Tarek und Max leiten ihr Restaurant.",
+        "Ihr Restaurant leiten Max und Tarek.",
+        "Ihr Restaurant leiten Tarek und Max."
+      ],
+      "cloze": {
+        "word": "ihr",
+        "opts": [
+          "ihr",
+          "ihren",
+          "ihre"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-019",
+      "de": "Kennst du meinen Chef?",
+      "ar": "تعرف المدير بتاعي؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "accusative",
+        "verb:kennen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meine",
+          "mein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-020",
+      "de": "Mögen Sie Ihren Beruf?",
+      "ar": "حضرتك بتحب مهنتك؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "accusative",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihren",
+        "opts": [
+          "Ihren",
+          "Ihre",
+          "Ihr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-021",
+      "de": "Wie sind die Arbeitszeiten?",
+      "ar": "مواعيد الشغل إيه؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "plural",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Arbeitszeiten",
+        "opts": [
+          "Arbeitszeiten",
+          "Arbeitszeit",
+          "Arbeit"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s37-022",
+      "de": "Ich habe heute frei.",
+      "ar": "أنا أجازة النهارده.",
+      "kind": "statement",
+      "focus": [
+        "verb:freihaben",
+        "separable"
+      ],
+      "alts": [
+        "Heute habe ich frei."
+      ],
+      "cloze": {
+        "word": "frei",
+        "opts": [
+          "frei",
+          "fest",
+          "fertig"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w37-01",
+      "q": "___ sind Sie von Beruf?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "حضرتك مهنتك إيه؟ (رسمي)",
+      "reply": "Ich bin Ingenieurin.",
+      "reply_ar": "أنا مهندسة."
+    },
+    {
+      "id": "w37-02",
+      "q": "___ arbeitest du?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wohin",
+        "Wer"
+      ],
+      "ar": "إنت بتشتغل فين؟",
+      "reply": "In einem Krankenhaus.",
+      "reply_ar": "في مستشفى."
+    },
+    {
+      "id": "w37-03",
+      "q": "___ arbeitet in einer Werkstatt?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "مين بيشتغل في ورشة؟",
+      "reply": "Ein Kfz-Mechatroniker.",
+      "reply_ar": "ميكانيكي عربيات."
+    },
+    {
+      "id": "w37-04",
+      "q": "___ gehst du?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Woher",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "إنت رايح فين؟",
+      "reply": "Ich habe ein Bewerbungsgespräch.",
+      "reply_ar": "عندي مقابلة شغل."
+    },
+    {
+      "id": "w37-05",
+      "q": "___ arbeitest du gern im Restaurant?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "بتحب الشغل في المطعم ليه؟",
+      "reply": "Die Arbeit macht Spaß.",
+      "reply_ar": "الشغل ممتع."
+    },
+    {
+      "id": "w37-06",
+      "q": "___ hast du frei?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إنت أجازة إمتى؟",
+      "reply": "Am Sonntag.",
+      "reply_ar": "يوم الحد."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g37-1",
+      "h": "المهن: للراجل وللست بـ -in",
+      "body": "أغلب المهن ليها كلمة للراجل وكلمة للست: للست بنزوّد -in في آخر كلمة الراجل، والأداة دايمًا die: der Lehrer بيبقى die Lehrerin، و der Verkäufer بيبقى die Verkäuferin. وجمع الست دايمًا -innen: die Lehrerinnen، إنما جمع الراجل بيختلف من كلمة للتانية فاحفظه: die Lehrer، die Ingenieure، die Chefs. ولما تقول مهنتك بعد sein ماتحطش أداة: Ich bin Lehrerin. مش Ich bin eine Lehrerin.",
+      "examples": [
+        {
+          "de": "Ich bin Lehrerin für Deutsch und Englisch.",
+          "ar": "أنا مدرّسة ألماني وإنجليزي."
+        },
+        {
+          "de": "Meine Kollegin ist Informatikerin.",
+          "ar": "زميلتي مبرمجة."
+        },
+        {
+          "de": "Tarek ist Elektriker von Beruf.",
+          "ar": "طارق مهنته كهربائي."
+        },
+        {
+          "de": "Und hier sind Tarek und ich die Chefs.",
+          "ar": "وهنا أنا وطارق المديرين. (die Chefs جمع der Chef)"
+        }
+      ],
+      "table": [
+        [
+          "الراجل: مفرد / جمع",
+          "الست: مفرد / جمع"
+        ],
+        [
+          "der Lehrer / die Lehrer",
+          "die Lehrerin / die Lehrerinnen"
+        ],
+        [
+          "der Verkäufer / die Verkäufer",
+          "die Verkäuferin / die Verkäuferinnen"
+        ],
+        [
+          "der Informatiker / die Informatiker",
+          "die Informatikerin / die Informatikerinnen"
+        ],
+        [
+          "der Ingenieur / die Ingenieure",
+          "die Ingenieurin / die Ingenieurinnen"
+        ],
+        [
+          "der Elektriker / die Elektriker",
+          "die Elektrikerin / die Elektrikerinnen"
+        ],
+        [
+          "der Friseur / die Friseure",
+          "die Friseurin / die Friseurinnen"
+        ],
+        [
+          "der Chef / die Chefs",
+          "die Chefin / die Chefinnen"
+        ]
+      ]
+    },
+    {
+      "id": "g37-2",
+      "h": "حالات خاصة: Köchin و Kollegin و Bankkauffrau",
+      "body": "شوية مهن بتتغيّر أكتر من مجرد -in: (1) في كلمات قليلة a بتبقى ä و o بتبقى ö: der Anwalt / die Anwältin، der Arzt / die Ärztin، der Koch / die Köchin (بس مش دايمًا: die Pilotin و die Taxifahrerin من غير تغيير، فاحفظ كل كلمة). (2) لو كلمة الراجل آخرها e، الـ e بتقع: der Kollege / die Kollegin، der Kunde / die Kundin. (3) اللي آخرها -mann بتبقى للست -frau: der Bankkaufmann / die Bankkauffrau.",
+      "examples": [
+        {
+          "de": "Meine Schwester ist Anwältin.",
+          "ar": "أختي محامية."
+        },
+        {
+          "de": "Eine Köchin arbeitet in einem Restaurant.",
+          "ar": "الطبّاخة بتشتغل في مطعم."
+        },
+        {
+          "de": "Ich bin Bankkaufmann.",
+          "ar": "أنا موظف بنك."
+        }
+      ],
+      "table": [
+        [
+          "الراجل",
+          "الست",
+          "إيه اللي اتغيّر؟"
+        ],
+        [
+          "der Anwalt",
+          "die Anwältin",
+          "a بتبقى ä"
+        ],
+        [
+          "der Arzt",
+          "die Ärztin",
+          "a بتبقى ä"
+        ],
+        [
+          "der Koch",
+          "die Köchin",
+          "o بتبقى ö"
+        ],
+        [
+          "der Kollege",
+          "die Kollegin",
+          "الـ e بتقع"
+        ],
+        [
+          "der Kunde",
+          "die Kundin",
+          "الـ e بتقع"
+        ],
+        [
+          "der Bankkaufmann",
+          "die Bankkauffrau",
+          "-mann بتبقى -frau"
+        ]
+      ]
+    },
+    {
+      "id": "g37-3",
+      "h": "ضمائر الملكية (2): meinen في حالة النصب",
+      "body": "في درس 28 اتعلمنا mein / meine. لما الحاجة تبقى مفعول به (حالة النصب، زي بعد mögen و kennen و haben) المذكر بس هو اللي بيتغيّر وبياخد -en: Ich mag meinen Job. المؤنث والمحايد والجمع زي ما هما: meine Arbeit، mein Restaurant، meine Kollegen. بالظبط زي einen و keinen. ونفس الكلام مع كل الضمائر: deinen، seinen، ihren، unseren، euren، Ihren.",
+      "examples": [
+        {
+          "de": "Klar mag ich meinen Job.",
+          "ar": "أكيد بحب شغلانتي. (der Job)"
+        },
+        {
+          "de": "Ich mag meine Arbeit.",
+          "ar": "أنا بحب شغلي. (die Arbeit)"
+        },
+        {
+          "de": "Max und Tarek leiten ihr Restaurant.",
+          "ar": "ماكس وطارق بيديروا المطعم بتاعهم. (das Restaurant)"
+        },
+        {
+          "de": "Mögen Sie Ihren Beruf?",
+          "ar": "حضرتك بتحب مهنتك؟ (der Beruf، رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "الضمير",
+          "مذكر (der Job)",
+          "مؤنث / جمع (die Arbeit / die Kollegen)",
+          "محايد (das Restaurant)"
+        ],
+        [
+          "ich",
+          "meinen",
+          "meine",
+          "mein"
+        ],
+        [
+          "du",
+          "deinen",
+          "deine",
+          "dein"
+        ],
+        [
+          "er / es",
+          "seinen",
+          "seine",
+          "sein"
+        ],
+        [
+          "sie (هي)",
+          "ihren",
+          "ihre",
+          "ihr"
+        ],
+        [
+          "wir",
+          "unseren",
+          "unsere",
+          "unser"
+        ],
+        [
+          "ihr (إنتوا)",
+          "euren",
+          "eure",
+          "euer"
+        ],
+        [
+          "sie (هما) / Sie",
+          "ihren / Ihren",
+          "ihre / Ihre",
+          "ihr / Ihr"
+        ]
+      ]
+    },
+    {
+      "id": "g37-4",
+      "h": "تسأل عن الشغل وترد",
+      "body": "تسأل: Was sind Sie von Beruf? أو Was machen Sie beruflich? (رسمي)، ولصاحبك: Was bist du von Beruf? أو Was ist dein Beruf? والرد من غير أداة: Ich bin Koch. أو Ich bin Koch von Beruf. ومكان الشغل: in einem للمذكر والمحايد (in einem Restaurant) و in einer للمؤنث (in einer Bank). وفي الحلقة: Arbeitest du nicht als Lehrerin? يعني إنتي مش شغالة مدرّسة؟ (als = كـ / بصفة).",
+      "examples": [
+        {
+          "de": "Was sind Sie von Beruf? – Ich bin Ingenieurin.",
+          "ar": "حضرتك مهنتك إيه؟ – أنا مهندسة."
+        },
+        {
+          "de": "Was machst du beruflich? – Ich bin Koch.",
+          "ar": "إنت بتشتغل إيه؟ – أنا طبّاخ."
+        },
+        {
+          "de": "Du hast doch ein Restaurant. – Stimmt. Zusammen mit Tarek.",
+          "ar": "ما إنت عندك مطعم. – مظبوط، أنا وطارق مع بعض."
+        }
+      ],
+      "table": [
+        [
+          "المهنة",
+          "بيشتغل فين؟"
+        ],
+        [
+          "der Lehrer / die Lehrerin",
+          "in einer Schule"
+        ],
+        [
+          "der Bankkaufmann / die Bankkauffrau",
+          "in einer Bank"
+        ],
+        [
+          "der Koch / die Köchin",
+          "in einem Restaurant"
+        ],
+        [
+          "der Verkäufer / die Verkäuferin",
+          "in einem Geschäft"
+        ],
+        [
+          "der Friseur / die Friseurin",
+          "in einem Frisiersalon"
+        ],
+        [
+          "der Kfz-Mechatroniker / die Kfz-Mechatronikerin",
+          "in einer Werkstatt"
+        ],
+        [
+          "der Arzt / die Ärztin",
+          "in einem Krankenhaus"
+        ],
+        [
+          "der Ingenieur / die Ingenieurin",
+          "in einer Fabrik"
+        ]
+      ]
+    }
+  ]
+}

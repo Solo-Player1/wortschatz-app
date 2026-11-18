@@ -113,7 +113,7 @@
         "ihr": "buchstabiert",
         "sie": "buchstabieren"
       },
-      "note": "كل فعل آخره -ieren منتظم من غير مفاجآت (زي studieren و telefonieren).",
+      "note": "الأفعال اللي على وزن -ieren زي studieren و telefonieren كلها منتظمة من غير مفاجآت (verlieren مش منهم: ده ver + lieren).",
       "examples": [
         {
           "de": "Ich buchstabiere meinen Namen.",
@@ -630,7 +630,7 @@
         "ihr": "telefoniert",
         "sie": "telefonieren"
       },
-      "note": "مع حد بنستعمل mit + الشخص. وزي كل أفعال -ieren منتظم.",
+      "note": "مع حد بنستعمل mit + الشخص. ومنتظم زي studieren و buchstabieren.",
       "examples": [
         {
           "de": "Ich telefoniere mit Lisa.",
@@ -987,6 +987,4956 @@
         {
           "de": "Ich liebe Pizza.",
           "ar": "أنا بموت في البيتزا."
+        }
+      ]
+    },
+    {
+      "inf": "bezahlen",
+      "ar": "يدفع (تمن حاجة)",
+      "lesson": 16,
+      "type": "regular",
+      "forms": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "sie": "bezahlen"
+      },
+      "note": "زي zahlen، بس غالبًا بييجي بعده الحاجة اللي بتدفع تمنها: Ich bezahle das Essen. والـ be- مش بتنفصل.",
+      "examples": [
+        {
+          "de": "Ich bezahle die Rechnung.",
+          "ar": "أنا هدفع الحساب."
+        },
+        {
+          "de": "Wer bezahlt das Essen?",
+          "ar": "مين هيدفع حساب الأكل؟"
+        }
+      ]
+    },
+    {
+      "inf": "sagen",
+      "ar": "يقول",
+      "lesson": 16,
+      "type": "regular",
+      "forms": {
+        "ich": "sage",
+        "du": "sagst",
+        "er": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie": "sagen"
+      },
+      "note": "منتظم. sagen = يقول كلام معيّن (Was sagt er?)، لكن sprechen = يتكلّم لغة أو مع حد.",
+      "examples": [
+        {
+          "de": "Was sagst du?",
+          "ar": "بتقول إيه؟"
+        },
+        {
+          "de": "Was sagt die Kellnerin?",
+          "ar": "الجرسونة بتقول إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "zahlen",
+      "ar": "يدفع / يحاسب",
+      "lesson": 16,
+      "type": "regular",
+      "forms": {
+        "ich": "zahle",
+        "du": "zahlst",
+        "er": "zahlt",
+        "wir": "zahlen",
+        "ihr": "zahlt",
+        "sie": "zahlen"
+      },
+      "note": "في المطعم: Zahlen, bitte! = الحساب لو سمحت. وبعده bar (كاش) أو mit Karte (بالكارت).",
+      "examples": [
+        {
+          "de": "Ich zahle bar.",
+          "ar": "هدفع كاش."
+        },
+        {
+          "de": "Zahlen Sie zusammen oder getrennt?",
+          "ar": "حضرتكم هتدفعوا مع بعض ولا كل واحد لوحده؟ (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "begrüßen",
+      "ar": "يسلّم على / يرحّب بـ",
+      "lesson": 17,
+      "type": "regular",
+      "forms": {
+        "ich": "begrüße",
+        "du": "begrüßt",
+        "er": "begrüßt",
+        "wir": "begrüßen",
+        "ihr": "begrüßt",
+        "sie": "begrüßen"
+      },
+      "note": "الجذر آخره ß، فمع du بنزوّد -t بس: du begrüßt (زي heißt). والـ be- مش بتنفصل، والشخص بعده على طول: Ich begrüße Lisa.",
+      "examples": [
+        {
+          "de": "Nawin begrüßt die Gäste.",
+          "ar": "نافين بيرحّب بالضيوف."
+        },
+        {
+          "de": "Ich begrüße meine Eltern.",
+          "ar": "بسلّم على أبويا وأمي."
+        }
+      ]
+    },
+    {
+      "inf": "besichtigen",
+      "ar": "يزور (مكان سياحي)",
+      "lesson": 17,
+      "type": "regular",
+      "forms": {
+        "ich": "besichtige",
+        "du": "besichtigst",
+        "er": "besichtigt",
+        "wir": "besichtigen",
+        "ihr": "besichtigt",
+        "sie": "besichtigen"
+      },
+      "note": "للأماكن والمعالم بس: den Dom / das Schloss besichtigen (لو هتزور شخص = besuchen، درس 32). والـ be- مش بتنفصل.",
+      "examples": [
+        {
+          "de": "Heute besichtigen wir das Schloss.",
+          "ar": "النهارده هنزور القصر."
+        },
+        {
+          "de": "Besichtigst du den Dom?",
+          "ar": "هتزور الكاتدرائية؟"
+        }
+      ]
+    },
+    {
+      "inf": "fahren",
+      "ar": "يسافر / يروح (بالعربية أو القطر)",
+      "lesson": 17,
+      "type": "irregular",
+      "forms": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie": "fahren"
+      },
+      "note": "a بتبقى ä مع du و er بس: du fährst, er fährt (لكن ihr fahrt). ولمدينة بنقول nach: Ich fahre nach Berlin.",
+      "examples": [
+        {
+          "de": "Ich fahre nach München.",
+          "ar": "أنا مسافر ميونخ."
+        },
+        {
+          "de": "Wohin fährst du?",
+          "ar": "إنت رايح فين؟"
+        }
+      ]
+    },
+    {
+      "inf": "spielen",
+      "ar": "يلعب",
+      "lesson": 17,
+      "type": "regular",
+      "forms": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie": "spielen"
+      },
+      "note": "منتظم. ومع آلة موسيقية معناه يعزف: Ich spiele Gitarre = بعزف جيتار.",
+      "examples": [
+        {
+          "de": "Wir spielen ein Spiel.",
+          "ar": "إحنا هنلعب لعبة."
+        },
+        {
+          "de": "Spielst du Gitarre?",
+          "ar": "بتعزف جيتار؟"
+        }
+      ]
+    },
+    {
+      "inf": "gewinnen",
+      "ar": "يكسب / يفوز",
+      "lesson": 18,
+      "type": "irregular",
+      "forms": {
+        "ich": "gewinne",
+        "du": "gewinnst",
+        "er": "gewinnt",
+        "wir": "gewinnen",
+        "ihr": "gewinnt",
+        "sie": "gewinnen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). وخد بالك: nn في كل الصيغ (du gewinnst, er gewinnt).",
+      "examples": [
+        {
+          "de": "Wir gewinnen!",
+          "ar": "إحنا هنكسب!"
+        },
+        {
+          "de": "Wer gewinnt?",
+          "ar": "مين هيكسب؟"
+        }
+      ]
+    },
+    {
+      "inf": "liegen",
+      "ar": "يقع (مدينة / بلد)",
+      "lesson": 18,
+      "type": "irregular",
+      "forms": {
+        "ich": "liege",
+        "du": "liegst",
+        "er": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "sie": "liegen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). بنستخدمه لمكان المدن والبلاد: Köln liegt im Westen = كولونيا في الغرب.",
+      "examples": [
+        {
+          "de": "Wo liegt das?",
+          "ar": "ده فين؟"
+        },
+        {
+          "de": "Hamburg liegt im Norden von Deutschland.",
+          "ar": "هامبورج في شمال ألمانيا."
+        }
+      ]
+    },
+    {
+      "inf": "tanzen",
+      "ar": "يرقص",
+      "lesson": 18,
+      "type": "regular",
+      "forms": {
+        "ich": "tanze",
+        "du": "tanzt",
+        "er": "tanzt",
+        "wir": "tanzen",
+        "ihr": "tanzt",
+        "sie": "tanzen"
+      },
+      "note": "الجذر آخره z، فمع du بنزوّد -t بس: du tanzt (زي duzen و heißen).",
+      "examples": [
+        {
+          "de": "Tanzt du gern?",
+          "ar": "بتحب ترقص؟"
+        },
+        {
+          "de": "Ja, ich tanze sehr gern.",
+          "ar": "أيوه، بحب أرقص أوي."
+        }
+      ]
+    },
+    {
+      "inf": "mögen",
+      "ar": "يحب / يعجبه",
+      "lesson": 19,
+      "type": "modal",
+      "forms": {
+        "ich": "mag",
+        "du": "magst",
+        "er": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie": "mögen"
+      },
+      "note": "شاذ: في المفرد ö بتبقى a (ich mag, du magst, er mag)، و ich و er نفس الشكل من غير نهاية. وبعده اسم على طول: Ich mag Pizza.",
+      "examples": [
+        {
+          "de": "Ich mag Deutschland.",
+          "ar": "أنا بحب ألمانيا."
+        },
+        {
+          "de": "Magst du Hamburger?",
+          "ar": "بتحب الهمبرجر؟"
+        }
+      ]
+    },
+    {
+      "inf": "singen",
+      "ar": "يغنّي",
+      "lesson": 19,
+      "type": "irregular",
+      "forms": {
+        "ich": "singe",
+        "du": "singst",
+        "er": "singt",
+        "wir": "singen",
+        "ihr": "singt",
+        "sie": "singen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). و gern بعد الفعل معناها «بحب»: Ich singe gern.",
+      "examples": [
+        {
+          "de": "Singst du gern?",
+          "ar": "بتحب تغنّي؟"
+        },
+        {
+          "de": "Lisa singt sehr gut.",
+          "ar": "ليزا بتغنّي حلو أوي."
+        }
+      ]
+    },
+    {
+      "inf": "bleiben",
+      "ar": "يفضل / يقعد (في مكان)",
+      "lesson": 20,
+      "type": "irregular",
+      "forms": {
+        "ich": "bleibe",
+        "du": "bleibst",
+        "er": "bleibt",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie": "bleiben"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). في الفيديو: Darf Selma in Deutschland bleiben? = سلمى مسموح لها تفضل في ألمانيا؟",
+      "examples": [
+        {
+          "de": "Bleibt Selma in Deutschland?",
+          "ar": "سلمى هتفضل في ألمانيا؟"
+        },
+        {
+          "de": "Ich bleibe hier.",
+          "ar": "أنا هفضل هنا."
+        }
+      ]
+    },
+    {
+      "inf": "unterrichten",
+      "ar": "يدرّس / يعلّم",
+      "lesson": 21,
+      "type": "regular",
+      "forms": {
+        "ich": "unterrichte",
+        "du": "unterrichtest",
+        "er": "unterrichtet",
+        "wir": "unterrichten",
+        "ihr": "unterrichtet",
+        "sie": "unterrichten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e-: du unterrichtest, er unterrichtet (زي arbeiten). والـ unter هنا مش بتنفصل، والمدرّس unterrichtet والطالب lernt.",
+      "examples": [
+        {
+          "de": "Lisa unterrichtet Deutsch.",
+          "ar": "ليزا بتدرّس ألماني."
+        },
+        {
+          "de": "Was unterrichtest du?",
+          "ar": "إنت بتدرّس إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "lesen",
+      "ar": "يقرا",
+      "lesson": 22,
+      "type": "irregular",
+      "forms": {
+        "ich": "lese",
+        "du": "liest",
+        "er": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie": "lesen"
+      },
+      "note": "e بتبقى ie مع du و er، والاتنين نفس الشكل: du liest, er liest. لكن ihr lest من غير تغيير.",
+      "examples": [
+        {
+          "de": "Nico liest eine Nachricht.",
+          "ar": "نيكو بيقرا رسالة."
+        },
+        {
+          "de": "Liest du gern?",
+          "ar": "بتحب تقرا؟"
+        }
+      ]
+    },
+    {
+      "inf": "wiederholen",
+      "ar": "يعيد / يراجع",
+      "lesson": 22,
+      "type": "regular",
+      "forms": {
+        "ich": "wiederhole",
+        "du": "wiederholst",
+        "er": "wiederholt",
+        "wir": "wiederholen",
+        "ihr": "wiederholt",
+        "sie": "wiederholen"
+      },
+      "note": "مش بينفصل رغم إن أوله wieder: Ich wiederhole das (مش hole … wieder). والمضارع منتظم.",
+      "examples": [
+        {
+          "de": "Entschuldigung, kannst du das noch mal wiederholen?",
+          "ar": "لا مؤاخذة، ممكن تعيدها تاني؟"
+        },
+        {
+          "de": "Ich wiederhole die Wörter.",
+          "ar": "أنا براجع الكلمات."
+        }
+      ]
+    },
+    {
+      "inf": "üben",
+      "ar": "يتمرّن (على)",
+      "lesson": 22,
+      "type": "regular",
+      "forms": {
+        "ich": "übe",
+        "du": "übst",
+        "er": "übt",
+        "wir": "üben",
+        "ihr": "übt",
+        "sie": "üben"
+      },
+      "note": "منتظم. اللي بتتمرّن عليه بييجي بعده على طول من غير حرف جر: Wir üben die Wörter = بنتمرّن على الكلمات.",
+      "examples": [
+        {
+          "de": "Wir üben die Wörter.",
+          "ar": "إحنا بنتمرّن على الكلمات."
+        },
+        {
+          "de": "Übst du den Dialog?",
+          "ar": "بتتمرّن على الحوار؟"
+        }
+      ]
+    },
+    {
+      "inf": "hoffen",
+      "ar": "يتمنّى",
+      "lesson": 25,
+      "type": "regular",
+      "forms": {
+        "ich": "hoffe",
+        "du": "hoffst",
+        "er": "hofft",
+        "wir": "hoffen",
+        "ihr": "hofft",
+        "sie": "hoffen"
+      },
+      "note": "منتظم. أشهر جملة: Ich hoffe, … = أتمنى إن …، وبعد الفاصلة جملة عادية (الفعل في المكان التاني).",
+      "examples": [
+        {
+          "de": "Ich hoffe, meine Mitbewohnerin ist nett.",
+          "ar": "أتمنى شريكتي في السكن تكون لطيفة."
+        },
+        {
+          "de": "Wir hoffen, das Zimmer ist frei.",
+          "ar": "نتمنى الأوضة تكون فاضية."
+        }
+      ]
+    },
+    {
+      "inf": "leben",
+      "ar": "يعيش",
+      "lesson": 25,
+      "type": "regular",
+      "forms": {
+        "ich": "lebe",
+        "du": "lebst",
+        "er": "lebt",
+        "wir": "leben",
+        "ihr": "lebt",
+        "sie": "leben"
+      },
+      "note": "منتظم. leben = عايش و wohnen = ساكن، ومع البلد أو المدينة الاتنين صح: Ich lebe / wohne in Deutschland، لكن للعنوان (الشارع ورقم البيت) بنستعمل wohnen.",
+      "examples": [
+        {
+          "de": "Meine Eltern leben auf dem Land.",
+          "ar": "أهلي عايشين في الريف."
+        },
+        {
+          "de": "Lebst du gern in der Stadt?",
+          "ar": "بتحب تعيش في المدينة؟"
+        }
+      ]
+    },
+    {
+      "inf": "umziehen",
+      "ar": "يعزّل (ينقل لسكن تاني)",
+      "lesson": 25,
+      "type": "separable",
+      "forms": {
+        "ich": "ziehe … um",
+        "du": "ziehst … um",
+        "er": "zieht … um",
+        "wir": "ziehen … um",
+        "ihr": "zieht … um",
+        "sie": "ziehen … um"
+      },
+      "note": "فعل بينفصل: um بتروح آخر الجملة (Ich ziehe um). ومع فعل مساعد بيرجع ملزوق في الآخر: Dann musst du umziehen (من الحلقة).",
+      "examples": [
+        {
+          "de": "Nico zieht heute um.",
+          "ar": "نيكو بيعزّل النهارده."
+        },
+        {
+          "de": "Ziehst du auch um?",
+          "ar": "إنت كمان هتعزّل؟"
+        }
+      ]
+    },
+    {
+      "inf": "verstehen",
+      "ar": "يفهم",
+      "lesson": 25,
+      "type": "irregular",
+      "forms": {
+        "ich": "verstehe",
+        "du": "verstehst",
+        "er": "versteht",
+        "wir": "verstehen",
+        "ihr": "versteht",
+        "sie": "verstehen"
+      },
+      "note": "منتظم في المضارع (الشذوذ في الماضي بس). Verstehst du? = فاهم؟ (من الحلقة)، ولو مش فاهم قول: Ich verstehe das nicht.",
+      "examples": [
+        {
+          "de": "Verstehst du das Problem?",
+          "ar": "فاهم المشكلة؟"
+        },
+        {
+          "de": "Ich verstehe das Wort nicht.",
+          "ar": "أنا مش فاهم الكلمة."
+        }
+      ]
+    },
+    {
+      "inf": "teilen",
+      "ar": "يقسم / يتقاسم (مع حد)",
+      "lesson": 25,
+      "type": "regular",
+      "forms": {
+        "ich": "teile",
+        "du": "teilst",
+        "er": "teilt",
+        "wir": "teilen",
+        "ihr": "teilt",
+        "sie": "teilen"
+      },
+      "note": "مع sich معناه يتقاسم حاجة: ich teile mir, du teilst dir, er teilt sich, wir teilen uns, ihr teilt euch, sie teilen sich (mir / dir مش mich / dich، علشان بعده الحاجة).",
+      "examples": [
+        {
+          "de": "Wir teilen uns die Miete.",
+          "ar": "إحنا بنقسم الإيجار على بعض."
+        },
+        {
+          "de": "Ich teile mir ein Zimmer mit Nico.",
+          "ar": "أنا ساكن مع نيكو في أوضة واحدة."
+        }
+      ]
+    },
+    {
+      "inf": "sehen",
+      "ar": "يشوف",
+      "lesson": 26,
+      "type": "irregular",
+      "forms": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie": "sehen"
+      },
+      "note": "e بتبقى ie مع du و er: du siehst, er sieht (زي lesen). وافتكر لعبة درس 24: Ich sehe was, was du nicht siehst.",
+      "examples": [
+        {
+          "de": "Siehst du das Fenster?",
+          "ar": "شايف الشباك؟"
+        },
+        {
+          "de": "Marvin möchte dein Zimmer sehen.",
+          "ar": "مارفن عايز يشوف أوضتك."
+        }
+      ]
+    },
+    {
+      "inf": "sitzen",
+      "ar": "يقعد",
+      "lesson": 26,
+      "type": "irregular",
+      "forms": {
+        "ich": "sitze",
+        "du": "sitzt",
+        "er": "sitzt",
+        "wir": "sitzen",
+        "ihr": "sitzt",
+        "sie": "sitzen"
+      },
+      "note": "الجذر آخره tz، فمع du بنزوّد -t بس: du sitzt (مش sitzst)، وبكده du و er و ihr نفس الشكل. والشذوذ في الماضي بس.",
+      "examples": [
+        {
+          "de": "Hier sitzen wir oft.",
+          "ar": "إحنا بنقعد هنا كتير."
+        },
+        {
+          "de": "Emma sitzt in der Küche.",
+          "ar": "إيما قاعدة في المطبخ."
+        }
+      ]
+    },
+    {
+      "inf": "finden",
+      "ar": "يلاقي / شايف (رأي)",
+      "lesson": 27,
+      "type": "irregular",
+      "forms": {
+        "ich": "finde",
+        "du": "findest",
+        "er": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie": "finden"
+      },
+      "note": "الجذر آخره d، فبنزوّد -e- مع du و er و ihr: du findest, er findet (زي arbeiten)، والشذوذ في الماضي بس. وللرأي: Wie findest du …? = إيه رأيك في …؟",
+      "examples": [
+        {
+          "de": "Wie findest du das Sofa?",
+          "ar": "إيه رأيك في الكنبة؟"
+        },
+        {
+          "de": "Ich finde das Sofa sehr bequem.",
+          "ar": "أنا شايف الكنبة مريحة أوي."
+        }
+      ]
+    },
+    {
+      "inf": "stehen",
+      "ar": "يقف / متحطّ (في مكان)",
+      "lesson": 27,
+      "type": "irregular",
+      "forms": {
+        "ich": "stehe",
+        "du": "stehst",
+        "er": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "sie": "stehen"
+      },
+      "note": "منتظم في المضارع (الشذوذ في الماضي بس). مع العفش والحاجات اللي واقفة معناه «متحطّ / موجود»: Der Schrank steht im Schlafzimmer.",
+      "examples": [
+        {
+          "de": "Wo steht der Fernseher?",
+          "ar": "التليفزيون متحطّ فين؟"
+        },
+        {
+          "de": "Der Kleiderschrank steht im Schlafzimmer.",
+          "ar": "دولاب الهدوم متحطّ في أوضة النوم."
+        }
+      ]
+    },
+    {
+      "inf": "putzen",
+      "ar": "ينضّف",
+      "lesson": 28,
+      "type": "regular",
+      "forms": {
+        "ich": "putze",
+        "du": "putzt",
+        "er": "putzt",
+        "wir": "putzen",
+        "ihr": "putzt",
+        "sie": "putzen"
+      },
+      "note": "الجذر آخره tz، فمع du بنزوّد -t بس: du putzt، وبكده du و er و ihr نفس الشكل (زي sitzen).",
+      "examples": [
+        {
+          "de": "Wie oft putzt ihr denn?",
+          "ar": "هو إنتوا بتنضّفوا كل قد إيه؟"
+        },
+        {
+          "de": "Ich putze das Bad.",
+          "ar": "أنا بنضّف الحمّام."
+        }
+      ]
+    },
+    {
+      "inf": "schlafen",
+      "ar": "ينام",
+      "lesson": 28,
+      "type": "irregular",
+      "forms": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie": "schlafen"
+      },
+      "note": "a بتبقى ä مع du و er: du schläfst, er schläft (زي fahren). لكن ihr schlaft من غير ä.",
+      "examples": [
+        {
+          "de": "Wo schläfst du?",
+          "ar": "بتنام فين؟"
+        },
+        {
+          "de": "Unser Kind schläft im Kinderzimmer.",
+          "ar": "طفلنا بينام في أوضة الأطفال."
+        }
+      ]
+    },
+    {
+      "inf": "duschen",
+      "ar": "ياخد دش / يستحمّى",
+      "lesson": 28,
+      "type": "regular",
+      "forms": {
+        "ich": "dusche",
+        "du": "duschst",
+        "er": "duscht",
+        "wir": "duschen",
+        "ihr": "duscht",
+        "sie": "duschen"
+      },
+      "note": "ينفع من غير sich (Ich dusche) أو معاه: ich dusche mich, du duschst dich, er duscht sich, wir duschen uns, ihr duscht euch, sie duschen sich. وخد بالك: du duschst بـ -st كاملة (مش زي du heißt).",
+      "examples": [
+        {
+          "de": "Hier duschen alle.",
+          "ar": "هنا الكل بيستحمّى."
+        },
+        {
+          "de": "Ich dusche mich jetzt.",
+          "ar": "هاخد دش دلوقتي."
+        }
+      ]
+    },
+    {
+      "inf": "beginnen",
+      "ar": "يبدأ",
+      "lesson": 29,
+      "type": "irregular",
+      "forms": {
+        "ich": "beginne",
+        "du": "beginnst",
+        "er": "beginnt",
+        "wir": "beginnen",
+        "ihr": "beginnt",
+        "sie": "beginnen"
+      },
+      "note": "منتظم في المضارع (الشذوذ في الماضي بس). بنستعمله مع المواعيد: Wann beginnt …? = … بيبدأ إمتى؟ والرد بـ um: Um neun = الساعة تسعة.",
+      "examples": [
+        {
+          "de": "Wann beginnt der Kurs?",
+          "ar": "الكورس بيبدأ إمتى؟"
+        },
+        {
+          "de": "Die Schule beginnt um acht.",
+          "ar": "المدرسة بتبدأ الساعة تمانية."
+        }
+      ]
+    },
+    {
+      "inf": "aufräumen",
+      "ar": "يرتّب / يروّق",
+      "lesson": 30,
+      "type": "separable",
+      "forms": {
+        "ich": "räume … auf",
+        "du": "räumst … auf",
+        "er": "räumt … auf",
+        "wir": "räumen … auf",
+        "ihr": "räumt … auf",
+        "sie": "räumen … auf"
+      },
+      "note": "فعل بينفصل: räum- بيتصرّف في المكان التاني و auf بتروح آخر الجملة: Ich räume mein Zimmer auf.",
+      "examples": [
+        {
+          "de": "Ich räume mein Zimmer auf.",
+          "ar": "أنا بروّق أوضتي."
+        },
+        {
+          "de": "Nach dem Spielen räumst du auf.",
+          "ar": "بعد اللعب هتروّق."
+        }
+      ]
+    },
+    {
+      "inf": "aufstehen",
+      "ar": "يقوم (من السرير)",
+      "lesson": 30,
+      "type": "separable",
+      "forms": {
+        "ich": "stehe … auf",
+        "du": "stehst … auf",
+        "er": "steht … auf",
+        "wir": "stehen … auf",
+        "ihr": "steht … auf",
+        "sie": "stehen … auf"
+      },
+      "note": "فعل بينفصل: steh- بيتصرّف و auf بتروح آخر الجملة: Ich stehe um sieben auf. ومعناه تقوم من السرير، لكن stehen لوحده = يقف.",
+      "examples": [
+        {
+          "de": "Emma steht um halb sieben auf.",
+          "ar": "إيما بتصحى الساعة ستة ونص."
+        },
+        {
+          "de": "Wann stehst du auf?",
+          "ar": "بتصحى إمتى؟"
+        }
+      ]
+    },
+    {
+      "inf": "ausgehen",
+      "ar": "يخرج (يتفسّح)",
+      "lesson": 30,
+      "type": "separable",
+      "forms": {
+        "ich": "gehe … aus",
+        "du": "gehst … aus",
+        "er": "geht … aus",
+        "wir": "gehen … aus",
+        "ihr": "geht … aus",
+        "sie": "gehen … aus"
+      },
+      "note": "بيتصرّف زي gehen بالظبط، و aus بتروح آخر الجملة. معناه تخرج تتفسّح أو تسهر برّه.",
+      "examples": [
+        {
+          "de": "Gehst du am Abend oft aus?",
+          "ar": "بتخرج كتير بالليل؟"
+        },
+        {
+          "de": "Wir gehen heute aus.",
+          "ar": "إحنا خارجين النهارده."
+        }
+      ]
+    },
+    {
+      "inf": "einkaufen",
+      "ar": "يتسوّق / يشتري الطلبات",
+      "lesson": 30,
+      "type": "separable",
+      "forms": {
+        "ich": "kaufe … ein",
+        "du": "kaufst … ein",
+        "er": "kauft … ein",
+        "wir": "kaufen … ein",
+        "ihr": "kauft … ein",
+        "sie": "kaufen … ein"
+      },
+      "note": "فعل بينفصل: ein بتروح آخر الجملة مهما طوِلت: Lisa kauft immer im Supermarkt ein.",
+      "examples": [
+        {
+          "de": "Lisa kauft immer im Supermarkt ein.",
+          "ar": "ليزا دايمًا بتتسوّق من السوبر ماركت."
+        },
+        {
+          "de": "Kaufst du heute ein?",
+          "ar": "هتشتري الطلبات النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "fernsehen",
+      "ar": "يتفرّج على التليفزيون",
+      "lesson": 30,
+      "type": "separable",
+      "forms": {
+        "ich": "sehe … fern",
+        "du": "siehst … fern",
+        "er": "sieht … fern",
+        "wir": "sehen … fern",
+        "ihr": "seht … fern",
+        "sie": "sehen … fern"
+      },
+      "note": "بينفصل (fern في الآخر)، وكمان e بتبقى ie مع du و er زي sehen: du siehst fern, er sieht fern.",
+      "examples": [
+        {
+          "de": "Siehst du oft fern?",
+          "ar": "بتتفرّج على التليفزيون كتير؟"
+        },
+        {
+          "de": "Emma sieht selten fern.",
+          "ar": "إيما نادرًا لما بتتفرّج على التليفزيون."
+        }
+      ]
+    },
+    {
+      "inf": "frühstücken",
+      "ar": "يفطر",
+      "lesson": 30,
+      "type": "regular",
+      "forms": {
+        "ich": "frühstücke",
+        "du": "frühstückst",
+        "er": "frühstückt",
+        "wir": "frühstücken",
+        "ihr": "frühstückt",
+        "sie": "frühstücken"
+      },
+      "note": "مش بينفصل! فعل عادي منتظم: Ich frühstücke (مش ich stücke … früh). والفطار نفسه das Frühstück.",
+      "examples": [
+        {
+          "de": "Ich stehe auf und frühstücke.",
+          "ar": "بصحى وبفطر."
+        },
+        {
+          "de": "Wann frühstückst du?",
+          "ar": "بتفطر إمتى؟"
+        }
+      ]
+    },
+    {
+      "inf": "anfangen",
+      "ar": "يبدأ",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "fange … an",
+        "du": "fängst … an",
+        "er": "fängt … an",
+        "wir": "fangen … an",
+        "ihr": "fangt … an",
+        "sie": "fangen … an"
+      },
+      "note": "بينفصل (an في الآخر)، وكمان a بتبقى ä مع du و er بس: du fängst an, er fängt an (لكن ihr fangt an).",
+      "examples": [
+        {
+          "de": "Der Unterricht fängt um acht Uhr an.",
+          "ar": "الدرس بيبدأ الساعة تمانية."
+        },
+        {
+          "de": "Wann fängst du an?",
+          "ar": "هتبدأ إمتى؟"
+        }
+      ]
+    },
+    {
+      "inf": "aufhören",
+      "ar": "يبطّل / يخلص",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "höre … auf",
+        "du": "hörst … auf",
+        "er": "hört … auf",
+        "wir": "hören … auf",
+        "ihr": "hört … auf",
+        "sie": "hören … auf"
+      },
+      "note": "عكس anfangen. بينفصل و auf بتروح آخر الجملة. وخد بالك: hören لوحده = يسمع.",
+      "examples": [
+        {
+          "de": "Wann hört der Unterricht auf?",
+          "ar": "الدرس بيخلص إمتى؟"
+        },
+        {
+          "de": "Wir hören um fünf Uhr auf.",
+          "ar": "إحنا بنخلّص الساعة خمسة."
+        }
+      ]
+    },
+    {
+      "inf": "glauben",
+      "ar": "يصدّق / يفتكر (يظن)",
+      "lesson": 31,
+      "type": "regular",
+      "forms": {
+        "ich": "glaube",
+        "du": "glaubst",
+        "er": "glaubt",
+        "wir": "glauben",
+        "ihr": "glaubt",
+        "sie": "glauben"
+      },
+      "note": "منتظم. Das glaube ich nicht! = مش مصدّق! و Ich glaube, … = أظن إن …، وفي الحالة دي بنحط فاصلة بعد glaube.",
+      "examples": [
+        {
+          "de": "Das glaube ich nicht!",
+          "ar": "مش مصدّق!"
+        },
+        {
+          "de": "Ich glaube, Emma ist krank.",
+          "ar": "أظن إن إيما عيانة."
+        }
+      ]
+    },
+    {
+      "inf": "kochen",
+      "ar": "يطبخ",
+      "lesson": 31,
+      "type": "regular",
+      "forms": {
+        "ich": "koche",
+        "du": "kochst",
+        "er": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie": "kochen"
+      },
+      "note": "منتظم من غير مفاجآت. و gern بعد الفعل معناها «بحب»: Ich koche gern.",
+      "examples": [
+        {
+          "de": "Ich koche gerne Gemüse.",
+          "ar": "بحب أطبخ خضار."
+        },
+        {
+          "de": "Am Sonntag koche ich mit Nico.",
+          "ar": "يوم الحد هطبخ مع نيكو."
+        }
+      ]
+    },
+    {
+      "inf": "korrigieren",
+      "ar": "يصحّح",
+      "lesson": 31,
+      "type": "regular",
+      "forms": {
+        "ich": "korrigiere",
+        "du": "korrigierst",
+        "er": "korrigiert",
+        "wir": "korrigieren",
+        "ihr": "korrigiert",
+        "sie": "korrigieren"
+      },
+      "note": "منتظم من غير مفاجآت زي studieren و telefonieren.",
+      "examples": [
+        {
+          "de": "Die Lehrerin korrigiert die Übungen.",
+          "ar": "المدرّسة بتصحّح التمارين."
+        },
+        {
+          "de": "Korrigierst du meinen Text?",
+          "ar": "هتصحّحلي النص بتاعي؟"
+        }
+      ]
+    },
+    {
+      "inf": "mitkommen",
+      "ar": "ييجي مع (حد)",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "komme … mit",
+        "du": "kommst … mit",
+        "er": "kommt … mit",
+        "wir": "kommen … mit",
+        "ihr": "kommt … mit",
+        "sie": "kommen … mit"
+      },
+      "note": "بيتصرّف زي kommen، و mit بتروح آخر الجملة. Kommst du mit? = تيجي معانا؟ (mit في الآخر هي اللي بتقول «معانا»).",
+      "examples": [
+        {
+          "de": "Kommst du am Samstag mit?",
+          "ar": "هتيجي معانا يوم السبت؟"
+        },
+        {
+          "de": "Ich komme gern mit.",
+          "ar": "هاجي معاكم بكل سرور."
+        }
+      ]
+    },
+    {
+      "inf": "mitschreiben",
+      "ar": "يكتب اللي بيتقال",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "schreibe … mit",
+        "du": "schreibst … mit",
+        "er": "schreibt … mit",
+        "wir": "schreiben … mit",
+        "ihr": "schreibt … mit",
+        "sie": "schreiben … mit"
+      },
+      "note": "بيتصرّف زي schreiben، و mit بتروح آخر الجملة. معناه تكتب اللي بيتقال وإنت بتسمع (في الحصة مثلًا).",
+      "examples": [
+        {
+          "de": "Die Schüler schreiben mit.",
+          "ar": "التلاميذ بيكتبوا اللي بيتقال."
+        },
+        {
+          "de": "Ich schreibe die Wörter mit.",
+          "ar": "أنا بكتب الكلمات اللي بتتقال."
+        }
+      ]
+    },
+    {
+      "inf": "vorbereiten",
+      "ar": "يحضّر / يجهّز",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "bereite … vor",
+        "du": "bereitest … vor",
+        "er": "bereitet … vor",
+        "wir": "bereiten … vor",
+        "ihr": "bereitet … vor",
+        "sie": "bereiten … vor"
+      },
+      "note": "بينفصل (vor في الآخر)، والجذر bereit- آخره t، فبنزوّد -e- مع du و er و ihr: du bereitest … vor, er bereitet … vor.",
+      "examples": [
+        {
+          "de": "Die Lehrerin bereitet den Unterricht vor.",
+          "ar": "المدرّسة بتحضّر الدرس."
+        },
+        {
+          "de": "Ich bereite das Abendessen vor.",
+          "ar": "أنا بحضّر العشا."
+        }
+      ]
+    },
+    {
+      "inf": "vorlesen",
+      "ar": "يقرا بصوت عالي (لحد)",
+      "lesson": 31,
+      "type": "separable",
+      "forms": {
+        "ich": "lese … vor",
+        "du": "liest … vor",
+        "er": "liest … vor",
+        "wir": "lesen … vor",
+        "ihr": "lest … vor",
+        "sie": "lesen … vor"
+      },
+      "note": "فعل بينفصل + e بتبقى ie مع du و er: du liest … vor (مش liesst)، er liest … vor. واللي بتقراله ييجي من غير «لـ»: Ich lese Emma vor.",
+      "examples": [
+        {
+          "de": "Die Schülerin liest den Text vor.",
+          "ar": "التلميذة بتقرا النص بصوت عالي."
+        },
+        {
+          "de": "Liest du Emma ein Buch vor?",
+          "ar": "تقرا لإيما كتاب؟"
+        }
+      ]
+    },
+    {
+      "inf": "waschen",
+      "ar": "يغسل",
+      "lesson": 31,
+      "type": "irregular",
+      "forms": {
+        "ich": "wasche",
+        "du": "wäschst",
+        "er": "wäscht",
+        "wir": "waschen",
+        "ihr": "wascht",
+        "sie": "waschen"
+      },
+      "note": "a بتبقى ä مع du و er: du wäschst, er wäscht. وباقي الضماير عادي (ihr wascht).",
+      "examples": [
+        {
+          "de": "Am Mittwoch wasche ich mit Opa das Auto.",
+          "ar": "يوم الأربع هغسل العربية مع جدو."
+        },
+        {
+          "de": "Wäschst du heute das Auto?",
+          "ar": "هتغسل العربية النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "ausschlafen",
+      "ar": "ينام لحد ما يشبع نوم",
+      "lesson": 32,
+      "type": "separable",
+      "forms": {
+        "ich": "schlafe … aus",
+        "du": "schläfst … aus",
+        "er": "schläft … aus",
+        "wir": "schlafen … aus",
+        "ihr": "schlaft … aus",
+        "sie": "schlafen … aus"
+      },
+      "note": "فعل بينفصل + a بتبقى ä مع du و er (زي schlafen): du schläfst … aus, er schläft … aus. و aus بتروح آخر الجملة.",
+      "examples": [
+        {
+          "de": "Am Wochenende schlafe ich lange aus.",
+          "ar": "في الويك إند بنام لحد متأخر."
+        },
+        {
+          "de": "Schläfst du morgen aus?",
+          "ar": "هتنام لحد متأخر بكرة؟"
+        }
+      ]
+    },
+    {
+      "inf": "besuchen",
+      "ar": "يزور",
+      "lesson": 32,
+      "type": "regular",
+      "forms": {
+        "ich": "besuche",
+        "du": "besuchst",
+        "er": "besucht",
+        "wir": "besuchen",
+        "ihr": "besucht",
+        "sie": "besuchen"
+      },
+      "note": "be- عمرها ما بتنفصل، والفعل منتظم زي suchen. وبعده الشخص أو المكان على طول: Wir besuchen Opa.",
+      "examples": [
+        {
+          "de": "Am Samstag besuchen wir Opa.",
+          "ar": "يوم السبت هنزور جدو."
+        },
+        {
+          "de": "Besuchst du am Sonntag deine Tante?",
+          "ar": "هتزور خالتك يوم الحد؟"
+        }
+      ]
+    },
+    {
+      "inf": "denken",
+      "ar": "يفكّر / يفتكر إن …",
+      "lesson": 32,
+      "type": "mixed",
+      "forms": {
+        "ich": "denke",
+        "du": "denkst",
+        "er": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie": "denken"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). Ich denke, … = أنا شايف إن …، وبعدها جملة عادية.",
+      "examples": [
+        {
+          "de": "Lisa denkt, Emma macht die Hausaufgaben.",
+          "ar": "ليزا فاكرة إن إيما بتعمل الواجب."
+        },
+        {
+          "de": "Was denkst du?",
+          "ar": "إنت رأيك إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "rausgehen",
+      "ar": "يخرج برّه",
+      "lesson": 32,
+      "type": "separable",
+      "forms": {
+        "ich": "gehe … raus",
+        "du": "gehst … raus",
+        "er": "geht … raus",
+        "wir": "gehen … raus",
+        "ihr": "geht … raus",
+        "sie": "gehen … raus"
+      },
+      "note": "فعل بينفصل: raus بتروح آخر الجملة. rausgehen = nach draußen gehen (يخرج برّه)، لكن ausgehen = يخرج يتفسّح.",
+      "examples": [
+        {
+          "de": "Ich gehe jetzt raus.",
+          "ar": "أنا هخرج دلوقتي."
+        },
+        {
+          "de": "Gehen wir heute raus?",
+          "ar": "نخرج النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "schwimmen",
+      "ar": "يعوم",
+      "lesson": 32,
+      "type": "irregular",
+      "forms": {
+        "ich": "schwimme",
+        "du": "schwimmst",
+        "er": "schwimmt",
+        "wir": "schwimmen",
+        "ihr": "schwimmt",
+        "sie": "schwimmen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). و «schwimmen gehen» = يروح يعوم: Wir gehen schwimmen.",
+      "examples": [
+        {
+          "de": "Zuerst schwimmen wir, dann spielen wir Tennis.",
+          "ar": "الأول هنعوم، وبعدين هنلعب تنس."
+        },
+        {
+          "de": "Schwimmst du gern?",
+          "ar": "بتحب تعوم؟"
+        }
+      ]
+    },
+    {
+      "inf": "warten",
+      "ar": "يستنّى",
+      "lesson": 33,
+      "type": "regular",
+      "forms": {
+        "ich": "warte",
+        "du": "wartest",
+        "er": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie": "warten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du wartest, er wartet. ولازم auf قبل اللي بتستناه (Ich warte auf Lisa = مستني ليزا)، وبعدها حالة النصب: auf den Bus (مش auf dem Bus).",
+      "examples": [
+        {
+          "de": "Du wartest auf Lisa, oder?",
+          "ar": "إنت مستني ليزا، صح؟"
+        },
+        {
+          "de": "Wir warten auf den Bus.",
+          "ar": "إحنا مستنيين الأتوبيس."
+        }
+      ]
+    },
+    {
+      "inf": "reservieren",
+      "ar": "يحجز",
+      "lesson": 34,
+      "type": "regular",
+      "forms": {
+        "ich": "reserviere",
+        "du": "reservierst",
+        "er": "reserviert",
+        "wir": "reservieren",
+        "ihr": "reserviert",
+        "sie": "reservieren"
+      },
+      "note": "منتظم من غير مفاجآت زي studieren و telefonieren. وفي المطعم: einen Tisch reservieren = يحجز ترابيزة.",
+      "examples": [
+        {
+          "de": "Ich möchte einen Tisch für vier Personen reservieren.",
+          "ar": "عايز أحجز ترابيزة لأربع أشخاص."
+        },
+        {
+          "de": "Nico reserviert einen Tisch am Fenster.",
+          "ar": "نيكو بيحجز ترابيزة جنب الشباك."
+        }
+      ]
+    },
+    {
+      "inf": "brauchen",
+      "ar": "محتاج / يحتاج",
+      "lesson": 35,
+      "type": "regular",
+      "forms": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie": "brauchen"
+      },
+      "note": "منتظم. بعده الحاجة على طول من غير حرف جر، والمذكر بيبقى einen: Ich brauche einen Stift.",
+      "examples": [
+        {
+          "de": "Wir brauchen eine achte Person.",
+          "ar": "محتاجين شخص تامن."
+        },
+        {
+          "de": "Brauchst du Hilfe?",
+          "ar": "محتاج مساعدة؟"
+        }
+      ]
+    },
+    {
+      "inf": "treffen",
+      "ar": "يقابل",
+      "lesson": 35,
+      "type": "irregular",
+      "forms": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "sie": "treffen"
+      },
+      "note": "e بتبقى i مع du و er: du triffst, er trifft. و wir treffen uns = هنتقابل (مع بعض).",
+      "examples": [
+        {
+          "de": "Dann treffen wir uns am Freitag.",
+          "ar": "يبقى نتقابل يوم الجمعة."
+        },
+        {
+          "de": "Wann triffst du Lisa?",
+          "ar": "هتقابل ليزا إمتى؟"
+        }
+      ]
+    },
+    {
+      "inf": "absagen",
+      "ar": "يلغي (ميعاد)",
+      "lesson": 36,
+      "type": "separable",
+      "forms": {
+        "ich": "sage … ab",
+        "du": "sagst … ab",
+        "er": "sagt … ab",
+        "wir": "sagen … ab",
+        "ihr": "sagt … ab",
+        "sie": "sagen … ab"
+      },
+      "note": "فعل بينفصل: ab بتروح آخر الجملة (Ich sage den Termin ab). ومع können بيرجع كلمة واحدة: Kannst du den Termin absagen?",
+      "examples": [
+        {
+          "de": "Ich sage den Termin ab.",
+          "ar": "هلغي الميعاد."
+        },
+        {
+          "de": "Sagst du das Treffen ab?",
+          "ar": "إنت هتلغي المقابلة؟"
+        }
+      ]
+    },
+    {
+      "inf": "freihaben",
+      "ar": "عنده أجازة (من الشغل)",
+      "lesson": 37,
+      "type": "separable",
+      "forms": {
+        "ich": "habe … frei",
+        "du": "hast … frei",
+        "er": "hat … frei",
+        "wir": "haben … frei",
+        "ihr": "habt … frei",
+        "sie": "haben … frei"
+      },
+      "note": "فعل بينفصل: frei بتروح آخر الجملة، والباقي تصريف haben (du hast, er hat). Ich habe frei = أنا أجازة.",
+      "examples": [
+        {
+          "de": "Ich habe heute frei.",
+          "ar": "أنا أجازة النهارده."
+        },
+        {
+          "de": "Hast du am Montag frei?",
+          "ar": "إنت أجازة يوم الاتنين؟"
+        }
+      ]
+    },
+    {
+      "inf": "leiten",
+      "ar": "يدير (مطعم / شركة)",
+      "lesson": 37,
+      "type": "regular",
+      "forms": {
+        "ich": "leite",
+        "du": "leitest",
+        "er": "leitet",
+        "wir": "leiten",
+        "ihr": "leitet",
+        "sie": "leiten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du leitest, er leitet (زي arbeiten).",
+      "examples": [
+        {
+          "de": "Max und Tarek leiten ihr Restaurant.",
+          "ar": "ماكس وطارق بيديروا المطعم بتاعهم."
+        },
+        {
+          "de": "Meine Mutter leitet ein Geschäft.",
+          "ar": "أمي بتدير محل."
+        }
+      ]
+    },
+    {
+      "inf": "beraten",
+      "ar": "ينصح / يدّي استشارة",
+      "lesson": 38,
+      "type": "irregular",
+      "forms": {
+        "ich": "berate",
+        "du": "berätst",
+        "er": "berät",
+        "wir": "beraten",
+        "ihr": "beratet",
+        "sie": "beraten"
+      },
+      "note": "a بتبقى ä مع du و er: du berätst, er berät (من غير t زيادة). ومع ihr: ihr beratet. و be- مش بتنفصل.",
+      "examples": [
+        {
+          "de": "Ein Bankkaufmann muss Kunden beraten.",
+          "ar": "موظف البنك لازم ينصح العملا."
+        },
+        {
+          "de": "Er berät Kunden und organisiert Termine.",
+          "ar": "هو بينصح العملا وبينظّم المواعيد."
+        }
+      ]
+    },
+    {
+      "inf": "buchen",
+      "ar": "يحجز",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "buche",
+        "du": "buchst",
+        "er": "bucht",
+        "wir": "buchen",
+        "ihr": "bucht",
+        "sie": "buchen"
+      },
+      "note": "منتظم. معناه قريب من reservieren (درس 34)، وبنستعمله أكتر للفنادق والرحلات: ein Hotel buchen.",
+      "examples": [
+        {
+          "de": "Ich buche ein Hotel in Berlin.",
+          "ar": "هحجز فندق في برلين."
+        },
+        {
+          "de": "Wir müssen noch ein Zimmer buchen.",
+          "ar": "لسه لازم نحجز أوضة."
+        }
+      ]
+    },
+    {
+      "inf": "kontrollieren",
+      "ar": "يشيّك على / يراجع",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "kontrolliere",
+        "du": "kontrollierst",
+        "er": "kontrolliert",
+        "wir": "kontrollieren",
+        "ihr": "kontrolliert",
+        "sie": "kontrollieren"
+      },
+      "note": "معناه هنا يشيّك أو يراجع (زي الشرطة لما تشيّك على الباسبور)، مش «يتحكّم». ومنتظم زي studieren و telefonieren.",
+      "examples": [
+        {
+          "de": "Die Polizei kontrolliert den Pass.",
+          "ar": "الشرطة بتشيّك على الباسبور."
+        },
+        {
+          "de": "Kannst du die Rechnung kontrollieren?",
+          "ar": "ممكن تراجع الحساب؟"
+        }
+      ]
+    },
+    {
+      "inf": "organisieren",
+      "ar": "ينظّم / يرتّب",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "organisiere",
+        "du": "organisierst",
+        "er": "organisiert",
+        "wir": "organisieren",
+        "ihr": "organisiert",
+        "sie": "organisieren"
+      },
+      "note": "منتظم زي studieren و telefonieren. بنرتّب بيه مواعيد أو حفلة: Termine organisieren.",
+      "examples": [
+        {
+          "de": "Lisa organisiert eine Party.",
+          "ar": "ليزا بترتّب لحفلة."
+        },
+        {
+          "de": "Er muss Termine mit Kunden organisieren.",
+          "ar": "هو لازم يرتّب مواعيد مع العملا."
+        }
+      ]
+    },
+    {
+      "inf": "planen",
+      "ar": "يخطّط لـ",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "plane",
+        "du": "planst",
+        "er": "plant",
+        "wir": "planen",
+        "ihr": "plant",
+        "sie": "planen"
+      },
+      "note": "منتظم. planen = تخطّط للحاجة قبلها، و organisieren = ترتّب تفاصيلها.",
+      "examples": [
+        {
+          "de": "Wir planen den Urlaub.",
+          "ar": "إحنا بنخطّط للإجازة."
+        },
+        {
+          "de": "Was planst du am Wochenende?",
+          "ar": "بتخطّط لإيه في الويك إند؟"
+        }
+      ]
+    },
+    {
+      "inf": "reparieren",
+      "ar": "يصلّح",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "repariere",
+        "du": "reparierst",
+        "er": "repariert",
+        "wir": "reparieren",
+        "ihr": "repariert",
+        "sie": "reparieren"
+      },
+      "note": "منتظم زي studieren و telefonieren. ولو حاجة kaputt (بايظة، درس 13) لازم نصلّحها.",
+      "examples": [
+        {
+          "de": "Ein Elektriker repariert Geräte.",
+          "ar": "الكهربائي بيصلّح الأجهزة."
+        },
+        {
+          "de": "Kannst du mein Fahrrad reparieren?",
+          "ar": "تقدر تصلّح العجلة بتاعتي؟"
+        }
+      ]
+    },
+    {
+      "inf": "unterschreiben",
+      "ar": "يمضي / يوقّع",
+      "lesson": 38,
+      "type": "irregular",
+      "forms": {
+        "ich": "unterschreibe",
+        "du": "unterschreibst",
+        "er": "unterschreibt",
+        "wir": "unterschreiben",
+        "ihr": "unterschreibt",
+        "sie": "unterschreiben"
+      },
+      "note": "مش بينفصل: unter بتفضل لازقة في الفعل (ich unterschreibe)، والتصريف زي schreiben بالظبط: المضارع منتظم والشذوذ في الماضي بس.",
+      "examples": [
+        {
+          "de": "Sie müssen hier unterschreiben.",
+          "ar": "حضرتك لازم تمضي هنا. (رسمي)"
+        },
+        {
+          "de": "Der Chef unterschreibt den Vertrag.",
+          "ar": "المدير بيمضي العقد."
+        }
+      ]
+    },
+    {
+      "inf": "zählen",
+      "ar": "يعدّ",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "zähle",
+        "du": "zählst",
+        "er": "zählt",
+        "wir": "zählen",
+        "ihr": "zählt",
+        "sie": "zählen"
+      },
+      "note": "منتظم، والـ ä موجودة في كل الصيغ. متلخبطش بينه وبين zahlen (درس 16) = يدفع.",
+      "examples": [
+        {
+          "de": "Manchmal muss ein Bankkaufmann Geld zählen.",
+          "ar": "ساعات موظف البنك لازم يعدّ فلوس."
+        },
+        {
+          "de": "Emma zählt bis zwanzig.",
+          "ar": "إيما بتعدّ لحد عشرين."
+        }
+      ]
+    },
+    {
+      "inf": "bringen",
+      "ar": "يجيب (حاجة لحد)",
+      "lesson": 38,
+      "type": "mixed",
+      "forms": {
+        "ich": "bringe",
+        "du": "bringst",
+        "er": "bringt",
+        "wir": "bringen",
+        "ihr": "bringt",
+        "sie": "bringen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). واللي بتجيبله الحاجة بنقوله mir / dir (مش mich / dich): Kannst du mir einen Teller bringen?",
+      "examples": [
+        {
+          "de": "Ich bringe dir einen Kaffee.",
+          "ar": "هجيبلك قهوة."
+        },
+        {
+          "de": "Der Kellner bringt die Rechnung.",
+          "ar": "الجرسون بيجيب الحساب."
+        }
+      ]
+    },
+    {
+      "inf": "müssen",
+      "ar": "لازم / مضطر",
+      "lesson": 38,
+      "type": "modal",
+      "forms": {
+        "ich": "muss",
+        "du": "musst",
+        "er": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie": "müssen"
+      },
+      "note": "فعل مساعد: في المفرد الـ ü بتبقى u، و ich و er نفس الشكل من غير نهاية (ich muss, er muss). والفعل التاني مصدر في آخر الجملة.",
+      "examples": [
+        {
+          "de": "Du musst E-Mails schreiben.",
+          "ar": "لازم تكتب إيميلات."
+        },
+        {
+          "de": "Wir müssen viel arbeiten.",
+          "ar": "إحنا لازم نشتغل كتير."
+        }
+      ]
+    },
+    {
+      "inf": "überprüfen",
+      "ar": "يراجع / يتأكّد من",
+      "lesson": 38,
+      "type": "regular",
+      "forms": {
+        "ich": "überprüfe",
+        "du": "überprüfst",
+        "er": "überprüft",
+        "wir": "überprüfen",
+        "ihr": "überprüft",
+        "sie": "überprüfen"
+      },
+      "note": "über هنا مش بتنفصل: Ich überprüfe die Rechnung (مش prüfe … über). ومعناه قريب من kontrollieren.",
+      "examples": [
+        {
+          "de": "Er muss Finanzen überprüfen.",
+          "ar": "هو لازم يراجع الحسابات."
+        },
+        {
+          "de": "Ich überprüfe die Rechnung.",
+          "ar": "أنا براجع الفاتورة."
+        }
+      ]
+    },
+    {
+      "inf": "hängen",
+      "ar": "متعلّق (على حاجة)",
+      "lesson": 39,
+      "type": "irregular",
+      "forms": {
+        "ich": "hänge",
+        "du": "hängst",
+        "er": "hängt",
+        "wir": "hängen",
+        "ihr": "hängt",
+        "sie": "hängen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). معناه «متعلّق»، والمكان بعده Dativ لأنه بيجاوب على Wo? (فين): an der Wand.",
+      "examples": [
+        {
+          "de": "Das Bild hängt an der Wand.",
+          "ar": "الصورة متعلّقة على الحيطة."
+        },
+        {
+          "de": "Die Lampe hängt über dem Tisch.",
+          "ar": "اللمبة متعلّقة فوق الترابيزة."
+        }
+      ]
+    },
+    {
+      "inf": "stattfinden",
+      "ar": "يتعمل / يحصل (اجتماع، حفلة)",
+      "lesson": 39,
+      "type": "separable",
+      "forms": {
+        "ich": "finde … statt",
+        "du": "findest … statt",
+        "er": "findet … statt",
+        "wir": "finden … statt",
+        "ihr": "findet … statt",
+        "sie": "finden … statt"
+      },
+      "note": "بينفصل: statt بتروح آخر الجملة، والفاعل بيبقى الحدث نفسه (اجتماع، حفلة) يعني «هيتعمل». والجذر آخره d فبنزوّد -e-: es findet … statt.",
+      "examples": [
+        {
+          "de": "Die Bewerbungsgespräche finden im Besprechungsraum statt.",
+          "ar": "مقابلات الشغل بتتعمل في أوضة الاجتماعات."
+        },
+        {
+          "de": "Wann findet das Meeting statt?",
+          "ar": "الاجتماع هيتعمل إمتى؟"
+        }
+      ]
+    },
+    {
+      "inf": "hassen",
+      "ar": "يكره",
+      "lesson": 40,
+      "type": "regular",
+      "forms": {
+        "ich": "hasse",
+        "du": "hasst",
+        "er": "hasst",
+        "wir": "hassen",
+        "ihr": "hasst",
+        "sie": "hassen"
+      },
+      "note": "الجذر آخره ss، فمع du بنزوّد -t بس: du hasst (زي heißt). وعكسه lieben (درس 15).",
+      "examples": [
+        {
+          "de": "Ich hasse es.",
+          "ar": "أنا بكره ده."
+        },
+        {
+          "de": "Er hasst Büroarbeit.",
+          "ar": "هو بيكره شغل المكاتب."
+        }
+      ]
+    },
+    {
+      "inf": "behalten",
+      "ar": "يحتفظ بـ / يخلّي الحاجة معاه",
+      "lesson": 41,
+      "type": "irregular",
+      "forms": {
+        "ich": "behalte",
+        "du": "behältst",
+        "er": "behält",
+        "wir": "behalten",
+        "ihr": "behaltet",
+        "sie": "behalten"
+      },
+      "note": "a بتبقى ä مع du و er، ومن غير -e- زيادة: du behältst, er behält (بس ihr behaltet). ومعناه تخلّي الحاجة معاك ومترجّعهاش.",
+      "examples": [
+        {
+          "de": "Die Hose kannst du behalten.",
+          "ar": "البنطلون تقدر تخلّيه معاك."
+        },
+        {
+          "de": "Nico behält die zwei T-Shirts.",
+          "ar": "نيكو هيخلّي التيشيرتين معاه."
+        }
+      ]
+    },
+    {
+      "inf": "kaufen",
+      "ar": "يشتري",
+      "lesson": 41,
+      "type": "regular",
+      "forms": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie": "kaufen"
+      },
+      "note": "منتظم والـ au مش بتتغيّر: du kaufst, er kauft. و einkaufen (درس 30) = يتسوّق وبينفصل: Ich kaufe im Supermarkt ein.",
+      "examples": [
+        {
+          "de": "Wo kann ich einen Stadtplan kaufen?",
+          "ar": "أقدر أشتري خريطة للمدينة منين؟"
+        },
+        {
+          "de": "Nico kauft ein Geschenk für Emma.",
+          "ar": "نيكو بيشتري هدية لإيما."
+        }
+      ]
+    },
+    {
+      "inf": "zurückgeben",
+      "ar": "يرجّع (حاجة)",
+      "lesson": 41,
+      "type": "separable",
+      "forms": {
+        "ich": "gebe … zurück",
+        "du": "gibst … zurück",
+        "er": "gibt … zurück",
+        "wir": "geben … zurück",
+        "ihr": "gebt … zurück",
+        "sie": "geben … zurück"
+      },
+      "note": "بينفصل (zurück آخر الجملة)، و e بتبقى i مع du و er زي geben: du gibst … zurück, er gibt … zurück.",
+      "examples": [
+        {
+          "de": "Wann gibst du die Tasche zurück?",
+          "ar": "هترجّع الشنطة إمتى؟"
+        },
+        {
+          "de": "Nico gibt Lisa die Jacke zurück.",
+          "ar": "نيكو بيرجّع الجاكيت لليزا."
+        }
+      ]
+    },
+    {
+      "inf": "schenken",
+      "ar": "يهادي / يدّي هدية",
+      "lesson": 41,
+      "type": "regular",
+      "forms": {
+        "ich": "schenke",
+        "du": "schenkst",
+        "er": "schenkt",
+        "wir": "schenken",
+        "ihr": "schenkt",
+        "sie": "schenken"
+      },
+      "note": "المضارع منتظم، ومنه das Geschenk (هدية). واللي بتهاديه في حالة الجر (Dativ) وبييجي قبل الهدية: Ich schenke meiner Mutter ein Buch.",
+      "examples": [
+        {
+          "de": "Nico schenkt Emma ein Bild.",
+          "ar": "نيكو بيهادي إيما بصورة."
+        },
+        {
+          "de": "Ich schenke dir ein Buch.",
+          "ar": "هدّيك كتاب هدية."
+        }
+      ]
+    },
+    {
+      "inf": "entlanggehen",
+      "ar": "يمشي على طول (الشارع / النهر)",
+      "lesson": 42,
+      "type": "separable",
+      "forms": {
+        "ich": "gehe … entlang",
+        "du": "gehst … entlang",
+        "er": "geht … entlang",
+        "wir": "gehen … entlang",
+        "ihr": "geht … entlang",
+        "sie": "gehen … entlang"
+      },
+      "note": "بينفصل: entlang بتروح آخر الجملة، والشارع أو النهر قبلها Akkusativ: den Fluss entlang = على طول النهر.",
+      "examples": [
+        {
+          "de": "Gehen Sie die Straße entlang.",
+          "ar": "امشي في الشارع على طول. (رسمي)"
+        },
+        {
+          "de": "Wir gehen den Fluss entlang.",
+          "ar": "إحنا ماشيين على طول النهر."
+        }
+      ]
+    },
+    {
+      "inf": "parken",
+      "ar": "يركن (العربية)",
+      "lesson": 42,
+      "type": "regular",
+      "forms": {
+        "ich": "parke",
+        "du": "parkst",
+        "er": "parkt",
+        "wir": "parken",
+        "ihr": "parkt",
+        "sie": "parken"
+      },
+      "note": "منتظم من غير مفاجآت. وبتركن فين؟ ده سؤال Wo? فالمكان بالجر: im Parkhaus، auf dem Parkplatz.",
+      "examples": [
+        {
+          "de": "Wo parkst du?",
+          "ar": "إنت بتركن فين؟"
+        },
+        {
+          "de": "Wir parken auf dem Parkplatz.",
+          "ar": "إحنا بنركن في الباركينج."
+        }
+      ]
+    },
+    {
+      "inf": "vorbeigehen",
+      "ar": "يعدّي من جنب",
+      "lesson": 42,
+      "type": "separable",
+      "forms": {
+        "ich": "gehe … vorbei",
+        "du": "gehst … vorbei",
+        "er": "geht … vorbei",
+        "wir": "gehen … vorbei",
+        "ihr": "geht … vorbei",
+        "sie": "gehen … vorbei"
+      },
+      "note": "بينفصل: vorbei بتروح آخر الجملة. والمكان اللي بتعدّي من جنبه بييجي بعد an في الجر: am Theater vorbei = من جنب المسرح.",
+      "examples": [
+        {
+          "de": "Dann geht ihr am Theater vorbei.",
+          "ar": "بعدين هتعدّوا من جنب المسرح."
+        },
+        {
+          "de": "Ich gehe an der Kirche vorbei.",
+          "ar": "أنا بعدّي من جنب الكنيسة."
+        }
+      ]
+    },
+    {
+      "inf": "überqueren",
+      "ar": "يعدّي (الشارع)",
+      "lesson": 42,
+      "type": "regular",
+      "forms": {
+        "ich": "überquere",
+        "du": "überquerst",
+        "er": "überquert",
+        "wir": "überqueren",
+        "ihr": "überquert",
+        "sie": "überqueren"
+      },
+      "note": "über هنا لازقة ومابتنفصلش (عكس vorbeigehen): Ich überquere die Straße. والشارع أو التقاطع بييجي بعده على طول من غير حرف جر.",
+      "examples": [
+        {
+          "de": "Überqueren Sie die Schlossstraße.",
+          "ar": "عدّي شارع شلوس. (رسمي)"
+        },
+        {
+          "de": "Dann überquert ihr die Kreuzung.",
+          "ar": "بعدين هتعدّوا التقاطع."
+        }
+      ]
+    },
+    {
+      "inf": "biegen",
+      "ar": "يلف (يمين / شمال)",
+      "lesson": 42,
+      "type": "irregular",
+      "forms": {
+        "ich": "biege",
+        "du": "biegst",
+        "er": "biegt",
+        "wir": "biegen",
+        "ihr": "biegt",
+        "sie": "biegen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). وبعده in + حالة النصب علشان فيه حركة (Wohin?): links in die Krugstraße.",
+      "examples": [
+        {
+          "de": "Biegen Sie dann links in die Krugstraße.",
+          "ar": "بعدين لف شمال في شارع كروج. (رسمي)"
+        },
+        {
+          "de": "An der Ampel biegst du rechts in die Schreinerstraße.",
+          "ar": "عند الإشارة هتلف يمين في شارع شراينر."
+        }
+      ]
+    },
+    {
+      "inf": "ankommen",
+      "ar": "يوصل",
+      "lesson": 43,
+      "type": "separable",
+      "forms": {
+        "ich": "komme … an",
+        "du": "kommst … an",
+        "er": "kommt … an",
+        "wir": "kommen … an",
+        "ihr": "kommt … an",
+        "sie": "kommen … an"
+      },
+      "note": "بينفصل زي umsteigen: an بتروح آخر الجملة. والمكان بـ in أو an + جر: in Berlin، am Bahnhof.",
+      "examples": [
+        {
+          "de": "Wann kommen wir in Berlin an?",
+          "ar": "هنوصل برلين إمتى؟"
+        },
+        {
+          "de": "Der Zug kommt um neun Uhr an.",
+          "ar": "القطر بيوصل الساعة تسعة."
+        }
+      ]
+    },
+    {
+      "inf": "dauern",
+      "ar": "ياخد (وقت)",
+      "lesson": 43,
+      "type": "regular",
+      "forms": {
+        "ich": "dauere",
+        "du": "dauerst",
+        "er": "dauert",
+        "wir": "dauern",
+        "ihr": "dauert",
+        "sie": "dauern"
+      },
+      "note": "غالبًا بييجي مع حاجة مش شخص: Das dauert lange = ده بياخد وقت طويل. وآخره -ern زي feiern: ich dauere, sie dauern.",
+      "examples": [
+        {
+          "de": "Wie lange dauert die Fahrt?",
+          "ar": "المشوار بياخد قد إيه؟"
+        },
+        {
+          "de": "Die Fahrt dauert zwanzig Minuten.",
+          "ar": "المشوار بياخد عشرين دقيقة."
+        }
+      ]
+    },
+    {
+      "inf": "umsteigen",
+      "ar": "يحوّل (من مواصلة لمواصلة)",
+      "lesson": 43,
+      "type": "separable",
+      "forms": {
+        "ich": "steige … um",
+        "du": "steigst … um",
+        "er": "steigt … um",
+        "wir": "steigen … um",
+        "ihr": "steigt … um",
+        "sie": "steigen … um"
+      },
+      "note": "فعل بينفصل: um بتروح آخر الجملة (Ich steige am Bahnhof um). ومع muss بيرجع كلمة واحدة في الآخر: Wo muss ich umsteigen?",
+      "examples": [
+        {
+          "de": "Am Bahnhof steigen wir um.",
+          "ar": "هنحوّل في محطة القطر."
+        },
+        {
+          "de": "Wo muss ich umsteigen?",
+          "ar": "لازم أحوّل فين؟"
+        }
+      ]
+    },
+    {
+      "inf": "öffnen",
+      "ar": "يفتح",
+      "lesson": 45,
+      "type": "regular",
+      "forms": {
+        "ich": "öffne",
+        "du": "öffnest",
+        "er": "öffnet",
+        "wir": "öffnen",
+        "ihr": "öffnet",
+        "sie": "öffnen"
+      },
+      "note": "الجذر آخره ffn، فبنزوّد -e- مع du و er و ihr عشان النطق: du öffnest، er öffnet (زي arbeiten).",
+      "examples": [
+        {
+          "de": "Öffnest du bitte den Kühlschrank?",
+          "ar": "تفتح التلاجة لو سمحت؟"
+        },
+        {
+          "de": "Der Supermarkt öffnet um acht Uhr.",
+          "ar": "السوبر ماركت بيفتح الساعة تمانية."
+        }
+      ]
+    },
+    {
+      "inf": "schmecken",
+      "ar": "طعمه حلو / يعجب (في الأكل)",
+      "lesson": 46,
+      "type": "regular",
+      "forms": {
+        "ich": "schmecke",
+        "du": "schmeckst",
+        "er": "schmeckt",
+        "wir": "schmecken",
+        "ihr": "schmeckt",
+        "sie": "schmecken"
+      },
+      "note": "الأكل هو الفاعل والشخص بيبقى mir / dir، فالفعل بيمشي مع الأكل: Schmeckt dir die Suppe? (مش Schmeckst du). عشان كده أغلب الوقت هتستعمل schmeckt و schmecken بس.",
+      "examples": [
+        {
+          "de": "Schmeckt dir die Suppe?",
+          "ar": "الشوربة عاجباك؟"
+        },
+        {
+          "de": "Die Pfannkuchen schmecken mir sehr gut.",
+          "ar": "البان كيك طعمه عاجبني أوي."
+        }
+      ]
+    },
+    {
+      "inf": "wiederkommen",
+      "ar": "يرجع (تاني)",
+      "lesson": 46,
+      "type": "separable",
+      "forms": {
+        "ich": "komme … wieder",
+        "du": "kommst … wieder",
+        "er": "kommt … wieder",
+        "wir": "kommen … wieder",
+        "ihr": "kommt … wieder",
+        "sie": "kommen … wieder"
+      },
+      "note": "بينفصل زي ankommen: wieder بتروح آخر الجملة (Ich komme bald wieder). و wieder لوحدها معناها «تاني».",
+      "examples": [
+        {
+          "de": "Ich komme bald wieder.",
+          "ar": "هرجع قريب."
+        },
+        {
+          "de": "Kommst du bald wieder?",
+          "ar": "هترجع قريب؟"
+        }
+      ]
+    },
+    {
+      "inf": "abtrocknen",
+      "ar": "ينشّف (المواعين)",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "trockne … ab",
+        "du": "trocknest … ab",
+        "er": "trocknet … ab",
+        "wir": "trocknen … ab",
+        "ihr": "trocknet … ab",
+        "sie": "trocknen … ab"
+      },
+      "note": "بينفصل: ab في آخر الجملة. والجذر آخره kn، فبنزوّد -e- مع du و er و ihr: du trocknest … ab، er trocknet … ab (زي öffnen).",
+      "examples": [
+        {
+          "de": "Ich spüle und du trocknest ab.",
+          "ar": "أنا أغسل وإنت تنشّف."
+        },
+        {
+          "de": "Nico trocknet das Geschirr ab.",
+          "ar": "نيكو بينشّف المواعين."
+        }
+      ]
+    },
+    {
+      "inf": "abwaschen",
+      "ar": "يغسل المواعين",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "wasche … ab",
+        "du": "wäschst … ab",
+        "er": "wäscht … ab",
+        "wir": "waschen … ab",
+        "ihr": "wascht … ab",
+        "sie": "waschen … ab"
+      },
+      "note": "بينفصل، وكمان a بتبقى ä مع du و er: du wäschst … ab، er wäscht … ab (زي waschen). ومعناه زي spülen.",
+      "examples": [
+        {
+          "de": "Ich wasche lieber ab.",
+          "ar": "أنا أفضّل أغسل المواعين."
+        },
+        {
+          "de": "Wäschst du heute ab?",
+          "ar": "هتغسل المواعين النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "aufhängen",
+      "ar": "يعلّق / ينشر (الغسيل)",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "hänge … auf",
+        "du": "hängst … auf",
+        "er": "hängt … auf",
+        "wir": "hängen … auf",
+        "ihr": "hängt … auf",
+        "sie": "hängen … auf"
+      },
+      "note": "بينفصل: auf في آخر الجملة، ومنتظم من غير تغيير في الحروف. ومع الغسيل معناه «ينشر»: Ich hänge die Wäsche auf.",
+      "examples": [
+        {
+          "de": "Ich hänge die Wäsche auf.",
+          "ar": "أنا بنشر الغسيل."
+        },
+        {
+          "de": "Hängst du bitte die Handtücher auf?",
+          "ar": "تنشر الفوط لو سمحت؟"
+        }
+      ]
+    },
+    {
+      "inf": "ausräumen",
+      "ar": "يفضّي (غسالة الأطباق / الدولاب)",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "räume … aus",
+        "du": "räumst … aus",
+        "er": "räumt … aus",
+        "wir": "räumen … aus",
+        "ihr": "räumt … aus",
+        "sie": "räumen … aus"
+      },
+      "note": "بينفصل: aus في آخر الجملة. يعني تطلّع الحاجات من مكانها، وعكسه einräumen.",
+      "examples": [
+        {
+          "de": "Ich räume die Spülmaschine aus.",
+          "ar": "أنا بفضّي غسالة الأطباق."
+        },
+        {
+          "de": "Räumst du den Kühlschrank aus?",
+          "ar": "هتفضّي التلاجة؟"
+        }
+      ]
+    },
+    {
+      "inf": "einräumen",
+      "ar": "يرصّ (الحاجة في مكانها)",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "räume … ein",
+        "du": "räumst … ein",
+        "er": "räumt … ein",
+        "wir": "räumen … ein",
+        "ihr": "räumt … ein",
+        "sie": "räumen … ein"
+      },
+      "note": "بينفصل: ein في آخر الجملة. يعني تحط الحاجات جوّه مكانها (دولاب، تلاجة، غسالة أطباق)، وعكسه ausräumen.",
+      "examples": [
+        {
+          "de": "Ich räume die Gläser ein.",
+          "ar": "أنا برصّ الكوبايات في مكانها."
+        },
+        {
+          "de": "Wir räumen die Spülmaschine ein.",
+          "ar": "إحنا بنرصّ المواعين في غسالة الأطباق."
+        }
+      ]
+    },
+    {
+      "inf": "kehren",
+      "ar": "يكنس (بالمقشة)",
+      "lesson": 47,
+      "type": "regular",
+      "forms": {
+        "ich": "kehre",
+        "du": "kehrst",
+        "er": "kehrt",
+        "wir": "kehren",
+        "ihr": "kehrt",
+        "sie": "kehren"
+      },
+      "note": "منتظم. kehren بالمقشة (der Besen)، لكن بالمكنسة الكهربا بنقول saugen أو staubsaugen.",
+      "examples": [
+        {
+          "de": "Nico kehrt regelmäßig den Flur.",
+          "ar": "نيكو بيكنس الطرقة بانتظام."
+        },
+        {
+          "de": "Ich kehre die Küche.",
+          "ar": "أنا بكنس المطبخ."
+        }
+      ]
+    },
+    {
+      "inf": "saugen",
+      "ar": "يكنس بالمكنسة الكهربا",
+      "lesson": 47,
+      "type": "regular",
+      "forms": {
+        "ich": "sauge",
+        "du": "saugst",
+        "er": "saugt",
+        "wir": "saugen",
+        "ihr": "saugt",
+        "sie": "saugen"
+      },
+      "note": "منتظم. saugen = staubsaugen: تكنس بالمكنسة الكهربا (der Staubsauger)، وبالمقشة بنقول kehren.",
+      "examples": [
+        {
+          "de": "Ich sauge nicht so oft.",
+          "ar": "أنا مش بكنس بالمكنسة الكهربا كتير."
+        },
+        {
+          "de": "Saugst du heute den Teppich?",
+          "ar": "هتكنس السجادة بالمكنسة الكهربا النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "spülen",
+      "ar": "يغسل (المواعين)",
+      "lesson": 47,
+      "type": "regular",
+      "forms": {
+        "ich": "spüle",
+        "du": "spülst",
+        "er": "spült",
+        "wir": "spülen",
+        "ihr": "spült",
+        "sie": "spülen"
+      },
+      "note": "Geschirr spülen = abwaschen = يغسل المواعين. ومنه die Spülmaschine (غسالة الأطباق).",
+      "examples": [
+        {
+          "de": "Ich spüle und du trocknest ab.",
+          "ar": "أنا أغسل وإنت تنشّف."
+        },
+        {
+          "de": "Wer spült heute das Geschirr?",
+          "ar": "مين هيغسل المواعين النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "staubsaugen",
+      "ar": "يكنس بالمكنسة الكهربا",
+      "lesson": 47,
+      "type": "regular",
+      "forms": {
+        "ich": "staubsauge",
+        "du": "staubsaugst",
+        "er": "staubsaugt",
+        "wir": "staubsaugen",
+        "ihr": "staubsaugt",
+        "sie": "staubsaugen"
+      },
+      "note": "حتة واحدة ومابينفصلش: ich staubsauge, er staubsaugt. والأقصر منه saugen: Ich sauge nicht so oft (من الحلقة).",
+      "examples": [
+        {
+          "de": "Ich staubsauge regelmäßig.",
+          "ar": "أنا بكنس بالمكنسة الكهربا بانتظام."
+        },
+        {
+          "de": "Max staubsaugt nie.",
+          "ar": "ماكس عمره ما بيكنس بالمكنسة الكهربا."
+        }
+      ]
+    },
+    {
+      "inf": "mitbringen",
+      "ar": "يجيب معاه",
+      "lesson": 47,
+      "type": "separable",
+      "forms": {
+        "ich": "bringe … mit",
+        "du": "bringst … mit",
+        "er": "bringt … mit",
+        "wir": "bringen … mit",
+        "ihr": "bringt … mit",
+        "sie": "bringen … mit"
+      },
+      "note": "بينفصل: mit بتروح آخر الجملة (Ich bringe Brot mit). ومع können / möchten بييجي كامل في الآخر: Kannst du Brot mitbringen?",
+      "examples": [
+        {
+          "de": "Ich bringe dir ein Glas mit.",
+          "ar": "هجيبلك كوباية معايا."
+        },
+        {
+          "de": "Ich bringe Brot mit.",
+          "ar": "أنا هجيب عيش معايا."
+        }
+      ]
+    },
+    {
+      "inf": "fotografieren",
+      "ar": "يصوّر",
+      "lesson": 48,
+      "type": "regular",
+      "forms": {
+        "ich": "fotografiere",
+        "du": "fotografierst",
+        "er": "fotografiert",
+        "wir": "fotografieren",
+        "ihr": "fotografiert",
+        "sie": "fotografieren"
+      },
+      "note": "منتظم من غير مفاجآت زي studieren و telefonieren. وكهواية: Fotografieren macht mir Spaß.",
+      "examples": [
+        {
+          "de": "Ich fotografiere gern.",
+          "ar": "بحب أصوّر."
+        },
+        {
+          "de": "Was fotografierst du?",
+          "ar": "بتصوّر إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "joggen",
+      "ar": "يجري (رياضة)",
+      "lesson": 48,
+      "type": "regular",
+      "forms": {
+        "ich": "jogge",
+        "du": "joggst",
+        "er": "joggt",
+        "wir": "joggen",
+        "ihr": "joggt",
+        "sie": "joggen"
+      },
+      "note": "أصله إنجليزي (jogging)، والـ j فيه بتتنطق زي الإنجليزي مش زي ja، بس تصريفه ألماني منتظم: du joggst, er joggt.",
+      "examples": [
+        {
+          "de": "Joggst du gerne?",
+          "ar": "بتحب تجري؟"
+        },
+        {
+          "de": "Nein, ich jogge nicht gern.",
+          "ar": "لأ، مابحبش أجري."
+        }
+      ]
+    },
+    {
+      "inf": "laufen",
+      "ar": "يجري / يمشي",
+      "lesson": 48,
+      "type": "irregular",
+      "forms": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie": "laufen"
+      },
+      "note": "au بتبقى äu مع du و er بس: du läufst, er läuft (لكن ihr lauft).",
+      "examples": [
+        {
+          "de": "Ich laufe jeden Tag fünf Kilometer.",
+          "ar": "بجري خمسة كيلومتر كل يوم."
+        },
+        {
+          "de": "Max läuft sehr schnell.",
+          "ar": "ماكس بيجري بسرعة أوي."
+        }
+      ]
+    },
+    {
+      "inf": "angeln",
+      "ar": "يصطاد سمك",
+      "lesson": 48,
+      "type": "regular",
+      "forms": {
+        "ich": "angle",
+        "du": "angelst",
+        "er": "angelt",
+        "wir": "angeln",
+        "ihr": "angelt",
+        "sie": "angeln"
+      },
+      "note": "آخره -eln: مع ich الـ e اللي قبل الـ l بتقع (ich angle)، ومع wir و sie بنزوّد -n بس (wir angeln). وكتير بييجي مع gehen: Ich gehe angeln.",
+      "examples": [
+        {
+          "de": "Ich gehe gern angeln.",
+          "ar": "بحب أروح أصطاد سمك."
+        },
+        {
+          "de": "Angelst du gern?",
+          "ar": "بتحب تصطاد سمك؟"
+        }
+      ]
+    },
+    {
+      "inf": "treiben",
+      "ar": "يمارس (رياضة)",
+      "lesson": 48,
+      "type": "irregular",
+      "forms": {
+        "ich": "treibe",
+        "du": "treibst",
+        "er": "treibt",
+        "wir": "treiben",
+        "ihr": "treibt",
+        "sie": "treiben"
+      },
+      "note": "بييجي مع Sport: Sport treiben = يلعب رياضة (زي Sport machen). والمضارع منتظم (الشذوذ في الماضي بس).",
+      "examples": [
+        {
+          "de": "Treibst du gern Sport?",
+          "ar": "بتحب تلعب رياضة؟"
+        },
+        {
+          "de": "Max treibt jeden Tag Sport.",
+          "ar": "ماكس بيلعب رياضة كل يوم."
+        }
+      ]
+    },
+    {
+      "inf": "wandern",
+      "ar": "يطلع رحلة مشي (في الطبيعة)",
+      "lesson": 48,
+      "type": "regular",
+      "forms": {
+        "ich": "wandere",
+        "du": "wanderst",
+        "er": "wandert",
+        "wir": "wandern",
+        "ihr": "wandert",
+        "sie": "wandern"
+      },
+      "note": "آخره -ern زي feiern: مع wir و sie بنزوّد -n بس (wir wandern). وكتير بييجي مع gehen: Wir gehen wandern.",
+      "examples": [
+        {
+          "de": "Wir gehen am Wochenende wandern.",
+          "ar": "هنطلع رحلة مشي في الويك إند."
+        },
+        {
+          "de": "Wanderst du gern?",
+          "ar": "بتحب رحلات المشي؟"
+        }
+      ]
+    },
+    {
+      "inf": "bekommen",
+      "ar": "ياخد / يجيله",
+      "lesson": 49,
+      "type": "irregular",
+      "forms": {
+        "ich": "bekomme",
+        "du": "bekommst",
+        "er": "bekommt",
+        "wir": "bekommen",
+        "ihr": "bekommt",
+        "sie": "bekommen"
+      },
+      "note": "خلي بالك: مش become الإنجليزي! معناه ياخد / يجيله (يبقى = werden). والمضارع منتظم زي kommen.",
+      "examples": [
+        {
+          "de": "Ihr bekommt das nächste Essen umsonst!",
+          "ar": "هتاخدوا الأكلة الجاية ببلاش!"
+        },
+        {
+          "de": "Was bekommen Sie?",
+          "ar": "حضرتك تحب تاخد إيه؟ (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "reden",
+      "ar": "يتكلّم (عن)",
+      "lesson": 49,
+      "type": "regular",
+      "forms": {
+        "ich": "rede",
+        "du": "redest",
+        "er": "redet",
+        "wir": "reden",
+        "ihr": "redet",
+        "sie": "reden"
+      },
+      "note": "الجذر آخره d، فبنزوّد -e- مع du و er و ihr: du redest, er redet (زي arbeiten). و«عن» = über + Akkusativ: über mich, über deine Tante.",
+      "examples": [
+        {
+          "de": "Dann reden wir über deine Tante, okay?",
+          "ar": "وبعدين نتكلم عن خالتك، ماشي؟"
+        },
+        {
+          "de": "Redest du über mich?",
+          "ar": "إنت بتتكلم عني؟"
+        }
+      ]
+    },
+    {
+      "inf": "schneiden",
+      "ar": "يقطّع",
+      "lesson": 50,
+      "type": "irregular",
+      "forms": {
+        "ich": "schneide",
+        "du": "schneidest",
+        "er": "schneidet",
+        "wir": "schneiden",
+        "ihr": "schneidet",
+        "sie": "schneiden"
+      },
+      "note": "الجذر آخره d، فبنزوّد -e- مع du و er و ihr: du schneidest, er schneidet. والشذوذ في الماضي بس.",
+      "examples": [
+        {
+          "de": "Ich schneide das Brot.",
+          "ar": "أنا هقطّع العيش."
+        },
+        {
+          "de": "Schneidest du den Apfelkuchen?",
+          "ar": "هتقطّع كيكة التفاح؟"
+        }
+      ]
+    },
+    {
+      "inf": "vergessen",
+      "ar": "ينسى",
+      "lesson": 50,
+      "type": "irregular",
+      "forms": {
+        "ich": "vergesse",
+        "du": "vergisst",
+        "er": "vergisst",
+        "wir": "vergessen",
+        "ihr": "vergesst",
+        "sie": "vergessen"
+      },
+      "note": "e بتبقى i مع du و er، والاتنين نفس الشكل: du vergisst, er vergisst (زي essen).",
+      "examples": [
+        {
+          "de": "Du vergisst deine Tüte!",
+          "ar": "إنت ناسي الكيس بتاعك!"
+        },
+        {
+          "de": "Nico vergisst immer seinen Schlüssel.",
+          "ar": "نيكو دايمًا بينسى مفتاحه."
+        }
+      ]
+    },
+    {
+      "inf": "zurückbekommen",
+      "ar": "ياخد الباقي / يسترجع حاجته",
+      "lesson": 50,
+      "type": "separable",
+      "forms": {
+        "ich": "bekomme … zurück",
+        "du": "bekommst … zurück",
+        "er": "bekommt … zurück",
+        "wir": "bekommen … zurück",
+        "ihr": "bekommt … zurück",
+        "sie": "bekommen … zurück"
+      },
+      "note": "فعل بينفصل: zurück بتروح آخر الجملة. والكاشير بيختصرها: Und 1,40 zurück (من الحلقة).",
+      "examples": [
+        {
+          "de": "Sie bekommen zwei Euro zurück.",
+          "ar": "حضرتك ليك باقي 2 يورو. (رسمي)"
+        },
+        {
+          "de": "Bekomme ich das Geld zurück?",
+          "ar": "الفلوس هترجعلي؟"
+        }
+      ]
+    },
+    {
+      "inf": "backen",
+      "ar": "يخبز",
+      "lesson": 52,
+      "type": "irregular",
+      "forms": {
+        "ich": "backe",
+        "du": "backst",
+        "er": "backt",
+        "wir": "backen",
+        "ihr": "backt",
+        "sie": "backen"
+      },
+      "note": "تقدر تقول كمان بأوملاوت: du bäckst, er bäckt — الاتنين صح (DW كاتبة backt/bäckt).",
+      "examples": [
+        {
+          "de": "Ich backe heute einen Kuchen.",
+          "ar": "أنا هخبز كيكة النهارده."
+        },
+        {
+          "de": "Meine Schwester backt sehr gut.",
+          "ar": "أختي بتخبز كويس جدًا."
+        }
+      ]
+    },
+    {
+      "inf": "bestreuen",
+      "ar": "يرشّ على",
+      "lesson": 52,
+      "type": "regular",
+      "forms": {
+        "ich": "bestreue",
+        "du": "bestreust",
+        "er": "bestreut",
+        "wir": "bestreuen",
+        "ihr": "bestreut",
+        "sie": "bestreuen"
+      },
+      "note": "الأكل هو المفعول، واللي بترشّه بييجي بعد mit: die Pizza mit Käse bestreuen = ترشّ جبنة على البيتزا.",
+      "examples": [
+        {
+          "de": "Ich bestreue die Pizza mit Käse.",
+          "ar": "أنا برشّ جبنة على البيتزا."
+        },
+        {
+          "de": "Bestreuen Sie zum Schluss den Nudelauflauf mit Käse.",
+          "ar": "في الآخر رشّ جبنة على صينية المكرونة. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "braten",
+      "ar": "يحمّر / يقلي",
+      "lesson": 52,
+      "type": "irregular",
+      "forms": {
+        "ich": "brate",
+        "du": "brätst",
+        "er": "brät",
+        "wir": "braten",
+        "ihr": "bratet",
+        "sie": "braten"
+      },
+      "note": "a بتبقى ä مع du و er، و er من غير t زيادة: du brätst, er brät. لكن ihr bratet (من غير أوملاوت).",
+      "examples": [
+        {
+          "de": "Nico brät die Zwiebeln in der Pfanne.",
+          "ar": "نيكو بيحمّر البصل في الطاسة."
+        },
+        {
+          "de": "Was brätst du da?",
+          "ar": "بتحمّر إيه عندك؟"
+        }
+      ]
+    },
+    {
+      "inf": "gießen",
+      "ar": "يصبّ / يسقي",
+      "lesson": 52,
+      "type": "irregular",
+      "forms": {
+        "ich": "gieße",
+        "du": "gießt",
+        "er": "gießt",
+        "wir": "gießen",
+        "ihr": "gießt",
+        "sie": "gießen"
+      },
+      "note": "آخره ß، فمع du بنزوّد -t بس: du gießt (زي heißen)، والشذوذ في الماضي بس. و Blumen gießen = يسقي الورد.",
+      "examples": [
+        {
+          "de": "Du gießt das Öl in die Pfanne.",
+          "ar": "إنت تصبّ الزيت في الطاسة."
+        },
+        {
+          "de": "Gießen Sie die Mischung in die Form.",
+          "ar": "صُبّ الخليط في القالب. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "schälen",
+      "ar": "يقشّر",
+      "lesson": 52,
+      "type": "regular",
+      "forms": {
+        "ich": "schäle",
+        "du": "schälst",
+        "er": "schält",
+        "wir": "schälen",
+        "ihr": "schält",
+        "sie": "schälen"
+      },
+      "note": "منتظم، والـ ä موجودة في المصدر من الأول (مش تغيير): du schälst, er schält.",
+      "examples": [
+        {
+          "de": "Ich schäle die Kartoffeln.",
+          "ar": "أنا بقشّر البطاطس."
+        },
+        {
+          "de": "Schälen Sie zuerst den Knoblauch.",
+          "ar": "قشّر التوم الأول. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "servieren",
+      "ar": "يقدّم (الأكل)",
+      "lesson": 52,
+      "type": "regular",
+      "forms": {
+        "ich": "serviere",
+        "du": "servierst",
+        "er": "serviert",
+        "wir": "servieren",
+        "ihr": "serviert",
+        "sie": "servieren"
+      },
+      "note": "منتظم من غير مفاجآت زي studieren و telefonieren. وفي الوصفة بيتكتب مصدر في الآخر: Warm servieren = يتقدّم سخن.",
+      "examples": [
+        {
+          "de": "Servieren Sie den Nudelauflauf warm.",
+          "ar": "قدّم صينية المكرونة سخنة. (رسمي)"
+        },
+        {
+          "de": "Der Kellner serviert das Essen.",
+          "ar": "الجرسون بيقدّم الأكل."
+        }
+      ]
+    },
+    {
+      "inf": "verrühren",
+      "ar": "يقلّب ويخلط",
+      "lesson": 52,
+      "type": "regular",
+      "forms": {
+        "ich": "verrühre",
+        "du": "verrührst",
+        "er": "verrührt",
+        "wir": "verrühren",
+        "ihr": "verrührt",
+        "sie": "verrühren"
+      },
+      "note": "ver- مابتنفصلش أبدًا: ich verrühre، مش rühre … ver. وبييجي مع mit: نقلّب حاجة مع حاجة تانية.",
+      "examples": [
+        {
+          "de": "Du verrührst die Eier mit der Milch.",
+          "ar": "إنت هتقلّب البيض مع اللبن."
+        },
+        {
+          "de": "Die Margarine mit dem Zucker verrühren.",
+          "ar": "نقلّب المارجرين مع السكر."
+        }
+      ]
+    },
+    {
+      "inf": "würzen",
+      "ar": "يتبّل",
+      "lesson": 52,
+      "type": "regular",
+      "forms": {
+        "ich": "würze",
+        "du": "würzt",
+        "er": "würzt",
+        "wir": "würzen",
+        "ihr": "würzt",
+        "sie": "würzen"
+      },
+      "note": "الجذر آخره z، فمع du بنزوّد -t بس: du würzt (زي du duzt). ومنه das Gewürz = التوابل.",
+      "examples": [
+        {
+          "de": "Würzen Sie mit Salz und Pfeffer.",
+          "ar": "تبّل بالملح والفلفل الأسود. (رسمي)"
+        },
+        {
+          "de": "Er würzt das Fleisch mit Knoblauch.",
+          "ar": "هو بيتبّل اللحمة بالتوم."
+        }
+      ]
+    },
+    {
+      "inf": "aussteigen",
+      "ar": "ينزل (من العربية / الأتوبيس)",
+      "lesson": 53,
+      "type": "separable",
+      "forms": {
+        "ich": "steige … aus",
+        "du": "steigst … aus",
+        "er": "steigt … aus",
+        "wir": "steigen … aus",
+        "ihr": "steigt … aus",
+        "sie": "steigen … aus"
+      },
+      "note": "فعل بينفصل: aus بتروح آخر الجملة. وفي الماضي بييجي مع sein مش haben: Ich bin ausgestiegen (درس 55).",
+      "examples": [
+        {
+          "de": "Wo steigst du aus?",
+          "ar": "هتنزل فين؟"
+        },
+        {
+          "de": "Ich steige am Bahnhof aus.",
+          "ar": "هنزل عند محطة القطر."
+        }
+      ]
+    },
+    {
+      "inf": "faulenzen",
+      "ar": "يكسل / يريّح ومايعملش حاجة",
+      "lesson": 53,
+      "type": "regular",
+      "forms": {
+        "ich": "faulenze",
+        "du": "faulenzt",
+        "er": "faulenzt",
+        "wir": "faulenzen",
+        "ihr": "faulenzt",
+        "sie": "faulenzen"
+      },
+      "note": "الجذر آخره z، فمع du بنزوّد -t بس: du faulenzt (زي du duzt). والماضي: hat gefaulenzt.",
+      "examples": [
+        {
+          "de": "Am Wochenende faulenze ich.",
+          "ar": "في الويك إند بريّح ومابعملش حاجة."
+        },
+        {
+          "de": "Im Urlaub haben wir nur gefaulenzt.",
+          "ar": "في الإجازة ريّحنا وبس."
+        }
+      ]
+    },
+    {
+      "inf": "holen",
+      "ar": "يجيب / يروح يجيب",
+      "lesson": 53,
+      "type": "regular",
+      "forms": {
+        "ich": "hole",
+        "du": "holst",
+        "er": "holt",
+        "wir": "holen",
+        "ihr": "holt",
+        "sie": "holen"
+      },
+      "note": "holen = تروح تجيب حاجة وترجع بيها، أما bringen = توصّل حاجة لحد (درس 38). والماضي: hat geholt.",
+      "examples": [
+        {
+          "de": "Ich hole den Staubsauger.",
+          "ar": "هجيب المكنسة الكهربا."
+        },
+        {
+          "de": "Hast du das Gepäck geholt?",
+          "ar": "جبت الشنط؟"
+        }
+      ]
+    },
+    {
+      "inf": "stoppen",
+      "ar": "يوقّف (حاجة)",
+      "lesson": 53,
+      "type": "regular",
+      "forms": {
+        "ich": "stoppe",
+        "du": "stoppst",
+        "er": "stoppt",
+        "wir": "stoppen",
+        "ihr": "stoppt",
+        "sie": "stoppen"
+      },
+      "note": "منتظم. و Stopp! اللي سمعتها في الحلقات (Taxi! Stopp!) من نفس الكلمة = اقف! والماضي: hat gestoppt.",
+      "examples": [
+        {
+          "de": "Der Polizist stoppt das Auto.",
+          "ar": "ظابط الشرطة بيوقّف العربية."
+        },
+        {
+          "de": "Der Fahrer hat den Bus gestoppt.",
+          "ar": "السوّاق وقّف الأتوبيس."
+        }
+      ]
+    },
+    {
+      "inf": "zelten",
+      "ar": "يخيّم (ينام في خيمة)",
+      "lesson": 53,
+      "type": "regular",
+      "forms": {
+        "ich": "zelte",
+        "du": "zeltest",
+        "er": "zeltet",
+        "wir": "zelten",
+        "ihr": "zeltet",
+        "sie": "zelten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du zeltest, er zeltet (زي arbeiten). والماضي: hat gezeltet.",
+      "examples": [
+        {
+          "de": "Zeltest du gern?",
+          "ar": "بتحب تخيّم؟"
+        },
+        {
+          "de": "Wir haben am Strand gezeltet.",
+          "ar": "خيّمنا على الشط."
+        }
+      ]
+    },
+    {
+      "inf": "übernachten",
+      "ar": "يبات (يقضّي الليلة)",
+      "lesson": 53,
+      "type": "regular",
+      "forms": {
+        "ich": "übernachte",
+        "du": "übernachtest",
+        "er": "übernachtet",
+        "wir": "übernachten",
+        "ihr": "übernachtet",
+        "sie": "übernachten"
+      },
+      "note": "über هنا مابتنفصلش: ich übernachte. والجذر آخره t، فبنزوّد -e-: du übernachtest, er übernachtet. والماضي من غير ge: hat übernachtet.",
+      "examples": [
+        {
+          "de": "Ich übernachte bei meiner Tante.",
+          "ar": "هبات عند خالتي."
+        },
+        {
+          "de": "Habt ihr im Hotel übernachtet?",
+          "ar": "بِتّوا في الفندق؟"
+        }
+      ]
+    },
+    {
+      "inf": "frieren",
+      "ar": "يسقع (يحس بالبرد)",
+      "lesson": 54,
+      "type": "irregular",
+      "forms": {
+        "ich": "friere",
+        "du": "frierst",
+        "er": "friert",
+        "wir": "frieren",
+        "ihr": "friert",
+        "sie": "frieren"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس: gefroren). وعشان تقول «أنا سقعان»: Ich friere أو Mir ist kalt، مش Ich bin kalt.",
+      "examples": [
+        {
+          "de": "Im Winter friere ich immer.",
+          "ar": "في الشتا دايمًا بسقع."
+        },
+        {
+          "de": "Ich will nicht frieren!",
+          "ar": "مش عايز أسقع!"
+        }
+      ]
+    },
+    {
+      "inf": "mitnehmen",
+      "ar": "ياخد معاه (حاجة / حد)",
+      "lesson": 54,
+      "type": "separable",
+      "forms": {
+        "ich": "nehme … mit",
+        "du": "nimmst … mit",
+        "er": "nimmt … mit",
+        "wir": "nehmen … mit",
+        "ihr": "nehmt … mit",
+        "sie": "nehmen … mit"
+      },
+      "note": "بينفصل (mit بتروح آخر الجملة)، والتصريف زي nehmen بالظبط: du nimmst … mit, er nimmt … mit. ومع können بيفضل كلمة واحدة في الآخر: mitnehmen.",
+      "examples": [
+        {
+          "de": "Nimmst du eine Jacke mit?",
+          "ar": "هتاخد جاكيت معاك؟"
+        },
+        {
+          "de": "Wir können die Tasche nicht mitnehmen.",
+          "ar": "مينفعش ناخد الشنطة معانا."
+        }
+      ]
+    },
+    {
+      "inf": "grillen",
+      "ar": "يشوي",
+      "lesson": 55,
+      "type": "regular",
+      "forms": {
+        "ich": "grille",
+        "du": "grillst",
+        "er": "grillt",
+        "wir": "grillen",
+        "ihr": "grillt",
+        "sie": "grillen"
+      },
+      "note": "منتظم، والماضي مع haben: hat gegrillt. والشوي جنب بحيرة أو في الجنينة عادة ألمانية مشهورة في الصيف.",
+      "examples": [
+        {
+          "de": "Am Wochenende grillen wir am See.",
+          "ar": "في الويك إند هنشوي جنب البحيرة."
+        },
+        {
+          "de": "Wir sind geschwommen und wir haben gegrillt.",
+          "ar": "عُمنا وشوينا."
+        }
+      ]
+    },
+    {
+      "inf": "lachen",
+      "ar": "يضحك",
+      "lesson": 55,
+      "type": "regular",
+      "forms": {
+        "ich": "lache",
+        "du": "lachst",
+        "er": "lacht",
+        "wir": "lachen",
+        "ihr": "lacht",
+        "sie": "lachen"
+      },
+      "note": "منتظم تمامًا. والماضي مع haben لإنه مفيهوش حركة من مكان لمكان: hat gelacht.",
+      "examples": [
+        {
+          "de": "Warum lachst du?",
+          "ar": "بتضحك ليه؟"
+        },
+        {
+          "de": "Habt ihr viel gelacht?",
+          "ar": "ضحكتوا كتير؟"
+        }
+      ]
+    },
+    {
+      "inf": "reisen",
+      "ar": "يسافر",
+      "lesson": 55,
+      "type": "regular",
+      "forms": {
+        "ich": "reise",
+        "du": "reist",
+        "er": "reist",
+        "wir": "reisen",
+        "ihr": "reist",
+        "sie": "reisen"
+      },
+      "note": "الجذر آخره s، فمع du بنزوّد -t بس: du reist (نفس شكل er). والماضي مع sein لإنه حركة: Ich bin gereist.",
+      "examples": [
+        {
+          "de": "Reist du gern?",
+          "ar": "بتحب تسافر؟"
+        },
+        {
+          "de": "Mein Cousin ist nach Spanien gereist.",
+          "ar": "ابن عمي سافر إسبانيا."
+        }
+      ]
+    },
+    {
+      "inf": "verkaufen",
+      "ar": "يبيع",
+      "lesson": 55,
+      "type": "regular",
+      "forms": {
+        "ich": "verkaufe",
+        "du": "verkaufst",
+        "er": "verkauft",
+        "wir": "verkaufen",
+        "ihr": "verkauft",
+        "sie": "verkaufen"
+      },
+      "note": "ver- عمرها ما بتنفصل، والفعل منتظم. وفي الماضي من غير ge-: hat verkauft. وعكسه kaufen = يشتري.",
+      "examples": [
+        {
+          "de": "Yara verkauft Fahrräder.",
+          "ar": "يارا بتبيع عجل."
+        },
+        {
+          "de": "Ich habe mein Auto verkauft.",
+          "ar": "أنا بعت عربيتي."
+        }
+      ]
+    },
+    {
+      "inf": "wegfahren",
+      "ar": "يسافر / يطلع رحلة",
+      "lesson": 55,
+      "type": "separable",
+      "forms": {
+        "ich": "fahre … weg",
+        "du": "fährst … weg",
+        "er": "fährt … weg",
+        "wir": "fahren … weg",
+        "ihr": "fahrt … weg",
+        "sie": "fahren … weg"
+      },
+      "note": "بينفصل، وكمان a بتبقى ä مع du و er زي fahren: du fährst … weg. والماضي مع sein: Ich bin weggefahren.",
+      "examples": [
+        {
+          "de": "Ich will auch wegfahren.",
+          "ar": "أنا كمان عايز أسافر."
+        },
+        {
+          "de": "Fährst du am Wochenende weg?",
+          "ar": "هتسافر في الويك إند؟"
+        }
+      ]
+    },
+    {
+      "inf": "aufwachen",
+      "ar": "يصحى (من النوم)",
+      "lesson": 56,
+      "type": "separable",
+      "forms": {
+        "ich": "wache … auf",
+        "du": "wachst … auf",
+        "er": "wacht … auf",
+        "wir": "wachen … auf",
+        "ihr": "wacht … auf",
+        "sie": "wachen … auf"
+      },
+      "note": "بينفصل: auf بتروح آخر الجملة، والماضي مع sein: Ich bin aufgewacht. aufwachen = تصحى، و aufstehen = تقوم من السرير.",
+      "examples": [
+        {
+          "de": "Ich wache um sieben Uhr auf.",
+          "ar": "أنا بصحى الساعة سبعة."
+        },
+        {
+          "de": "Am Sonntag bin ich erst um elf Uhr aufgewacht.",
+          "ar": "يوم الحد ما صحيتش غير الساعة حداشر."
+        }
+      ]
+    },
+    {
+      "inf": "einschlafen",
+      "ar": "ينام / يروح في النوم",
+      "lesson": 56,
+      "type": "separable",
+      "forms": {
+        "ich": "schlafe … ein",
+        "du": "schläfst … ein",
+        "er": "schläft … ein",
+        "wir": "schlafen … ein",
+        "ihr": "schlaft … ein",
+        "sie": "schlafen … ein"
+      },
+      "note": "بينفصل، وكمان a بتبقى ä مع du و er زي schlafen: er schläft … ein. والماضي مع sein (bin eingeschlafen)، مش haben زي schlafen.",
+      "examples": [
+        {
+          "de": "Nico schläft auf dem Sofa ein.",
+          "ar": "نيكو بيروح في النوم على الكنبة."
+        },
+        {
+          "de": "Ich bin am Samstag spät eingeschlafen.",
+          "ar": "أنا نمت متأخر يوم السبت."
+        }
+      ]
+    },
+    {
+      "inf": "passieren",
+      "ar": "يحصل",
+      "lesson": 56,
+      "type": "regular",
+      "forms": {
+        "ich": "passiere",
+        "du": "passierst",
+        "er": "passiert",
+        "wir": "passieren",
+        "ihr": "passiert",
+        "sie": "passieren"
+      },
+      "note": "منتظم زي studieren و telefonieren، وغالبًا بييجي مع was أو das أو es. والماضي مع sein ومن غير ge-: Was ist passiert?",
+      "examples": [
+        {
+          "de": "Was ist passiert?",
+          "ar": "إيه اللي حصل؟"
+        },
+        {
+          "de": "Was passiert hier?",
+          "ar": "إيه اللي بيحصل هنا؟"
+        }
+      ]
+    },
+    {
+      "inf": "regnen",
+      "ar": "تمطر (الدنيا)",
+      "lesson": 56,
+      "type": "regular",
+      "forms": {
+        "ich": "regne",
+        "du": "regnest",
+        "er": "regnet",
+        "wir": "regnen",
+        "ihr": "regnet",
+        "sie": "regnen"
+      },
+      "note": "فعل طقس بييجي مع es بس: Es regnet = الدنيا بتمطر. والجذر آخره gn، فبنزوّد -e-: es regnet (مش regnt) زي er öffnet.",
+      "examples": [
+        {
+          "de": "Es regnet und es ist kalt.",
+          "ar": "الدنيا بتمطر والجو برد."
+        },
+        {
+          "de": "In Hamburg regnet es oft.",
+          "ar": "في هامبورج الدنيا بتمطر كتير."
+        }
+      ]
+    },
+    {
+      "inf": "scheinen",
+      "ar": "تطلع / تنوّر (الشمس)",
+      "lesson": 56,
+      "type": "irregular",
+      "forms": {
+        "ich": "scheine",
+        "du": "scheinst",
+        "er": "scheint",
+        "wir": "scheinen",
+        "ihr": "scheint",
+        "sie": "scheinen"
+      },
+      "note": "بنستعمله مع الشمس: Die Sonne scheint. المضارع منتظم، والشذوذ في الماضي بس: hat geschienen.",
+      "examples": [
+        {
+          "de": "Die Sonne scheint.",
+          "ar": "الشمس طالعة."
+        },
+        {
+          "de": "In Kairo scheint die Sonne fast immer.",
+          "ar": "في القاهرة الشمس طالعة على طول تقريبًا."
+        }
+      ]
+    },
+    {
+      "inf": "schneien",
+      "ar": "ينزل تلج",
+      "lesson": 56,
+      "type": "regular",
+      "forms": {
+        "ich": "schneie",
+        "du": "schneist",
+        "er": "schneit",
+        "wir": "schneien",
+        "ihr": "schneit",
+        "sie": "schneien"
+      },
+      "note": "فعل طقس زي regnen، بييجي مع es بس: Es schneit = التلج بينزل. والاسم منه der Schnee.",
+      "examples": [
+        {
+          "de": "Im Winter schneit es oft.",
+          "ar": "في الشتا التلج بينزل كتير."
+        },
+        {
+          "de": "In Kairo schneit es nie.",
+          "ar": "في القاهرة عمر التلج ما بينزل."
+        }
+      ]
+    },
+    {
+      "inf": "wehen",
+      "ar": "يهبّ (الهوا)",
+      "lesson": 56,
+      "type": "regular",
+      "forms": {
+        "ich": "wehe",
+        "du": "wehst",
+        "er": "weht",
+        "wir": "wehen",
+        "ihr": "weht",
+        "sie": "wehen"
+      },
+      "note": "بنستعمله مع الهوا: Der Wind weht. منتظم، والـ h ما بتتنطقش، هي بس بتطوّل الـ e.",
+      "examples": [
+        {
+          "de": "Der Wind weht.",
+          "ar": "الهوا بيهبّ."
+        },
+        {
+          "de": "Heute weht kein Wind.",
+          "ar": "النهارده مفيش هوا."
+        }
+      ]
+    },
+    {
+      "inf": "einpacken",
+      "ar": "يحط في الشنطة",
+      "lesson": 57,
+      "type": "separable",
+      "forms": {
+        "ich": "packe … ein",
+        "du": "packst … ein",
+        "er": "packt … ein",
+        "wir": "packen … ein",
+        "ihr": "packt … ein",
+        "sie": "packen … ein"
+      },
+      "note": "بينفصل: ein بتروح آخر الجملة. بنقوله وإحنا بنجهّز شنطة السفر، والماضي: hat eingepackt.",
+      "examples": [
+        {
+          "de": "Ich packe meine Sachen ein.",
+          "ar": "أنا بحط حاجتي في الشنطة."
+        },
+        {
+          "de": "Packst du einen warmen Pullover ein?",
+          "ar": "هتحط بلوفر تقيل في الشنطة؟"
+        }
+      ]
+    },
+    {
+      "inf": "tragen",
+      "ar": "يلبس (لابس) / يشيل",
+      "lesson": 57,
+      "type": "irregular",
+      "forms": {
+        "ich": "trage",
+        "du": "trägst",
+        "er": "trägt",
+        "wir": "tragen",
+        "ihr": "tragt",
+        "sie": "tragen"
+      },
+      "note": "a بتبقى ä مع du و er: du trägst, er trägt (زي fahren). ومعناه لابس أو شايل: Ich trage die Tasche = شايل الشنطة.",
+      "examples": [
+        {
+          "de": "Nico trägt einen dunklen Pullover.",
+          "ar": "نيكو لابس بلوفر غامق."
+        },
+        {
+          "de": "Trägst du gern Turnschuhe?",
+          "ar": "بتحب تلبس كوتشي؟"
+        }
+      ]
+    },
+    {
+      "inf": "anziehen",
+      "ar": "يلبس (هدومه)",
+      "lesson": 58,
+      "type": "separable",
+      "forms": {
+        "ich": "ziehe … an",
+        "du": "ziehst … an",
+        "er": "zieht … an",
+        "wir": "ziehen … an",
+        "ihr": "zieht … an",
+        "sie": "ziehen … an"
+      },
+      "note": "بينفصل: an بتروح آخر الجملة. anziehen = يلبس دلوقتي (الحركة نفسها)، و tragen = لابس (الحالة).",
+      "examples": [
+        {
+          "de": "Ich ziehe diese Jacke an.",
+          "ar": "هلبس الجاكيت ده."
+        },
+        {
+          "de": "Welche Schuhe ziehst du an?",
+          "ar": "هتلبس أنهي جزمة؟"
+        }
+      ]
+    },
+    {
+      "inf": "mischen",
+      "ar": "يخلط",
+      "lesson": 58,
+      "type": "regular",
+      "forms": {
+        "ich": "mische",
+        "du": "mischst",
+        "er": "mischt",
+        "wir": "mischen",
+        "ihr": "mischt",
+        "sie": "mischen"
+      },
+      "note": "منتظم. الجذر آخره sch، ومع du بنزوّد -st عادي: du mischst (مش زي du heißt). بنستعمله في الأكل وفي الألوان.",
+      "examples": [
+        {
+          "de": "Ich mische Blau und Gelb.",
+          "ar": "بخلط الأزرق والأصفر."
+        },
+        {
+          "de": "Wir mischen Mehl und Zucker.",
+          "ar": "بنخلط الدقيق والسكر."
+        }
+      ]
+    },
+    {
+      "inf": "anprobieren",
+      "ar": "يقيس (هدوم)",
+      "lesson": 59,
+      "type": "separable",
+      "forms": {
+        "ich": "probiere … an",
+        "du": "probierst … an",
+        "er": "probiert … an",
+        "wir": "probieren … an",
+        "ihr": "probiert … an",
+        "sie": "probieren … an"
+      },
+      "note": "بينفصل: an بتروح آخر الجملة، والتصريف منتظم زي studieren. والماضي من غير ge-: hat anprobiert.",
+      "examples": [
+        {
+          "de": "Kann ich die Hose anprobieren?",
+          "ar": "ممكن أقيس البنطلون؟"
+        },
+        {
+          "de": "Nico probiert das andere Hemd an.",
+          "ar": "نيكو بيقيس القميص التاني."
+        }
+      ]
+    },
+    {
+      "inf": "aussehen",
+      "ar": "يبان / شكله (حلو، تعبان …)",
+      "lesson": 59,
+      "type": "separable",
+      "forms": {
+        "ich": "sehe … aus",
+        "du": "siehst … aus",
+        "er": "sieht … aus",
+        "wir": "sehen … aus",
+        "ihr": "seht … aus",
+        "sie": "sehen … aus"
+      },
+      "note": "بينفصل (aus بتروح آخر الجملة)، وكمان e بتبقى ie مع du و er زي sehen: du siehst … aus, er sieht … aus. وبعده صفة: Du siehst gut aus = شكلك حلو.",
+      "examples": [
+        {
+          "de": "Du siehst sehr elegant aus.",
+          "ar": "شكلك أنيق أوي."
+        },
+        {
+          "de": "Das sieht gut aus.",
+          "ar": "ده شكله حلو."
+        }
+      ]
+    },
+    {
+      "inf": "gefallen",
+      "ar": "يعجب (حد)",
+      "lesson": 59,
+      "type": "irregular",
+      "forms": {
+        "ich": "gefalle",
+        "du": "gefällst",
+        "er": "gefällt",
+        "wir": "gefallen",
+        "ihr": "gefallt",
+        "sie": "gefallen"
+      },
+      "note": "a بتبقى ä مع du و er: du gefällst, es gefällt. الحاجة اللي عاجباك هي الفاعل والشخص Dativ (mir / dir): Das Hemd gefällt mir، لكن Die Schuhe gefallen mir.",
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "ar": "ده عاجبني."
+        },
+        {
+          "de": "Die Schuhe gefallen mir nicht.",
+          "ar": "الجزمة مش عاجباني."
+        }
+      ]
+    },
+    {
+      "inf": "passen",
+      "ar": "ييجي على المقاس / يناسب",
+      "lesson": 59,
+      "type": "regular",
+      "forms": {
+        "ich": "passe",
+        "du": "passt",
+        "er": "passt",
+        "wir": "passen",
+        "ihr": "passt",
+        "sie": "passen"
+      },
+      "note": "في الهدوم معناه ييجي على المقاس (أما «لايق عليك» فـ steht dir)، وفي المواعيد معناه مناسب: Das passt gut. والشخص Dativ: Die Hose passt mir، والجذر آخره ss فمع du بنزوّد -t بس: du passt.",
+      "examples": [
+        {
+          "de": "Die Hose passt mir gut.",
+          "ar": "البنطلون مظبوط على مقاسي."
+        },
+        {
+          "de": "Passt dir das Hemd?",
+          "ar": "القميص على مقاسك؟"
+        }
+      ]
+    },
+    {
+      "inf": "anhaben",
+      "ar": "لابس (حاجة)",
+      "lesson": 60,
+      "type": "separable",
+      "forms": {
+        "ich": "habe … an",
+        "du": "hast … an",
+        "er": "hat … an",
+        "wir": "haben … an",
+        "ihr": "habt … an",
+        "sie": "haben … an"
+      },
+      "note": "بينفصل (an في الآخر) وبيتصرّف زي haben: du hast … an, er hat … an. معناه «لابس دلوقتي» (قريب من tragen).",
+      "examples": [
+        {
+          "de": "Was hast du heute an?",
+          "ar": "إنت لابس إيه النهارده؟"
+        },
+        {
+          "de": "Lisa hat ein gepunktetes Kleid an.",
+          "ar": "ليزا لابسة فستان منقّط."
+        }
+      ]
+    },
+    {
+      "inf": "herkommen",
+      "ar": "جاي من / ييجي من",
+      "lesson": 60,
+      "type": "separable",
+      "forms": {
+        "ich": "komme … her",
+        "du": "kommst … her",
+        "er": "kommt … her",
+        "wir": "kommen … her",
+        "ihr": "kommt … her",
+        "sie": "kommen … her"
+      },
+      "note": "بينفصل: her بتروح آخر الجملة. Wo kommst du her? نفس معنى Woher kommst du? والتصريف زي kommen بالظبط.",
+      "examples": [
+        {
+          "de": "Wo kommst du denn jetzt her?",
+          "ar": "إنت جاي منين دلوقتي؟"
+        },
+        {
+          "de": "Wo kommen Sie her?",
+          "ar": "حضرتك منين؟ (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "ausziehen",
+      "ar": "يقلع (هدوم / جزمة)",
+      "lesson": 61,
+      "type": "separable",
+      "forms": {
+        "ich": "ziehe … aus",
+        "du": "ziehst … aus",
+        "er": "zieht … aus",
+        "wir": "ziehen … aus",
+        "ihr": "zieht … aus",
+        "sie": "ziehen … aus"
+      },
+      "note": "بينفصل (aus في الآخر)، وعكسه anziehen = يلبس. ومع müssen أو können بيرجع كلمة واحدة في آخر الجملة.",
+      "examples": [
+        {
+          "de": "Du musst die Schuhe nicht ausziehen.",
+          "ar": "مش لازم تقلع الجزمة."
+        },
+        {
+          "de": "Nico zieht das Jackett aus.",
+          "ar": "نيكو بيقلع الجاكيت."
+        }
+      ]
+    },
+    {
+      "inf": "erreichen",
+      "ar": "يوصل لحد (في التليفون)",
+      "lesson": 62,
+      "type": "regular",
+      "forms": {
+        "ich": "erreiche",
+        "du": "erreichst",
+        "er": "erreicht",
+        "wir": "erreichen",
+        "ihr": "erreicht",
+        "sie": "erreichen"
+      },
+      "note": "er- مش بتنفصل والتصريف منتظم. الشخص بعده Akkusativ على طول من غير حرف جر (mich, dich, ihn, sie)، وبنستعمله كتير في التليفون.",
+      "examples": [
+        {
+          "de": "Ich erreiche sie nicht.",
+          "ar": "مش عارف أوصل لها (في التليفون)."
+        },
+        {
+          "de": "Wie kann ich Sie erreichen?",
+          "ar": "أقدر أوصل لحضرتك إزاي؟ (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "kennenlernen",
+      "ar": "يتعرّف على",
+      "lesson": 62,
+      "type": "separable",
+      "forms": {
+        "ich": "lerne … kennen",
+        "du": "lernst … kennen",
+        "er": "lernt … kennen",
+        "wir": "lernen … kennen",
+        "ihr": "lernt … kennen",
+        "sie": "lernen … kennen"
+      },
+      "note": "kennen = يعرف، و kennenlernen = يتعرّف على حد أول مرة. بينفصل (kennen في الآخر)، ومع möchten بيرجع كلمة واحدة: Ich möchte dich kennenlernen.",
+      "examples": [
+        {
+          "de": "Heute lerne ich deine Eltern kennen.",
+          "ar": "النهارده هتعرّف على أهلك."
+        },
+        {
+          "de": "Ich möchte deine Schwester kennenlernen.",
+          "ar": "نفسي أتعرّف على أختك."
+        }
+      ]
+    },
+    {
+      "inf": "streiten",
+      "ar": "يتخانق",
+      "lesson": 62,
+      "type": "irregular",
+      "forms": {
+        "ich": "streite",
+        "du": "streitest",
+        "er": "streitet",
+        "wir": "streiten",
+        "ihr": "streitet",
+        "sie": "streiten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du streitest, er streitet (والشذوذ في الماضي بس: hat gestritten). ومع حد بنقول mit، وكتير بييجي مع sich: Wir streiten uns oft.",
+      "examples": [
+        {
+          "de": "Mein Bruder und ich streiten oft.",
+          "ar": "أنا وأخويا بنتخانق كتير."
+        },
+        {
+          "de": "Warum streitet ihr?",
+          "ar": "إنتوا بتتخانقوا ليه؟"
+        }
+      ]
+    },
+    {
+      "inf": "verreisen",
+      "ar": "يسافر (يطلع سفرية)",
+      "lesson": 62,
+      "type": "regular",
+      "forms": {
+        "ich": "verreise",
+        "du": "verreist",
+        "er": "verreist",
+        "wir": "verreisen",
+        "ihr": "verreist",
+        "sie": "verreisen"
+      },
+      "note": "يعني تسيب البيت وتسافر كام يوم (أجازة / رحلة). ver- مش بتنفصل، والجذر آخره s فمع du بنزوّد -t بس: du verreist، والـ Perfekt بـ sein: ist verreist.",
+      "examples": [
+        {
+          "de": "Meine Eltern verreisen gern.",
+          "ar": "أبويا وأمي بيحبوا يسافروا."
+        },
+        {
+          "de": "Verreist du im Sommer?",
+          "ar": "هتسافر في الصيف؟"
+        }
+      ]
+    },
+    {
+      "inf": "auflegen",
+      "ar": "يقفل السكة (التليفون)",
+      "lesson": 63,
+      "type": "separable",
+      "forms": {
+        "ich": "lege … auf",
+        "du": "legst … auf",
+        "er": "legt … auf",
+        "wir": "legen … auf",
+        "ihr": "legt … auf",
+        "sie": "legen … auf"
+      },
+      "note": "بينفصل (auf في الآخر) والتصريف منتظم، ومعناه تقفل السكة في آخر المكالمة. والماضي: hat … aufgelegt.",
+      "examples": [
+        {
+          "de": "Ich lege jetzt auf.",
+          "ar": "هقفل السكة دلوقتي."
+        },
+        {
+          "de": "Dann hat sie aufgelegt.",
+          "ar": "وبعدين قفلت السكة."
+        }
+      ]
+    },
+    {
+      "inf": "heiraten",
+      "ar": "يتجوّز",
+      "lesson": 63,
+      "type": "regular",
+      "forms": {
+        "ich": "heirate",
+        "du": "heiratest",
+        "er": "heiratet",
+        "wir": "heiraten",
+        "ihr": "heiratet",
+        "sie": "heiraten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e-: du heiratest, er heiratet. والشخص بعده Akkusativ على طول من غير حرف جر: Sie heiratet einen Arzt. ومنه verheiratet = متجوز.",
+      "examples": [
+        {
+          "de": "Wann heiratest du endlich?",
+          "ar": "هتتجوز إمتى بقى؟"
+        },
+        {
+          "de": "Meine Schwester heiratet im Mai.",
+          "ar": "أختي هتتجوز في مايو."
+        }
+      ]
+    },
+    {
+      "inf": "rauchen",
+      "ar": "يدخّن",
+      "lesson": 64,
+      "type": "regular",
+      "forms": {
+        "ich": "rauche",
+        "du": "rauchst",
+        "er": "raucht",
+        "wir": "rauchen",
+        "ihr": "raucht",
+        "sie": "rauchen"
+      },
+      "note": "منتظم من غير مفاجآت. و«بطّل يدخّن» بنقولها nicht mehr rauchen: Ich rauche nicht mehr.",
+      "examples": [
+        {
+          "de": "Rauchst du?",
+          "ar": "إنت بتدخّن؟"
+        },
+        {
+          "de": "Mein Vater raucht nicht mehr.",
+          "ar": "أبويا بطّل تدخين."
+        }
+      ]
+    },
+    {
+      "inf": "weitersuchen",
+      "ar": "يكمّل تدوير",
+      "lesson": 64,
+      "type": "separable",
+      "forms": {
+        "ich": "suche … weiter",
+        "du": "suchst … weiter",
+        "er": "sucht … weiter",
+        "wir": "suchen … weiter",
+        "ihr": "sucht … weiter",
+        "sie": "suchen … weiter"
+      },
+      "note": "بينفصل (weiter في الآخر): Ich suche weiter. ومع sollen أو können بيرجع كلمة واحدة في الآخر.",
+      "examples": [
+        {
+          "de": "Sollen wir weitersuchen?",
+          "ar": "نكمّل تدوير؟"
+        },
+        {
+          "de": "Wir suchen morgen weiter.",
+          "ar": "هنكمّل تدوير بكرة."
+        }
+      ]
+    },
+    {
+      "inf": "füttern",
+      "ar": "يأكّل (حيوان / بيبي)",
+      "lesson": 64,
+      "type": "regular",
+      "forms": {
+        "ich": "füttere",
+        "du": "fütterst",
+        "er": "füttert",
+        "wir": "füttern",
+        "ihr": "füttert",
+        "sie": "füttern"
+      },
+      "note": "آخره -ern زي feiern: مع wir و sie بنزوّد -n بس (wir füttern). واللي بتأكّله Akkusativ: Ich füttere den Hund.",
+      "examples": [
+        {
+          "de": "Ich füttere den Hund.",
+          "ar": "أنا بأكّل الكلب."
+        },
+        {
+          "de": "Wer füttert heute das Baby?",
+          "ar": "مين هيأكّل البيبي النهارده؟"
+        }
+      ]
+    },
+    {
+      "inf": "sollen",
+      "ar": "المفروض",
+      "lesson": 64,
+      "type": "modal",
+      "forms": {
+        "ich": "soll",
+        "du": "sollst",
+        "er": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie": "sollen"
+      },
+      "note": "فعل مساعد: ich و er = soll من غير نهاية، والفعل التاني مصدر في آخر الجملة. معناه «المفروض» لما حد تاني طالب كده، و Sollen wir …? = تحب نعمل …؟",
+      "examples": [
+        {
+          "de": "Sollen wir ihn anrufen?",
+          "ar": "تحب نتصل بيه؟"
+        },
+        {
+          "de": "Der Arzt sagt, ich soll nicht rauchen.",
+          "ar": "الدكتور بيقول المفروض مادخّنش."
+        }
+      ]
+    },
+    {
+      "inf": "erzählen",
+      "ar": "يحكي",
+      "lesson": 65,
+      "type": "regular",
+      "forms": {
+        "ich": "erzähle",
+        "du": "erzählst",
+        "er": "erzählt",
+        "wir": "erzählen",
+        "ihr": "erzählt",
+        "sie": "erzählen"
+      },
+      "note": "er- في أوله مش بتنفصل. اللي بتحكيله بييجي Dativ (mir, dir …)، و«عن» = von + Dativ: Ich erzähle dir von Yara.",
+      "examples": [
+        {
+          "de": "Ich erzähle dir alles.",
+          "ar": "هحكيلك كل حاجة."
+        },
+        {
+          "de": "Erzählst du mir von deinem Bruder?",
+          "ar": "تحكيلي عن أخوك؟"
+        }
+      ]
+    },
+    {
+      "inf": "klettern",
+      "ar": "يتسلّق",
+      "lesson": 65,
+      "type": "regular",
+      "forms": {
+        "ich": "klettere",
+        "du": "kletterst",
+        "er": "klettert",
+        "wir": "klettern",
+        "ihr": "klettert",
+        "sie": "klettern"
+      },
+      "note": "آخره -ern زي wandern: مع wir و sie بنزوّد -n بس (wir klettern). وينفع مع gehen: Wir gehen klettern.",
+      "examples": [
+        {
+          "de": "Ich klettere gern.",
+          "ar": "بحب أتسلّق."
+        },
+        {
+          "de": "Wir gehen am Samstag klettern.",
+          "ar": "هنروح نتسلّق يوم السبت."
+        }
+      ]
+    },
+    {
+      "inf": "verletzen",
+      "ar": "يتعوّر / يتصاب (sich verletzen)",
+      "lesson": 65,
+      "type": "regular",
+      "forms": {
+        "ich": "verletze",
+        "du": "verletzt",
+        "er": "verletzt",
+        "wir": "verletzen",
+        "ihr": "verletzt",
+        "sie": "verletzen"
+      },
+      "note": "بييجي مع sich: ich verletze mich, du verletzt dich, er verletzt sich, wir verletzen uns, ihr verletzt euch, sie verletzen sich. والجذر آخره tz فمع du بنزوّد -t بس: du verletzt.",
+      "examples": [
+        {
+          "de": "Beim Fußball verletzt sich immer jemand.",
+          "ar": "في الكورة دايمًا حد بيتعوّر."
+        },
+        {
+          "de": "Verletzt du dich oft beim Sport?",
+          "ar": "بتتعوّر كتير وإنت بتلعب رياضة؟"
+        }
+      ]
+    },
+    {
+      "inf": "trainieren",
+      "ar": "يتمرّن",
+      "lesson": 66,
+      "type": "regular",
+      "forms": {
+        "ich": "trainiere",
+        "du": "trainierst",
+        "er": "trainiert",
+        "wir": "trainieren",
+        "ihr": "trainiert",
+        "sie": "trainieren"
+      },
+      "note": "منتظم من غير مفاجآت زي studieren و telefonieren. وعشان تسأل كام مرة بنقول wie oft: Wie oft trainierst du?",
+      "examples": [
+        {
+          "de": "Wie oft trainiert ihr?",
+          "ar": "بتتمرّنوا كام مرة؟"
+        },
+        {
+          "de": "Ich trainiere zweimal pro Woche.",
+          "ar": "أنا بتمرّن مرتين في الأسبوع."
+        }
+      ]
+    },
+    {
+      "inf": "mitmachen",
+      "ar": "يشارك (في)",
+      "lesson": 66,
+      "type": "separable",
+      "forms": {
+        "ich": "mache … mit",
+        "du": "machst … mit",
+        "er": "macht … mit",
+        "wir": "machen … mit",
+        "ihr": "macht … mit",
+        "sie": "machen … mit"
+      },
+      "note": "فعل بينفصل: mit بتروح آخر الجملة. والحاجة اللي بتشارك فيها بعد bei (Dativ): beim Training = bei dem Training.",
+      "examples": [
+        {
+          "de": "Machst du mit?",
+          "ar": "هتشارك معانا؟"
+        },
+        {
+          "de": "Nico macht beim Training mit.",
+          "ar": "نيكو بيشارك في التمرين."
+        }
+      ]
+    },
+    {
+      "inf": "schießen",
+      "ar": "يشوّط / يجيب جون",
+      "lesson": 66,
+      "type": "irregular",
+      "forms": {
+        "ich": "schieße",
+        "du": "schießt",
+        "er": "schießt",
+        "wir": "schießen",
+        "ihr": "schießt",
+        "sie": "schießen"
+      },
+      "note": "المضارع منتظم (الشذوذ في الماضي بس). الجذر آخره ß، فمع du بنزوّد -t بس: du schießt (زي du heißt). و ein Tor schießen = يجيب جون.",
+      "examples": [
+        {
+          "de": "Max schießt ein Tor.",
+          "ar": "ماكس بيجيب جون."
+        },
+        {
+          "de": "Wir müssen mehr Tore schießen.",
+          "ar": "لازم نجيب أجوان أكتر."
+        }
+      ]
+    },
+    {
+      "inf": "ausruhen",
+      "ar": "يرتاح",
+      "lesson": 67,
+      "type": "separable",
+      "forms": {
+        "ich": "ruhe mich … aus",
+        "du": "ruhst dich … aus",
+        "er": "ruht sich … aus",
+        "wir": "ruhen uns … aus",
+        "ihr": "ruht euch … aus",
+        "sie": "ruhen sich … aus"
+      },
+      "note": "بينفصل (aus في آخر الجملة)، ودايمًا معاه sich اللي بيتغيّر مع الضمير: ich ruhe mich aus, du ruhst dich aus, er ruht sich aus.",
+      "examples": [
+        {
+          "de": "Ich muss mich erst mal ausruhen.",
+          "ar": "لازم أرتاح الأول."
+        },
+        {
+          "de": "Nico ist müde und ruht sich aus.",
+          "ar": "نيكو تعبان وبيرتاح."
+        }
+      ]
+    },
+    {
+      "inf": "empfehlen",
+      "ar": "ينصح بـ / يرشّح",
+      "lesson": 67,
+      "type": "irregular",
+      "forms": {
+        "ich": "empfehle",
+        "du": "empfiehlst",
+        "er": "empfiehlt",
+        "wir": "empfehlen",
+        "ihr": "empfehlt",
+        "sie": "empfehlen"
+      },
+      "note": "الـ e بتبقى ie مع du و er / sie / es: du empfiehlst، er empfiehlt. واللي بتنصحه بييجي Dativ: Ich empfehle dir … / Ihnen …، والـ emp- عمرها ما بتنفصل.",
+      "examples": [
+        {
+          "de": "Was empfiehlst du mir?",
+          "ar": "تنصحني بإيه؟"
+        },
+        {
+          "de": "Ich empfehle dir mindestens 30 Minuten Bewegung am Tag.",
+          "ar": "بنصحك بـ 30 دقيقة حركة في اليوم على الأقل."
+        }
+      ]
+    },
+    {
+      "inf": "springen",
+      "ar": "ينطّ",
+      "lesson": 67,
+      "type": "irregular",
+      "forms": {
+        "ich": "springe",
+        "du": "springst",
+        "er": "springt",
+        "wir": "springen",
+        "ihr": "springt",
+        "sie": "springen"
+      },
+      "note": "المضارع منتظم عادي؛ الشذوذ في الماضي بس، والـ Perfekt بـ sein: ich bin gesprungen.",
+      "examples": [
+        {
+          "de": "Wir müssen höher springen.",
+          "ar": "لازم ننطّ أعلى."
+        },
+        {
+          "de": "Max springt am höchsten.",
+          "ar": "ماكس بينطّ أعلى من الكل."
+        }
+      ]
+    },
+    {
+      "inf": "bewegen",
+      "ar": "يتحرّك / يحرّك",
+      "lesson": 67,
+      "type": "regular",
+      "forms": {
+        "ich": "bewege",
+        "du": "bewegst",
+        "er": "bewegt",
+        "wir": "bewegen",
+        "ihr": "bewegt",
+        "sie": "bewegen"
+      },
+      "note": "مع sich = يتحرّك، والضمير بيتغيّر مع كل شخص: ich bewege mich, du bewegst dich, er bewegt sich, wir bewegen uns, ihr bewegt euch, sie bewegen sich. ومن غير sich = يحرّك حاجة.",
+      "examples": [
+        {
+          "de": "Bewegst du dich genug?",
+          "ar": "إنت بتتحرّك كفاية؟"
+        },
+        {
+          "de": "Ich bewege mich jeden Tag.",
+          "ar": "أنا بتحرّك كل يوم."
+        }
+      ]
+    },
+    {
+      "inf": "fühlen",
+      "ar": "يحسّ",
+      "lesson": 67,
+      "type": "regular",
+      "forms": {
+        "ich": "fühle",
+        "du": "fühlst",
+        "er": "fühlt",
+        "wir": "fühlen",
+        "ihr": "fühlt",
+        "sie": "fühlen"
+      },
+      "note": "عن حالتك بنقول sich fühlen + صفة (Ich fühle mich gut)، والضمير بيتغيّر: ich fühle mich, du fühlst dich, er fühlt sich, wir fühlen uns, ihr fühlt euch, sie fühlen sich.",
+      "examples": [
+        {
+          "de": "Wie fühlst du dich?",
+          "ar": "حاسس بإيه؟"
+        },
+        {
+          "de": "Ich fühle mich fit.",
+          "ar": "أنا حاسس إني نشيط."
+        }
+      ]
+    },
+    {
+      "inf": "tun",
+      "ar": "يعمل (حاجة)",
+      "lesson": 67,
+      "type": "irregular",
+      "forms": {
+        "ich": "tue",
+        "du": "tust",
+        "er": "tut",
+        "wir": "tun",
+        "ihr": "tut",
+        "sie": "tun"
+      },
+      "note": "شاذ شوية: ich tue، بس wir و sie = tun من غير e. معناه زي machen تقريبًا، وإنت عارفه من Tut mir leid (درس 29) و Was kann ich für Sie tun? (درس 50).",
+      "examples": [
+        {
+          "de": "Was tust du für deine Fitness?",
+          "ar": "بتعمل إيه عشان لياقتك؟"
+        },
+        {
+          "de": "Du musst etwas für deine Gesundheit tun.",
+          "ar": "لازم تعمل حاجة عشان صحتك."
+        }
+      ]
+    },
+    {
+      "inf": "abnehmen",
+      "ar": "يخسّ (وزنه يقل)",
+      "lesson": 68,
+      "type": "separable",
+      "forms": {
+        "ich": "nehme … ab",
+        "du": "nimmst … ab",
+        "er": "nimmt … ab",
+        "wir": "nehmen … ab",
+        "ihr": "nehmt … ab",
+        "sie": "nehmen … ab"
+      },
+      "note": "بينفصل (ab في آخر الجملة)، وزي nehmen: e بتبقى i مع du و er: du nimmst … ab, er nimmt … ab. وعكسه zunehmen.",
+      "examples": [
+        {
+          "de": "Er macht eine Diät und nimmt ab.",
+          "ar": "هو عامل رجيم وبيخسّ."
+        },
+        {
+          "de": "Ich möchte abnehmen.",
+          "ar": "أنا عايز أخسّ."
+        }
+      ]
+    },
+    {
+      "inf": "zunehmen",
+      "ar": "يتخن (وزنه يزيد)",
+      "lesson": 68,
+      "type": "separable",
+      "forms": {
+        "ich": "nehme … zu",
+        "du": "nimmst … zu",
+        "er": "nimmt … zu",
+        "wir": "nehmen … zu",
+        "ihr": "nehmt … zu",
+        "sie": "nehmen … zu"
+      },
+      "note": "عكس abnehmen وبيتصرّف زيه بالظبط: zu في آخر الجملة، و e بتبقى i مع du و er: du nimmst … zu, er nimmt … zu.",
+      "examples": [
+        {
+          "de": "Von Süßigkeiten nimmt man schnell zu.",
+          "ar": "الواحد بيتخن بسرعة من الحلويات."
+        },
+        {
+          "de": "Im Urlaub nehme ich immer zu.",
+          "ar": "في الإجازة دايمًا بتخن."
+        }
+      ]
+    },
+    {
+      "inf": "bluten",
+      "ar": "ينزف (يجيب دم)",
+      "lesson": 69,
+      "type": "regular",
+      "forms": {
+        "ich": "blute",
+        "du": "blutest",
+        "er": "blutet",
+        "wir": "bluten",
+        "ihr": "blutet",
+        "sie": "bluten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: du blutest, er blutet (زي arbeiten).",
+      "examples": [
+        {
+          "de": "Die Wunde blutet.",
+          "ar": "الجرح بينزف."
+        },
+        {
+          "de": "Du blutest ja!",
+          "ar": "ده إنت بتنزف!"
+        }
+      ]
+    },
+    {
+      "inf": "kühlen",
+      "ar": "يبرّد (حاجة)",
+      "lesson": 69,
+      "type": "regular",
+      "forms": {
+        "ich": "kühle",
+        "du": "kühlst",
+        "er": "kühlt",
+        "wir": "kühlen",
+        "ihr": "kühlt",
+        "sie": "kühlen"
+      },
+      "note": "منتظم. والمصدر ممكن يبقى اسم بحرف كبير: etwas zum Kühlen = حاجة للتبريد (زي تلج على الإصابة).",
+      "examples": [
+        {
+          "de": "Haben wir etwas zum Kühlen?",
+          "ar": "عندنا حاجة نبرّد بيها؟"
+        },
+        {
+          "de": "Er kühlt sein Knie.",
+          "ar": "هو بيبرّد ركبته."
+        }
+      ]
+    },
+    {
+      "inf": "stürzen",
+      "ar": "يقع",
+      "lesson": 69,
+      "type": "regular",
+      "forms": {
+        "ich": "stürze",
+        "du": "stürzt",
+        "er": "stürzt",
+        "wir": "stürzen",
+        "ihr": "stürzt",
+        "sie": "stürzen"
+      },
+      "note": "الجذر آخره z، فمع du بنزوّد -t بس: du stürzt (زي du duzt). وفي الماضي مع sein: Er ist gestürzt (درس 71).",
+      "examples": [
+        {
+          "de": "Nico ist beim Fußball gestürzt.",
+          "ar": "نيكو وقع وهو بيلعب كورة."
+        },
+        {
+          "de": "Im Winter stürzen viele Leute.",
+          "ar": "في الشتا ناس كتير بتقع."
+        }
+      ]
+    },
+    {
+      "inf": "wehtun",
+      "ar": "يوجع",
+      "lesson": 69,
+      "type": "separable",
+      "forms": {
+        "ich": "tue … weh",
+        "du": "tust … weh",
+        "er": "tut … weh",
+        "wir": "tun … weh",
+        "ihr": "tut … weh",
+        "sie": "tun … weh"
+      },
+      "note": "بينفصل (weh في آخر الجملة)، ومع wir و sie بنقول tun من غير e. أكتر استعمال: Mein Kopf tut weh = راسي بتوجعني.",
+      "examples": [
+        {
+          "de": "Wo tut es denn genau weh?",
+          "ar": "بيوجعك فين بالظبط؟"
+        },
+        {
+          "de": "Mein Fuß tut weh.",
+          "ar": "رجلي بتوجعني."
+        }
+      ]
+    },
+    {
+      "inf": "anschauen",
+      "ar": "يبصّ على",
+      "lesson": 70,
+      "type": "separable",
+      "forms": {
+        "ich": "schaue … an",
+        "du": "schaust … an",
+        "er": "schaut … an",
+        "wir": "schauen … an",
+        "ihr": "schaut … an",
+        "sie": "schauen … an"
+      },
+      "note": "بينفصل (an في آخر الجملة). وكتير بييجي مع mir / dir / sich بمعنى «يبص على حاجة كويس»: ich schaue mir … an، du schaust dir … an، er schaut sich … an.",
+      "examples": [
+        {
+          "de": "Der Arzt schaut sich den Fuß an.",
+          "ar": "الدكتور هيبصّ على الرِّجل."
+        },
+        {
+          "de": "Warum schaust du mich so an?",
+          "ar": "بتبصّلي كده ليه؟"
+        }
+      ]
+    },
+    {
+      "inf": "röntgen",
+      "ar": "يعمل أشعة",
+      "lesson": 70,
+      "type": "regular",
+      "forms": {
+        "ich": "röntge",
+        "du": "röntgst",
+        "er": "röntgt",
+        "wir": "röntgen",
+        "ihr": "röntgt",
+        "sie": "röntgen"
+      },
+      "note": "منتظم، والكلمة جاية من اسم العالم Röntgen اللي اكتشف الأشعة. خلي بالك من الكتابة: du röntgst, er röntgt.",
+      "examples": [
+        {
+          "de": "Der Arzt muss den Fuß röntgen.",
+          "ar": "الدكتور لازم يعمل أشعة على الرِّجل."
+        },
+        {
+          "de": "Wir röntgen jetzt Ihren Arm.",
+          "ar": "هنعمل أشعة على دراعك دلوقتي. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "vorbeikommen",
+      "ar": "يعدّي على (حد)",
+      "lesson": 70,
+      "type": "separable",
+      "forms": {
+        "ich": "komme … vorbei",
+        "du": "kommst … vorbei",
+        "er": "kommt … vorbei",
+        "wir": "kommen … vorbei",
+        "ihr": "kommt … vorbei",
+        "sie": "kommen … vorbei"
+      },
+      "note": "بينفصل (vorbei في آخر الجملة) وبيتصرّف زي kommen بالظبط. معناه تعدّي على حد زيارة قصيرة.",
+      "examples": [
+        {
+          "de": "Kommst du heute vorbei?",
+          "ar": "هتعدّي عليّا النهارده؟"
+        },
+        {
+          "de": "Lisa kommt gleich vorbei.",
+          "ar": "ليزا هتعدّي كمان شوية."
+        }
+      ]
+    },
+    {
+      "inf": "zeigen",
+      "ar": "يورّي",
+      "lesson": 70,
+      "type": "regular",
+      "forms": {
+        "ich": "zeige",
+        "du": "zeigst",
+        "er": "zeigt",
+        "wir": "zeigen",
+        "ihr": "zeigt",
+        "sie": "zeigen"
+      },
+      "note": "منتظم. واللي بتورّيه الحاجة بييجي mir / dir: Ich zeige dir das. و Zeig mal! (درس 69) = وريني كده!",
+      "examples": [
+        {
+          "de": "Ich zeige dir die Praxis.",
+          "ar": "هورّيك العيادة."
+        },
+        {
+          "de": "Zeigen Sie mir bitte Ihre Versichertenkarte.",
+          "ar": "ورّيني كارت التأمين بتاع حضرتك لو سمحت. (رسمي)"
+        }
+      ]
+    },
+    {
+      "inf": "dürfen",
+      "ar": "مسموح له",
+      "lesson": 70,
+      "type": "modal",
+      "forms": {
+        "ich": "darf",
+        "du": "darfst",
+        "er": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie": "dürfen"
+      },
+      "note": "فعل مساعد للإذن: ü بتبقى a في المفرد، و ich و er = darf من غير نهاية، والفعل التاني مصدر في آخر الجملة. nicht dürfen = ممنوع، و Darf ich …? = ممكن …؟",
+      "examples": [
+        {
+          "de": "Hier darf man nicht rauchen.",
+          "ar": "ممنوع التدخين هنا."
+        },
+        {
+          "de": "Darf ich mitkommen?",
+          "ar": "ممكن آجي معاكم؟"
+        }
+      ]
+    },
+    {
+      "inf": "freuen",
+      "ar": "يفرح / مستني بشوق",
+      "lesson": 70,
+      "type": "regular",
+      "forms": {
+        "ich": "freue",
+        "du": "freust",
+        "er": "freut",
+        "wir": "freuen",
+        "ihr": "freut",
+        "sie": "freuen"
+      },
+      "note": "sich freuen auf + Akkusativ = مستني حاجة جاية وفرحان بيها. والضمير بيتغيّر: ich freue mich, du freust dich, er freut sich, wir freuen uns, ihr freut euch, sie freuen sich. و Freut mich! (درس 26) من نفس الفعل.",
+      "examples": [
+        {
+          "de": "Ich freue mich auf das Wochenende.",
+          "ar": "أنا مستني الويك إند بفارغ الصبر."
+        },
+        {
+          "de": "Wir freuen uns auf Sie!",
+          "ar": "مستنيين حضرتك!"
+        }
+      ]
+    },
+    {
+      "inf": "bremsen",
+      "ar": "يفرمل",
+      "lesson": 71,
+      "type": "regular",
+      "forms": {
+        "ich": "bremse",
+        "du": "bremst",
+        "er": "bremst",
+        "wir": "bremsen",
+        "ihr": "bremst",
+        "sie": "bremsen"
+      },
+      "note": "الجذر آخره s، فمع du بنزوّد -t بس: du bremst (مش bremsst). وفي الماضي مع haben: Ich habe gebremst (درس 71).",
+      "examples": [
+        {
+          "de": "Bremst du immer so spät?",
+          "ar": "إنت دايمًا بتفرمل متأخر كده؟"
+        },
+        {
+          "de": "Das Auto hat plötzlich gebremst.",
+          "ar": "العربية فرملت فجأة."
+        }
+      ]
+    },
+    {
+      "inf": "untersuchen",
+      "ar": "يكشف على / يفحص",
+      "lesson": 71,
+      "type": "regular",
+      "forms": {
+        "ich": "untersuche",
+        "du": "untersuchst",
+        "er": "untersucht",
+        "wir": "untersuchen",
+        "ihr": "untersucht",
+        "sie": "untersuchen"
+      },
+      "note": "unter هنا مش بتنفصل، والمضارع منتظم: Der Arzt untersucht mich. والماضي من غير ge-: hat … untersucht.",
+      "examples": [
+        {
+          "de": "Der Arzt untersucht den Patienten.",
+          "ar": "الدكتور بيكشف على المريض."
+        },
+        {
+          "de": "Der Arzt hat mich untersucht.",
+          "ar": "الدكتور كشف عليّا."
+        }
+      ]
+    },
+    {
+      "inf": "rufen",
+      "ar": "ينادي / يطلب (إسعاف)",
+      "lesson": 71,
+      "type": "irregular",
+      "forms": {
+        "ich": "rufe",
+        "du": "rufst",
+        "er": "ruft",
+        "wir": "rufen",
+        "ihr": "ruft",
+        "sie": "rufen"
+      },
+      "note": "المضارع منتظم، والماضي التام: hat … gerufen. وده غير anrufen (يتصل بالتليفون): rufen ما بينفصلش. einen Krankenwagen rufen = يطلب الإسعاف.",
+      "examples": [
+        {
+          "de": "Ich rufe einen Krankenwagen!",
+          "ar": "أنا هطلب الإسعاف!"
+        },
+        {
+          "de": "Rufst du ein Taxi?",
+          "ar": "هتطلب تاكسي؟"
+        }
+      ]
+    },
+    {
+      "inf": "ausatmen",
+      "ar": "يطلّع النفَس (زفير)",
+      "lesson": 72,
+      "type": "separable",
+      "forms": {
+        "ich": "atme … aus",
+        "du": "atmest … aus",
+        "er": "atmet … aus",
+        "wir": "atmen … aus",
+        "ihr": "atmet … aus",
+        "sie": "atmen … aus"
+      },
+      "note": "فعل بينفصل: aus بتروح آخر الجملة. والجذر atm- بياخد -e- مع du و er و ihr: du atmest aus, er atmet aus. وعكسه ein|atmen.",
+      "examples": [
+        {
+          "de": "Atmen Sie bitte aus.",
+          "ar": "طلّع النفَس لو سمحت. (رسمي)"
+        },
+        {
+          "de": "Nico atmet langsam aus.",
+          "ar": "نيكو بيطلّع النفَس بالراحة."
+        }
+      ]
+    },
+    {
+      "inf": "bedeuten",
+      "ar": "يعني / معناه",
+      "lesson": 72,
+      "type": "regular",
+      "forms": {
+        "ich": "bedeute",
+        "du": "bedeutest",
+        "er": "bedeutet",
+        "wir": "bedeuten",
+        "ihr": "bedeutet",
+        "sie": "bedeuten"
+      },
+      "note": "الجذر آخره t، فبنزوّد -e- مع du و er و ihr: es bedeutet (زي arbeiten). وأشهر سؤال: Was bedeutet das? = يعني إيه ده؟",
+      "examples": [
+        {
+          "de": "Was bedeutet das?",
+          "ar": "يعني إيه ده؟"
+        },
+        {
+          "de": "Was bedeutet dieses Wort?",
+          "ar": "الكلمة دي معناها إيه؟"
+        }
+      ]
+    },
+    {
+      "inf": "benutzen",
+      "ar": "يستعمل",
+      "lesson": 72,
+      "type": "regular",
+      "forms": {
+        "ich": "benutze",
+        "du": "benutzt",
+        "er": "benutzt",
+        "wir": "benutzen",
+        "ihr": "benutzt",
+        "sie": "benutzen"
+      },
+      "note": "الجذر آخره tz، فمع du بنزوّد -t بس: du benutzt (زي heißt). ومع المرهم بنترجمه «يحط»: die Salbe benutzen.",
+      "examples": [
+        {
+          "de": "Die Salbe sollst du abends benutzen.",
+          "ar": "المرهم المفروض تحطّه بالليل."
+        },
+        {
+          "de": "Nico benutzt Krücken.",
+          "ar": "نيكو بيستعمل عكاكيز."
+        }
+      ]
+    },
+    {
+      "inf": "einatmen",
+      "ar": "ياخد نفَس (شهيق)",
+      "lesson": 72,
+      "type": "separable",
+      "forms": {
+        "ich": "atme … ein",
+        "du": "atmest … ein",
+        "er": "atmet … ein",
+        "wir": "atmen … ein",
+        "ihr": "atmet … ein",
+        "sie": "atmen … ein"
+      },
+      "note": "فعل بينفصل: ein بتروح آخر الجملة. والجذر atm- بياخد -e- مع du و er و ihr: du atmest ein. وعكسه aus|atmen.",
+      "examples": [
+        {
+          "de": "Atmen Sie bitte ein und wieder aus.",
+          "ar": "خد نفَس وطلّعه تاني لو سمحت. (رسمي)"
+        },
+        {
+          "de": "Ich atme langsam ein.",
+          "ar": "أنا باخد نفَس بالراحة."
+        }
+      ]
+    },
+    {
+      "inf": "krankschreiben",
+      "ar": "يكتب لحد إجازة مرضية",
+      "lesson": 72,
+      "type": "separable",
+      "forms": {
+        "ich": "schreibe … krank",
+        "du": "schreibst … krank",
+        "er": "schreibt … krank",
+        "wir": "schreiben … krank",
+        "ihr": "schreibt … krank",
+        "sie": "schreiben … krank"
+      },
+      "note": "فعل بينفصل: krank بتروح آخر الجملة، والشخص بييجي Akkusativ من غير «لـ»: Der Arzt schreibt mich krank. والتصريف زي schreiben بالظبط.",
+      "examples": [
+        {
+          "de": "Der Arzt schreibt mich krank.",
+          "ar": "الدكتور بيكتبلي إجازة مرضية."
+        },
+        {
+          "de": "Ich schreibe Sie eine Woche krank.",
+          "ar": "هكتب لحضرتك إجازة مرضية أسبوع."
+        }
+      ]
+    },
+    {
+      "inf": "operieren",
+      "ar": "يعمل عملية (جراحية)",
+      "lesson": 72,
+      "type": "regular",
+      "forms": {
+        "ich": "operiere",
+        "du": "operierst",
+        "er": "operiert",
+        "wir": "operieren",
+        "ihr": "operiert",
+        "sie": "operieren"
+      },
+      "note": "منتظم زي studieren و telefonieren، والماضي من غير ge-: hat … operiert. والشخص بييجي Akkusativ من غير «لـ»: Er operiert den Patienten.",
+      "examples": [
+        {
+          "de": "Zum Glück müssen wir nicht operieren.",
+          "ar": "الحمد لله مش لازم نعمل عملية."
+        },
+        {
+          "de": "Muss man das Knie operieren?",
+          "ar": "لازم يعملوا عملية في الركبة؟"
+        }
+      ]
+    },
+    {
+      "inf": "verschreiben",
+      "ar": "يكتب على دوا / يوصف علاج",
+      "lesson": 72,
+      "type": "irregular",
+      "forms": {
+        "ich": "verschreibe",
+        "du": "verschreibst",
+        "er": "verschreibt",
+        "wir": "verschreiben",
+        "ihr": "verschreibt",
+        "sie": "verschreiben"
+      },
+      "note": "ver- مش بتنفصل، والمضارع زي schreiben بالظبط (الشذوذ في الماضي بس: hat … verschrieben). واللي بياخد الدوا بييجي Dativ: Sie verschreibt mir eine Salbe.",
+      "examples": [
+        {
+          "de": "Dr. Grube hat Nico eine Salbe verschrieben.",
+          "ar": "دكتور جروبه كتب لنيكو على مرهم."
+        },
+        {
+          "de": "Die Ärztin verschreibt mir Schmerztabletten.",
+          "ar": "الدكتورة بتكتبلي على مسكّنات."
+        }
+      ]
+    },
+    {
+      "inf": "ändern",
+      "ar": "يغيّر",
+      "lesson": 72,
+      "type": "regular",
+      "forms": {
+        "ich": "ändere",
+        "du": "änderst",
+        "er": "ändert",
+        "wir": "ändern",
+        "ihr": "ändert",
+        "sie": "ändern"
+      },
+      "note": "آخره -ern زي feiern، فمع wir و sie بنزوّد -n بس: wir ändern. و ich ändere.",
+      "examples": [
+        {
+          "de": "Ich ändere den Termin.",
+          "ar": "هغيّر الميعاد."
+        },
+        {
+          "de": "Sie müssen Ihre Ernährung ändern.",
+          "ar": "حضرتك لازم تغيّر نظام أكلك."
+        }
+      ]
+    },
+    {
+      "inf": "weggehen",
+      "ar": "يمشي / يسيب المكان",
+      "lesson": 73,
+      "type": "separable",
+      "forms": {
+        "ich": "gehe … weg",
+        "du": "gehst … weg",
+        "er": "geht … weg",
+        "wir": "gehen … weg",
+        "ihr": "geht … weg",
+        "sie": "gehen … weg"
+      },
+      "note": "فعل بينفصل: weg بتروح آخر الجملة: Ich gehe jetzt weg. وفي الماضي بياخد sein مش haben: Wir sind weggegangen.",
+      "examples": [
+        {
+          "de": "Viele sind weggegangen, so wie wir.",
+          "ar": "ناس كتير مشيوا، زينا بالظبط."
+        },
+        {
+          "de": "Warum gehst du weg?",
+          "ar": "إنت ماشي ليه؟"
+        }
+      ]
+    },
+    {
+      "inf": "probieren",
+      "ar": "يدوق / يجرّب",
+      "lesson": 74,
+      "type": "regular",
+      "forms": {
+        "ich": "probiere",
+        "du": "probierst",
+        "er": "probiert",
+        "wir": "probieren",
+        "ihr": "probiert",
+        "sie": "probieren"
+      },
+      "note": "منتظم زي studieren و telefonieren. معناه يدوق الأكل أو يجرّب حاجة؛ أما الهدوم فبنقول an|probieren.",
+      "examples": [
+        {
+          "de": "Du musst zuerst probieren!",
+          "ar": "لازم تدوق الأول!"
+        },
+        {
+          "de": "Möchtest du das Gulasch probieren?",
+          "ar": "تحب تدوق الجولاش؟"
+        }
+      ]
+    },
+    {
+      "inf": "vermissen",
+      "ar": "يوحشه / يفتقد",
+      "lesson": 74,
+      "type": "regular",
+      "forms": {
+        "ich": "vermisse",
+        "du": "vermisst",
+        "er": "vermisst",
+        "wir": "vermissen",
+        "ihr": "vermisst",
+        "sie": "vermissen"
+      },
+      "note": "الجذر آخره ss، فمع du بنزوّد -t بس: du vermisst. وعكس العربي، اللي بيفتقد هو الفاعل: Ich vermisse dich = إنت وحشتني.",
+      "examples": [
+        {
+          "de": "Meine Freunde vermisse ich ein bisschen.",
+          "ar": "صحابي واحشينّي شوية."
+        },
+        {
+          "de": "Vermisst du deine Familie?",
+          "ar": "عيلتك وحشاك؟"
+        }
+      ]
+    },
+    {
+      "inf": "beenden",
+      "ar": "يخلّص / ينهي",
+      "lesson": 76,
+      "type": "regular",
+      "forms": {
+        "ich": "beende",
+        "du": "beendest",
+        "er": "beendet",
+        "wir": "beenden",
+        "ihr": "beendet",
+        "sie": "beenden"
+      },
+      "note": "الجذر آخره d، فبنزوّد -e- مع du و er و ihr: du beendest, er beendet. والماضي من غير ge-: hat … beendet.",
+      "examples": [
+        {
+          "de": "Ich würde gern meine Ausbildung beenden.",
+          "ar": "نفسي أخلّص التدريب المهني بتاعي."
+        },
+        {
+          "de": "Er beendet seine Arbeit um fünf Uhr.",
+          "ar": "هو بيخلّص شغله الساعة خمسة."
+        }
+      ]
+    },
+    {
+      "inf": "träumen",
+      "ar": "يحلم",
+      "lesson": 76,
+      "type": "regular",
+      "forms": {
+        "ich": "träume",
+        "du": "träumst",
+        "er": "träumt",
+        "wir": "träumen",
+        "ihr": "träumt",
+        "sie": "träumen"
+      },
+      "note": "الحاجة اللي بتحلم بيها بتيجي بعد von + Dativ: von einem Laden (و von dem = vom). والتصريف منتظم.",
+      "examples": [
+        {
+          "de": "Nico träumt von einem eigenen Laden.",
+          "ar": "نيكو بيحلم بمحل خاص بيه."
+        },
+        {
+          "de": "Ich träume von einem Haus am Meer.",
+          "ar": "أنا بحلم ببيت على البحر."
+        }
+      ]
+    },
+    {
+      "inf": "wünschen",
+      "ar": "يتمنّى / نفسه في",
+      "lesson": 76,
+      "type": "regular",
+      "forms": {
+        "ich": "wünsche",
+        "du": "wünschst",
+        "er": "wünscht",
+        "wir": "wünschen",
+        "ihr": "wünscht",
+        "sie": "wünschen"
+      },
+      "note": "sich etwas wünschen = نفسك في حاجة، والضمير هنا Dativ: ich wünsche mir, du wünschst dir, er wünscht sich, wir wünschen uns, ihr wünscht euch, sie wünschen sich. ومن غير sich: Sie wünschen? = حضرتك تؤمر بإيه؟ (درس 51).",
+      "examples": [
+        {
+          "de": "Was wünschst du dir?",
+          "ar": "نفسك في إيه؟"
+        },
+        {
+          "de": "Ich wünsche mir einen eigenen Laden.",
+          "ar": "نفسي يبقى عندي محل خاص بيّا."
         }
       ]
     }

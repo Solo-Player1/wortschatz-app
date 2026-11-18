@@ -1,0 +1,111 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.080 --> 00:00:10.360 region:R1 align:center
+<c.S1>– Emma steht um halb sieben auf.
+Danach putzt sie Zähne.</c>
+
+2
+00:00:10.400 --> 00:00:11.760 region:R1 align:center
+<c.S1>Das ist wichtig, Emma, okay?</c>
+
+3
+00:00:11.800 --> 00:00:13.240 region:R1 align:center
+<c.S1>– Ich putze immer meine Zähne!</c>
+
+4
+00:00:13.280 --> 00:00:14.440 region:R1 align:center
+<c.S1>– Immer oder manchmal?</c>
+
+5
+00:00:14.480 --> 00:00:15.360 region:R1 align:center
+<c.S1>– Fast immer.</c>
+
+6
+00:00:15.560 --> 00:00:16.640 region:R1 align:center
+<c.S1>– Okay …</c>
+
+7
+00:00:17.320 --> 00:00:23.000 region:R1 align:center
+<c.S1>Zum Frühstück isst Emma
+normalerweise Müsli mit Milch.</c>
+
+8
+00:00:23.040 --> 00:00:24.880 region:R1 align:center
+<c.S1>Aber manchmal isst sie auch einen Apfel.</c>
+
+9
+00:00:24.920 --> 00:00:26.800 region:R1 align:center
+<c.S1>Und zum Mittagessen gibt es oft Gemüse.</c>
+
+10
+00:00:26.840 --> 00:00:28.080 region:R1 align:center
+<c.S1>– Gemüse?</c>
+
+11
+00:00:28.440 --> 00:00:29.840 region:R1 align:center
+<c.S1>– Ja, Gemüse ...</c>
+
+12
+00:00:34.160 --> 00:00:37.600 region:R1 align:center
+<c.S1>Tomaten, Salat, Brokkoli.</c>
+
+13
+00:00:38.360 --> 00:00:40.720 region:R1 align:center
+<c.S1>Mittagessen gibt es um zwölf.</c>
+
+14
+00:00:40.760 --> 00:00:44.440 region:R1 align:center
+<c.S1>Von zwei bis drei Uhr macht Emma
+normalerweise Hausaufgaben.</c>
+
+15
+00:00:44.480 --> 00:00:46.800 region:R1 align:center
+<c.S1>Und von vier bis halb fünf übt sie Flöte.</c>
+
+16
+00:00:46.840 --> 00:00:48.040 region:R1 align:center
+<c.S1>Ich kontrolliere das!</c>
+
+17
+00:00:48.080 --> 00:00:48.920 region:R1 align:center
+<c.S1>– Ja, ja …</c>
+
+18
+00:00:48.960 --> 00:00:51.760 region:R1 align:center
+<c.S1>– Und du siehst nicht fern.
+Und nach dem Spielen räumst du auf.</c>
+
+19
+00:00:51.800 --> 00:00:53.840 region:R1 align:center
+<c.S1>Ich möchte hier kein Chaos haben!</c>
+
+20
+00:00:54.120 --> 00:00:55.480 region:R1 align:center
+<c.S1>– Kein Problem.</c>
+
+21
+00:00:55.720 --> 00:00:56.560 region:R1 align:center
+<c.S1>– Ich weiß.</c>
+
+22
+00:00:56.600 --> 00:00:58.520 region:R1 align:center
+<c.S1>– Morgen ist ein super Tag!</c>
+
+23
+00:01:00.440 --> 00:01:01.640 region:R1 align:center
+<c.S1>– Danke, Nico!</c>
+
+24
+00:01:01.680 --> 00:01:05.160 region:R1 align:center
+<c.S1>Ich bin morgen gegen sechs zum
+Abendessen wieder zu Hause.</c>

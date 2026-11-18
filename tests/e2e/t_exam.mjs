@@ -99,7 +99,9 @@ await p.hash(`#/exam/${LESSON}`, 1200);
 await p.evaluate(`document.querySelector('.gm-go').click()`);
 await p.sleep(600);
 const r2 = await p.evaluate(`(${SOLVE})('fail')`);
-check('exam: 3 wrong → lose screen', r2.done && /الوحش كسب|تثبيت|لسه/.test(r2.text || ''), (r2.text || '').slice(0, 120));
+// only the LOSE card counts (the win screen also mentions «التثبيت», so a text regex could pass when wrong answers were accepted)
+const lost = await p.evaluate(`({ lose: !!document.querySelector('.gm-res-card.lose'), win: !!document.querySelector('.gm-res-card.win'), h: document.querySelector('.gm-res-card h1')?.textContent || '' })`);
+check('exam: 3 wrong → lose screen', r2.done && lost.lose && !lost.win && /الوحش كسب/.test(lost.h), JSON.stringify(lost) + ' · ' + (r2.text || '').slice(0, 80));
 await p.shot(`shots/exam-fail-L${LESSON}.png`);
 
 await p.hash(`#/lesson/${LESSON}`, 1000);

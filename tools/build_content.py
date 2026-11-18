@@ -11,7 +11,7 @@ import glob, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'content')
-MAX_LESSON = 15
+MAX_LESSON = 77      # the whole Nicos Weg A1 course (77 = final exam, no content file)
 PUNCT = re.compile(r'[.,!?;:…"„“”«»()]+')
 
 def load(p):

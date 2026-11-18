@@ -1,0 +1,84 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:06.920 --> 00:00:09.280 region:R1 align:center
+<c.S1>– Sie hat nur gesagt,
+sie muss für ein paar Tage weg</c>
+
+2
+00:00:09.320 --> 00:00:10.600 region:R1 align:center
+<c.S1>und wir sollen ihre Blumen gießen.</c>
+
+3
+00:00:10.960 --> 00:00:12.760 region:R1 align:center
+<c.S1>– Und dann? Das war’s?</c>
+
+4
+00:00:12.920 --> 00:00:14.560 region:R1 align:center
+<c.S1>– Dann hat sie aufgelegt.</c>
+
+5
+00:00:14.720 --> 00:00:17.160 region:R1 align:center
+<c.S1>Wie gesagt, mehr wissen wir auch nicht.</c>
+
+6
+00:00:30.200 --> 00:00:31.560 region:R1 align:center
+<c.S1>– Sarah!</c>
+
+7
+00:00:32.920 --> 00:00:36.360 region:R1 align:center
+<c.S1>Oh nein … Ich komme sofort!</c>
+
+8
+00:00:37.680 --> 00:00:39.320 region:R1 align:center
+<c.S1>Wo bist du?</c>
+
+9
+00:00:39.840 --> 00:00:41.440 region:R1 align:center
+<c.S1>Bei deinen Eltern?</c>
+
+10
+00:00:44.480 --> 00:00:46.440 region:R1 align:center
+<c.S1>Ich hab deine neue Adresse.</c>
+
+11
+00:00:46.520 --> 00:00:49.200 region:R1 align:center
+<c.S1>Aber deine Eltern, wo leben deine Eltern?</c>
+
+12
+00:00:55.840 --> 00:00:57.760 region:R1 align:center
+<c.S1>Wo ist dein Bruder?</c>
+
+13
+00:00:59.040 --> 00:01:01.320 region:R1 align:center
+<c.S1>In Paris. Er hat ’n neuen Job.</c>
+
+14
+00:01:01.360 --> 00:01:02.600 region:R1 align:center
+<c.S1>Kann nicht kommen.</c>
+
+15
+00:01:03.680 --> 00:01:05.120 region:R1 align:center
+<c.S1>Okay.</c>
+
+16
+00:01:05.560 --> 00:01:08.680 region:R1 align:center
+<c.S1>Ich buche jetzt einen Flug und
+komme heute noch nach Zürich.</c>
+
+17
+00:01:10.400 --> 00:01:12.760 region:R1 align:center
+<c.S1>Mit etwas Glück bin ich heute noch da.</c>
+
+18
+00:01:13.800 --> 00:01:15.240 region:R1 align:center
+<c.S1>Ich ruf wieder an.</c>

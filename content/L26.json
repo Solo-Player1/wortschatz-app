@@ -1,0 +1,752 @@
+{
+  "n": 26,
+  "sentences": [
+    {
+      "id": "s26-001",
+      "de": "Marvin möchte dein Zimmer sehen.",
+      "ar": "مارفن عايز يشوف أوضتك.",
+      "kind": "statement",
+      "focus": [
+        "verb:sehen",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sehen",
+        "opts": [
+          "sehen",
+          "sieht",
+          "siehst"
+        ],
+        "accept": [
+          "besichtigen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-002",
+      "de": "Ich bin Nawin. Freut mich.",
+      "ar": "أنا نافين. تشرّفنا.",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "introduce"
+      ],
+      "alts": [
+        "Freut mich. Ich bin Nawin."
+      ],
+      "cloze": {
+        "word": "mich",
+        "opts": [
+          "mich",
+          "mir",
+          "ich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-003",
+      "de": "Das ist das Wohnzimmer.",
+      "ar": "دي أوضة المعيشة.",
+      "kind": "statement",
+      "focus": [
+        "room",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-004",
+      "de": "Die Fenster sind groß und das Zimmer ist hell.",
+      "ar": "الشبابيك كبيرة والأوضة منوّرة.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "plural"
+      ],
+      "alts": [
+        "Das Zimmer ist hell und die Fenster sind groß."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-005",
+      "de": "Es gibt fünf Zimmer, eine Küche und ein Bad.",
+      "ar": "فيه خمس أوض ومطبخ وحمّام.",
+      "kind": "answer",
+      "focus": [
+        "es-gibt",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gibt",
+        "opts": [
+          "gibt",
+          "gibst",
+          "geben"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-006",
+      "de": "Wie viele Quadratmeter hat das Zimmer denn?",
+      "ar": "هي الأوضة مساحتها كام متر مربع؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "number"
+      ],
+      "alts": [
+        "Wie viele Quadratmeter hat denn das Zimmer?"
+      ],
+      "cloze": {
+        "word": "Quadratmeter",
+        "opts": [
+          "Quadratmeter",
+          "Monate",
+          "Euro"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-007",
+      "de": "Es ist sehr ruhig. Keine Autos.",
+      "ar": "المكان هادي أوي. مفيش عربيات.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "negation"
+      ],
+      "alts": [
+        "Keine Autos. Es ist sehr ruhig."
+      ],
+      "cloze": {
+        "word": "Keine",
+        "opts": [
+          "Keine",
+          "Kein",
+          "Nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-008",
+      "de": "Die Küche ist sehr gemütlich.",
+      "ar": "المطبخ مريح جدًا.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sehr",
+        "opts": [
+          "sehr",
+          "viel",
+          "viele"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-009",
+      "de": "Hier sitzen wir oft.",
+      "ar": "إحنا بنقعد هنا كتير.",
+      "kind": "statement",
+      "focus": [
+        "verb:sitzen"
+      ],
+      "alts": [
+        "Wir sitzen hier oft.",
+        "Wir sitzen oft hier.",
+        "Oft sitzen wir hier."
+      ],
+      "cloze": {
+        "word": "sitzen",
+        "opts": [
+          "sitzen",
+          "sitzt",
+          "sitze"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-010",
+      "de": "Wie teuer ist das Zimmer?",
+      "ar": "الأوضة بكام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wie",
+        "opts": [
+          "Wie",
+          "Was",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-011",
+      "de": "Die Miete kostet 400 Euro im Monat.",
+      "ar": "الإيجار 400 يورو في الشهر.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "number"
+      ],
+      "alts": [
+        "Die Miete kostet im Monat 400 Euro.",
+        "Im Monat kostet die Miete 400 Euro."
+      ],
+      "cloze": {
+        "word": "kostet",
+        "opts": [
+          "kostet",
+          "kosten",
+          "kostest"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-012",
+      "de": "Es kommen noch andere Interessenten.",
+      "ar": "لسه فيه ناس تانية جاية تعاين الأوضة.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "verb:kommen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Interessenten",
+        "opts": [
+          "Interessenten",
+          "Interessent",
+          "Interessentin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s26-013",
+      "de": "Das Zimmer ist nicht groß.",
+      "ar": "الأوضة مش كبيرة.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-014",
+      "de": "Das Schlafzimmer ist nicht hell.",
+      "ar": "أوضة النوم مش منوّرة.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "article",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-015",
+      "de": "Nein, die Wohnung ist nicht laut.",
+      "ar": "لأ، الشقة مش دوشة.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-016",
+      "de": "Die Miete ist nicht hoch.",
+      "ar": "الإيجار مش عالي.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hoch",
+        "opts": [
+          "hoch",
+          "lang",
+          "kurz"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-017",
+      "de": "Das Badezimmer hat kein Fenster.",
+      "ar": "الحمّام مفيهوش شباك.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-018",
+      "de": "Ist der Flur lang?",
+      "ar": "الطرقة طويلة؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ist",
+        "opts": [
+          "Ist",
+          "Hat",
+          "Sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-019",
+      "de": "Nein, der Flur ist kurz.",
+      "ar": "لأ، الطرقة قصيرة.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "opposite",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-020",
+      "de": "Das Arbeitszimmer ist nicht groß, aber hell.",
+      "ar": "أوضة المكتب مش كبيرة، بس منوّرة.",
+      "kind": "statement",
+      "focus": [
+        "room",
+        "negation",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Arbeitszimmer",
+        "opts": [
+          "Arbeitszimmer",
+          "Küche",
+          "Toilette"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-021",
+      "de": "Der Keller ist dunkel und ungemütlich.",
+      "ar": "البدروم ضلمة ومش مريح.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "article"
+      ],
+      "alts": [
+        "Der Keller ist ungemütlich und dunkel."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s26-022",
+      "de": "Möchtest du den Keller sehen?",
+      "ar": "تحب تشوف البدروم؟",
+      "kind": "question",
+      "focus": [
+        "verb:sehen",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Möchtest",
+        "opts": [
+          "Möchtest",
+          "Möchte",
+          "Möchtet"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w26-01",
+      "q": "___ möchte das Zimmer sehen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين عايز يشوف الأوضة؟",
+      "reply": "Marvin, ein Interessent.",
+      "reply_ar": "مارفن، واحد عايز يأجّر الأوضة."
+    },
+    {
+      "id": "w26-02",
+      "q": "___ Zimmer hat die Wohnung?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "الشقة فيها كام أوضة؟",
+      "reply": "Es gibt fünf Zimmer.",
+      "reply_ar": "فيه خمس أوض."
+    },
+    {
+      "id": "w26-03",
+      "q": "___ groß ist das Zimmer?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "الأوضة مساحتها قد إيه؟",
+      "reply": "Das Zimmer hat elf Quadratmeter.",
+      "reply_ar": "الأوضة 11 متر مربع."
+    },
+    {
+      "id": "w26-04",
+      "q": "___ kostet die Miete?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الإيجار بكام؟",
+      "reply": "400 Euro im Monat.",
+      "reply_ar": "400 يورو في الشهر."
+    },
+    {
+      "id": "w26-05",
+      "q": "___ sitzt ihr oft?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إنتوا بتقعدوا فين كتير؟",
+      "reply": "In der Küche. Sie ist sehr gemütlich.",
+      "reply_ar": "في المطبخ، أصله مريح جدًا."
+    },
+    {
+      "id": "w26-06",
+      "q": "___ ist das Schlafzimmer nicht hell?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "ليه أوضة النوم مش منوّرة؟",
+      "reply": "Das Fenster ist sehr klein.",
+      "reply_ar": "الشباك صغير أوي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g26-1",
+      "h": "النفي بـ nicht مع الصفة",
+      "body": "عشان تقول إن حاجة «مش» كبيرة أو «مش» منوّرة، حط nicht قبل الصفة على طول: Das Zimmer ist nicht groß. والصفة بعد sein بتفضل زي ما هي من غير أي نهاية: Die Küche ist nicht klein (مش kleine). وnicht + الصفة معناها قريب من عكسها: nicht groß تقريبًا klein، وnicht hell تقريبًا dunkel.",
+      "examples": [
+        {
+          "de": "Das Zimmer ist klein. – Das Zimmer ist nicht groß.",
+          "ar": "الأوضة صغيرة. – الأوضة مش كبيرة."
+        },
+        {
+          "de": "Das Zimmer ist dunkel. – Das Zimmer ist nicht hell.",
+          "ar": "الأوضة ضلمة. – الأوضة مش منوّرة."
+        },
+        {
+          "de": "Die Küche ist nicht klein.",
+          "ar": "المطبخ مش صغير."
+        }
+      ],
+      "table": [
+        [
+          "من غير نفي",
+          "بالنفي (nicht)"
+        ],
+        [
+          "Das Zimmer ist groß.",
+          "Das Zimmer ist nicht groß."
+        ],
+        [
+          "Das Zimmer ist hell.",
+          "Das Zimmer ist nicht hell."
+        ],
+        [
+          "Die Wohnung ist laut.",
+          "Die Wohnung ist nicht laut."
+        ],
+        [
+          "Die Miete ist hoch.",
+          "Die Miete ist nicht hoch."
+        ]
+      ]
+    },
+    {
+      "id": "g26-2",
+      "h": "الصفة وعكسها",
+      "body": "احفظ صفات الشقة أزواج: كل صفة مع عكسها. وفيه صفات عكسها بييجي بـ un- في أولها: gemütlich (مريح) وعكسها ungemütlich (مش مريح). ولو نسيت العكس، استخدم nicht: Der Flur ist nicht lang (يعني تقريبًا kurz).",
+      "examples": [
+        {
+          "de": "Ist der Flur lang? – Nein, er ist kurz.",
+          "ar": "الطرقة طويلة؟ – لأ، قصيرة."
+        },
+        {
+          "de": "Die Küche ist sehr gemütlich.",
+          "ar": "المطبخ مريح جدًا."
+        },
+        {
+          "de": "Der Keller ist dunkel und ungemütlich.",
+          "ar": "البدروم ضلمة ومش مريح."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "عكسها"
+        ],
+        [
+          "groß (كبير)",
+          "klein (صغير)"
+        ],
+        [
+          "hell (منوّر)",
+          "dunkel (ضلمة)"
+        ],
+        [
+          "laut (دوشة)",
+          "ruhig (هادي)"
+        ],
+        [
+          "lang (طويل)",
+          "kurz (قصير)"
+        ],
+        [
+          "gemütlich (مريح)",
+          "ungemütlich (مش مريح)"
+        ],
+        [
+          "teuer (غالي)",
+          "billig (رخيص)"
+        ],
+        [
+          "neu (جديد)",
+          "alt (قديم)"
+        ]
+      ]
+    },
+    {
+      "id": "g26-3",
+      "h": "nicht ولا kein؟",
+      "body": "الاتنين معناهم «مش / مفيش»، بس كل واحد ليه مكانه: nicht قبل الصفة (nicht groß، nicht laut). أما kein / keine فبييجوا قبل الاسم مكان ein / eine، ومع الجمع كمان (زي درس 23). وفي الحلقة بيقولوا عن الأوضة: Es ist sehr ruhig. Keine Autos. يعني هادية ومفيش عربيات.",
+      "examples": [
+        {
+          "de": "Die Wohnung ist nicht laut.",
+          "ar": "الشقة مش دوشة."
+        },
+        {
+          "de": "Das Badezimmer hat kein Fenster.",
+          "ar": "الحمّام مفيهوش شباك."
+        },
+        {
+          "de": "Es ist sehr ruhig. Keine Autos.",
+          "ar": "المكان هادي أوي. مفيش عربيات."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "بتيجي قبل",
+          "مثال"
+        ],
+        [
+          "nicht",
+          "صفة",
+          "nicht hell"
+        ],
+        [
+          "kein",
+          "اسم der (فاعل) أو das",
+          "kein Fenster"
+        ],
+        [
+          "keinen",
+          "اسم der مفعول به",
+          "Es gibt keinen Keller."
+        ],
+        [
+          "keine",
+          "اسم die أو جمع",
+          "keine Autos"
+        ]
+      ]
+    },
+    {
+      "id": "g26-4",
+      "h": "أوض الشقة و Es gibt",
+      "body": "Es gibt = فيه، والاسم اللي بعدها مفعول به، فالمذكّر بياخد einen: Es gibt einen Keller. وعشان تسأل عن شقة: Wie viele Zimmer hat die Wohnung? و Wie groß ist das Zimmer? وكل أوضة آخرها -zimmer أداتها das، عشان الأداة من آخر جزء (das Zimmer): das Wohnzimmer، das Schlafzimmer، das Arbeitszimmer.",
+      "examples": [
+        {
+          "de": "Es gibt fünf Zimmer, eine Küche und ein Bad.",
+          "ar": "فيه خمس أوض ومطبخ وحمّام."
+        },
+        {
+          "de": "Gibt es einen Keller?",
+          "ar": "فيه بدروم؟"
+        },
+        {
+          "de": "Wie groß ist das Zimmer? – Elf Quadratmeter.",
+          "ar": "الأوضة مساحتها قد إيه؟ – 11 متر مربع."
+        }
+      ],
+      "table": [
+        [
+          "الأوضة",
+          "بالمصري"
+        ],
+        [
+          "das Wohnzimmer",
+          "أوضة المعيشة"
+        ],
+        [
+          "das Schlafzimmer",
+          "أوضة النوم"
+        ],
+        [
+          "das Arbeitszimmer",
+          "أوضة المكتب"
+        ],
+        [
+          "das Bad / das Badezimmer",
+          "الحمّام"
+        ],
+        [
+          "die Küche",
+          "المطبخ"
+        ],
+        [
+          "die Toilette",
+          "التواليت"
+        ],
+        [
+          "der Flur",
+          "الطرقة"
+        ],
+        [
+          "der Keller",
+          "البدروم"
+        ]
+      ]
+    }
+  ]
+}

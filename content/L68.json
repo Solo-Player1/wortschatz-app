@@ -1,0 +1,799 @@
+{
+  "n": 68,
+  "sentences": [
+    {
+      "id": "s68-001",
+      "de": "Iss nicht so viele Süßigkeiten!",
+      "ar": "ماتاكلش حلويات كتير كده!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:essen",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Iss",
+        "opts": [
+          "Iss",
+          "Isst",
+          "Esse"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-002",
+      "de": "Iss lieber mehr Obst!",
+      "ar": "الأحسن تاكل فاكهة أكتر!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "advice",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mehr",
+        "opts": [
+          "mehr",
+          "viele",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-003",
+      "de": "Es ist kein Obst da!",
+      "ar": "مفيش فاكهة!",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-004",
+      "de": "Wer sollte Obst kaufen?",
+      "ar": "مين كان المفروض يشتري فاكهة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:sollen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kaufen",
+        "opts": [
+          "kaufen",
+          "kauft",
+          "kaufst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-005",
+      "de": "Aber ich habe es vergessen.",
+      "ar": "بس أنا نسيت.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "verb:vergessen"
+      ],
+      "alts": [
+        "Ich habe es aber vergessen."
+      ],
+      "cloze": {
+        "word": "vergessen",
+        "opts": [
+          "vergessen",
+          "vergisst",
+          "vergiss"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-006",
+      "de": "Aber Fleisch und Gemüse sind doch auch gesund.",
+      "ar": "بس اللحمة والخضار صحيين برضه.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "health"
+      ],
+      "alts": [
+        "Aber Gemüse und Fleisch sind doch auch gesund.",
+        "Fleisch und Gemüse sind aber doch auch gesund.",
+        "Gemüse und Fleisch sind aber doch auch gesund.",
+        "Aber auch Fleisch und Gemüse sind doch gesund.",
+        "Aber auch Gemüse und Fleisch sind doch gesund."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "seid",
+          "bist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-007",
+      "de": "Kartoffelsalat macht auch gar nicht dick.",
+      "ar": "سلطة البطاطس كمان مابتتخّنش خالص. (بتريقة)",
+      "kind": "statement",
+      "focus": [
+        "health",
+        "negation"
+      ],
+      "alts": [
+        "Auch Kartoffelsalat macht gar nicht dick.",
+        "Dick macht Kartoffelsalat auch gar nicht."
+      ],
+      "cloze": {
+        "word": "gar",
+        "opts": [
+          "gar",
+          "sehr",
+          "viel"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-008",
+      "de": "Wir sind doch im Urlaub.",
+      "ar": "ما إحنا في إجازة.",
+      "kind": "statement",
+      "focus": [
+        "verb:sein",
+        "preposition"
+      ],
+      "alts": [
+        "Im Urlaub sind wir doch."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "am",
+          "um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-009",
+      "de": "Ab morgen essen wir gesund!",
+      "ar": "من بكرة هناكل أكل صحي!",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "word-order",
+        "health"
+      ],
+      "alts": [
+        "Wir essen ab morgen gesund!",
+        "Gesund essen wir ab morgen!"
+      ],
+      "cloze": {
+        "word": "Ab",
+        "opts": [
+          "Ab",
+          "Seit",
+          "Um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s68-010",
+      "de": "Trink viel Wasser!",
+      "ar": "اشرب مية كتير!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:trinken",
+        "advice"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Trink",
+        "opts": [
+          "Trink",
+          "Trinkst",
+          "Trinken"
+        ],
+        "accept": [
+          "Trinke"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-011",
+      "de": "Esst mehr Obst und Gemüse!",
+      "ar": "كلوا فاكهة وخضار أكتر!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "ihr",
+        "food"
+      ],
+      "alts": [
+        "Esst mehr Gemüse und Obst!"
+      ],
+      "cloze": {
+        "word": "Esst",
+        "opts": [
+          "Esst",
+          "Isst",
+          "Essen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-012",
+      "de": "Nimm nicht so viel Mayonnaise!",
+      "ar": "ماتاخدش مايونيز كتير كده!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:nehmen",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nimm",
+        "opts": [
+          "Nimm",
+          "Nimmst",
+          "Nehme"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-013",
+      "de": "Schlaf genug und mach viel Sport!",
+      "ar": "نام كفاية والعب رياضة كتير!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:schlafen",
+        "advice"
+      ],
+      "alts": [
+        "Mach viel Sport und schlaf genug!"
+      ],
+      "cloze": {
+        "word": "Schlaf",
+        "opts": [
+          "Schlaf",
+          "Schläf",
+          "Schläfst"
+        ],
+        "accept": [
+          "Schlafe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-014",
+      "de": "Arbeite nicht zu viel!",
+      "ar": "ماتشتغلش زيادة عن اللزوم!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:arbeiten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Arbeite",
+        "opts": [
+          "Arbeite",
+          "Arbeit",
+          "Arbeitest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-015",
+      "de": "Sei nicht so faul!",
+      "ar": "ماتبقاش كسلان كده!",
+      "kind": "statement",
+      "focus": [
+        "imperative",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sei",
+        "opts": [
+          "Sei",
+          "Bist",
+          "Sein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-016",
+      "de": "Vorsicht, die Soße ist sehr scharf!",
+      "ar": "خلي بالك، الصوص حرّاق أوي!",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "warning",
+        "adjective"
+      ],
+      "alts": [
+        "Die Soße ist sehr scharf, Vorsicht!"
+      ],
+      "cloze": {
+        "word": "Vorsicht",
+        "opts": [
+          "Vorsicht",
+          "Diät",
+          "Gesundheit"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-017",
+      "de": "Möchtest du Ketchup oder Senf?",
+      "ar": "تحب كاتشب ولا مستردة؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "verb:möchten"
+      ],
+      "alts": [
+        "Möchtest du Senf oder Ketchup?"
+      ],
+      "cloze": {
+        "word": "Möchtest",
+        "opts": [
+          "Möchtest",
+          "Möchte",
+          "Möchtet"
+        ],
+        "accept": [
+          "Willst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-018",
+      "de": "Nein, Chips sind fett und ungesund.",
+      "ar": "لأ، الشيبسي مليان دهون ومش صحي.",
+      "kind": "answer",
+      "focus": [
+        "food",
+        "health",
+        "plural"
+      ],
+      "alts": [
+        "Nein, Chips sind ungesund und fett."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-019",
+      "de": "Kekse und Torten haben viele Kalorien.",
+      "ar": "البسكوت والتورت فيهم سعرات حرارية كتير.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "health",
+        "plural"
+      ],
+      "alts": [
+        "Torten und Kekse haben viele Kalorien."
+      ],
+      "cloze": {
+        "word": "Kalorien",
+        "opts": [
+          "Kalorien",
+          "Kalorie",
+          "Vitamin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-020",
+      "de": "Mandarinen und Kirschen haben viele Vitamine.",
+      "ar": "اليوسفي والكريز فيهم فيتامينات كتير.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "health",
+        "plural"
+      ],
+      "alts": [
+        "Kirschen und Mandarinen haben viele Vitamine."
+      ],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "hat",
+          "habt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-021",
+      "de": "Ich möchte abnehmen und mache eine Diät.",
+      "ar": "أنا عايز أخس وعامل رجيم.",
+      "kind": "statement",
+      "focus": [
+        "verb:abnehmen",
+        "separable",
+        "health"
+      ],
+      "alts": [
+        "Ich mache eine Diät und möchte abnehmen."
+      ],
+      "cloze": {
+        "word": "abnehmen",
+        "opts": [
+          "abnehmen",
+          "abnehme",
+          "nehme"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s68-022",
+      "de": "Nimmst du im Urlaub immer zu?",
+      "ar": "إنت دايمًا بتتخن في الإجازة؟",
+      "kind": "question",
+      "focus": [
+        "verb:zunehmen",
+        "separable"
+      ],
+      "alts": [
+        "Nimmst du immer im Urlaub zu?"
+      ],
+      "cloze": {
+        "word": "Nimmst",
+        "opts": [
+          "Nimmst",
+          "Nehmst",
+          "Nimmt"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w68-01",
+      "q": "___ sollte Obst kaufen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wann",
+        "Wie"
+      ],
+      "ar": "مين كان المفروض يشتري فاكهة؟",
+      "reply": "Yanis. Aber er hat es vergessen.",
+      "reply_ar": "يانيس، بس هو نسي."
+    },
+    {
+      "id": "w68-02",
+      "q": "___ Kalorien hat die Torte?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "التورتة فيها كام سعر حراري؟",
+      "reply": "Sehr viele! Torte macht dick.",
+      "reply_ar": "كتير أوي! التورتة بتتخّن."
+    },
+    {
+      "id": "w68-03",
+      "q": "___ isst du so viele Süßigkeiten?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتاكل حلويات كتير كده ليه؟",
+      "reply": "Sie sind so lecker!",
+      "reply_ar": "أصلها طعمها حلو أوي!"
+    },
+    {
+      "id": "w68-04",
+      "q": "___ hast du zugenommen?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wer",
+        "Woher",
+        "Welche"
+      ],
+      "ar": "تخنت قد إيه؟",
+      "reply": "Zwei Kilo. Jetzt mache ich eine Diät.",
+      "reply_ar": "كيلوين. دلوقتي أنا عامل رجيم."
+    },
+    {
+      "id": "w68-05",
+      "q": "___ Soße möchtest du, Ketchup oder Mayonnaise?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wie viel",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "تحب أنهي صوص، كاتشب ولا مايونيز؟",
+      "reply": "Ketchup, bitte. Mayonnaise ist zu fett.",
+      "reply_ar": "كاتشب لو سمحت، المايونيز فيها دهون كتير أوي."
+    },
+    {
+      "id": "w68-06",
+      "q": "___ essen wir gesund?",
+      "answer": "Ab wann",
+      "opts": [
+        "Ab wann",
+        "Wie viele",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "هناكل أكل صحي من إمتى؟",
+      "reply": "Ab morgen!",
+      "reply_ar": "من بكرة!"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g68-1",
+      "h": "الأمر لـ du: شيل du والنهاية -st",
+      "body": "عشان تنصح أو تطلب حاجة من حد بتقوله du: خد تصريف du، وشيل du والنهاية -st، والفعل ييجي في الأول: du machst تبقى Mach! و du trinkst تبقى Trink! ولو جذر الفعل آخره s أو ß أو z أو x بتشيل -t بس: du isst تبقى Iss! و du putzt تبقى Putz! وممكن تزوّد e (Mache! / Trinke!) والمعنى واحد، بس من غيرها أشهر في الكلام، وبالـ e أكتر في الكتابة.",
+      "examples": [
+        {
+          "de": "Trink viel Wasser!",
+          "ar": "اشرب مية كتير!"
+        },
+        {
+          "de": "Mach viel Sport!",
+          "ar": "العب رياضة كتير!"
+        },
+        {
+          "de": "Iss lieber mehr Obst!",
+          "ar": "الأحسن تاكل فاكهة أكتر!"
+        }
+      ],
+      "table": [
+        [
+          "تصريف du",
+          "الأمر"
+        ],
+        [
+          "du machst",
+          "Mach!"
+        ],
+        [
+          "du trinkst",
+          "Trink!"
+        ],
+        [
+          "du gehst",
+          "Geh!"
+        ],
+        [
+          "du isst",
+          "Iss!"
+        ],
+        [
+          "du putzt",
+          "Putz!"
+        ]
+      ]
+    },
+    {
+      "id": "g68-2",
+      "h": "حالات خاصة: Schlaf! و Nimm! و Arbeite!",
+      "body": "1) الفعل اللي a بتبقى فيه ä مع du، الأمر بيرجع a من غير النقطتين: du schläfst تبقى Schlaf! و du fährst تبقى Fahr! 2) الفعل اللي e بتبقى فيه i أو ie، الـ i بتفضل في الأمر ومينفعش تزوّد e: du nimmst تبقى Nimm! و du vergisst تبقى Vergiss! و du liest تبقى Lies! 3) لو تصريف du آخره -est، الأمر لازم يخلص بـ -e: du arbeitest تبقى Arbeite! و du öffnest تبقى Öffne!",
+      "examples": [
+        {
+          "de": "Schlaf genug und mach viel Sport!",
+          "ar": "نام كفاية والعب رياضة كتير!"
+        },
+        {
+          "de": "Nimm nicht so viel Mayonnaise!",
+          "ar": "ماتاخدش مايونيز كتير كده!"
+        },
+        {
+          "de": "Arbeite nicht zu viel!",
+          "ar": "ماتشتغلش زيادة عن اللزوم!"
+        }
+      ],
+      "table": [
+        [
+          "تصريف du",
+          "الأمر",
+          "القاعدة"
+        ],
+        [
+          "du schläfst",
+          "Schlaf!",
+          "ä ترجع a"
+        ],
+        [
+          "du fährst",
+          "Fahr!",
+          "ä ترجع a"
+        ],
+        [
+          "du nimmst",
+          "Nimm!",
+          "الـ i بتفضل"
+        ],
+        [
+          "du vergisst",
+          "Vergiss!",
+          "الـ i بتفضل"
+        ],
+        [
+          "du arbeitest",
+          "Arbeite!",
+          "-est تبقى -e"
+        ],
+        [
+          "du öffnest",
+          "Öffne!",
+          "-est تبقى -e"
+        ]
+      ]
+    },
+    {
+      "id": "g68-3",
+      "h": "الأمر لـ ihr، والمقارنة مع du و Sie",
+      "body": "لو بتكلّم أكتر من واحد بتقولهم ihr: خد تصريف ihr زي ما هو وشيل ihr بس، والنهاية بتفضل: ihr esst تبقى Esst! و ihr macht تبقى Macht! و ihr arbeitet تبقى Arbeitet! وللرسمي (Sie) زي ما اتعلمنا قبل كده: الفعل في الأول وبعده Sie: Trinken Sie viel Wasser! والفعل sein شاذ: Sei! (لواحد) و Seid! (لأكتر من واحد) و Seien Sie! (رسمي).",
+      "examples": [
+        {
+          "de": "Esst mehr Obst und Gemüse!",
+          "ar": "كلوا فاكهة وخضار أكتر!"
+        },
+        {
+          "de": "Trinkt viel Wasser!",
+          "ar": "اشربوا مية كتير!"
+        },
+        {
+          "de": "Sei nicht so faul!",
+          "ar": "ماتبقاش كسلان كده!"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "du",
+          "ihr",
+          "Sie"
+        ],
+        [
+          "trinken",
+          "Trink!",
+          "Trinkt!",
+          "Trinken Sie!"
+        ],
+        [
+          "essen",
+          "Iss!",
+          "Esst!",
+          "Essen Sie!"
+        ],
+        [
+          "schlafen",
+          "Schlaf!",
+          "Schlaft!",
+          "Schlafen Sie!"
+        ],
+        [
+          "arbeiten",
+          "Arbeite!",
+          "Arbeitet!",
+          "Arbeiten Sie!"
+        ],
+        [
+          "sein",
+          "Sei!",
+          "Seid!",
+          "Seien Sie!"
+        ]
+      ]
+    },
+    {
+      "id": "g68-4",
+      "h": "تتكلم عن الأكل الصحي",
+      "body": "تسأل: Ist das gesund? وترد: Ja, das ist gesund. أو Nein, das ist ungesund. Obst hat viele Vitamine، لكن Torte hat viele Kalorien و macht dick (بتتخّن). واللي فيه دهون كتير: fett. والوزن: abnehmen = يخس و zunehmen = يتخن، والاتنين بينفصلوا: Ich nehme ab. / Ich nehme zu. والرجيم: Ich mache eine Diät. و die Leute = الناس، وهي جمع بس.",
+      "examples": [
+        {
+          "de": "Ist das gesund? – Nein, das ist ungesund.",
+          "ar": "هو ده صحي؟ – لأ، ده مضر بالصحة."
+        },
+        {
+          "de": "Viele Leute essen zu viel Fett.",
+          "ar": "ناس كتير بياكلوا دهون زيادة عن اللزوم."
+        },
+        {
+          "de": "Ich möchte abnehmen und mache eine Diät.",
+          "ar": "أنا عايز أخس وعامل رجيم."
+        },
+        {
+          "de": "Im Urlaub nehme ich immer zu.",
+          "ar": "أنا دايمًا بتخن في الإجازة."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "gesund / ungesund",
+          "صحي / مضر بالصحة"
+        ],
+        [
+          "fett",
+          "فيه دهون كتير"
+        ],
+        [
+          "Das macht dick.",
+          "ده بيتخّن."
+        ],
+        [
+          "abnehmen / zunehmen",
+          "يخس / يتخن"
+        ],
+        [
+          "eine Diät machen",
+          "يعمل رجيم"
+        ],
+        [
+          "Vorsicht, scharf!",
+          "خلي بالك، حرّاق!"
+        ]
+      ]
+    }
+  ]
+}

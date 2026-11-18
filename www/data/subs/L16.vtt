@@ -1,0 +1,123 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:09.520 --> 00:00:10.680 region:R1 align:center
+<c.S1>– Hallo.</c>
+
+2
+00:00:11.120 --> 00:00:14.960 region:R1 align:center
+<c.S1>– Guten Tag, Ihre Bestellung.
+Zahlen Sie zusammen oder getrennt?</c>
+
+3
+00:00:15.000 --> 00:00:17.000 region:R1 align:center
+<c.S1>– Zusammen. Was kostet das?</c>
+
+4
+00:00:17.120 --> 00:00:23.600 region:R1 align:center
+<c.S1>– Gut, Moment. Die drei Pizzen
+mit Salami sind 22,50.</c>
+
+5
+00:00:24.400 --> 00:00:28.880 region:R1 align:center
+<c.S1>Dann haben wir eine Pizza Thunfisch,
+eine Pizza Hawaii ohne Schinken: 18 Euro.</c>
+
+6
+00:00:28.920 --> 00:00:32.320 region:R1 align:center
+<c.S1>Das macht zusammen 40,50 Euro.
+Zahlen Sie bar oder mit Karte?</c>
+
+7
+00:00:32.360 --> 00:00:35.800 region:R1 align:center
+<c.S1>– Ich zahle bar. Hier sind 45 Euro.
+Das stimmt so.</c>
+
+8
+00:00:35.840 --> 00:00:39.200 region:R1 align:center
+<c.S1>– Danke! Hier ist die Rechnung.
+Tschüss.</c>
+
+9
+00:00:39.240 --> 00:00:40.040 region:R1 align:center
+<c.S1>– Danke.</c>
+
+10
+00:00:40.080 --> 00:00:43.640 region:R1 align:center
+<c.S1>– So … Wer bekommt die Hawaii
+ohne Schinken?</c>
+
+11
+00:00:43.680 --> 00:00:44.800 region:R1 align:center
+<c.S1>– Ich!</c>
+
+12
+00:00:46.240 --> 00:00:47.040 region:R1 align:center
+<c.S1>– Tonno?</c>
+
+13
+00:00:47.080 --> 00:00:48.040 region:R1 align:center
+<c.S1>– Ja!</c>
+
+14
+00:00:48.600 --> 00:00:49.520 region:R1 align:center
+<c.S1>– Salami?</c>
+
+15
+00:00:49.560 --> 00:00:50.720 region:R1 align:center
+<c.S1>– Salami, ich!</c>
+
+16
+00:00:50.760 --> 00:00:55.240 region:R1 align:center
+<c.S1>– Salami! Und noch eine Salami.</c>
+
+17
+00:00:55.280 --> 00:00:56.760 region:R1 align:center
+<c.S1>– Wie viel kostet die Pizza?</c>
+
+18
+00:00:56.800 --> 00:01:01.200 region:R1 align:center
+<c.S1>– Zehn Euro plus Trinkgeld.
+Und du bist eingeladen!</c>
+
+19
+00:01:01.440 --> 00:01:03.080 region:R1 align:center
+<c.S1>– Danke schön!</c>
+
+20
+00:01:05.920 --> 00:01:08.320 region:R1 align:center
+<c.S1>– Das ist vielleicht die letzte Pizza,
+die ich hier essen werde.</c>
+
+21
+00:01:08.360 --> 00:01:09.760 region:R1 align:center
+<c.S1>– Stimmt.</c>
+
+22
+00:01:09.880 --> 00:01:12.000 region:R1 align:center
+<c.S1>– Nawin geht weg.</c>
+
+23
+00:01:14.320 --> 00:01:17.120 region:R1 align:center
+<c.S1>– Das ist eine Bye-bye-Party?</c>
+
+24
+00:01:17.160 --> 00:01:19.680 region:R1 align:center
+<c.S1>– Eine Abschiedsparty.</c>
+
+25
+00:01:19.760 --> 00:01:21.960 region:R1 align:center
+<c.S1>– Abschiedsparty.</c>
+
+26
+00:01:22.600 --> 00:01:24.120 region:R1 align:center
+<c.S1>– Guten Appetit jetzt!</c>

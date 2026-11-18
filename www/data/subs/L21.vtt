@@ -1,0 +1,108 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:15.800 --> 00:00:17.320 region:R1 align:center
+<c.S1>– Wo ist meine Brille?</c>
+
+2
+00:00:17.360 --> 00:00:19.120 region:R1 align:center
+<c.S1>– Was suchst du?</c>
+
+3
+00:00:19.160 --> 00:00:20.400 region:R1 align:center
+<c.S1>– Meine Brille.</c>
+
+4
+00:00:20.440 --> 00:00:22.800 region:R1 align:center
+<c.S1>Und wo sind die Stifte und das Buch?</c>
+
+5
+00:00:22.960 --> 00:00:27.640 region:R1 align:center
+<c.S1>– Sie sucht die Brille, die Stifte und das Buch.</c>
+
+6
+00:00:28.240 --> 00:00:29.720 region:R1 align:center
+<c.S1>– Ich muss zum Unterricht!</c>
+
+7
+00:00:29.760 --> 00:00:32.400 region:R1 align:center
+<c.S1>– Lisa gibt Deutschkurse
+in einer Sprachschule.</c>
+
+8
+00:00:32.800 --> 00:00:35.240 region:R1 align:center
+<c.S1>Lisa ist Lehrerin. Sie unterrichtet Deutsch.</c>
+
+9
+00:00:35.280 --> 00:00:36.600 region:R1 align:center
+<c.S1>– Du bist eine Lehrerin?</c>
+
+10
+00:00:36.640 --> 00:00:38.120 region:R1 align:center
+<c.S1>– [Ja.]</c>
+
+11
+00:00:40.720 --> 00:00:42.360 region:R1 align:center
+<c.S1>– Die Stifte …</c>
+
+12
+00:00:44.920 --> 00:00:46.760 region:R1 align:center
+<c.S1>die Brille und …</c>
+
+13
+00:00:49.040 --> 00:00:50.600 region:R1 align:center
+<c.S1>Und wie heißt das hier auf Deutsch?</c>
+
+14
+00:00:50.680 --> 00:00:52.720 region:R1 align:center
+<c.S1>– Das Buch! Danke, Nico!</c>
+
+15
+00:00:55.800 --> 00:00:58.080 region:R1 align:center
+<c.S1>Emma wartet auch schon!</c>
+
+16
+00:00:58.120 --> 00:00:59.800 region:R1 align:center
+<c.S1>– Kein Problem, Lisa. Ich hol Emma.</c>
+
+17
+00:00:59.840 --> 00:01:03.280 region:R1 align:center
+<c.S1>– Echt? Danke, du bist echt die Beste!</c>
+
+18
+00:01:04.440 --> 00:01:07.160 region:R1 align:center
+<c.S1>Und nach dem Unterricht
+fahren wir zu Yara, okay?</c>
+
+19
+00:01:08.040 --> 00:01:11.440 region:R1 align:center
+<c.S1>– Yara. August-Straußberg-Gasse 23.</c>
+
+20
+00:01:11.480 --> 00:01:12.800 region:R1 align:center
+<c.S1>– Ja. Ja, genau.</c>
+
+21
+00:01:12.840 --> 00:01:13.680 region:R1 align:center
+<c.S1>– Lisa!</c>
+
+22
+00:01:13.720 --> 00:01:14.560 region:R1 align:center
+<c.S1>– Mhm …</c>
+
+23
+00:01:14.600 --> 00:01:15.760 region:R1 align:center
+<c.S1>– Der Schlüssel!</c>
+
+24
+00:01:15.800 --> 00:01:17.280 region:R1 align:center
+<c.S1>– Danke!</c>

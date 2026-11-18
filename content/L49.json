@@ -1,0 +1,814 @@
+{
+  "n": 49,
+  "sentences": [
+    {
+      "id": "s49-001",
+      "de": "Ich möchte noch ein paar Brötchen kaufen.",
+      "ar": "عايز أشتري كمان كام رغيف فينو.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "quantity",
+        "verb:möchten"
+      ],
+      "alts": [
+        "Noch ein paar Brötchen möchte ich kaufen.",
+        "Ein paar Brötchen möchte ich noch kaufen."
+      ],
+      "cloze": {
+        "word": "paar",
+        "opts": [
+          "paar",
+          "bisschen",
+          "viele"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-002",
+      "de": "Wir brauchen noch ein paar Lebensmittel.",
+      "ar": "لسه محتاجين شوية حاجات أكل.",
+      "kind": "statement",
+      "focus": [
+        "verb:brauchen",
+        "food",
+        "quantity"
+      ],
+      "alts": [
+        "Ein paar Lebensmittel brauchen wir noch.",
+        "Noch ein paar Lebensmittel brauchen wir."
+      ],
+      "cloze": {
+        "word": "brauchen",
+        "opts": [
+          "brauchen",
+          "braucht",
+          "brauche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-003",
+      "de": "Wir können doch für euch einkaufen gehen.",
+      "ar": "ما إحنا ممكن نروح نتسوّق لكم.",
+      "kind": "statement",
+      "focus": [
+        "verb:einkaufen",
+        "verb:können"
+      ],
+      "alts": [
+        "Für euch können wir doch einkaufen gehen.",
+        "Wir können für euch doch einkaufen gehen."
+      ],
+      "cloze": {
+        "word": "können",
+        "opts": [
+          "können",
+          "könnt",
+          "kann"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-004",
+      "de": "Ihr bekommt das nächste Essen umsonst!",
+      "ar": "هتاخدوا الأكلة الجاية ببلاش!",
+      "kind": "statement",
+      "focus": [
+        "verb:bekommen",
+        "price"
+      ],
+      "alts": [
+        "Das nächste Essen bekommt ihr umsonst!",
+        "Umsonst bekommt ihr das nächste Essen!"
+      ],
+      "cloze": {
+        "word": "bekommt",
+        "opts": [
+          "bekommt",
+          "bekommst",
+          "bekommen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-005",
+      "de": "Könnt ihr mir noch ein Hähnchen mitbringen?",
+      "ar": "ممكن تجيبوا لي معاكم فرخة كمان؟",
+      "kind": "question",
+      "focus": [
+        "verb:mitbringen",
+        "article",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-006",
+      "de": "Ein Hähnchen, drei Gurken und ein Pfund Tomaten.",
+      "ar": "فرخة، وتلات خيارات، ورطل طماطم (نص كيلو).",
+      "kind": "answer",
+      "focus": [
+        "quantity",
+        "food",
+        "number"
+      ],
+      "alts": [
+        "Ein Hähnchen, ein Pfund Tomaten und drei Gurken.",
+        "Drei Gurken, ein Hähnchen und ein Pfund Tomaten.",
+        "Drei Gurken, ein Pfund Tomaten und ein Hähnchen.",
+        "Ein Pfund Tomaten, ein Hähnchen und drei Gurken.",
+        "Ein Pfund Tomaten, drei Gurken und ein Hähnchen."
+      ],
+      "cloze": {
+        "word": "Pfund",
+        "opts": [
+          "Pfund",
+          "Flasche",
+          "Tafel"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-007",
+      "de": "Das ist aber nicht viel.",
+      "ar": "بس ده مش كتير!",
+      "kind": "statement",
+      "focus": [
+        "quantity",
+        "negation"
+      ],
+      "alts": [
+        "Aber das ist nicht viel."
+      ],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-008",
+      "de": "Kannst du das bitte noch einmal wiederholen?",
+      "ar": "ممكن تعيد الكلام ده تاني لو سمحت؟",
+      "kind": "question",
+      "focus": [
+        "verb:wiederholen",
+        "polite"
+      ],
+      "alts": [
+        "Kannst du bitte das noch einmal wiederholen?"
+      ],
+      "cloze": {
+        "word": "wiederholen",
+        "opts": [
+          "wiederholen",
+          "wiederholst",
+          "wiederholt"
+        ],
+        "accept": [
+          "sagen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-009",
+      "de": "Das sind 500 Gramm, also ein halbes Kilo.",
+      "ar": "ده 500 جرام، يعني نص كيلو.",
+      "kind": "answer",
+      "focus": [
+        "quantity",
+        "number"
+      ],
+      "alts": [
+        "Das sind also 500 Gramm, ein halbes Kilo."
+      ],
+      "cloze": {
+        "word": "Gramm",
+        "opts": [
+          "Gramm",
+          "Gramme",
+          "Grammen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-010",
+      "de": "Dann reden wir über deine Tante, okay?",
+      "ar": "وبعدين نتكلم عن خالتك، ماشي؟",
+      "kind": "question",
+      "focus": [
+        "verb:reden"
+      ],
+      "alts": [
+        "Wir reden dann über deine Tante, okay?",
+        "Über deine Tante reden wir dann, okay?"
+      ],
+      "cloze": {
+        "word": "reden",
+        "opts": [
+          "reden",
+          "redet",
+          "redest"
+        ],
+        "accept": [
+          "sprechen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s49-011",
+      "de": "Wo kauft Inge ein?",
+      "ar": "إنجي بتتسوّق فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "place",
+        "verb:einkaufen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wo",
+        "opts": [
+          "Wo",
+          "Wohin",
+          "Woher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-012",
+      "de": "Inge kauft im Supermarkt ein.",
+      "ar": "إنجي بتتسوّق من السوبر ماركت.",
+      "kind": "answer",
+      "focus": [
+        "preposition",
+        "dative",
+        "verb:einkaufen"
+      ],
+      "alts": [
+        "Im Supermarkt kauft Inge ein."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "ins",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-013",
+      "de": "Auf dem Markt sind die Preise gut.",
+      "ar": "الأسعار في السوق كويسة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "price"
+      ],
+      "alts": [
+        "Die Preise sind auf dem Markt gut.",
+        "Die Preise auf dem Markt sind gut."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-014",
+      "de": "Brötchen bekommt man in der Bäckerei.",
+      "ar": "العيش الفينو بنجيبه من المخبز.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "verb:bekommen"
+      ],
+      "alts": [
+        "Man bekommt Brötchen in der Bäckerei.",
+        "In der Bäckerei bekommt man Brötchen.",
+        "Man bekommt in der Bäckerei Brötchen."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ],
+        "accept": [
+          "einer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-015",
+      "de": "Ich kaufe Rindfleisch in der Metzgerei.",
+      "ar": "بشتري اللحمة البقري من محل الجزارة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "food"
+      ],
+      "alts": [
+        "Rindfleisch kaufe ich in der Metzgerei.",
+        "In der Metzgerei kaufe ich Rindfleisch.",
+        "Ich kaufe in der Metzgerei Rindfleisch."
+      ],
+      "cloze": {
+        "word": "Metzgerei",
+        "opts": [
+          "Metzgerei",
+          "Bäckerei",
+          "Markt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-016",
+      "de": "Die Liste liegt auf dem Tisch.",
+      "ar": "الليستة على الترابيزة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "verb:liegen"
+      ],
+      "alts": [
+        "Auf dem Tisch liegt die Liste."
+      ],
+      "cloze": {
+        "word": "liegt",
+        "opts": [
+          "liegt",
+          "liegen",
+          "liegst"
+        ],
+        "accept": [
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-017",
+      "de": "Wir haben keine Eier mehr.",
+      "ar": "مبقاش عندنا بيض.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "food",
+        "plural"
+      ],
+      "alts": [
+        "Eier haben wir keine mehr."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-018",
+      "de": "Wir brauchen eine Packung Mehl und zwei Dosen Mais.",
+      "ar": "محتاجين كيس دقيق وعلبتين درة.",
+      "kind": "statement",
+      "focus": [
+        "quantity",
+        "plural",
+        "food"
+      ],
+      "alts": [
+        "Wir brauchen zwei Dosen Mais und eine Packung Mehl.",
+        "Eine Packung Mehl und zwei Dosen Mais brauchen wir.",
+        "Zwei Dosen Mais und eine Packung Mehl brauchen wir."
+      ],
+      "cloze": {
+        "word": "Dosen",
+        "opts": [
+          "Dosen",
+          "Dose",
+          "Packung"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-019",
+      "de": "Ich brauche einen Liter Milch.",
+      "ar": "محتاج لتر لبن.",
+      "kind": "statement",
+      "focus": [
+        "quantity",
+        "accusative"
+      ],
+      "alts": [
+        "Einen Liter Milch brauche ich."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "eine",
+          "einem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-020",
+      "de": "Ich kaufe eine Flasche Olivenöl.",
+      "ar": "هشتري إزازة زيت زيتون.",
+      "kind": "statement",
+      "focus": [
+        "quantity",
+        "food"
+      ],
+      "alts": [
+        "Eine Flasche Olivenöl kaufe ich."
+      ],
+      "cloze": {
+        "word": "Flasche",
+        "opts": [
+          "Flasche",
+          "Tafel",
+          "Stück"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-021",
+      "de": "Eine Tafel Schokolade kostet einen Euro.",
+      "ar": "لوح الشوكولاتة بيورو واحد.",
+      "kind": "statement",
+      "focus": [
+        "quantity",
+        "price",
+        "verb:kosten"
+      ],
+      "alts": [
+        "Einen Euro kostet eine Tafel Schokolade."
+      ],
+      "cloze": {
+        "word": "Tafel",
+        "opts": [
+          "Tafel",
+          "Stück",
+          "Liter"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s49-022",
+      "de": "Möchtest du ein Stück Kuchen?",
+      "ar": "تحب حتة كيكة؟",
+      "kind": "question",
+      "focus": [
+        "quantity",
+        "food",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Stück",
+        "opts": [
+          "Stück",
+          "Liter",
+          "Dose"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w49-01",
+      "q": "___ kauft Inge ein?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wohin",
+        "Wie alt"
+      ],
+      "ar": "إنجي بتتسوّق فين؟",
+      "reply": "Im Supermarkt.",
+      "reply_ar": "من السوبر ماركت."
+    },
+    {
+      "id": "w49-02",
+      "q": "___ bekommt man Rindfleisch?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wie viele"
+      ],
+      "ar": "نلاقي لحمة بقري فين؟",
+      "reply": "In der Metzgerei.",
+      "reply_ar": "في محل الجزارة."
+    },
+    {
+      "id": "w49-03",
+      "q": "___ kostet ein Kilo Tomaten?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "كيلو الطماطم بكام؟",
+      "reply": "Ein Kilo kostet zwei Euro.",
+      "reply_ar": "الكيلو باتنين يورو."
+    },
+    {
+      "id": "w49-04",
+      "q": "___ Eier brauchen wir?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "محتاجين كام بيضة؟",
+      "reply": "Zehn Eier.",
+      "reply_ar": "عشر بيضات."
+    },
+    {
+      "id": "w49-05",
+      "q": "___ Mehl brauchen wir?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "محتاجين دقيق قد إيه؟",
+      "reply": "Eine Packung.",
+      "reply_ar": "كيس واحد."
+    },
+    {
+      "id": "w49-06",
+      "q": "___ schreibt die Liste?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Woher",
+        "Wie viel"
+      ],
+      "ar": "مين بيكتب الليستة؟",
+      "reply": "Nico schreibt die Liste.",
+      "reply_ar": "نيكو بيكتب الليستة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g49-1",
+      "h": "Wo kauft Inge ein? — in / auf + Dativ",
+      "body": "لما نسأل Wo? (فين؟) عن المكان اللي بنشتري منه، الرد بيبقى in أو auf + الاسم في حالة الجر (Dativ): der و das بيبقوا dem، و die بتبقى der. و in + dem بيتلزقوا ويبقوا im. فبنقول: im Supermarkt، in der Bäckerei، in der Metzgerei، auf dem Markt. و einkaufen فعل بينفصل: Inge kauft im Supermarkt ein.",
+      "examples": [
+        {
+          "de": "Wo kauft Inge ein? – Im Supermarkt.",
+          "ar": "إنجي بتتسوّق فين؟ – من السوبر ماركت."
+        },
+        {
+          "de": "Ich kaufe Rindfleisch in der Metzgerei.",
+          "ar": "بشتري اللحمة البقري من محل الجزارة."
+        },
+        {
+          "de": "Brötchen bekommt man in der Bäckerei.",
+          "ar": "العيش الفينو بنجيبه من المخبز."
+        }
+      ],
+      "table": [
+        [
+          "المكان",
+          "الاسم",
+          "Wo? (Dativ)"
+        ],
+        [
+          "السوبر ماركت",
+          "der Supermarkt",
+          "im Supermarkt"
+        ],
+        [
+          "السوق",
+          "der Markt",
+          "auf dem Markt"
+        ],
+        [
+          "محل الجزارة",
+          "die Metzgerei",
+          "in der Metzgerei"
+        ],
+        [
+          "المخبز",
+          "die Bäckerei",
+          "in der Bäckerei"
+        ],
+        [
+          "محل الفاكهة",
+          "das Obstgeschäft",
+          "im Obstgeschäft"
+        ]
+      ]
+    },
+    {
+      "id": "g49-2",
+      "h": "in ولا auf؟",
+      "body": "in = جوّه: محل أو مبنى أو أي حاجة مقفولة: im Supermarkt، im Restaurant، im Kühlschrank. auf = على سطح حاجة: auf dem Tisch، أو في مكان مفتوح زي السوق: auf dem Markt. ده لما نسأل Wo? والحاجة ثابتة (Dativ). لكن لو رايح للمكان (Wohin?) بيبقى Akkusativ: Ich gehe in den Supermarkt. / Wir gehen auf den Markt. (زي درس 44)",
+      "examples": [
+        {
+          "de": "Die Liste liegt auf dem Tisch.",
+          "ar": "الليستة على الترابيزة."
+        },
+        {
+          "de": "Auf dem Markt sind die Preise gut.",
+          "ar": "الأسعار في السوق كويسة."
+        },
+        {
+          "de": "Wir gehen auf den Markt.",
+          "ar": "إحنا رايحين السوق. (Wohin? = Akkusativ)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Wo? (فين؟) = Dativ",
+          "Wohin? (على فين؟) = Akkusativ"
+        ],
+        [
+          "in (جوّه)",
+          "im Supermarkt / in der Bäckerei",
+          "in den Supermarkt / in die Bäckerei"
+        ],
+        [
+          "auf (على / مكان مفتوح)",
+          "auf dem Markt / auf dem Tisch",
+          "auf den Markt / auf den Tisch"
+        ]
+      ]
+    },
+    {
+      "id": "g49-3",
+      "h": "الكميات: eine Flasche Olivenöl",
+      "body": "عشان تقول كمية: العبوة أو الوزن وبعدها الأكل على طول، من غير von ومن غير أداة: eine Flasche Olivenöl، eine Packung Mehl، eine Tafel Schokolade. والأداة بتمشي مع العبوة: der Liter، فبنقول Ich brauche einen Liter Milch. وبعد رقم Gramm و Kilo و Pfund و Stück بيفضلوا مفرد: 500 Gramm، zwei Kilo. لكن zwei Flaschen، zwei Dosen. و ein Pfund = 500 Gramm = ein halbes Kilo.",
+      "examples": [
+        {
+          "de": "Ich brauche einen Liter Milch.",
+          "ar": "محتاج لتر لبن. (der Liter: einen)"
+        },
+        {
+          "de": "Wir brauchen eine Packung Mehl und zwei Dosen Mais.",
+          "ar": "محتاجين كيس دقيق وعلبتين درة."
+        },
+        {
+          "de": "Das sind 500 Gramm, also ein halbes Kilo.",
+          "ar": "ده 500 جرام، يعني نص كيلو."
+        }
+      ],
+      "table": [
+        [
+          "العبوة / الوزن",
+          "مثال",
+          "بالعربي"
+        ],
+        [
+          "die Flasche",
+          "eine Flasche Olivenöl",
+          "إزازة زيت زيتون"
+        ],
+        [
+          "die Packung",
+          "eine Packung Mehl",
+          "كيس دقيق"
+        ],
+        [
+          "die Dose",
+          "eine Dose Mais",
+          "علبة درة"
+        ],
+        [
+          "die Tafel",
+          "eine Tafel Schokolade",
+          "لوح شوكولاتة"
+        ],
+        [
+          "das Stück",
+          "ein Stück Kuchen",
+          "حتة كيكة"
+        ],
+        [
+          "der Liter",
+          "ein Liter Milch",
+          "لتر لبن"
+        ],
+        [
+          "das Kilo",
+          "ein Kilo Tomaten",
+          "كيلو طماطم"
+        ],
+        [
+          "das Pfund",
+          "ein Pfund Tomaten",
+          "رطل طماطم (500 جرام)"
+        ]
+      ]
+    },
+    {
+      "id": "g49-4",
+      "h": "تشتري أكل: جمل مهمة",
+      "body": "لما حاجة تخلص: Wir haben keine Eier mehr. ولما تحتاج حاجات: Wir brauchen noch ein paar Lebensmittel. وبتكتبها في ليستة (die Liste). تسأل عن المكان: Wo bekomme ich …? وعن السعر (der Preis): Was kostet ein Kilo Tomaten? ولو مافهمتش: Kannst du das bitte noch einmal wiederholen? و umsonst يعني ببلاش.",
+      "examples": [
+        {
+          "de": "Wir haben keine Eier mehr.",
+          "ar": "مبقاش عندنا بيض."
+        },
+        {
+          "de": "Was kostet ein Kilo Tomaten? – Zwei Euro.",
+          "ar": "كيلو الطماطم بكام؟ – باتنين يورو."
+        },
+        {
+          "de": "Ihr bekommt das nächste Essen umsonst!",
+          "ar": "هتاخدوا الأكلة الجاية ببلاش!"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "مبقاش عندنا بيض",
+          "Wir haben keine Eier mehr."
+        ],
+        [
+          "لسه محتاجين شوية حاجات أكل",
+          "Wir brauchen noch ein paar Lebensmittel."
+        ],
+        [
+          "ألاقي عيش فينو فين؟",
+          "Wo bekomme ich Brötchen?"
+        ],
+        [
+          "كيلو الطماطم بكام؟",
+          "Was kostet ein Kilo Tomaten?"
+        ],
+        [
+          "ممكن تعيد تاني لو سمحت؟",
+          "Kannst du das bitte noch einmal wiederholen?"
+        ],
+        [
+          "ببلاش",
+          "umsonst"
+        ]
+      ]
+    }
+  ]
+}

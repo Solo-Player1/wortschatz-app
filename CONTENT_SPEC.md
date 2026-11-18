@@ -1,9 +1,21 @@
 # Content spec (v2) — sentences, question words, verbs, grammar notes
 
-Binding contract for the content files of the Wortschatz app (German A1, DW "Nicos Weg" lessons **1–15 only** — never add
-lesson 16+). Learners: two Egyptian adults (Arabic native speakers) preparing for German A1. App UI language: Egyptian
-colloquial Arabic. All content here is **source data**: it lives in `D:/wortschatz-app/content/` and is merged into
-`www/data/content.json` by `python tools/build_content.py` (written by the app developer, not by content authors).
+Binding contract for the content files of the Wortschatz app (German A1, DW "Nicos Weg" — the **whole A1 course,
+lessons 1–77**; lesson 77 is DW's final A1 exam and has no content file). Learners: two Egyptian adults (Arabic native
+speakers) preparing for German A1 — they will be tested on DW Nicos Weg and a real A1 exam, so **stay faithful to the
+DW lesson** (its words, its grammar topic, its episode dialogue). App UI language: Egyptian colloquial Arabic. All
+content here is **source data**: it lives in `D:/wortschatz-app/content/` and is merged into `www/data/content.json` by
+`python tools/build_content.py` (written by the app developer, not by content authors).
+
+**Tools (run from the project root):**
+- `python tools/lesson_pack.py <n>` — everything about lesson n: DW title/goal, **DW grammar topic + grammar pages**,
+  the lesson's words (marked new / from earlier lesson), its new verbs, and the **episode dialogue** (official German
+  subtitles). Add `--vocab` to list every word the learner knows up to lesson n (the vocabulary rule below).
+- `python tools/check_content.py <n>` — validator: must end with **0 ERROR**; fix every WARN you can; INFO lists tokens
+  that *may* be outside the vocabulary rule (inflections are guessed — review them, don't blindly obey).
+- Gold standard to imitate (style, density, Arabic register): `content/L13.json`, `content/L14.json`, `content/L15.json`.
+- Targets per lesson: **18–22 sentences** (≥ 40 % from the episode, `src: "episode"`), **5–6 wfragen**, **2–4 grammar
+  points** that explain exactly the DW grammar topic/pages of that lesson (+ its communication goal).
 
 ## Golden rules
 1. **German must be 100 % correct** standard German (spelling incl. ä ö ü ß, capitalisation of nouns, word order, verb
@@ -24,7 +36,7 @@ colloquial Arabic. All content here is **source data**: it lives in `D:/wortscha
 5. Valid JSON, UTF-8, no comments, no trailing commas. Ids are stable and unique: sentences `s<NN>-<NNN>`
    (`s01-001`), question-word items `w<NN>-<NN>` (`w01-01`), grammar points `g<NN>-<N>`.
 
-## File 1 — `content/L<NN>.json` (one per lesson, NN = 01…15)
+## File 1 — `content/L<NN>.json` (one per lesson, NN = 01…76)
 ```json
 {
   "n": 1,
@@ -105,24 +117,28 @@ colloquial Arabic. All content here is **source data**: it lives in `D:/wortscha
   ]
 }
 ```
-- One entry for every verb that appears in lessons 1–15 (all `k:"verb"` words of `lessons.json` — strip markers like
+- One entry for every verb that appears in lessons 1–76 (all `k:"verb"` words of `lessons.json` — strip markers like
   `(etwas)` / `etwas` / `jemanden`), plus verbs that the lessons' phrases and dialogues obviously need: sein, haben,
   heißen, kommen, wohnen, sprechen, möchten (ich möchte …), and any other present-tense verb used in the lessons'
   phrases (check every `k:"phrase"` word). `lesson` = first lesson where the learner meets it.
 - `forms` = **Präsens** for ich / du / er (= er, sie, es) / wir / ihr / sie (= sie, Sie). Separable verbs: write the
   conjugated form with the particle at the end as it appears in a main clause, e.g. `"ich": "rufe … an"`, and set
-  `"type": "separable"`. `type`: `regular | irregular | modal | separable | mixed`.
+  `"type": "separable"`. `type`: `regular | irregular | modal | separable | mixed` — irregular = strong verb even when
+  its Präsens is regular (gehen, kommen, schreiben, verstehen), mixed = weak endings with a stem change (kennen, denken,
+  bringen), modal = können/müssen/dürfen/sollen/wollen/mögen/möchten, separable wins over all. Reflexive verbs keep the
+  plain forms and give the sich-forms in `note`; only a verb never used without sich carries the pronoun
+  (`"ich": "ruhe mich … aus"`). Check with `python tools/check_verbs.py` (rule-based Präsens check of every form).
 - `examples`: 1–2 short sentences obeying the vocabulary rule of `lesson`.
 
 ## File 3 — `content/wwords.json`
 ```json
 { "wwords": [ { "w": "Wie", "ar": "إزاي / إيه", "lesson": 1, "use": "بنسأل بيها عن الاسم والحال والطريقة", "examples": [ { "de": "Wie heißt du?", "ar": "اسمك إيه؟" } ] } ] }
 ```
-Every question word the learner meets in lessons 1–15 (incl. multi-word ones like "Wie alt", "Wie viel", "Woher"),
-`lesson` = first lesson, 1–3 examples each.
+Every question word the learner meets in lessons 1–76 (incl. multi-word ones like "Wie alt", "Wie viel", "Woher",
+"Wie spät"), `lesson` = first lesson, 1–3 examples each.
 
 ## Self-check before finishing (mandatory)
-Write a tiny Python validator in your scratch folder (not in the project) and run it on your files: JSON parses; ids
-unique and well-formed; every `cloze.word` is one of the tiles of `de` (punctuation stripped); `opts` contain the
-answer exactly once and have no duplicates; `q` contains `___` once; no double spaces; every sentence ends with
-`. ! ?`; then **re-read every German sentence once more as a strict German teacher** and fix anything doubtful.
+Run `python tools/check_content.py <n>` until it reports **0 ERROR** (it checks: JSON, ids, tiles/cloze/opts, `___`,
+spacing/punctuation, counts, alts, that every `src:"episode"` sentence really is in the subtitles, and vocabulary
+hints). Then **re-read every German sentence once more as a strict German teacher** and fix anything doubtful —
+the checker cannot judge grammar or naturalness.

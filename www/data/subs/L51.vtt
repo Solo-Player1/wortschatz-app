@@ -1,0 +1,142 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:10.240 --> 00:00:11.720 region:R1 align:center
+<c.S1>– Ich hätte gerne diese Datteln.</c>
+
+2
+00:00:11.760 --> 00:00:13.120 region:R1 align:center
+<c.S1>– Gern!</c>
+
+3
+00:00:15.480 --> 00:00:16.520 region:R1 align:center
+<c.S1>Das sind 300 Gramm.</c>
+
+4
+00:00:16.560 --> 00:00:17.840 region:R1 align:center
+<c.S1>Darf es sonst noch etwas sein?</c>
+
+5
+00:00:17.880 --> 00:00:20.240 region:R1 align:center
+<c.S1>Bananen vielleicht?
+Die sind im Angebot.</c>
+
+6
+00:00:20.280 --> 00:00:22.680 region:R1 align:center
+<c.S1>Ein Kilo Bananen kostet 1,10 Euro.</c>
+
+7
+00:00:22.720 --> 00:00:25.360 region:R1 align:center
+<c.S1>Oder Äpfel? Ein Kilo für 1,75 Euro.</c>
+
+8
+00:00:25.400 --> 00:00:26.640 region:R1 align:center
+<c.S1>Sehr gut, sehr günstig.</c>
+
+9
+00:00:27.320 --> 00:00:30.160 region:R1 align:center
+<c.S1>– Ich hätte gern ein Pfund
+Tomaten und drei Gurken.</c>
+
+10
+00:00:30.200 --> 00:00:31.800 region:R1 align:center
+<c.S1>Wie viel kosten die Gurken?</c>
+
+11
+00:00:31.840 --> 00:00:34.160 region:R1 align:center
+<c.S1>– Die Gurken kosten heute
+nur 90 Cent das Stück.</c>
+
+12
+00:00:34.240 --> 00:00:36.000 region:R1 align:center
+<c.S1>Oder Sie nehmen fünf Stück für 4 Euro.</c>
+
+13
+00:00:36.600 --> 00:00:37.960 region:R1 align:center
+<c.S1>– Ich nehme fünf Gurken!</c>
+
+14
+00:00:38.920 --> 00:00:41.560 region:R1 align:center
+<c.S1>– Sehr gute Wahl! Die sind ganz frisch.</c>
+
+15
+00:00:41.640 --> 00:00:43.160 region:R1 align:center
+<c.S1>– Was kosten die Tomaten?</c>
+
+16
+00:00:43.200 --> 00:00:46.760 region:R1 align:center
+<c.S1>– Ein Pfund Tomaten kostet 2 Euro.
+Oder drei Pfund für 5 Euro.</c>
+
+17
+00:00:47.080 --> 00:00:48.680 region:R1 align:center
+<c.S1>– Nein, nein. Ein Pfund!</c>
+
+18
+00:00:49.200 --> 00:00:52.720 region:R1 align:center
+<c.S1>– So! Nico, ich glaub,
+wir haben dann alles, oder?</c>
+
+19
+00:00:52.760 --> 00:00:53.880 region:R1 align:center
+<c.S1>– Ich muss noch bezahlen!</c>
+
+20
+00:00:53.920 --> 00:00:54.160 region:R1 align:center
+<c.S1>– Ah.</c>
+
+21
+00:00:54.200 --> 00:00:55.600 region:R1 align:center
+<c.S1>– Wie viel kostet alles zusammen?</c>
+
+22
+00:00:55.640 --> 00:01:00.440 region:R1 align:center
+<c.S1>– 300 Gramm Datteln, fünf Gurken und
+ein Pfund Tomaten, das macht ...</c>
+
+23
+00:01:00.480 --> 00:01:01.720 region:R1 align:center
+<c.S1>12,40 Euro.</c>
+
+24
+00:01:09.400 --> 00:01:11.600 region:R1 align:center
+<c.S1>20 Euro. Vielen Dank.</c>
+
+25
+00:01:14.200 --> 00:01:15.680 region:R1 align:center
+<c.S1>Und 7,60 Euro zurück.</c>
+
+26
+00:01:15.720 --> 00:01:16.880 region:R1 align:center
+<c.S1>– Danke schön.</c>
+
+27
+00:01:16.920 --> 00:01:19.520 region:R1 align:center
+<c.S1>– Hier, die beiden Orangen
+schenke ich Ihnen.</c>
+
+28
+00:01:19.640 --> 00:01:20.360 region:R1 align:center
+<c.S1>– Danke!</c>
+
+29
+00:01:20.400 --> 00:01:21.280 region:R1 align:center
+<c.S1>– Danke!
+– Gern.</c>
+
+30
+00:01:21.320 --> 00:01:21.880 region:R1 align:center
+<c.S1>– Tschüss.</c>
+
+31
+00:01:21.920 --> 00:01:23.040 region:R1 align:center
+<c.S1>– Tschüss.</c>

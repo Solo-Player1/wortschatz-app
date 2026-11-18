@@ -1,0 +1,359 @@
+{
+  "n": 72,
+  "sentences": [
+    {
+      "id": "s72-001",
+      "de": "Der Arzt sagt, du sollst dich ausruhen.",
+      "ar": "الدكتور بيقول إنك المفروض ترتاح.",
+      "kind": "statement",
+      "focus": ["verb:sollen", "advice"],
+      "alts": ["Du sollst dich ausruhen, sagt der Arzt."],
+      "cloze": { "word": "sollst", "opts": ["sollst", "soll", "sollt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-002",
+      "de": "Dr. Grube hat Nico eine Salbe verschrieben.",
+      "ar": "دكتور جروبه كتب لنيكو على مرهم.",
+      "kind": "statement",
+      "focus": ["verb:verschreiben", "perfect"],
+      "alts": [],
+      "cloze": { "word": "verschrieben", "opts": ["verschrieben", "verschreiben", "verschreibt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-003",
+      "de": "Nico, du darfst dein Bein nicht bewegen.",
+      "ar": "يا نيكو، ممنوع تحرّك رجلك.",
+      "kind": "statement",
+      "focus": ["verb:dürfen", "negation"],
+      "alts": ["Du darfst dein Bein nicht bewegen, Nico.", "Nico, dein Bein darfst du nicht bewegen.", "Dein Bein darfst du nicht bewegen, Nico."],
+      "cloze": { "word": "darfst", "opts": ["darfst", "darf", "dürft"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-004",
+      "de": "Nimm die Tabletten dreimal täglich.",
+      "ar": "خد الحبوب تلات مرات في اليوم.",
+      "kind": "statement",
+      "focus": ["imperative", "frequency"],
+      "alts": ["Nimm dreimal täglich die Tabletten."],
+      "cloze": { "word": "täglich", "opts": ["täglich", "nachher", "gestern"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-005",
+      "de": "Die Salbe sollst du vor dem Schlafengehen benutzen.",
+      "ar": "المرهم المفروض تحطّه قبل النوم.",
+      "kind": "statement",
+      "focus": ["verb:sollen", "preposition", "nominalization"],
+      "alts": ["Du sollst die Salbe vor dem Schlafengehen benutzen.", "Du sollst vor dem Schlafengehen die Salbe benutzen.", "Vor dem Schlafengehen sollst du die Salbe benutzen."],
+      "cloze": { "word": "benutzen", "opts": ["benutzen", "benutzt", "benutze"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-006",
+      "de": "Soll er die Tabletten vor oder nach dem Essen nehmen?",
+      "ar": "المفروض ياخد الحبوب قبل الأكل ولا بعده؟",
+      "kind": "question",
+      "focus": ["verb:sollen", "preposition", "yes-no-question"],
+      "alts": ["Soll er vor oder nach dem Essen die Tabletten nehmen?"],
+      "cloze": { "word": "Soll", "opts": ["Soll", "Sollst", "Sollen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-007",
+      "de": "Nach dem Essen.",
+      "ar": "بعد الأكل.",
+      "kind": "answer",
+      "focus": ["preposition", "dative"],
+      "alts": [],
+      "cloze": { "word": "dem", "opts": ["dem", "das", "der"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-008",
+      "de": "Danke für Ihre Hilfe.",
+      "ar": "شكرًا على مساعدة حضرتك.",
+      "kind": "statement",
+      "focus": ["polite", "formal"],
+      "alts": [],
+      "cloze": { "word": "Ihre", "opts": ["Ihre", "Ihr", "Ihren"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-009",
+      "de": "Wir sehen uns nachher, okay?",
+      "ar": "نشوف بعض بعدين، ماشي؟",
+      "kind": "question",
+      "focus": ["time", "farewell"],
+      "alts": ["Nachher sehen wir uns, okay?"],
+      "cloze": { "word": "nachher", "opts": ["nachher", "gestern", "vorgestern"], "accept": ["später"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-010",
+      "de": "Darf ich mitkommen?",
+      "ar": "ينفع آجي معاكم؟",
+      "kind": "question",
+      "focus": ["verb:dürfen", "yes-no-question"],
+      "alts": [],
+      "cloze": { "word": "Darf", "opts": ["Darf", "Darfst", "Dürfen"], "accept": ["Kann"] },
+      "src": "episode"
+    },
+    {
+      "id": "s72-011",
+      "de": "Was fehlt Ihnen?",
+      "ar": "حضرتك بتشتكي من إيه؟",
+      "kind": "question",
+      "focus": ["doctor", "formal"],
+      "alts": [],
+      "cloze": { "word": "Ihnen", "opts": ["Ihnen", "Sie", "Ihre"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-012",
+      "de": "Atmen Sie bitte ein und wieder aus.",
+      "ar": "خد نفس لو سمحت وطلّعه تاني. (رسمي)",
+      "kind": "statement",
+      "focus": ["imperative", "formal", "separable"],
+      "alts": ["Bitte atmen Sie ein und wieder aus.", "Atmen Sie ein und wieder aus, bitte."],
+      "cloze": { "word": "ein", "opts": ["ein", "aus", "an"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-013",
+      "de": "Sie haben eine Entzündung im Hals.",
+      "ar": "حضرتك عندك التهاب في الزور.",
+      "kind": "statement",
+      "focus": ["doctor", "health"],
+      "alts": ["Im Hals haben Sie eine Entzündung.", "Sie haben im Hals eine Entzündung."],
+      "cloze": { "word": "eine", "opts": ["eine", "einen", "ein"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-014",
+      "de": "Die Arzthelferin nimmt Ihnen Blut ab.",
+      "ar": "مساعدة الدكتور هتسحب من حضرتك دم.",
+      "kind": "statement",
+      "focus": ["verb:abnehmen", "separable", "dative"],
+      "alts": [],
+      "cloze": { "word": "ab", "opts": ["ab", "an", "auf"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-015",
+      "de": "Ihr Blutdruck ist zu hoch.",
+      "ar": "ضغط حضرتك عالي زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": ["doctor", "possessive"],
+      "alts": [],
+      "cloze": { "word": "Ihr", "opts": ["Ihr", "Ihre", "Ihren"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-016",
+      "de": "Sie müssen Ihre Ernährung ändern.",
+      "ar": "لازم حضرتك تغيّر نظام أكلك.",
+      "kind": "statement",
+      "focus": ["verb:müssen", "advice"],
+      "alts": ["Ihre Ernährung müssen Sie ändern."],
+      "cloze": { "word": "ändern", "opts": ["ändern", "ändert", "änderst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-017",
+      "de": "Das Rauchen ist schlecht für die Lunge.",
+      "ar": "التدخين وحش للرئة.",
+      "kind": "statement",
+      "focus": ["nominalization", "article"],
+      "alts": ["Für die Lunge ist das Rauchen schlecht.", "Das Rauchen ist für die Lunge schlecht."],
+      "cloze": { "word": "Das", "opts": ["Das", "Der", "Die"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-018",
+      "de": "Zum Glück müssen wir nicht operieren.",
+      "ar": "الحمد لله مش لازم نعمل عملية.",
+      "kind": "statement",
+      "focus": ["verb:müssen", "negation"],
+      "alts": ["Wir müssen zum Glück nicht operieren."],
+      "cloze": { "word": "müssen", "opts": ["müssen", "muss", "müsst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-019",
+      "de": "Ja, ich schreibe Sie eine Woche krank.",
+      "ar": "أيوه، هكتب لحضرتك إجازة مرضية أسبوع.",
+      "kind": "answer",
+      "focus": ["verb:krankschreiben", "separable", "accusative"],
+      "alts": ["Ja, eine Woche schreibe ich Sie krank."],
+      "cloze": { "word": "Sie", "opts": ["Sie", "Ihnen", "Ihr"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-020",
+      "de": "Sie brauchen jetzt viel Ruhe.",
+      "ar": "حضرتك محتاج راحة كتير دلوقتي.",
+      "kind": "statement",
+      "focus": ["advice", "health"],
+      "alts": ["Jetzt brauchen Sie viel Ruhe."],
+      "cloze": { "word": "viel", "opts": ["viel", "viele", "sehr"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-021",
+      "de": "Kann ich ohne Krücken laufen?",
+      "ar": "أقدر أمشي من غير عكاكيز؟",
+      "kind": "question",
+      "focus": ["verb:können", "yes-no-question"],
+      "alts": [],
+      "cloze": { "word": "Kann", "opts": ["Kann", "Kannst", "Können"], "accept": ["Darf"] },
+      "src": "authored"
+    },
+    {
+      "id": "s72-022",
+      "de": "Nach der Arbeit gehe ich zum Arzt.",
+      "ar": "بعد الشغل هروح للدكتور.",
+      "kind": "statement",
+      "focus": ["preposition", "dative", "time"],
+      "alts": ["Ich gehe nach der Arbeit zum Arzt.", "Zum Arzt gehe ich nach der Arbeit."],
+      "cloze": { "word": "der", "opts": ["der", "die", "dem"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w72-01",
+      "q": "___ fehlt Ihnen?",
+      "answer": "Was",
+      "opts": ["Was", "Wo", "Wann", "Wie"],
+      "ar": "حضرتك بتشتكي من إيه؟",
+      "reply": "Mein Hals tut weh.",
+      "reply_ar": "زوري بيوجعني."
+    },
+    {
+      "id": "w72-02",
+      "q": "___ soll ich die Medizin nehmen?",
+      "answer": "Wann",
+      "opts": ["Wann", "Wer", "Welche", "Wie viele"],
+      "ar": "المفروض آخد الدوا إمتى؟",
+      "reply": "Morgens vor dem Frühstück.",
+      "reply_ar": "الصبح قبل الفطار."
+    },
+    {
+      "id": "w72-03",
+      "q": "___ soll ich die Salbe benutzen?",
+      "answer": "Wie oft",
+      "opts": ["Wie oft", "Wer", "Woher", "Wie viele"],
+      "ar": "المفروض أحط المرهم كام مرة؟",
+      "reply": "Zweimal täglich.",
+      "reply_ar": "مرتين في اليوم."
+    },
+    {
+      "id": "w72-04",
+      "q": "___ nimmt mir Blut ab?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wo", "Wie", "Woher"],
+      "ar": "مين هيسحب مني دم؟",
+      "reply": "Der Arzthelfer.",
+      "reply_ar": "مساعد الدكتور."
+    },
+    {
+      "id": "w72-05",
+      "q": "___ bedeutet „Krankschreibung“?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Wann"],
+      "ar": "يعني إيه «Krankschreibung»؟",
+      "reply": "Sie müssen ein paar Tage nicht arbeiten.",
+      "reply_ar": "يعني حضرتك مش لازم تشتغل كام يوم."
+    },
+    {
+      "id": "w72-06",
+      "q": "___ geht es Nico?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wo", "Was", "Wer"],
+      "ar": "نيكو عامل إيه؟",
+      "reply": "Nicht so gut. Sein Bein tut weh.",
+      "reply_ar": "مش كويس أوي. رجله بتوجعه."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g72-1",
+      "h": "vor و nach للوقت: قبل وبعد",
+      "body": "vor = قبل، و nach = بعد، وبيردّوا على السؤال Wann? الاسم اللي بعدهم بييجي في الـ Dativ، فالأداة بتتغيّر: der و das بيبقوا dem، و die (مؤنث) بتبقى der، أما die بتاعة الجمع فبتبقى den. مثلًا: vor dem Unterricht، nach der Pause، nach den Ferien. ولو الجملة بدأت بالوقت ده، الفعل بييجي بعده على طول وبعده الفاعل: Vor dem Frühstück duscht Nico.",
+      "examples": [
+        { "de": "Vor dem Frühstück duscht Nico.", "ar": "نيكو بياخد دش قبل الفطار." },
+        { "de": "Nach dem Frühstück geht er zum Sprachkurs.", "ar": "بعد الفطار بيروح كورس اللغة." },
+        { "de": "Nach der Arbeit gehe ich zum Arzt.", "ar": "بعد الشغل هروح للدكتور." }
+      ],
+      "table": [
+        ["الاسم", "vor / nach + Dativ"],
+        ["der Unterricht", "vor / nach dem Unterricht"],
+        ["die Pause", "vor / nach der Pause"],
+        ["die Arbeit", "vor / nach der Arbeit"],
+        ["das Frühstück", "vor / nach dem Frühstück"],
+        ["das Essen", "vor / nach dem Essen"],
+        ["die Ferien (جمع)", "vor / nach den Ferien"]
+      ]
+    },
+    {
+      "id": "g72-2",
+      "h": "الفعل لما يبقى اسم: das Essen، das Schlafengehen",
+      "body": "أي فعل ممكن يبقى اسم: خد المصدر زي ما هو، واكتبه بحرف كبير، وأداته دايمًا das: essen ← das Essen، rauchen ← das Rauchen، schlafen gehen ← das Schlafengehen (كلمة واحدة). وعشان أداته das، بعد vor و nach بيبقى dem: vor dem Schlafengehen = قبل النوم، nach dem Essen = بعد الأكل.",
+      "examples": [
+        { "de": "Die Salbe sollst du vor dem Schlafengehen benutzen.", "ar": "المرهم المفروض تحطّه قبل النوم." },
+        { "de": "Nehmen Sie die Tabletten nach dem Essen.", "ar": "خد الحبوب بعد الأكل. (رسمي)" },
+        { "de": "Das Rauchen ist schlecht für die Lunge.", "ar": "التدخين وحش للرئة." }
+      ],
+      "table": [
+        ["الفعل", "الاسم"],
+        ["essen", "das Essen"],
+        ["rauchen", "das Rauchen"],
+        ["grillen", "das Grillen"],
+        ["schlafen gehen", "das Schlafengehen"]
+      ]
+    },
+    {
+      "id": "g72-3",
+      "h": "معاني الأفعال المساعدة",
+      "body": "الفعل المساعد بيقول علاقتك بالفعل اللي في آخر الجملة: تقدر تعمله؟ مسموحلك؟ لازم؟ وخد بالك من النفي: nicht dürfen = ممنوع، لكن nicht müssen = مش لازم (براحتك). و sollen = المفروض، يعني حد تاني (زي الدكتور) هو اللي طالب منك أو بينصحك. و möchten أرقّ وأكتر أدب من wollen.",
+      "examples": [
+        { "de": "Darf ich mitkommen? – Nein, du musst dich ausruhen!", "ar": "ينفع آجي معاكم؟ – لأ، لازم ترتاح!" },
+        { "de": "Der Arzt sagt, du sollst dich ausruhen.", "ar": "الدكتور بيقول إنك المفروض ترتاح." },
+        { "de": "Zum Glück müssen wir nicht operieren.", "ar": "الحمد لله مش لازم نعمل عملية." }
+      ],
+      "table": [
+        ["الفعل", "المعنى", "مثال"],
+        ["können", "يقدر / ينفع", "Kann ich ohne Krücken laufen?"],
+        ["dürfen", "مسموح", "Darf ich mitkommen?"],
+        ["nicht dürfen", "ممنوع", "Du darfst dein Bein nicht bewegen."],
+        ["müssen", "لازم", "Sie müssen Ihre Ernährung ändern."],
+        ["nicht müssen", "مش لازم", "Wir müssen nicht operieren."],
+        ["sollen", "المفروض (حد تاني طالب)", "Du sollst dich ausruhen."],
+        ["wollen", "عايز / ناوي", "Nico will wieder Fußball spielen."],
+        ["möchten", "نفسي / حابب (بأدب)", "Ich möchte mit dem Arzt sprechen."]
+      ]
+    },
+    {
+      "id": "g72-4",
+      "h": "تصريف الأفعال المساعدة",
+      "body": "قاعدتين بيمشوا على أغلبهم: ١) ich و er / sie / es نفس الشكل بالظبط، ومفيش -t مع er: ich darf، er darf (مش er darft). ٢) في المفرد حرف العلة بيتغيّر: können ← kann، dürfen ← darf، müssen ← muss، wollen ← will، وفي الجمع بيرجع زي المصدر: wir dürfen، Sie müssen. أما sollen فحرف العلة بتاعه ثابت: ich soll، du sollst. والمساعد في المكان التاني والمصدر في الآخر، وفي سؤال ja / nein المساعد في الأول.",
+      "examples": [
+        { "de": "Darf ich mitkommen?", "ar": "ينفع آجي معاكم؟" },
+        { "de": "Soll er die Tabletten vor oder nach dem Essen nehmen?", "ar": "المفروض ياخد الحبوب قبل الأكل ولا بعده؟" },
+        { "de": "Ich muss jetzt gehen.", "ar": "لازم أمشي دلوقتي." }
+      ],
+      "table": [
+        ["", "ich / er", "du", "wir / sie", "ihr"],
+        ["können", "kann", "kannst", "können", "könnt"],
+        ["dürfen", "darf", "darfst", "dürfen", "dürft"],
+        ["müssen", "muss", "musst", "müssen", "müsst"],
+        ["sollen", "soll", "sollst", "sollen", "sollt"],
+        ["wollen", "will", "willst", "wollen", "wollt"],
+        ["möchten", "möchte", "möchtest", "möchten", "möchtet"]
+      ]
+    }
+  ]
+}

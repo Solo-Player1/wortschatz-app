@@ -1,0 +1,738 @@
+{
+  "n": 27,
+  "sentences": [
+    {
+      "id": "s27-001",
+      "de": "Du bist Wolfgang, oder?",
+      "ar": "إنت فولفجانج، صح؟",
+      "kind": "question",
+      "focus": [
+        "introduce",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "ist",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-002",
+      "de": "Das ist das Wohnzimmer.",
+      "ar": "دي أوضة المعيشة.",
+      "kind": "statement",
+      "focus": [
+        "room",
+        "compound"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wohnzimmer",
+        "opts": [
+          "Wohnzimmer",
+          "Wohnung",
+          "Küche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-003",
+      "de": "Der Tisch, der ist nicht schön.",
+      "ar": "الترابيزة، دي مش حلوة.",
+      "kind": "statement",
+      "focus": [
+        "furniture",
+        "negation",
+        "adjective"
+      ],
+      "alts": [
+        "Der ist nicht schön, der Tisch."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-004",
+      "de": "Die Stühle sind alt.",
+      "ar": "الكراسي قديمة.",
+      "kind": "statement",
+      "focus": [
+        "furniture",
+        "plural",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Stühle",
+        "opts": [
+          "Stühle",
+          "Stuhl",
+          "Stuhle"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-005",
+      "de": "Der Schrank ist viel zu groß.",
+      "ar": "الدولاب كبير زيادة عن اللزوم بكتير.",
+      "kind": "statement",
+      "focus": [
+        "furniture",
+        "zu-adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zu",
+        "opts": [
+          "zu",
+          "sehr",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-006",
+      "de": "Die Stühle sind alt und der Schrank ist viel zu groß.",
+      "ar": "الكراسي قديمة والدولاب كبير زيادة عن اللزوم بكتير.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "zu-adjective",
+        "verb:sein"
+      ],
+      "alts": [
+        "Der Schrank ist viel zu groß und die Stühle sind alt."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-007",
+      "de": "Das ist super.",
+      "ar": "ده تحفة.",
+      "kind": "statement",
+      "focus": [
+        "opinion"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s27-008",
+      "de": "Teppiche, Lampen und Kissen.",
+      "ar": "سجاجيد ولمبات ومخدات.",
+      "kind": "answer",
+      "focus": [
+        "furniture",
+        "plural"
+      ],
+      "alts": [
+        "Teppiche, Kissen und Lampen.",
+        "Lampen, Teppiche und Kissen.",
+        "Lampen, Kissen und Teppiche.",
+        "Kissen, Teppiche und Lampen.",
+        "Kissen, Lampen und Teppiche."
+      ],
+      "cloze": {
+        "word": "Teppiche",
+        "opts": [
+          "Teppiche",
+          "Teppich",
+          "Teppichs"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s27-009",
+      "de": "Wie findest du das Sofa?",
+      "ar": "إيه رأيك في الكنبة؟",
+      "kind": "question",
+      "focus": [
+        "verb:finden",
+        "w-frage",
+        "opinion"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wie",
+        "opts": [
+          "Wie",
+          "Was",
+          "Wer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-010",
+      "de": "Ich finde das Sofa sehr bequem.",
+      "ar": "أنا شايف الكنبة مريحة أوي.",
+      "kind": "answer",
+      "focus": [
+        "verb:finden",
+        "article",
+        "opinion"
+      ],
+      "alts": [
+        "Das Sofa finde ich sehr bequem."
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-011",
+      "de": "Ich finde den Bürostuhl unbequem.",
+      "ar": "أنا شايف كرسي المكتب مش مريح.",
+      "kind": "statement",
+      "focus": [
+        "verb:finden",
+        "compound",
+        "article"
+      ],
+      "alts": [
+        "Den Bürostuhl finde ich unbequem."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-012",
+      "de": "Findest du die Möbel spießig?",
+      "ar": "شايف إن العفش دقة قديمة؟",
+      "kind": "question",
+      "focus": [
+        "verb:finden",
+        "plural",
+        "opinion"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Findest",
+        "opts": [
+          "Findest",
+          "Findet",
+          "Finde"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-013",
+      "de": "Das Bett ist zu kurz.",
+      "ar": "السرير قصير زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "article",
+        "furniture"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bett",
+        "opts": [
+          "Bett",
+          "Tisch",
+          "Couch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-014",
+      "de": "Der Sessel ist schön, aber zu teuer.",
+      "ar": "الفوتيه حلو، بس غالي زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "price",
+        "furniture"
+      ],
+      "alts": [
+        "Der Sessel ist zu teuer, aber schön."
+      ],
+      "cloze": {
+        "word": "Sessel",
+        "opts": [
+          "Sessel",
+          "Couch",
+          "Bett"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-015",
+      "de": "Ist der Teppich zu teuer?",
+      "ar": "هي السجادة غالية زيادة عن اللزوم؟",
+      "kind": "question",
+      "focus": [
+        "zu-adjective",
+        "yes-no-question",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-016",
+      "de": "Nein, er ist nicht zu teuer.",
+      "ar": "لأ، مش غالية زيادة عن اللزوم.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "zu-adjective",
+        "pronoun"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-017",
+      "de": "Wo steht der Fernseher?",
+      "ar": "التليفزيون فين؟",
+      "kind": "question",
+      "focus": [
+        "verb:stehen",
+        "w-frage",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "steht",
+        "opts": [
+          "steht",
+          "stehst",
+          "stehen"
+        ],
+        "accept": [
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-018",
+      "de": "Der Kleiderschrank steht im Schlafzimmer.",
+      "ar": "دولاب الهدوم في أوضة النوم.",
+      "kind": "statement",
+      "focus": [
+        "verb:stehen",
+        "compound",
+        "article"
+      ],
+      "alts": [
+        "Im Schlafzimmer steht der Kleiderschrank."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-019",
+      "de": "Mein Schreibtisch ist zu klein.",
+      "ar": "مكتبي صغير زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "compound",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s27-020",
+      "de": "In der Küche stehen ein Herd und ein Kühlschrank.",
+      "ar": "في المطبخ فيه بوتاجاز وتلاجة.",
+      "kind": "statement",
+      "focus": [
+        "verb:stehen",
+        "article",
+        "furniture"
+      ],
+      "alts": [
+        "Ein Herd und ein Kühlschrank stehen in der Küche.",
+        "In der Küche stehen ein Kühlschrank und ein Herd.",
+        "Ein Kühlschrank und ein Herd stehen in der Küche."
+      ],
+      "cloze": {
+        "word": "Herd",
+        "opts": [
+          "Herd",
+          "Spüle",
+          "Waschmaschine"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w27-01",
+      "q": "___ findest du die Möbel?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيه رأيك في العفش؟",
+      "reply": "Ich finde sie spießig.",
+      "reply_ar": "شايفه دقة قديمة."
+    },
+    {
+      "id": "w27-02",
+      "q": "___ Stühle hat die WG?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "الشقة المشتركة فيها كام كرسي؟",
+      "reply": "Sechs, aber sie sind alt.",
+      "reply_ar": "ستة، بس قديمة."
+    },
+    {
+      "id": "w27-03",
+      "q": "___ steht im Wohnzimmer?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "إيه اللي في أوضة المعيشة؟",
+      "reply": "Da stehen ein Sofa und eine Stehlampe.",
+      "reply_ar": "فيها كنبة وأباجورة طويلة."
+    },
+    {
+      "id": "w27-04",
+      "q": "___ kostet das Sofa?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "الكنبة بكام؟",
+      "reply": "900 Euro. Das ist zu teuer!",
+      "reply_ar": "900 يورو. ده غالي زيادة عن اللزوم!"
+    },
+    {
+      "id": "w27-05",
+      "q": "___ arbeitest du gern?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتحب تشتغل فين؟",
+      "reply": "Im Arbeitszimmer. Da ist es ruhig.",
+      "reply_ar": "في أوضة المكتب، أصلها هادية."
+    },
+    {
+      "id": "w27-06",
+      "q": "___ ist zu groß?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "إيه اللي كبير زيادة عن اللزوم؟",
+      "reply": "Der Schrank. Er ist viel zu groß.",
+      "reply_ar": "الدولاب، كبير زيادة عن اللزوم بكتير."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g27-1",
+      "h": "zu + الصفة = زيادة عن اللزوم",
+      "body": "zu قبل الصفة معناها «زيادة عن اللزوم»: الحاجة مش مناسبة ومش عاجباك. Der Schrank ist zu groß = الدولاب كبير زيادة (مش هيدخل الأوضة). خد بالك: sehr = أوي، وممكن تبقى حاجة حلوة، لكن zu دايمًا مشكلة. وviel zu = زيادة بكتير. وDas Sofa ist zu teuer ليها معنيين: يا إما سعرها مبالغ فيه، يا إما سعرها عادي بس أنا معيش فلوس كفاية.",
+      "examples": [
+        {
+          "de": "Der Schrank ist viel zu groß.",
+          "ar": "الدولاب كبير زيادة عن اللزوم بكتير."
+        },
+        {
+          "de": "Das Bett ist zu kurz.",
+          "ar": "السرير قصير زيادة عن اللزوم."
+        },
+        {
+          "de": "Das Sofa ist sehr schön, aber zu teuer.",
+          "ar": "الكنبة حلوة أوي، بس غالية زيادة عن اللزوم."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "المعنى",
+          "مثال"
+        ],
+        [
+          "sehr",
+          "أوي (عادي، وممكن حلو)",
+          "Das Sofa ist sehr bequem."
+        ],
+        [
+          "zu",
+          "زيادة عن اللزوم (مشكلة)",
+          "Das Bett ist zu kurz."
+        ],
+        [
+          "viel zu",
+          "زيادة بكتير",
+          "Der Schrank ist viel zu groß."
+        ],
+        [
+          "nicht zu",
+          "مش زيادة (يعني مناسب)",
+          "Der Teppich ist nicht zu teuer."
+        ]
+      ]
+    },
+    {
+      "id": "g27-2",
+      "h": "الكلمة المركّبة: آخر كلمة هي الأساس",
+      "body": "الألماني بيلزق كلمتين أو أكتر ويعمل كلمة جديدة. آخر كلمة هي الأساس: هي اللي بتقول الحاجة إيه، وهي اللي بتدّي الأداة: Kleider + der Schrank = der Kleiderschrank. الجزء الأول ممكن يبقى اسم أو فعل أو صفة: schreiben + der Tisch = der Schreibtisch، hoch + das Haus = das Hochhaus. وساعات بيتزاد حرف في النص: Küche + n + Schrank = der Küchenschrank، Arbeit + s + Zimmer = das Arbeitszimmer.",
+      "examples": [
+        {
+          "de": "Der Kleiderschrank steht im Schlafzimmer.",
+          "ar": "دولاب الهدوم في أوضة النوم."
+        },
+        {
+          "de": "Im Arbeitszimmer steht ein Bücherregal.",
+          "ar": "في أوضة المكتب فيه رف كتب."
+        },
+        {
+          "de": "Das ist das Wohnzimmer.",
+          "ar": "دي أوضة المعيشة."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "الأجزاء",
+          "الأداة"
+        ],
+        [
+          "Kleiderschrank",
+          "Kleider (هدوم) + der Schrank",
+          "der"
+        ],
+        [
+          "Kühlschrank",
+          "kühl (بارد) + der Schrank",
+          "der"
+        ],
+        [
+          "Bücherregal",
+          "Bücher + das Regal",
+          "das"
+        ],
+        [
+          "Schreibtisch",
+          "schreiben + der Tisch",
+          "der"
+        ],
+        [
+          "Schreibtischstuhl",
+          "der Schreibtisch + der Stuhl",
+          "der"
+        ],
+        [
+          "Nachttisch",
+          "Nacht (ليل) + der Tisch",
+          "der"
+        ],
+        [
+          "Bürostuhl",
+          "das Büro + der Stuhl",
+          "der"
+        ],
+        [
+          "Stehlampe",
+          "stehen + die Lampe",
+          "die"
+        ],
+        [
+          "Waschmaschine",
+          "waschen (يغسل) + die Maschine (ماكينة)",
+          "die"
+        ]
+      ]
+    },
+    {
+      "id": "g27-3",
+      "h": "رأيك في العفش: finden",
+      "body": "عشان تسأل حد عن رأيه: Wie findest du das Sofa? (بـ Wie، مش Was). والرد: Ich finde + الحاجة + صفة. الحاجة هنا مفعول، فالمذكّر بيبقى den: Ich finde den Sessel bequem. صفات تنفعك: bequem ≠ unbequem، schön، gemütlich، spießig (دقة قديمة). وخد بالك: finden زي arbeiten، بنزوّد e مع du و er و ihr: du findest، er findet.",
+      "examples": [
+        {
+          "de": "Wie findest du das Sofa? – Ich finde es sehr bequem.",
+          "ar": "إيه رأيك في الكنبة؟ – شايفها مريحة أوي."
+        },
+        {
+          "de": "Ich finde den Bürostuhl unbequem.",
+          "ar": "أنا شايف كرسي المكتب مش مريح."
+        },
+        {
+          "de": "Findest du die Möbel spießig?",
+          "ar": "شايف إن العفش دقة قديمة؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "finden",
+          "arbeiten"
+        ],
+        [
+          "ich",
+          "finde",
+          "arbeite"
+        ],
+        [
+          "du",
+          "findest",
+          "arbeitest"
+        ],
+        [
+          "er / sie / es",
+          "findet",
+          "arbeitet"
+        ],
+        [
+          "wir",
+          "finden",
+          "arbeiten"
+        ],
+        [
+          "ihr",
+          "findet",
+          "arbeitet"
+        ],
+        [
+          "sie / Sie",
+          "finden",
+          "arbeiten"
+        ]
+      ]
+    },
+    {
+      "id": "g27-4",
+      "h": "العفش فين؟ stehen و liegen",
+      "body": "عشان تقول الحاجة فين: stehen للحاجات اللي واقفة زي Schrank وSofa وBett وTisch، وliegen للي مفرودة على الأرض زي Teppich. وبعدها المكان: im (= in dem) مع der و das (im Flur، im Wohnzimmer)، و in der مع die (in der Küche). ولو بدأت الجملة بالأوضة، الفعل برضه يفضل تاني حاجة: Im Wohnzimmer steht ein Sofa. ولو الحاجات أكتر من واحدة، الفعل يبقى جمع: stehen.",
+      "examples": [
+        {
+          "de": "Im Wohnzimmer steht ein Fernseher.",
+          "ar": "في أوضة المعيشة فيه تليفزيون."
+        },
+        {
+          "de": "Der Teppich liegt im Wohnzimmer.",
+          "ar": "السجادة في أوضة المعيشة."
+        },
+        {
+          "de": "In der Küche stehen ein Herd und ein Kühlschrank.",
+          "ar": "في المطبخ فيه بوتاجاز وتلاجة."
+        }
+      ],
+      "table": [
+        [
+          "الحاجة",
+          "الفعل",
+          "مثال"
+        ],
+        [
+          "Schrank، Sofa، Bett، Tisch",
+          "steht",
+          "Das Bett steht im Schlafzimmer."
+        ],
+        [
+          "Teppich",
+          "liegt",
+          "Der Teppich liegt im Flur."
+        ],
+        [
+          "أكتر من حاجة (جمع)",
+          "stehen",
+          "Die Stühle stehen in der Küche."
+        ]
+      ]
+    }
+  ]
+}

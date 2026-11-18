@@ -1,0 +1,140 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:14.240 --> 00:00:17.640 region:R1 align:center
+<c.S1>– Vorsicht, Nico. Du darfst
+nicht so stark auftreten.</c>
+
+2
+00:00:17.680 --> 00:00:19.360 region:R1 align:center
+<c.S1>– Schon gut. Ich kann alleine laufen.</c>
+
+3
+00:00:19.440 --> 00:00:22.600 region:R1 align:center
+<c.S1>– Der Arzt schaut sich den Fuß
+jetzt erst mal an.</c>
+
+4
+00:00:22.960 --> 00:00:25.160 region:R1 align:center
+<c.S1>– Hoffentlich müssen wir nicht lange warten.</c>
+
+5
+00:00:25.320 --> 00:00:28.080 region:R1 align:center
+<c.S1>– Das glaube ich nicht.
+Wir haben ja einen Termin.</c>
+
+6
+00:00:30.760 --> 00:00:32.160 region:R1 align:center
+<c.S1>– Hallo!
+– Hallo!</c>
+
+7
+00:00:32.280 --> 00:00:34.200 region:R1 align:center
+<c.S1>– Hallo, guten Tag!
+Haben Sie einen Termin?</c>
+
+8
+00:00:34.240 --> 00:00:35.400 region:R1 align:center
+<c.S1>– Ja, ich hab angerufen.</c>
+
+9
+00:00:35.920 --> 00:00:38.800 region:R1 align:center
+<c.S1>Unser Freund, Nico González,
+hat Schmerzen am Fuß.</c>
+
+10
+00:00:40.040 --> 00:00:41.760 region:R1 align:center
+<c.S1>– Der Fuß sieht nicht gut aus.</c>
+
+11
+00:00:41.880 --> 00:00:43.400 region:R1 align:center
+<c.S1>– Haben Sie starke Schmerzen?</c>
+
+12
+00:00:43.720 --> 00:00:44.840 region:R1 align:center
+<c.S1>– Es tut weh.</c>
+
+13
+00:00:44.880 --> 00:00:46.640 region:R1 align:center
+<c.S1>– Der Arzt schaut sich das gleich an.</c>
+
+14
+00:00:46.760 --> 00:00:49.960 region:R1 align:center
+<c.S1>Er muss den Fuß sicher auch röntgen.
+Vielleicht ist er gebrochen.</c>
+
+15
+00:00:50.080 --> 00:00:51.680 region:R1 align:center
+<c.S1>– Gebrochen?</c>
+
+16
+00:00:52.800 --> 00:00:54.560 region:R1 align:center
+<c.S1>– Was heißt „gebrochen“?</c>
+
+17
+00:00:55.640 --> 00:00:56.440 region:R1 align:center
+<c.S1>– Egal.</c>
+
+18
+00:00:56.520 --> 00:00:58.920 region:R1 align:center
+<c.S1>– Keine Sorge. Das steht ja
+auch noch gar nicht fest.</c>
+
+19
+00:00:59.400 --> 00:01:01.440 region:R1 align:center
+<c.S1>Sie waren noch nie hier in der Praxis, oder?</c>
+
+20
+00:01:01.840 --> 00:01:03.680 region:R1 align:center
+<c.S1>Dann hätte ich gern Ihre Versichertenkarte.</c>
+
+21
+00:01:05.320 --> 00:01:07.240 region:R1 align:center
+<c.S1>Sie haben doch eine Krankenversicherung?</c>
+
+22
+00:01:09.160 --> 00:01:10.640 region:R1 align:center
+<c.S1>– Nico?</c>
+
+23
+00:01:10.800 --> 00:01:11.680 region:R1 align:center
+<c.S1>– Hier.</c>
+
+24
+00:01:11.840 --> 00:01:13.000 region:R1 align:center
+<c.S1>– Ja.</c>
+
+25
+00:01:14.720 --> 00:01:15.880 region:R1 align:center
+<c.S1>– Danke!</c>
+
+26
+00:01:16.120 --> 00:01:18.080 region:R1 align:center
+<c.S1>Bitte gehen Sie schon mal in den
+Behandlungsraum.</c>
+
+27
+00:01:18.120 --> 00:01:19.560 region:R1 align:center
+<c.S1>Der Arzt ist gleich bei Ihnen.</c>
+
+28
+00:01:19.600 --> 00:01:20.480 region:R1 align:center
+<c.S1>– Okay. Danke!</c>
+
+29
+00:01:20.600 --> 00:01:22.840 region:R1 align:center
+<c.S1>– Bitte. Einmal hier lang. Die brauch ich noch.
+Die bring ich Ihnen.</c>
+
+30
+00:01:23.280 --> 00:01:24.880 region:R1 align:center
+<c.S1>– Komm!</c>

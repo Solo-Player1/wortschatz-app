@@ -1,0 +1,79 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:12.680 --> 00:00:14.160 region:R1 align:center
+<c.S1>– Hi, Mädels.</c>
+
+2
+00:00:14.280 --> 00:00:16.200 region:R1 align:center
+<c.S1>– Du bist Wolfgang, oder?</c>
+
+3
+00:00:16.240 --> 00:00:17.920 region:R1 align:center
+<c.S1>– Ja, aber alle sagen nur Wolf.</c>
+
+4
+00:00:17.960 --> 00:00:19.360 region:R1 align:center
+<c.S1>– Hi, Wolf.</c>
+
+5
+00:00:20.480 --> 00:00:22.760 region:R1 align:center
+<c.S1>– Nice. Das ist das Wohnzimmer, hm?</c>
+
+6
+00:00:23.000 --> 00:00:24.680 region:R1 align:center
+<c.S1>– Ja, genau.</c>
+
+7
+00:00:25.680 --> 00:00:27.840 region:R1 align:center
+<c.S1>– Der Tisch, der ist nicht schön.</c>
+
+8
+00:00:27.880 --> 00:00:30.720 region:R1 align:center
+<c.S1>Die Stühle sind alt und der
+Schrank ist viel zu groß.</c>
+
+9
+00:00:34.040 --> 00:00:37.800 region:R1 align:center
+<c.S1>Das Sofa, das stellen wir
+da an die Wand.</c>
+
+10
+00:00:38.080 --> 00:00:40.920 region:R1 align:center
+<c.S1>Und in die Ecke kommt
+mein Schlagzeug, die Drums.</c>
+
+11
+00:00:40.960 --> 00:00:43.560 region:R1 align:center
+<c.S1>Das ist doch super. Dann können
+wir zusammen jammen.</c>
+
+12
+00:00:44.640 --> 00:00:45.680 region:R1 align:center
+<c.S1>Und da in die Ecke …</c>
+
+13
+00:00:45.720 --> 00:00:50.040 region:R1 align:center
+<c.S1>Teppiche, wir brauchen viele Teppiche,
+Lampen und Kissen - zum Chillen.</c>
+
+14
+00:00:55.360 --> 00:00:56.760 region:R1 align:center
+<c.S1>– Wir melden uns bei dir, ja?</c>
+
+15
+00:00:56.840 --> 00:00:58.080 region:R1 align:center
+<c.S1>– Ja ...</c>
+
+16
+00:01:03.920 --> 00:01:05.200 region:R1 align:center
+<c.S1>– Wow.</c>

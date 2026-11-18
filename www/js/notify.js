@@ -5,6 +5,7 @@ import { isNative, plugin } from './native.js';
 import { store } from './store.js';
 import { lessonOf } from './data.js';
 import { mission, allPassed } from './mastery.js';
+import { nLessons, planStatus } from './plan.js';
 
 const ID_BASE = 7000;          // تذكيراتنا 7000..7999
 const DAYS_AHEAD = 7;
@@ -59,8 +60,13 @@ function messageFor(dayOffset, hour, m) {
       list.push(['الدروس خلصت — دلوقتي التثبيت', '٥ دقايق مراجعة أو لعبة بيخلّوا الكلام ما يتنسيش.']);
       return pick(list, seed);
     }
+    if (m.plan && m.plan.perDay > 1) list.push([`📅 مطلوب النهارده ${nLessons(m.plan.perDay)}`, `خلّصت ${m.plan.doneToday} — فاضل ${nLessons(m.plan.leftToday)} عشان تخلّص A1 في المعاد.`]);
+    if (m.mode !== 'goal') {
+      const p = planStatus();
+      if (p.on && p.overdue && !p.finished) list.push(['📅 تاريخ الجدول عدّى', 'اختار تاريخ جديد من الإعدادات ونوزّع الدروس الباقية من جديد.']);
+    }
     if (m.mode === 'goal') list.push(['هدف النهارده لسه', `فاضلك ${Math.max(0, m.goal - m.answers)} إجابة وتخلص — يلا ٥ دقايق!`]);
-    // درس نجح خلاص ومستني التاج (بعد الـ15 امتحان) ما نقولش عليه «لسه ما خلصتش»
+    // درس نجح خلاص ومستني التاج (بعد ما كل الامتحانات تخلص) ما نقولش عليه «لسه ما خلصتش»
     else if (m.step) list.push([m.status && m.status.passed ? `👑 تاج ${lt} مستنيك` : `لسه ما خلصتش ${lt}`, `${m.step.label} — ${m.step.hint}. يلا ١٠ دقايق بس!`]);
     if (m.step && m.step.key === 'exam') list.push(['🏁 الوحش مستنيك!', `امتحان الدرس ${n} جاهز — ورّيه مين البطل.`]);
     if (streak > 0) list.push([`🔥 الستريك ${streak} يوم`, 'متضيّعهوش! خش خلّص مهمة النهارده.']);
@@ -72,7 +78,7 @@ function messageFor(dayOffset, hour, m) {
   if (allPassed()) return pick([
     ['وقت المراجعة', 'الكلمات المستحقة النهارده + لعبة صغيرة — وتخلص.'],
     ['🔥 حافظ على الستريك', 'يوم من غير مذاكرة بيصفّر الستريك — متسيبوش.'],
-    ['لعبة ٣ دقايق؟', 'العب على «اللي ذاكرته» — ده اللي بيثبّت الـ١٥ درس.'],
+    ['لعبة ٣ دقايق؟', 'العب على «اللي ذاكرته» — ده اللي بيثبّت الدروس اللي خلّصتها.'],
     ['خطوة لألمانيا', 'المراجعة كل يوم هي اللي بتخلّي الكلام ثابت. يلا!'],
   ], seed);
   return pick([

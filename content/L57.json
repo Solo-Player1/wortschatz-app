@@ -1,0 +1,790 @@
+{
+  "n": 57,
+  "sentences": [
+    {
+      "id": "s57-001",
+      "de": "Hast du den Pullover gekauft?",
+      "ar": "إنت اشتريت البلوفر ده؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "verb:kaufen",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-002",
+      "de": "Ist der neu?",
+      "ar": "هو (البلوفر) جديد؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "neu",
+        "opts": [
+          "neu",
+          "neuen",
+          "neues"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-003",
+      "de": "Nein, das ist kein neuer Pullover.",
+      "ar": "لأ، ده مش بلوفر جديد.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "neuer",
+        "opts": [
+          "neuer",
+          "neue",
+          "neues",
+          "neuen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-004",
+      "de": "Der Pullover ist viel zu groß.",
+      "ar": "البلوفر كبير أوي زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "zu-adjective"
+      ],
+      "alts": [
+        "Viel zu groß ist der Pullover."
+      ],
+      "cloze": {
+        "word": "groß",
+        "opts": [
+          "groß",
+          "großer",
+          "großen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-005",
+      "de": "Ist das jetzt in?",
+      "ar": "هو ده موضة دلوقتي؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "clothes"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "im",
+          "ins"
+        ],
+        "accept": [
+          "modern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-006",
+      "de": "Ich finde den Pullover nicht so schön.",
+      "ar": "أنا مش شايف البلوفر حلو أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:finden",
+        "adjective",
+        "opinion"
+      ],
+      "alts": [
+        "Den Pullover finde ich nicht so schön.",
+        "Nicht so schön finde ich den Pullover."
+      ],
+      "cloze": {
+        "word": "schön",
+        "opts": [
+          "schön",
+          "schöne",
+          "schönen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-007",
+      "de": "Du brauchst neue Sachen zum Anziehen.",
+      "ar": "إنت محتاج هدوم جديدة تلبسها.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "plural",
+        "verb:brauchen"
+      ],
+      "alts": [
+        "Neue Sachen zum Anziehen brauchst du.",
+        "Du brauchst zum Anziehen neue Sachen.",
+        "Zum Anziehen brauchst du neue Sachen.",
+        "Neue Sachen brauchst du zum Anziehen."
+      ],
+      "cloze": {
+        "word": "neue",
+        "opts": [
+          "neue",
+          "neuen",
+          "neuer",
+          "neues"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-008",
+      "de": "Du brauchst ein schickes Hemd.",
+      "ar": "إنت محتاج قميص شيك.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative"
+      ],
+      "alts": [
+        "Ein schickes Hemd brauchst du."
+      ],
+      "cloze": {
+        "word": "schickes",
+        "opts": [
+          "schickes",
+          "schicker",
+          "schicke",
+          "schicken"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-009",
+      "de": "Du brauchst einen warmen Pullover.",
+      "ar": "إنت محتاج بلوفر دافي.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative"
+      ],
+      "alts": [
+        "Einen warmen Pullover brauchst du."
+      ],
+      "cloze": {
+        "word": "warmen",
+        "opts": [
+          "warmen",
+          "warmer",
+          "warme",
+          "warmes"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-010",
+      "de": "Du brauchst eine schöne Hose.",
+      "ar": "إنت محتاج بنطلون حلو.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative"
+      ],
+      "alts": [
+        "Eine schöne Hose brauchst du."
+      ],
+      "cloze": {
+        "word": "schöne",
+        "opts": [
+          "schöne",
+          "schöner",
+          "schönes",
+          "schönen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-011",
+      "de": "Kauf bitte dunkle Brötchen.",
+      "ar": "اشتري عيش فينو أسمر لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "imperative",
+        "plural"
+      ],
+      "alts": [
+        "Bitte kauf dunkle Brötchen.",
+        "Kauf dunkle Brötchen, bitte."
+      ],
+      "cloze": {
+        "word": "dunkle",
+        "opts": [
+          "dunkle",
+          "dunkele",
+          "dunklen",
+          "dunkler"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s57-012",
+      "de": "Was trägst du heute?",
+      "ar": "لابس إيه النهارده؟",
+      "kind": "question",
+      "focus": [
+        "verb:tragen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "trägst",
+        "opts": [
+          "trägst",
+          "tragst",
+          "trägt",
+          "trage"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-013",
+      "de": "Ich trage eine bequeme Jeans.",
+      "ar": "أنا لابس بنطلون جينز مريح.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "verb:tragen"
+      ],
+      "alts": [
+        "Eine bequeme Jeans trage ich."
+      ],
+      "cloze": {
+        "word": "bequeme",
+        "opts": [
+          "bequeme",
+          "bequemer",
+          "bequemes",
+          "bequemen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-014",
+      "de": "Nico trägt einen dunklen Pullover.",
+      "ar": "نيكو لابس بلوفر غامق.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative",
+        "verb:tragen"
+      ],
+      "alts": [
+        "Einen dunklen Pullover trägt Nico."
+      ],
+      "cloze": {
+        "word": "dunklen",
+        "opts": [
+          "dunklen",
+          "dunkelen",
+          "dunkle",
+          "dunkler"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-015",
+      "de": "Im Winter trage ich einen dicken Mantel.",
+      "ar": "في الشتا بلبس بالطو تقيل.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative",
+        "verb:tragen"
+      ],
+      "alts": [
+        "Ich trage im Winter einen dicken Mantel.",
+        "Einen dicken Mantel trage ich im Winter.",
+        "Ich trage einen dicken Mantel im Winter."
+      ],
+      "cloze": {
+        "word": "dicken",
+        "opts": [
+          "dicken",
+          "dicker",
+          "dicke",
+          "dickes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-016",
+      "de": "Im Sommer trägt Lisa ein dünnes Top.",
+      "ar": "في الصيف ليزا بتلبس توب خفيف.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "verb:tragen"
+      ],
+      "alts": [
+        "Lisa trägt im Sommer ein dünnes Top.",
+        "Ein dünnes Top trägt Lisa im Sommer.",
+        "Lisa trägt ein dünnes Top im Sommer."
+      ],
+      "cloze": {
+        "word": "dünnes",
+        "opts": [
+          "dünnes",
+          "dünner",
+          "dünne",
+          "dünnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-017",
+      "de": "Welche Kleidung packst du für den Urlaub ein?",
+      "ar": "أنهي هدوم هتحطها في الشنطة للأجازة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:einpacken",
+        "separable"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welcher",
+          "Welches",
+          "Welchen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-018",
+      "de": "Ich packe eine warme Mütze ein.",
+      "ar": "هحط طاقية دافية في الشنطة.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "verb:einpacken",
+        "separable"
+      ],
+      "alts": [
+        "Eine warme Mütze packe ich ein."
+      ],
+      "cloze": {
+        "word": "warme",
+        "opts": [
+          "warme",
+          "warmen",
+          "warmer",
+          "warmes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-019",
+      "de": "Das ist ein schicker Hut!",
+      "ar": "دي برنيطة شيك!",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "clothes"
+      ],
+      "alts": [
+        "Ein schicker Hut ist das!"
+      ],
+      "cloze": {
+        "word": "schicker",
+        "opts": [
+          "schicker",
+          "schickes",
+          "schicke",
+          "schicken"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-020",
+      "de": "Inge trägt einen weiten Rock.",
+      "ar": "إنجي لابسة جيبة واسعة.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative",
+        "verb:tragen"
+      ],
+      "alts": [
+        "Einen weiten Rock trägt Inge."
+      ],
+      "cloze": {
+        "word": "weiten",
+        "opts": [
+          "weiten",
+          "weiter",
+          "weite",
+          "weites"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-021",
+      "de": "Ich finde die Farbe hässlich.",
+      "ar": "أنا شايف اللون وحش.",
+      "kind": "statement",
+      "focus": [
+        "verb:finden",
+        "adjective",
+        "color"
+      ],
+      "alts": [
+        "Die Farbe finde ich hässlich.",
+        "Hässlich finde ich die Farbe."
+      ],
+      "cloze": {
+        "word": "hässlich",
+        "opts": [
+          "hässlich",
+          "hässliche",
+          "hässlichen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s57-022",
+      "de": "Ich brauche neue Turnschuhe.",
+      "ar": "أنا محتاج كوتشي جديد.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "plural",
+        "verb:brauchen"
+      ],
+      "alts": [
+        "Neue Turnschuhe brauche ich."
+      ],
+      "cloze": {
+        "word": "neue",
+        "opts": [
+          "neue",
+          "neuen",
+          "neuer",
+          "neues"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w57-01",
+      "q": "___ trägst du heute?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "لابس إيه النهارده؟",
+      "reply": "Eine Jeans und ein rotes T-Shirt.",
+      "reply_ar": "بنطلون جينز وتي شيرت أحمر."
+    },
+    {
+      "id": "w57-02",
+      "q": "___ findest du den Pullover?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيه رأيك في البلوفر؟",
+      "reply": "Nicht so schön. Er ist viel zu groß.",
+      "reply_ar": "مش حلو أوي. ده كبير أوي زيادة عن اللزوم."
+    },
+    {
+      "id": "w57-03",
+      "q": "___ Farbe hat dein Mantel?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "البالطو بتاعك لونه إيه؟",
+      "reply": "Er ist grau.",
+      "reply_ar": "لونه رمادي."
+    },
+    {
+      "id": "w57-04",
+      "q": "___ sind deine Sachen, Nico?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wann",
+        "Wer"
+      ],
+      "ar": "حاجاتك فين يا نيكو؟",
+      "reply": "In meiner Tasche.",
+      "reply_ar": "في شنطتي."
+    },
+    {
+      "id": "w57-05",
+      "q": "___ packst du für den Urlaub ein?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "هتحط إيه في الشنطة للأجازة؟",
+      "reply": "Sandalen, eine Jeans und ein Top.",
+      "reply_ar": "صندل وبنطلون جينز وتوب."
+    },
+    {
+      "id": "w57-06",
+      "q": "___ brauchst du einen warmen Mantel?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "إنت محتاج بالطو دافي ليه؟",
+      "reply": "Es ist sehr kalt.",
+      "reply_ar": "الجو برد أوي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g57-1",
+      "h": "الصفة بعد الاسم ولا قبله؟",
+      "body": "لو الصفة جت بعد الاسم (بعد sein أو finden) مابتتغيرش خالص، زي ما خدنا في درس 24: Nicos T-Shirt ist rot. وحتى لو جت في أول الجملة: Rot ist Nicos T-Shirt. لكن لو جت قبل الاسم على طول، بتاخد نهاية على حسب جنس الاسم وحالته: Nico trägt ein rotes T-Shirt. وده اسمه تصريف الصفة، وليه 3 أنواع على حسب اللي قبل الاسم: der / die / das، ولا ein / eine، ولا مفيش أداة. الدرس ده: بعد ein / eine / kein.",
+      "examples": [
+        {
+          "de": "Nicos T-Shirt ist rot.",
+          "ar": "التي شيرت بتاع نيكو أحمر. (بعد الاسم: من غير نهاية)"
+        },
+        {
+          "de": "Nico trägt ein rotes T-Shirt.",
+          "ar": "نيكو لابس تي شيرت أحمر. (قبل الاسم: rot + es)"
+        },
+        {
+          "de": "Ist der neu? – Nein, das ist kein neuer Pullover.",
+          "ar": "هو جديد؟ – لأ، ده مش بلوفر جديد. (neu بعد الفعل، neuer قبل الاسم)"
+        }
+      ],
+      "table": [
+        [
+          "فين الصفة؟",
+          "مثال",
+          "ليها نهاية؟"
+        ],
+        [
+          "بعد الاسم (sein / finden)",
+          "Der Pullover ist neu.",
+          "لأ"
+        ],
+        [
+          "في أول الجملة",
+          "Rot ist Nicos T-Shirt.",
+          "لأ"
+        ],
+        [
+          "قبل الاسم على طول",
+          "ein neuer Pullover",
+          "أيوه"
+        ]
+      ]
+    },
+    {
+      "id": "g57-2",
+      "h": "بعد ein / eine / kein: النهاية من der / die / das",
+      "body": "الصفة اللي بين ein والاسم بتاخد آخر حرف من أداة التعريف: مذكّر (der): ein neuer Pullover، مؤنّث (die): eine neue Hose، محايد (das): ein neues Hemd، وجمع من غير أداة: neue Schuhe. وفي النصب (بعد brauchen و tragen و kaufen) المذكّر بس اللي بيتغيّر زي den: einen neuen Pullover. ونفس النهايات بعد kein و mein و dein في المفرد: kein neuer Pullover.",
+      "examples": [
+        {
+          "de": "Nein, das ist kein neuer Pullover.",
+          "ar": "لأ، ده مش بلوفر جديد. (رفع، مذكّر: -er)"
+        },
+        {
+          "de": "Du brauchst einen warmen Pullover.",
+          "ar": "إنت محتاج بلوفر دافي. (نصب، مذكّر: -en)"
+        },
+        {
+          "de": "Du brauchst ein schickes Hemd und eine schöne Hose.",
+          "ar": "إنت محتاج قميص شيك وبنطلون حلو. (das: -es، die: -e)"
+        },
+        {
+          "de": "Du brauchst neue Sachen zum Anziehen.",
+          "ar": "إنت محتاج هدوم جديدة تلبسها. (جمع من غير أداة: -e)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "der Pullover",
+          "ein neuer Pullover",
+          "einen neuen Pullover"
+        ],
+        [
+          "die Hose",
+          "eine neue Hose",
+          "eine neue Hose"
+        ],
+        [
+          "das Hemd",
+          "ein neues Hemd",
+          "ein neues Hemd"
+        ],
+        [
+          "die Schuhe (جمع)",
+          "neue Schuhe",
+          "neue Schuhe"
+        ]
+      ]
+    },
+    {
+      "id": "g57-3",
+      "h": "استثناءات: dunkel و teuer و super",
+      "body": "الصفات اللي آخرها el أو er غالبًا بتوقّع الـ e اللي قبل الـ l / الـ r لما تاخد نهاية: dunkel تبقى einen dunklen Pullover و dunkle Brötchen (مش dunkele)، و teuer تبقى ein teurer Mantel. بس مش دايمًا: ein leckerer Kuchen (الـ e بتفضل). وفيه صفات قليلة مابتتصرّفش خالص، زي super وشوية ألوان: Das ist ein super Film. أما بعد الاسم فمفيش أي تغيير: Der Mantel ist teuer.",
+      "examples": [
+        {
+          "de": "Kauf bitte dunkle Brötchen.",
+          "ar": "اشتري عيش فينو أسمر لو سمحت. (dunkle مش dunkele)"
+        },
+        {
+          "de": "Nico trägt einen dunklen Pullover.",
+          "ar": "نيكو لابس بلوفر غامق."
+        },
+        {
+          "de": "Das ist ein teurer Mantel.",
+          "ar": "ده بالطو غالي. (teurer مش teuerer)"
+        },
+        {
+          "de": "Das ist ein super Film.",
+          "ar": "ده فيلم جامد. (super مابتتغيرش)"
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "قبل الاسم"
+        ],
+        [
+          "dunkel",
+          "ein dunkler Pullover / dunkle Brötchen"
+        ],
+        [
+          "teuer",
+          "ein teurer Mantel / teure Schuhe"
+        ],
+        [
+          "lecker",
+          "ein leckerer Kuchen (الـ e بتفضل)"
+        ],
+        [
+          "super",
+          "ein super Film (مابتتغيرش)"
+        ]
+      ]
+    },
+    {
+      "id": "g57-4",
+      "h": "تتكلم عن اللبس: tragen و einpacken",
+      "body": "tragen = يلبس. الـ a بتبقى ä مع du و er / sie / es بس: du trägst، er trägt، زي fahren و schlafen. و einpacken = يحط في الشنطة، فعل بينفصل: Ich packe eine Mütze ein. وعشان تسأل عن رأي حد: Wie findest du das Hemd? والرد بصفة من غير نهاية: Ich finde es schick / hässlich. و in = موضة: Das ist jetzt in. ولو ماسمعتش كويس قول: Wie bitte?",
+      "examples": [
+        {
+          "de": "Was trägst du heute? – Ich trage eine bequeme Jeans.",
+          "ar": "لابس إيه النهارده؟ – لابس بنطلون جينز مريح."
+        },
+        {
+          "de": "Ich packe eine warme Mütze ein.",
+          "ar": "هحط طاقية دافية في الشنطة."
+        },
+        {
+          "de": "Wie findest du die Farbe? – Ich finde sie hässlich.",
+          "ar": "إيه رأيك في اللون؟ – شايفه وحش."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "tragen"
+        ],
+        [
+          "ich",
+          "trage"
+        ],
+        [
+          "du",
+          "trägst"
+        ],
+        [
+          "er / sie / es",
+          "trägt"
+        ],
+        [
+          "wir",
+          "tragen"
+        ],
+        [
+          "ihr",
+          "tragt"
+        ],
+        [
+          "sie / Sie",
+          "tragen"
+        ]
+      ]
+    }
+  ]
+}

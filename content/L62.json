@@ -1,0 +1,816 @@
+{
+  "n": 62,
+  "sentences": [
+    {
+      "id": "s62-001",
+      "de": "Ungefähr zwei Wochen.",
+      "ar": "حوالي أسبوعين.",
+      "kind": "answer",
+      "focus": [
+        "duration",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wochen",
+        "opts": [
+          "Wochen",
+          "Woche",
+          "Wochenende"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-002",
+      "de": "Nein, sie hat uns nichts gesagt.",
+      "ar": "لأ، هي ماقالتلناش أي حاجة.",
+      "kind": "answer",
+      "focus": [
+        "pronoun",
+        "perfect",
+        "negation"
+      ],
+      "alts": [
+        "Nein, uns hat sie nichts gesagt.",
+        "Nein, nichts hat sie uns gesagt."
+      ],
+      "cloze": {
+        "word": "uns",
+        "opts": [
+          "uns",
+          "wir",
+          "unser"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-003",
+      "de": "Haben Sie sie angerufen?",
+      "ar": "حضرتك اتصلت بيها؟",
+      "kind": "question",
+      "focus": [
+        "pronoun",
+        "accusative",
+        "verb:anrufen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sie",
+        "opts": [
+          "sie",
+          "ihr",
+          "ihnen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-004",
+      "de": "Ja, aber ich erreiche sie nicht.",
+      "ar": "أيوه، بس مش عارف أوصل لها.",
+      "kind": "answer",
+      "focus": [
+        "verb:erreichen",
+        "pronoun",
+        "accusative"
+      ],
+      "alts": [
+        "Ja, ich erreiche sie aber nicht.",
+        "Ja, aber sie erreiche ich nicht."
+      ],
+      "cloze": {
+        "word": "erreiche",
+        "opts": [
+          "erreiche",
+          "erreichst",
+          "erreicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-005",
+      "de": "Das sind meine Eltern.",
+      "ar": "دول أبويا وأمي.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "introduce",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-006",
+      "de": "Was machen denn Ihre Eltern?",
+      "ar": "هو أهل حضرتك بيشتغلوا إيه؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "job",
+        "formal"
+      ],
+      "alts": [
+        "Was machen Ihre Eltern denn?"
+      ],
+      "cloze": {
+        "word": "Ihre",
+        "opts": [
+          "Ihre",
+          "Ihr",
+          "Ihren"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-007",
+      "de": "Mein Vater ist Anwalt und meine Mutter Ingenieurin.",
+      "ar": "أبويا محامي وأمي مهندسة.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "job",
+        "feminine"
+      ],
+      "alts": [
+        "Meine Mutter ist Ingenieurin und mein Vater Anwalt."
+      ],
+      "cloze": {
+        "word": "Anwalt",
+        "opts": [
+          "Anwalt",
+          "Anwältin",
+          "Anwälte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-008",
+      "de": "Können Sie Ihre Eltern anrufen und fragen?",
+      "ar": "ممكن حضرتك تتصل بأهلك وتسألهم؟",
+      "kind": "question",
+      "focus": [
+        "verb:anrufen",
+        "verb:können",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "anrufen",
+        "opts": [
+          "anrufen",
+          "angerufen",
+          "anruft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-009",
+      "de": "Der Kontakt ist nicht sehr gut.",
+      "ar": "التواصل مش كويس أوي.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "family"
+      ],
+      "alts": [
+        "Nicht sehr gut ist der Kontakt."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-010",
+      "de": "Meine Eltern wohnen in Sevilla.",
+      "ar": "أهلي ساكنين في إشبيلية.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "place",
+        "verb:wohnen"
+      ],
+      "alts": [
+        "In Sevilla wohnen meine Eltern."
+      ],
+      "cloze": {
+        "word": "wohnen",
+        "opts": [
+          "wohnen",
+          "wohnt",
+          "wohnst"
+        ],
+        "accept": [
+          "leben"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s62-011",
+      "de": "Ja, ich rufe sie heute an.",
+      "ar": "أيوه، هتصل بيهم النهارده.",
+      "kind": "answer",
+      "focus": [
+        "pronoun",
+        "accusative",
+        "verb:anrufen"
+      ],
+      "alts": [
+        "Ja, heute rufe ich sie an."
+      ],
+      "cloze": {
+        "word": "sie",
+        "opts": [
+          "sie",
+          "ihnen",
+          "ihr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-012",
+      "de": "Meine Eltern sind beide berufstätig.",
+      "ar": "أبويا وأمي الاتنين بيشتغلوا.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "job",
+        "adjective"
+      ],
+      "alts": [
+        "Berufstätig sind meine Eltern beide."
+      ],
+      "cloze": {
+        "word": "berufstätig",
+        "opts": [
+          "berufstätig",
+          "berufstätige",
+          "berufstätigen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-013",
+      "de": "Meine Großeltern sind schon sehr alt.",
+      "ar": "جدي وجدتي كبار أوي في السن.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "adjective"
+      ],
+      "alts": [
+        "Schon sehr alt sind meine Großeltern."
+      ],
+      "cloze": {
+        "word": "alt",
+        "opts": [
+          "alt",
+          "alte",
+          "älter"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-014",
+      "de": "Wo hast du ihn kennengelernt?",
+      "ar": "اتعرفت عليه فين؟",
+      "kind": "question",
+      "focus": [
+        "verb:kennenlernen",
+        "pronoun",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ihn",
+        "opts": [
+          "ihn",
+          "er",
+          "ihm"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-015",
+      "de": "Ich besuche dich am Wochenende.",
+      "ar": "هزورك في الويك إند.",
+      "kind": "statement",
+      "focus": [
+        "verb:besuchen",
+        "pronoun",
+        "accusative"
+      ],
+      "alts": [
+        "Am Wochenende besuche ich dich."
+      ],
+      "cloze": {
+        "word": "dich",
+        "opts": [
+          "dich",
+          "dir",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-016",
+      "de": "Das Studium ist für mich sehr wichtig.",
+      "ar": "الدراسة في الجامعة مهمة جدًا بالنسبة لي.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "pronoun",
+        "accusative"
+      ],
+      "alts": [
+        "Für mich ist das Studium sehr wichtig.",
+        "Das Studium ist sehr wichtig für mich.",
+        "Sehr wichtig ist das Studium für mich.",
+        "Sehr wichtig ist für mich das Studium."
+      ],
+      "cloze": {
+        "word": "mich",
+        "opts": [
+          "mich",
+          "mir",
+          "ich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-017",
+      "de": "Wie kann ich Sie erreichen?",
+      "ar": "أقدر أوصل لحضرتك إزاي؟",
+      "kind": "question",
+      "focus": [
+        "verb:erreichen",
+        "pronoun",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sie",
+        "opts": [
+          "Sie",
+          "Ihnen",
+          "Ihr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-018",
+      "de": "Der Kuchen ist für meinen Vater.",
+      "ar": "الكيكة لأبويا.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "accusative",
+        "possessive"
+      ],
+      "alts": [
+        "Für meinen Vater ist der Kuchen."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meinem",
+          "mein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-019",
+      "de": "Habt ihr oft Streit?",
+      "ar": "إنتوا بتتخانقوا كتير؟",
+      "kind": "question",
+      "focus": [
+        "phrase",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Streit",
+        "opts": [
+          "Streit",
+          "streiten",
+          "streitet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-020",
+      "de": "Mein Bruder und ich streiten oft.",
+      "ar": "أنا وأخويا بنتخانق كتير.",
+      "kind": "statement",
+      "focus": [
+        "verb:streiten",
+        "family"
+      ],
+      "alts": [
+        "Oft streiten mein Bruder und ich."
+      ],
+      "cloze": {
+        "word": "streiten",
+        "opts": [
+          "streiten",
+          "streite",
+          "streitet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-021",
+      "de": "Meine Eltern verreisen gern.",
+      "ar": "أبويا وأمي بيحبوا يسافروا.",
+      "kind": "statement",
+      "focus": [
+        "verb:verreisen",
+        "family"
+      ],
+      "alts": [
+        "Gern verreisen meine Eltern."
+      ],
+      "cloze": {
+        "word": "verreisen",
+        "opts": [
+          "verreisen",
+          "verreist",
+          "verreise"
+        ],
+        "accept": [
+          "reisen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s62-022",
+      "de": "Wie ist das Leben in Deutschland?",
+      "ar": "الحياة في ألمانيا عاملة إزاي؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "w-frage"
+      ],
+      "alts": [
+        "Wie ist in Deutschland das Leben?"
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w62-01",
+      "q": "___ haben Sie Frau González nicht mehr gesehen?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "حضرتك بقالك قد إيه ماشفتش مدام جونزاليس؟",
+      "reply": "Ungefähr zwei Wochen.",
+      "reply_ar": "حوالي أسبوعين."
+    },
+    {
+      "id": "w62-02",
+      "q": "___ besuchst du am Wochenende?",
+      "answer": "Wen",
+      "opts": [
+        "Wen",
+        "Wer",
+        "Wem",
+        "Woher"
+      ],
+      "ar": "هتزور مين في الويك إند؟",
+      "reply": "Meine Eltern.",
+      "reply_ar": "أبويا وأمي."
+    },
+    {
+      "id": "w62-03",
+      "q": "___ in Spanien wohnen Ihre Eltern?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "أهل حضرتك ساكنين فين في إسبانيا؟",
+      "reply": "Meine Eltern wohnen in Sevilla.",
+      "reply_ar": "أهلي ساكنين في إشبيلية."
+    },
+    {
+      "id": "w62-04",
+      "q": "Für ___ ist der Kuchen?",
+      "answer": "wen",
+      "opts": [
+        "wen",
+        "wer",
+        "wem",
+        "wo"
+      ],
+      "ar": "الكيكة لمين؟",
+      "reply": "Für meinen Vater.",
+      "reply_ar": "لأبويا."
+    },
+    {
+      "id": "w62-05",
+      "q": "___ ist dein Vater von Beruf?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "أبوك بيشتغل إيه؟",
+      "reply": "Er ist Anwalt.",
+      "reply_ar": "هو محامي."
+    },
+    {
+      "id": "w62-06",
+      "q": "___ ist der Kontakt zu deinen Eltern?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wohin",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "التواصل بينك وبين أهلك عامل إزاي؟",
+      "reply": "Sehr gut. Ich rufe sie oft an.",
+      "reply_ar": "كويس جدًا. بتصل بيهم كتير."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g62-1",
+      "h": "ضمائر النصب: mich، dich، ihn …",
+      "body": "لما الضمير يبقى مفعول به (Akkusativ) بعد أفعال زي kennen و besuchen و anrufen و erreichen، شكله بيتغيّر: ich بتبقى mich، و du بتبقى dich، و er بتبقى ihn، و wir بتبقى uns، و ihr بتبقى euch. أما sie و es و Sie فمابيتغيروش. قارن: Er kennt mich (er فاعل) و Ich kenne ihn (ihn مفعول به). وماتلخبطهاش مع mir و dir و Ihnen بتوع الـ Dativ (درس 59).",
+      "examples": [
+        {
+          "de": "Wo hast du ihn kennengelernt?",
+          "ar": "اتعرفت عليه فين؟ (er بقت ihn)"
+        },
+        {
+          "de": "Ich besuche dich am Wochenende.",
+          "ar": "هزورك في الويك إند. (du بقت dich)"
+        },
+        {
+          "de": "Haben Sie sie angerufen?",
+          "ar": "حضرتك اتصلت بيها؟ (sie زي ما هي)"
+        },
+        {
+          "de": "Wie kann ich Sie erreichen?",
+          "ar": "أقدر أوصل لحضرتك إزاي؟ (Sie زي ما هي)"
+        }
+      ],
+      "table": [
+        [
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)",
+          "بالعربي"
+        ],
+        [
+          "ich",
+          "mich",
+          "ـني (بيعرفني)"
+        ],
+        [
+          "du",
+          "dich",
+          "ـك (بيعرفك)"
+        ],
+        [
+          "er",
+          "ihn",
+          "ـه (بيعرفه)"
+        ],
+        [
+          "sie",
+          "sie",
+          "ـها (بيعرفها)"
+        ],
+        [
+          "es",
+          "es",
+          "ـه / ـها (لـ das)"
+        ],
+        [
+          "wir",
+          "uns",
+          "ـنا (بيعرفنا)"
+        ],
+        [
+          "ihr",
+          "euch",
+          "ـكم (بيعرفكم)"
+        ],
+        [
+          "sie",
+          "sie",
+          "ـهم (بيعرفهم)"
+        ],
+        [
+          "Sie",
+          "Sie",
+          "حضرتك (رسمي)"
+        ]
+      ]
+    },
+    {
+      "id": "g62-2",
+      "h": "الضمير مكان الاسم: den Vater يبقى ihn",
+      "body": "عشان مانكررش المفعول به، بنحط مكانه ضمير على حسب جنسه: den Vater بيبقى ihn، و die Tante بتبقى sie، و das Handy بيبقى es، والجمع die Eltern بيبقى sie (أما الفاعل der Vater فبيبقى er). وخد بالك: anrufen و besuchen و erreichen بياخدوا Akkusativ: Ich rufe sie an، مش ihnen، حتى لو بالعربي «اتصل بيهم». و kennenlernen بينفصل: Ich lerne ihn kennen، بس مع möchte بييجي في الآخر: Ich möchte ihn kennenlernen، وفي الـ Perfekt: Ich habe ihn kennengelernt.",
+      "examples": [
+        {
+          "de": "Kennst du meinen Vater? – Ja, ich kenne ihn.",
+          "ar": "تعرف أبويا؟ – أيوه، أعرفه."
+        },
+        {
+          "de": "Können Sie Ihre Eltern anrufen? – Ja, ich rufe sie heute an.",
+          "ar": "ممكن حضرتك تتصل بأهلك؟ – أيوه، هتصل بيهم النهارده."
+        },
+        {
+          "de": "Wo ist das Handy? – Ich finde es nicht.",
+          "ar": "الموبايل فين؟ – مش لاقيه."
+        },
+        {
+          "de": "Ich möchte deine Eltern kennenlernen.",
+          "ar": "نفسي أتعرّف على أهلك."
+        }
+      ],
+      "table": [
+        [
+          "الاسم (مفعول به)",
+          "الضمير (Akkusativ)",
+          "مثال"
+        ],
+        [
+          "den Vater",
+          "ihn",
+          "Ich kenne ihn."
+        ],
+        [
+          "die Tante",
+          "sie",
+          "Ich erreiche sie nicht."
+        ],
+        [
+          "das Handy",
+          "es",
+          "Ich finde es nicht."
+        ],
+        [
+          "die Eltern (جمع)",
+          "sie",
+          "Ich rufe sie an."
+        ]
+      ]
+    },
+    {
+      "id": "g62-3",
+      "h": "حرف الجر für + Akkusativ",
+      "body": "für = لـ / عشان / بالنسبة لـ، وبعده دايمًا Akkusativ. يعني المذكّر بس اللي بيتغيّر: für den / einen / meinen Vater. أما die و das والجمع فزي ما هما: für meine Mutter، für das Kind، für meine Eltern. والضماير كمان Akkusativ: für mich، für dich، für ihn، für uns، für euch. وعشان تسأل عن الشخص: Für wen …? (لمين؟)",
+      "examples": [
+        {
+          "de": "Der Kuchen ist für meinen Vater.",
+          "ar": "الكيكة لأبويا. (مذكّر: meinen)"
+        },
+        {
+          "de": "Das Studium ist für mich sehr wichtig.",
+          "ar": "الدراسة في الجامعة مهمة جدًا بالنسبة لي. (mich مش mir)"
+        },
+        {
+          "de": "Für wen ist das Geschenk? – Für dich!",
+          "ar": "الهدية دي لمين؟ – ليك!"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "بعد für (Akkusativ)"
+        ],
+        [
+          "der Vater",
+          "für den / meinen Vater"
+        ],
+        [
+          "die Mutter",
+          "für die / meine Mutter"
+        ],
+        [
+          "das Kind",
+          "für das / mein Kind"
+        ],
+        [
+          "die Eltern (جمع)",
+          "für die / meine Eltern"
+        ],
+        [
+          "ich / du / er",
+          "für mich / dich / ihn"
+        ],
+        [
+          "wir / ihr / Sie",
+          "für uns / euch / Sie"
+        ]
+      ]
+    },
+    {
+      "id": "g62-4",
+      "h": "تعرّف حد على أهلك",
+      "body": "عشان تعرّف حد على أهلك: Das sind meine Eltern (مع الجمع sind مش ist). والشغلانة من غير أداة: Mein Vater ist Anwalt. ولو الاتنين بيشتغلوا: Sie sind beide berufstätig. وعن العلاقة: Der Kontakt ist gut أو nicht sehr gut، و Wir haben oft Streit = Wir streiten oft (بنتخانق كتير). و streiten بياخد e زيادة مع du و er و ihr: du streitest، er streitet.",
+      "examples": [
+        {
+          "de": "Das sind meine Eltern.",
+          "ar": "دول أبويا وأمي."
+        },
+        {
+          "de": "Mein Vater ist Anwalt und meine Mutter Ingenieurin.",
+          "ar": "أبويا محامي وأمي مهندسة."
+        },
+        {
+          "de": "Meine Eltern sind beide berufstätig.",
+          "ar": "أبويا وأمي الاتنين بيشتغلوا."
+        },
+        {
+          "de": "Habt ihr oft Streit? – Nein, wir streiten nie.",
+          "ar": "بتتخانقوا كتير؟ – لأ، عمرنا ما بنتخانق."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "streiten"
+        ],
+        [
+          "ich",
+          "streite"
+        ],
+        [
+          "du",
+          "streitest"
+        ],
+        [
+          "er / sie / es",
+          "streitet"
+        ],
+        [
+          "wir",
+          "streiten"
+        ],
+        [
+          "ihr",
+          "streitet"
+        ],
+        [
+          "sie / Sie",
+          "streiten"
+        ]
+      ]
+    }
+  ]
+}

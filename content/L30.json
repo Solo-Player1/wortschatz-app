@@ -1,0 +1,833 @@
+{
+  "n": 30,
+  "sentences": [
+    {
+      "id": "s30-001",
+      "de": "Emma steht um halb sieben auf.",
+      "ar": "إيما بتقوم من النوم الساعة ستة ونص.",
+      "kind": "statement",
+      "focus": [
+        "verb:aufstehen",
+        "separable",
+        "time"
+      ],
+      "alts": [
+        "Um halb sieben steht Emma auf."
+      ],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "ein",
+          "fern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-002",
+      "de": "Ich putze immer meine Zähne!",
+      "ar": "أنا دايمًا بغسل سناني!",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:putzen"
+      ],
+      "alts": [
+        "Immer putze ich meine Zähne!",
+        "Ich putze meine Zähne immer!",
+        "Meine Zähne putze ich immer!"
+      ],
+      "cloze": {
+        "word": "putze",
+        "opts": [
+          "putze",
+          "putzt",
+          "putzen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-003",
+      "de": "Immer oder manchmal?",
+      "ar": "دايمًا ولا ساعات؟",
+      "kind": "question",
+      "focus": [
+        "frequency"
+      ],
+      "alts": [
+        "Manchmal oder immer?"
+      ],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "und"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-004",
+      "de": "Zum Frühstück isst Emma normalerweise Müsli mit Milch.",
+      "ar": "على الفطار إيما عادةً بتاكل موسلي بلبن.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "food",
+        "verb:essen"
+      ],
+      "alts": [
+        "Emma isst zum Frühstück normalerweise Müsli mit Milch.",
+        "Emma isst normalerweise zum Frühstück Müsli mit Milch.",
+        "Normalerweise isst Emma zum Frühstück Müsli mit Milch.",
+        "Müsli mit Milch isst Emma normalerweise zum Frühstück.",
+        "Emma isst normalerweise Müsli mit Milch zum Frühstück.",
+        "Normalerweise isst Emma Müsli mit Milch zum Frühstück."
+      ],
+      "cloze": {
+        "word": "isst",
+        "opts": [
+          "isst",
+          "esst",
+          "esse",
+          "essen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-005",
+      "de": "Manchmal isst sie einen Apfel.",
+      "ar": "ساعات بتاكل تفاحة.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "food",
+        "article"
+      ],
+      "alts": [
+        "Sie isst manchmal einen Apfel.",
+        "Einen Apfel isst sie manchmal."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-006",
+      "de": "Zum Mittagessen gibt es oft Gemüse.",
+      "ar": "على الغدا كتير بيبقى فيه خضار.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "food"
+      ],
+      "alts": [
+        "Oft gibt es zum Mittagessen Gemüse.",
+        "Es gibt zum Mittagessen oft Gemüse.",
+        "Es gibt oft zum Mittagessen Gemüse.",
+        "Gemüse gibt es oft zum Mittagessen.",
+        "Es gibt oft Gemüse zum Mittagessen.",
+        "Oft gibt es Gemüse zum Mittagessen."
+      ],
+      "cloze": {
+        "word": "gibt",
+        "opts": [
+          "gibt",
+          "gibst",
+          "geben"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-007",
+      "de": "Mittagessen gibt es um zwölf.",
+      "ar": "الغدا الساعة اتناشر.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "food"
+      ],
+      "alts": [
+        "Um zwölf gibt es Mittagessen.",
+        "Es gibt um zwölf Mittagessen.",
+        "Es gibt Mittagessen um zwölf."
+      ],
+      "cloze": {
+        "word": "um",
+        "opts": [
+          "um",
+          "am",
+          "im"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-008",
+      "de": "Von vier bis halb fünf übt sie Flöte.",
+      "ar": "من أربعة لحد أربعة ونص بتتمرّن على الفلوت.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:üben"
+      ],
+      "alts": [
+        "Sie übt von vier bis halb fünf Flöte.",
+        "Flöte übt sie von vier bis halb fünf.",
+        "Sie übt Flöte von vier bis halb fünf."
+      ],
+      "cloze": {
+        "word": "übt",
+        "opts": [
+          "übt",
+          "übst",
+          "übe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-009",
+      "de": "Du siehst nicht fern.",
+      "ar": "مش هتتفرجي على التليفزيون.",
+      "kind": "statement",
+      "focus": [
+        "verb:fernsehen",
+        "separable",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "siehst",
+        "opts": [
+          "siehst",
+          "sehst",
+          "sieht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-010",
+      "de": "Nach dem Spielen räumst du auf.",
+      "ar": "بعد اللعب هتروّقي.",
+      "kind": "statement",
+      "focus": [
+        "verb:aufräumen",
+        "separable",
+        "preposition"
+      ],
+      "alts": [
+        "Du räumst nach dem Spielen auf."
+      ],
+      "cloze": {
+        "word": "Nach",
+        "opts": [
+          "Nach",
+          "Von",
+          "Um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s30-011",
+      "de": "Wann stehst du auf?",
+      "ar": "بتقوم من النوم إمتى؟",
+      "kind": "question",
+      "focus": [
+        "verb:aufstehen",
+        "separable",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "stehst",
+        "opts": [
+          "stehst",
+          "steht",
+          "stehe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-012",
+      "de": "Ich stehe meistens um sieben auf.",
+      "ar": "أنا غالبًا بقوم من النوم الساعة سبعة.",
+      "kind": "answer",
+      "focus": [
+        "verb:aufstehen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Meistens stehe ich um sieben auf.",
+        "Um sieben stehe ich meistens auf."
+      ],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "aus",
+          "ein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-013",
+      "de": "Was machst du am Morgen?",
+      "ar": "بتعمل إيه الصبح؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "um",
+          "im"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-014",
+      "de": "Ich stehe auf und frühstücke.",
+      "ar": "بقوم من النوم وبفطر.",
+      "kind": "answer",
+      "focus": [
+        "verb:aufstehen",
+        "verb:frühstücken",
+        "separable"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "frühstücke",
+        "opts": [
+          "frühstücke",
+          "frühstückst",
+          "frühstückt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-015",
+      "de": "Lisa kauft immer im Supermarkt ein.",
+      "ar": "ليزا دايمًا بتتسوّق من السوبر ماركت.",
+      "kind": "statement",
+      "focus": [
+        "verb:einkaufen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Immer kauft Lisa im Supermarkt ein.",
+        "Im Supermarkt kauft Lisa immer ein.",
+        "Lisa kauft im Supermarkt immer ein."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "auf",
+          "an"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-016",
+      "de": "Ich rufe Lisa jeden Tag an.",
+      "ar": "بتصل بليزا كل يوم.",
+      "kind": "statement",
+      "focus": [
+        "verb:anrufen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Jeden Tag rufe ich Lisa an.",
+        "Lisa rufe ich jeden Tag an.",
+        "Ich rufe jeden Tag Lisa an."
+      ],
+      "cloze": {
+        "word": "rufe",
+        "opts": [
+          "rufe",
+          "rufst",
+          "ruft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-017",
+      "de": "Siehst du oft fern?",
+      "ar": "بتتفرج على التليفزيون كتير؟",
+      "kind": "question",
+      "focus": [
+        "verb:fernsehen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fern",
+        "opts": [
+          "fern",
+          "ein",
+          "an"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-018",
+      "de": "Nein, ich sehe selten fern.",
+      "ar": "لأ، نادرًا لما بتفرج على التليفزيون.",
+      "kind": "answer",
+      "focus": [
+        "verb:fernsehen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Nein, selten sehe ich fern."
+      ],
+      "cloze": {
+        "word": "sehe",
+        "opts": [
+          "sehe",
+          "siehst",
+          "sieht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-019",
+      "de": "Gehst du am Abend oft aus?",
+      "ar": "بتخرج كتير بالليل؟",
+      "kind": "question",
+      "focus": [
+        "verb:ausgehen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Gehst du oft am Abend aus?"
+      ],
+      "cloze": {
+        "word": "Gehst",
+        "opts": [
+          "Gehst",
+          "Geht",
+          "Gehe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-020",
+      "de": "Lotte räumt nie auf.",
+      "ar": "لوته عمرها ما بتروّق.",
+      "kind": "statement",
+      "focus": [
+        "verb:aufräumen",
+        "separable",
+        "frequency"
+      ],
+      "alts": [
+        "Nie räumt Lotte auf."
+      ],
+      "cloze": {
+        "word": "räumt",
+        "opts": [
+          "räumt",
+          "räumst",
+          "räume"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-021",
+      "de": "Was isst du zum Abendessen?",
+      "ar": "بتاكل إيه على العشا؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "w-frage",
+        "verb:essen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zum",
+        "opts": [
+          "zum",
+          "am",
+          "um"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s30-022",
+      "de": "Emma putzt fast immer ihre Zähne.",
+      "ar": "إيما تقريبًا دايمًا بتغسل سنانها.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:putzen"
+      ],
+      "alts": [
+        "Fast immer putzt Emma ihre Zähne.",
+        "Emma putzt ihre Zähne fast immer.",
+        "Ihre Zähne putzt Emma fast immer."
+      ],
+      "cloze": {
+        "word": "fast",
+        "opts": [
+          "fast",
+          "nie",
+          "oft"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w30-01",
+      "q": "___ steht Emma auf?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيما بتقوم من النوم إمتى؟",
+      "reply": "Um halb sieben.",
+      "reply_ar": "الساعة ستة ونص."
+    },
+    {
+      "id": "w30-02",
+      "q": "___ machst du am Nachmittag?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتعمل إيه بعد الضهر؟",
+      "reply": "Ich rufe meine Mutter an.",
+      "reply_ar": "بتصل بماما."
+    },
+    {
+      "id": "w30-03",
+      "q": "___ gibt es Mittagessen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "الغدا إمتى؟",
+      "reply": "Um zwölf.",
+      "reply_ar": "الساعة اتناشر."
+    },
+    {
+      "id": "w30-04",
+      "q": "___ räumt nach dem Spielen auf?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wann",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين بيروّق بعد اللعب؟",
+      "reply": "Emma räumt auf.",
+      "reply_ar": "إيما هي اللي بتروّق."
+    },
+    {
+      "id": "w30-05",
+      "q": "___ gehst du aus?",
+      "answer": "Wie oft",
+      "opts": [
+        "Wie oft",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بتخرج كل قد إيه؟",
+      "reply": "Selten.",
+      "reply_ar": "نادرًا."
+    },
+    {
+      "id": "w30-06",
+      "q": "___ kauft Lisa ein?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "ليزا بتتسوّق فين؟",
+      "reply": "Im Supermarkt.",
+      "reply_ar": "في السوبر ماركت."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g30-1",
+      "h": "أفعال بتنفصل (1): einkaufen، aufstehen",
+      "body": "فيه أفعال بتبدأ بسابقة زي ein، auf، an، aus، fern، والسابقة بتعمل فعل جديد بمعنى تاني: sehen = يشوف، لكن fernsehen = يتفرج على التليفزيون. في الجملة العادية الفعل بيتصرّف ويقف في المكان التاني، والسابقة بتتفصل وتروح آخر الجملة خالص، مهما الجملة طوِلت. وفي السؤال برضه السابقة في الآخر: Wann stehst du auf?",
+      "examples": [
+        {
+          "de": "Lisa kauft ein.",
+          "ar": "ليزا بتتسوّق."
+        },
+        {
+          "de": "Lisa kauft im Supermarkt ein.",
+          "ar": "ليزا بتتسوّق من السوبر ماركت."
+        },
+        {
+          "de": "Lisa kauft immer im Supermarkt ein.",
+          "ar": "ليزا دايمًا بتتسوّق من السوبر ماركت."
+        },
+        {
+          "de": "Wann stehst du auf?",
+          "ar": "بتقوم من النوم إمتى؟"
+        }
+      ],
+      "table": [
+        [
+          "المصدر",
+          "ich",
+          "du",
+          "er / sie / es"
+        ],
+        [
+          "aufstehen",
+          "stehe … auf",
+          "stehst … auf",
+          "steht … auf"
+        ],
+        [
+          "einkaufen",
+          "kaufe … ein",
+          "kaufst … ein",
+          "kauft … ein"
+        ],
+        [
+          "aufräumen",
+          "räume … auf",
+          "räumst … auf",
+          "räumt … auf"
+        ],
+        [
+          "anrufen",
+          "rufe … an",
+          "rufst … an",
+          "ruft … an"
+        ],
+        [
+          "ausgehen",
+          "gehe … aus",
+          "gehst … aus",
+          "geht … aus"
+        ],
+        [
+          "fernsehen",
+          "sehe … fern",
+          "siehst … fern",
+          "sieht … fern"
+        ]
+      ]
+    },
+    {
+      "id": "g30-2",
+      "h": "بينفصل ولا لأ؟",
+      "body": "السابقات دي دايمًا بتنفصل: ab، an، auf، aus، ein، mit، nach، weg، zu. أما be، ent، er، ver، zer فعمرها ما بتنفصل: Ich verstehe das. و durch، über، um، unter ساعات بتنفصل وساعات لأ: Ich ziehe um، لكن Ich unterrichte Deutsch. ومن النطق: الفعل اللي بينفصل الضغط فيه على السابقة: EINkaufen، ANrufen. وخد بالك: fernsehen بيتصرّف زي sehen (du siehst fern)، و frühstücken فعل عادي مش بينفصل: Ich frühstücke.",
+      "examples": [
+        {
+          "de": "Ich rufe Lisa jeden Tag an.",
+          "ar": "بتصل بليزا كل يوم."
+        },
+        {
+          "de": "Du siehst nicht fern.",
+          "ar": "مش هتتفرجي على التليفزيون."
+        },
+        {
+          "de": "Ich stehe auf und frühstücke.",
+          "ar": "بقوم من النوم وبفطر."
+        }
+      ],
+      "table": [
+        [
+          "بينفصل",
+          "مش بينفصل"
+        ],
+        [
+          "anrufen: Ich rufe Lisa an.",
+          "verstehen: Ich verstehe das."
+        ],
+        [
+          "aufstehen: Ich stehe auf.",
+          "bezahlen: Ich bezahle die Rechnung."
+        ],
+        [
+          "einkaufen: Ich kaufe ein.",
+          "bestellen: Ich bestelle eine Pizza."
+        ],
+        [
+          "umziehen: Ich ziehe um.",
+          "unterrichten: Ich unterrichte Deutsch."
+        ]
+      ]
+    },
+    {
+      "id": "g30-3",
+      "h": "كلمات التكرار: immer، manchmal، nie",
+      "body": "عشان تقول بتعمل الحاجة قد إيه، استخدم الكلمات دي (من الأكتر للأقل): immer، fast immer، meistens / normalerweise، oft، manchmal، selten، nie. مكانها غالبًا بعد الفعل على طول: Emma macht immer die Hausaufgaben. ولو جت في أول الجملة، الفعل يفضل في المكان التاني والفاعل ييجي بعده: Manchmal isst sie einen Apfel. والسؤال عنها: Wie oft …?",
+      "examples": [
+        {
+          "de": "Emma macht immer die Hausaufgaben.",
+          "ar": "إيما دايمًا بتعمل الواجب."
+        },
+        {
+          "de": "Lotte macht nie die Hausaufgaben.",
+          "ar": "لوته عمرها ما بتعمل الواجب."
+        },
+        {
+          "de": "Manchmal isst sie einen Apfel.",
+          "ar": "ساعات بتاكل تفاحة."
+        },
+        {
+          "de": "Wie oft gehst du aus? – Selten.",
+          "ar": "بتخرج كل قد إيه؟ – نادرًا."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "المعنى"
+        ],
+        [
+          "immer",
+          "دايمًا"
+        ],
+        [
+          "fast immer",
+          "تقريبًا دايمًا"
+        ],
+        [
+          "meistens",
+          "في الغالب"
+        ],
+        [
+          "normalerweise",
+          "عادةً"
+        ],
+        [
+          "oft",
+          "كتير"
+        ],
+        [
+          "manchmal",
+          "ساعات"
+        ],
+        [
+          "selten",
+          "نادرًا"
+        ],
+        [
+          "nie",
+          "أبدًا / عمره ما"
+        ],
+        [
+          "jeden Tag",
+          "كل يوم"
+        ]
+      ]
+    },
+    {
+      "id": "g30-4",
+      "h": "أوقات اليوم والوجبات",
+      "body": "أوقات اليوم مذكّر (der) وبنقول معاها am: am Morgen، am Vormittag، am Mittag، am Nachmittag، am Abend. بس die Nacht مؤنّث، فبنقول in der Nacht. والوجبات كلها das: das Frühstück، das Mittagessen، das Abendessen، ومعاها zum: zum Frühstück = على الفطار. و nach = بعد: nach dem Spielen = بعد اللعب. وخد بالك: morgen = بكرة، لكن der Morgen = الصبح.",
+      "examples": [
+        {
+          "de": "Was machst du am Morgen?",
+          "ar": "بتعمل إيه الصبح؟"
+        },
+        {
+          "de": "Was isst du zum Abendessen?",
+          "ar": "بتاكل إيه على العشا؟"
+        },
+        {
+          "de": "Nach dem Spielen räumst du auf.",
+          "ar": "بعد اللعب هتروّقي."
+        }
+      ],
+      "table": [
+        [
+          "الوقت",
+          "إمتى؟",
+          "بالمصري"
+        ],
+        [
+          "der Morgen",
+          "am Morgen",
+          "الصبح"
+        ],
+        [
+          "der Vormittag",
+          "am Vormittag",
+          "قبل الضهر"
+        ],
+        [
+          "der Mittag",
+          "am Mittag",
+          "الضهر"
+        ],
+        [
+          "der Nachmittag",
+          "am Nachmittag",
+          "بعد الضهر"
+        ],
+        [
+          "der Abend",
+          "am Abend",
+          "بالليل (المسا)"
+        ],
+        [
+          "die Nacht",
+          "in der Nacht",
+          "بالليل (وقت النوم)"
+        ]
+      ]
+    }
+  ]
+}

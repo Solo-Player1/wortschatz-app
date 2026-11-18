@@ -1,0 +1,123 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.080 --> 00:00:08.720 region:R1 align:center
+<c.S1>– Tada!</c>
+
+2
+00:00:09.760 --> 00:00:10.880 region:R1 align:center
+<c.S1>– Wow, was ist das denn?</c>
+
+3
+00:00:10.920 --> 00:00:12.720 region:R1 align:center
+<c.S1>– Spezialitäten aus verschiedenen Ländern.</c>
+
+4
+00:00:12.760 --> 00:00:14.400 region:R1 align:center
+<c.S1>Ihr müsst die Fähnchen zuordnen.</c>
+
+5
+00:00:14.440 --> 00:00:15.920 region:R1 align:center
+<c.S1>– Das ist ja einfach!</c>
+
+6
+00:00:16.000 --> 00:00:20.320 region:R1 align:center
+<c.S1>Also, Köttbullar … isst man in Schweden! So.</c>
+
+7
+00:00:20.960 --> 00:00:22.200 region:R1 align:center
+<c.S1>– Warst du schon mal in Schweden?</c>
+
+8
+00:00:22.240 --> 00:00:24.200 region:R1 align:center
+<c.S1>– Nee, aber ich fahr nächstes Jahr
+nach Norwegen!</c>
+
+9
+00:00:24.240 --> 00:00:25.560 region:R1 align:center
+<c.S1>– Nimmst du mich mit?</c>
+
+10
+00:00:25.600 --> 00:00:26.280 region:R1 align:center
+<c.S1>– Klar!</c>
+
+11
+00:00:26.320 --> 00:00:29.080 region:R1 align:center
+<c.S1>– Nawin? Du gehst nach Frankreich.</c>
+
+12
+00:00:30.000 --> 00:00:34.040 region:R1 align:center
+<c.S1>– In Frankreich isst man gern Käse.</c>
+
+13
+00:00:34.160 --> 00:00:36.200 region:R1 align:center
+<c.S1>– Ja, gar nicht so schlecht!</c>
+
+14
+00:00:36.280 --> 00:00:37.400 region:R1 align:center
+<c.S1>Und du, Sebastian?</c>
+
+15
+00:00:37.480 --> 00:00:39.000 region:R1 align:center
+<c.S1>– Hier, gib her.</c>
+
+16
+00:00:40.520 --> 00:00:41.680 region:R1 align:center
+<c.S1>So.</c>
+
+17
+00:00:43.520 --> 00:00:49.800 region:R1 align:center
+<c.S1>Also, Sushi isst man in Japan</c>
+
+18
+00:00:51.640 --> 00:00:55.880 region:R1 align:center
+<c.S1>und in Italien isst man Pizza!</c>
+
+19
+00:00:55.920 --> 00:00:57.400 region:R1 align:center
+<c.S1>– Super!</c>
+
+20
+00:00:57.880 --> 00:01:02.400 region:R1 align:center
+<c.S1>Und Nico, was isst man in Spanien?</c>
+
+21
+00:01:02.840 --> 00:01:08.120 region:R1 align:center
+<c.S1>– In Spanien isst man Gazpacho!</c>
+
+22
+00:01:09.200 --> 00:01:10.200 region:R1 align:center
+<c.S1>– Perfekt.</c>
+
+23
+00:01:15.320 --> 00:01:16.920 region:R1 align:center
+<c.S1>– Und du wohnst in Frankreich?</c>
+
+24
+00:01:16.960 --> 00:01:19.720 region:R1 align:center
+<c.S1>– Bald, ja. Ich habe da einen Job.</c>
+
+25
+00:01:19.800 --> 00:01:21.120 region:R1 align:center
+<c.S1>– Cool …</c>
+
+26
+00:01:21.960 --> 00:01:23.520 region:R1 align:center
+<c.S1>– Na ja.</c>
+
+27
+00:01:24.440 --> 00:01:27.120 region:R1 align:center
+<c.S1>Ich mag Deutschland.</c>
+
+28
+00:01:30.000 --> 00:01:31.560 region:R1 align:center
+<c.S1>– Ich auch.</c>

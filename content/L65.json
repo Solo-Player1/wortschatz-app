@@ -1,0 +1,766 @@
+{
+  "n": 65,
+  "sentences": [
+    {
+      "id": "s65-001",
+      "de": "Die Fußbälle liegen hinter dir.",
+      "ar": "الكور وراك.",
+      "kind": "statement",
+      "focus": [
+        "plural",
+        "sport"
+      ],
+      "alts": [
+        "Hinter dir liegen die Fußbälle."
+      ],
+      "cloze": {
+        "word": "Fußbälle",
+        "opts": [
+          "Fußbälle",
+          "Fußball",
+          "Fußballs"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-002",
+      "de": "Waren die Fußbälle teuer?",
+      "ar": "الكور كانت غالية؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Waren",
+        "opts": [
+          "Waren",
+          "War",
+          "Wart"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-003",
+      "de": "Nein, die waren superbillig.",
+      "ar": "لأ، دي كانت رخيصة أوي.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "price"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nein",
+        "opts": [
+          "Nein",
+          "Nicht",
+          "Kein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-004",
+      "de": "Ein Ball hat 4,99 Euro gekostet, weniger als die Getränke.",
+      "ar": "الكورة الواحدة كانت بـ 4,99 يورو، أقل من المشروبات.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "price"
+      ],
+      "alts": [
+        "4,99 Euro hat ein Ball gekostet, weniger als die Getränke."
+      ],
+      "cloze": {
+        "word": "als",
+        "opts": [
+          "als",
+          "wie",
+          "so"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-005",
+      "de": "Verpflegung ist immer am teuersten.",
+      "ar": "الأكل والشرب دايمًا أغلى حاجة.",
+      "kind": "statement",
+      "focus": [
+        "superlative",
+        "price"
+      ],
+      "alts": [
+        "Am teuersten ist immer Verpflegung.",
+        "Am teuersten ist Verpflegung immer.",
+        "Immer ist Verpflegung am teuersten."
+      ],
+      "cloze": {
+        "word": "teuersten",
+        "opts": [
+          "teuersten",
+          "teursten",
+          "teurer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-006",
+      "de": "Bist du bereit?",
+      "ar": "إنت جاهز؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein",
+        "sport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bist",
+        "opts": [
+          "Bist",
+          "Bin",
+          "Ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-007",
+      "de": "Welche Schuhgröße hast du?",
+      "ar": "مقاس جزمتك كام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welcher",
+          "Welches"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-008",
+      "de": "Tarek hat sich am Knie verletzt.",
+      "ar": "طارق اتعوّر في ركبته.",
+      "kind": "statement",
+      "focus": [
+        "verb:verletzen",
+        "body"
+      ],
+      "alts": [
+        "Am Knie hat sich Tarek verletzt.",
+        "Am Knie hat Tarek sich verletzt."
+      ],
+      "cloze": {
+        "word": "verletzt",
+        "opts": [
+          "verletzt",
+          "verletzen",
+          "verletzte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-009",
+      "de": "Ich konnte zwei Tage nicht laufen.",
+      "ar": "ماقدرتش أمشي يومين.",
+      "kind": "statement",
+      "focus": [
+        "verb:laufen",
+        "verb:können"
+      ],
+      "alts": [
+        "Zwei Tage konnte ich nicht laufen."
+      ],
+      "cloze": {
+        "word": "laufen",
+        "opts": [
+          "laufen",
+          "läuft",
+          "lauft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s65-010",
+      "de": "Die Schuhe passen perfekt.",
+      "ar": "الجزمة مقاسها مظبوط تمامًا.",
+      "kind": "statement",
+      "focus": [
+        "verb:passen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "passen",
+        "opts": [
+          "passen",
+          "passt",
+          "passe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-011",
+      "de": "Golf ist teurer als Fußball.",
+      "ar": "الجولف أغلى من الكورة.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "sport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "teurer",
+        "opts": [
+          "teurer",
+          "teuerer",
+          "teuer",
+          "teuersten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-012",
+      "de": "Der Golfschläger ist am teuersten.",
+      "ar": "مضرب الجولف هو الأغلى.",
+      "kind": "statement",
+      "focus": [
+        "superlative",
+        "article"
+      ],
+      "alts": [
+        "Am teuersten ist der Golfschläger."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-013",
+      "de": "Die Basketbälle sind billiger als die Fußbälle.",
+      "ar": "كور السلة أرخص من كور القدم.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "billiger",
+        "opts": [
+          "billiger",
+          "billig",
+          "billigsten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-014",
+      "de": "Deine Haare sind dunkler als meine.",
+      "ar": "شعرك أغمق من شعري.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "body"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dunkler",
+        "opts": [
+          "dunkler",
+          "dunkeler",
+          "dunkel"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-015",
+      "de": "Max hat breite Schultern und starke Arme.",
+      "ar": "ماكس كتافه عريضة ودراعاته قوية.",
+      "kind": "statement",
+      "focus": [
+        "body",
+        "adjective"
+      ],
+      "alts": [
+        "Max hat starke Arme und breite Schultern.",
+        "Breite Schultern und starke Arme hat Max.",
+        "Starke Arme und breite Schultern hat Max."
+      ],
+      "cloze": {
+        "word": "breite",
+        "opts": [
+          "breite",
+          "breiten",
+          "breit"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-016",
+      "de": "Max ist stärker als Tarek.",
+      "ar": "ماكس أقوى من طارق.",
+      "kind": "statement",
+      "focus": [
+        "comparison"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "stärker",
+        "opts": [
+          "stärker",
+          "starker",
+          "stark"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-017",
+      "de": "Nico läuft schneller als Max.",
+      "ar": "نيكو بيجري أسرع من ماكس.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:laufen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "läuft",
+        "opts": [
+          "läuft",
+          "lauft",
+          "laufe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-018",
+      "de": "Wer läuft am schnellsten?",
+      "ar": "مين أسرع واحد في الجري؟",
+      "kind": "question",
+      "focus": [
+        "superlative",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schnellsten",
+        "opts": [
+          "schnellsten",
+          "schneller",
+          "schnell"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-019",
+      "de": "Welche Sportart magst du am liebsten?",
+      "ar": "أنهي رياضة بتحبها أكتر حاجة؟",
+      "kind": "question",
+      "focus": [
+        "superlative",
+        "sport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "liebsten",
+        "opts": [
+          "liebsten",
+          "lieber",
+          "gern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-020",
+      "de": "Ich klettere am liebsten.",
+      "ar": "بحب التسلّق أكتر حاجة.",
+      "kind": "answer",
+      "focus": [
+        "superlative",
+        "verb:klettern"
+      ],
+      "alts": [
+        "Am liebsten klettere ich."
+      ],
+      "cloze": {
+        "word": "klettere",
+        "opts": [
+          "klettere",
+          "kletterst",
+          "klettert"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-021",
+      "de": "Ich mache lieber Aerobic als Yoga.",
+      "ar": "بفضّل الأيروبكس عن اليوجا.",
+      "kind": "answer",
+      "focus": [
+        "comparison",
+        "sport"
+      ],
+      "alts": [
+        "Lieber mache ich Aerobic als Yoga.",
+        "Ich mache Aerobic lieber als Yoga.",
+        "Aerobic mache ich lieber als Yoga.",
+        "Lieber als Yoga mache ich Aerobic."
+      ],
+      "cloze": {
+        "word": "mache",
+        "opts": [
+          "mache",
+          "spiele",
+          "macht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s65-022",
+      "de": "Ich habe mich am Fuß verletzt.",
+      "ar": "اتعوّرت في رجلي.",
+      "kind": "statement",
+      "focus": [
+        "verb:verletzen",
+        "body"
+      ],
+      "alts": [
+        "Am Fuß habe ich mich verletzt."
+      ],
+      "cloze": {
+        "word": "mich",
+        "opts": [
+          "mich",
+          "mir",
+          "sich"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w65-01",
+      "q": "___ Sportart machst du gern?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wer",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "بتحب تعمل أنهي رياضة؟",
+      "reply": "Ich mache gern Aerobic.",
+      "reply_ar": "بحب أعمل أيروبكس."
+    },
+    {
+      "id": "w65-02",
+      "q": "___ hast du dich verletzt?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "اتعوّرت فين؟",
+      "reply": "Am Knie.",
+      "reply_ar": "في ركبتي."
+    },
+    {
+      "id": "w65-03",
+      "q": "___ ist am stärksten?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wie",
+        "Wann"
+      ],
+      "ar": "مين الأقوى؟",
+      "reply": "Max ist am stärksten.",
+      "reply_ar": "ماكس هو الأقوى."
+    },
+    {
+      "id": "w65-04",
+      "q": "___ braucht man für Yoga?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "الواحد محتاج إيه عشان اليوجا؟",
+      "reply": "Eine Yoga-Matte.",
+      "reply_ar": "بساط يوجا."
+    },
+    {
+      "id": "w65-05",
+      "q": "___ ist teurer, Golf oder Fußball?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "إيه أغلى، الجولف ولا الكورة؟",
+      "reply": "Golf ist teurer als Fußball.",
+      "reply_ar": "الجولف أغلى من الكورة."
+    },
+    {
+      "id": "w65-06",
+      "q": "___ konnte Tarek nicht laufen?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viele",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "طارق فضل مش قادر يمشي قد إيه؟",
+      "reply": "Zwei Tage.",
+      "reply_ar": "يومين."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g65-1",
+      "h": "المقارنة والتفضيل (مراجعة): billig – billiger – am billigsten",
+      "body": "الصفة ليها تلات درجات: الصيغة الأساسية (der Positiv) زي ما هي: billig. صيغة المقارنة (der Komparativ) = الصفة + -er: billiger (أرخص). صيغة التفضيل (der Superlativ) = am + الصفة + -sten: am billigsten (الأرخص خالص). صفات قصيرة كتير فيها a أو o أو u بتاخد أوملاوت: stark، stärker، am stärksten. ولو الصفة القصيرة آخرها t أو d أو s أو ß أو z أو sch بنزوّد e قبل -sten: am breitesten (إلا groß: am größten).",
+      "examples": [
+        {
+          "de": "Die Fußbälle sind billig.",
+          "ar": "الكور رخيصة."
+        },
+        {
+          "de": "Die Basketbälle sind billiger.",
+          "ar": "كور السلة أرخص."
+        },
+        {
+          "de": "Die Tennisbälle sind am billigsten.",
+          "ar": "كور التنس هي الأرخص."
+        },
+        {
+          "de": "Max ist stärker als Tarek.",
+          "ar": "ماكس أقوى من طارق."
+        }
+      ],
+      "table": [
+        [
+          "الأساسية (Positiv)",
+          "المقارنة (Komparativ)",
+          "التفضيل (Superlativ)"
+        ],
+        [
+          "billig",
+          "billiger",
+          "am billigsten"
+        ],
+        [
+          "schnell",
+          "schneller",
+          "am schnellsten"
+        ],
+        [
+          "klein",
+          "kleiner",
+          "am kleinsten"
+        ],
+        [
+          "stark",
+          "stärker",
+          "am stärksten"
+        ],
+        [
+          "breit",
+          "breiter",
+          "am breitesten"
+        ]
+      ]
+    },
+    {
+      "id": "g65-2",
+      "h": "صفات آخرها -el أو -er: dunkler و teurer",
+      "body": "كل الصفات اللي آخرها -el، وكتير من اللي آخرها -er، بتوقّع الـ e اللي قبل الحرف الأخير في صيغة المقارنة بس: dunkel تبقى dunkler (مش dunkeler)، و teuer تبقى teurer. لكن صيغة التفضيل عادية خالص والـ e بتفضل: am dunkelsten، am teuersten. وزي ما بيقولوا في الحلقة: Verpflegung ist immer am teuersten.",
+      "examples": [
+        {
+          "de": "Der Tischtennisschläger ist nicht teuer.",
+          "ar": "مضرب البينج بونج مش غالي."
+        },
+        {
+          "de": "Der Tennisschläger ist teurer.",
+          "ar": "مضرب التنس أغلى."
+        },
+        {
+          "de": "Der Golfschläger ist am teuersten.",
+          "ar": "مضرب الجولف هو الأغلى."
+        },
+        {
+          "de": "Deine Haare sind dunkler als meine.",
+          "ar": "شعرك أغمق من شعري."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "المقارنة (الـ e بتقع)",
+          "التفضيل (عادي)"
+        ],
+        [
+          "dunkel",
+          "dunkler",
+          "am dunkelsten"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten"
+        ]
+      ]
+    },
+    {
+      "id": "g65-3",
+      "h": "teuer – teurer als – am teuersten: إمتى نستخدم كل درجة؟",
+      "body": "الصيغة الأساسية بتوصف حاجة: Golf ist teuer. ولو اتنين زي بعض: so … wie. صيغة المقارنة بتقارن بين اتنين، وبعدها als (= من) مش wie: Golf ist teurer als Fußball. وصيغة التفضيل للأكتر من الكل: am …sten، وكتير بنسأل بيها بـ Wer أو Welche: Wer läuft am schnellsten? وافتكر الشاذ: gut – besser – am besten، gern – lieber – am liebsten، viel – mehr – am meisten.",
+      "examples": [
+        {
+          "de": "Golf ist teurer als Fußball.",
+          "ar": "الجولف أغلى من الكورة."
+        },
+        {
+          "de": "Ein Ball hat 4,99 Euro gekostet, weniger als die Getränke.",
+          "ar": "الكورة الواحدة كانت بـ 4,99 يورو، أقل من المشروبات."
+        },
+        {
+          "de": "Wer läuft am schnellsten?",
+          "ar": "مين أسرع واحد في الجري؟"
+        }
+      ],
+      "table": [
+        [
+          "الدرجة",
+          "بنستخدمها لما",
+          "مثال"
+        ],
+        [
+          "Positiv",
+          "نوصف حاجة / اتنين زي بعض (so … wie)",
+          "Golf ist teuer."
+        ],
+        [
+          "Komparativ",
+          "حاجة أكتر من حاجة (… als)",
+          "Golf ist teurer als Fußball."
+        ],
+        [
+          "Superlativ",
+          "الأكتر من الكل (am …sten)",
+          "Golf ist am teuersten."
+        ]
+      ]
+    },
+    {
+      "id": "g65-4",
+      "h": "الرياضة وأعضاء الجسم (Von Kopf bis Fuß)",
+      "body": "مع ألعاب الكورة بنقول spielen: Fußball، Basketball، Handball، Tennis، Golf spielen. ومع Yoga و Aerobic بنقول machen. وفيه رياضات هي نفسها فعل: klettern، schwimmen، laufen (du läufst، er läuft)، و laufen في الكلام اليومي كمان معناها يمشي. ولو اتعوّرت: sich verletzen + am (للمذكر والمحايد) أو an der (للمؤنث) + العضو: am Knie، an der Hand. وأعضاء الجسم احفظها بأداتها وجمعها.",
+      "examples": [
+        {
+          "de": "Ich spiele am liebsten Handball.",
+          "ar": "أكتر حاجة بحب ألعبها كورة اليد."
+        },
+        {
+          "de": "Ich mache lieber Aerobic als Yoga.",
+          "ar": "بفضّل الأيروبكس عن اليوجا."
+        },
+        {
+          "de": "Tarek hat sich am Knie verletzt.",
+          "ar": "طارق اتعوّر في ركبته."
+        }
+      ],
+      "table": [
+        [
+          "بالمصري",
+          "المفرد",
+          "الجمع"
+        ],
+        [
+          "راس",
+          "der Kopf",
+          "die Köpfe"
+        ],
+        [
+          "عين",
+          "das Auge",
+          "die Augen"
+        ],
+        [
+          "ودن",
+          "das Ohr",
+          "die Ohren"
+        ],
+        [
+          "سِنّة",
+          "der Zahn",
+          "die Zähne"
+        ],
+        [
+          "دراع",
+          "der Arm",
+          "die Arme"
+        ],
+        [
+          "إيد",
+          "die Hand",
+          "die Hände"
+        ],
+        [
+          "رِجل",
+          "das Bein",
+          "die Beine"
+        ],
+        [
+          "قدم",
+          "der Fuß",
+          "die Füße"
+        ],
+        [
+          "ركبة",
+          "das Knie",
+          "die Knie"
+        ]
+      ]
+    }
+  ]
+}

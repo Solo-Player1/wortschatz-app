@@ -1,0 +1,821 @@
+{
+  "n": 56,
+  "sentences": [
+    {
+      "id": "s56-001",
+      "de": "Wie ist denn der Urlaub?",
+      "ar": "طب الإجازة عاملة إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "holiday"
+      ],
+      "alts": [
+        "Wie ist der Urlaub denn?"
+      ],
+      "cloze": {
+        "word": "denn",
+        "opts": [
+          "denn",
+          "den",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-002",
+      "de": "Habt ihr tolles Wetter?",
+      "ar": "الجو عندكم حلو؟",
+      "kind": "question",
+      "focus": [
+        "weather",
+        "verb:haben",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Habt",
+        "opts": [
+          "Habt",
+          "Hast",
+          "Hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-003",
+      "de": "Ich glaube, es sind sieben Grad.",
+      "ar": "أظن إن الحرارة 7 درجات.",
+      "kind": "answer",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "number"
+      ],
+      "alts": [
+        "Es sind sieben Grad, glaube ich.",
+        "Es sind, glaube ich, sieben Grad.",
+        "Sieben Grad sind es, glaube ich.",
+        "Ich glaube, sieben Grad sind es."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "seid",
+          "bist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-004",
+      "de": "Es ist bewölkt.",
+      "ar": "الجو مغيّم.",
+      "kind": "answer",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "adjective"
+      ],
+      "alts": [
+        "Bewölkt ist es."
+      ],
+      "cloze": {
+        "word": "bewölkt",
+        "opts": [
+          "bewölkt",
+          "Wolke",
+          "Wolken"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-005",
+      "de": "Morgen wird es noch kälter.",
+      "ar": "بكرة الجو هيبقى أبرد كمان.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "comparison"
+      ],
+      "alts": [
+        "Es wird morgen noch kälter.",
+        "Noch kälter wird es morgen."
+      ],
+      "cloze": {
+        "word": "es",
+        "opts": [
+          "es",
+          "er",
+          "sie"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-006",
+      "de": "Der Himmel ist immer grau.",
+      "ar": "السما على طول رمادي.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "article",
+        "color"
+      ],
+      "alts": [
+        "Immer ist der Himmel grau.",
+        "Grau ist der Himmel immer."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-007",
+      "de": "Ihr habt Sonne und 20 Grad?",
+      "ar": "عندكم شمس و20 درجة؟",
+      "kind": "question",
+      "focus": [
+        "weather",
+        "number"
+      ],
+      "alts": [
+        "Habt ihr Sonne und 20 Grad?",
+        "Ihr habt 20 Grad und Sonne?",
+        "Habt ihr 20 Grad und Sonne?"
+      ],
+      "cloze": {
+        "word": "Sonne",
+        "opts": [
+          "Sonne",
+          "sonnig",
+          "Sonnen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-008",
+      "de": "Das ist so gemein.",
+      "ar": "ده ظلم أوي.",
+      "kind": "statement",
+      "focus": [
+        "opinion",
+        "adjective"
+      ],
+      "alts": [
+        "So gemein ist das."
+      ],
+      "src": "episode"
+    },
+    {
+      "id": "s56-009",
+      "de": "Nico hat seine Tasche verloren.",
+      "ar": "نيكو ضيّع شنطته.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:verlieren"
+      ],
+      "alts": [
+        "Seine Tasche hat Nico verloren."
+      ],
+      "cloze": {
+        "word": "verloren",
+        "opts": [
+          "verloren",
+          "geverliert",
+          "verliert"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-010",
+      "de": "Ich glaube, ich habe sie gefunden.",
+      "ar": "أظن إني لقيتها.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:finden"
+      ],
+      "alts": [
+        "Ich habe sie gefunden, glaube ich.",
+        "Ich habe sie, glaube ich, gefunden."
+      ],
+      "cloze": {
+        "word": "gefunden",
+        "opts": [
+          "gefunden",
+          "gefindet",
+          "findet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s56-011",
+      "de": "Wie wird das Wetter morgen?",
+      "ar": "الجو هيبقى عامل إيه بكرة؟",
+      "kind": "question",
+      "focus": [
+        "weather",
+        "w-frage",
+        "verb:werden"
+      ],
+      "alts": [
+        "Wie wird morgen das Wetter?"
+      ],
+      "cloze": {
+        "word": "wird",
+        "opts": [
+          "wird",
+          "wirst",
+          "werden"
+        ],
+        "accept": [
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-012",
+      "de": "In meiner Heimat ist es warm.",
+      "ar": "في بلدي الجو دافي.",
+      "kind": "answer",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "word-order"
+      ],
+      "alts": [
+        "Es ist in meiner Heimat warm.",
+        "Es ist warm in meiner Heimat.",
+        "Warm ist es in meiner Heimat."
+      ],
+      "cloze": {
+        "word": "warm",
+        "opts": [
+          "warm",
+          "Wärme",
+          "Sonne"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-013",
+      "de": "Schneit es in Kairo?",
+      "ar": "الدنيا بتتلج في القاهرة؟",
+      "kind": "question",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "verb:schneien"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "es",
+        "opts": [
+          "es",
+          "er",
+          "sie"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-014",
+      "de": "Im Süden scheint die Sonne.",
+      "ar": "في الجنوب الشمس طالعة.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "verb:scheinen"
+      ],
+      "alts": [
+        "Die Sonne scheint im Süden."
+      ],
+      "cloze": {
+        "word": "scheint",
+        "opts": [
+          "scheint",
+          "scheinen",
+          "scheinst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-015",
+      "de": "Der Wind weht und es ist kühl.",
+      "ar": "الهوا بيهبّ والجو ساقع شوية.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "verb:wehen",
+        "pronoun-es"
+      ],
+      "alts": [
+        "Es ist kühl und der Wind weht."
+      ],
+      "cloze": {
+        "word": "weht",
+        "opts": [
+          "weht",
+          "wehen",
+          "wehst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-016",
+      "de": "Am Morgen ist es neblig.",
+      "ar": "الصبح فيه شبورة.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "word-order"
+      ],
+      "alts": [
+        "Es ist am Morgen neblig.",
+        "Es ist neblig am Morgen.",
+        "Neblig ist es am Morgen."
+      ],
+      "cloze": {
+        "word": "neblig",
+        "opts": [
+          "neblig",
+          "Nebel",
+          "Wolke"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-017",
+      "de": "Bei Nebel passieren viele Unfälle.",
+      "ar": "في الشبورة بتحصل حوادث كتير.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "verb:passieren",
+        "plural"
+      ],
+      "alts": [
+        "Viele Unfälle passieren bei Nebel."
+      ],
+      "cloze": {
+        "word": "passieren",
+        "opts": [
+          "passieren",
+          "passiert",
+          "passiere"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-018",
+      "de": "Ich wache auf und es regnet.",
+      "ar": "بصحى من النوم والدنيا بتمطر.",
+      "kind": "statement",
+      "focus": [
+        "separable",
+        "verb:aufwachen",
+        "pronoun-es"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "an",
+          "ein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-019",
+      "de": "Ich bin vor dem Fernseher eingeschlafen.",
+      "ar": "نمت قدّام التليفزيون.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "separable",
+        "verb:einschlafen"
+      ],
+      "alts": [
+        "Vor dem Fernseher bin ich eingeschlafen."
+      ],
+      "cloze": {
+        "word": "bin",
+        "opts": [
+          "bin",
+          "habe",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-020",
+      "de": "Am Wochenende bleibt es heiter.",
+      "ar": "في الويك إند الجو هيفضل صافي.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "pronoun-es",
+        "verb:bleiben"
+      ],
+      "alts": [
+        "Es bleibt am Wochenende heiter.",
+        "Es bleibt heiter am Wochenende.",
+        "Heiter bleibt es am Wochenende."
+      ],
+      "cloze": {
+        "word": "bleibt",
+        "opts": [
+          "bleibt",
+          "bleiben",
+          "bleibst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-021",
+      "de": "Bei Regen machen wir keine Radtour.",
+      "ar": "لما الدنيا بتمطر مابنعملش جولة بالعجل.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "negation",
+        "accusative"
+      ],
+      "alts": [
+        "Wir machen bei Regen keine Radtour.",
+        "Wir machen keine Radtour bei Regen.",
+        "Keine Radtour machen wir bei Regen."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s56-022",
+      "de": "Politik ist ein kompliziertes Thema.",
+      "ar": "السياسة موضوع معقّد.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "opinion"
+      ],
+      "alts": [
+        "Ein kompliziertes Thema ist Politik."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w56-01",
+      "q": "___ ist das Wetter in deiner Heimat?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "الجو عامل إيه في بلدك؟",
+      "reply": "Es ist warm und die Sonne scheint.",
+      "reply_ar": "الجو دافي والشمس طالعة."
+    },
+    {
+      "id": "w56-02",
+      "q": "___ Grad sind es heute?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie alt",
+        "Welche",
+        "Wann"
+      ],
+      "ar": "الحرارة كام درجة النهارده؟",
+      "reply": "Es sind sieben Grad.",
+      "reply_ar": "الحرارة 7 درجات."
+    },
+    {
+      "id": "w56-03",
+      "q": "___ ist passiert?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "إيه اللي حصل؟",
+      "reply": "Auf der Autobahn ist ein Unfall passiert.",
+      "reply_ar": "حصلت حادثة على الطريق السريع."
+    },
+    {
+      "id": "w56-04",
+      "q": "___ schneit es in Deutschland?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Was",
+        "Woher"
+      ],
+      "ar": "إمتى بتتلج في ألمانيا؟",
+      "reply": "Im Winter.",
+      "reply_ar": "في الشتا."
+    },
+    {
+      "id": "w56-05",
+      "q": "___ bleibt ihr heute zu Hause?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viel"
+      ],
+      "ar": "ليه هتفضلوا في البيت النهارده؟",
+      "reply": "Es regnet den ganzen Tag.",
+      "reply_ar": "الدنيا بتمطر طول اليوم."
+    },
+    {
+      "id": "w56-06",
+      "q": "___ kommt der Wind?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wer",
+        "Was",
+        "Wie viel"
+      ],
+      "ar": "الهوا جاي منين؟",
+      "reply": "Aus dem Norden.",
+      "reply_ar": "من الشمال."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g56-1",
+      "h": "es مع الطقس: Es regnet. / Es ist kalt.",
+      "body": "الجملة الألماني لازم يبقى ليها فاعل. ومع الطقس مفيش حد بيعمل حاجة، فبنحط es كفاعل، زي «الدنيا» عندنا: الدنيا بتمطر = Es regnet. بنقولها مع أفعال الطقس (es regnet، es schneit)، ومع sein / werden / bleiben + صفة (es ist bewölkt، es wird kälter، es bleibt kühl)، ومع الحرارة: es sind 20 Grad (sind عشان العدد جمع). ومتقولش er ولا sie هنا.",
+      "examples": [
+        {
+          "de": "Es ist bewölkt.",
+          "ar": "الجو مغيّم."
+        },
+        {
+          "de": "Ich glaube, es sind sieben Grad.",
+          "ar": "أظن إن الحرارة 7 درجات."
+        },
+        {
+          "de": "Am Wochenende bleibt es heiter.",
+          "ar": "في الويك إند الجو هيفضل صافي."
+        }
+      ],
+      "table": [
+        [
+          "مع إيه؟",
+          "بالألماني",
+          "يعني"
+        ],
+        [
+          "فعل طقس",
+          "Es regnet. / Es schneit.",
+          "الدنيا بتمطر / بتتلج"
+        ],
+        [
+          "sein + صفة",
+          "Es ist kalt / neblig / heiter.",
+          "الجو برد / فيه شبورة / صافي"
+        ],
+        [
+          "werden + صفة",
+          "Es wird warm / kälter.",
+          "الجو هيدفى / هيبرد أكتر"
+        ],
+        [
+          "bleiben + صفة",
+          "Es bleibt kühl.",
+          "الجو هيفضل ساقع شوية"
+        ],
+        [
+          "درجة الحرارة",
+          "Es sind 20 Grad.",
+          "الحرارة 20 درجة"
+        ]
+      ]
+    },
+    {
+      "id": "g56-2",
+      "h": "es مابتتشالش: Heute regnet es.",
+      "body": "es بتاعة الطقس مابتتشالش من الجملة أبدًا. في الجملة العادية الفعل في المكان التاني، ولو بدأنا بكلمة تانية (heute، morgen، am Wochenende …) es بتيجي على طول بعد الفعل: Es regnet heute. / Heute regnet es. وغلط تقول: Heute regnet. وفي سؤال إجابته نعم أو لا الفعل في الأول وes بعده: Schneit es in Kairo? وفي الماضي es بعد hat: Gestern hat es geregnet.",
+      "examples": [
+        {
+          "de": "Morgen wird es noch kälter.",
+          "ar": "بكرة الجو هيبقى أبرد كمان."
+        },
+        {
+          "de": "Im Winter schneit es.",
+          "ar": "في الشتا الدنيا بتتلج."
+        },
+        {
+          "de": "Schneit es in Kairo?",
+          "ar": "الدنيا بتتلج في القاهرة؟"
+        },
+        {
+          "de": "Gestern hat es geregnet.",
+          "ar": "امبارح الدنيا مطرت."
+        }
+      ],
+      "table": [
+        [
+          "مكان 1",
+          "مكان 2: الفعل",
+          "بعد الفعل",
+          "الباقي"
+        ],
+        [
+          "Es",
+          "regnet",
+          "heute.",
+          ""
+        ],
+        [
+          "Heute",
+          "regnet",
+          "es.",
+          ""
+        ],
+        [
+          "Morgen",
+          "wird",
+          "es",
+          "noch kälter."
+        ],
+        [
+          "Am Wochenende",
+          "bleibt",
+          "es",
+          "heiter."
+        ],
+        [
+          "—",
+          "Schneit",
+          "es",
+          "in Kairo?"
+        ]
+      ]
+    },
+    {
+      "id": "g56-3",
+      "h": "es بدل اسم أداته das، وفي جمل ثابتة",
+      "body": "es ليها استخدامين. أولًا: ضمير عادي بدل اسم أداته das، وبالعربي «هو» أو «هي»: Wo ist das Buch? – Es ist in der Tasche. (es = das Buch). تانيًا: فاعل مش راجع على حاجة معيّنة، زي الطقس، وكمان في جمل ثابتة إنت عارفها: Es gibt … (فيه …)، Wie geht es dir? (إزيك؟)، Wie spät ist es? – Es ist acht Uhr.",
+      "examples": [
+        {
+          "de": "Wo ist das Buch? – Es ist in der Tasche.",
+          "ar": "الكتاب فين؟ – في الشنطة. (es = das Buch)"
+        },
+        {
+          "de": "Das Wetter ist toll. – Ja, es ist super!",
+          "ar": "الجو تحفة. – آه، حلو جدًا! (es = das Wetter)"
+        },
+        {
+          "de": "Morgen gibt es Schnee.",
+          "ar": "بكرة هيبقى فيه تلج."
+        },
+        {
+          "de": "Wie geht es dir? – Es geht mir gut.",
+          "ar": "إزيك؟ – أنا كويس."
+        }
+      ],
+      "table": [
+        [
+          "الجملة",
+          "يعني"
+        ],
+        [
+          "Wo ist das Buch? – Es ist in der Tasche.",
+          "الكتاب فين؟ – في الشنطة. (es = das Buch)"
+        ],
+        [
+          "Das Wetter ist toll. – Es ist super!",
+          "الجو تحفة. – حلو جدًا! (es = das Wetter)"
+        ],
+        [
+          "Es gibt …",
+          "فيه …"
+        ],
+        [
+          "Wie geht es dir? – Es geht mir gut.",
+          "إزيك؟ – أنا كويس."
+        ],
+        [
+          "Wie spät ist es? – Es ist acht Uhr.",
+          "الساعة كام؟ – الساعة 8."
+        ]
+      ]
+    },
+    {
+      "id": "g56-4",
+      "h": "تتكلم عن الطقس: Wie ist das Wetter?",
+      "body": "تسأل عن الطقس: Wie ist das Wetter? (دلوقتي) أو Wie wird das Wetter? (بكرة). وترد بصفة: Es ist sonnig / windig / neblig. أو بفعل: Die Sonne scheint. / Es regnet. / Der Wind weht. احفظ كل كلمة بأشكالها: الاسم والصفة والفعل (شوف الجدول). ومعلومة: في ألمانيا الطقس أشهر موضوع للكلام: Das Thema Wetter ist auf Platz eins.",
+      "examples": [
+        {
+          "de": "Wie wird das Wetter morgen?",
+          "ar": "الجو هيبقى عامل إيه بكرة؟"
+        },
+        {
+          "de": "Im Süden scheint die Sonne.",
+          "ar": "في الجنوب الشمس طالعة."
+        },
+        {
+          "de": "Das Thema Wetter ist auf Platz eins.",
+          "ar": "موضوع الطقس في المركز الأول."
+        }
+      ],
+      "table": [
+        [
+          "الاسم",
+          "الصفة",
+          "الفعل / الجملة"
+        ],
+        [
+          "die Sonne",
+          "sonnig",
+          "Die Sonne scheint."
+        ],
+        [
+          "der Regen",
+          "regnerisch",
+          "Es regnet."
+        ],
+        [
+          "der Schnee",
+          "—",
+          "Es schneit."
+        ],
+        [
+          "der Wind",
+          "windig",
+          "Der Wind weht."
+        ],
+        [
+          "die Wolke",
+          "bewölkt",
+          "Es ist bewölkt."
+        ],
+        [
+          "der Nebel",
+          "neblig",
+          "Es ist neblig."
+        ],
+        [
+          "die Wärme",
+          "warm",
+          "Es ist warm."
+        ]
+      ]
+    }
+  ]
+}

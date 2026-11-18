@@ -1,0 +1,108 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.000 --> 00:00:09.280 region:R1 align:center
+<c.S1>– Wo ist Dr. Grube gerade?</c>
+
+2
+00:00:10.040 --> 00:00:12.200 region:R1 align:center
+<c.S1>Ah, er ist noch beim Patienten.</c>
+
+3
+00:00:12.400 --> 00:00:13.360 region:R1 align:center
+<c.S1>– Guten Tag.</c>
+
+4
+00:00:13.400 --> 00:00:14.960 region:R1 align:center
+<c.S1> Guten Tag. Was kann ich für Sie tun?</c>
+
+5
+00:00:15.000 --> 00:00:18.160 region:R1 align:center
+<c.S1>– Ich suche einen Patienten – Nico González.
+Ist der hier?</c>
+
+6
+00:00:18.400 --> 00:00:20.600 region:R1 align:center
+<c.S1>– Ja, im Behandlungszimmer 2.</c>
+
+7
+00:00:20.680 --> 00:00:22.840 region:R1 align:center
+<c.S1>– Okay, wo ist Zimmer 2?</c>
+
+8
+00:00:22.920 --> 00:00:25.920 region:R1 align:center
+<c.S1>– Ach so … Einmal da den Flur lang und
+dann auf der rechten Seite.</c>
+
+9
+00:00:25.960 --> 00:00:26.840 region:R1 align:center
+<c.S1>– Okay, danke!</c>
+
+10
+00:00:26.880 --> 00:00:28.280 region:R1 align:center
+<c.S1>– Gern geschehen.</c>
+
+11
+00:00:33.600 --> 00:00:35.440 region:R1 align:center
+<c.S1>– Ah, hier …</c>
+
+12
+00:00:37.680 --> 00:00:39.000 region:R1 align:center
+<c.S1>Hallo?</c>
+
+13
+00:00:39.240 --> 00:00:41.360 region:R1 align:center
+<c.S1>Oh mein Gott! Nico, das sieht ja schlimm aus!</c>
+
+14
+00:00:41.680 --> 00:00:43.320 region:R1 align:center
+<c.S1>Was ist passiert?</c>
+
+15
+00:00:45.360 --> 00:00:46.640 region:R1 align:center
+<c.S1>Oh …</c>
+
+16
+00:00:47.920 --> 00:00:50.600 region:R1 align:center
+<c.S1>Das tut mir leid, sehr leid.</c>
+
+17
+00:00:51.080 --> 00:00:53.520 region:R1 align:center
+<c.S1>Entschuldigung!</c>
+
+18
+00:00:56.320 --> 00:00:57.840 region:R1 align:center
+<c.S1>Gute Besserung!</c>
+
+19
+00:00:59.520 --> 00:01:01.600 region:R1 align:center
+<c.S1>Das war das falsche Zimmer.</c>
+
+20
+00:01:05.840 --> 00:01:07.440 region:R1 align:center
+<c.S1>– Ja?</c>
+
+21
+00:01:08.600 --> 00:01:09.720 region:R1 align:center
+<c.S1>– Hey, Lisa!</c>
+
+22
+00:01:09.800 --> 00:01:10.800 region:R1 align:center
+<c.S1>– Hi, Lisa!</c>
+
+23
+00:01:10.960 --> 00:01:14.360 region:R1 align:center
+<c.S1>– Nico! Geht es dir gut?</c>
+
+24
+00:01:15.360 --> 00:01:16.480 region:R1 align:center
+<c.S1>– Na ja ...</c>

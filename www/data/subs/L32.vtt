@@ -1,0 +1,83 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:13.320 --> 00:00:16.120 region:R1 align:center
+<c.S1>– Was machen wir
+am Wochenende, Tante Lisa?</c>
+
+2
+00:00:16.160 --> 00:00:17.800 region:R1 align:center
+<c.S1>Wir schlafen doch erst lang aus,</c>
+
+3
+00:00:17.840 --> 00:00:20.800 region:R1 align:center
+<c.S1>dann mache ich das Frühstück
+und dann gehen wir ins Kino?</c>
+
+4
+00:00:20.840 --> 00:00:21.800 region:R1 align:center
+<c.S1>– Vielleicht.</c>
+
+5
+00:00:23.680 --> 00:00:26.040 region:R1 align:center
+<c.S1>– Und dann mache ich
+noch meine Hausaufgaben.</c>
+
+6
+00:00:30.200 --> 00:00:32.000 region:R1 align:center
+<c.S1>– Ähem.</c>
+
+7
+00:00:33.640 --> 00:00:38.040 region:R1 align:center
+<c.S1>Aufwachen, aufwachen, aufwachen!</c>
+
+8
+00:00:39.760 --> 00:00:42.320 region:R1 align:center
+<c.S1>– „Emma frühstückt Müsli!“</c>
+
+9
+00:00:42.360 --> 00:00:44.600 region:R1 align:center
+<c.S1>– Pf. Müsli!</c>
+
+10
+00:00:46.560 --> 00:00:50.240 region:R1 align:center
+<c.S1>– Emma, machst du jetzt bitte
+die Hausaufgaben?</c>
+
+11
+00:00:50.280 --> 00:00:52.760 region:R1 align:center
+<c.S1>– Keine Lust. Es sind Ferien!</c>
+
+12
+00:00:54.760 --> 00:00:56.640 region:R1 align:center
+<c.S1>Sehen wir fern?</c>
+
+13
+00:00:57.480 --> 00:00:58.680 region:R1 align:center
+<c.S1>– Nein.</c>
+
+14
+00:00:59.600 --> 00:01:04.680 region:R1 align:center
+<c.S1>Zuerst machen wir die Hausaufgaben, dann
+räumen wir auf und dann sehen wir fern.</c>
+
+15
+00:01:12.800 --> 00:01:15.160 region:R1 align:center
+<c.S1>– So, ich hab Lust auf Eis!</c>
+
+16
+00:01:22.800 --> 00:01:25.960 region:R1 align:center
+<c.S1>Oh, mir ist schlecht!</c>
+
+17
+00:01:28.640 --> 00:01:29.760 region:R1 align:center
+<c.S1>– Was ist das?</c>

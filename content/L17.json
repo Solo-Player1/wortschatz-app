@@ -1,0 +1,787 @@
+{
+  "n": 17,
+  "sentences": [
+    {
+      "id": "s17-001",
+      "de": "Vielen Dank für die Einladung!",
+      "ar": "شكرًا أوي على العزومة!",
+      "kind": "statement",
+      "focus": [
+        "thanks",
+        "polite"
+      ],
+      "alts": [
+        "Für die Einladung vielen Dank!"
+      ],
+      "cloze": {
+        "word": "für",
+        "opts": [
+          "für",
+          "mit",
+          "aus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-002",
+      "de": "Das ist eine Sehenswürdigkeit in Köln.",
+      "ar": "ده معلم سياحي في كولونيا.",
+      "kind": "answer",
+      "focus": [
+        "sightseeing",
+        "article"
+      ],
+      "alts": [
+        "In Köln ist das eine Sehenswürdigkeit.",
+        "Das ist in Köln eine Sehenswürdigkeit.",
+        "Eine Sehenswürdigkeit in Köln ist das."
+      ],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-003",
+      "de": "Warst du schon mal in Köln?",
+      "ar": "إنت كنت في كولونيا قبل كده؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein",
+        "past"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Warst",
+        "opts": [
+          "Warst",
+          "Bist",
+          "Wart"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-004",
+      "de": "Warst du noch nie in Deutschland?",
+      "ar": "إنت عمرك ما كنت في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nie",
+        "opts": [
+          "nie",
+          "schon",
+          "kein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-005",
+      "de": "Und welche Städte kennst du schon?",
+      "ar": "وإنت تعرف أنهي مدن لحد دلوقتي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:kennen",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "welche",
+        "opts": [
+          "welche",
+          "wohin",
+          "woher"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-006",
+      "de": "Ich war schon mal in Hamburg und in Köln.",
+      "ar": "أنا كنت في هامبورج وفي كولونيا قبل كده.",
+      "kind": "answer",
+      "focus": [
+        "verb:sein",
+        "past",
+        "place"
+      ],
+      "alts": [
+        "Ich war schon mal in Köln und in Hamburg.",
+        "In Hamburg und in Köln war ich schon mal.",
+        "In Köln und in Hamburg war ich schon mal."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "bin",
+          "warst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-007",
+      "de": "In Heidelberg war ich noch nie.",
+      "ar": "عمري ما كنت في هايدلبرج.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "negation",
+        "preposition"
+      ],
+      "alts": [
+        "Ich war noch nie in Heidelberg.",
+        "Ich war in Heidelberg noch nie.",
+        "Noch nie war ich in Heidelberg."
+      ],
+      "cloze": {
+        "word": "In",
+        "opts": [
+          "In",
+          "Nach",
+          "Aus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-008",
+      "de": "Ich fahre nach München!",
+      "ar": "أنا مسافر ميونخ!",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "verb:fahren"
+      ],
+      "alts": [
+        "Nach München fahre ich!"
+      ],
+      "cloze": {
+        "word": "nach",
+        "opts": [
+          "nach",
+          "in",
+          "aus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-009",
+      "de": "Das ist das Brandenburger Tor.",
+      "ar": "دي بوابة براندنبورج.",
+      "kind": "answer",
+      "focus": [
+        "sightseeing",
+        "article"
+      ],
+      "alts": [
+        "Das Brandenburger Tor ist das."
+      ],
+      "cloze": {
+        "word": "Tor",
+        "opts": [
+          "Tor",
+          "Dom",
+          "Oper"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-010",
+      "de": "Ihr wart schon mal in Berlin, oder?",
+      "ar": "إنتوا كنتوا في برلين قبل كده، صح؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein",
+        "past"
+      ],
+      "alts": [
+        "In Berlin wart ihr schon mal, oder?"
+      ],
+      "cloze": {
+        "word": "wart",
+        "opts": [
+          "wart",
+          "waren",
+          "warst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-011",
+      "de": "Wir waren schon mal in Berlin.",
+      "ar": "إحنا كنا في برلين قبل كده.",
+      "kind": "answer",
+      "focus": [
+        "verb:sein",
+        "past"
+      ],
+      "alts": [
+        "In Berlin waren wir schon mal."
+      ],
+      "cloze": {
+        "word": "waren",
+        "opts": [
+          "waren",
+          "wart",
+          "war"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-012",
+      "de": "Wir spielen ein Spiel.",
+      "ar": "إحنا هنلعب لعبة.",
+      "kind": "statement",
+      "focus": [
+        "verb:spielen",
+        "article"
+      ],
+      "alts": [
+        "Ein Spiel spielen wir."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s17-013",
+      "de": "Waren Sie schon mal in der Schweiz?",
+      "ar": "حضرتك كنت في سويسرا قبل كده؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "formal",
+        "past",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Waren",
+        "opts": [
+          "Waren",
+          "Wart",
+          "Warst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-014",
+      "de": "Meine Eltern waren letztes Jahr in Österreich.",
+      "ar": "أبويا وأمي كانوا في النمسا السنة اللي فاتت.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "past",
+        "time"
+      ],
+      "alts": [
+        "Letztes Jahr waren meine Eltern in Österreich.",
+        "In Österreich waren meine Eltern letztes Jahr."
+      ],
+      "cloze": {
+        "word": "Eltern",
+        "opts": [
+          "Eltern",
+          "Mutter",
+          "Vater"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-015",
+      "de": "Wo warst du gestern?",
+      "ar": "كنت فين إمبارح؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "past"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "warst",
+        "opts": [
+          "warst",
+          "wart",
+          "war"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-016",
+      "de": "Gestern war ich in der Oper.",
+      "ar": "إمبارح كنت في الأوبرا.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "time",
+        "place"
+      ],
+      "alts": [
+        "Ich war gestern in der Oper.",
+        "In der Oper war ich gestern."
+      ],
+      "cloze": {
+        "word": "Gestern",
+        "opts": [
+          "Gestern",
+          "Morgen",
+          "Jetzt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-017",
+      "de": "Wohin fährst du?",
+      "ar": "إنت رايح فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:fahren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fährst",
+        "opts": [
+          "fährst",
+          "fahrst",
+          "fährt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-018",
+      "de": "Das Brandenburger Tor ist in Berlin.",
+      "ar": "بوابة براندنبورج في برلين.",
+      "kind": "answer",
+      "focus": [
+        "preposition",
+        "sightseeing"
+      ],
+      "alts": [
+        "In Berlin ist das Brandenburger Tor."
+      ],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "nach",
+          "aus"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-019",
+      "de": "Dort besichtigen wir den Dom.",
+      "ar": "هناك هنزور الكاتدرائية.",
+      "kind": "statement",
+      "focus": [
+        "sightseeing",
+        "verb:besichtigen"
+      ],
+      "alts": [
+        "Wir besichtigen dort den Dom.",
+        "Wir besichtigen den Dom dort.",
+        "Den Dom besichtigen wir dort."
+      ],
+      "cloze": {
+        "word": "besichtigen",
+        "opts": [
+          "besichtigen",
+          "besichtigt",
+          "besichtigst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-020",
+      "de": "Im Moment bin ich in Deutschland.",
+      "ar": "أنا حاليًا في ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "verb:sein",
+        "time"
+      ],
+      "alts": [
+        "Ich bin im Moment in Deutschland.",
+        "In Deutschland bin ich im Moment."
+      ],
+      "cloze": {
+        "word": "bin",
+        "opts": [
+          "bin",
+          "war",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-021",
+      "de": "Das Schloss war toll!",
+      "ar": "القصر كان تحفة!",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "sightseeing",
+        "article"
+      ],
+      "alts": [
+        "Toll war das Schloss!"
+      ],
+      "cloze": {
+        "word": "Schloss",
+        "opts": [
+          "Schloss",
+          "Oper",
+          "Stadt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s17-022",
+      "de": "Nina war schon mal in Berlin.",
+      "ar": "نينا كانت في برلين قبل كده.",
+      "kind": "statement",
+      "focus": [
+        "verb:sein",
+        "past"
+      ],
+      "alts": [
+        "In Berlin war Nina schon mal."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "warst",
+          "waren"
+        ]
+      },
+      "src": "episode"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w17-01",
+      "q": "___ fährst du?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "إنت رايح فين؟",
+      "reply": "Nach München.",
+      "reply_ar": "على ميونخ."
+    },
+    {
+      "id": "w17-02",
+      "q": "___ warst du gestern?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Warum"
+      ],
+      "ar": "كنت فين إمبارح؟",
+      "reply": "Ich war in der Oper.",
+      "reply_ar": "كنت في الأوبرا."
+    },
+    {
+      "id": "w17-03",
+      "q": "___ Städte kennst du schon?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wohin",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "تعرف أنهي مدن لحد دلوقتي؟",
+      "reply": "Ich kenne Hamburg und Köln.",
+      "reply_ar": "أعرف هامبورج وكولونيا."
+    },
+    {
+      "id": "w17-04",
+      "q": "___ ist das?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "إيه ده؟",
+      "reply": "Das ist der Kölner Dom.",
+      "reply_ar": "دي كاتدرائية كولونيا."
+    },
+    {
+      "id": "w17-05",
+      "q": "___ ist das Brandenburger Tor?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "بوابة براندنبورج فين؟",
+      "reply": "In Berlin.",
+      "reply_ar": "في برلين."
+    },
+    {
+      "id": "w17-06",
+      "q": "___ war das Spiel?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "اللعبة كانت عاملة إزاي؟",
+      "reply": "Es war toll!",
+      "reply_ar": "كانت تحفة!"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g17-1",
+      "h": "الماضي من sein: war",
+      "body": "عشان تقول «كنت / كان» بنستخدم الماضي البسيط (Präteritum) من sein. الأساس war وبنزوّد النهاية: du warst، ihr wart، wir / sie / Sie waren. وخد بالك: ich و er / sie / es نفس الشكل war من غير نهاية. الماضي ده بيستخدموه أكتر في الكتابة، بس sein و haben بنقولهم بيه عادي في الكلام كمان، فهتسمع war كتير.",
+      "examples": [
+        {
+          "de": "Ich war schon in Berlin.",
+          "ar": "أنا كنت في برلين قبل كده."
+        },
+        {
+          "de": "Warst du schon mal in Köln?",
+          "ar": "إنت كنت في كولونيا قبل كده؟"
+        },
+        {
+          "de": "Ihr wart schon mal in Berlin, oder?",
+          "ar": "إنتوا كنتوا في برلين قبل كده، صح؟"
+        },
+        {
+          "de": "Waren Sie schon mal in der Schweiz?",
+          "ar": "حضرتك كنت في سويسرا قبل كده؟ (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "الحاضر (Präsens)",
+          "الماضي (Präteritum)"
+        ],
+        [
+          "ich",
+          "bin",
+          "war"
+        ],
+        [
+          "du",
+          "bist",
+          "warst"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "war"
+        ],
+        [
+          "wir",
+          "sind",
+          "waren"
+        ],
+        [
+          "ihr",
+          "seid",
+          "wart"
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "waren"
+        ]
+      ]
+    },
+    {
+      "id": "g17-2",
+      "h": "in ولا nach؟ (Wo? / Wohin?)",
+      "body": "لو السؤال Wo? (فين؟ = في أنهي مكان) بنرد بـ in + اسم المدينة أو البلد: Das Brandenburger Tor ist in Berlin. ولو السؤال Wohin? (رايح فين؟) بنرد بـ nach + اسم المدينة أو البلد: Ich fahre nach München. ومع sein (كنت فين) بنقول in مش nach: Ich war in Köln. والبلد اللي ليها أداة زي die Schweiz مابتاخدش nach: in der Schweiz (فين)، in die Schweiz (رايح فين). وخد بالك: du fährst، er fährt.",
+      "examples": [
+        {
+          "de": "Wo ist das Brandenburger Tor? – In Berlin.",
+          "ar": "بوابة براندنبورج فين؟ – في برلين."
+        },
+        {
+          "de": "Wohin fährst du? – Nach München.",
+          "ar": "إنت رايح فين؟ – على ميونخ."
+        },
+        {
+          "de": "Ich war noch nie in der Schweiz.",
+          "ar": "عمري ما كنت في سويسرا."
+        }
+      ],
+      "table": [
+        [
+          "السؤال",
+          "حرف الجر",
+          "مثال"
+        ],
+        [
+          "Wo? (فين؟)",
+          "in",
+          "in Köln / in der Schweiz"
+        ],
+        [
+          "Wohin? (رايح فين؟)",
+          "nach",
+          "nach München / nach Österreich"
+        ],
+        [
+          "Woher? (منين؟)",
+          "aus",
+          "aus Hamburg / aus der Schweiz"
+        ]
+      ]
+    },
+    {
+      "id": "g17-3",
+      "h": "schon mal / noch nie وكلمات الوقت",
+      "body": "عشان تسأل حد لو كان زار مكان قبل كده: Warst du schon mal in …? والرد: Ja, ich war schon mal in … (أيوه، كنت هناك قبل كده) أو Nein, ich war noch nie in … (لأ، عمري ما كنت هناك). وكلمة الوقت بتقولك الزمن: gestern و letztes Jahr مع الماضي war، و jetzt و im Moment مع الحاضر bin / ist.",
+      "examples": [
+        {
+          "de": "Warst du noch nie in Deutschland?",
+          "ar": "إنت عمرك ما كنت في ألمانيا؟"
+        },
+        {
+          "de": "Letztes Jahr war ich in Spanien.",
+          "ar": "السنة اللي فاتت كنت في إسبانيا."
+        },
+        {
+          "de": "Jetzt bin ich in Deutschland.",
+          "ar": "دلوقتي أنا في ألمانيا."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "معناها",
+          "الفعل"
+        ],
+        [
+          "jetzt / im Moment",
+          "دلوقتي / حاليًا",
+          "bin / ist"
+        ],
+        [
+          "gestern",
+          "إمبارح",
+          "war"
+        ],
+        [
+          "letztes Jahr",
+          "السنة اللي فاتت",
+          "war"
+        ],
+        [
+          "schon mal",
+          "قبل كده",
+          "war"
+        ],
+        [
+          "noch nie",
+          "عمري ما",
+          "war"
+        ]
+      ]
+    },
+    {
+      "id": "g17-4",
+      "h": "معالم سياحية: Was ist das?",
+      "body": "عشان تسأل عن حاجة أو مكان مش عارفه (زي صورة): Was ist das? والرد: Das ist + اسم المكان بأداته: Das ist der Kölner Dom. / Das ist das Brandenburger Tor. (das هنا ثابتة مع der و die و das.) وعشان تسأل «أنهي؟» مع الجمع أو الكلمة اللي أداتها die بنستخدم welche: Welche Städte kennst du? وزي العادة احفظ كل كلمة بأداتها وجمعها:",
+      "examples": [
+        {
+          "de": "Was ist das? – Das ist das Brandenburger Tor.",
+          "ar": "إيه ده؟ – دي بوابة براندنبورج."
+        },
+        {
+          "de": "Und welche Städte kennst du schon?",
+          "ar": "وإنت تعرف أنهي مدن لحد دلوقتي؟"
+        }
+      ],
+      "table": [
+        [
+          "المفرد",
+          "الجمع",
+          "المعنى"
+        ],
+        [
+          "der Dom",
+          "die Dome",
+          "كاتدرائية"
+        ],
+        [
+          "das Schloss",
+          "die Schlösser",
+          "قصر"
+        ],
+        [
+          "das Tor",
+          "die Tore",
+          "بوابة"
+        ],
+        [
+          "die Oper",
+          "die Opern",
+          "أوبرا"
+        ],
+        [
+          "die Stadt",
+          "die Städte",
+          "مدينة"
+        ],
+        [
+          "die Sehenswürdigkeit",
+          "die Sehenswürdigkeiten",
+          "معلم سياحي"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.080 --> 00:00:09.840 region:R1 align:center
+<c.S1>– Wie lange haben Sie Frau González
+nicht mehr gesehen?</c>
+
+2
+00:00:11.040 --> 00:00:13.880 region:R1 align:center
+<c.S1>– Ungefähr zwei Wochen.</c>
+
+3
+00:00:14.760 --> 00:00:16.120 region:R1 align:center
+<c.S1>– Und …</c>
+
+4
+00:00:19.320 --> 00:00:21.800 region:R1 align:center
+<c.S1>hat sie denn nicht gesagt, wohin sie geht?</c>
+
+5
+00:00:21.840 --> 00:00:23.680 region:R1 align:center
+<c.S1>Wissen Sie nicht, ob sie verreisen wollte?</c>
+
+6
+00:00:23.720 --> 00:00:26.120 region:R1 align:center
+<c.S1>– Nein, sie hat uns nichts gesagt.</c>
+
+7
+00:00:27.280 --> 00:00:29.720 region:R1 align:center
+<c.S1>– Warum haben Sie die Polizei
+nicht früher informiert?</c>
+
+8
+00:00:29.880 --> 00:00:32.440 region:R1 align:center
+<c.S1>– Na ja. Jeder kann mal
+zwei Wochen weg sein, oder?</c>
+
+9
+00:00:33.160 --> 00:00:35.520 region:R1 align:center
+<c.S1>– Haben Sie ihre Handynummer?
+Haben Sie sie angerufen?</c>
+
+10
+00:00:35.600 --> 00:00:37.680 region:R1 align:center
+<c.S1>– Ja, aber ich erreiche sie nicht.</c>
+
+11
+00:00:47.040 --> 00:00:48.720 region:R1 align:center
+<c.S1> Das sind meine Eltern.</c>
+
+12
+00:00:50.440 --> 00:00:52.320 region:R1 align:center
+<c.S1>– Was machen denn Ihre Eltern?</c>
+
+13
+00:00:52.800 --> 00:00:55.040 region:R1 align:center
+<c.S1>– Mein Vater ist Anwalt und
+meine Mutter Ingenieurin.</c>
+
+14
+00:00:55.120 --> 00:00:59.680 region:R1 align:center
+<c.S1>– Glauben Sie, dass Ihre Tante in Spanien ist
+und Ihre Eltern besucht?</c>
+
+15
+00:00:59.720 --> 00:01:01.760 region:R1 align:center
+<c.S1>Können Sie Ihre Eltern anrufen und fragen?</c>
+
+16
+00:01:01.800 --> 00:01:03.400 region:R1 align:center
+<c.S1>– Sie ist sicher nicht dort.</c>
+
+17
+00:01:03.880 --> 00:01:05.720 region:R1 align:center
+<c.S1>Der Kontakt ist nicht sehr gut.</c>
+
+18
+00:01:07.880 --> 00:01:10.360 region:R1 align:center
+<c.S1>– Wo in Spanien wohnen Ihre Eltern?</c>
+
+19
+00:01:11.320 --> 00:01:13.040 region:R1 align:center
+<c.S1>– Meine Eltern wohnen in Sevilla.</c>
+
+20
+00:01:13.840 --> 00:01:17.160 region:R1 align:center
+<c.S1>– Hm. Na dann schauen Sie mal hier.</c>
+
+21
+00:01:18.520 --> 00:01:20.520 region:R1 align:center
+<c.S1>– Was macht Yara in der Schweiz?</c>

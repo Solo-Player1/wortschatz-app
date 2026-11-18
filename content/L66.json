@@ -1,0 +1,359 @@
+{
+  "n": 66,
+  "sentences": [
+    {
+      "id": "s66-001",
+      "de": "Spielt ihr gut?",
+      "ar": "إنتوا بتلعبوا كويس؟",
+      "kind": "question",
+      "focus": ["verb:spielen", "sport"],
+      "alts": [],
+      "cloze": { "word": "ihr", "opts": ["ihr", "du", "wir"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-002",
+      "de": "Na ja, wir können leider nicht so oft trainieren.",
+      "ar": "يعني، للأسف مابنقدرش نتمرّن كتير أوي.",
+      "kind": "answer",
+      "focus": ["verb:trainieren", "verb:können", "frequency"],
+      "alts": ["Na ja, leider können wir nicht so oft trainieren.", "Na ja, so oft können wir leider nicht trainieren."],
+      "cloze": { "word": "trainieren", "opts": ["trainieren", "trainiert", "trainierst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-003",
+      "de": "Wie oft trainiert ihr?",
+      "ar": "بتتمرّنوا كل قد إيه؟",
+      "kind": "question",
+      "focus": ["w-frage", "frequency", "verb:trainieren"],
+      "alts": [],
+      "cloze": { "word": "trainiert", "opts": ["trainiert", "trainierst", "trainieren"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-004",
+      "de": "Zweimal im Monat.",
+      "ar": "مرتين في الشهر.",
+      "kind": "answer",
+      "focus": ["frequency", "time"],
+      "alts": [],
+      "cloze": { "word": "im", "opts": ["im", "am", "um"], "accept": ["pro"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-005",
+      "de": "Montag bis Freitag müssen alle arbeiten.",
+      "ar": "من الاتنين للجمعة الكل لازم يشتغل.",
+      "kind": "statement",
+      "focus": ["time", "verb:müssen"],
+      "alts": ["Alle müssen Montag bis Freitag arbeiten."],
+      "cloze": { "word": "bis", "opts": ["bis", "von", "um"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-006",
+      "de": "Wir können meistens nur samstags oder sonntags trainieren.",
+      "ar": "غالبًا مابنقدرش نتمرّن غير أيام السبت أو الحد.",
+      "kind": "statement",
+      "focus": ["time", "verb:können"],
+      "alts": [
+        "Meistens können wir nur samstags oder sonntags trainieren.",
+        "Wir können meistens nur sonntags oder samstags trainieren.",
+        "Meistens können wir nur sonntags oder samstags trainieren.",
+        "Nur samstags oder sonntags können wir meistens trainieren.",
+        "Nur sonntags oder samstags können wir meistens trainieren."
+      ],
+      "cloze": { "word": "können", "opts": ["können", "könnt", "kann"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-007",
+      "de": "Wie lange spielt ihr schon zusammen?",
+      "ar": "بقالكم قد إيه بتلعبوا مع بعض؟",
+      "kind": "question",
+      "focus": ["w-frage", "duration", "verb:spielen"],
+      "alts": [],
+      "cloze": { "word": "spielt", "opts": ["spielt", "spielst", "spielen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-008",
+      "de": "Seit fünf Jahren.",
+      "ar": "بقالنا خمس سنين.",
+      "kind": "answer",
+      "focus": ["duration", "dative"],
+      "alts": [],
+      "cloze": { "word": "Jahren", "opts": ["Jahren", "Jahre", "Jahr"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-009",
+      "de": "Erst trainieren wir.",
+      "ar": "الأول هنتمرّن.",
+      "kind": "statement",
+      "focus": ["verb:trainieren", "sequence"],
+      "alts": ["Wir trainieren erst."],
+      "cloze": { "word": "trainieren", "opts": ["trainieren", "trainiert", "trainiere"] },
+      "src": "episode"
+    },
+    {
+      "id": "s66-010",
+      "de": "Bist du fit?",
+      "ar": "إنت لياقتك كويسة؟",
+      "kind": "question",
+      "focus": ["sport", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "Bist", "opts": ["Bist", "Ist", "Seid"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-011",
+      "de": "Nein, ich bin faul und unsportlich.",
+      "ar": "لأ، أنا كسلان ومش رياضي.",
+      "kind": "answer",
+      "focus": ["sport", "adjective"],
+      "alts": ["Nein, ich bin unsportlich und faul."],
+      "cloze": { "word": "unsportlich", "opts": ["unsportlich", "unsportliche", "unsportlichen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-012",
+      "de": "Die Sportlerin trainiert jeden Tag.",
+      "ar": "اللاعبة بتتمرّن كل يوم.",
+      "kind": "statement",
+      "focus": ["frequency", "verb:trainieren"],
+      "alts": ["Jeden Tag trainiert die Sportlerin."],
+      "cloze": { "word": "jeden", "opts": ["jeden", "jede", "jedes", "jeder"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-013",
+      "de": "Wir trainieren zweimal pro Woche.",
+      "ar": "إحنا بنتمرّن مرتين في الأسبوع.",
+      "kind": "statement",
+      "focus": ["frequency", "verb:trainieren"],
+      "alts": ["Zweimal pro Woche trainieren wir.", "Pro Woche trainieren wir zweimal.", "Wir trainieren pro Woche zweimal."],
+      "cloze": { "word": "pro", "opts": ["pro", "im", "um"], "accept": ["die"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-014",
+      "de": "Am Samstag hat unsere Mannschaft gewonnen.",
+      "ar": "يوم السبت فريقنا كسب.",
+      "kind": "statement",
+      "focus": ["time", "verb:gewinnen", "perfect"],
+      "alts": ["Unsere Mannschaft hat am Samstag gewonnen."],
+      "cloze": { "word": "gewonnen", "opts": ["gewonnen", "gewinnt", "gewinnen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-015",
+      "de": "Im Januar fahre ich Ski.",
+      "ar": "في يناير بلعب سكي.",
+      "kind": "statement",
+      "focus": ["time", "preposition"],
+      "alts": ["Ich fahre im Januar Ski.", "Ski fahre ich im Januar."],
+      "cloze": { "word": "Im", "opts": ["Im", "Am", "Um"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-016",
+      "de": "Wie lange dauert das Training?",
+      "ar": "التمرين بياخد قد إيه؟",
+      "kind": "question",
+      "focus": ["w-frage", "duration", "verb:dauern"],
+      "alts": [],
+      "cloze": { "word": "dauert", "opts": ["dauert", "dauern", "dauerst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-017",
+      "de": "Das Training dauert zwei Stunden.",
+      "ar": "التمرين بياخد ساعتين.",
+      "kind": "answer",
+      "focus": ["duration", "verb:dauern"],
+      "alts": ["Zwei Stunden dauert das Training."],
+      "cloze": { "word": "Stunden", "opts": ["Stunden", "Stunde", "Uhr"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-018",
+      "de": "Ich spiele seit zwei Jahren in einem Verein.",
+      "ar": "بقالي سنتين بلعب في نادي.",
+      "kind": "statement",
+      "focus": ["duration", "preposition"],
+      "alts": ["Seit zwei Jahren spiele ich in einem Verein.", "In einem Verein spiele ich seit zwei Jahren."],
+      "cloze": { "word": "seit", "opts": ["seit", "vor", "für"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-019",
+      "de": "Machst du beim Training mit?",
+      "ar": "هتشارك في التمرين؟",
+      "kind": "question",
+      "focus": ["verb:mitmachen", "separable"],
+      "alts": [],
+      "cloze": { "word": "mit", "opts": ["mit", "aus", "auf"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-020",
+      "de": "Tarek schießt ein Tor!",
+      "ar": "طارق بيجيب جون!",
+      "kind": "statement",
+      "focus": ["verb:schießen", "sport"],
+      "alts": [],
+      "cloze": { "word": "schießt", "opts": ["schießt", "schießen", "schieße"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-021",
+      "de": "Max ist kein Profi, aber sehr sportlich.",
+      "ar": "ماكس مش محترف، بس رياضي جدًا.",
+      "kind": "statement",
+      "focus": ["negation", "sport"],
+      "alts": [],
+      "cloze": { "word": "kein", "opts": ["kein", "keine", "keinen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s66-022",
+      "de": "Wir haben verloren, aber wir haben fair gespielt.",
+      "ar": "إحنا خسرنا، بس لعبنا لعب نضيف.",
+      "kind": "statement",
+      "focus": ["verb:verlieren", "perfect", "sport"],
+      "alts": [],
+      "cloze": { "word": "verloren", "opts": ["verloren", "verlieren", "verliert"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w66-01",
+      "q": "___ trainiert ihr?",
+      "answer": "Wie oft",
+      "opts": ["Wie oft", "Wer", "Woher", "Wie alt"],
+      "ar": "بتتمرّنوا كل قد إيه؟",
+      "reply": "Wir trainieren zweimal im Monat.",
+      "reply_ar": "بنتمرّن مرتين في الشهر."
+    },
+    {
+      "id": "w66-02",
+      "q": "___ gehst du ins Fitnessstudio?",
+      "answer": "Wie oft",
+      "opts": ["Wie oft", "Wer", "Welche", "Woher"],
+      "ar": "بتروح الجيم كل قد إيه؟",
+      "reply": "Ich gehe jedes Wochenende ins Fitnessstudio.",
+      "reply_ar": "بروح الجيم كل ويك إند."
+    },
+    {
+      "id": "w66-03",
+      "q": "___ spielt ihr schon zusammen?",
+      "answer": "Wie lange",
+      "opts": ["Wie lange", "Wer", "Woher", "Wohin"],
+      "ar": "بقالكم قد إيه بتلعبوا مع بعض؟",
+      "reply": "Wir spielen seit fünf Jahren zusammen.",
+      "reply_ar": "بقالنا خمس سنين بنلعب مع بعض."
+    },
+    {
+      "id": "w66-04",
+      "q": "___ dauert das Training?",
+      "answer": "Wie lange",
+      "opts": ["Wie lange", "Wann", "Wie oft", "Wer"],
+      "ar": "التمرين بياخد قد إيه؟",
+      "reply": "Es dauert eine halbe Stunde.",
+      "reply_ar": "بياخد نص ساعة."
+    },
+    {
+      "id": "w66-05",
+      "q": "___ spielt ihr Fußball?",
+      "answer": "Wann",
+      "opts": ["Wann", "Wer", "Wie viele", "Woher"],
+      "ar": "بتلعبوا كورة إمتى؟",
+      "reply": "Wir spielen von zwei bis vier Uhr Fußball.",
+      "reply_ar": "بنلعب كورة من الساعة اتنين لحد أربعة."
+    },
+    {
+      "id": "w66-06",
+      "q": "___ beginnt das Training?",
+      "answer": "Wann",
+      "opts": ["Wann", "Wie lange", "Wie viel", "Woher"],
+      "ar": "التمرين بيبدأ إمتى؟",
+      "reply": "Das Training beginnt samstags um zehn Uhr.",
+      "reply_ar": "التمرين بيبدأ كل سبت الساعة عشرة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g66-1",
+      "h": "Wann? = إمتى: um، am، im، von … bis",
+      "body": "Wann = إمتى. وفي الرد بنحط قبل الوقت كلمة حسب نوعه: um مع الساعة (um zwei Uhr)، am مع الأيام (am Freitag)، im مع الشهور والفصول (im Januar، im Sommer). ولو فترة من وقت لوقت: von … bis … (von Montag bis Freitag، von zwei bis vier Uhr). وفي الكلام العادي ممكن von تقع: Montag bis Freitag.",
+      "examples": [
+        { "de": "Wann spielt ihr Fußball?", "ar": "بتلعبوا كورة إمتى؟" },
+        { "de": "Das Training beginnt um zwei Uhr.", "ar": "التمرين بيبدأ الساعة اتنين." },
+        { "de": "Im Januar fahre ich Ski.", "ar": "في يناير بلعب سكي." },
+        { "de": "Ich muss von Montag bis Freitag arbeiten.", "ar": "لازم أشتغل من الاتنين للجمعة." }
+      ],
+      "table": [
+        ["الوقت", "الكلمة", "مثال"],
+        ["الساعة", "um", "um zwei Uhr"],
+        ["اليوم", "am", "am Freitag"],
+        ["الشهر / الفصل", "im", "im Januar / im Sommer"],
+        ["من … لحد …", "von … bis …", "von Montag bis Freitag"]
+      ]
+    },
+    {
+      "id": "g66-2",
+      "h": "am Freitag ولا freitags؟",
+      "body": "am Freitag = يوم الجمعة ده بالذات (مرة واحدة). أما freitags = كل جمعة (حاجة بتتكرر كل أسبوع)، وبتتكتب بحرف صغير (إلا في أول الجملة) وفي آخرها s: montags، samstags، sonntags. وزيها abends = بالليل عادةً (مش ليلة معيّنة). يعني: Freitags spielen wir Fußball. = Jeden Freitag spielen wir Fußball.",
+      "examples": [
+        { "de": "Am Samstag hat unsere Mannschaft gewonnen.", "ar": "يوم السبت فريقنا كسب. (مرة واحدة)" },
+        { "de": "Wir können meistens nur samstags oder sonntags trainieren.", "ar": "غالبًا مابنقدرش نتمرّن غير أيام السبت أو الحد. (كل أسبوع)" },
+        { "de": "Freitags spielen wir Fußball.", "ar": "كل جمعة بنلعب كورة." }
+      ],
+      "table": [
+        ["مرة واحدة", "بتتكرر (عادةً)"],
+        ["am Montag", "montags"],
+        ["am Freitag", "freitags"],
+        ["am Samstag", "samstags"],
+        ["am Sonntag", "sonntags"],
+        ["am Abend", "abends"]
+      ]
+    },
+    {
+      "id": "g66-3",
+      "h": "Wie oft? = كل قد إيه: jeden، jede، jedes، zweimal",
+      "body": "Wie oft = كل قد إيه / كام مرة. الرد بـ jeden / jede / jedes (يعني كل) حسب أداة الاسم: مع der تبقى jeden (عشان Akkusativ): jeden Tag، ومع die تبقى jede: jede Woche، ومع das تبقى jedes: jedes Wochenende. أو بعدد المرات: einmal، zweimal، dreimal وبعدها pro Woche أو im Monat.",
+      "examples": [
+        { "de": "Wie oft trainiert ihr? – Zweimal im Monat.", "ar": "بتتمرّنوا كل قد إيه؟ – مرتين في الشهر." },
+        { "de": "Die Sportlerin trainiert jeden Tag.", "ar": "اللاعبة بتتمرّن كل يوم." },
+        { "de": "Wir trainieren zweimal pro Woche.", "ar": "بنتمرّن مرتين في الأسبوع." }
+      ],
+      "table": [
+        ["الاسم", "Wie oft?"],
+        ["der Tag", "jeden Tag"],
+        ["der Freitag", "jeden Freitag"],
+        ["die Woche", "jede Woche"],
+        ["das Wochenende", "jedes Wochenende"],
+        ["مرة / مرتين / 3 مرات", "einmal / zweimal / dreimal pro Woche"]
+      ]
+    },
+    {
+      "id": "g66-4",
+      "h": "Wie lange? = قد إيه: dauern، lang، seit",
+      "body": "Wie lange = قد إيه (المدة). تسأل: Wie lange trainierst du? أو Wie lange dauert das Training? وترد بالمدة + lang (وممكن تشيلها): Ich trainiere eine halbe Stunde lang. أو بـ dauern: Das Training dauert zwei Stunden. ولو حاجة بدأت زمان ولسه مكمّلة: seit + Dativ (seit fünf Jahren)، والفعل بيفضل مضارع زي العربي: بقالي سنتين بلعب كورة = Ich spiele seit zwei Jahren Fußball.",
+      "examples": [
+        { "de": "Wie lange dauert das Training? – Zwei Stunden.", "ar": "التمرين بياخد قد إيه؟ – ساعتين." },
+        { "de": "Ich trainiere eine halbe Stunde lang.", "ar": "بتمرّن نص ساعة." },
+        { "de": "Wie lange spielt ihr schon zusammen? – Seit fünf Jahren.", "ar": "بقالكم قد إيه بتلعبوا مع بعض؟ – بقالنا خمس سنين." }
+      ],
+      "table": [
+        ["السؤال", "الرد"],
+        ["Wie lange trainierst du?", "Eine halbe Stunde (lang)."],
+        ["Wie lange dauert das Training?", "Es dauert zwei Stunden."],
+        ["Wie lange spielt ihr schon zusammen?", "Seit fünf Jahren."]
+      ]
+    }
+  ]
+}

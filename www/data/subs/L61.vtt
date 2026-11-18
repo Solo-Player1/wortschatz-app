@@ -1,0 +1,95 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.280 --> 00:00:11.880 region:R1 align:center
+<c.S1>– Du musst die Schuhe nicht ausziehen.
+Komm rein! Der Flur ist so kalt.</c>
+
+2
+00:00:14.440 --> 00:00:15.440 region:R1 align:center
+<c.S1>– Danke.</c>
+
+3
+00:00:15.480 --> 00:00:16.840 region:R1 align:center
+<c.S1>– Was kann ich für dich tun?</c>
+
+4
+00:00:16.880 --> 00:00:18.120 region:R1 align:center
+<c.S1>– Ist Nico da?</c>
+
+5
+00:00:18.160 --> 00:00:19.960 region:R1 align:center
+<c.S1>– Ja, sicher. Nico?</c>
+
+6
+00:00:22.080 --> 00:00:23.640 region:R1 align:center
+<c.S1>Er wird sicher gleich kommen.</c>
+
+7
+00:00:23.760 --> 00:00:25.880 region:R1 align:center
+<c.S1>– Vielen Dank, aber ich
+suche nur mein Portemonnaie.</c>
+
+8
+00:00:25.960 --> 00:00:28.720 region:R1 align:center
+<c.S1>Ich glaube, Nico hat es noch. Ich habe es in
+die schwarze Tasche gesteckt.</c>
+
+9
+00:00:28.760 --> 00:00:30.280 region:R1 align:center
+<c.S1>– Wir werden es sicher finden.</c>
+
+10
+00:00:30.400 --> 00:00:32.640 region:R1 align:center
+<c.S1>Aber erzähl mal: Woher kommst du?</c>
+
+11
+00:00:32.960 --> 00:00:34.640 region:R1 align:center
+<c.S1>Du kommst nicht aus Deutschland, oder?</c>
+
+12
+00:00:34.720 --> 00:00:38.040 region:R1 align:center
+<c.S1>– Nein, ich komme aus Syrien und lebe seit
+fast einem Jahr in Deutschland.</c>
+
+13
+00:00:38.240 --> 00:00:39.640 region:R1 align:center
+<c.S1> Bist du alleine in Deutschland?</c>
+
+14
+00:00:39.720 --> 00:00:41.640 region:R1 align:center
+<c.S1>– Nein, ich bin mit meinen Eltern hier.</c>
+
+15
+00:00:42.240 --> 00:00:43.600 region:R1 align:center
+<c.S1>– Und hast du Geschwister?</c>
+
+16
+00:00:43.680 --> 00:00:46.800 region:R1 align:center
+<c.S1>– Ja, ich habe zwei ältere Brüder.
+Die leben in Hamburg.</c>
+
+17
+00:00:47.080 --> 00:00:48.640 region:R1 align:center
+<c.S1>– Und deine Großeltern?</c>
+
+18
+00:00:48.760 --> 00:00:51.160 region:R1 align:center
+<c.S1>– Meine Großeltern leben noch in Syrien.</c>
+
+19
+00:00:52.480 --> 00:00:54.640 region:R1 align:center
+<c.S1>– Das braune Portemonnaie gehört dir, oder?</c>
+
+20
+00:00:56.360 --> 00:00:58.800 region:R1 align:center
+<c.S1>– Ja. Danke!</c>

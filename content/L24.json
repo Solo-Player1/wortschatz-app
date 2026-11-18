@@ -1,0 +1,353 @@
+{
+  "n": 24,
+  "sentences": [
+    {
+      "id": "s24-001",
+      "de": "Das ist groß und rot.",
+      "ar": "ده كبير وأحمر.",
+      "kind": "statement",
+      "focus": ["adjective", "color"],
+      "alts": ["Das ist rot und groß."],
+      "cloze": { "word": "rot", "opts": ["rot", "gelb", "weiß"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-002",
+      "de": "Das Auto ist rot.",
+      "ar": "العربية حمرا.",
+      "kind": "statement",
+      "focus": ["adjective", "color", "article"],
+      "alts": [],
+      "cloze": { "word": "Das", "opts": ["Das", "Der", "Die"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-003",
+      "de": "Das Auto ist nicht groß, es ist klein.",
+      "ar": "العربية مش كبيرة، هي صغيرة.",
+      "kind": "statement",
+      "focus": ["adjective", "pronoun", "negation"],
+      "alts": ["Das Auto ist klein, es ist nicht groß."],
+      "cloze": { "word": "es", "opts": ["es", "er", "sie"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-004",
+      "de": "Das ist groß und gelb.",
+      "ar": "ده كبير وأصفر.",
+      "kind": "statement",
+      "focus": ["adjective", "color"],
+      "alts": ["Das ist gelb und groß."],
+      "cloze": { "word": "gelb", "opts": ["gelb", "rot", "weiß"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-005",
+      "de": "Wo ist der Fahrradladen?",
+      "ar": "محل العجل فين؟",
+      "kind": "question",
+      "focus": ["w-frage", "place", "article"],
+      "alts": [],
+      "cloze": { "word": "der", "opts": ["der", "die", "das"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-006",
+      "de": "Hier ist kein Fahrradladen.",
+      "ar": "مفيش محل عجل هنا.",
+      "kind": "answer",
+      "focus": ["negation", "place"],
+      "alts": [],
+      "cloze": { "word": "kein", "opts": ["kein", "keinen", "nicht"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-007",
+      "de": "Ja, aber wir sind richtig.",
+      "ar": "أيوه، بس إحنا في المكان الصح.",
+      "kind": "answer",
+      "focus": ["adjective", "verb:sein"],
+      "alts": ["Ja, wir sind aber richtig."],
+      "cloze": { "word": "sind", "opts": ["sind", "seid", "ist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-008",
+      "de": "Das ist nicht da.",
+      "ar": "ده مش موجود.",
+      "kind": "statement",
+      "focus": ["negation", "place"],
+      "alts": [],
+      "cloze": { "word": "nicht", "opts": ["nicht", "kein", "keine"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-009",
+      "de": "Die Adresse ist falsch.",
+      "ar": "العنوان غلط.",
+      "kind": "statement",
+      "focus": ["adjective", "article", "address"],
+      "alts": [],
+      "cloze": { "word": "Die", "opts": ["Die", "Der", "Das"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-010",
+      "de": "Es gibt hier keinen Fahrradladen.",
+      "ar": "هنا مفيش محل عجل.",
+      "kind": "statement",
+      "focus": ["negation", "place"],
+      "alts": ["Hier gibt es keinen Fahrradladen."],
+      "cloze": { "word": "keinen", "opts": ["keinen", "kein", "keine"] },
+      "src": "episode"
+    },
+    {
+      "id": "s24-011",
+      "de": "Das Auto ist alt, aber das Fahrrad ist neu.",
+      "ar": "العربية قديمة، بس العجلة جديدة.",
+      "kind": "statement",
+      "focus": ["adjective", "opposite"],
+      "alts": ["Das Fahrrad ist neu, aber das Auto ist alt."],
+      "cloze": { "word": "neu", "opts": ["neu", "alt", "klein"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-012",
+      "de": "Die Wohnung ist klein, aber sie ist billig.",
+      "ar": "الشقة صغيرة، بس رخيصة.",
+      "kind": "statement",
+      "focus": ["adjective", "pronoun", "price"],
+      "alts": [],
+      "cloze": { "word": "sie", "opts": ["sie", "er", "es"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-013",
+      "de": "Das Haus ist teuer.",
+      "ar": "البيت غالي.",
+      "kind": "statement",
+      "focus": ["adjective", "price"],
+      "alts": [],
+      "cloze": { "word": "teuer", "opts": ["teuer", "billig", "neu"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-014",
+      "de": "Ich bin groß, aber Emma ist klein.",
+      "ar": "أنا طويل، بس إيما قصيرة.",
+      "kind": "statement",
+      "focus": ["adjective", "opposite", "verb:sein"],
+      "alts": ["Emma ist klein, aber ich bin groß."],
+      "cloze": { "word": "bin", "opts": ["bin", "bist", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-015",
+      "de": "Das T-Shirt ist weiß.",
+      "ar": "التي شيرت أبيض.",
+      "kind": "statement",
+      "focus": ["adjective", "color", "article"],
+      "alts": [],
+      "cloze": { "word": "weiß", "opts": ["weiß", "rot", "gelb"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-016",
+      "de": "Ist das T-Shirt teuer?",
+      "ar": "هو التي شيرت غالي؟",
+      "kind": "question",
+      "focus": ["yes-no-question", "price", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "Ist", "opts": ["Ist", "Bist", "Sind"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-017",
+      "de": "Nein, es ist billig.",
+      "ar": "لأ، ده رخيص.",
+      "kind": "answer",
+      "focus": ["adjective", "price"],
+      "alts": [],
+      "cloze": { "word": "billig", "opts": ["billig", "teuer", "alt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-018",
+      "de": "Die Fahrräder sind neu.",
+      "ar": "العجل جديدة.",
+      "kind": "statement",
+      "focus": ["adjective", "plural", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "sind", "opts": ["sind", "ist", "seid"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-019",
+      "de": "Ich möchte ein anderes T-Shirt.",
+      "ar": "عايز تي شيرت تاني.",
+      "kind": "answer",
+      "focus": ["andere", "verb:möchten"],
+      "alts": ["Ein anderes T-Shirt möchte ich."],
+      "cloze": { "word": "anderes", "opts": ["anderes", "andere", "anderer"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-020",
+      "de": "Hast du eine andere Adresse?",
+      "ar": "معاك عنوان تاني؟",
+      "kind": "question",
+      "focus": ["andere", "address"],
+      "alts": [],
+      "cloze": { "word": "andere", "opts": ["andere", "anderes", "anderer"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-021",
+      "de": "Wie ist das Fahrrad?",
+      "ar": "العجلة عاملة إزاي؟",
+      "kind": "question",
+      "focus": ["w-frage", "adjective"],
+      "alts": [],
+      "cloze": { "word": "Wie", "opts": ["Wie", "Wer", "Wohin"] },
+      "src": "authored"
+    },
+    {
+      "id": "s24-022",
+      "de": "Ich liebe mein Fahrrad.",
+      "ar": "أنا بحب عجلتي.",
+      "kind": "statement",
+      "focus": ["verb:lieben"],
+      "alts": ["Mein Fahrrad liebe ich."],
+      "cloze": { "word": "liebe", "opts": ["liebe", "liebst", "liebt"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w24-01",
+      "q": "___ ist das Auto?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Warum", "Wie viele"],
+      "ar": "العربية عاملة إزاي؟",
+      "reply": "Das Auto ist rot und klein.",
+      "reply_ar": "العربية حمرا وصغيرة."
+    },
+    {
+      "id": "w24-02",
+      "q": "___ ist groß und gelb?",
+      "answer": "Was",
+      "opts": ["Was", "Wie", "Wo", "Woher"],
+      "ar": "إيه اللي كبير وأصفر؟",
+      "reply": "Das Haus.",
+      "reply_ar": "البيت."
+    },
+    {
+      "id": "w24-03",
+      "q": "___ ist der Fahrradladen?",
+      "answer": "Wo",
+      "opts": ["Wo", "Wer", "Wohin", "Wie viele"],
+      "ar": "محل العجل فين؟",
+      "reply": "Hier ist kein Fahrradladen.",
+      "reply_ar": "مفيش محل عجل هنا."
+    },
+    {
+      "id": "w24-04",
+      "q": "___ kostet das T-Shirt?",
+      "answer": "Wie viel",
+      "opts": ["Wie viel", "Wie alt", "Wer", "Wo"],
+      "ar": "التي شيرت بكام؟",
+      "reply": "Zehn Euro. Das ist billig.",
+      "reply_ar": "بعشرة يورو. ده رخيص."
+    },
+    {
+      "id": "w24-05",
+      "q": "___ ist die Wohnung?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Wohin", "Woher"],
+      "ar": "الشقة عاملة إزاي؟",
+      "reply": "Die Wohnung ist klein, aber billig.",
+      "reply_ar": "الشقة صغيرة، بس رخيصة."
+    },
+    {
+      "id": "w24-06",
+      "q": "___ möchtest du?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Woher"],
+      "ar": "عايز إيه؟",
+      "reply": "Ein anderes T-Shirt, bitte.",
+      "reply_ar": "تي شيرت تاني، لو سمحت."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g24-1",
+      "h": "الصفة بعد الفعل sein",
+      "body": "الصفة كلمة بتوصف شخص أو حاجة: كبير، جديد، أحمر… وأسهل جملة وصف: الفاعل + sein + الصفة في الآخر: Das Haus ist alt. الصفة بعد sein مابتتغيرش أبدًا: نفس الكلمة مع der و die و das ومع الجمع، واللي بيتغير هو sein بس (bin، ist، sind). والصفة بتتكتب بحرف صغير: rot مش Rot.",
+      "examples": [
+        { "de": "Das Haus ist alt.", "ar": "البيت قديم." },
+        { "de": "Die Adresse ist falsch.", "ar": "العنوان غلط." },
+        { "de": "Die Fahrräder sind neu.", "ar": "العجل جديدة." }
+      ],
+      "table": [
+        ["الفاعل", "sein", "الصفة"],
+        ["Das Haus", "ist", "alt."],
+        ["Die Wohnung", "ist", "billig."],
+        ["Ich", "bin", "groß."],
+        ["Die Fahrräder", "sind", "neu."]
+      ]
+    },
+    {
+      "id": "g24-2",
+      "h": "احفظ الصفة مع عكسها",
+      "body": "صفات كتير ليها عكس، وأحسن طريقة تحفظها إنك تحفظ كل صفة مع عكسها: groß ↔ klein، alt ↔ neu، billig ↔ teuer، richtig ↔ falsch. وخد بالك: مع الناس groß يعني طويل و klein يعني قصير: Nico ist groß. – Emma ist klein.",
+      "examples": [
+        { "de": "Das Auto ist alt, aber das Fahrrad ist neu.", "ar": "العربية قديمة، بس العجلة جديدة." },
+        { "de": "Die Wohnung ist billig. – Das Haus ist teuer.", "ar": "الشقة رخيصة. – البيت غالي." },
+        { "de": "Nico ist groß. – Emma ist klein.", "ar": "نيكو طويل. – إيما قصيرة." }
+      ],
+      "table": [
+        ["الصفة", "عكسها"],
+        ["groß (كبير)", "klein (صغير)"],
+        ["alt (قديم)", "neu (جديد)"],
+        ["billig (رخيص)", "teuer (غالي)"],
+        ["richtig (صح)", "falsch (غلط)"],
+        ["gut (كويس)", "schlecht (وحش)"]
+      ]
+    },
+    {
+      "id": "g24-3",
+      "h": "توصف حاجة: Wie ist …؟",
+      "body": "عشان تسأل عن شكل حاجة أو حالها: Wie ist das Auto? وترد بصفة: Das Auto ist rot. والألوان صفات برضه: rot، gelb، weiß. وبدل ما تكرر الاسم استخدم ضمير على حسب أداته (شوف الجدول). ولو هتنفي الصفة استخدم nicht: Es ist nicht groß. لكن الاسم اللي مع ein أو من غير أداة بننفيه بـ kein: Hier ist kein Fahrradladen.",
+      "examples": [
+        { "de": "Wie ist das Auto? – Es ist rot und klein.", "ar": "العربية عاملة إزاي؟ – حمرا وصغيرة." },
+        { "de": "Das Auto ist nicht groß, es ist klein.", "ar": "العربية مش كبيرة، هي صغيرة." },
+        { "de": "Hier ist kein Fahrradladen.", "ar": "مفيش محل عجل هنا." }
+      ],
+      "table": [
+        ["الاسم", "الضمير", "مثال"],
+        ["der Fahrradladen", "er", "Er ist klein."],
+        ["die Wohnung", "sie", "Sie ist billig."],
+        ["das Auto", "es", "Es ist rot."],
+        ["die Fahrräder (جمع)", "sie", "Sie sind neu."]
+      ]
+    },
+    {
+      "id": "g24-4",
+      "h": "anderer / andere / anderes = تاني",
+      "body": "anderer يعني تاني أو مختلف. لما تيجي قبل اسم بعد ein / eine بتاخد نهاية على حسب جنس الاسم: مذكر ein anderer (ولو مفعول به einen anderen)، مؤنث eine andere، محايد ein anderes، والجمع من غير أداة andere. وده عكس الصفة بعد sein اللي مابتتغيرش.",
+      "examples": [
+        { "de": "Ich möchte ein anderes T-Shirt.", "ar": "عايز تي شيرت تاني." },
+        { "de": "Hast du eine andere Adresse?", "ar": "معاك عنوان تاني؟" },
+        { "de": "Hier ist ein anderer Fahrradladen.", "ar": "هنا فيه محل عجل تاني." }
+      ],
+      "table": [
+        ["الجنس", "anderer + الاسم"],
+        ["مذكر (فاعل)", "ein anderer Fahrradladen"],
+        ["مذكر (مفعول به)", "einen anderen Fahrradladen"],
+        ["مؤنث", "eine andere Adresse"],
+        ["محايد", "ein anderes T-Shirt"],
+        ["جمع", "andere T-Shirts"]
+      ]
+    }
+  ]
+}

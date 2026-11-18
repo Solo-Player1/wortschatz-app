@@ -1,0 +1,384 @@
+{
+  "n": 34,
+  "sentences": [
+    {
+      "id": "s34-001",
+      "de": "Kannst du morgen vielleicht etwas früher kommen?",
+      "ar": "ممكن تيجي بكرة بدري شوية؟",
+      "kind": "question",
+      "focus": ["appointment", "time"],
+      "alts": ["Kannst du vielleicht morgen etwas früher kommen?"],
+      "cloze": { "word": "morgen", "opts": ["morgen", "gestern", "vorgestern"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-002",
+      "de": "Ich habe um halb eins einen Termin.",
+      "ar": "عندي ميعاد الساعة 12 ونص.",
+      "kind": "statement",
+      "focus": ["appointment", "time", "article"],
+      "alts": ["Um halb eins habe ich einen Termin.", "Ich habe einen Termin um halb eins.", "Einen Termin habe ich um halb eins."],
+      "cloze": { "word": "einen", "opts": ["einen", "ein", "eine"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-003",
+      "de": "Ja, kein Problem.",
+      "ar": "أيوه، مفيش مشكلة.",
+      "kind": "answer",
+      "focus": ["appointment", "negation"],
+      "alts": [],
+      "cloze": { "word": "kein", "opts": ["kein", "keine", "nicht"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-004",
+      "de": "Morgen ist der Zweiundzwanzigste.",
+      "ar": "بكرة يوم 22.",
+      "kind": "statement",
+      "focus": ["date", "ordinal"],
+      "alts": ["Der Zweiundzwanzigste ist morgen."],
+      "cloze": { "word": "Zweiundzwanzigste", "opts": ["Zweiundzwanzigste", "Zweiundzwanzigte", "Zweiundzwanzigsten"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-005",
+      "de": "Übermorgen ist der Dreiundzwanzigste.",
+      "ar": "بعد بكرة يوم 23.",
+      "kind": "statement",
+      "focus": ["date", "ordinal"],
+      "alts": ["Der Dreiundzwanzigste ist übermorgen."],
+      "cloze": { "word": "Übermorgen", "opts": ["Übermorgen", "Vorgestern", "Gestern"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-006",
+      "de": "Also am Dreiundzwanzigsten?",
+      "ar": "يعني يوم 23؟",
+      "kind": "question",
+      "focus": ["date", "ordinal"],
+      "alts": ["Am Dreiundzwanzigsten also?"],
+      "cloze": { "word": "Dreiundzwanzigsten", "opts": ["Dreiundzwanzigsten", "Dreiundzwanzigste", "Dreiundzwanzigten"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-007",
+      "de": "Nein, übermorgen habe ich mittags keine Termine.",
+      "ar": "لأ، بعد بكرة معنديش مواعيد الضهر.",
+      "kind": "answer",
+      "focus": ["appointment", "time", "plural"],
+      "alts": [
+        "Nein, ich habe übermorgen mittags keine Termine.",
+        "Nein, mittags habe ich übermorgen keine Termine."
+      ],
+      "cloze": { "word": "Termine", "opts": ["Termine", "Termin", "Terminen"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-008",
+      "de": "Vom ersten bis zum siebten November habe ich Frühdienst.",
+      "ar": "من 1 لحد 7 نوفمبر عندي وردية الصبح.",
+      "kind": "statement",
+      "focus": ["date", "ordinal"],
+      "alts": ["Ich habe vom ersten bis zum siebten November Frühdienst.", "Frühdienst habe ich vom ersten bis zum siebten November."],
+      "cloze": { "word": "ersten", "opts": ["ersten", "erste", "einsten"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-009",
+      "de": "Sie möchten einen Tisch reservieren?",
+      "ar": "حضرتك عايز تحجز ترابيزة؟ (رسمي)",
+      "kind": "question",
+      "focus": ["reservation", "verb:reservieren", "polite"],
+      "alts": ["Möchten Sie einen Tisch reservieren?", "Einen Tisch möchten Sie reservieren?"],
+      "cloze": { "word": "reservieren", "opts": ["reservieren", "reserviert", "reserviere"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-010",
+      "de": "Wir haben um Viertel vor acht einen Tisch frei.",
+      "ar": "عندنا ترابيزة فاضية الساعة 8 إلا ربع.",
+      "kind": "statement",
+      "focus": ["reservation", "time"],
+      "alts": [
+        "Um Viertel vor acht haben wir einen Tisch frei.",
+        "Wir haben einen Tisch um Viertel vor acht frei.",
+        "Einen Tisch haben wir um Viertel vor acht frei."
+      ],
+      "cloze": { "word": "Viertel", "opts": ["Viertel", "halb", "Stunde"] },
+      "src": "episode"
+    },
+    {
+      "id": "s34-011",
+      "de": "Hast du morgen Zeit?",
+      "ar": "إنت فاضي بكرة؟",
+      "kind": "question",
+      "focus": ["appointment", "verb:haben"],
+      "alts": [],
+      "cloze": { "word": "Zeit", "opts": ["Zeit", "Uhr", "Stunde"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-012",
+      "de": "Morgens habe ich keine Zeit, aber nachmittags schon.",
+      "ar": "الصبح معنديش وقت، بس بعد الضهر عندي.",
+      "kind": "answer",
+      "focus": ["time", "appointment"],
+      "alts": [
+        "Ich habe morgens keine Zeit, aber nachmittags schon.",
+        "Morgens habe ich keine Zeit, nachmittags aber schon.",
+        "Ich habe morgens keine Zeit, nachmittags aber schon."
+      ],
+      "cloze": { "word": "nachmittags", "opts": ["nachmittags", "Nachmittag", "Nachmittage"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-013",
+      "de": "Ja, das passt gut.",
+      "ar": "أيوه، ده مناسب.",
+      "kind": "answer",
+      "focus": ["appointment"],
+      "alts": [],
+      "cloze": { "word": "passt", "opts": ["passt", "passe", "passen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-014",
+      "de": "Der Wievielte ist heute?",
+      "ar": "النهارده كام في الشهر؟",
+      "kind": "question",
+      "focus": ["date", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "Wievielte", "opts": ["Wievielte", "Wievielten", "Welche"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-015",
+      "de": "Heute ist der dritte Mai.",
+      "ar": "النهارده 3 مايو.",
+      "kind": "answer",
+      "focus": ["date", "ordinal"],
+      "alts": ["Der dritte Mai ist heute."],
+      "cloze": { "word": "dritte", "opts": ["dritte", "dreite", "dritten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-016",
+      "de": "Vorgestern war der zwanzigste Oktober.",
+      "ar": "أول امبارح كان 20 أكتوبر.",
+      "kind": "statement",
+      "focus": ["date", "ordinal"],
+      "alts": ["Der zwanzigste Oktober war vorgestern."],
+      "cloze": { "word": "zwanzigste", "opts": ["zwanzigste", "zwanzigte", "zwanzigsten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-017",
+      "de": "Ich habe am siebten Juli Geburtstag.",
+      "ar": "عيد ميلادي يوم 7 يوليو.",
+      "kind": "answer",
+      "focus": ["date", "ordinal"],
+      "alts": ["Am siebten Juli habe ich Geburtstag.", "Geburtstag habe ich am siebten Juli."],
+      "cloze": { "word": "siebten", "opts": ["siebten", "siebte", "sieben"], "accept": ["siebenten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-018",
+      "de": "Vom zwanzigsten bis zum dreißigsten Dezember habe ich Urlaub.",
+      "ar": "من 20 لحد 30 ديسمبر عندي إجازة.",
+      "kind": "statement",
+      "focus": ["date", "ordinal"],
+      "alts": ["Ich habe vom zwanzigsten bis zum dreißigsten Dezember Urlaub.", "Urlaub habe ich vom zwanzigsten bis zum dreißigsten Dezember."],
+      "cloze": { "word": "dreißigsten", "opts": ["dreißigsten", "dreißigste", "dreißigten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-019",
+      "de": "Ich möchte einen Tisch für vier Personen reservieren.",
+      "ar": "عايز أحجز ترابيزة لـ 4 أشخاص.",
+      "kind": "statement",
+      "focus": ["reservation", "verb:reservieren", "plural"],
+      "alts": [
+        "Ich möchte für vier Personen einen Tisch reservieren.",
+        "Für vier Personen möchte ich einen Tisch reservieren.",
+        "Einen Tisch für vier Personen möchte ich reservieren.",
+        "Einen Tisch möchte ich für vier Personen reservieren."
+      ],
+      "cloze": { "word": "Personen", "opts": ["Personen", "Person", "Persons"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-020",
+      "de": "Ich habe eine Reservierung für heute Abend.",
+      "ar": "عندي حجز للنهارده بالليل.",
+      "kind": "statement",
+      "focus": ["reservation", "article"],
+      "alts": [
+        "Ich habe für heute Abend eine Reservierung.",
+        "Für heute Abend habe ich eine Reservierung."
+      ],
+      "cloze": { "word": "eine", "opts": ["eine", "ein", "einen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-021",
+      "de": "Wir haben abends bis elf Uhr geöffnet.",
+      "ar": "بالليل إحنا فاتحين لحد الساعة 11.",
+      "kind": "statement",
+      "focus": ["time"],
+      "alts": [
+        "Abends haben wir bis elf Uhr geöffnet.",
+        "Wir haben bis elf Uhr abends geöffnet.",
+        "Bis elf Uhr abends haben wir geöffnet."
+      ],
+      "cloze": { "word": "abends", "opts": ["abends", "Abend", "Abende"] },
+      "src": "authored"
+    },
+    {
+      "id": "s34-022",
+      "de": "Der Termin steht in meinem Kalender.",
+      "ar": "الميعاد مكتوب في الأجندة بتاعتي.",
+      "kind": "statement",
+      "focus": ["appointment", "possessive"],
+      "alts": ["In meinem Kalender steht der Termin."],
+      "cloze": { "word": "meinem", "opts": ["meinem", "meinen", "meine"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w34-01",
+      "q": "___ hast du Geburtstag?",
+      "answer": "Wann",
+      "opts": ["Wann", "Wer", "Woher", "Wie viel"],
+      "ar": "عيد ميلادك إمتى؟",
+      "reply": "Am dreizehnten September.",
+      "reply_ar": "يوم 13 سبتمبر."
+    },
+    {
+      "id": "w34-02",
+      "q": "___ Datum haben wir heute?",
+      "answer": "Welches",
+      "opts": ["Welches", "Wann", "Wo", "Wie viel"],
+      "ar": "النهارده تاريخ كام؟",
+      "reply": "Heute ist der erste Juni.",
+      "reply_ar": "النهارده 1 يونيو."
+    },
+    {
+      "id": "w34-03",
+      "q": "Für ___ Personen möchten Sie reservieren?",
+      "answer": "wie viele",
+      "opts": ["wie viele", "wie alt", "wann", "wo"],
+      "ar": "حضرتك عايز تحجز لكام شخص؟ (رسمي)",
+      "reply": "Für vier Personen, bitte.",
+      "reply_ar": "لـ 4 أشخاص لو سمحت."
+    },
+    {
+      "id": "w34-04",
+      "q": "___ hat morgen um halb eins einen Termin?",
+      "answer": "Wer",
+      "opts": ["Wer", "Was", "Wo", "Woher"],
+      "ar": "مين عنده ميعاد بكرة الساعة 12 ونص؟",
+      "reply": "Tarek.",
+      "reply_ar": "طارق."
+    },
+    {
+      "id": "w34-05",
+      "q": "___ machst du übermorgen?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wie alt", "Woher"],
+      "ar": "هتعمل إيه بعد بكرة؟",
+      "reply": "Übermorgen habe ich Frühdienst.",
+      "reply_ar": "بعد بكرة عندي وردية الصبح."
+    },
+    {
+      "id": "w34-06",
+      "q": "___ hast du Zeit?",
+      "answer": "Wann",
+      "opts": ["Wann", "Wo", "Wer", "Wie alt"],
+      "ar": "إنت فاضي إمتى؟",
+      "reply": "Vormittags.",
+      "reply_ar": "قبل الضهر."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g34-1",
+      "h": "الأعداد الترتيبية من 1 لـ 19: te",
+      "body": "العدد الترتيبي (الأول، التاني، التالت…) بنستخدمه في التاريخ. من 1 لـ 19 بنزوّد te على الرقم: vierte، zwölfte، neunzehnte. وفيه 3 شواذ لازم تتحفظ: erste (مش einste)، dritte (مش dreite)، siebte (الـ en بتقع). وacht بتبقى achte (بـ t واحدة بس). وبعد der آخره بيبقى e: Heute ist der dritte Mai.",
+      "examples": [
+        { "de": "Der Wievielte ist heute? – Heute ist der dritte Mai.", "ar": "النهارده كام في الشهر؟ – النهارده 3 مايو." },
+        { "de": "Heute ist der erste Juni.", "ar": "النهارده 1 يونيو." },
+        { "de": "Heute ist der zwölfte März.", "ar": "النهارده 12 مارس." }
+      ],
+      "table": [
+        ["الرقم", "الترتيبي"],
+        ["1 eins", "der erste"],
+        ["2 zwei", "der zweite"],
+        ["3 drei", "der dritte"],
+        ["4 vier", "der vierte"],
+        ["7 sieben", "der siebte"],
+        ["8 acht", "der achte"],
+        ["12 zwölf", "der zwölfte"],
+        ["19 neunzehn", "der neunzehnte"]
+      ]
+    },
+    {
+      "id": "g34-2",
+      "h": "من 20 لـ 31: ste، والنقطة بعد الرقم",
+      "body": "من 20 وطالع بنزوّد ste: zwanzigste، einundzwanzigste، dreißigste. وفي الكتابة بنكتب الرقم وبعده نقطة: der 22. Oktober = der zweiundzwanzigste Oktober. ولو قلت اليوم لوحده من غير الشهر بيتكتب بحرف كبير زي الأسماء: Morgen ist der Zweiundzwanzigste.",
+      "examples": [
+        { "de": "Morgen ist der Zweiundzwanzigste.", "ar": "بكرة يوم 22." },
+        { "de": "Vorgestern war der zwanzigste Oktober.", "ar": "أول امبارح كان 20 أكتوبر." },
+        { "de": "Heute ist der 31. Dezember.", "ar": "النهارده 31 ديسمبر. (بتتقري: der einunddreißigste)" }
+      ],
+      "table": [
+        ["الرقم", "الترتيبي"],
+        ["20 zwanzig", "der zwanzigste"],
+        ["21 einundzwanzig", "der einundzwanzigste"],
+        ["22 zweiundzwanzig", "der zweiundzwanzigste"],
+        ["23 dreiundzwanzig", "der dreiundzwanzigste"],
+        ["30 dreißig", "der dreißigste"],
+        ["31 einunddreißig", "der einunddreißigste"]
+      ]
+    },
+    {
+      "id": "g34-3",
+      "h": "am و vom … bis zum: ten و sten",
+      "body": "بعد am (يوم كذا) و vom … bis zum (من … لحد) العدد بياخد n زيادة: te تبقى ten، و ste تبقى sten. Heute ist der siebte Juli، بس: Ich habe am siebten Juli Geburtstag. وvom = von + dem، وzum = zu + dem. والشهور كلها مذكّر: der Januar، der Mai… وممكن الشهر يتقال برقمه: der dritte Fünfte = 3 مايو.",
+      "examples": [
+        { "de": "Also am Dreiundzwanzigsten?", "ar": "يعني يوم 23؟" },
+        { "de": "Ich habe am siebten Juli Geburtstag.", "ar": "عيد ميلادي يوم 7 يوليو." },
+        { "de": "Vom ersten bis zum siebten November habe ich Frühdienst.", "ar": "من 1 لحد 7 نوفمبر عندي وردية الصبح." }
+      ],
+      "table": [
+        ["Heute ist …", "am / vom / bis zum …"],
+        ["der erste Januar", "am ersten Januar"],
+        ["der dritte Februar", "vom dritten Februar"],
+        ["der siebte April", "bis zum siebten April"],
+        ["der zwanzigste August", "am zwanzigsten August"],
+        ["der Dreiundzwanzigste", "am Dreiundzwanzigsten"]
+      ]
+    },
+    {
+      "id": "g34-4",
+      "h": "تحديد ميعاد: أوقات اليوم والأيام",
+      "body": "أوقات اليوم: morgens (الصبح)، vormittags (قبل الضهر)، mittags (الضهر)، nachmittags (بعد الضهر)، abends (بالليل)، بحرف صغير وفي آخرها s. خلي بالك: morgen = بكرة، لكن morgens = الصبح. والأيام: vorgestern، gestern، heute، morgen، übermorgen. تقترح ميعاد: Hast du morgen um drei Zeit? ولو مناسب ترد: Ja, das passt gut. ولو لأ: Tut mir leid, …",
+      "examples": [
+        { "de": "Hast du morgen um drei Zeit? – Ja, das passt gut.", "ar": "إنت فاضي بكرة الساعة 3؟ – أيوه، ده مناسب." },
+        { "de": "Tut mir leid, morgen habe ich Frühdienst.", "ar": "آسف، بكرة عندي وردية الصبح." },
+        { "de": "Nein, übermorgen habe ich mittags keine Termine.", "ar": "لأ، بعد بكرة معنديش مواعيد الضهر." }
+      ],
+      "table": [
+        ["بالعربي", "بالألماني"],
+        ["الصبح", "morgens"],
+        ["قبل الضهر", "vormittags"],
+        ["الضهر", "mittags"],
+        ["بعد الضهر", "nachmittags"],
+        ["بالليل", "abends"],
+        ["أول امبارح", "vorgestern"],
+        ["بعد بكرة", "übermorgen"]
+      ]
+    }
+  ]
+}

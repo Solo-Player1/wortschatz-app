@@ -1,0 +1,101 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.520 --> 00:00:09.920 region:R1 align:center
+<c.S1>– Ja! Das sieht gut aus.</c>
+
+2
+00:00:09.960 --> 00:00:11.720 region:R1 align:center
+<c.S1>Diesmal schaffen wir das.</c>
+
+3
+00:00:11.760 --> 00:00:14.320 region:R1 align:center
+<c.S1>So schwer ist Kochen doch nicht.</c>
+
+4
+00:00:15.400 --> 00:00:17.560 region:R1 align:center
+<c.S1>Zwiebeln schneiden …
+Das mache ich.</c>
+
+5
+00:00:17.600 --> 00:00:21.760 region:R1 align:center
+<c.S1>Du schneidest den Fetakäse
+in kleine Stücke.</c>
+
+6
+00:00:21.800 --> 00:00:22.480 region:R1 align:center
+<c.S1>– Alles?</c>
+
+7
+00:00:22.520 --> 00:00:25.440 region:R1 align:center
+<c.S1>– Ja, wir brauchen 250 Gramm.</c>
+
+8
+00:00:25.480 --> 00:00:28.600 region:R1 align:center
+<c.S1>Danach schneidest du die Tomaten
+und den Schinken klein.</c>
+
+9
+00:00:28.640 --> 00:00:32.640 region:R1 align:center
+<c.S1>Und zum Schluss legst du alles
+auf den Pizzateig.</c>
+
+10
+00:00:32.680 --> 00:00:35.520 region:R1 align:center
+<c.S1>Schau mal. Hier im Kochbuch steht:</c>
+
+11
+00:00:35.800 --> 00:00:38.080 region:R1 align:center
+<c.S1>Schneiden Sie zuerst den Käse klein,</c>
+
+12
+00:00:38.120 --> 00:00:41.920 region:R1 align:center
+<c.S1>schneiden Sie dann die Tomaten
+und den Schinken in Würfel,</c>
+
+13
+00:00:41.960 --> 00:00:44.480 region:R1 align:center
+<c.S1>legen Sie alles auf die Pizza</c>
+
+14
+00:00:44.520 --> 00:00:51.520 region:R1 align:center
+<c.S1>und schieben Sie die Pizza für
+20 Minuten bei 180 Grad in den Ofen.</c>
+
+15
+00:00:51.800 --> 00:00:52.520 region:R1 align:center
+<c.S1>– Okay.</c>
+
+16
+00:00:53.040 --> 00:00:56.360 region:R1 align:center
+<c.S1>– Meine Schwester kann sehr gut
+kochen und backen.</c>
+
+17
+00:00:56.400 --> 00:00:58.040 region:R1 align:center
+<c.S1>Ich leider nicht.</c>
+
+18
+00:00:58.200 --> 00:00:59.040 region:R1 align:center
+<c.S1>– Ich auch nicht.</c>
+
+19
+00:01:00.080 --> 00:01:01.520 region:R1 align:center
+<c.S1>Aber Pizzabacken ist leicht!</c>
+
+20
+00:01:01.560 --> 00:01:02.520 region:R1 align:center
+<c.S1>– Ja.</c>
+
+21
+00:01:17.160 --> 00:01:18.880 region:R1 align:center
+<c.S1>– Guten Appetit.</c>

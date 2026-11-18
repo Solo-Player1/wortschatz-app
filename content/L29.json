@@ -1,0 +1,748 @@
+{
+  "n": 29,
+  "sentences": [
+    {
+      "id": "s29-001",
+      "de": "Manja ist krank.",
+      "ar": "مانيا عيانة.",
+      "kind": "statement",
+      "focus": [
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "krank",
+        "opts": [
+          "krank",
+          "halb",
+          "teuer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-002",
+      "de": "Wann beginnt der Kurs?",
+      "ar": "الكورس بيبدأ إمتى؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:beginnen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "beginnt",
+        "opts": [
+          "beginnt",
+          "beginnst",
+          "beginne",
+          "beginnen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-003",
+      "de": "Der Kurs beginnt um neun.",
+      "ar": "الكورس بيبدأ الساعة تسعة.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition",
+        "verb:beginnen"
+      ],
+      "alts": [
+        "Um neun beginnt der Kurs."
+      ],
+      "cloze": {
+        "word": "um",
+        "opts": [
+          "um",
+          "von",
+          "bis",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-004",
+      "de": "Tut mir leid, das geht nicht.",
+      "ar": "آسف، ده مش هينفع.",
+      "kind": "answer",
+      "focus": [
+        "polite",
+        "negation"
+      ],
+      "alts": [
+        "Das geht nicht, tut mir leid."
+      ],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "mich",
+          "ich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-005",
+      "de": "Wann arbeitest du morgen?",
+      "ar": "هتشتغل إمتى بكرة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:arbeiten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "arbeitest",
+        "opts": [
+          "arbeitest",
+          "arbeitet",
+          "arbeite",
+          "arbeiten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-006",
+      "de": "Ich arbeite morgen von acht bis zwölf.",
+      "ar": "هشتغل بكرة من تمانية لحد اتناشر.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition",
+        "word-order"
+      ],
+      "alts": [
+        "Morgen arbeite ich von acht bis zwölf.",
+        "Von acht bis zwölf arbeite ich morgen."
+      ],
+      "cloze": {
+        "word": "bis",
+        "opts": [
+          "bis",
+          "um",
+          "nach",
+          "in"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-007",
+      "de": "Das Training ist von zwei bis vier.",
+      "ar": "التمرين من اتنين لحد أربعة.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition",
+        "article"
+      ],
+      "alts": [
+        "Von zwei bis vier ist das Training."
+      ],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-008",
+      "de": "Wann hast du morgen Uni?",
+      "ar": "عندك جامعة إمتى بكرة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hast",
+        "opts": [
+          "hast",
+          "bist",
+          "hat",
+          "habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-009",
+      "de": "Ich bin von neun bis fünf in der Uni.",
+      "ar": "أنا في الجامعة من تسعة لحد خمسة.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition",
+        "place"
+      ],
+      "alts": [
+        "Von neun bis fünf bin ich in der Uni.",
+        "In der Uni bin ich von neun bis fünf."
+      ],
+      "cloze": {
+        "word": "von",
+        "opts": [
+          "von",
+          "um",
+          "bis",
+          "aus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-010",
+      "de": "Was macht Nina morgen?",
+      "ar": "نينا هتعمل إيه بكرة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:machen"
+      ],
+      "alts": [
+        "Was macht morgen Nina?"
+      ],
+      "cloze": {
+        "word": "macht",
+        "opts": [
+          "macht",
+          "machst",
+          "mache",
+          "machen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-011",
+      "de": "Nina hat um acht einen Termin beim Arzt.",
+      "ar": "نينا عندها ميعاد عند الدكتور الساعة تمانية.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition"
+      ],
+      "alts": [
+        "Um acht hat Nina einen Termin beim Arzt.",
+        "Nina hat um acht beim Arzt einen Termin.",
+        "Um acht hat Nina beim Arzt einen Termin."
+      ],
+      "cloze": {
+        "word": "Termin",
+        "opts": [
+          "Termin",
+          "Lösung",
+          "Schule"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-012",
+      "de": "Nina ist von zehn bis drei in der Schule.",
+      "ar": "نينا في المدرسة من عشرة لحد تلاتة.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition",
+        "place"
+      ],
+      "alts": [
+        "Von zehn bis drei ist Nina in der Schule.",
+        "In der Schule ist Nina von zehn bis drei."
+      ],
+      "cloze": {
+        "word": "Schule",
+        "opts": [
+          "Schule",
+          "Arzt",
+          "Termin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-013",
+      "de": "Es gibt keine Lösung.",
+      "ar": "مفيش حل.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "es-gibt"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s29-014",
+      "de": "Wie spät ist es?",
+      "ar": "الساعة كام؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "spät",
+        "opts": [
+          "spät",
+          "Uhr",
+          "halb"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-015",
+      "de": "Es ist ein Uhr.",
+      "ar": "الساعة واحدة.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eins",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-016",
+      "de": "Wie viel Uhr ist es?",
+      "ar": "هي الساعة كام؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "spät"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-017",
+      "de": "Es ist halb eins.",
+      "ar": "الساعة اتناشر ونص.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eins",
+        "opts": [
+          "eins",
+          "ein",
+          "zwölf"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-018",
+      "de": "Die Mittagspause ist von zwölf bis eins.",
+      "ar": "استراحة الغدا من اتناشر لحد واحدة.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition",
+        "article"
+      ],
+      "alts": [
+        "Von zwölf bis eins ist die Mittagspause."
+      ],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-019",
+      "de": "Das weiß ich leider nicht.",
+      "ar": "للأسف معرفش.",
+      "kind": "answer",
+      "focus": [
+        "polite",
+        "negation"
+      ],
+      "alts": [
+        "Ich weiß das leider nicht.",
+        "Leider weiß ich das nicht."
+      ],
+      "cloze": {
+        "word": "leider",
+        "opts": [
+          "leider",
+          "gern",
+          "sehr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-020",
+      "de": "Die Babysitterin kommt um halb sieben.",
+      "ar": "البيبي سيتر جاية الساعة ستة ونص.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "preposition"
+      ],
+      "alts": [
+        "Um halb sieben kommt die Babysitterin."
+      ],
+      "cloze": {
+        "word": "sieben",
+        "opts": [
+          "sieben",
+          "sechs",
+          "acht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-021",
+      "de": "Wann hast du Volleyballtraining?",
+      "ar": "عندك تمرين كورة طايرة إمتى؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wann",
+        "opts": [
+          "Wann",
+          "Wer",
+          "Was",
+          "Woher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s29-022",
+      "de": "Morgen ist ein langer Tag.",
+      "ar": "بكرة يوم طويل.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w29-01",
+      "q": "___ beginnt der Kurs?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "الكورس بيبدأ إمتى؟",
+      "reply": "Um neun.",
+      "reply_ar": "الساعة تسعة."
+    },
+    {
+      "id": "w29-02",
+      "q": "___ arbeitest du morgen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Welche"
+      ],
+      "ar": "هتشتغل إمتى بكرة؟",
+      "reply": "Ich arbeite von acht bis zwölf.",
+      "reply_ar": "هشتغل من تمانية لحد اتناشر."
+    },
+    {
+      "id": "w29-03",
+      "q": "___ spät ist es?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "الساعة كام؟",
+      "reply": "Es ist halb neun.",
+      "reply_ar": "الساعة تمانية ونص."
+    },
+    {
+      "id": "w29-04",
+      "q": "___ Uhr ist es?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wie alt",
+        "Wann"
+      ],
+      "ar": "هي الساعة كام؟",
+      "reply": "Es ist zwölf Uhr.",
+      "reply_ar": "الساعة اتناشر."
+    },
+    {
+      "id": "w29-05",
+      "q": "___ hat einen Termin beim Arzt?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wann",
+        "Wie"
+      ],
+      "ar": "مين عنده ميعاد عند الدكتور؟",
+      "reply": "Nina hat um acht einen Termin.",
+      "reply_ar": "نينا عندها ميعاد الساعة تمانية."
+    },
+    {
+      "id": "w29-06",
+      "q": "___ ist Nina von zehn bis drei?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "نينا فين من عشرة لحد تلاتة؟",
+      "reply": "Sie ist in der Schule.",
+      "reply_ar": "هي في المدرسة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g29-1",
+      "h": "الساعة كام؟ (الطريقة غير الرسمية)",
+      "body": "عشان تسأل عن الساعة فيه سؤالين بنفس المعنى: Wie spät ist es? و Wie viel Uhr ist es? (viel مش viele). والرد: Es ist + الرقم. في الكلام العادي بنعدّ من 1 لـ 12 بس: الساعة 2 الضهر = zwei برضه (مش vierzehn). وكلمة Uhr ممكن تتشال: Es ist acht. = Es ist acht Uhr. وخد بالك من الواحدة: Es ist eins. أو Es ist ein Uhr. (مش ein لوحدها ولا eins Uhr).",
+      "examples": [
+        {
+          "de": "Wie spät ist es? – Es ist acht.",
+          "ar": "الساعة كام؟ – الساعة تمانية."
+        },
+        {
+          "de": "Wie viel Uhr ist es? – Es ist ein Uhr.",
+          "ar": "هي الساعة كام؟ – الساعة واحدة."
+        },
+        {
+          "de": "Das Training ist von zwei bis vier.",
+          "ar": "التمرين من اتنين لحد أربعة (بعد الضهر)."
+        }
+      ],
+      "table": [
+        [
+          "الساعة",
+          "بالمصري",
+          "بالألماني"
+        ],
+        [
+          "8:00",
+          "تمانية",
+          "Es ist acht (Uhr)."
+        ],
+        [
+          "1:00",
+          "واحدة",
+          "Es ist eins. / Es ist ein Uhr."
+        ],
+        [
+          "14:00",
+          "اتنين الضهر",
+          "Es ist zwei (Uhr)."
+        ],
+        [
+          "17:00",
+          "خمسة العصر",
+          "Es ist fünf (Uhr)."
+        ]
+      ]
+    },
+    {
+      "id": "g29-2",
+      "h": "halb = نص ساعة قبل الساعة الجاية",
+      "body": "أهم فخ للعرب: halb بتتقال مع الساعة الجاية مش اللي فاتت. halb neun يعني «فاضل نص ساعة على تسعة» = 8:30، مش 9:30! فلما تحب تقول «تمانية ونص» قول halb neun. القاعدة: زوّد واحد على الساعة اللي في دماغك بالعربي وحط قبلها halb. وعشان كده «اتناشر ونص» = halb eins.",
+      "examples": [
+        {
+          "de": "Es ist halb neun.",
+          "ar": "الساعة تمانية ونص (8:30)."
+        },
+        {
+          "de": "Es ist halb eins.",
+          "ar": "الساعة اتناشر ونص (12:30)."
+        },
+        {
+          "de": "Die Babysitterin kommt um halb sieben.",
+          "ar": "البيبي سيتر جاية الساعة ستة ونص (6:30)."
+        }
+      ],
+      "table": [
+        [
+          "الساعة",
+          "بالمصري",
+          "بالألماني"
+        ],
+        [
+          "8:30",
+          "تمانية ونص",
+          "halb neun"
+        ],
+        [
+          "12:30",
+          "اتناشر ونص",
+          "halb eins"
+        ],
+        [
+          "6:30",
+          "ستة ونص",
+          "halb sieben"
+        ],
+        [
+          "9:30",
+          "تسعة ونص",
+          "halb zehn"
+        ]
+      ]
+    },
+    {
+      "id": "g29-3",
+      "h": "حروف الجر للوقت: um و von … bis",
+      "body": "Wann = إمتى. لو الرد ساعة محددة: um + الساعة (um neun = الساعة تسعة، ومش in neun!). لو الرد مدة: von + البداية + bis + النهاية (von acht bis zwölf = من تمانية لحد اتناشر). لكن Wie spät ist es? ردها Es ist neun. من غير um. والفعل دايمًا تاني حاجة في الجملة، فلو بدأت بالوقت الفاعل ييجي بعد الفعل: Um neun beginnt der Kurs. / Morgen arbeite ich von acht bis zwölf.",
+      "examples": [
+        {
+          "de": "Wann beginnt der Kurs? – Um neun.",
+          "ar": "الكورس بيبدأ إمتى؟ – الساعة تسعة."
+        },
+        {
+          "de": "Nina hat um acht einen Termin beim Arzt.",
+          "ar": "نينا عندها ميعاد عند الدكتور الساعة تمانية."
+        },
+        {
+          "de": "Ich bin von neun bis fünf in der Uni.",
+          "ar": "أنا في الجامعة من تسعة لحد خمسة."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "معناها",
+          "مثال"
+        ],
+        [
+          "um",
+          "الساعة … (وقت محدد)",
+          "um neun / um halb acht"
+        ],
+        [
+          "von … bis",
+          "من … لحد … (مدة)",
+          "von acht bis zwölf"
+        ],
+        [
+          "Es ist …",
+          "الساعة دلوقتي (رد Wie spät ist es?) من غير um",
+          "Es ist neun. / Es ist halb neun."
+        ]
+      ]
+    },
+    {
+      "id": "g29-4",
+      "h": "برنامج بكرة: تسأل وتعتذر",
+      "body": "morgen بحرف صغير = بكرة (مش زي Guten Morgen = صباح الخير)، وبيتكتب كبير بس في أول الجملة: Morgen arbeite ich von acht bis zwölf. والألماني بيستخدم المضارع للمستقبل عادي: Ich arbeite morgen = هشتغل بكرة. تسأل عن برنامج حد: Was macht Nina morgen? ولو الميعاد مش مناسب: Tut mir leid, das geht nicht. ولو مش عارف: Das weiß ich leider nicht.",
+      "examples": [
+        {
+          "de": "Was macht Nina morgen?",
+          "ar": "نينا هتعمل إيه بكرة؟"
+        },
+        {
+          "de": "Tut mir leid, das geht nicht.",
+          "ar": "آسف، ده مش هينفع."
+        },
+        {
+          "de": "Wann beginnt die Schule? – Das weiß ich leider nicht.",
+          "ar": "المدرسة بتبدأ إمتى؟ – للأسف معرفش."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري",
+          "إمتى تقولها"
+        ],
+        [
+          "Das geht nicht.",
+          "ده مش هينفع.",
+          "الميعاد مش مناسب"
+        ],
+        [
+          "Tut mir leid.",
+          "آسف.",
+          "بتعتذر"
+        ],
+        [
+          "Das weiß ich leider nicht.",
+          "للأسف معرفش.",
+          "مش عارف الإجابة"
+        ]
+      ]
+    }
+  ]
+}

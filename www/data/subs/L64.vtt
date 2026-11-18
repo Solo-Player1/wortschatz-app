@@ -1,0 +1,106 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:06.760 --> 00:00:08.880 region:R1 align:center
+<c.S1>– Sie ist also nicht nach Spanien geflogen.</c>
+
+2
+00:00:10.480 --> 00:00:12.760 region:R1 align:center
+<c.S1>– Wohnt jemand aus deiner
+Familie in Zürich?</c>
+
+3
+00:00:12.840 --> 00:00:14.040 region:R1 align:center
+<c.S1>– Nein.</c>
+
+4
+00:00:14.520 --> 00:00:16.920 region:R1 align:center
+<c.S1>Meine Familie wohnt in Sevilla.</c>
+
+5
+00:00:18.200 --> 00:00:19.520 region:R1 align:center
+<c.S1>Nur mein Bruder …</c>
+
+6
+00:00:20.480 --> 00:00:21.560 region:R1 align:center
+<c.S1>– Wo wohnt dein Bruder?</c>
+
+7
+00:00:21.800 --> 00:00:23.240 region:R1 align:center
+<c.S1>– In Deutschland.</c>
+
+8
+00:00:23.400 --> 00:00:24.800 region:R1 align:center
+<c.S1>In …</c>
+
+9
+00:00:26.280 --> 00:00:26.960 region:R1 align:center
+<c.S1>München.</c>
+
+10
+00:00:27.000 --> 00:00:29.840 region:R1 align:center
+<c.S1>– Ah, witzig! Mein Bruder
+wohnt auch in München.</c>
+
+11
+00:00:30.440 --> 00:00:32.280 region:R1 align:center
+<c.S1>– Sie haben einen Bruder in Deutschland?</c>
+
+12
+00:00:32.360 --> 00:00:33.680 region:R1 align:center
+<c.S1>Sollen wir ihn anrufen?</c>
+
+13
+00:00:33.720 --> 00:00:34.520 region:R1 align:center
+<c.S1>– Nein.</c>
+
+14
+00:00:35.000 --> 00:00:36.280 region:R1 align:center
+<c.S1>– Aber er kann dir sicher helfen!</c>
+
+15
+00:00:36.320 --> 00:00:38.240 region:R1 align:center
+<c.S1>– Ich brauche keine Hilfe von
+meinem Bruder!</c>
+
+16
+00:00:38.280 --> 00:00:39.160 region:R1 align:center
+<c.S1>– Okay.</c>
+
+17
+00:00:39.760 --> 00:00:41.360 region:R1 align:center
+<c.S1>– Also, hier ist nichts.</c>
+
+18
+00:00:42.720 --> 00:00:44.680 region:R1 align:center
+<c.S1>– Sollen wir weitersuchen?</c>
+
+19
+00:00:45.120 --> 00:00:48.120 region:R1 align:center
+<c.S1>– Nein, ich glaube, wir finden nichts.</c>
+
+20
+00:00:48.440 --> 00:00:51.280 region:R1 align:center
+<c.S1>Sind Sie sicher, dass Sie keine
+Verwandten in Zürich haben?</c>
+
+21
+00:00:51.920 --> 00:00:53.240 region:R1 align:center
+<c.S1>– Ganz sicher.</c>
+
+22
+00:00:54.160 --> 00:00:55.960 region:R1 align:center
+<c.S1>– Dann müssen wir warten.</c>
+
+23
+00:00:59.880 --> 00:01:01.680 region:R1 align:center
+<c.S1>– Sie kommt wieder!</c>

@@ -1,0 +1,82 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:11.760 --> 00:00:13.280 region:R1 align:center
+<c.S1>– Hast du schon im Schrank geschaut?</c>
+
+2
+00:00:13.320 --> 00:00:14.440 region:R1 align:center
+<c.S1>– Ja.</c>
+
+3
+00:00:14.640 --> 00:00:19.000 region:R1 align:center
+<c.S1>– Vielleicht unter der Tastatur
+oder hinter dem Drucker?</c>
+
+4
+00:00:24.040 --> 00:00:25.400 region:R1 align:center
+<c.S1>– Nichts!</c>
+
+5
+00:00:26.240 --> 00:00:29.720 region:R1 align:center
+<c.S1>– Hier im Regal sehe ich auch nichts.</c>
+
+6
+00:00:29.840 --> 00:00:31.760 region:R1 align:center
+<c.S1>– Dann ist es wohl nicht da.</c>
+
+7
+00:00:31.800 --> 00:00:34.040 region:R1 align:center
+<c.S1>– Doch, es muss da sein, ganz sicher.</c>
+
+8
+00:00:34.120 --> 00:00:36.000 region:R1 align:center
+<c.S1>Einen Moment bitte!</c>
+
+9
+00:00:50.600 --> 00:00:52.400 region:R1 align:center
+<c.S1>Ich habe es gefunden!</c>
+
+10
+00:00:54.200 --> 00:00:56.240 region:R1 align:center
+<c.S1>– Das ist der Fahrradladen!</c>
+
+11
+00:00:59.440 --> 00:01:02.320 region:R1 align:center
+<c.S1>– Ja, stimmt.
+Aber vorübergehend geschlossen …</c>
+
+12
+00:01:02.360 --> 00:01:03.600 region:R1 align:center
+<c.S1>– Geschlossen?</c>
+
+13
+00:01:03.920 --> 00:01:06.480 region:R1 align:center
+<c.S1>– Ja, zu. Geschlossen.
+Yara ist nicht da.</c>
+
+14
+00:01:08.040 --> 00:01:09.760 region:R1 align:center
+<c.S1>– Aber das kann nicht sein.
+Wo ist Yara?</c>
+
+15
+00:01:11.880 --> 00:01:13.240 region:R1 align:center
+<c.S1>– Endlich!</c>
+
+16
+00:01:13.280 --> 00:01:14.960 region:R1 align:center
+<c.S1>– Und die Quittung bitte.</c>
+
+17
+00:01:17.080 --> 00:01:18.960 region:R1 align:center
+<c.S1>– Schönen Tag noch.</c>

@@ -1,0 +1,792 @@
+{
+  "n": 50,
+  "sentences": [
+    {
+      "id": "s50-001",
+      "de": "Ich hätte gerne ein Brot.",
+      "ar": "كنت عايز رغيف عيش.",
+      "kind": "statement",
+      "focus": [
+        "shopping",
+        "polite",
+        "accusative"
+      ],
+      "alts": [
+        "Ein Brot hätte ich gerne.",
+        "Gerne hätte ich ein Brot."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-002",
+      "de": "Und ein halbes?",
+      "ar": "طب ونُص رغيف؟",
+      "kind": "question",
+      "focus": [
+        "quantity",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "halbes",
+        "opts": [
+          "halbes",
+          "Hälfte",
+          "halb"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-003",
+      "de": "Ein halbes Brot kostet 1,60 Euro.",
+      "ar": "نُص الرغيف بيورو و60 سنت.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "adjective"
+      ],
+      "alts": [
+        "1,60 Euro kostet ein halbes Brot."
+      ],
+      "cloze": {
+        "word": "halbes",
+        "opts": [
+          "halbes",
+          "halbe",
+          "halber"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-004",
+      "de": "Welches Brot möchtest du denn, Nico?",
+      "ar": "طب إنت عايز أنهي عيش يا نيكو؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:möchten"
+      ],
+      "alts": [
+        "Nico, welches Brot möchtest du denn?"
+      ],
+      "cloze": {
+        "word": "Welches",
+        "opts": [
+          "Welches",
+          "Welcher",
+          "Welche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-005",
+      "de": "Sind Sie sich da auch sicher?",
+      "ar": "حضرتك متأكد من كده بجد؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "formal",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sicher",
+        "opts": [
+          "sicher",
+          "sauber",
+          "lecker"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-006",
+      "de": "Darf es sonst noch was sein?",
+      "ar": "تؤمر بحاجة تانية؟",
+      "kind": "question",
+      "focus": [
+        "shopping",
+        "polite",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Darf",
+        "opts": [
+          "Darf",
+          "Hat",
+          "Ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-007",
+      "de": "Ich hätte gerne noch zwei Stück Apfelkuchen.",
+      "ar": "كنت عايز كمان حتتين كيكة تفاح.",
+      "kind": "answer",
+      "focus": [
+        "shopping",
+        "quantity"
+      ],
+      "alts": [
+        "Ich hätte noch gerne zwei Stück Apfelkuchen.",
+        "Gerne hätte ich noch zwei Stück Apfelkuchen.",
+        "Noch zwei Stück Apfelkuchen hätte ich gerne.",
+        "Zwei Stück Apfelkuchen hätte ich noch gerne.",
+        "Zwei Stück Apfelkuchen hätte ich gerne noch."
+      ],
+      "cloze": {
+        "word": "hätte",
+        "opts": [
+          "hätte",
+          "hätten",
+          "hättest"
+        ],
+        "accept": [
+          "möchte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-008",
+      "de": "Kann ich sonst noch etwas für Sie tun?",
+      "ar": "أقدر أخدم حضرتك في حاجة تانية؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "formal",
+        "verb:können"
+      ],
+      "alts": [
+        "Kann ich für Sie sonst noch etwas tun?",
+        "Kann ich sonst für Sie noch etwas tun?"
+      ],
+      "cloze": {
+        "word": "Kann",
+        "opts": [
+          "Kann",
+          "Kannst",
+          "Können"
+        ],
+        "accept": [
+          "Darf"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-009",
+      "de": "Das macht dann 8,60 Euro.",
+      "ar": "كده الحساب 8 يورو و60 سنت.",
+      "kind": "statement",
+      "focus": [
+        "price",
+        "pay"
+      ],
+      "alts": [
+        "Dann macht das 8,60 Euro.",
+        "8,60 Euro macht das dann."
+      ],
+      "cloze": {
+        "word": "macht",
+        "opts": [
+          "macht",
+          "machst",
+          "machen"
+        ],
+        "accept": [
+          "kostet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-010",
+      "de": "Und 1,40 zurück.",
+      "ar": "والباقي يورو و40 سنت.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "price"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zurück",
+        "opts": [
+          "zurück",
+          "zusammen",
+          "getrennt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s50-011",
+      "de": "Guten Tag! Was darf es sein?",
+      "ar": "نهارك سعيد! تؤمر بإيه؟",
+      "kind": "question",
+      "focus": [
+        "shopping",
+        "polite",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "darf",
+        "opts": [
+          "darf",
+          "darfst",
+          "dürfen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-012",
+      "de": "Was hätten Sie gern?",
+      "ar": "حضرتك تحب تاخد إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hätten",
+        "opts": [
+          "hätten",
+          "hätte",
+          "hättest"
+        ],
+        "accept": [
+          "möchten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-013",
+      "de": "Was kann ich für Sie tun?",
+      "ar": "أقدر أساعد حضرتك بإيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "formal",
+        "preposition"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "für",
+        "opts": [
+          "für",
+          "mit",
+          "bei"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-014",
+      "de": "Was kostet ein Stück Apfelkuchen?",
+      "ar": "حتة كيكة التفاح بكام؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kostet",
+        "opts": [
+          "kostet",
+          "kosten",
+          "kostest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-015",
+      "de": "Ich nehme nur die Hälfte.",
+      "ar": "هاخد النُص بس.",
+      "kind": "answer",
+      "focus": [
+        "quantity",
+        "article"
+      ],
+      "alts": [
+        "Nur die Hälfte nehme ich."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ],
+        "accept": [
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-016",
+      "de": "Können Sie das Brot bitte schneiden?",
+      "ar": "ممكن حضرتك تقطّع العيش لو سمحت؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "verb:schneiden",
+        "polite",
+        "verb:können"
+      ],
+      "alts": [
+        "Können Sie bitte das Brot schneiden?",
+        "Können Sie das Brot schneiden, bitte?",
+        "Bitte, können Sie das Brot schneiden?"
+      ],
+      "cloze": {
+        "word": "schneiden",
+        "opts": [
+          "schneiden",
+          "schneidet",
+          "schneide"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-017",
+      "de": "Ich nehme das Brot am Stück.",
+      "ar": "هاخد العيش حتة واحدة، من غير تقطيع.",
+      "kind": "answer",
+      "focus": [
+        "shopping",
+        "phrase"
+      ],
+      "alts": [
+        "Das Brot nehme ich am Stück.",
+        "Am Stück nehme ich das Brot."
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "in",
+          "um"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-018",
+      "de": "Haben Sie sonst noch einen Wunsch?",
+      "ar": "حضرتك عايز حاجة تانية؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "polite",
+        "formal",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-019",
+      "de": "Nein, danke. Das ist alles.",
+      "ar": "لأ، شكرًا. بس كده.",
+      "kind": "answer",
+      "focus": [
+        "shopping",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nein",
+        "opts": [
+          "Nein",
+          "Kein",
+          "Nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-020",
+      "de": "Brauchen Sie eine Tüte?",
+      "ar": "حضرتك محتاج كيس؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "accusative",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-021",
+      "de": "Sie bekommen 1,40 Euro zurück.",
+      "ar": "حضرتك ليك باقي يورو و40 سنت. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "separable",
+        "verb:zurückbekommen",
+        "pay"
+      ],
+      "alts": [
+        "1,40 Euro bekommen Sie zurück."
+      ],
+      "cloze": {
+        "word": "bekommen",
+        "opts": [
+          "bekommen",
+          "bekommst",
+          "bekomme"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s50-022",
+      "de": "Du vergisst deine Tüte!",
+      "ar": "إنت هتنسى الكيس بتاعك!",
+      "kind": "statement",
+      "focus": [
+        "verb:vergessen",
+        "vowel-change",
+        "possessive"
+      ],
+      "alts": [
+        "Deine Tüte vergisst du!"
+      ],
+      "cloze": {
+        "word": "vergisst",
+        "opts": [
+          "vergisst",
+          "vergesst",
+          "vergesse"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w50-01",
+      "q": "___ darf es sein?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "تؤمر بإيه؟",
+      "reply": "Ich hätte gerne ein Brot.",
+      "reply_ar": "كنت عايز رغيف عيش."
+    },
+    {
+      "id": "w50-02",
+      "q": "___ Brot möchtest du denn, Nico?",
+      "answer": "Welches",
+      "opts": [
+        "Welches",
+        "Welcher",
+        "Welche",
+        "Was"
+      ],
+      "ar": "طب إنت عايز أنهي عيش يا نيكو؟",
+      "reply": "Das hier, bitte.",
+      "reply_ar": "ده اللي هنا، لو سمحت."
+    },
+    {
+      "id": "w50-03",
+      "q": "___ kostet ein halbes Brot?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "نُص الرغيف بكام؟",
+      "reply": "1,60 Euro.",
+      "reply_ar": "بيورو و60 سنت."
+    },
+    {
+      "id": "w50-04",
+      "q": "___ bekomme ich zurück?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "هاخد باقي كام؟",
+      "reply": "Sie bekommen 1,40 Euro zurück.",
+      "reply_ar": "حضرتك ليك باقي يورو و40 سنت."
+    },
+    {
+      "id": "w50-05",
+      "q": "___ kauft Inge das Brot?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "إنجي بتشتري العيش فين؟",
+      "reply": "In der Bäckerei.",
+      "reply_ar": "في المخبز."
+    },
+    {
+      "id": "w50-06",
+      "q": "___ dauert das hier immer so lange?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Wohin",
+        "Woher"
+      ],
+      "ar": "هو ليه الحكاية هنا دايمًا بتاخد وقت طويل كده؟",
+      "reply": "Es gibt viele Kunden.",
+      "reply_ar": "فيه زباين كتير."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g50-1",
+      "h": "في المحل: البيّاع بيقول إيه وإنت ترد بإيه؟",
+      "body": "الدرس ده مفيهوش قاعدة جديدة، كله جُمل جاهزة للشرا من المخبز أو أي محل. البيّاع بيبدأ بواحدة من دول: Was darf es sein? أو Was hätten Sie gern? أو Was kann ich für Sie tun? (كلهم = تؤمر بإيه؟). وبعد ما تطلب يسألك: Darf es sonst noch was sein? أو Haben Sie sonst noch einen Wunsch? (حاجة تانية؟). لو عايز حاجة كمان: Ja, ich hätte gerne noch …، ولو خلصت: Nein, danke. Das ist alles.",
+      "examples": [
+        {
+          "de": "Guten Tag! Was darf es sein? – Ich hätte gerne ein Brot.",
+          "ar": "نهارك سعيد! تؤمر بإيه؟ – كنت عايز رغيف عيش."
+        },
+        {
+          "de": "Darf es sonst noch was sein? – Ja, ich hätte gerne noch zwei Stück Apfelkuchen.",
+          "ar": "تؤمر بحاجة تانية؟ – أيوه، كنت عايز كمان حتتين كيكة تفاح."
+        },
+        {
+          "de": "Haben Sie sonst noch einen Wunsch? – Nein, danke. Das ist alles.",
+          "ar": "حضرتك عايز حاجة تانية؟ – لأ، شكرًا. بس كده."
+        }
+      ],
+      "table": [
+        [
+          "البيّاع بيقول",
+          "إنت ترد"
+        ],
+        [
+          "Was darf es sein?",
+          "Ich hätte gerne ein Brot."
+        ],
+        [
+          "Was hätten Sie gern?",
+          "Ich nehme zwei Brötchen."
+        ],
+        [
+          "Darf es sonst noch was sein?",
+          "Ja, ich hätte gerne noch …"
+        ],
+        [
+          "Haben Sie sonst noch einen Wunsch?",
+          "Nein, danke. Das ist alles."
+        ],
+        [
+          "Sind Sie sich da auch sicher?",
+          "Ja. Danke!"
+        ],
+        [
+          "Brauchen Sie eine Tüte?",
+          "Ja, bitte. / Nein, danke."
+        ],
+        [
+          "Das macht dann 8,60 Euro.",
+          "Hier, bitte."
+        ]
+      ]
+    },
+    {
+      "id": "g50-2",
+      "h": "Ich hätte gerne … = «كنت عايز …» بأدب",
+      "body": "أشيك طريقة تطلب بيها: Ich hätte gerne … زي ما بنقول بالمصري «كنت عايز …». hätte جاية من haben، بس مع gerne معناها «عايز» فاحفظها جملة جاهزة (gern = gerne). وبنفس المعنى تقدر تقول Ich möchte … أو Ich nehme …، والبيّاع بيكلمك بـ Sie: Was hätten Sie gern? والاسم اللي بعدها مفعول به (نصب): المذكّر بس بيتغيّر، ein بتبقى einen، والمؤنّث والمحايد زي ما هما.",
+      "examples": [
+        {
+          "de": "Ich hätte gerne ein Brot.",
+          "ar": "كنت عايز رغيف عيش. (das Brot: ein زي ما هي)"
+        },
+        {
+          "de": "Ich hätte gerne einen Kaffee.",
+          "ar": "كنت عايز قهوة. (der Kaffee: einen)"
+        },
+        {
+          "de": "Was hätten Sie gern? – Ich nehme zwei Brötchen.",
+          "ar": "حضرتك تحب تاخد إيه؟ – هاخد رغيفين فينو."
+        }
+      ],
+      "table": [
+        [
+          "الاسم",
+          "Ich hätte gerne …"
+        ],
+        [
+          "der Kuchen",
+          "einen Kuchen"
+        ],
+        [
+          "die Tüte",
+          "eine Tüte"
+        ],
+        [
+          "das Brot",
+          "ein Brot"
+        ],
+        [
+          "die Brötchen (جمع)",
+          "zwei Brötchen"
+        ]
+      ]
+    },
+    {
+      "id": "g50-3",
+      "h": "نُص وحتة: halb، die Hälfte، Stück، am Stück",
+      "body": "halb صفة، فبعد ein / eine بتاخد نهاية حسب جنس الاسم: ein halbes Brot و ein halbes Kilo (das)، eine halbe Stunde (die). أما die Hälfte فاسم معناه «النُص»: Ich nehme nur die Hälfte. وبعد الأرقام بنقول Stück مفرد: zwei Stück Apfelkuchen (حتتين). وam Stück = حتة واحدة من غير تقطيع، ولو عايزه متقطّع قول: Können Sie das Brot bitte schneiden?",
+      "examples": [
+        {
+          "de": "Ein halbes Brot kostet 1,60 Euro.",
+          "ar": "نُص الرغيف بيورو و60 سنت."
+        },
+        {
+          "de": "Ich hätte gerne noch zwei Stück Apfelkuchen.",
+          "ar": "كنت عايز كمان حتتين كيكة تفاح."
+        },
+        {
+          "de": "Ich nehme das Brot am Stück.",
+          "ar": "هاخد العيش حتة واحدة، من غير تقطيع."
+        }
+      ],
+      "table": [
+        [
+          "بالعربي",
+          "بالألماني"
+        ],
+        [
+          "نُص رغيف",
+          "ein halbes Brot"
+        ],
+        [
+          "نُص ساعة",
+          "eine halbe Stunde"
+        ],
+        [
+          "نُص كيلو",
+          "ein halbes Kilo"
+        ],
+        [
+          "النُص",
+          "die Hälfte"
+        ],
+        [
+          "حتتين كيكة",
+          "zwei Stück Kuchen"
+        ],
+        [
+          "حتة واحدة من غير تقطيع",
+          "am Stück"
+        ]
+      ]
+    },
+    {
+      "id": "g50-4",
+      "h": "السعر والحساب والباقي: zurück|bekommen و vergessen",
+      "body": "تسأل على السعر: Was kostet …? (وللجمع: Was kosten …?). والبيّاع بيقولك الحساب: Das macht dann 8,60 Euro. ولما يرجّعلك الباقي: Und 1,40 zurück. أو Sie bekommen 1,40 Euro zurück. وzurück|bekommen فعل بينفصل زي درس 30: bekommen مكان الفعل وzurück في الآخر. وvergessen (ينسى) الـ e بتبقى i مع du و er / sie / es بس: du vergisst، er vergisst (زي essen: du isst).",
+      "examples": [
+        {
+          "de": "Was kostet ein Stück Apfelkuchen?",
+          "ar": "حتة كيكة التفاح بكام؟"
+        },
+        {
+          "de": "Das macht dann 8,60 Euro. – Hier, bitte.",
+          "ar": "كده الحساب 8 يورو و60 سنت. – اتفضل."
+        },
+        {
+          "de": "Sie bekommen 1,40 Euro zurück.",
+          "ar": "حضرتك ليك باقي يورو و40 سنت."
+        },
+        {
+          "de": "Du vergisst deine Tüte!",
+          "ar": "إنت هتنسى الكيس بتاعك!"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "zurück|bekommen",
+          "vergessen"
+        ],
+        [
+          "ich",
+          "bekomme … zurück",
+          "vergesse"
+        ],
+        [
+          "du",
+          "bekommst … zurück",
+          "vergisst"
+        ],
+        [
+          "er / sie / es",
+          "bekommt … zurück",
+          "vergisst"
+        ],
+        [
+          "wir",
+          "bekommen … zurück",
+          "vergessen"
+        ],
+        [
+          "ihr",
+          "bekommt … zurück",
+          "vergesst"
+        ],
+        [
+          "sie / Sie",
+          "bekommen … zurück",
+          "vergessen"
+        ]
+      ]
+    }
+  ]
+}

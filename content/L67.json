@@ -1,0 +1,799 @@
+{
+  "n": 67,
+  "sentences": [
+    {
+      "id": "s67-001",
+      "de": "Wir müssen besser und schneller spielen.",
+      "ar": "لازم نلعب أحسن وأسرع.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Wir müssen schneller und besser spielen.",
+        "Besser und schneller müssen wir spielen.",
+        "Schneller und besser müssen wir spielen."
+      ],
+      "cloze": {
+        "word": "schneller",
+        "opts": [
+          "schneller",
+          "schnellsten",
+          "schnelle"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-002",
+      "de": "Wir müssen höher springen und mehr Tore schießen.",
+      "ar": "لازم ننط أعلى ونجيب أجوان أكتر.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:springen"
+      ],
+      "alts": [
+        "Wir müssen mehr Tore schießen und höher springen."
+      ],
+      "cloze": {
+        "word": "mehr",
+        "opts": [
+          "mehr",
+          "vieler",
+          "meisten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-003",
+      "de": "Du bist der Schnellste.",
+      "ar": "إنت أسرع واحد.",
+      "kind": "statement",
+      "focus": [
+        "superlative"
+      ],
+      "alts": [
+        "Der Schnellste bist du."
+      ],
+      "cloze": {
+        "word": "Schnellste",
+        "opts": [
+          "Schnellste",
+          "Schnellsten",
+          "Schnellster"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-004",
+      "de": "Max ist vielleicht am schnellsten.",
+      "ar": "يمكن ماكس هو الأسرع.",
+      "kind": "statement",
+      "focus": [
+        "superlative"
+      ],
+      "alts": [
+        "Vielleicht ist Max am schnellsten.",
+        "Am schnellsten ist vielleicht Max.",
+        "Am schnellsten ist Max vielleicht."
+      ],
+      "cloze": {
+        "word": "schnellsten",
+        "opts": [
+          "schnellsten",
+          "schneller",
+          "schnellste"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-005",
+      "de": "Ich kann am weitesten schießen.",
+      "ar": "أنا أقدر أشوط أبعد من الكل.",
+      "kind": "statement",
+      "focus": [
+        "superlative",
+        "verb:können"
+      ],
+      "alts": [
+        "Am weitesten kann ich schießen."
+      ],
+      "cloze": {
+        "word": "weitesten",
+        "opts": [
+          "weitesten",
+          "weitsten",
+          "weiter"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-006",
+      "de": "Tarek spielt am schlechtesten.",
+      "ar": "طارق بيلعب أوحش من الكل.",
+      "kind": "statement",
+      "focus": [
+        "superlative"
+      ],
+      "alts": [
+        "Am schlechtesten spielt Tarek."
+      ],
+      "cloze": {
+        "word": "schlechtesten",
+        "opts": [
+          "schlechtesten",
+          "schlechtsten",
+          "schlechter"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-007",
+      "de": "Ich muss mich erst mal ausruhen.",
+      "ar": "لازم أرتاح الأول.",
+      "kind": "statement",
+      "focus": [
+        "verb:ausruhen",
+        "reflexive",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Erst mal muss ich mich ausruhen."
+      ],
+      "cloze": {
+        "word": "mich",
+        "opts": [
+          "mich",
+          "mir",
+          "sich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-008",
+      "de": "Gute Sportler machen dreimal pro Woche Training.",
+      "ar": "الرياضيين الكويسين بيتمرنوا تلات مرات في الأسبوع.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "sport"
+      ],
+      "alts": [
+        "Dreimal pro Woche machen gute Sportler Training.",
+        "Gute Sportler machen pro Woche dreimal Training.",
+        "Pro Woche machen gute Sportler dreimal Training."
+      ],
+      "cloze": {
+        "word": "dreimal",
+        "opts": [
+          "dreimal",
+          "drei",
+          "dritte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-009",
+      "de": "Ich mache Krafttraining!",
+      "ar": "أنا بلعب حديد!",
+      "kind": "answer",
+      "focus": [
+        "sport",
+        "verb:machen"
+      ],
+      "alts": [
+        "Krafttraining mache ich!"
+      ],
+      "cloze": {
+        "word": "mache",
+        "opts": [
+          "mache",
+          "machst",
+          "macht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-010",
+      "de": "Das Wichtigste ist die Ernährung.",
+      "ar": "أهم حاجة هي التغذية.",
+      "kind": "statement",
+      "focus": [
+        "superlative",
+        "health"
+      ],
+      "alts": [
+        "Die Ernährung ist das Wichtigste."
+      ],
+      "cloze": {
+        "word": "Wichtigste",
+        "opts": [
+          "Wichtigste",
+          "Wichtigsten",
+          "Wichtiger"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-011",
+      "de": "Trink keinen Alkohol und rauch nicht!",
+      "ar": "ماتشربش كحول وماتدخنش!",
+      "kind": "statement",
+      "focus": [
+        "advice",
+        "imperative",
+        "negation"
+      ],
+      "alts": [
+        "Rauch nicht und trink keinen Alkohol!"
+      ],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s67-012",
+      "de": "Yanis springt hoch, aber Tarek springt höher.",
+      "ar": "يانيس بينط عالي، بس طارق بينط أعلى.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:springen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "höher",
+        "opts": [
+          "höher",
+          "hocher",
+          "hoher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-013",
+      "de": "Max springt am höchsten.",
+      "ar": "ماكس بينط أعلى من الكل.",
+      "kind": "statement",
+      "focus": [
+        "superlative",
+        "verb:springen"
+      ],
+      "alts": [
+        "Am höchsten springt Max."
+      ],
+      "cloze": {
+        "word": "höchsten",
+        "opts": [
+          "höchsten",
+          "hochsten",
+          "höhsten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-014",
+      "de": "Der Fluss ist nah, aber der Park ist näher.",
+      "ar": "النهر قريب، بس الحديقة أقرب.",
+      "kind": "statement",
+      "focus": [
+        "comparison"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "näher",
+        "opts": [
+          "näher",
+          "naher",
+          "nächster"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-015",
+      "de": "Welcher Sportplatz ist am nächsten?",
+      "ar": "أنهي ملعب هو الأقرب؟",
+      "kind": "question",
+      "focus": [
+        "superlative",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nächsten",
+        "opts": [
+          "nächsten",
+          "nahesten",
+          "nähsten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-016",
+      "de": "Was tust du für deine Gesundheit?",
+      "ar": "بتعمل إيه عشان صحتك؟",
+      "kind": "question",
+      "focus": [
+        "verb:tun",
+        "health",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "tust",
+        "opts": [
+          "tust",
+          "tut",
+          "tun"
+        ],
+        "accept": [
+          "machst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-017",
+      "de": "Bewegst du dich im Alltag genug?",
+      "ar": "بتتحرك كفاية في حياتك اليومية؟",
+      "kind": "question",
+      "focus": [
+        "verb:bewegen",
+        "reflexive"
+      ],
+      "alts": [
+        "Bewegst du dich genug im Alltag?"
+      ],
+      "cloze": {
+        "word": "dich",
+        "opts": [
+          "dich",
+          "dir",
+          "sich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-018",
+      "de": "Ich empfehle dir mindestens 30 Minuten Bewegung am Tag.",
+      "ar": "بنصحك بـ 30 دقيقة حركة على الأقل في اليوم.",
+      "kind": "statement",
+      "focus": [
+        "verb:empfehlen",
+        "advice"
+      ],
+      "alts": [
+        "Ich empfehle dir am Tag mindestens 30 Minuten Bewegung.",
+        "Mindestens 30 Minuten Bewegung am Tag empfehle ich dir.",
+        "Dir empfehle ich mindestens 30 Minuten Bewegung am Tag."
+      ],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "du"
+        ],
+        "accept": [
+          "Ihnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-019",
+      "de": "Wie fühlst du dich?",
+      "ar": "حاسس بإيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:fühlen",
+        "reflexive",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fühlst",
+        "opts": [
+          "fühlst",
+          "fühlt",
+          "fühle"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-020",
+      "de": "Ich habe Schmerzen im Rücken.",
+      "ar": "ضهري بيوجعني.",
+      "kind": "answer",
+      "focus": [
+        "health",
+        "body",
+        "verb:haben"
+      ],
+      "alts": [
+        "Im Rücken habe ich Schmerzen."
+      ],
+      "cloze": {
+        "word": "habe",
+        "opts": [
+          "habe",
+          "bin",
+          "hat"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-021",
+      "de": "Dagegen hilft besonders Gymnastik.",
+      "ar": "الجمباز بالذات بيفيد في ده.",
+      "kind": "statement",
+      "focus": [
+        "advice",
+        "health"
+      ],
+      "alts": [
+        "Besonders Gymnastik hilft dagegen.",
+        "Gymnastik hilft besonders dagegen."
+      ],
+      "cloze": {
+        "word": "Dagegen",
+        "opts": [
+          "Dagegen",
+          "Genug",
+          "Mindestens"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s67-022",
+      "de": "Ich fühle mich jetzt viel besser.",
+      "ar": "أنا حاسس إني أحسن بكتير دلوقتي.",
+      "kind": "statement",
+      "focus": [
+        "verb:fühlen",
+        "comparison"
+      ],
+      "alts": [
+        "Jetzt fühle ich mich viel besser."
+      ],
+      "cloze": {
+        "word": "besser",
+        "opts": [
+          "besser",
+          "guter",
+          "bester"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w67-01",
+      "q": "___ kann am weitesten schießen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wie",
+        "Wo"
+      ],
+      "ar": "مين يقدر يشوط أبعد من الكل؟",
+      "reply": "Yanis. Aber Max ist am schnellsten.",
+      "reply_ar": "يانيس. بس ماكس هو الأسرع."
+    },
+    {
+      "id": "w67-02",
+      "q": "___ ist näher, der Fluss oder der Park?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "إيه الأقرب، النهر ولا الحديقة؟",
+      "reply": "Der Park ist näher.",
+      "reply_ar": "الحديقة أقرب."
+    },
+    {
+      "id": "w67-03",
+      "q": "___ machst du Sport?",
+      "answer": "Wie oft",
+      "opts": [
+        "Wie oft",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بتلعب رياضة كل قد إيه؟",
+      "reply": "Mindestens dreimal pro Woche.",
+      "reply_ar": "تلات مرات في الأسبوع على الأقل."
+    },
+    {
+      "id": "w67-04",
+      "q": "___ Deutsche gehen ins Fitnessstudio?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wie oft",
+        "Woher"
+      ],
+      "ar": "كام ألماني بيروحوا الجيم؟",
+      "reply": "Millionen! Fitness ist sehr beliebt.",
+      "reply_ar": "ملايين! الفيتنس محبوب جدًا."
+    },
+    {
+      "id": "w67-05",
+      "q": "___ empfiehlst du mir?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "تنصحني بإيه؟",
+      "reply": "Krafttraining und Gymnastik.",
+      "reply_ar": "تمارين حديد وجمباز."
+    },
+    {
+      "id": "w67-06",
+      "q": "___ hast du Schmerzen?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Was",
+        "Wie alt"
+      ],
+      "ar": "بيوجعك فين؟",
+      "reply": "Im Knie. Ich muss mich ausruhen.",
+      "reply_ar": "في ركبتي. لازم أرتاح."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g67-1",
+      "h": "المقارنة (4): hoch و nah شواذ",
+      "body": "صفتين شواذ لازم يتحفظوا: hoch (عالي) و nah أو nahe (قريب، والاتنين كلمة واحدة بنفس المعنى). الاتنين بياخدوا أوملاوت. hoch: الـ c بتختفي في المقارنة: höher، وبترجع في التفضيل: am höchsten. nah: المقارنة näher، وفي التفضيل بتدخل c: am nächsten. وبعد المقارنة als زي العادة: Der Park ist näher als der Fluss.",
+      "examples": [
+        {
+          "de": "Yanis springt hoch.",
+          "ar": "يانيس بينط عالي."
+        },
+        {
+          "de": "Tarek springt höher.",
+          "ar": "طارق بينط أعلى."
+        },
+        {
+          "de": "Max springt am höchsten.",
+          "ar": "ماكس بينط أعلى من الكل."
+        },
+        {
+          "de": "Der Fluss ist nah, aber der Park ist näher.",
+          "ar": "النهر قريب، بس الحديقة أقرب."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "المقارنة (أكتر)",
+          "التفضيل (الأكتر خالص)"
+        ],
+        [
+          "hoch",
+          "höher",
+          "am höchsten"
+        ],
+        [
+          "nah / nahe",
+          "näher",
+          "am nächsten"
+        ],
+        [
+          "schnell (صفة عادية، للمقارنة)",
+          "schneller",
+          "am schnellsten"
+        ]
+      ]
+    },
+    {
+      "id": "g67-2",
+      "h": "من الحلقة: am weitesten و der Schnellste",
+      "body": "التفضيل = am + الصفة + -sten: am schnellsten. ولو الصفة القصيرة آخرها t أو d أو s أو ß أو z أو sch بنزوّد e قبل -sten: am weitesten، am schlechtesten. وافتكر الشواذ: gut – besser – am besten، و viel – mehr – am meisten. وكمان التفضيل ممكن يبقى اسم بعد der / die / das: Du bist der Schnellste (= إنت أسرع واحد)، و Das Wichtigste ist … (= أهم حاجة هي …). ساعتها بيتكتب بحرف كبير وآخره -e.",
+      "examples": [
+        {
+          "de": "Max ist vielleicht am schnellsten.",
+          "ar": "يمكن ماكس هو الأسرع."
+        },
+        {
+          "de": "Ich kann am weitesten schießen.",
+          "ar": "أنا أقدر أشوط أبعد من الكل."
+        },
+        {
+          "de": "Du bist der Schnellste.",
+          "ar": "إنت أسرع واحد."
+        },
+        {
+          "de": "Das Wichtigste ist die Ernährung.",
+          "ar": "أهم حاجة هي التغذية."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "المقارنة",
+          "التفضيل"
+        ],
+        [
+          "schnell",
+          "schneller",
+          "am schnellsten"
+        ],
+        [
+          "weit",
+          "weiter",
+          "am weitesten"
+        ],
+        [
+          "schlecht",
+          "schlechter",
+          "am schlechtesten"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ]
+      ]
+    },
+    {
+      "id": "g67-3",
+      "h": "تنصح حد: empfehlen والأمر",
+      "body": "عشان تنصح: Ich empfehle dir … (ورسمي: Ihnen). وفي empfehlen الـ e بتبقى ie مع du و er / sie / es: du empfiehlst، er empfiehlt. أو بالأمر زي طارق في الحلقة: Trink keinen Alkohol! (أمر لـ du، هنشرحه في درس 68)، أو رسمي زي درس 42: Bewegen Sie sich! وعشان تقول قد إيه: dreimal pro Woche (تلات مرات في الأسبوع)، mindestens (على الأقل)، genug (كفاية).",
+      "examples": [
+        {
+          "de": "Was empfiehlst du mir?",
+          "ar": "تنصحني بإيه؟"
+        },
+        {
+          "de": "Ich empfehle dir mindestens 30 Minuten Bewegung am Tag.",
+          "ar": "بنصحك بـ 30 دقيقة حركة على الأقل في اليوم."
+        },
+        {
+          "de": "Trink keinen Alkohol und rauch nicht!",
+          "ar": "ماتشربش كحول وماتدخنش!"
+        },
+        {
+          "de": "Bewegen Sie sich jeden Tag!",
+          "ar": "اتحرك كل يوم! (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "empfehlen"
+        ],
+        [
+          "ich",
+          "empfehle"
+        ],
+        [
+          "du",
+          "empfiehlst"
+        ],
+        [
+          "er / sie / es",
+          "empfiehlt"
+        ],
+        [
+          "wir",
+          "empfehlen"
+        ],
+        [
+          "ihr",
+          "empfehlt"
+        ],
+        [
+          "sie / Sie",
+          "empfehlen"
+        ]
+      ]
+    },
+    {
+      "id": "g67-4",
+      "h": "أفعال النصايح بـ sich: sich bewegen، sich ausruhen، sich fühlen",
+      "body": "الأفعال دي معاها ضمير بيرجع على الفاعل نفسه، زي «يحرّك نفسه»، والضمير بيتغيّر مع الفاعل: ich … mich، du … dich، er / sie / es … sich، wir … uns، ihr … euch، sie / Sie … sich. و ausruhen كمان بينفصل: Ich ruhe mich aus. ومع فعل مساعد بيرجع كلمة واحدة في الآخر: Ich muss mich erst mal ausruhen. وعشان تسأل عن الإحساس: Wie fühlst du dich?",
+      "examples": [
+        {
+          "de": "Bewegst du dich im Alltag genug?",
+          "ar": "بتتحرك كفاية في حياتك اليومية؟"
+        },
+        {
+          "de": "Ich muss mich erst mal ausruhen.",
+          "ar": "لازم أرتاح الأول."
+        },
+        {
+          "de": "Wie fühlst du dich? – Ich fühle mich jetzt viel besser.",
+          "ar": "حاسس بإيه؟ – حاسس إني أحسن بكتير دلوقتي."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "sich bewegen",
+          "sich fühlen",
+          "sich ausruhen"
+        ],
+        [
+          "ich",
+          "bewege mich",
+          "fühle mich",
+          "ruhe mich … aus"
+        ],
+        [
+          "du",
+          "bewegst dich",
+          "fühlst dich",
+          "ruhst dich … aus"
+        ],
+        [
+          "er / sie / es",
+          "bewegt sich",
+          "fühlt sich",
+          "ruht sich … aus"
+        ],
+        [
+          "wir",
+          "bewegen uns",
+          "fühlen uns",
+          "ruhen uns … aus"
+        ],
+        [
+          "ihr",
+          "bewegt euch",
+          "fühlt euch",
+          "ruht euch … aus"
+        ],
+        [
+          "sie / Sie",
+          "bewegen sich",
+          "fühlen sich",
+          "ruhen sich … aus"
+        ]
+      ]
+    }
+  ]
+}

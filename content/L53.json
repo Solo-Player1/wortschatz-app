@@ -1,0 +1,834 @@
+{
+  "n": 53,
+  "sentences": [
+    {
+      "id": "s53-001",
+      "de": "Der Urlaub war großartig.",
+      "ar": "الإجازة كانت هايلة.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "verb:sein",
+        "holiday"
+      ],
+      "alts": [
+        "Großartig war der Urlaub."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "waren",
+          "hatte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-002",
+      "de": "Das Meer war fantastisch.",
+      "ar": "البحر كان تحفة.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "article",
+        "holiday"
+      ],
+      "alts": [
+        "Fantastisch war das Meer."
+      ],
+      "cloze": {
+        "word": "Meer",
+        "opts": [
+          "Meer",
+          "Strand",
+          "Insel"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-003",
+      "de": "Es waren nur zwei Wochen.",
+      "ar": "كانوا أسبوعين بس.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "verb:sein",
+        "time"
+      ],
+      "alts": [
+        "Nur zwei Wochen waren es."
+      ],
+      "cloze": {
+        "word": "waren",
+        "opts": [
+          "waren",
+          "war",
+          "hatten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-004",
+      "de": "Natürlich war ich schwimmen.",
+      "ar": "طبعًا رحت أعوم.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "verb:sein",
+        "verb:schwimmen"
+      ],
+      "alts": [
+        "Ich war natürlich schwimmen."
+      ],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "habe",
+          "hatte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-005",
+      "de": "Ich habe viele Fotos gemacht.",
+      "ar": "خدت صور كتير.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:machen"
+      ],
+      "alts": [
+        "Viele Fotos habe ich gemacht."
+      ],
+      "cloze": {
+        "word": "gemacht",
+        "opts": [
+          "gemacht",
+          "machen",
+          "macht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-006",
+      "de": "Ich habe Fotos von den Bergen gemacht.",
+      "ar": "خدت صور للجبال.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "plural",
+        "holiday"
+      ],
+      "alts": [
+        "Von den Bergen habe ich Fotos gemacht.",
+        "Ich habe von den Bergen Fotos gemacht.",
+        "Fotos von den Bergen habe ich gemacht.",
+        "Fotos habe ich von den Bergen gemacht."
+      ],
+      "cloze": {
+        "word": "Bergen",
+        "opts": [
+          "Bergen",
+          "Berge",
+          "Berg"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-007",
+      "de": "Ich habe auch Fotos vom Hotel gemacht.",
+      "ar": "خدت صور للفندق كمان.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "verb:haben"
+      ],
+      "alts": [
+        "Vom Hotel habe ich auch Fotos gemacht.",
+        "Ich habe vom Hotel auch Fotos gemacht.",
+        "Ich habe auch vom Hotel Fotos gemacht.",
+        "Auch vom Hotel habe ich Fotos gemacht.",
+        "Fotos vom Hotel habe ich auch gemacht.",
+        "Auch Fotos vom Hotel habe ich gemacht.",
+        "Fotos habe ich auch vom Hotel gemacht.",
+        "Ich habe Fotos auch vom Hotel gemacht."
+      ],
+      "cloze": {
+        "word": "habe",
+        "opts": [
+          "habe",
+          "hat",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-008",
+      "de": "Ich schlafe heute Nacht im Hotel.",
+      "ar": "هنام الليلة في الفندق.",
+      "kind": "statement",
+      "focus": [
+        "verb:schlafen",
+        "time",
+        "travel"
+      ],
+      "alts": [
+        "Heute Nacht schlafe ich im Hotel.",
+        "Im Hotel schlafe ich heute Nacht."
+      ],
+      "cloze": {
+        "word": "schlafe",
+        "opts": [
+          "schlafe",
+          "schläfst",
+          "schläft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-009",
+      "de": "Morgen habe ich noch einen Termin.",
+      "ar": "بكرة لسه عندي ميعاد.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:haben"
+      ],
+      "alts": [
+        "Ich habe morgen noch einen Termin.",
+        "Einen Termin habe ich morgen noch."
+      ],
+      "cloze": {
+        "word": "Morgen",
+        "opts": [
+          "Morgen",
+          "Gestern",
+          "Vorgestern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s53-010",
+      "de": "Wie war dein Urlaub?",
+      "ar": "إجازتك كانت عاملة إيه؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "w-frage",
+        "holiday"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "warst",
+          "hatte"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-011",
+      "de": "Was hast du in den Ferien gemacht?",
+      "ar": "عملت إيه في الإجازة؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "w-frage",
+        "holiday"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hast",
+        "opts": [
+          "hast",
+          "hat",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-012",
+      "de": "Im Urlaub haben wir nur gefaulenzt.",
+      "ar": "في الإجازة ريّحنا وبس.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:faulenzen"
+      ],
+      "alts": [
+        "Wir haben im Urlaub nur gefaulenzt."
+      ],
+      "cloze": {
+        "word": "gefaulenzt",
+        "opts": [
+          "gefaulenzt",
+          "faulenzt",
+          "gefaulenzen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-013",
+      "de": "Habt ihr im Hotel übernachtet?",
+      "ar": "بِتّوا في الفندق؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:übernachten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "übernachtet",
+        "opts": [
+          "übernachtet",
+          "geübernachtet",
+          "übernachten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-014",
+      "de": "Nein, wir haben am Strand gezeltet.",
+      "ar": "لأ، خيّمنا على الشط.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:zelten"
+      ],
+      "alts": [
+        "Nein, am Strand haben wir gezeltet."
+      ],
+      "cloze": {
+        "word": "gezeltet",
+        "opts": [
+          "gezeltet",
+          "gezelt",
+          "zeltet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-015",
+      "de": "Wir haben viele Sehenswürdigkeiten besichtigt.",
+      "ar": "زرنا معالم سياحية كتير.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:besichtigen"
+      ],
+      "alts": [
+        "Viele Sehenswürdigkeiten haben wir besichtigt."
+      ],
+      "cloze": {
+        "word": "besichtigt",
+        "opts": [
+          "besichtigt",
+          "gebesichtigt",
+          "besichtigen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-016",
+      "de": "Gestern haben wir eine Wanderung gemacht.",
+      "ar": "إمبارح طلعنا رحلة مشي.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "time",
+        "verb:haben"
+      ],
+      "alts": [
+        "Wir haben gestern eine Wanderung gemacht.",
+        "Eine Wanderung haben wir gestern gemacht."
+      ],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "habt",
+          "sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-017",
+      "de": "Was habt ihr gestern gemacht?",
+      "ar": "عملتوا إيه إمبارح؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "w-frage",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "habt",
+        "opts": [
+          "habt",
+          "hast",
+          "haben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-018",
+      "de": "Ich habe gar nichts gemacht.",
+      "ar": "ماعملتش ولا حاجة خالص.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "negation"
+      ],
+      "alts": [
+        "Gar nichts habe ich gemacht."
+      ],
+      "cloze": {
+        "word": "nichts",
+        "opts": [
+          "nichts",
+          "nicht",
+          "kein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-019",
+      "de": "Hast du das Gepäck geholt?",
+      "ar": "جبت الشنط؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:holen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "geholt",
+        "opts": [
+          "geholt",
+          "holt",
+          "geholen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-020",
+      "de": "Wir hatten viel Glück.",
+      "ar": "كنا محظوظين أوي.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "verb:haben"
+      ],
+      "alts": [
+        "Viel Glück hatten wir."
+      ],
+      "cloze": {
+        "word": "hatten",
+        "opts": [
+          "hatten",
+          "hattet",
+          "hatte"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-021",
+      "de": "Nico hat gerade gefrühstückt.",
+      "ar": "نيكو لسه فاطر.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "time",
+        "verb:frühstücken"
+      ],
+      "alts": [
+        "Gerade hat Nico gefrühstückt."
+      ],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "hast",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s53-022",
+      "de": "Meine Eltern haben auf einer Insel Urlaub gemacht.",
+      "ar": "أبويا وأمي قضوا الإجازة في جزيرة.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "holiday",
+        "article"
+      ],
+      "alts": [
+        "Auf einer Insel haben meine Eltern Urlaub gemacht.",
+        "Meine Eltern haben Urlaub auf einer Insel gemacht."
+      ],
+      "cloze": {
+        "word": "Insel",
+        "opts": [
+          "Insel",
+          "Strand",
+          "Meer"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w53-01",
+      "q": "___ war dein Urlaub?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Wohin",
+        "Woher"
+      ],
+      "ar": "إجازتك كانت عاملة إيه؟",
+      "reply": "Großartig! Das Meer war fantastisch.",
+      "reply_ar": "هايلة! البحر كان تحفة."
+    },
+    {
+      "id": "w53-02",
+      "q": "___ hast du in den Sommerferien gemacht?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "عملت إيه في الإجازة الصيفية؟",
+      "reply": "Ich habe am Meer gezeltet.",
+      "reply_ar": "خيّمت على البحر."
+    },
+    {
+      "id": "w53-03",
+      "q": "___ habt ihr übernachtet?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "بِتّوا فين؟",
+      "reply": "In einem Hotel mit Sauna.",
+      "reply_ar": "في فندق فيه ساونا."
+    },
+    {
+      "id": "w53-04",
+      "q": "___ hat der Urlaub gedauert?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wann",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الإجازة كانت مدتها قد إيه؟",
+      "reply": "Nur zwei Wochen.",
+      "reply_ar": "أسبوعين بس."
+    },
+    {
+      "id": "w53-05",
+      "q": "___ Fotos hast du gemacht?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "خدت كام صورة؟",
+      "reply": "Sehr viele! Vom Strand und von den Bergen.",
+      "reply_ar": "كتير أوي! للشط وللجبال."
+    },
+    {
+      "id": "w53-06",
+      "q": "___ hast du fotografiert?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wohin",
+        "Wie alt"
+      ],
+      "ar": "صوّرت إيه؟",
+      "reply": "Das Meer und die Berge.",
+      "reply_ar": "البحر والجبال."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g53-1",
+      "h": "الماضي التام (Perfekt) بـ haben",
+      "body": "عشان تحكي عن حاجة حصلت، خصوصًا في الكلام، بنستخدم الـ Perfekt. بيتكوّن من جزءين: haben بيتصرّف عادي وييجي في المكان التاني، والفعل الأساسي بيروح آخر الجملة في صورة ثابتة اسمها التصريف التالت (Partizip II) ومابتتغيرش مع الضمير. أغلب الأفعال بتاخد haben (وشوية بياخدوا sein، درس 55). وفي سؤال ja / nein بنبدأ بـ haben: Habt ihr …? وخد بالك: haben لوحده معناه «عنده»: Morgen habe ich noch einen Termin.",
+      "examples": [
+        {
+          "de": "Gestern haben wir eine Wanderung gemacht.",
+          "ar": "إمبارح طلعنا رحلة مشي."
+        },
+        {
+          "de": "Was habt ihr gestern gemacht?",
+          "ar": "عملتوا إيه إمبارح؟"
+        },
+        {
+          "de": "Habt ihr im Hotel übernachtet?",
+          "ar": "بِتّوا في الفندق؟"
+        },
+        {
+          "de": "Ich habe viele Fotos gemacht.",
+          "ar": "خدت صور كتير."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "haben (المكان التاني)",
+          "Partizip II (آخر الجملة)"
+        ],
+        [
+          "ich",
+          "habe",
+          "gemacht"
+        ],
+        [
+          "du",
+          "hast",
+          "gemacht"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "gemacht"
+        ],
+        [
+          "wir",
+          "haben",
+          "gemacht"
+        ],
+        [
+          "ihr",
+          "habt",
+          "gemacht"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "gemacht"
+        ]
+      ]
+    },
+    {
+      "id": "g53-2",
+      "h": "التصريف التالت (Partizip II) للأفعال المنتظمة",
+      "body": "الفعل المنتظم: ge + الجذر (المصدر من غير -en) + t، زي gemacht و geholt و gefrühstückt. لو الجذر آخره t أو d، أو كذا حرف ساكن ورا بعض صعب ننطقهم، بنزوّد e: gezeltet، gearbeitet، geöffnet. ومن غير ge خالص: الأفعال اللي آخرها -ieren زي fotografiert، واللي أولها سابقة مابتنفصلش (be-، ent-، er-، ver-، zer-، وكمان über- في übernachten): besichtigt، übernachtet.",
+      "examples": [
+        {
+          "de": "Nein, wir haben am Strand gezeltet.",
+          "ar": "لأ، خيّمنا على الشط."
+        },
+        {
+          "de": "Wir haben viele Sehenswürdigkeiten besichtigt.",
+          "ar": "زرنا معالم سياحية كتير."
+        },
+        {
+          "de": "Nico hat gerade gefrühstückt.",
+          "ar": "نيكو لسه فاطر."
+        },
+        {
+          "de": "Ich habe den Strand fotografiert.",
+          "ar": "صوّرت الشط."
+        }
+      ],
+      "table": [
+        [
+          "المصدر",
+          "Partizip II",
+          "القاعدة"
+        ],
+        [
+          "machen",
+          "gemacht",
+          "ge + … + t"
+        ],
+        [
+          "holen",
+          "geholt",
+          "ge + … + t"
+        ],
+        [
+          "stoppen",
+          "gestoppt",
+          "ge + … + t"
+        ],
+        [
+          "frühstücken",
+          "gefrühstückt",
+          "ge + … + t"
+        ],
+        [
+          "zelten",
+          "gezeltet",
+          "ge + … + et"
+        ],
+        [
+          "arbeiten",
+          "gearbeitet",
+          "ge + … + et"
+        ],
+        [
+          "öffnen",
+          "geöffnet",
+          "ge + … + et"
+        ],
+        [
+          "fotografieren",
+          "fotografiert",
+          "من غير ge (-ieren)"
+        ],
+        [
+          "besichtigen",
+          "besichtigt",
+          "من غير ge (be-)"
+        ],
+        [
+          "übernachten",
+          "übernachtet",
+          "من غير ge (über-)"
+        ]
+      ]
+    },
+    {
+      "id": "g53-3",
+      "h": "Perfekt ولا Präteritum؟",
+      "body": "الاتنين ماضي والاتنين صح. في الكلام وفي الرسايل لصحابك بنستخدم الـ Perfekt مع أغلب الأفعال: Ich habe Fotos gemacht. لكن sein و haben والأفعال المساعدة (زي können) بنقولهم بالماضي البسيط حتى في الكلام: war و hatte (درس 17 و 36)، ونادرًا لما نستخدم معاهم الـ Perfekt. والماضي البسيط لباقي الأفعال بنستخدمه أكتر في الكتابة، زي الجرايد والحكايات.",
+      "examples": [
+        {
+          "de": "Der Urlaub war großartig.",
+          "ar": "الإجازة كانت هايلة."
+        },
+        {
+          "de": "Es waren nur zwei Wochen.",
+          "ar": "كانوا أسبوعين بس."
+        },
+        {
+          "de": "Wir hatten viel Glück.",
+          "ar": "كنا محظوظين أوي."
+        },
+        {
+          "de": "Ich habe viele Fotos gemacht.",
+          "ar": "خدت صور كتير."
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "في الكلام بنقول",
+          "مثال"
+        ],
+        [
+          "sein",
+          "war (Präteritum)",
+          "Das Meer war fantastisch."
+        ],
+        [
+          "haben",
+          "hatte (Präteritum)",
+          "Wir hatten viel Glück."
+        ],
+        [
+          "machen",
+          "habe … gemacht (Perfekt)",
+          "Ich habe Fotos gemacht."
+        ],
+        [
+          "zelten",
+          "haben … gezeltet (Perfekt)",
+          "Wir haben am Strand gezeltet."
+        ]
+      ]
+    },
+    {
+      "id": "g53-4",
+      "h": "تحكي عن إجازتك",
+      "body": "عشان تسأل: Wie war dein Urlaub? أو Was hast du in den Ferien gemacht? والرد: Großartig! / Fantastisch! / Wie im Märchen! وبعدين احكي بالـ Perfekt: Ich habe gefaulenzt / gezeltet / eine Wanderung gemacht. و Ich war schwimmen يعني «رحت أعوم». وخد بالك: Urlaub machen = يقضي إجازة، و die Ferien و die Sommerferien دايمًا جمع: in den Ferien، in den Sommerferien.",
+      "examples": [
+        {
+          "de": "Wie war dein Urlaub? – Großartig!",
+          "ar": "إجازتك كانت عاملة إيه؟ – هايلة!"
+        },
+        {
+          "de": "Was hast du in den Ferien gemacht? – Ich habe gar nichts gemacht.",
+          "ar": "عملت إيه في الإجازة؟ – ماعملتش ولا حاجة خالص."
+        },
+        {
+          "de": "Meine Eltern haben auf einer Insel Urlaub gemacht.",
+          "ar": "أبويا وأمي قضوا الإجازة في جزيرة."
+        }
+      ],
+      "table": [
+        [
+          "فين؟",
+          "بالألماني"
+        ],
+        [
+          "على البحر",
+          "am Meer"
+        ],
+        [
+          "على الشط",
+          "am Strand"
+        ],
+        [
+          "في الجبال",
+          "in den Bergen"
+        ],
+        [
+          "في جزيرة",
+          "auf einer Insel"
+        ],
+        [
+          "في الساونا",
+          "in der Sauna"
+        ]
+      ]
+    }
+  ]
+}

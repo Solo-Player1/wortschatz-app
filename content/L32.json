@@ -1,0 +1,797 @@
+{
+  "n": 32,
+  "sentences": [
+    {
+      "id": "s32-001",
+      "de": "Was machen wir am Wochenende, Tante Lisa?",
+      "ar": "هنعمل إيه في الويك إند يا طنط ليزا؟",
+      "kind": "question",
+      "focus": [
+        "weekend",
+        "w-frage"
+      ],
+      "alts": [
+        "Tante Lisa, was machen wir am Wochenende?"
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "im",
+          "um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-002",
+      "de": "Dann mache ich das Frühstück.",
+      "ar": "بعدين هعمل الفطار.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "word-order"
+      ],
+      "alts": [
+        "Ich mache dann das Frühstück.",
+        "Ich mache das Frühstück dann.",
+        "Das Frühstück mache ich dann."
+      ],
+      "cloze": {
+        "word": "mache",
+        "opts": [
+          "mache",
+          "machst",
+          "macht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-003",
+      "de": "Dann gehen wir ins Kino.",
+      "ar": "بعدين هنروح السينما.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "verb:gehen",
+        "leisure"
+      ],
+      "alts": [
+        "Wir gehen dann ins Kino.",
+        "Ins Kino gehen wir dann."
+      ],
+      "cloze": {
+        "word": "gehen",
+        "opts": [
+          "gehen",
+          "geht",
+          "gehst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-004",
+      "de": "Und dann mache ich noch meine Hausaufgaben.",
+      "ar": "وبعدين كمان هعمل الواجب بتاعي.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "possessive"
+      ],
+      "alts": [
+        "Und ich mache dann noch meine Hausaufgaben.",
+        "Und meine Hausaufgaben mache ich dann noch."
+      ],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-005",
+      "de": "Sehen wir fern?",
+      "ar": "نتفرج على التلفزيون؟",
+      "kind": "question",
+      "focus": [
+        "verb:fernsehen",
+        "separable"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sehen",
+        "opts": [
+          "Sehen",
+          "Seht",
+          "Sieht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-006",
+      "de": "Nein, zuerst machen wir die Hausaufgaben.",
+      "ar": "لأ، الأول هنعمل الواجب.",
+      "kind": "answer",
+      "focus": [
+        "sequence",
+        "word-order"
+      ],
+      "alts": [
+        "Nein, wir machen zuerst die Hausaufgaben.",
+        "Nein, wir machen die Hausaufgaben zuerst.",
+        "Nein, die Hausaufgaben machen wir zuerst."
+      ],
+      "cloze": {
+        "word": "zuerst",
+        "opts": [
+          "zuerst",
+          "dann",
+          "danach"
+        ],
+        "accept": [
+          "erst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-007",
+      "de": "Dann räumen wir auf.",
+      "ar": "بعدين هنرتّب.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "separable",
+        "verb:aufräumen"
+      ],
+      "alts": [
+        "Wir räumen dann auf."
+      ],
+      "cloze": {
+        "word": "räumen",
+        "opts": [
+          "räumen",
+          "räumt",
+          "räumst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-008",
+      "de": "Und dann sehen wir fern.",
+      "ar": "وبعدين هنتفرج على التلفزيون.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "verb:fernsehen"
+      ],
+      "alts": [
+        "Und wir sehen dann fern."
+      ],
+      "cloze": {
+        "word": "dann",
+        "opts": [
+          "dann",
+          "denn",
+          "zuerst"
+        ],
+        "accept": [
+          "danach"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-009",
+      "de": "Mir ist schlecht!",
+      "ar": "نفسي غامّة عليّا!",
+      "kind": "statement",
+      "focus": [
+        "health",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Mir",
+        "opts": [
+          "Mir",
+          "Ich",
+          "Mich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s32-010",
+      "de": "Schläfst du am Wochenende lange aus?",
+      "ar": "بتنام لحد متأخر في الويك إند؟",
+      "kind": "question",
+      "focus": [
+        "verb:ausschlafen",
+        "vowel-change"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Schläfst",
+        "opts": [
+          "Schläfst",
+          "Schlafst",
+          "Schläft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-011",
+      "de": "Ja, am Sonntag schlafe ich lange aus.",
+      "ar": "أيوه، يوم الحد بنام لحد متأخر.",
+      "kind": "answer",
+      "focus": [
+        "verb:ausschlafen",
+        "word-order"
+      ],
+      "alts": [
+        "Ja, ich schlafe am Sonntag lange aus."
+      ],
+      "cloze": {
+        "word": "schlafe",
+        "opts": [
+          "schlafe",
+          "schläfst",
+          "schläft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-012",
+      "de": "Nico fährt gern Fahrrad.",
+      "ar": "نيكو بيحب يركب عجلة.",
+      "kind": "statement",
+      "focus": [
+        "verb:fahren",
+        "vowel-change",
+        "leisure"
+      ],
+      "alts": [
+        "Gern fährt Nico Fahrrad.",
+        "Fahrrad fährt Nico gern."
+      ],
+      "cloze": {
+        "word": "fährt",
+        "opts": [
+          "fährt",
+          "fahrt",
+          "fährst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-013",
+      "de": "Wann fängt der Film an?",
+      "ar": "الفيلم بيبدأ إمتى؟",
+      "kind": "question",
+      "focus": [
+        "verb:anfangen",
+        "vowel-change",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fängt",
+        "opts": [
+          "fängt",
+          "fangt",
+          "fängst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-014",
+      "de": "Hast du am Wochenende Zeit?",
+      "ar": "إنت فاضي في الويك إند؟",
+      "kind": "question",
+      "focus": [
+        "weekend",
+        "verb:haben"
+      ],
+      "alts": [
+        "Hast du Zeit am Wochenende?"
+      ],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Bist",
+          "Hat"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-015",
+      "de": "Am Freitag gehen wir ins Theater.",
+      "ar": "يوم الجمعة هنروح المسرح.",
+      "kind": "statement",
+      "focus": [
+        "leisure",
+        "word-order",
+        "verb:gehen"
+      ],
+      "alts": [
+        "Wir gehen am Freitag ins Theater.",
+        "Ins Theater gehen wir am Freitag."
+      ],
+      "cloze": {
+        "word": "ins",
+        "opts": [
+          "ins",
+          "im",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-016",
+      "de": "Am Samstag besuchen wir Opa.",
+      "ar": "يوم السبت هنزور جدو.",
+      "kind": "statement",
+      "focus": [
+        "verb:besuchen",
+        "word-order"
+      ],
+      "alts": [
+        "Wir besuchen am Samstag Opa.",
+        "Wir besuchen Opa am Samstag.",
+        "Opa besuchen wir am Samstag."
+      ],
+      "cloze": {
+        "word": "besuchen",
+        "opts": [
+          "besuchen",
+          "besucht",
+          "besuchst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-017",
+      "de": "Zuerst schwimmen wir, dann spielen wir Tennis.",
+      "ar": "الأول هنعوم، وبعدين هنلعب تنس.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "verb:schwimmen",
+        "leisure"
+      ],
+      "alts": [
+        "Wir schwimmen zuerst, dann spielen wir Tennis."
+      ],
+      "cloze": {
+        "word": "schwimmen",
+        "opts": [
+          "schwimmen",
+          "schwimmt",
+          "schwimmst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-018",
+      "de": "Spielen wir drinnen oder draußen?",
+      "ar": "نلعب جوّه ولا برّه؟",
+      "kind": "question",
+      "focus": [
+        "place",
+        "leisure"
+      ],
+      "alts": [
+        "Spielen wir draußen oder drinnen?"
+      ],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "auch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-019",
+      "de": "Danach essen wir Eis.",
+      "ar": "بعد كده هناكل آيس كريم.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "food"
+      ],
+      "alts": [
+        "Wir essen danach Eis.",
+        "Eis essen wir danach."
+      ],
+      "cloze": {
+        "word": "essen",
+        "opts": [
+          "essen",
+          "esst",
+          "isst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-020",
+      "de": "Danach gehen wir nach Hause.",
+      "ar": "بعد كده هنروّح.",
+      "kind": "statement",
+      "focus": [
+        "sequence",
+        "verb:gehen"
+      ],
+      "alts": [
+        "Wir gehen danach nach Hause.",
+        "Nach Hause gehen wir danach."
+      ],
+      "cloze": {
+        "word": "nach",
+        "opts": [
+          "nach",
+          "zu",
+          "ins"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-021",
+      "de": "Lisa denkt, Emma macht die Hausaufgaben.",
+      "ar": "ليزا فاكرة إن إيما بتعمل الواجب.",
+      "kind": "statement",
+      "focus": [
+        "verb:denken"
+      ],
+      "alts": [
+        "Emma macht die Hausaufgaben, denkt Lisa."
+      ],
+      "cloze": {
+        "word": "denkt",
+        "opts": [
+          "denkt",
+          "denkst",
+          "denke"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s32-022",
+      "de": "Heute Abend gehe ich früh ins Bett.",
+      "ar": "النهارده بالليل هنام بدري.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "word-order",
+        "verb:gehen"
+      ],
+      "alts": [
+        "Ich gehe heute Abend früh ins Bett."
+      ],
+      "cloze": {
+        "word": "früh",
+        "opts": [
+          "früh",
+          "spät",
+          "lange"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w32-01",
+      "q": "___ machen wir am Wochenende?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "هنعمل إيه في الويك إند؟",
+      "reply": "Zuerst schlafen wir lange aus.",
+      "reply_ar": "الأول هننام لحد متأخر."
+    },
+    {
+      "id": "w32-02",
+      "q": "___ fängt der Film an?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "الفيلم بيبدأ إمتى؟",
+      "reply": "Um acht Uhr.",
+      "reply_ar": "الساعة تمانية."
+    },
+    {
+      "id": "w32-03",
+      "q": "___ fährst du am Wochenende?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Woher",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "مسافر فين في الويك إند؟",
+      "reply": "Ich fahre nach Berlin.",
+      "reply_ar": "مسافر برلين."
+    },
+    {
+      "id": "w32-04",
+      "q": "___ ist dir schlecht?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "نفسك غامّة عليك ليه؟",
+      "reply": "Zu viel Eis!",
+      "reply_ar": "كلت آيس كريم كتير!"
+    },
+    {
+      "id": "w32-05",
+      "q": "___ spielt ihr, drinnen oder draußen?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "هتلعبوا فين، جوّه ولا برّه؟",
+      "reply": "Draußen. Wir gehen raus.",
+      "reply_ar": "برّه. إحنا خارجين."
+    },
+    {
+      "id": "w32-06",
+      "q": "___ isst lieber Schokoladencreme, Emma oder Nico?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين بيفضّل ياكل كريمة شوكولاتة، إيما ولا نيكو؟",
+      "reply": "Emma. Sie mag kein Müsli.",
+      "reply_ar": "إيما. هي مابتحبش الموسلي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g32-1",
+      "h": "zuerst، dann، danach: الترتيب",
+      "body": "عشان تحكي حاجات بتحصل ورا بعض بالترتيب: zuerst = الأول، dann = بعدين، danach = بعد كده. dann و danach معناهم واحد بالظبط، قول أي واحدة فيهم. وممكن تكرر dann أكتر من مرة زي نيكو في الحلقة: Zuerst machen wir die Hausaufgaben, dann räumen wir auf und dann sehen wir fern.",
+      "examples": [
+        {
+          "de": "Zuerst sehen Nico und Emma fern.",
+          "ar": "الأول نيكو وإيما بيتفرجوا على التلفزيون."
+        },
+        {
+          "de": "Dann essen Nico und Emma Eis.",
+          "ar": "بعدين نيكو وإيما بياكلوا آيس كريم."
+        },
+        {
+          "de": "Danach spielen sie zusammen.",
+          "ar": "بعد كده بيلعبوا مع بعض."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "zuerst",
+          "الأول"
+        ],
+        [
+          "dann",
+          "بعدين"
+        ],
+        [
+          "danach",
+          "بعد كده (زي dann بالظبط)"
+        ]
+      ]
+    },
+    {
+      "id": "g32-2",
+      "h": "بعد zuerst / dann / danach: الفعل وبعده الفاعل",
+      "body": "زي درس 31: في الجملة العادية الفعل المصرّف دايمًا تاني حاجة. و zuerst و dann و danach غالبًا بييجوا في أول الجملة، فالفعل ييجي بعدهم على طول والفاعل بعد الفعل: Zuerst machen wir … مش Zuerst wir machen. ونفس الكلام مع am Wochenende و am Sonntag. وكلمة und في الأول مابتتحسبش: Und dann sehen wir fern. ولو الفعل بينفصل (درس 30)، السابقة بتروح آخر الجملة: Dann räumen wir auf.",
+      "examples": [
+        {
+          "de": "Wir machen zuerst die Hausaufgaben.",
+          "ar": "إحنا هنعمل الواجب الأول."
+        },
+        {
+          "de": "Zuerst machen wir die Hausaufgaben.",
+          "ar": "الأول هنعمل الواجب. (نفس المعنى)"
+        },
+        {
+          "de": "Am Sonntag schlafe ich lange aus.",
+          "ar": "يوم الحد بنام لحد متأخر."
+        }
+      ],
+      "table": [
+        [
+          "1",
+          "2 = الفعل",
+          "الفاعل",
+          "الباقي"
+        ],
+        [
+          "Zuerst",
+          "machen",
+          "wir",
+          "die Hausaufgaben."
+        ],
+        [
+          "Dann",
+          "räumen",
+          "wir",
+          "auf."
+        ],
+        [
+          "Danach",
+          "gehen",
+          "wir",
+          "nach Hause."
+        ],
+        [
+          "Am Sonntag",
+          "schlafe",
+          "ich",
+          "lange aus."
+        ]
+      ]
+    },
+    {
+      "id": "g32-3",
+      "h": "a بتبقى ä: fahren، schlafen، anfangen",
+      "body": "زي أفعال الـ e اللي بتبقى i (درس 15)، فيه أفعال الـ a فيها بتبقى ä، بس مع du و er / sie / es. باقي الضمائر عادي، حتى ihr: ihr fahrt. ومنها: fahren، schlafen (و ausschlafen)، waschen، anfangen. ولو الفعل بينفصل، الـ ä بتبقى في الجزء اللي بيتصرّف: du schläfst aus، der Film fängt an.",
+      "examples": [
+        {
+          "de": "Ich fahre nach Berlin. Und wohin fährst du, Lisa?",
+          "ar": "أنا مسافر برلين. وإنتي مسافرة فين يا ليزا؟"
+        },
+        {
+          "de": "Nico fährt gern Fahrrad.",
+          "ar": "نيكو بيحب يركب عجلة."
+        },
+        {
+          "de": "Wann fängt der Film an?",
+          "ar": "الفيلم بيبدأ إمتى؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "fahren",
+          "schlafen",
+          "anfangen"
+        ],
+        [
+          "ich",
+          "fahre",
+          "schlafe",
+          "fange … an"
+        ],
+        [
+          "du",
+          "fährst",
+          "schläfst",
+          "fängst … an"
+        ],
+        [
+          "er / sie / es",
+          "fährt",
+          "schläft",
+          "fängt … an"
+        ],
+        [
+          "wir",
+          "fahren",
+          "schlafen",
+          "fangen … an"
+        ],
+        [
+          "ihr",
+          "fahrt",
+          "schlaft",
+          "fangt … an"
+        ],
+        [
+          "sie / Sie",
+          "fahren",
+          "schlafen",
+          "fangen … an"
+        ]
+      ]
+    },
+    {
+      "id": "g32-4",
+      "h": "تتكلم عن الويك إند",
+      "body": "تسأل: Was machst du am Wochenende? أو Hast du am Wochenende Zeit? (إنت فاضي؟). ومع gehen: ins Kino، ins Theater، ins Bett (ins = in das)، و nach Hause (تروّح)، و nach draußen = raus (تخرج). drinnen = جوّه و draußen = برّه. ولو نفسك غامّة عليك: Mir ist schlecht! (مش Ich bin schlecht = أنا وحش).",
+      "examples": [
+        {
+          "de": "Hast du am Wochenende Zeit?",
+          "ar": "إنت فاضي في الويك إند؟"
+        },
+        {
+          "de": "Am Freitag gehen wir ins Theater.",
+          "ar": "يوم الجمعة هنروح المسرح."
+        },
+        {
+          "de": "Mir ist schlecht!",
+          "ar": "نفسي غامّة عليّا!"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "أروح السينما",
+          "ins Kino gehen"
+        ],
+        [
+          "أروح المسرح",
+          "ins Theater gehen"
+        ],
+        [
+          "أروح أنام",
+          "ins Bett gehen"
+        ],
+        [
+          "أروّح",
+          "nach Hause gehen"
+        ],
+        [
+          "أخرج برّه",
+          "nach draußen gehen / rausgehen"
+        ],
+        [
+          "أركب عجلة",
+          "Fahrrad fahren"
+        ],
+        [
+          "أزور جدو",
+          "Opa besuchen"
+        ]
+      ]
+    }
+  ]
+}

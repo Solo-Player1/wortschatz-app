@@ -1,0 +1,94 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:09.640 --> 00:00:11.520 region:R1 align:center
+<c.S1>– Das wünsche ich mir auch.</c>
+
+2
+00:00:11.880 --> 00:00:14.520 region:R1 align:center
+<c.S1>– Was? So ein Fahrrad? Das ist meins.</c>
+
+3
+00:00:14.640 --> 00:00:18.760 region:R1 align:center
+<c.S1>– Nein. Ich wünsche mir so einen Laden.
+Ich hätte gern einen eigenen Laden.</c>
+
+4
+00:00:18.800 --> 00:00:21.160 region:R1 align:center
+<c.S1>– Ja, ich habe auch immer von meinem
+eigenen Laden geträumt,</c>
+
+5
+00:00:21.200 --> 00:00:22.720 region:R1 align:center
+<c.S1>von meinem eigenen Restaurant.</c>
+
+6
+00:00:22.760 --> 00:00:24.080 region:R1 align:center
+<c.S1>Und jetzt habe ich eins.</c>
+
+7
+00:00:24.120 --> 00:00:28.360 region:R1 align:center
+<c.S1>Du musst nur immer fleißig und hart arbeiten,
+dann funktioniert das auch.</c>
+
+8
+00:00:30.520 --> 00:00:32.040 region:R1 align:center
+<c.S1>– Warum ist dein Fahrrad hier?</c>
+
+9
+00:00:32.640 --> 00:00:34.920 region:R1 align:center
+<c.S1>– Es ist kaputt. Yara wollte es reparieren.</c>
+
+10
+00:00:36.200 --> 00:00:37.320 region:R1 align:center
+<c.S1>– Kaputt?</c>
+
+11
+00:00:37.360 --> 00:00:39.800 region:R1 align:center
+<c.S1>– Ja, die Bremse hinten funktioniert nicht.</c>
+
+12
+00:00:42.760 --> 00:00:44.000 region:R1 align:center
+<c.S1>Kennst du dich mit Fahrrädern aus?</c>
+
+13
+00:00:44.040 --> 00:00:46.320 region:R1 align:center
+<c.S1>– Mhm. Einen Moment!</c>
+
+14
+00:00:57.440 --> 00:00:59.720 region:R1 align:center
+<c.S1>So! Fertig.</c>
+
+15
+00:01:07.080 --> 00:01:10.440 region:R1 align:center
+<c.S1>– Nico! Krass!</c>
+
+16
+00:01:10.880 --> 00:01:12.520 region:R1 align:center
+<c.S1>– Wie fährst du denn?</c>
+
+17
+00:01:12.560 --> 00:01:16.240 region:R1 align:center
+<c.S1>Und dann auch noch hupen!
+Lern doch mal richtig Auto fahren!</c>
+
+18
+00:01:23.320 --> 00:01:24.160 region:R1 align:center
+<c.S1>Nico ...</c>
+
+19
+00:01:24.520 --> 00:01:25.240 region:R1 align:center
+<c.S1>– Yara.</c>
+
+20
+00:01:25.960 --> 00:01:27.320 region:R1 align:center
+<c.S1>– Was machst du hier?</c>

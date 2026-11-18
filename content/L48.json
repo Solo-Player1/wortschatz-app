@@ -1,0 +1,798 @@
+{
+  "n": 48,
+  "sentences": [
+    {
+      "id": "s48-001",
+      "de": "Guten Appetit, Nico.",
+      "ar": "بالهنا والشفا يا نيكو.",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "food"
+      ],
+      "alts": [
+        "Nico, guten Appetit."
+      ],
+      "cloze": {
+        "word": "Appetit",
+        "opts": [
+          "Appetit",
+          "Durst",
+          "Spaß"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-002",
+      "de": "Was machst du in deiner Freizeit?",
+      "ar": "بتعمل إيه في وقت فراغك؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "leisure"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "machst",
+        "opts": [
+          "machst",
+          "macht",
+          "machen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-003",
+      "de": "Joggst du gerne?",
+      "ar": "بتحب تجري؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "verb:joggen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Joggst",
+        "opts": [
+          "Joggst",
+          "Joggt",
+          "Jogge"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-004",
+      "de": "Nein, ich jogge nicht gern.",
+      "ar": "لأ، مابحبش أجري.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "likes",
+        "verb:joggen"
+      ],
+      "alts": [
+        "Nein, gern jogge ich nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-005",
+      "de": "Aber ich schwimme manchmal.",
+      "ar": "بس ساعات بعوم.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:schwimmen"
+      ],
+      "alts": [
+        "Aber manchmal schwimme ich.",
+        "Ich schwimme aber manchmal.",
+        "Manchmal schwimme ich aber."
+      ],
+      "cloze": {
+        "word": "schwimme",
+        "opts": [
+          "schwimme",
+          "schwimmst",
+          "schwimmt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-006",
+      "de": "Ich höre viel Musik und fahre viel Fahrrad.",
+      "ar": "بسمع مزيكا كتير وبركب عجلة كتير.",
+      "kind": "statement",
+      "focus": [
+        "leisure",
+        "verb:fahren"
+      ],
+      "alts": [
+        "Ich fahre viel Fahrrad und höre viel Musik."
+      ],
+      "cloze": {
+        "word": "fahre",
+        "opts": [
+          "fahre",
+          "fährst",
+          "fährt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-007",
+      "de": "Ich gehe gern angeln.",
+      "ar": "بحب أروح أصطاد سمك.",
+      "kind": "answer",
+      "focus": [
+        "gehen+infinitive",
+        "verb:angeln"
+      ],
+      "alts": [
+        "Gern gehe ich angeln.",
+        "Angeln gehe ich gern."
+      ],
+      "cloze": {
+        "word": "angeln",
+        "opts": [
+          "angeln",
+          "angle",
+          "angelt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-008",
+      "de": "Wir gehen gern ins Kino.",
+      "ar": "بنحب نروح السينما.",
+      "kind": "statement",
+      "focus": [
+        "verb:gehen",
+        "preposition",
+        "leisure"
+      ],
+      "alts": [
+        "Gern gehen wir ins Kino.",
+        "Ins Kino gehen wir gern."
+      ],
+      "cloze": {
+        "word": "ins",
+        "opts": [
+          "ins",
+          "im",
+          "in"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-009",
+      "de": "Am liebsten angeln wir.",
+      "ar": "أكتر حاجة بنحبها إننا نصطاد سمك.",
+      "kind": "statement",
+      "focus": [
+        "likes",
+        "comparison",
+        "verb:angeln"
+      ],
+      "alts": [
+        "Wir angeln am liebsten."
+      ],
+      "cloze": {
+        "word": "liebsten",
+        "opts": [
+          "liebsten",
+          "lieber",
+          "gern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-010",
+      "de": "Ihr angelt doch auch!",
+      "ar": "ما إنتوا كمان بتصطادوا سمك!",
+      "kind": "statement",
+      "focus": [
+        "verb:angeln",
+        "doch"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "angelt",
+        "opts": [
+          "angelt",
+          "angeln",
+          "angelst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s48-011",
+      "de": "Was macht dir Spaß?",
+      "ar": "إيه اللي بيبسطك؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "likes",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "du"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-012",
+      "de": "Fotografieren macht mir Spaß.",
+      "ar": "التصوير بيبسطني.",
+      "kind": "answer",
+      "focus": [
+        "likes",
+        "dative",
+        "verb:fotografieren"
+      ],
+      "alts": [
+        "Mir macht Fotografieren Spaß."
+      ],
+      "cloze": {
+        "word": "macht",
+        "opts": [
+          "macht",
+          "mache",
+          "machst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-013",
+      "de": "Gehst du gerne schwimmen?",
+      "ar": "بتحب تروح تعوم؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "gehen+infinitive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schwimmen",
+        "opts": [
+          "schwimmen",
+          "schwimmst",
+          "schwimmt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-014",
+      "de": "Nein, ich gehe lieber spazieren.",
+      "ar": "لأ، بفضّل أروح أتمشى.",
+      "kind": "answer",
+      "focus": [
+        "gehen+infinitive",
+        "likes"
+      ],
+      "alts": [
+        "Nein, lieber gehe ich spazieren.",
+        "Nein, spazieren gehe ich lieber."
+      ],
+      "cloze": {
+        "word": "gehe",
+        "opts": [
+          "gehe",
+          "gehst",
+          "geht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-015",
+      "de": "Machen Sie regelmäßig Yoga?",
+      "ar": "حضرتك بتعمل يوجا بانتظام؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Machen",
+        "opts": [
+          "Machen",
+          "Macht",
+          "Machst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-016",
+      "de": "Treibst du gern Sport?",
+      "ar": "بتحب تلعب رياضة؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "leisure"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Treibst",
+        "opts": [
+          "Treibst",
+          "Treibt",
+          "Treibe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-017",
+      "de": "Ja, ich laufe jeden Tag fünf Kilometer.",
+      "ar": "أيوه، بجري خمسة كيلومتر كل يوم.",
+      "kind": "answer",
+      "focus": [
+        "verb:laufen",
+        "number"
+      ],
+      "alts": [
+        "Ja, jeden Tag laufe ich fünf Kilometer.",
+        "Ja, fünf Kilometer laufe ich jeden Tag."
+      ],
+      "cloze": {
+        "word": "laufe",
+        "opts": [
+          "laufe",
+          "läufst",
+          "läuft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-018",
+      "de": "Ich finde Joggen anstrengend.",
+      "ar": "أنا شايف الجري متعب.",
+      "kind": "statement",
+      "focus": [
+        "opinion",
+        "adjective",
+        "verb:finden"
+      ],
+      "alts": [
+        "Joggen finde ich anstrengend."
+      ],
+      "cloze": {
+        "word": "finde",
+        "opts": [
+          "finde",
+          "findest",
+          "findet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-019",
+      "de": "Ich bin müde und gehe schlafen.",
+      "ar": "أنا تعبان وهروح أنام.",
+      "kind": "statement",
+      "focus": [
+        "gehen+infinitive",
+        "feeling"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schlafen",
+        "opts": [
+          "schlafen",
+          "schlafe",
+          "schläft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-020",
+      "de": "Findest du Yoga langweilig?",
+      "ar": "إنت شايف اليوجا مملة؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "opinion"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Findest",
+        "opts": [
+          "Findest",
+          "Findet",
+          "Finde"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-021",
+      "de": "Nein, Yoga ist sehr entspannend.",
+      "ar": "لأ، اليوجا مريحة جدًا.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "opinion"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sehr",
+        "opts": [
+          "sehr",
+          "viel",
+          "gern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s48-022",
+      "de": "Wir gehen einmal im Monat wandern.",
+      "ar": "بنطلع رحلة مشي مرة في الشهر.",
+      "kind": "statement",
+      "focus": [
+        "gehen+infinitive",
+        "frequency"
+      ],
+      "alts": [
+        "Einmal im Monat gehen wir wandern.",
+        "Wir gehen im Monat einmal wandern.",
+        "Wandern gehen wir einmal im Monat.",
+        "Im Monat gehen wir einmal wandern.",
+        "Wandern gehen wir im Monat einmal.",
+        "Einmal gehen wir im Monat wandern."
+      ],
+      "cloze": {
+        "word": "einmal",
+        "opts": [
+          "einmal",
+          "eins",
+          "ein"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w48-01",
+      "q": "___ machst du in deiner Freizeit?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بتعمل إيه في وقت فراغك؟",
+      "reply": "In meiner Freizeit gehe ich gern schwimmen.",
+      "reply_ar": "في وقت فراغي بحب أروح أعوم."
+    },
+    {
+      "id": "w48-02",
+      "q": "___ essen Nico und Inge Schnitzel?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "نيكو وإنجي بياكلوا الشنيتسل فين؟",
+      "reply": "Sie essen im Restaurant von Max und Tarek.",
+      "reply_ar": "بياكلوا في مطعم ماكس وطارق."
+    },
+    {
+      "id": "w48-03",
+      "q": "___ gehst du schwimmen?",
+      "answer": "Wie oft",
+      "opts": [
+        "Wie oft",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بتروح تعوم كل قد إيه؟",
+      "reply": "Ich gehe einmal pro Woche schwimmen.",
+      "reply_ar": "بروح أعوم مرة في الأسبوع."
+    },
+    {
+      "id": "w48-04",
+      "q": "___ Kilometer läufst du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "بتجري كام كيلومتر؟",
+      "reply": "Ich laufe zehn Kilometer.",
+      "reply_ar": "بجري عشرة كيلومتر."
+    },
+    {
+      "id": "w48-05",
+      "q": "___ findest du Fußball?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "إيه رأيك في الكورة؟",
+      "reply": "Ich finde Fußball sehr interessant.",
+      "reply_ar": "أنا شايف الكورة مشوّقة جدًا."
+    },
+    {
+      "id": "w48-06",
+      "q": "___ hat den Ball?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie viele"
+      ],
+      "ar": "مين معاه الكورة؟",
+      "reply": "Max hat den Ball.",
+      "reply_ar": "ماكس معاه الكورة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g48-1",
+      "h": "gehen + فعل في المصدر: Ich gehe schwimmen.",
+      "body": "عشان تقول إنك رايح تعمل نشاط، استخدم gehen + فعل تاني: Ich gehe schwimmen = رايح أعوم. gehen بس هو اللي بيتصرّف وبييجي في المكان التاني، والفعل التاني بيفضل مصدر (زي ما هو في القاموس) في آخر الجملة. أشهرهم: arbeiten، einkaufen، spazieren، angeln، schwimmen، schlafen gehen. وفي سؤال ja / nein الـ gehen بييجي الأول: Gehst du gerne schwimmen? وخد بالك: مع مكان فيه حرف جر (ins Kino gehen)، ومع نشاط مفيش حرف جر (angeln gehen).",
+      "examples": [
+        {
+          "de": "Ich gehe gern angeln.",
+          "ar": "بحب أروح أصطاد سمك."
+        },
+        {
+          "de": "Inge geht im Park spazieren.",
+          "ar": "إنجي بتتمشى في الجنينة."
+        },
+        {
+          "de": "Gehst du gerne schwimmen? – Ja, ich gehe gerne schwimmen.",
+          "ar": "بتحب تروح تعوم؟ – أيوه، بحب أروح أعوم."
+        },
+        {
+          "de": "Ich bin müde und gehe schlafen.",
+          "ar": "أنا تعبان وهروح أنام."
+        }
+      ],
+      "table": [
+        [
+          "الفاعل",
+          "gehen (بيتصرّف)",
+          "باقي الجملة",
+          "الفعل التاني (مصدر) في الآخر"
+        ],
+        [
+          "Ich",
+          "gehe",
+          "morgen",
+          "arbeiten."
+        ],
+        [
+          "Inge",
+          "geht",
+          "im Park",
+          "spazieren."
+        ],
+        [
+          "Wir",
+          "gehen",
+          "gerne",
+          "angeln."
+        ],
+        [
+          "Nico",
+          "geht",
+          "manchmal",
+          "schwimmen."
+        ]
+      ]
+    },
+    {
+      "id": "g48-2",
+      "h": "سؤال ja / nein ولا سؤال بأداة استفهام؟",
+      "body": "١) Satzfrage: إجابته ja أو nein، والفعل المتصرّف بييجي في الأول وبعده الفاعل: Spielst du gern Fußball? – Ja. ٢) W-Frage: بيبدأ بأداة استفهام (was، wo، wer، wie، woher، wie oft …)، وبعدها الفعل المتصرّف على طول، وبعدين الفاعل: Was machst du in deiner Freizeit? (ومع wer الأداة نفسها هي الفاعل: Wer hat den Ball?) والسؤال ده ماينفعش يترد عليه بـ ja أو nein، لازم ترد بمعلومة.",
+      "examples": [
+        {
+          "de": "Spielst du gern Fußball? – Ja, sehr gern.",
+          "ar": "بتحب تلعب كورة؟ – أيوه، جدًا."
+        },
+        {
+          "de": "Machen Sie regelmäßig Yoga? – Nein.",
+          "ar": "حضرتك بتعمل يوجا بانتظام؟ – لأ. (رسمي)"
+        },
+        {
+          "de": "Was machst du in deiner Freizeit? – Ich gehe gern angeln.",
+          "ar": "بتعمل إيه في وقت فراغك؟ – بحب أروح أصطاد سمك."
+        },
+        {
+          "de": "Wie oft gehst du schwimmen? – Einmal pro Woche.",
+          "ar": "بتروح تعوم كل قد إيه؟ – مرة في الأسبوع."
+        }
+      ],
+      "table": [
+        [
+          "نوع السؤال",
+          "المكان 1",
+          "المكان 2",
+          "الباقي"
+        ],
+        [
+          "Satzfrage (ja / nein)",
+          "Spielst",
+          "du",
+          "gern Fußball?"
+        ],
+        [
+          "Satzfrage (ja / nein)",
+          "Machen",
+          "Sie",
+          "regelmäßig Yoga?"
+        ],
+        [
+          "W-Frage",
+          "Was",
+          "machst",
+          "du in deiner Freizeit?"
+        ],
+        [
+          "W-Frage",
+          "Wie oft",
+          "gehst",
+          "du schwimmen?"
+        ]
+      ]
+    },
+    {
+      "id": "g48-3",
+      "h": "تتكلم عن اللي بتحبه: gern، lieber، am liebsten، Spaß machen",
+      "body": "gern = بحب، nicht gern = مابحبش، lieber = بفضّل، am liebsten = أكتر حاجة بحبها (درس 46)، ومكانهم عادةً بعد الفعل: Ich jogge nicht gern. وتسأل: Was macht dir Spaß? والرد: Fotografieren macht mir Spaß. هنا النشاط هو الفاعل فبنقول macht، وإنت بتبقى mir (مش ich). ورأيك: Ich finde Joggen anstrengend. وصفات مهمة: interessant ≠ langweilig، anstrengend ≠ entspannend، و müde = تعبان.",
+      "examples": [
+        {
+          "de": "Was macht dir Spaß? – Fotografieren macht mir Spaß.",
+          "ar": "إيه اللي بيبسطك؟ – التصوير بيبسطني."
+        },
+        {
+          "de": "Nein, ich gehe lieber spazieren.",
+          "ar": "لأ، بفضّل أروح أتمشى."
+        },
+        {
+          "de": "Am liebsten angeln wir.",
+          "ar": "أكتر حاجة بنحبها إننا نصطاد سمك."
+        },
+        {
+          "de": "Findest du Yoga langweilig? – Nein, Yoga ist sehr entspannend.",
+          "ar": "إنت شايف اليوجا مملة؟ – لأ، اليوجا مريحة جدًا."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "بحب أعوم",
+          "Ich schwimme gern."
+        ],
+        [
+          "مابحبش أجري",
+          "Ich jogge nicht gern."
+        ],
+        [
+          "بفضّل أتمشى",
+          "Ich gehe lieber spazieren."
+        ],
+        [
+          "أكتر حاجة بنحبها صيد السمك",
+          "Am liebsten angeln wir."
+        ],
+        [
+          "التصوير بيبسطني",
+          "Fotografieren macht mir Spaß."
+        ],
+        [
+          "الجري متعب / اليوجا مريحة",
+          "Joggen ist anstrengend. / Yoga ist entspannend."
+        ]
+      ]
+    },
+    {
+      "id": "g48-4",
+      "h": "أنشطة وقت الفراغ: كل نشاط وفعله",
+      "body": "كل نشاط ليه فعل بيمشي معاه، فاحفظهم مع بعض: Sport treiben، Yoga machen، Fußball spielen، Fahrrad fahren، Musik hören، fotografieren، ins Kino gehen، schwimmen / angeln / wandern / spazieren gehen. وخد بالك: laufen زي fahren مع du و er: du läufst، er läuft. وعشان تقول بتعمل النشاط قد إيه: jeden Tag (كل يوم)، einmal pro Woche (مرة في الأسبوع)، einmal im Monat (مرة في الشهر).",
+      "examples": [
+        {
+          "de": "Treibst du gern Sport? – Ja, ich laufe jeden Tag fünf Kilometer.",
+          "ar": "بتحب تلعب رياضة؟ – أيوه، بجري خمسة كيلومتر كل يوم."
+        },
+        {
+          "de": "Max läuft jeden Tag zehn Kilometer.",
+          "ar": "ماكس بيجري عشرة كيلومتر كل يوم."
+        },
+        {
+          "de": "Wir gehen einmal im Monat wandern.",
+          "ar": "بنطلع رحلة مشي مرة في الشهر."
+        }
+      ],
+      "table": [
+        [
+          "النشاط",
+          "بالألماني",
+          "مع er / sie"
+        ],
+        [
+          "رياضة",
+          "Sport treiben",
+          "er treibt Sport"
+        ],
+        [
+          "يوجا",
+          "Yoga machen",
+          "sie macht Yoga"
+        ],
+        [
+          "كورة",
+          "Fußball spielen",
+          "er spielt Fußball"
+        ],
+        [
+          "عجلة",
+          "Fahrrad fahren",
+          "sie fährt Fahrrad"
+        ],
+        [
+          "جري",
+          "laufen / joggen",
+          "er läuft / er joggt"
+        ],
+        [
+          "تصوير",
+          "fotografieren",
+          "sie fotografiert"
+        ],
+        [
+          "صيد سمك",
+          "angeln gehen",
+          "er geht angeln"
+        ]
+      ]
+    }
+  ]
+}

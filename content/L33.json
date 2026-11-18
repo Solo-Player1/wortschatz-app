@@ -1,0 +1,794 @@
+{
+  "n": 33,
+  "sentences": [
+    {
+      "id": "s33-001",
+      "de": "Wir haben von neun bis dreiundzwanzig Uhr geöffnet.",
+      "ar": "إحنا فاتحين من الساعة تسعة الصبح لحد الساعة حداشر بالليل.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "official-time",
+        "opening-hours"
+      ],
+      "alts": [
+        "Von neun bis dreiundzwanzig Uhr haben wir geöffnet."
+      ],
+      "cloze": {
+        "word": "bis",
+        "opts": [
+          "bis",
+          "um",
+          "ab"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-002",
+      "de": "Am Montag haben wir leider geschlossen.",
+      "ar": "للأسف إحنا قافلين يوم الاتنين.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "opening-hours"
+      ],
+      "alts": [
+        "Wir haben am Montag leider geschlossen.",
+        "Wir haben leider am Montag geschlossen.",
+        "Leider haben wir am Montag geschlossen."
+      ],
+      "cloze": {
+        "word": "Am",
+        "opts": [
+          "Am",
+          "Um",
+          "Im"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-003",
+      "de": "Ab wann haben Sie geöffnet?",
+      "ar": "حضرتكم فاتحين من الساعة كام؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "preposition",
+        "opening-hours"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ab",
+        "opts": [
+          "Ab",
+          "Um",
+          "Am"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-004",
+      "de": "Der Supermarkt hat ab acht Uhr geöffnet.",
+      "ar": "السوبرماركت فاتح من الساعة تمانية.",
+      "kind": "answer",
+      "focus": [
+        "preposition",
+        "opening-hours"
+      ],
+      "alts": [
+        "Ab acht Uhr hat der Supermarkt geöffnet."
+      ],
+      "cloze": {
+        "word": "ab",
+        "opts": [
+          "ab",
+          "am",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-005",
+      "de": "Vielen Dank und auf Wiederhören!",
+      "ar": "متشكر جدًا، ومع السلامة! (في التليفون)",
+      "kind": "greeting",
+      "focus": [
+        "phone",
+        "polite"
+      ],
+      "alts": [
+        "Auf Wiederhören und vielen Dank!"
+      ],
+      "cloze": {
+        "word": "Wiederhören",
+        "opts": [
+          "Wiederhören",
+          "Wiedersehen",
+          "Wiederholen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-006",
+      "de": "Das Mittagsangebot beginnt jetzt.",
+      "ar": "عرض الغدا بيبدأ دلوقتي.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "verb:beginnen"
+      ],
+      "alts": [
+        "Jetzt beginnt das Mittagsangebot."
+      ],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-007",
+      "de": "Vielleicht nehme ich den Fisch.",
+      "ar": "يمكن آخد السمك.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "order",
+        "verb:nehmen"
+      ],
+      "alts": [
+        "Ich nehme vielleicht den Fisch.",
+        "Den Fisch nehme ich vielleicht."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-008",
+      "de": "Ich nehme die Rouladen.",
+      "ar": "هاخد رولاد اللحمة.",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "verb:nehmen"
+      ],
+      "alts": [
+        "Die Rouladen nehme ich."
+      ],
+      "cloze": {
+        "word": "nehme",
+        "opts": [
+          "nehme",
+          "nimmst",
+          "nimmt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-009",
+      "de": "Entschuldigung, wie viel Uhr ist es?",
+      "ar": "لو سمحت، الساعة كام؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "w-frage",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "spät"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-010",
+      "de": "Wie sind Ihre Öffnungszeiten?",
+      "ar": "مواعيد الفتح عندكم إيه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "opening-hours",
+        "polite",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Öffnungszeiten",
+        "opts": [
+          "Öffnungszeiten",
+          "Öffnungszeit",
+          "Uhr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-011",
+      "de": "Du wartest auf Lisa, oder?",
+      "ar": "إنت مستني ليزا، صح؟",
+      "kind": "question",
+      "focus": [
+        "verb:warten",
+        "preposition"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "für",
+          "an"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-012",
+      "de": "Kommt sie um Viertel nach zwölf oder um halb eins?",
+      "ar": "هي جاية الساعة اتناشر وربع ولا اتناشر ونص؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "preposition"
+      ],
+      "alts": [
+        "Kommt sie um halb eins oder um Viertel nach zwölf?"
+      ],
+      "cloze": {
+        "word": "eins",
+        "opts": [
+          "eins",
+          "zwölf",
+          "elf"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-013",
+      "de": "Sie kommt um Viertel vor eins.",
+      "ar": "هي جاية الساعة واحدة إلا ربع.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "preposition"
+      ],
+      "alts": [
+        "Um Viertel vor eins kommt sie."
+      ],
+      "cloze": {
+        "word": "vor",
+        "opts": [
+          "vor",
+          "nach",
+          "um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-014",
+      "de": "Es ist zwölf Uhr fünfundvierzig.",
+      "ar": "الساعة اتناشر وخمسة وأربعين.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "official-time",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fünfundvierzig",
+        "opts": [
+          "fünfundvierzig",
+          "vierundfünfzig",
+          "fünfzehn"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-015",
+      "de": "Sie kommt in fünfundvierzig Minuten.",
+      "ar": "هي جاية كمان خمسة وأربعين دقيقة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "duration"
+      ],
+      "alts": [
+        "In fünfundvierzig Minuten kommt sie."
+      ],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "um",
+          "ab"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s33-016",
+      "de": "Sie kommt in einer Dreiviertelstunde.",
+      "ar": "هي جاية كمان تلت تربع ساعة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "duration"
+      ],
+      "alts": [
+        "In einer Dreiviertelstunde kommt sie."
+      ],
+      "cloze": {
+        "word": "Dreiviertelstunde",
+        "opts": [
+          "Dreiviertelstunde",
+          "Viertelstunde",
+          "Stunde"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-017",
+      "de": "Bist du allein?",
+      "ar": "إنت لوحدك؟",
+      "kind": "question",
+      "focus": [
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bist",
+        "opts": [
+          "Bist",
+          "Ist",
+          "Bin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-018",
+      "de": "Ich warte eine halbe Stunde auf dich.",
+      "ar": "هستناك نص ساعة.",
+      "kind": "statement",
+      "focus": [
+        "verb:warten",
+        "duration"
+      ],
+      "alts": [
+        "Eine halbe Stunde warte ich auf dich."
+      ],
+      "cloze": {
+        "word": "halbe",
+        "opts": [
+          "halbe",
+          "halb",
+          "halben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-019",
+      "de": "Eine Stunde hat sechzig Minuten.",
+      "ar": "الساعة فيها ستين دقيقة.",
+      "kind": "statement",
+      "focus": [
+        "duration",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Stunde",
+        "opts": [
+          "Stunde",
+          "Uhr",
+          "Minute"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-020",
+      "de": "Der Zug fährt um vierzehn Uhr zwölf.",
+      "ar": "القطر بيقوم الساعة اتنين واتناشر دقيقة الضهر.",
+      "kind": "statement",
+      "focus": [
+        "official-time",
+        "verb:fahren"
+      ],
+      "alts": [
+        "Um vierzehn Uhr zwölf fährt der Zug."
+      ],
+      "cloze": {
+        "word": "fährt",
+        "opts": [
+          "fährt",
+          "fahrt",
+          "fährst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-021",
+      "de": "Es ist zehn nach zwölf.",
+      "ar": "الساعة اتناشر وعشرة.",
+      "kind": "answer",
+      "focus": [
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nach",
+        "opts": [
+          "nach",
+          "vor",
+          "um"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s33-022",
+      "de": "Es ist kurz vor neun.",
+      "ar": "الساعة تسعة إلا شوية.",
+      "kind": "answer",
+      "focus": [
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kurz",
+        "opts": [
+          "kurz",
+          "halb",
+          "Viertel"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w33-01",
+      "q": "Entschuldigung, ___ Uhr ist es?",
+      "answer": "wie viel",
+      "opts": [
+        "wie viel",
+        "wie viele",
+        "wann",
+        "wie alt"
+      ],
+      "ar": "لو سمحت، الساعة كام؟",
+      "reply": "Es ist zwölf Uhr.",
+      "reply_ar": "الساعة اتناشر."
+    },
+    {
+      "id": "w33-02",
+      "q": "___ kommt Lisa?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Was",
+        "Wie viel"
+      ],
+      "ar": "ليزا جاية إمتى؟",
+      "reply": "Sie kommt um Viertel vor eins.",
+      "reply_ar": "جاية الساعة واحدة إلا ربع."
+    },
+    {
+      "id": "w33-03",
+      "q": "___ haben Sie geöffnet?",
+      "answer": "Ab wann",
+      "opts": [
+        "Ab wann",
+        "Woher",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "حضرتكم فاتحين من الساعة كام؟ (رسمي)",
+      "reply": "Wir haben ab neun Uhr geöffnet.",
+      "reply_ar": "إحنا فاتحين من الساعة تسعة."
+    },
+    {
+      "id": "w33-04",
+      "q": "___ gibt es heute?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "فيه إيه النهارده؟",
+      "reply": "Heute gibt es Rouladen, Fisch mit Gemüse oder Suppe.",
+      "reply_ar": "النهارده فيه رولاد لحمة، أو سمك بالخضار، أو شوربة."
+    },
+    {
+      "id": "w33-05",
+      "q": "___ Minuten hat eine Stunde?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wann",
+        "Wo"
+      ],
+      "ar": "الساعة فيها كام دقيقة؟",
+      "reply": "Eine Stunde hat sechzig Minuten.",
+      "reply_ar": "الساعة فيها ستين دقيقة."
+    },
+    {
+      "id": "w33-06",
+      "q": "___ ist es jetzt?",
+      "answer": "Wie spät",
+      "opts": [
+        "Wie spät",
+        "Wann",
+        "Wie viele",
+        "Woher"
+      ],
+      "ar": "الساعة كام دلوقتي؟",
+      "reply": "Es ist kurz nach zwölf.",
+      "reply_ar": "الساعة اتناشر وشوية."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g33-1",
+      "h": "الساعة الرسمية: نظام الـ 24 ساعة",
+      "body": "في المحطة والراديو والمواعيد الرسمية ومواعيد فتح المحلات، الألمان بيقولوا الساعة بنظام الـ 24 ساعة: رقم الساعة + Uhr + الدقايق. 14:12 = vierzehn Uhr zwölf، و11 بالليل = dreiundzwanzig Uhr، و12 بالليل = null Uhr. هنا مفيش halb ولا Viertel ولا nach ولا vor، أرقام وبس. ومواعيد الفتح بنقولها كده: Wir haben von … bis … geöffnet، وأيام القفل: Am Montag haben wir geschlossen.",
+      "examples": [
+        {
+          "de": "Wir haben von neun bis dreiundzwanzig Uhr geöffnet.",
+          "ar": "إحنا فاتحين من تسعة الصبح لحد حداشر بالليل."
+        },
+        {
+          "de": "Der Zug fährt um vierzehn Uhr zwölf.",
+          "ar": "القطر بيقوم الساعة اتنين واتناشر دقيقة الضهر."
+        },
+        {
+          "de": "Es ist zwölf Uhr fünfundvierzig.",
+          "ar": "الساعة اتناشر وخمسة وأربعين (12:45)."
+        }
+      ],
+      "table": [
+        [
+          "الساعة",
+          "رسمي (24 ساعة)",
+          "في الكلام العادي"
+        ],
+        [
+          "9:05",
+          "neun Uhr fünf",
+          "fünf nach neun"
+        ],
+        [
+          "12:45",
+          "zwölf Uhr fünfundvierzig",
+          "Viertel vor eins"
+        ],
+        [
+          "14:12",
+          "vierzehn Uhr zwölf",
+          "zwölf nach zwei"
+        ],
+        [
+          "20:30",
+          "zwanzig Uhr dreißig",
+          "halb neun"
+        ],
+        [
+          "23:00",
+          "dreiundzwanzig Uhr",
+          "elf (Uhr)"
+        ],
+        [
+          "0:00",
+          "null Uhr",
+          "zwölf (Uhr)"
+        ]
+      ]
+    },
+    {
+      "id": "g33-2",
+      "h": "الساعة في الكلام العادي (2): nach و vor",
+      "body": "في الكلام العادي بنعدّ من 1 لـ 12 بس. nach = و (بعد الساعة)، و vor = إلا (قبل الساعة)، والدقايق بتيجي الأول: zehn nach zwölf = اتناشر وعشرة، zehn vor eins = واحدة إلا عشرة. Viertel = ربع: Viertel nach zwölf = اتناشر وربع، Viertel vor eins = واحدة إلا ربع. kurz nach = وشوية، kurz vor = إلا شوية. وافتكر من درس 29: halb eins = اتناشر ونص (مش واحدة ونص!). وخد بالك: Es ist ein Uhr (مش eins Uhr)، بس من غير Uhr: Viertel vor eins.",
+      "examples": [
+        {
+          "de": "Kommt sie um Viertel nach zwölf oder um halb eins?",
+          "ar": "هي جاية اتناشر وربع ولا اتناشر ونص؟"
+        },
+        {
+          "de": "Sie kommt um Viertel vor eins.",
+          "ar": "هي جاية الساعة واحدة إلا ربع."
+        },
+        {
+          "de": "Es ist kurz vor neun.",
+          "ar": "الساعة تسعة إلا شوية."
+        }
+      ],
+      "table": [
+        [
+          "الساعة",
+          "بالمصري",
+          "بالألماني"
+        ],
+        [
+          "12:05",
+          "اتناشر وخمسة",
+          "fünf nach zwölf"
+        ],
+        [
+          "12:15",
+          "اتناشر وربع",
+          "Viertel nach zwölf"
+        ],
+        [
+          "12:20",
+          "اتناشر وتلت",
+          "zwanzig nach zwölf"
+        ],
+        [
+          "12:25",
+          "اتناشر ونص إلا خمسة",
+          "fünf vor halb eins"
+        ],
+        [
+          "12:30",
+          "اتناشر ونص",
+          "halb eins"
+        ],
+        [
+          "12:35",
+          "اتناشر ونص وخمسة",
+          "fünf nach halb eins"
+        ],
+        [
+          "12:40",
+          "واحدة إلا تلت",
+          "zwanzig vor eins"
+        ],
+        [
+          "12:45",
+          "واحدة إلا ربع",
+          "Viertel vor eins"
+        ],
+        [
+          "12:50",
+          "واحدة إلا عشرة",
+          "zehn vor eins"
+        ],
+        [
+          "12:58",
+          "واحدة إلا شوية",
+          "kurz vor eins"
+        ]
+      ]
+    },
+    {
+      "id": "g33-3",
+      "h": "حروف الجر للوقت: um، am، von … bis، ab، in",
+      "body": "um + الساعة: um halb zwölf. am + اليوم: am Montag. von … bis = من … لحد: von Dienstag bis Sonntag، والسؤال: Von wann bis wann? ab = من … وطالع (من غير نهاية): ab acht Uhr، والسؤال: Ab wann? أما in + مدة = كمان / بعد: in zehn Minuten = كمان عشر دقايق (مش «في»!). وخد بالك: «Um wann?» غلط، قول Wann? أو Um wie viel Uhr?",
+      "examples": [
+        {
+          "de": "Am Montag haben wir leider geschlossen.",
+          "ar": "للأسف إحنا قافلين يوم الاتنين."
+        },
+        {
+          "de": "Der Supermarkt hat ab acht Uhr geöffnet.",
+          "ar": "السوبرماركت فاتح من الساعة تمانية."
+        },
+        {
+          "de": "Sie kommt in fünfundvierzig Minuten.",
+          "ar": "هي جاية كمان خمسة وأربعين دقيقة."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "معناها",
+          "مثال"
+        ],
+        [
+          "um",
+          "الساعة … (وقت محدد)",
+          "um halb zwölf"
+        ],
+        [
+          "am",
+          "يوم …",
+          "am Montag"
+        ],
+        [
+          "von … bis",
+          "من … لحد …",
+          "von neun bis dreiundzwanzig Uhr"
+        ],
+        [
+          "ab",
+          "من … وطالع",
+          "ab acht Uhr"
+        ],
+        [
+          "in",
+          "كمان … (بعد مدة من دلوقتي)",
+          "in zehn Minuten"
+        ]
+      ]
+    },
+    {
+      "id": "g33-4",
+      "h": "Uhr ولا Stunde؟",
+      "body": "«ساعة» بالعربي ليها ترجمتين في الألماني: Uhr = الساعة كام (وقت محدد): Es ist zwölf Uhr، وكمان die Uhr = الساعة اللي في إيدك. لكن Stunde = ساعة كمدة (60 دقيقة): Eine Stunde hat sechzig Minuten. والمُدد: eine Viertelstunde = ربع ساعة، eine halbe Stunde = نص ساعة، eine Dreiviertelstunde = تلت تربع ساعة. وخد بالك: halb neun = الساعة 8:30، لكن eine halbe Stunde = 30 دقيقة.",
+      "examples": [
+        {
+          "de": "Es ist zwölf Uhr.",
+          "ar": "الساعة اتناشر."
+        },
+        {
+          "de": "Ich warte eine halbe Stunde auf dich.",
+          "ar": "هستناك نص ساعة."
+        },
+        {
+          "de": "Sie kommt in einer Dreiviertelstunde.",
+          "ar": "هي جاية كمان تلت تربع ساعة."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري",
+          "كام دقيقة"
+        ],
+        [
+          "eine Viertelstunde",
+          "ربع ساعة",
+          "15"
+        ],
+        [
+          "eine halbe Stunde",
+          "نص ساعة",
+          "30"
+        ],
+        [
+          "eine Dreiviertelstunde",
+          "تلت تربع ساعة",
+          "45"
+        ],
+        [
+          "eine Stunde",
+          "ساعة",
+          "60"
+        ]
+      ]
+    }
+  ]
+}

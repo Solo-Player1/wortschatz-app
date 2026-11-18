@@ -1,6 +1,9 @@
 // In-app update flow with a mocked native Updater plugin + mocked manifest (web update and APK update).
 import { launch } from './cdp.mjs';
+// the mocked manifests are built relative to the app's current version (they were hard-coded for 1.1.0 and went stale with 1.5)
+import { VERSION_CODE, WEB_BUILD } from '../../www/js/version.js';
 const URL = 'http://127.0.0.1:8131/index.html';
+const NEXT = WEB_BUILD + 1;
 const results = [];
 const check = (n, ok, extra = '') => results.push(`${ok ? 'PASS' : 'FAIL'} ${n}${extra ? ' — ' + extra : ''}`);
 const run = async (manifest, port) => {
@@ -32,15 +35,15 @@ const run = async (manifest, port) => {
   await p.close();
   return { r, errs };
 };
-const web = { version: '1.1.0', versionCode: 2, apk: 'https://x/v1.1.0.apk', web: { build: 1, version: '1.1.0 · تحديث 1', zip: 'https://x/www-1.zip', sha256: 'abc', size: 10, minVersionCode: 2, notes: 'تجربة' } };
+const web = { version: '1.5', versionCode: VERSION_CODE, apk: 'https://x/v-current.apk', web: { build: NEXT, version: `1.${NEXT}`, zip: `https://x/www-${NEXT}.zip`, sha256: 'abc', size: 10, minVersionCode: VERSION_CODE, notes: 'تجربة' } };
 let a = await run(web, 9495);
-check('web update: banner + «حدّث دلوقتي» → applyWeb(url, sha256, build) with progress', a.r.banner && /في الأبلكيشن|جوه الأبلكيشن/.test(a.r.text) && a.r.calls.length === 1 && a.r.calls[0][0] === 'applyWeb' && a.r.calls[0][1].build === 1 && a.r.calls[0][1].url === 'https://x/www-1.zip' && /50%|بيتحدّث/.test(a.r.btn) && a.r.applied === 1, JSON.stringify(a.r));
+check('web update: banner + «حدّث دلوقتي» → applyWeb(url, sha256, build) with progress', a.r.banner && /في الأبلكيشن|جوه الأبلكيشن/.test(a.r.text) && a.r.calls.length === 1 && a.r.calls[0][0] === 'applyWeb' && a.r.calls[0][1].build === NEXT && a.r.calls[0][1].url === `https://x/www-${NEXT}.zip` && /50%|بيتحدّث/.test(a.r.btn) && a.r.applied === NEXT, JSON.stringify(a.r));
 check('boot reports ready() to the native side', a.r.readyCalled, '');
 check('web update: no console errors', a.errs.length === 0, a.errs.join(' | ').slice(0, 300));
-const apk = { version: '1.2.0', versionCode: 3, apk: 'https://x/v1.2.0.apk' };
+const apk = { version: '9.9', versionCode: VERSION_CODE + 1, apk: 'https://x/v-next.apk' };
 a = await run(apk, 9496);
-check('APK update: «حدّث دلوقتي» → installApk(url)', a.r.banner && a.r.calls.length === 1 && a.r.calls[0][0] === 'installApk' && a.r.calls[0][1].url === 'https://x/v1.2.0.apk', JSON.stringify(a.r));
-const none = { version: '1.1.0', versionCode: 2, apk: 'https://x/v1.1.0.apk', web: { build: 0, zip: 'https://x/www-0.zip', minVersionCode: 2 } };
+check('APK update: «حدّث دلوقتي» → installApk(url)', a.r.banner && a.r.calls.length === 1 && a.r.calls[0][0] === 'installApk' && a.r.calls[0][1].url === 'https://x/v-next.apk', JSON.stringify(a.r));
+const none = { version: '1.5', versionCode: VERSION_CODE, apk: 'https://x/v-current.apk', web: { build: WEB_BUILD, zip: `https://x/www-${WEB_BUILD}.zip`, minVersionCode: VERSION_CODE } };
 a = await run(none, 9497);
 check('up to date: no banner', !a.r.banner, JSON.stringify(a.r));
 console.log(results.join('\n'));

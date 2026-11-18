@@ -1,0 +1,115 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:10.320 --> 00:00:13.200 region:R1 align:center
+<c.S1>– Wir wünschen guten Appetit!</c>
+
+2
+00:00:13.240 --> 00:00:14.800 region:R1 align:center
+<c.S1>– Augen auf!</c>
+
+3
+00:00:17.680 --> 00:00:18.600 region:R1 align:center
+<c.S1>– Paella!</c>
+
+4
+00:00:18.720 --> 00:00:20.080 region:R1 align:center
+<c.S1>– Wir hoffen, es schmeckt dir.</c>
+
+5
+00:00:20.120 --> 00:00:22.480 region:R1 align:center
+<c.S1>Du hast ja sicher keine Lust mehr auf
+deutsches Essen, oder?</c>
+
+6
+00:00:22.920 --> 00:00:26.720 region:R1 align:center
+<c.S1>– Ich finde deutsches Essen sehr lecker.
+Ich mag Wurst und Rouladen und Gulasch.</c>
+
+7
+00:00:26.720 --> 00:00:29.240 region:R1 align:center
+<c.S1>Aber am liebsten mag ich Paella!</c>
+
+8
+00:00:29.320 --> 00:00:31.760 region:R1 align:center
+<c.S1>– Du musst zuerst probieren!</c>
+
+9
+00:00:36.320 --> 00:00:37.760 region:R1 align:center
+<c.S1>– Schmeckt wie in Spanien!</c>
+
+10
+00:00:37.840 --> 00:00:38.480 region:R1 align:center
+<c.S1>– Ha!</c>
+
+11
+00:00:38.520 --> 00:00:40.720 region:R1 align:center
+<c.S1>– Das ist ein großes Kompliment!</c>
+
+12
+00:00:45.160 --> 00:00:47.720 region:R1 align:center
+<c.S1>– Spanisches Essen vermiss ich manchmal.</c>
+
+13
+00:00:48.280 --> 00:00:49.480 region:R1 align:center
+<c.S1>– Das versteh ich …</c>
+
+14
+00:00:52.080 --> 00:00:53.800 region:R1 align:center
+<c.S1>– Hast du ein bisschen Heimweh?</c>
+
+15
+00:00:54.840 --> 00:00:55.600 region:R1 align:center
+<c.S1>– Heimweh?</c>
+
+16
+00:00:55.640 --> 00:01:00.280 region:R1 align:center
+<c.S1>– Ja, Heimweh. Das ist, wenn man traurig ist
+und nach Hause möchte.</c>
+
+17
+00:01:00.920 --> 00:01:02.960 region:R1 align:center
+<c.S1>– Ach so! Nein, ich hab kein Heimweh.</c>
+
+18
+00:01:03.080 --> 00:01:04.240 region:R1 align:center
+<c.S1>Mir gefällt es hier.</c>
+
+19
+00:01:04.560 --> 00:01:06.520 region:R1 align:center
+<c.S1>Aber meine Freunde
+vermiss ich ein bisschen.</c>
+
+20
+00:01:06.600 --> 00:01:08.880 region:R1 align:center
+<c.S1>Und das Wetter in Spanien ist besser.</c>
+
+21
+00:01:08.960 --> 00:01:11.320 region:R1 align:center
+<c.S1>Es regnet nicht so oft und es ist wärmer.</c>
+
+22
+00:01:13.720 --> 00:01:17.320 region:R1 align:center
+<c.S1>– Ich gehe gleich in Yaras Laden
+und gieße da die Blumen.</c>
+
+23
+00:01:17.440 --> 00:01:18.760 region:R1 align:center
+<c.S1>Willst du mitkommen?</c>
+
+24
+00:01:19.200 --> 00:01:20.520 region:R1 align:center
+<c.S1>– Ja, gerne.</c>
+
+25
+00:01:20.600 --> 00:01:23.000 region:R1 align:center
+<c.S1>– Okay. Aber iss erst auf!</c>

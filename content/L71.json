@@ -1,0 +1,364 @@
+{
+  "n": 71,
+  "sentences": [
+    {
+      "id": "s71-001",
+      "de": "Wo ist Dr. Grube gerade?",
+      "ar": "دكتور جروبه فين دلوقتي؟",
+      "kind": "question",
+      "focus": ["w-frage", "time"],
+      "alts": ["Wo ist gerade Dr. Grube?"],
+      "cloze": { "word": "gerade", "opts": ["gerade", "gestern", "vorgestern"], "accept": ["jetzt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-002",
+      "de": "Er ist noch beim Patienten.",
+      "ar": "هو لسه مع المريض.",
+      "kind": "answer",
+      "focus": ["n-declension", "dative"],
+      "alts": ["Noch ist er beim Patienten.", "Beim Patienten ist er noch."],
+      "cloze": { "word": "Patienten", "opts": ["Patienten", "Patient", "Patientin"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-003",
+      "de": "Ich suche einen Patienten.",
+      "ar": "أنا بدوّر على مريض.",
+      "kind": "statement",
+      "focus": ["n-declension", "accusative", "verb:suchen"],
+      "alts": ["Einen Patienten suche ich."],
+      "cloze": { "word": "einen", "opts": ["einen", "ein", "eine"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-004",
+      "de": "Auf der rechten Seite.",
+      "ar": "على إيدك اليمين.",
+      "kind": "answer",
+      "focus": ["direction", "adjective"],
+      "alts": [],
+      "cloze": { "word": "rechten", "opts": ["rechten", "rechte", "recht"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-005",
+      "de": "Gern geschehen, Lisa!",
+      "ar": "العفو يا ليزا!",
+      "kind": "answer",
+      "focus": ["polite", "phrase"],
+      "alts": ["Lisa, gern geschehen!"],
+      "cloze": { "word": "geschehen", "opts": ["geschehen", "gesehen", "gegessen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-006",
+      "de": "Nico, das sieht ja schlimm aus!",
+      "ar": "يا نيكو، ده شكله وحش أوي!",
+      "kind": "statement",
+      "focus": ["verb:aussehen", "health"],
+      "alts": ["Das sieht ja schlimm aus, Nico!", "Nico, schlimm sieht das ja aus!", "Schlimm sieht das ja aus, Nico!"],
+      "cloze": { "word": "sieht", "opts": ["sieht", "seht", "siehst"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-007",
+      "de": "Was ist passiert?",
+      "ar": "إيه اللي حصل؟",
+      "kind": "question",
+      "focus": ["perfect", "verb:passieren", "w-frage"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "hat", "sind"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-008",
+      "de": "Das tut mir sehr leid.",
+      "ar": "أنا آسف جدًا.",
+      "kind": "statement",
+      "focus": ["sympathy", "dative"],
+      "alts": ["Mir tut das sehr leid."],
+      "cloze": { "word": "mir", "opts": ["mir", "mich", "ich"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-009",
+      "de": "Das war das falsche Zimmer.",
+      "ar": "دي كانت الأوضة الغلط.",
+      "kind": "statement",
+      "focus": ["past", "adjective"],
+      "alts": ["Das falsche Zimmer war das."],
+      "cloze": { "word": "falsche", "opts": ["falsche", "falschen", "falsch"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-010",
+      "de": "Nico! Geht es dir gut?",
+      "ar": "نيكو! إنت كويس؟",
+      "kind": "question",
+      "focus": ["health", "dative"],
+      "alts": ["Geht es dir gut, Nico?"],
+      "cloze": { "word": "dir", "opts": ["dir", "dich", "du"] },
+      "src": "episode"
+    },
+    {
+      "id": "s71-011",
+      "de": "Bist du verletzt?",
+      "ar": "إنت متعوّر؟",
+      "kind": "question",
+      "focus": ["health", "verb:sein"],
+      "alts": [],
+      "cloze": { "word": "Bist", "opts": ["Bist", "Hast", "Ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-012",
+      "de": "Plötzlich hat ein Auto gebremst.",
+      "ar": "فجأة عربية فرملت.",
+      "kind": "statement",
+      "focus": ["perfect", "participle", "verb:bremsen"],
+      "alts": ["Ein Auto hat plötzlich gebremst."],
+      "cloze": { "word": "gebremst", "opts": ["gebremst", "gebremsen", "bremst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-013",
+      "de": "Ich bin mit dem Fahrrad gestürzt.",
+      "ar": "وقعت بالعجلة.",
+      "kind": "answer",
+      "focus": ["perfect", "auxiliary", "verb:stürzen"],
+      "alts": ["Mit dem Fahrrad bin ich gestürzt."],
+      "cloze": { "word": "bin", "opts": ["bin", "habe", "ist"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-014",
+      "de": "Ich habe auf dem Boden gelegen.",
+      "ar": "كنت مرمي على الأرض.",
+      "kind": "statement",
+      "focus": ["perfect", "participle", "verb:liegen"],
+      "alts": ["Auf dem Boden habe ich gelegen."],
+      "cloze": { "word": "gelegen", "opts": ["gelegen", "geliegen", "geliegt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-015",
+      "de": "Ich war kurz bewusstlos.",
+      "ar": "اتغمى عليّا شوية.",
+      "kind": "statement",
+      "focus": ["past", "verb:sein", "health"],
+      "alts": ["Kurz war ich bewusstlos."],
+      "cloze": { "word": "war", "opts": ["war", "warst", "waren"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-016",
+      "de": "Hat jemand einen Krankenwagen gerufen?",
+      "ar": "حد اتصل بالإسعاف؟",
+      "kind": "question",
+      "focus": ["perfect", "participle", "verb:rufen"],
+      "alts": [],
+      "cloze": { "word": "gerufen", "opts": ["gerufen", "geruft", "rufen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-017",
+      "de": "Ich bin im Krankenhaus aufgewacht.",
+      "ar": "صحيت في المستشفى.",
+      "kind": "statement",
+      "focus": ["perfect", "separable", "verb:aufwachen"],
+      "alts": ["Im Krankenhaus bin ich aufgewacht."],
+      "cloze": { "word": "aufgewacht", "opts": ["aufgewacht", "geaufwacht", "aufgewachen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-018",
+      "de": "Der Arzt hat mich untersucht.",
+      "ar": "الدكتور كشف عليّا.",
+      "kind": "statement",
+      "focus": ["perfect", "participle", "verb:untersuchen"],
+      "alts": ["Mich hat der Arzt untersucht."],
+      "cloze": { "word": "untersucht", "opts": ["untersucht", "geuntersucht", "untersuchen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-019",
+      "de": "Die Patientin hat eine Gehirnerschütterung.",
+      "ar": "المريضة عندها ارتجاج في المخ.",
+      "kind": "statement",
+      "focus": ["health", "feminine"],
+      "alts": ["Eine Gehirnerschütterung hat die Patientin."],
+      "cloze": { "word": "Patientin", "opts": ["Patientin", "Patient", "Patienten"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-020",
+      "de": "Ich habe einen Gips am Arm.",
+      "ar": "عندي جبس في دراعي.",
+      "kind": "statement",
+      "focus": ["health", "article"],
+      "alts": ["Am Arm habe ich einen Gips.", "Ich habe am Arm einen Gips.", "Einen Gips habe ich am Arm."],
+      "cloze": { "word": "einen", "opts": ["einen", "ein", "eine"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-021",
+      "de": "Zum Glück ist der Fuß nicht gebrochen.",
+      "ar": "لحسن الحظ رجله مش مكسورة.",
+      "kind": "statement",
+      "focus": ["phrase", "health"],
+      "alts": ["Der Fuß ist zum Glück nicht gebrochen.", "Gebrochen ist der Fuß zum Glück nicht."],
+      "cloze": { "word": "Zum", "opts": ["Zum", "Zur", "Im"] },
+      "src": "authored"
+    },
+    {
+      "id": "s71-022",
+      "de": "Gute Besserung, Nico!",
+      "ar": "ألف سلامة يا نيكو!",
+      "kind": "greeting",
+      "focus": ["greeting", "health"],
+      "alts": ["Nico, gute Besserung!"],
+      "cloze": { "word": "Gute", "opts": ["Gute", "Guten", "Gutes"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w71-01",
+      "q": "___ ist passiert?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Wann"],
+      "ar": "إيه اللي حصل؟",
+      "reply": "Ich bin mit dem Fahrrad gestürzt.",
+      "reply_ar": "وقعت بالعجلة."
+    },
+    {
+      "id": "w71-02",
+      "q": "___ hat den Krankenwagen gerufen?",
+      "answer": "Wer",
+      "opts": ["Wer", "Wann", "Wo", "Wie"],
+      "ar": "مين اللي اتصل بالإسعاف؟",
+      "reply": "Der Fahrer.",
+      "reply_ar": "السوّاق."
+    },
+    {
+      "id": "w71-03",
+      "q": "___ bist du aufgewacht?",
+      "answer": "Wo",
+      "opts": ["Wo", "Wohin", "Woher", "Wer"],
+      "ar": "صحيت فين؟",
+      "reply": "Im Krankenhaus.",
+      "reply_ar": "في المستشفى."
+    },
+    {
+      "id": "w71-04",
+      "q": "___ bist du im Krankenhaus geblieben?",
+      "answer": "Wie lange",
+      "opts": ["Wie lange", "Wie viele", "Woher", "Wer"],
+      "ar": "فضلت في المستشفى قد إيه؟",
+      "reply": "Drei Tage.",
+      "reply_ar": "تلات أيام."
+    },
+    {
+      "id": "w71-05",
+      "q": "___ geht es dem Patienten?",
+      "answer": "Wie",
+      "opts": ["Wie", "Was", "Wo", "Wer"],
+      "ar": "المريض عامل إيه؟",
+      "reply": "Schon viel besser.",
+      "reply_ar": "بقى أحسن بكتير."
+    },
+    {
+      "id": "w71-06",
+      "q": "___ hast du einen Gips?",
+      "answer": "Warum",
+      "opts": ["Warum", "Wer", "Wohin", "Wie viele"],
+      "ar": "عندك جبس ليه؟",
+      "reply": "Mein Arm ist gebrochen.",
+      "reply_ar": "دراعي مكسور."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g71-1",
+      "h": "الماضي التام (Perfekt): مراجعة",
+      "body": "في الكلام بنحكي عن الماضي غالبًا بالـ Perfekt، وليه جزءين: الفعل المساعد haben أو sein بيتصرّف عادي زي المضارع وييجي في المكان التاني، والفعل الأساسي بيروح آخر الجملة في صورة ثابتة اسمها التصريف التالت (Partizip II) ومابتتغيّرش مع الضمير. في سؤال أيوه ولا لأ المساعد بييجي الأول: Hat jemand einen Krankenwagen gerufen? وافتكر إن sein نفسه بنقول منه war أكتر: Ich war kurz bewusstlos.",
+      "examples": [
+        { "de": "Ich habe gestern Fußball gespielt.", "ar": "لعبت كورة إمبارح." },
+        { "de": "Plötzlich hat ein Auto gebremst.", "ar": "فجأة عربية فرملت." },
+        { "de": "Hat jemand einen Krankenwagen gerufen?", "ar": "حد اتصل بالإسعاف؟" },
+        { "de": "Ich war kurz bewusstlos.", "ar": "اتغمى عليّا شوية." }
+      ],
+      "table": [
+        ["المكان 1", "المكان 2: haben / sein", "النص", "الآخر: Partizip II"],
+        ["Ich", "habe", "gestern Fußball", "gespielt."],
+        ["Plötzlich", "hat", "ein Auto", "gebremst."],
+        ["Was", "ist", "–", "passiert?"],
+        ["–", "Hat", "jemand einen Krankenwagen", "gerufen?"]
+      ]
+    },
+    {
+      "id": "g71-2",
+      "h": "الماضي التام: haben ولا sein؟",
+      "body": "أغلب الأفعال بتاخد haben، وأي فعل ليه مفعول به (Akkusativ) بياخد haben: Der Arzt hat mich untersucht. وبناخد sein مع: ١) الحركة من مكان لمكان: gehen، fahren، fliegen، schwimmen، reisen، stürzen. ٢) التغيير من حالة لحالة: aufwachen، einschlafen، werden. ٣) sein و bleiben و passieren. لكن bluten و bremsen بـ haben، عشان مفيهمش حركة لمكان ولا تغيير حالة. يعني: Was ist passiert? مش Was hat passiert?",
+      "examples": [
+        { "de": "Meine Freunde haben mich zum Arzt gebracht.", "ar": "صحابي ودّوني للدكتور." },
+        { "de": "Wir sind sofort zum Arzt gefahren.", "ar": "رحنا للدكتور على طول." },
+        { "de": "Ich bin im Krankenhaus aufgewacht.", "ar": "صحيت في المستشفى." },
+        { "de": "Ich bin drei Tage im Krankenhaus geblieben.", "ar": "فضلت في المستشفى تلات أيام." }
+      ],
+      "table": [
+        ["haben", "sein"],
+        ["hat gebremst (bremsen)", "ist gestürzt (stürzen)"],
+        ["hat gerufen (rufen)", "ist gefahren (fahren)"],
+        ["hat untersucht (untersuchen)", "ist aufgewacht (aufwachen)"],
+        ["hat gebracht (bringen)", "ist passiert (passieren)"],
+        ["hat gelegen (liegen)", "ist geblieben (bleiben)"]
+      ]
+    },
+    {
+      "id": "g71-3",
+      "h": "التصريف التالت للفعل (Partizip II)",
+      "body": "المنتظم: ge + الجذر + t (ولو الجذر آخره t أو d بنزوّد e): gestürzt، gebremst، gearbeitet. الشاذ آخره غالبًا -en وساعات حرف العلة بيتغيّر: gerufen، gelegen، gebrochen. من غير ge خالص: الأفعال اللي آخرها -ieren (passiert)، واللي أولها سابقة مابتنفصلش زي be-، ent-، er-، ver-، zer- (وكمان unter- في untersuchen): untersucht، verstanden. واللي بتنفصل: ge بتدخل في النص: aufgewacht، mitgenommen.",
+      "examples": [
+        { "de": "Ich bin mit dem Fahrrad gestürzt.", "ar": "وقعت بالعجلة." },
+        { "de": "Ich habe auf dem Boden gelegen.", "ar": "كنت مرمي على الأرض." },
+        { "de": "Der Arzt hat mich untersucht.", "ar": "الدكتور كشف عليّا." },
+        { "de": "Was ist passiert?", "ar": "إيه اللي حصل؟" }
+      ],
+      "table": [
+        ["المصدر", "Partizip II", "القاعدة"],
+        ["stürzen", "gestürzt", "منتظم: ge … t"],
+        ["bremsen", "gebremst", "منتظم: ge … t"],
+        ["rufen", "gerufen", "شاذ: ge … en"],
+        ["liegen", "gelegen", "شاذ: ge … en + حرف العلة بيتغيّر"],
+        ["passieren", "passiert", "من غير ge (-ieren)"],
+        ["untersuchen", "untersucht", "من غير ge (سابقة مابتنفصلش)"],
+        ["verstehen", "verstanden", "من غير ge (سابقة مابتنفصلش)"],
+        ["aufwachen", "aufgewacht", "ge في النص (بتنفصل)"],
+        ["mitnehmen", "mitgenommen", "ge في النص (بتنفصل)"]
+      ]
+    },
+    {
+      "id": "g71-4",
+      "h": "تسأل عن حد عيّان أو متعوّر",
+      "body": "تسأل: Was ist passiert? / Geht es dir gut? / Bist du verletzt? وعن حد تالت: Wie geht es dem Patienten? وتتعاطف: Das tut mir sehr leid. وتتمنّى له الشفا: Gute Besserung! (= ألف سلامة). ولما حد يعطس: Gesundheit! ولما حد يقولك Danke: Gern geschehen! وخد بالك: der Patient بياخد -en في أي حالة غير الفاعل: einen Patienten، beim Patienten، والمؤنث die Patientin.",
+      "examples": [
+        { "de": "Nico, das sieht ja schlimm aus! Was ist passiert?", "ar": "يا نيكو، ده شكله وحش أوي! إيه اللي حصل؟" },
+        { "de": "Wie geht es dem Patienten? – Schon viel besser.", "ar": "المريض عامل إيه؟ – بقى أحسن بكتير." },
+        { "de": "Okay, danke! – Gern geschehen.", "ar": "ماشي، شكرًا! – العفو." },
+        { "de": "Gesundheit! – Danke!", "ar": "يرحمكم الله! – شكرًا!" }
+      ],
+      "table": [
+        ["الموقف", "بالألماني", "بالمصري"],
+        ["حد اتعوّر", "Was ist passiert?", "إيه اللي حصل؟"],
+        ["تطمّن عليه", "Geht es dir gut?", "إنت كويس؟"],
+        ["تتعاطف معاه", "Das tut mir sehr leid.", "أنا آسف جدًا."],
+        ["تتمنّى له الشفا", "Gute Besserung!", "ألف سلامة!"],
+        ["حد عطس", "Gesundheit!", "يرحمكم الله! / صحة!"],
+        ["حد قالك Danke", "Gern geschehen!", "العفو!"],
+        ["خبر كويس", "Zum Glück …", "لحسن الحظ …"]
+      ]
+    }
+  ]
+}

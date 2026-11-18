@@ -1,0 +1,780 @@
+{
+  "n": 35,
+  "sentences": [
+    {
+      "id": "s35-001",
+      "de": "Wann spielen wir zusammen Fußball?",
+      "ar": "هنلعب كورة سوا إمتى؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:spielen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wann",
+        "opts": [
+          "Wann",
+          "Wer",
+          "Was",
+          "Woher"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-002",
+      "de": "Diese Woche kann ich nicht.",
+      "ar": "الأسبوع ده مش هقدر.",
+      "kind": "answer",
+      "focus": [
+        "verb:können",
+        "time",
+        "negation"
+      ],
+      "alts": [
+        "Ich kann diese Woche nicht."
+      ],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "können"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-003",
+      "de": "Aber nächste Woche geht’s.",
+      "ar": "بس الأسبوع الجاي ينفع.",
+      "kind": "statement",
+      "focus": [
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nächste",
+        "opts": [
+          "nächste",
+          "nächster",
+          "nächstes"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-004",
+      "de": "Ich treffe Anna im Schwimmbad.",
+      "ar": "أنا هقابل آنا في حمام السباحة.",
+      "kind": "statement",
+      "focus": [
+        "verb:treffen",
+        "place"
+      ],
+      "alts": [
+        "Im Schwimmbad treffe ich Anna.",
+        "Anna treffe ich im Schwimmbad."
+      ],
+      "cloze": {
+        "word": "treffe",
+        "opts": [
+          "treffe",
+          "triffst",
+          "trifft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-005",
+      "de": "Dann treffen wir uns am Freitag.",
+      "ar": "يبقى نتقابل يوم الجمعة.",
+      "kind": "statement",
+      "focus": [
+        "verb:treffen",
+        "time"
+      ],
+      "alts": [
+        "Wir treffen uns dann am Freitag.",
+        "Am Freitag treffen wir uns dann."
+      ],
+      "cloze": {
+        "word": "treffen",
+        "opts": [
+          "treffen",
+          "trefft",
+          "trifft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-006",
+      "de": "Ja, das geht.",
+      "ar": "أيوه، ينفع.",
+      "kind": "answer",
+      "focus": [
+        "confirm",
+        "verb:gehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "geht",
+        "opts": [
+          "geht",
+          "gehst",
+          "gehe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-007",
+      "de": "Robert kann am Freitag nicht.",
+      "ar": "روبرت مش هيقدر يوم الجمعة.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "negation"
+      ],
+      "alts": [
+        "Am Freitag kann Robert nicht."
+      ],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "könnt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-008",
+      "de": "Dann sind wir nur sieben.",
+      "ar": "يبقى إحنا سبعة بس.",
+      "kind": "statement",
+      "focus": [
+        "number",
+        "verb:sein"
+      ],
+      "alts": [
+        "Wir sind dann nur sieben."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "seid",
+          "ist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-009",
+      "de": "Wir brauchen eine achte Person.",
+      "ar": "محتاجين شخص تامن.",
+      "kind": "statement",
+      "focus": [
+        "verb:brauchen",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "brauchen",
+        "opts": [
+          "brauchen",
+          "braucht",
+          "brauchst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-010",
+      "de": "Hast du Lust?",
+      "ar": "ليك مزاج؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Bist",
+          "Habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-011",
+      "de": "Ich kann erst um zwei.",
+      "ar": "مش هقدر قبل الساعة اتنين.",
+      "kind": "answer",
+      "focus": [
+        "verb:können",
+        "time"
+      ],
+      "alts": [
+        "Erst um zwei kann ich."
+      ],
+      "cloze": {
+        "word": "um",
+        "opts": [
+          "um",
+          "am",
+          "im"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s35-012",
+      "de": "Kannst du am Freitag Fußball spielen?",
+      "ar": "تقدر تلعب كورة يوم الجمعة؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "word-order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "spielen",
+        "opts": [
+          "spielen",
+          "spielst",
+          "spielt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-013",
+      "de": "Könnt ihr nächste Woche kommen?",
+      "ar": "تقدروا تيجوا الأسبوع الجاي؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Könnt",
+        "opts": [
+          "Könnt",
+          "Kannst",
+          "Können"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-014",
+      "de": "Wir können am Sonntag in den Zoo gehen.",
+      "ar": "ممكن نروح جنينة الحيوانات يوم الحد.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "word-order",
+        "leisure"
+      ],
+      "alts": [
+        "Am Sonntag können wir in den Zoo gehen."
+      ],
+      "cloze": {
+        "word": "können",
+        "opts": [
+          "können",
+          "könnt",
+          "kann"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-015",
+      "de": "Meine Freunde können heute nicht kommen.",
+      "ar": "صحابي مش هيقدروا ييجوا النهارده.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "word-order",
+        "negation"
+      ],
+      "alts": [
+        "Heute können meine Freunde nicht kommen."
+      ],
+      "cloze": {
+        "word": "kommen",
+        "opts": [
+          "kommen",
+          "kommt",
+          "kommst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-016",
+      "de": "Nein, ich habe keine Lust.",
+      "ar": "لأ، ماليش مزاج.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-017",
+      "de": "Das ist eine gute Idee.",
+      "ar": "دي فكرة حلوة.",
+      "kind": "answer",
+      "focus": [
+        "opinion",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-018",
+      "de": "Ich arbeite den ganzen Tag.",
+      "ar": "أنا بشتغل طول اليوم.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "verb:arbeiten"
+      ],
+      "alts": [
+        "Den ganzen Tag arbeite ich."
+      ],
+      "cloze": {
+        "word": "ganzen",
+        "opts": [
+          "ganzen",
+          "ganze",
+          "ganzer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-019",
+      "de": "Ich kann schon um eins.",
+      "ar": "أنا أقدر من الساعة واحدة.",
+      "kind": "answer",
+      "focus": [
+        "verb:können",
+        "time"
+      ],
+      "alts": [
+        "Schon um eins kann ich."
+      ],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "könnt",
+          "können"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-020",
+      "de": "Was machst du dieses Wochenende?",
+      "ar": "هتعمل إيه الويك إند ده؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "time"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dieses",
+        "opts": [
+          "dieses",
+          "diese",
+          "diesen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-021",
+      "de": "Hast du diesen Monat noch Zeit?",
+      "ar": "لسه عندك وقت الشهر ده؟",
+      "kind": "question",
+      "focus": [
+        "time",
+        "verb:haben"
+      ],
+      "alts": [
+        "Hast du noch diesen Monat Zeit?"
+      ],
+      "cloze": {
+        "word": "diesen",
+        "opts": [
+          "diesen",
+          "dieser",
+          "dieses"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s35-022",
+      "de": "Nächsten Monat habe ich Urlaub.",
+      "ar": "الشهر الجاي عندي إجازة.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "word-order"
+      ],
+      "alts": [
+        "Ich habe nächsten Monat Urlaub."
+      ],
+      "cloze": {
+        "word": "Nächsten",
+        "opts": [
+          "Nächsten",
+          "Nächste",
+          "Nächstes"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w35-01",
+      "q": "___ kannst du kommen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Was",
+        "Wie viele"
+      ],
+      "ar": "تقدر تيجي إمتى؟",
+      "reply": "Ich kann erst um zwei.",
+      "reply_ar": "مش هقدر قبل الساعة اتنين."
+    },
+    {
+      "id": "w35-02",
+      "q": "Um ___ Uhr treffen wir uns?",
+      "answer": "wie viel",
+      "opts": [
+        "wie viel",
+        "wie viele",
+        "wann",
+        "wo"
+      ],
+      "ar": "هنتقابل الساعة كام؟",
+      "reply": "Um zwei Uhr.",
+      "reply_ar": "الساعة اتنين."
+    },
+    {
+      "id": "w35-03",
+      "q": "___ treffen wir uns?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "هنتقابل فين؟",
+      "reply": "Hier im Restaurant.",
+      "reply_ar": "هنا في المطعم."
+    },
+    {
+      "id": "w35-04",
+      "q": "___ kann am Freitag nicht?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "مين مش هيقدر يوم الجمعة؟",
+      "reply": "Robert.",
+      "reply_ar": "روبرت."
+    },
+    {
+      "id": "w35-05",
+      "q": "___ Personen brauchen wir?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "محتاجين كام شخص؟",
+      "reply": "Wir brauchen acht Personen.",
+      "reply_ar": "محتاجين تمن أشخاص."
+    },
+    {
+      "id": "w35-06",
+      "q": "___ machst du dieses Wochenende?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "هتعمل إيه الويك إند ده؟",
+      "reply": "Ich gehe ins Schwimmbad.",
+      "reply_ar": "هروح حمام السباحة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g35-1",
+      "h": "تصريف können: ich kann، du kannst",
+      "body": "können = يقدر / ممكن، وهو فعل مساعد (Modalverb) وتصريفه خاص. في المفرد الـ ö بتبقى a: ich kann، du kannst. ومع ich و er / sie / es مفيش نهاية خالص: ich kann و er kann (مش kanne ولا kannt). في الجمع الـ ö بترجع: wir können، ihr könnt، sie / Sie können.",
+      "examples": [
+        {
+          "de": "Ich kann erst um zwei.",
+          "ar": "مش هقدر قبل الساعة اتنين."
+        },
+        {
+          "de": "Robert kann am Freitag nicht.",
+          "ar": "روبرت مش هيقدر يوم الجمعة."
+        },
+        {
+          "de": "Könnt ihr nächste Woche kommen?",
+          "ar": "تقدروا تيجوا الأسبوع الجاي؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "können"
+        ],
+        [
+          "ich",
+          "kann"
+        ],
+        [
+          "du",
+          "kannst"
+        ],
+        [
+          "er / sie / es",
+          "kann"
+        ],
+        [
+          "wir",
+          "können"
+        ],
+        [
+          "ihr",
+          "könnt"
+        ],
+        [
+          "sie / Sie",
+          "können"
+        ]
+      ]
+    },
+    {
+      "id": "g35-2",
+      "h": "مكان können: لوحده أو مع فعل تاني",
+      "body": "في المواعيد بنقول können كتير لوحده بمعنى «أقدر / فاضي»: Kannst du am Montag? – Nein, am Montag kann ich nicht. في الجملة العادية können في المكان التاني، وفي سؤال أيوه ولا لأ بييجي الأول. ولو فيه فعل تاني، بيروح آخر الجملة في المصدر من غير تصريف (زي möchten): Wir können am Sonntag in den Zoo gehen.",
+      "examples": [
+        {
+          "de": "Kannst du am Montag? – Nein, am Montag kann ich nicht.",
+          "ar": "تقدر يوم الاتنين؟ – لأ، يوم الاتنين مش هقدر."
+        },
+        {
+          "de": "Diese Woche kann ich nicht.",
+          "ar": "الأسبوع ده مش هقدر."
+        },
+        {
+          "de": "Kannst du am Freitag Fußball spielen?",
+          "ar": "تقدر تلعب كورة يوم الجمعة؟"
+        },
+        {
+          "de": "Wir können am Sonntag in den Zoo gehen.",
+          "ar": "ممكن نروح جنينة الحيوانات يوم الحد."
+        }
+      ],
+      "table": [
+        [
+          "البداية",
+          "können",
+          "الوسط",
+          "آخر الجملة"
+        ],
+        [
+          "–",
+          "Kannst",
+          "du am Montag?",
+          "–"
+        ],
+        [
+          "Diese Woche",
+          "kann",
+          "ich nicht.",
+          "–"
+        ],
+        [
+          "–",
+          "Kannst",
+          "du am Freitag Fußball",
+          "spielen?"
+        ],
+        [
+          "Wir",
+          "können",
+          "am Sonntag in den Zoo",
+          "gehen."
+        ],
+        [
+          "Meine Freunde",
+          "können",
+          "heute nicht",
+          "kommen."
+        ]
+      ]
+    },
+    {
+      "id": "g35-3",
+      "h": "تحديد الوقت: dies- و nächst-",
+      "body": "dieser / diese / dieses = ده / دي (الحالي)، و nächster / nächste / nächstes = الجاي. النهاية بتمشي مع أداة التعريف: die Woche تبقى diese Woche و nächste Woche، و das Jahr تبقى dieses Jahr و nächstes Jahr. والمذكّر بياخد -en زي den (الوقت هنا في حالة النصب): diesen Monat و nächsten Monat. ومن غير حرف جر: diese Woche مش in diese Woche.",
+      "examples": [
+        {
+          "de": "Diese Woche kann ich nicht. Aber nächste Woche geht’s.",
+          "ar": "الأسبوع ده مش هقدر. بس الأسبوع الجاي ينفع."
+        },
+        {
+          "de": "Kannst du diese Woche? – Nein, aber nächste Woche habe ich Zeit.",
+          "ar": "تقدر الأسبوع ده؟ – لأ، بس الأسبوع الجاي عندي وقت."
+        },
+        {
+          "de": "Was machst du dieses Wochenende?",
+          "ar": "هتعمل إيه الويك إند ده؟"
+        },
+        {
+          "de": "Nächsten Monat habe ich Urlaub.",
+          "ar": "الشهر الجاي عندي إجازة."
+        }
+      ],
+      "table": [
+        [
+          "الاسم",
+          "dies- (ده / دي)",
+          "nächst- (الجاي)"
+        ],
+        [
+          "der Monat",
+          "diesen Monat",
+          "nächsten Monat"
+        ],
+        [
+          "die Woche",
+          "diese Woche",
+          "nächste Woche"
+        ],
+        [
+          "das Wochenende",
+          "dieses Wochenende",
+          "nächstes Wochenende"
+        ],
+        [
+          "das Jahr",
+          "dieses Jahr",
+          "nächstes Jahr"
+        ]
+      ]
+    },
+    {
+      "id": "g35-4",
+      "h": "تتفق على ميعاد: Lust و geht و erst / schon",
+      "body": "تعزم حد: Hast du Lust? والرد: Ja, gerne! أو Nein, ich habe keine Lust. (Lust بـ haben و keine زي Zeit). ولو عجبك اقتراح: Gute Idee! تسأل الميعاد مناسب ولا لأ: Geht das? والرد: Ja, das geht. أو Das geht nicht. وخد بالك: erst = مش قبل كده، يعني متأخر عن المتوقع (Ich kann erst um zwei.)، و schon = بدري عن المتوقع (Ich kann schon um eins.).",
+      "examples": [
+        {
+          "de": "Spielst du mit uns Fußball? Hast du Lust? – Ja, gerne!",
+          "ar": "تلعب معانا كورة؟ ليك مزاج؟ – أيوه، ياريت!"
+        },
+        {
+          "de": "Wir können in den Zoo gehen. – Gute Idee!",
+          "ar": "ممكن نروح جنينة الحيوانات. – فكرة حلوة!"
+        },
+        {
+          "de": "Dann treffen wir uns am Freitag. Geht das? – Ja, das geht.",
+          "ar": "يبقى نتقابل يوم الجمعة. ينفع؟ – أيوه، ينفع."
+        },
+        {
+          "de": "Um eins? – Das ist zu früh. Ich kann erst um zwei.",
+          "ar": "الساعة واحدة؟ – ده بدري أوي. مش هقدر قبل اتنين."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "Hast du Lust?",
+          "ليك مزاج؟"
+        ],
+        [
+          "Gute Idee!",
+          "فكرة حلوة!"
+        ],
+        [
+          "Ich habe keine Lust.",
+          "ماليش مزاج."
+        ],
+        [
+          "Geht das?",
+          "ينفع؟"
+        ],
+        [
+          "Ja, das geht. / Das geht nicht.",
+          "أيوه، ينفع. / مش هينفع."
+        ],
+        [
+          "Ich kann erst um zwei.",
+          "مش هقدر قبل اتنين."
+        ],
+        [
+          "Ich kann schon um eins.",
+          "أقدر من الساعة واحدة."
+        ]
+      ]
+    }
+  ]
+}

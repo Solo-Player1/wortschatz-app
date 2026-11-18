@@ -1,0 +1,846 @@
+{
+  "n": 55,
+  "sentences": [
+    {
+      "id": "s55-001",
+      "de": "Ich will auch wegfahren.",
+      "ar": "أنا كمان عايز أسافر.",
+      "kind": "statement",
+      "focus": [
+        "verb:wegfahren",
+        "verb:wollen"
+      ],
+      "alts": [
+        "Auch ich will wegfahren.",
+        "Wegfahren will ich auch."
+      ],
+      "cloze": {
+        "word": "wegfahren",
+        "opts": [
+          "wegfahren",
+          "weggefahren",
+          "wegfährt"
+        ],
+        "accept": [
+          "reisen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-002",
+      "de": "Wann war dein letzter Urlaub?",
+      "ar": "آخر إجازة ليك كانت إمتى؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "w-frage",
+        "holiday"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "war",
+        "opts": [
+          "war",
+          "warst",
+          "waren"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-003",
+      "de": "Das war nur ein Ausflug.",
+      "ar": "دي كانت مجرد رحلة.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "article"
+      ],
+      "alts": [
+        "Nur ein Ausflug war das."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-004",
+      "de": "Wir haben die Hochzeit von meinem Onkel gefeiert.",
+      "ar": "احتفلنا بفرح عمي.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "verb:feiern",
+        "family"
+      ],
+      "alts": [
+        "Die Hochzeit von meinem Onkel haben wir gefeiert."
+      ],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "sind",
+          "hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-005",
+      "de": "Wir haben toll gegessen und gesungen.",
+      "ar": "أكلنا وغنّينا، وكان تحفة.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:essen"
+      ],
+      "alts": [
+        "Wir haben toll gesungen und gegessen.",
+        "Toll haben wir gegessen und gesungen.",
+        "Toll haben wir gesungen und gegessen.",
+        "Wir haben gegessen und toll gesungen.",
+        "Wir haben gesungen und toll gegessen."
+      ],
+      "cloze": {
+        "word": "gegessen",
+        "opts": [
+          "gegessen",
+          "geesst",
+          "gegesst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-006",
+      "de": "Wir sind geschwommen und wir haben gegrillt.",
+      "ar": "عُمنا وشوينا.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "verb:schwimmen",
+        "verb:grillen"
+      ],
+      "alts": [
+        "Wir haben gegrillt und wir sind geschwommen."
+      ],
+      "cloze": {
+        "word": "geschwommen",
+        "opts": [
+          "geschwommen",
+          "geschwimmt",
+          "geschwammen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-007",
+      "de": "Wir haben Spaziergänge gemacht.",
+      "ar": "اتمشّينا كذا مرة.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "plural"
+      ],
+      "alts": [
+        "Spaziergänge haben wir gemacht."
+      ],
+      "cloze": {
+        "word": "Spaziergänge",
+        "opts": [
+          "Spaziergänge",
+          "Spaziergang",
+          "Spaziergängen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-008",
+      "de": "Wir haben bei meiner Cousine übernachtet.",
+      "ar": "بِتنا عند بنت عمي.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "family",
+        "verb:übernachten"
+      ],
+      "alts": [
+        "Bei meiner Cousine haben wir übernachtet."
+      ],
+      "cloze": {
+        "word": "Cousine",
+        "opts": [
+          "Cousine",
+          "Cousin",
+          "Cousins"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-009",
+      "de": "Wir hatten super Wetter und viel Spaß.",
+      "ar": "الجو كان تحفة واتبسطنا أوي.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "verb:haben",
+        "weather"
+      ],
+      "alts": [
+        "Wir hatten viel Spaß und super Wetter.",
+        "Super Wetter und viel Spaß hatten wir.",
+        "Viel Spaß und super Wetter hatten wir."
+      ],
+      "cloze": {
+        "word": "hatten",
+        "opts": [
+          "hatten",
+          "hattet",
+          "hatte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-010",
+      "de": "Der letzte Urlaub ist sehr lange her.",
+      "ar": "آخر إجازة كانت من زمان أوي.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "phrase",
+        "holiday"
+      ],
+      "alts": [
+        "Sehr lange her ist der letzte Urlaub."
+      ],
+      "cloze": {
+        "word": "lange",
+        "opts": [
+          "lange",
+          "viel",
+          "oft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-011",
+      "de": "Es gab auch einen See.",
+      "ar": "كان فيه بحيرة كمان.",
+      "kind": "statement",
+      "focus": [
+        "past",
+        "es-gibt",
+        "accusative"
+      ],
+      "alts": [
+        "Einen See gab es auch.",
+        "Auch einen See gab es."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "einem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s55-012",
+      "de": "Bist du schon mal geflogen?",
+      "ar": "ركبت طيارة قبل كده؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "verb:fliegen",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bist",
+        "opts": [
+          "Bist",
+          "Hast",
+          "Ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-013",
+      "de": "Ja, aber ich hatte Angst.",
+      "ar": "أيوه، بس كنت خايف.",
+      "kind": "answer",
+      "focus": [
+        "past",
+        "verb:haben",
+        "feeling"
+      ],
+      "alts": [
+        "Ja, ich hatte aber Angst.",
+        "Ja, aber Angst hatte ich.",
+        "Ja, Angst hatte ich aber."
+      ],
+      "cloze": {
+        "word": "hatte",
+        "opts": [
+          "hatte",
+          "war",
+          "hattest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-014",
+      "de": "Mein Cousin ist nach Spanien gereist.",
+      "ar": "ابن عمي سافر إسبانيا.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "verb:reisen",
+        "family"
+      ],
+      "alts": [
+        "Nach Spanien ist mein Cousin gereist."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "hat",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-015",
+      "de": "Seid ihr am Wochenende weggefahren?",
+      "ar": "سافرتوا في الويك إند؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "separable",
+        "verb:wegfahren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "weggefahren",
+        "opts": [
+          "weggefahren",
+          "gewegfahren",
+          "weggefahrt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-016",
+      "de": "Nein, wir sind zu Hause geblieben.",
+      "ar": "لأ، فضلنا في البيت.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "verb:bleiben",
+        "place"
+      ],
+      "alts": [
+        "Nein, zu Hause sind wir geblieben."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "haben",
+          "seid"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-017",
+      "de": "Ich habe auf dem Boden geschlafen.",
+      "ar": "نمت على الأرض.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:schlafen"
+      ],
+      "alts": [
+        "Auf dem Boden habe ich geschlafen."
+      ],
+      "cloze": {
+        "word": "geschlafen",
+        "opts": [
+          "geschlafen",
+          "geschlaft",
+          "geschläft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-018",
+      "de": "Mein Onkel hat sein Auto verkauft.",
+      "ar": "عمي باع عربيته.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "participle",
+        "verb:verkaufen"
+      ],
+      "alts": [
+        "Sein Auto hat mein Onkel verkauft."
+      ],
+      "cloze": {
+        "word": "verkauft",
+        "opts": [
+          "verkauft",
+          "geverkauft",
+          "verkaufen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-019",
+      "de": "Habt ihr viel gelacht?",
+      "ar": "ضحكتوا كتير؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "verb:lachen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gelacht",
+        "opts": [
+          "gelacht",
+          "gelachen",
+          "lachen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-020",
+      "de": "Nein, ich habe nichts vergessen.",
+      "ar": "لأ، مانسيتش أي حاجة.",
+      "kind": "answer",
+      "focus": [
+        "perfect",
+        "participle",
+        "negation"
+      ],
+      "alts": [
+        "Nein, nichts habe ich vergessen."
+      ],
+      "cloze": {
+        "word": "vergessen",
+        "opts": [
+          "vergessen",
+          "gevergessen",
+          "vergesst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-021",
+      "de": "Wir sind entspannt nach Hause gefahren.",
+      "ar": "رجعنا البيت وإحنا رايقين.",
+      "kind": "statement",
+      "focus": [
+        "perfect",
+        "verb:fahren",
+        "direction"
+      ],
+      "alts": [
+        "Entspannt sind wir nach Hause gefahren.",
+        "Nach Hause sind wir entspannt gefahren."
+      ],
+      "cloze": {
+        "word": "nach",
+        "opts": [
+          "nach",
+          "zu",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s55-022",
+      "de": "Wann bist du heute aufgestanden?",
+      "ar": "قمت من النوم النهارده إمتى؟",
+      "kind": "question",
+      "focus": [
+        "perfect",
+        "separable",
+        "verb:aufstehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "aufgestanden",
+        "opts": [
+          "aufgestanden",
+          "geaufstanden",
+          "aufgesteht"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w55-01",
+      "q": "___ war dein letzter Urlaub?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "آخر إجازة ليك كانت إمتى؟",
+      "reply": "Im Mai. Aber es war kein Urlaub.",
+      "reply_ar": "في مايو. بس ماكانتش إجازة."
+    },
+    {
+      "id": "w55-02",
+      "q": "___ habt ihr gefeiert?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "احتفلتوا فين؟",
+      "reply": "In der Nähe von Hamburg.",
+      "reply_ar": "قريب من هامبورج."
+    },
+    {
+      "id": "w55-03",
+      "q": "___ ist dein Onkel geflogen?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Wer",
+        "Was"
+      ],
+      "ar": "عمك سافر بالطيارة على فين؟",
+      "reply": "Nach Kairo.",
+      "reply_ar": "على القاهرة."
+    },
+    {
+      "id": "w55-04",
+      "q": "___ habt ihr am See gemacht?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wann",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "عملتوا إيه عند البحيرة؟",
+      "reply": "Wir sind geschwommen und wir haben gegrillt.",
+      "reply_ar": "عُمنا وشوينا."
+    },
+    {
+      "id": "w55-05",
+      "q": "___ ist mitgekommen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wann",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين جه معاكم؟",
+      "reply": "Mein Cousin und meine Cousine.",
+      "reply_ar": "ابن عمي وبنت عمي."
+    },
+    {
+      "id": "w55-06",
+      "q": "___ Tage seid ihr geblieben?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "قعدتوا كام يوم؟",
+      "reply": "Drei Tage.",
+      "reply_ar": "تلت أيام."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g55-1",
+      "h": "الـ Perfekt بـ sein",
+      "body": "أغلب الأفعال بتاخد haben في الـ Perfekt، بس فيه أفعال بتاخد sein: أفعال الحركة من مكان لمكان زي gehen و kommen و fahren و wegfahren و fliegen و schwimmen و reisen، وأفعال فيها تغيير في الحالة زي aufstehen (يقوم من النوم) و einschlafen (يروح في النوم)، وكمان sein و bleiben و werden. والترتيب زي الـ Perfekt بـ haben: sein بيتصرّف في المكان التاني، والـ Partizip II في آخر الجملة ومابيتغيرش.",
+      "examples": [
+        {
+          "de": "Wir sind im See geschwommen.",
+          "ar": "عُمنا في البحيرة."
+        },
+        {
+          "de": "Mein Cousin ist nach Spanien gereist.",
+          "ar": "ابن عمي سافر إسبانيا."
+        },
+        {
+          "de": "Nein, wir sind zu Hause geblieben.",
+          "ar": "لأ، فضلنا في البيت."
+        },
+        {
+          "de": "Wir sind entspannt nach Hause gefahren.",
+          "ar": "رجعنا البيت وإحنا رايقين."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "sein (المكان التاني)",
+          "Partizip II (آخر الجملة)"
+        ],
+        [
+          "ich",
+          "bin",
+          "gefahren"
+        ],
+        [
+          "du",
+          "bist",
+          "gefahren"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "gefahren"
+        ],
+        [
+          "wir",
+          "sind",
+          "gefahren"
+        ],
+        [
+          "ihr",
+          "seid",
+          "gefahren"
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "gefahren"
+        ]
+      ]
+    },
+    {
+      "id": "g55-2",
+      "h": "haben ولا sein؟",
+      "body": "اسأل نفسك: فيه حركة من مكان لمكان أو تغيير في الحالة، أو الفعل bleiben أو sein؟ يبقى sein. غير كده يبقى haben، وخصوصًا لو الفعل ليه مفعول به، زي machen و essen و verkaufen. قارن في جملة سلمى: Wir sind geschwommen und wir haben gegrillt. وخد بالك: sein نفسه الـ Perfekt بتاعه ist gewesen، بس في الكلام بنقول war أكتر (درس 53).",
+      "examples": [
+        {
+          "de": "Wir sind geschwommen und wir haben gegrillt.",
+          "ar": "عُمنا وشوينا."
+        },
+        {
+          "de": "Wir haben die Hochzeit von meinem Onkel gefeiert.",
+          "ar": "احتفلنا بفرح عمي."
+        },
+        {
+          "de": "Mein Onkel hat sein Auto verkauft.",
+          "ar": "عمي باع عربيته."
+        },
+        {
+          "de": "Wir sind in der Nähe von Hamburg gewesen.",
+          "ar": "كنا قريب من هامبورج."
+        }
+      ],
+      "table": [
+        [
+          "sein",
+          "haben"
+        ],
+        [
+          "ist gegangen (gehen)",
+          "hat gemacht (machen)"
+        ],
+        [
+          "ist gefahren (fahren)",
+          "hat gegessen (essen)"
+        ],
+        [
+          "ist geflogen (fliegen)",
+          "hat gegrillt (grillen)"
+        ],
+        [
+          "ist geschwommen (schwimmen)",
+          "hat gefeiert (feiern)"
+        ],
+        [
+          "ist gereist (reisen)",
+          "hat gelacht (lachen)"
+        ],
+        [
+          "ist geblieben (bleiben)",
+          "hat verkauft (verkaufen)"
+        ]
+      ]
+    },
+    {
+      "id": "g55-3",
+      "h": "التصريف التالت (Partizip II) للأفعال الشاذة",
+      "body": "الأفعال الشاذة الـ Partizip II بتاعها غالبًا بيبدأ بـ ge وآخره -en مش -t، وفي كتير منها حرف العلة اللي في النص بيتغيّر: geflogen، gesungen، geblieben، geschwommen. ومفيش قاعدة للتغيير ده، فاحفظ كل فعل شاذ مع الـ Partizip بتاعه. وفيه أفعال شكلها مختلف خالص: gegangen، gegessen، gewusst. ولو الفعل أوله سابقة مابتنفصلش (be-، ver-) مفيش ge: begonnen، vergessen، verloren.",
+      "examples": [
+        {
+          "de": "Wir haben toll gegessen und gesungen.",
+          "ar": "أكلنا وغنّينا، وكان تحفة."
+        },
+        {
+          "de": "Ich habe auf dem Boden geschlafen.",
+          "ar": "نمت على الأرض."
+        },
+        {
+          "de": "Bist du schon mal geflogen?",
+          "ar": "ركبت طيارة قبل كده؟"
+        },
+        {
+          "de": "Nein, ich habe nichts vergessen.",
+          "ar": "لأ، مانسيتش أي حاجة."
+        }
+      ],
+      "table": [
+        [
+          "المصدر",
+          "Partizip II"
+        ],
+        [
+          "fahren",
+          "gefahren"
+        ],
+        [
+          "fliegen",
+          "geflogen"
+        ],
+        [
+          "schwimmen",
+          "geschwommen"
+        ],
+        [
+          "singen",
+          "gesungen"
+        ],
+        [
+          "bleiben",
+          "geblieben"
+        ],
+        [
+          "schlafen",
+          "geschlafen"
+        ],
+        [
+          "gehen",
+          "gegangen"
+        ],
+        [
+          "essen",
+          "gegessen"
+        ],
+        [
+          "vergessen",
+          "vergessen"
+        ],
+        [
+          "verlieren",
+          "verloren"
+        ]
+      ]
+    },
+    {
+      "id": "g55-4",
+      "h": "التصريف التالت (Partizip II) للأفعال اللي بتنفصل",
+      "body": "في الأفعال اللي بتنفصل الـ ge بتدخل في النص بين السابقة والفعل، والكلمة بتفضل حتة واحدة في آخر الجملة: weg + ge + fahren = weggefahren. المنتظم آخره -t: eingekauft، aufgeräumt، والشاذ آخره -en: ferngesehen، aufgestanden، mitgekommen. و haben ولا sein؟ نفس القاعدة: wegfahren و aufstehen و mitkommen بـ sein، و einkaufen و fernsehen بـ haben.",
+      "examples": [
+        {
+          "de": "Seid ihr am Wochenende weggefahren?",
+          "ar": "سافرتوا في الويك إند؟"
+        },
+        {
+          "de": "Wann bist du heute aufgestanden?",
+          "ar": "قمت من النوم النهارده إمتى؟"
+        },
+        {
+          "de": "Ich habe gestern eingekauft.",
+          "ar": "اشتريت طلبات البيت إمبارح."
+        },
+        {
+          "de": "Hast du gestern ferngesehen?",
+          "ar": "اتفرجت على التليفزيون إمبارح؟"
+        }
+      ],
+      "table": [
+        [
+          "المصدر",
+          "Partizip II",
+          "Perfekt بـ"
+        ],
+        [
+          "wegfahren",
+          "weggefahren",
+          "sein"
+        ],
+        [
+          "aufstehen",
+          "aufgestanden",
+          "sein"
+        ],
+        [
+          "mitkommen",
+          "mitgekommen",
+          "sein"
+        ],
+        [
+          "einkaufen",
+          "eingekauft",
+          "haben"
+        ],
+        [
+          "aufräumen",
+          "aufgeräumt",
+          "haben"
+        ],
+        [
+          "fernsehen",
+          "ferngesehen",
+          "haben"
+        ],
+        [
+          "mitschreiben",
+          "mitgeschrieben",
+          "haben"
+        ]
+      ]
+    }
+  ]
+}

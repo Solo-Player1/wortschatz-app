@@ -6,6 +6,7 @@ import { store, today, todayIndex } from './store.js';
 import { getState, isLearned, isSeen, counts } from './srs.js';
 import { sentencesOf, wfragenOf } from './content.js';
 import { typedCount, itemDone } from './progress.js';
+import { planStatus, nLessons } from './plan.js';
 
 export const CROWN_DAYS = 3;
 export const ITEMS_PASS = 0.8;
@@ -81,7 +82,7 @@ export function nextStep(n, st = lessonStatus(n)) {
 
 export function allPassed() { return sortedLessonNs().every(n => !!examOf(n).passed); }
 
-// مهمة المراجعة (بعد الـ15 امتحان): أول ما تتحقق (مفيش مستحق + ١٠ إجابات) بتتعلّم خالصة لآخر اليوم.
+// مهمة المراجعة (بعد ما كل امتحانات الدروس تخلص): أول ما تتحقق (مفيش مستحق + ١٠ إجابات) بتتعلّم خالصة لآخر اليوم.
 // بتتنادى مع كل إجابة — قبل ما الغلطة ترجّع كلمة للمراجعة — عشان غلطة بعدها ما تفتحش المهمة والتذكيرات تاني
 export function latchReview() {
   const day = (store.state.days || {})[today()];
@@ -114,6 +115,15 @@ export function mission() {
     const reached = due === 0 && answers >= 10;
     if (reached && !day.reviewDone) { store.touchDay().reviewDone = true; store.save(); }
     return { mode, review: true, done: passedToday || reached || !!day.reviewDone, answers, goal: 10, due, lesson, status: st, step, title: 'راجع الكلمات المستحقة + ١٠ إجابات' };
+  }
+  // 📅 الجدول شغّال: المهمة = عدد الدروس المطلوبة النهارده (plan.js) — التذكير بيفضل لحد ما توصله.
+  // لو تاريخ الهدف عدّى: نرجع لقاعدة الدرس الواحد (كارت الجدول والتذكير بيطلبوا تاريخ جديد) بدل كوتة مستحيلة كل يوم
+  const plan = planStatus();
+  if (plan.on && plan.perDay > 0 && !plan.overdue) {
+    const title = plan.perDay === 1 ? `خلّص الدرس ${lesson} النهارده`
+      : plan.doneToday > 0 ? `فاضلك ${nLessons(plan.leftToday)} النهارده — كمّل بالدرس ${lesson}`
+      : `مطلوب النهارده ${nLessons(plan.perDay)} — ابدأ بالدرس ${lesson}`;
+    return { mode, plan, done: plan.metToday, answers, goal, due, lesson, status: st, step: nextStep(lesson, st), title };
   }
   return { mode, done: passedToday, answers, goal, due, lesson, status: st, step: nextStep(lesson, st), title: `خلّص الدرس ${lesson} النهارده` };
 }

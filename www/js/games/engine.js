@@ -11,7 +11,7 @@ import { loadContent, sentencesOf, sentencesUpTo, wfragenOf, wfragenUpTo, verbsO
 import { recordTyped, recordItem, weakWord, countAnswer, finishGame, gameRecord } from '../progress.js';
 import { currentLesson, studiedUpTo, sortedLessonNs, latchReview } from '../mastery.js';
 import { replan } from '../notify.js';
-import { normDe, normAr, fold, typeAnswer, synonymPair } from '../exercises.js';
+import { normDe, fold, typeAnswer, sameGloss } from '../exercises.js';
 
 export const MAX_COMBO_MULT = 4;
 const settings = () => (store.state.settings ||= {});
@@ -127,8 +127,7 @@ export function checkTyped(expected, typed) {
 // كلمات ليها نفس المعنى بالعربي (Hallo / Hi / Hey = مرحباً) — لما السؤال بالعربي بس لازم نقبل أي واحدة منهم
 export function synonymsOf(w) {
   if (!w) return [];
-  const key = normAr(w.ar);
-  return DATA.words.filter(x => x.id !== w.id && (normAr(x.ar) === key || synonymPair(x, w)));
+  return DATA.words.filter(x => sameGloss(x, w));     // not wie viel «كم» for der Ärmel «كُمّ» (see exercises.sameGloss)
 }
 // الإجابة المتوقّعة لكلمة: الأسماء لازم بالأداة (وصوت DW بيقول المفرد والجمع «das Büro, die Büros» → مقبول برضه).
 // withSynonyms → يقبل كمان الكلمات اللي ليها نفس المعنى
@@ -139,9 +138,14 @@ export function expectedFor(w, { withSynonyms = false } = {}) {
     return base;
   }
   if (!w) return { show: '', accept: [] };
-  if (w.k === 'noun' && w.art && w.sg) return { show: `${w.art} ${w.sg}`, accept: [`${w.art} ${w.sg}`, ...(w.pl ? [`${w.art} ${w.sg}, ${w.pl}`] : [])] };
+  if (w.k === 'noun' && w.art && w.sg) {
+    const sg = String(w.sg).replace(/\s*\(Plural\)\s*$/, '');      // اسم جمع بس: «die Eltern» من غير ملاحظة DW
+    return { show: `${w.art} ${sg}`, accept: [`${w.art} ${sg}`, ...(w.pl ? [`${w.art} ${sg}, ${w.pl}`] : [])] };
+  }
   const { answer, accept } = typeAnswer(w);
   const all = [answer, ...(accept || [])];
+  // an entry that reuses a noun's DW recording («(der) Fußball» ↔ «der Fußball, die Fußbälle»): what it says is right too
+  if (w.file) for (const x of DATA.words) if (x !== w && x.file === w.file && x.k === 'noun' && x.art && x.sg && x.pl) all.push(`${x.art} ${x.sg}, ${x.pl}`);
   for (const a of all.slice()) {
     const m = /^ein(hundert|tausend)(.*)$/i.exec(a);
     if (m) all.push(m[1] + m[2]);

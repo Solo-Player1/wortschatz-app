@@ -1,0 +1,79 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:38.120 --> 00:00:43.320 region:R1 align:center
+<c.S1>– Aber wir können die Tasche nicht
+mitnehmen. Das ist nicht unsere Tasche!</c>
+
+2
+00:00:46.080 --> 00:00:48.000 region:R1 align:center
+<c.S1>– Doch. Wir haben sie gefunden.</c>
+
+3
+00:00:48.040 --> 00:00:50.520 region:R1 align:center
+<c.S1>– Aber sie gehört uns nicht.</c>
+
+4
+00:00:50.680 --> 00:00:53.120 region:R1 align:center
+<c.S1>– Wir nehmen nur das, was wir brauchen.</c>
+
+5
+00:00:53.160 --> 00:00:55.400 region:R1 align:center
+<c.S1>– Nur, was wir brauchen!</c>
+
+6
+00:00:55.440 --> 00:01:00.560 region:R1 align:center
+<c.S1>– Im Oktober ist es schon kalt und
+im November wird es immer kälter</c>
+
+7
+00:01:00.600 --> 00:01:01.880 region:R1 align:center
+<c.S1>und ich will nicht frieren!</c>
+
+8
+00:01:01.920 --> 00:01:06.000 region:R1 align:center
+<c.S1>– Im letzten Jahr war es
+wirklich schlimm mit der Kälte.</c>
+
+9
+00:01:06.040 --> 00:01:09.080 region:R1 align:center
+<c.S1>Besonders im Dezember und Januar.</c>
+
+10
+00:01:09.120 --> 00:01:13.120 region:R1 align:center
+<c.S1>– Im Dezember und Januar
+ist es immer am kältesten!</c>
+
+11
+00:01:19.920 --> 00:01:22.680 region:R1 align:center
+<c.S1>– Das ist schöner als mein Hemd.</c>
+
+12
+00:01:22.720 --> 00:01:24.800 region:R1 align:center
+<c.S1>– Dein Hemd ist ja auch schon alt.</c>
+
+13
+00:01:24.880 --> 00:01:26.280 region:R1 align:center
+<c.S1>– Deswegen!</c>
+
+14
+00:01:26.320 --> 00:01:30.080 region:R1 align:center
+<c.S1>Ich brauch ein neues!
+Für den Frühling!</c>
+
+15
+00:01:30.160 --> 00:01:31.920 region:R1 align:center
+<c.S1>– Nimm es mit! Nimm es mit!</c>
+
+16
+00:01:32.360 --> 00:01:34.320 region:R1 align:center
+<c.S1>– Aber nur, was wir brauchen.</c>

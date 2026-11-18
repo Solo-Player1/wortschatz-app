@@ -342,7 +342,7 @@ function startSession(root, lesson) {
         // ✍️ نجمة الكتابة: الاسم لازم يتكتب بأداته الصح عشان يتحسب
         const w = ex.word || {};
         const withArt = !(w.k === 'noun' && w.art) || normDe(String(value)).startsWith(w.art + ' ');
-        if (res.ok && withArt) recordTyped(ex.id, true);
+        if (res.ok && withArt && !res.wrongArticle) recordTyped(ex.id, true);   // «der Deutsch» لـ«(das) Deutsch» ما يتحسبش
         else if (!res.ok) recordTyped(ex.id, false);
       }
     } catch (e) { console.error('[session] grade failed', e); }

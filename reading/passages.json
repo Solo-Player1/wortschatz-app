@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "source": "DW Nikos Weg A1 — Lektionen 1-15 core + natural A1 extensions",
+  "note": "Qira'a (reading) passages in prose. Flow in app: learner studies newWords FIRST, then reads de, then writes their own understanding in Arabic. Gemini grades comprehension % against ar (Claude's reference). ar is hidden from the learner.",
+  "count": 20,
+  "levels": {
+    "1": "Lektionen 1-3",
+    "2": "Lektionen 4-6",
+    "3": "Lektionen 7-8",
+    "4": "Lektionen 9-11",
+    "5": "Lektionen 12-13",
+    "6": "Lektionen 14-15"
+  },
+  "passages": [
+    {
+      "id": "p01", "level": 1, "lesson": 2, "title": "Guten Morgen", "title_ar": "صباح الخير",
+      "newWords": [
+        {"de": "nett", "ar": "لطيف"},
+        {"de": "zusammen", "ar": "مع بعض"},
+        {"de": "gehen", "ar": "يروح / يمشي"},
+        {"de": "nach Hause", "ar": "على البيت"},
+        {"de": "die Freundin", "ar": "صاحبة"}
+      ],
+      "de": "Guten Morgen! Ich heiße Lena und ich komme aus Deutschland. Ich wohne in München.\n\nDas ist meine Freundin. Sie heißt Sara. Sara ist sehr nett. Wir lernen zusammen Deutsch und Englisch. Das ist schön!\n\nJetzt ist es acht Uhr. Ich sage Tschüss und gehe nach Hause. Auf Wiedersehen!",
+      "ar": "صباح الخير! اسمي لينا وأنا من ألمانيا. ساكنة في ميونخ.\n\nدي صاحبتي. اسمها سارة. سارة لطيفة أوي. بنتعلّم مع بعض ألماني وإنجليزي. ده حلو!\n\nدلوقتي الساعة ٨. بقول باي وأروح البيت. مع السلامة!"
+    },
+    {
+      "id": "p02", "level": 1, "lesson": 2, "title": "Der Taxifahrer", "title_ar": "سوّاق التاكسي",
+      "newWords": [
+        {"de": "groß", "ar": "كبير"},
+        {"de": "jeden Tag", "ar": "كل يوم"},
+        {"de": "fahren", "ar": "يسوق / يوصّل"},
+        {"de": "die Leute", "ar": "الناس"},
+        {"de": "die Stadt", "ar": "المدينة"},
+        {"de": "das Land / die Länder", "ar": "بلد / بلاد"},
+        {"de": "der Mann", "ar": "راجل"},
+        {"de": "sagen", "ar": "يقول"}
+      ],
+      "de": "Hallo, ich bin Tom. Ich bin Taxifahrer in Berlin. Berlin ist groß und schön.\n\nJeden Tag fahre ich viele Leute in die Stadt. Sie kommen aus vielen Ländern.\n\nEin Mann kommt aus Spanien. Er heißt Nico und sucht ein Hotel. Kein Problem, sage ich. Das Hotel ist im Zentrum. Nico sagt: Danke schön!",
+      "ar": "أهلاً، أنا توم. أنا سوّاق تاكسي في برلين. برلين كبيرة وحلوة.\n\nكل يوم بوصّل ناس كتير لوسط المدينة. بييجوا من بلاد كتير.\n\nراجل جاي من إسبانيا. اسمه نيكو وبيدوّر على فندق. بقوله مفيش مشكلة. الفندق في وسط البلد. نيكو بيقول: متشكّر!"
+    },
+    {
+      "id": "p03", "level": 1, "lesson": 3, "title": "Die Tasche ist weg", "title_ar": "الشنطة ضاعت",
+      "newWords": [
+        {"de": "fragen", "ar": "يسأل"},
+        {"de": "tut mir leid", "ar": "آسف"},
+        {"de": "traurig", "ar": "زعلان"},
+        {"de": "dann", "ar": "بعدين"},
+        {"de": "keine Angst", "ar": "متخفش / ولا يهمك"},
+        {"de": "finden", "ar": "يلاقي"},
+        {"de": "komm mit", "ar": "تعالى معايا"}
+      ],
+      "de": "Nico hat ein Problem. Seine Tasche ist weg. In der Tasche ist sein Pass.\n\nEr fragt den Taxifahrer: Ist die Tasche im Taxi? Der Taxifahrer sagt: Nein, tut mir leid.\n\nNico ist traurig. Aber dann kommt Lisa. Lisa ist nett und sie hilft Nico. Keine Angst, sagt Lisa. Wir finden die Tasche. Komm mit!",
+      "ar": "نيكو عنده مشكلة. شنطته ضاعت. في الشنطة الباسبور بتاعه.\n\nبيسأل سوّاق التاكسي: الشنطة في التاكسي؟ السوّاق بيقول: لأ، آسف.\n\nنيكو زعلان. بس بعدين تيجي ليزا. ليزا لطيفة وبتساعد نيكو. متخفش، بتقول ليزا. هنلاقي الشنطة. تعالى معايا!"
+    },
+    {
+      "id": "p04", "level": 2, "lesson": 6, "title": "Meine Familie", "title_ar": "عيلتي",
+      "newWords": [
+        {"de": "der Mann (= جوز)", "ar": "جوز"},
+        {"de": "der Lehrer", "ar": "مدرّس"},
+        {"de": "die Ärztin", "ar": "دكتورة"},
+        {"de": "der Bruder", "ar": "أخ"},
+        {"de": "das Kind / die Kinder", "ar": "عيّل / عيال"},
+        {"de": "sehen", "ar": "يشوف"},
+        {"de": "oft", "ar": "كتير"},
+        {"de": "schade", "ar": "حرام / شيء محزن"}
+      ],
+      "de": "Hallo! Ich heiße Yara und ich bin die Tante von Nico. Ich wohne in Deutschland.\n\nDas ist meine Familie. Mein Mann heißt Jürgen. Er ist Lehrer. Mein Vater ist Polizist und meine Mutter ist Ärztin. Sie wohnen in Spanien.\n\nIch habe auch einen Bruder. Er heißt Pedro und hat zwei Kinder. Meine Familie ist groß, aber wir sehen uns nicht oft. Das ist schade.",
+      "ar": "أهلاً! اسمي يارا وأنا خالة نيكو. أنا ساكنة في ألمانيا.\n\nدي عيلتي. جوزي اسمه يورجن. هو مدرّس. أبويا ظابط شرطة وأمي دكتورة. هما ساكنين في إسبانيا.\n\nعندي كمان أخ. اسمه بيدرو وعنده عيّلين. عيلتي كبيرة، بس مبنشوفش بعض كتير. ده شيء محزن."
+    },
+    {
+      "id": "p05", "level": 2, "lesson": 6, "title": "Der erste Tag im Kurs", "title_ar": "أول يوم في الكورس",
+      "newWords": [
+        {"de": "der erste Tag", "ar": "أول يوم"},
+        {"de": "ein bisschen", "ar": "شوية"},
+        {"de": "nervös", "ar": "متوتر"},
+        {"de": "freundlich", "ar": "ودود"},
+        {"de": "der Student", "ar": "طالب"},
+        {"de": "das Wort / die Wörter", "ar": "كلمة / كلمات"},
+        {"de": "glauben", "ar": "يفتكر / يعتقد"},
+        {"de": "schwer", "ar": "صعب"}
+      ],
+      "de": "Heute ist mein erster Tag im Deutschkurs. Ich bin ein bisschen nervös.\n\nDie Lehrerin heißt Frau Müller. Sie ist sehr freundlich. Im Kurs sind zwölf Studenten. Sie kommen aus vielen Ländern: aus Syrien, aus Ägypten und aus der Türkei.\n\nWir lernen Buchstaben und Wörter. Dann sprechen wir zusammen Deutsch. Der Kurs ist interessant. Ich glaube, Deutsch ist nicht so schwer!",
+      "ar": "النهارده أول يوم ليا في كورس الألماني. أنا متوتر شوية.\n\nالمدرّسة اسمها فراو مولر. هي ودودة جدًا. في الكورس ١٢ طالب. بييجوا من بلاد كتير: من سوريا، من مصر، ومن تركيا.\n\nبنتعلّم حروف وكلمات. وبعدين بنتكلّم ألماني مع بعض. الكورس ممتع. أنا متخيّل إن الألماني مش صعب أوي!"
+    },
+    {
+      "id": "p06", "level": 2, "lesson": 6, "title": "Nico und seine Tante", "title_ar": "نيكو وخالته",
+      "newWords": [
+        {"de": "bei", "ar": "عند"},
+        {"de": "verkaufen", "ar": "يبيع"},
+        {"de": "das Fahrrad / die Fahrräder", "ar": "عجلة / عجل"},
+        {"de": "arbeiten", "ar": "يشتغل"},
+        {"de": "noch nicht", "ar": "لسه مش"},
+        {"de": "schnell", "ar": "بسرعة"},
+        {"de": "müde", "ar": "تعبان"},
+        {"de": "das Zuhause", "ar": "البيت / المنزل"}
+      ],
+      "de": "Nico kommt aus Spanien und ist 22 Jahre alt. Jetzt wohnt er in Deutschland bei seiner Tante Yara.\n\nYara hat einen Fahrradladen im Zentrum. Der Laden ist klein, aber schön. Nico arbeitet dort und hilft seiner Tante. Er verkauft Fahrräder und spricht mit den Kunden.\n\nSein Deutsch ist noch nicht perfekt, aber er lernt schnell. Am Abend ist Nico müde, aber glücklich. Deutschland ist jetzt sein neues Zuhause.",
+      "ar": "نيكو من إسبانيا وعنده ٢٢ سنة. دلوقتي ساكن في ألمانيا عند خالته يارا.\n\nيارا عندها محل عجل في وسط البلد. المحل صغير، بس حلو. نيكو بيشتغل هناك وبيساعد خالته. بيبيع عجل وبيتكلّم مع الزباين.\n\nألمانيه لسه مش كامل، بس بيتعلّم بسرعة. بالليل نيكو تعبان، بس مبسوط. ألمانيا دلوقتي بيته الجديد."
+    },
+    {
+      "id": "p07", "level": 3, "lesson": 7, "title": "Amir aus Ägypten", "title_ar": "أمير من مصر",
+      "newWords": [
+        {"de": "studieren", "ar": "يدرس"},
+        {"de": "anders als", "ar": "مختلف عن"},
+        {"de": "das Wetter", "ar": "الجو"},
+        {"de": "kalt", "ar": "بارد"},
+        {"de": "vermissen", "ar": "يوحشني / يفتقد"},
+        {"de": "bald", "ar": "قريب"},
+        {"de": "besuchen", "ar": "يزور"},
+        {"de": "wieder", "ar": "تاني"}
+      ],
+      "de": "Mein Name ist Amir und ich komme aus Ägypten. Ich wohne jetzt in Köln. In Ägypten studiere ich, aber hier arbeite ich in einem Restaurant.\n\nDeutschland ist anders als Ägypten. Das Wetter ist kalt und die Leute sprechen schnell. Aber ich lerne jeden Tag Deutsch und finde neue Freunde.\n\nIch vermisse meine Familie in Kairo. Bald besuche ich sie wieder. Inschallah!",
+      "ar": "اسمي أمير وأنا من مصر. ساكن دلوقتي في كولونيا. في مصر بدرس، بس هنا بشتغل في مطعم.\n\nألمانيا مختلفة عن مصر. الجو بارد والناس بيتكلّموا بسرعة. بس بتعلّم ألماني كل يوم وبلاقي صحاب جداد.\n\nوحشتني عيلتي في القاهرة. قريب هزورهم تاني. إن شاء الله!"
+    },
+    {
+      "id": "p08", "level": 3, "lesson": 8, "title": "Nicos großes Problem", "title_ar": "مشكلة نيكو الكبيرة",
+      "newWords": [
+        {"de": "ohne", "ar": "من غير"},
+        {"de": "kann", "ar": "يقدر"},
+        {"de": "die Bank", "ar": "البنك"},
+        {"de": "ein Zimmer mieten", "ar": "يأجّر أوضة"},
+        {"de": "schlecht", "ar": "وحش / سيء"},
+        {"de": "aussehen", "ar": "شكله (إيه)"},
+        {"de": "schwarz", "ar": "أسود"},
+        {"de": "vielleicht", "ar": "يمكن"},
+        {"de": "hoffen", "ar": "يتمنى"}
+      ],
+      "de": "Nico hat ein großes Problem. Seine Tasche ist weg und in der Tasche ist sein Pass. Ohne Pass kann er nicht zur Bank gehen und kein Zimmer mieten. Das ist sehr schlecht.\n\nLisa und Max helfen ihm. Zusammen gehen sie zur Polizei und zum Fundbüro. Wie sieht die Tasche aus?, fragt der Polizist. Sie ist klein und schwarz, sagt Nico.\n\nVielleicht findet die Polizei die Tasche. Nico hofft es sehr.",
+      "ar": "نيكو عنده مشكلة كبيرة. شنطته ضاعت وفي الشنطة الباسبور بتاعه. من غير باسبور مش هيقدر يروح البنك ولا يأجّر أوضة. ده وحش أوي.\n\nليزا وماكس بيساعدوه. مع بعض بيروحوا الشرطة ومكتب المفقودات. الشنطة شكلها إيه؟ بيسأل الظابط. صغيرة وسودا، بيقول نيكو.\n\nيمكن الشرطة تلاقي الشنطة. نيكو بيتمنى كده بشدة."
+    },
+    {
+      "id": "p09", "level": 3, "lesson": 8, "title": "Mein neues Zimmer", "title_ar": "أوضتي الجديدة",
+      "newWords": [
+        {"de": "gemütlich", "ar": "مريح"},
+        {"de": "das Bett", "ar": "سرير"},
+        {"de": "der Tisch", "ar": "ترابيزة"},
+        {"de": "der Stuhl", "ar": "كرسي"},
+        {"de": "die Wand", "ar": "حيطة"},
+        {"de": "kosten", "ar": "سعره / يكلّف"},
+        {"de": "im Monat", "ar": "في الشهر"},
+        {"de": "billig", "ar": "رخيص"},
+        {"de": "die Nachbarin", "ar": "جارة"},
+        {"de": "manchmal", "ar": "ساعات"}
+      ],
+      "de": "Ich habe ein neues Zimmer in Hamburg. Das Zimmer ist nicht groß, aber gemütlich.\n\nHier steht ein Bett, ein Tisch und ein Stuhl. An der Wand hängt ein Foto von meiner Familie. Das Zimmer kostet 300 Euro im Monat. Das ist nicht billig, aber okay.\n\nMeine Nachbarin heißt Frau Klein. Sie ist alt, aber sehr freundlich. Manchmal trinken wir zusammen Kaffee und sprechen über das Leben in Deutschland.",
+      "ar": "عندي أوضة جديدة في هامبورج. الأوضة مش كبيرة، بس مريحة.\n\nهنا فيه سرير، وترابيزة، وكرسي. على الحيطة معلّقة صورة عيلتي. الأوضة بـ ٣٠٠ يورو في الشهر. ده مش رخيص، بس تمام.\n\nجارتي اسمها فراو كلاين. هي كبيرة في السن، بس ودودة جدًا. ساعات بنشرب قهوة مع بعض ونتكلّم عن الحياة في ألمانيا."
+    },
+    {
+      "id": "p10", "level": 4, "lesson": 9, "title": "Lottes Geburtstag", "title_ar": "عيد ميلاد لوته",
+      "newWords": [
+        {"de": "feiern", "ar": "يحتفل"},
+        {"de": "zu Hause", "ar": "في البيت"},
+        {"de": "bringen", "ar": "يجيب"},
+        {"de": "es gibt", "ar": "فيه"},
+        {"de": "der Kuchen", "ar": "تورتة / كيكة"},
+        {"de": "lachen", "ar": "يضحك"},
+        {"de": "am Ende", "ar": "في الآخر"},
+        {"de": "singen", "ar": "يغنّي"},
+        {"de": "alle", "ar": "الكل"},
+        {"de": "Herzlichen Glückwunsch", "ar": "كل سنة وإنت طيب / مبروك"}
+      ],
+      "de": "Heute feiert Lotte ihren Geburtstag. Sie wird acht Jahre alt.\n\nDie Party ist bei Lotte zu Hause. Zehn Kinder kommen und bringen Geschenke. Es gibt Kuchen, Limonade und viel Musik. Die Kinder spielen und lachen.\n\nLottes Mutter macht Fotos und Lottes Vater bringt eine große Pizza. Am Ende singen alle Herzlichen Glückwunsch. Lotte ist sehr glücklich.",
+      "ar": "النهارده لوته بتحتفل بعيد ميلادها. هتكمّل ٨ سنين.\n\nالحفلة في بيت لوته. عشرة أطفال بييجوا وبيجيبوا هدايا. فيه تورتة، وليموناضة، وموسيقى كتير. الأطفال بيلعبوا وبيضحكوا.\n\nمامة لوته بتصوّر وبابا لوته بيجيب بيتزا كبيرة. في الآخر الكل بيغنّي كل سنة وإنتي طيبة. لوته مبسوطة أوي."
+    },
+    {
+      "id": "p11", "level": 4, "lesson": 11, "title": "Ein Telefongespräch", "title_ar": "مكالمة تليفون",
+      "newWords": [
+        {"de": "klingeln", "ar": "يرن"},
+        {"de": "gute Nachrichten", "ar": "أخبار حلوة"},
+        {"de": "gefunden", "ar": "لاقى / اتلاقت"},
+        {"de": "da", "ar": "هناك / موجود"},
+        {"de": "super", "ar": "تحفة / رائع"},
+        {"de": "holen", "ar": "يروح يجيب / ياخد"},
+        {"de": "morgen", "ar": "بكرة"}
+      ],
+      "de": "Das Telefon klingelt. Lisa nimmt das Handy und sagt: Hallo?\n\nHallo Lisa, hier ist Nico. Ich habe gute Nachrichten! Die Polizei hat meine Tasche gefunden! Mein Pass ist auch da.\n\nDas ist super!, sagt Lisa. Wo ist die Tasche jetzt? Im Fundbüro in der Schreinerstraße. Ich hole sie morgen. Vielen Dank für deine Hilfe!",
+      "ar": "التليفون بيرن. ليزا بتاخد الموبايل وبتقول: ألو؟\n\nأهلاً ليزا، معاكِ نيكو. عندي أخبار حلوة! الشرطة لاقت شنطتي! والباسبور بتاعي كمان موجود.\n\nده تحفة!، بتقول ليزا. الشنطة فين دلوقتي؟ في مكتب المفقودات في شارع شراينر. هاخدها بكرة. ألف شكر على مساعدتك!"
+    },
+    {
+      "id": "p12", "level": 4, "lesson": 11, "title": "Mein Tag", "title_ar": "يومي",
+      "newWords": [
+        {"de": "erzählen", "ar": "يحكي"},
+        {"de": "aufstehen", "ar": "يصحى / يقوم"},
+        {"de": "um ... Uhr", "ar": "الساعة ..."},
+        {"de": "das Frühstück", "ar": "الفطار"},
+        {"de": "das Brot", "ar": "عيش"},
+        {"de": "mit dem Bus", "ar": "بالأتوبيس"},
+        {"de": "das Büro", "ar": "مكتب"},
+        {"de": "am Mittag", "ar": "الضهر"},
+        {"de": "die Kollegen", "ar": "الزمايل"},
+        {"de": "lesen", "ar": "يقرا"},
+        {"de": "das Buch", "ar": "كتاب"}
+      ],
+      "de": "Ich heiße Sara und ich erzähle euch meinen Tag. Ich stehe um sieben Uhr auf.\n\nZum Frühstück esse ich Brot mit Käse und trinke einen Kaffee. Um acht Uhr fahre ich mit dem Bus zur Arbeit. Ich arbeite in einem Büro.\n\nAm Mittag esse ich mit meinen Kollegen. Um fünf Uhr gehe ich nach Hause. Am Abend koche ich, lese ein Buch und schlafe um elf Uhr. Das ist mein Tag.",
+      "ar": "اسمي سارة وهحكيلكم يومي. بصحى الساعة ٧.\n\nعلى الفطار باكل عيش بالجبنة وبشرب قهوة. الساعة ٨ باركب الأتوبيس للشغل. بشتغل في مكتب.\n\nالضهر باكل مع زمايلي. الساعة ٥ بروح البيت. بالليل بطبخ، وبقرا كتاب، وبنام الساعة ١١. ده يومي."
+    },
+    {
+      "id": "p13", "level": 5, "lesson": 12, "title": "Auf dem Amt", "title_ar": "في المصلحة",
+      "newWords": [
+        {"de": "das Amt", "ar": "المصلحة / الإدارة الحكومية"},
+        {"de": "brauchen", "ar": "يحتاج"},
+        {"de": "die Anmeldung", "ar": "تسجيل"},
+        {"de": "die Wohnung", "ar": "شقة"},
+        {"de": "warten", "ar": "يستنى"},
+        {"de": "nach einer Stunde", "ar": "بعد ساعة"},
+        {"de": "aufrufen", "ar": "ينادي (على رقم)"},
+        {"de": "war", "ar": "كان"},
+        {"de": "in Ordnung", "ar": "تمام / كله تمام"}
+      ],
+      "de": "Heute geht Nico zum Amt. Er braucht eine Anmeldung für seine Wohnung.\n\nIm Amt sind viele Leute. Nico nimmt eine Nummer und wartet. Nach einer Stunde ruft die Frau seine Nummer auf. Guten Tag, wie kann ich helfen?\n\nIch wohne jetzt in der Wagnergasse 136 und brauche eine Anmeldung, sagt Nico. Die Frau fragt nach seinem Pass. Mein Pass war weg, aber jetzt habe ich ihn wieder. Alles ist in Ordnung.",
+      "ar": "النهارده نيكو رايح المصلحة. محتاج يعمل تسجيل لشقته.\n\nفي المصلحة ناس كتير. نيكو بياخد نمرة ويستنى. بعد ساعة الستّ بتنادي نمرته. نهارك سعيد، أقدر أساعدك إزاي؟\n\nأنا ساكن دلوقتي في شارع فاجنر ١٣٦ ومحتاج تسجيل، بيقول نيكو. الستّ بتطلب الباسبور. الباسبور كان ضايع، بس دلوقتي رجع معايا تاني. كله تمام."
+    },
+    {
+      "id": "p14", "level": 5, "lesson": 13, "title": "Die Party am Abend", "title_ar": "حفلة بالليل",
+      "newWords": [
+        {"de": "am Samstagabend", "ar": "يوم السبت بالليل"},
+        {"de": "einladen", "ar": "يعزم"},
+        {"de": "kennen", "ar": "يعرف"},
+        {"de": "etwas", "ar": "حاجة"},
+        {"de": "hören", "ar": "يسمع"},
+        {"de": "kennenlernen", "ar": "يتعرّف على"},
+        {"de": "toll", "ar": "تحفة / رائع"}
+      ],
+      "de": "Am Samstagabend gibt es eine Party in der Wagnergasse. Yara lädt viele Freunde ein.\n\nNico kommt auch. Er kennt nicht alle Leute, aber alle sind freundlich. Herzlich willkommen!, sagt Yara. Möchtest du etwas trinken? Es gibt Saft, Cola und Wasser.\n\nDie Leute essen Pizza und hören Musik. Nico lernt eine neue Freundin kennen. Sie heißt Nina und ist auch im Deutschkurs. Die Party ist toll!",
+      "ar": "يوم السبت بالليل فيه حفلة في شارع فاجنر. يارا بتعزم صحاب كتير.\n\nنيكو جاي كمان. هو مش عارف كل الناس، بس كلهم ودودين. أهلاً وسهلاً!، بتقول يارا. تحب تشرب حاجة؟ فيه عصير، وكولا، ومية.\n\nالناس بتاكل بيتزا وبتسمع موسيقى. نيكو بيتعرّف على صاحبة جديدة. اسمها نينا وهي كمان في كورس الألماني. الحفلة تحفة!"
+    },
+    {
+      "id": "p15", "level": 5, "lesson": 13, "title": "Ein Problem in der Wohnung", "title_ar": "مشكلة في الشقة",
+      "newWords": [
+        {"de": "die Küche", "ar": "المطبخ"},
+        {"de": "anrufen", "ar": "يتصل"},
+        {"de": "der Vermieter", "ar": "صاحب الشقة"},
+        {"de": "immer", "ar": "على طول / دايمًا"},
+        {"de": "reparieren", "ar": "يصلّح"},
+        {"de": "am nächsten Tag", "ar": "تاني يوم"},
+        {"de": "warm", "ar": "دافي"}
+      ],
+      "de": "Nico hat eine neue Wohnung, aber es gibt ein Problem. Die Lampe im Zimmer ist kaputt. Auch das Wasser in der Küche ist kalt.\n\nNico ruft den Vermieter an. Guten Tag, hier ist Nico. Die Lampe funktioniert nicht und das Wasser ist immer kalt. Der Vermieter sagt: Kein Problem, ich komme morgen und repariere alles.\n\nAm nächsten Tag funktioniert alles wieder. Jetzt ist die Wohnung gemütlich und warm.",
+      "ar": "نيكو عنده شقة جديدة، بس فيه مشكلة. اللمبة في الأوضة بايظة. وكمان المية في المطبخ ساقعة.\n\nنيكو بيتصل بصاحب الشقة. نهارك سعيد، معاك نيكو. اللمبة مش شغّالة والمية ساقعة على طول. صاحب الشقة بيقول: مفيش مشكلة، هاجي بكرة وأصلّح كل حاجة.\n\nتاني يوم كل حاجة رجعت تشتغل. دلوقتي الشقة مريحة ودافية."
+    },
+    {
+      "id": "p16", "level": 5, "lesson": 12, "title": "Heimat und neues Land", "title_ar": "الوطن والبلد الجديد",
+      "newWords": [
+        {"de": "die Heimat", "ar": "البلد / الوطن"},
+        {"de": "laut", "ar": "عالي / فيه دوشة"},
+        {"de": "das Essen", "ar": "الأكل"},
+        {"de": "die Sprache", "ar": "اللغة"},
+        {"de": "am Anfang", "ar": "في الأول / البداية"},
+        {"de": "niemanden", "ar": "محدش"},
+        {"de": "lieben", "ar": "يحب"},
+        {"de": "dankbar", "ar": "ممتن"}
+      ],
+      "de": "Ich komme aus Ägypten, aus einer großen Stadt am Nil. Meine Heimat ist warm und laut.\n\nJetzt lebe ich in Deutschland. Hier ist alles anders: das Wetter, das Essen und die Sprache. Am Anfang war es schwer. Ich kenne niemanden und spreche kein Deutsch.\n\nAber jetzt habe ich Freunde, einen Deutschkurs und eine kleine Wohnung. Ich liebe meine Heimat, aber Deutschland ist jetzt auch mein Zuhause. Ich bin dankbar.",
+      "ar": "أنا من مصر، من مدينة كبيرة على النيل. بلدي دافية وفيها دوشة.\n\nدلوقتي عايش في ألمانيا. هنا كل حاجة مختلفة: الجو، والأكل، واللغة. في الأول كان صعب. مش عارف حد ومش بتكلّم ألماني.\n\nبس دلوقتي عندي صحاب، وكورس ألماني، وشقة صغيرة. بحب بلدي، بس ألمانيا دلوقتي كمان بيتي. أنا ممتن."
+    },
+    {
+      "id": "p17", "level": 6, "lesson": 14, "title": "Im Café", "title_ar": "في الكافيه",
+      "newWords": [
+        {"de": "sich setzen", "ar": "يقعد"},
+        {"de": "am Fenster", "ar": "جنب الشباك"},
+        {"de": "die Kellnerin", "ar": "الجرسونة"},
+        {"de": "die Zitrone", "ar": "ليمون"},
+        {"de": "ein Stück", "ar": "حتة / قطعة"},
+        {"de": "der Nachmittag", "ar": "العصر / بعد الضهر"},
+        {"de": "entspannt", "ar": "مريّح / مرتاح"}
+      ],
+      "de": "Nico und Nina gehen zusammen in ein Café im Zentrum. Das Café heißt Kaffeezeit und ist sehr gemütlich.\n\nSie setzen sich an einen Tisch am Fenster. Die Kellnerin bringt die Speisekarte. Was möchtest du trinken?, fragt Nico. Ich nehme einen Tee mit Zitrone, sagt Nina. Und ich trinke einen Kaffee mit viel Milch, aber ohne Zucker.\n\nSie essen auch ein Stück Kuchen und sprechen über den Deutschkurs. Der Nachmittag ist schön und entspannt.",
+      "ar": "نيكو ونينا بيروحوا مع بعض كافيه في وسط البلد. الكافيه اسمه كافيتسايت ومريح جدًا.\n\nبيقعدوا على ترابيزة جنب الشباك. الجرسونة بتجيب المنيو. تحبي تشربي إيه؟ بيسأل نيكو. هاخد شاي بالليمون، بتقول نينا. وأنا هشرب قهوة بلبن كتير، بس من غير سكر.\n\nبياكلوا كمان حتة كيكة وبيتكلّموا عن كورس الألماني. العصرية حلوة ومريحة."
+    },
+    {
+      "id": "p18", "level": 6, "lesson": 15, "title": "Pizza bestellen", "title_ar": "نطلب بيتزا",
+      "newWords": [
+        {"de": "die Pizzeria", "ar": "مطعم بيتزا"},
+        {"de": "der Kellner", "ar": "الجرسون"},
+        {"de": "bestellen", "ar": "يطلب"},
+        {"de": "der Vegetarier", "ar": "نباتي"},
+        {"de": "das Gemüse", "ar": "خضار"},
+        {"de": "das Fleisch", "ar": "لحمة"},
+        {"de": "lecker", "ar": "لذيذ"},
+        {"de": "teuer", "ar": "غالي"},
+        {"de": "bezahlen", "ar": "يدفع"}
+      ],
+      "de": "Es ist Abend und Nico hat Hunger. Er geht mit Lisa und Max in eine Pizzeria.\n\nDer Kellner kommt und fragt: Guten Abend, was möchten Sie bestellen? Nico nimmt eine Pizza mit Salami und einen Orangensaft. Lisa möchte eine Pizza mit Käse. Max ist Vegetarier. Er bestellt eine Pizza mit Tomate und Gemüse, ohne Fleisch.\n\nDas Essen ist lecker und nicht teuer. Nach dem Essen bezahlen sie und gehen nach Hause. Es war ein schöner Abend.",
+      "ar": "بالليل ونيكو جعان. بيروح مع ليزا وماكس بيتزيريا.\n\nالجرسون بييجي ويسأل: مساء الخير، تحبوا تطلبوا إيه؟ نيكو بياخد بيتزا بالسلامي وعصير برتقال. ليزا عايزة بيتزا بالجبنة. ماكس نباتي. بيطلب بيتزا بالطماطم والخضار، من غير لحمة.\n\nالأكل لذيذ ومش غالي. بعد الأكل بيدفعوا ويروحوا البيت. كانت ليلة حلوة."
+    },
+    {
+      "id": "p19", "level": 6, "lesson": 15, "title": "Ein Tag im Fahrradladen", "title_ar": "يوم في محل العجل",
+      "newWords": [
+        {"de": "am Morgen", "ar": "الصبح"},
+        {"de": "öffnen", "ar": "يفتح"},
+        {"de": "putzen", "ar": "ينضّف"},
+        {"de": "sauber", "ar": "نضيف"},
+        {"de": "der Sohn", "ar": "ابن"},
+        {"de": "dieses", "ar": "ده / دي"},
+        {"de": "zufrieden", "ar": "مبسوط / راضي"},
+        {"de": "sich freuen", "ar": "يفرح"},
+        {"de": "eine Pause", "ar": "راحة / بريك"},
+        {"de": "Spaß machen", "ar": "يبسّط / ممتع"}
+      ],
+      "de": "Am Morgen öffnet Nico den Fahrradladen. Er putzt die Fahrräder und macht alles sauber.\n\nDer erste Kunde kommt um neun Uhr. Er sucht ein Fahrrad für seinen Sohn. Wie viel kostet dieses Fahrrad?, fragt der Mann. Es kostet 150 Euro, sagt Nico. Der Mann kauft das Fahrrad und ist sehr zufrieden. Nico freut sich.\n\nAm Mittag macht Nico eine Pause. Er trinkt einen Kaffee und isst ein Sandwich. Die Arbeit im Laden macht ihm Spaß.",
+      "ar": "الصبح نيكو بيفتح محل العجل. بينضّف العجل ويخلّي كل حاجة نضيفة.\n\nأول زبون بييجي الساعة ٩. بيدوّر على عجلة لابنه. العجلة دي بكام؟ بيسأل الراجل. بـ ١٥٠ يورو، بيقول نيكو. الراجل بيشتري العجلة ومبسوط جدًا. نيكو بيفرح.\n\nالضهر نيكو بياخد بريك. بيشرب قهوة وياكل ساندويتش. الشغل في المحل بيبسطه."
+    },
+    {
+      "id": "p20", "level": 6, "lesson": 15, "title": "Nicos neues Leben", "title_ar": "حياة نيكو الجديدة",
+      "newWords": [
+        {"de": "seit drei Monaten", "ar": "بقاله ٣ شهور"},
+        {"de": "langsam", "ar": "بالراحة / بالتدريج"},
+        {"de": "besser werden", "ar": "يبقى أحسن"},
+        {"de": "viel besser", "ar": "أحسن بكتير"},
+        {"de": "verstehen", "ar": "يفهم"},
+        {"de": "fast", "ar": "تقريبًا"},
+        {"de": "nicht mehr", "ar": "مش ... تاني / خلاص"},
+        {"de": "fremd", "ar": "غريب"}
+      ],
+      "de": "Nico ist seit drei Monaten in Deutschland. Am Anfang ist alles schwer: die Sprache, das Wetter und das Leben ohne Familie. Seine Tasche und sein Pass sind weg, und er kennt niemanden. Aber langsam wird alles besser.\n\nHeute hat Nico viele Freunde: Lisa, Max und Nina aus dem Deutschkurs. Er arbeitet im Fahrradladen von seiner Tante Yara. Am Morgen lernt er Deutsch, am Nachmittag arbeitet er, und am Abend kocht er mit seinen Freunden.\n\nSein Deutsch ist jetzt viel besser. Er versteht fast alles und spricht jeden Tag. Nico ist glücklich. Deutschland ist nicht mehr fremd — es ist sein neues Zuhause.",
+      "ar": "نيكو بقاله ٣ شهور في ألمانيا. في الأول كل حاجة صعبة: اللغة، والجو، والحياة من غير عيلة. شنطته والباسبور بتاعه ضاعوا، ومش عارف حد. بس بالراحة كل حاجة بتبقى أحسن.\n\nدلوقتي نيكو عنده صحاب كتير: ليزا، وماكس، ونينا من كورس الألماني. بيشتغل في محل العجل بتاع خالته يارا. الصبح بيتعلّم ألماني، بعد الضهر بيشتغل، وبالليل بيطبخ مع صحابه.\n\nألمانيه دلوقتي أحسن بكتير. بيفهم كل حاجة تقريبًا وبيتكلّم كل يوم. نيكو مبسوط. ألمانيا بقت مش غريبة — دي بيته الجديد."
+    }
+  ]
+}

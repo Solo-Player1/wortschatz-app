@@ -337,7 +337,7 @@ export function renderVideo(root, { lesson } = {}) {
 
 function buildVideoScreen(root, n, ctrl) {
   const v = videoOf(n);
-  if (!v) { root.innerHTML = emptyCard('🎬', 'مفيش فيديو للدرس ده', 'الحلقات متاحة للدروس من 1 لـ 15.', lessonOf(n) ? n : 0); return; }
+  if (!v) { root.innerHTML = emptyCard('🎬', 'مفيش فيديو للدرس ده', 'الحلقة دي مش متاحة في الأبلكيشن لسه.', lessonOf(n) ? n : 0); return; }
   const l = lessonOf(n);
   const native = isNative();
   const online = navigator.onLine !== false;

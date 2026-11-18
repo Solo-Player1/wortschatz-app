@@ -1,0 +1,119 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.200 --> 00:00:08.960 region:R1 align:center
+<c.S1>– Hey! Schön, dass ihr da seid!</c>
+
+2
+00:00:09.000 --> 00:00:12.800 region:R1 align:center
+<c.S1>– Hallo, Nawin, schön, dich zu sehen!
+Vielen Dank für die Einladung!</c>
+
+3
+00:00:13.120 --> 00:00:14.960 region:R1 align:center
+<c.S1>– Cool, danke schön!</c>
+
+4
+00:00:17.560 --> 00:00:18.240 region:R1 align:center
+<c.S1>– Prost!</c>
+
+5
+00:00:18.280 --> 00:00:19.400 region:R1 align:center
+<c.S1>– Prost!</c>
+
+6
+00:00:26.120 --> 00:00:27.160 region:R1 align:center
+<c.S1>– Was ist das?</c>
+
+7
+00:00:27.640 --> 00:00:32.480 region:R1 align:center
+<c.S1>– Das? Das ist eine Sehenswürdigkeit
+in Köln: der Kölner Dom.</c>
+
+8
+00:00:33.320 --> 00:00:36.320 region:R1 align:center
+<c.S1>Warst du schon mal in Köln?
+Kennst du die Stadt?</c>
+
+9
+00:00:36.720 --> 00:00:38.040 region:R1 align:center
+<c.S1>– Nein.</c>
+
+10
+00:00:38.520 --> 00:00:45.600 region:R1 align:center
+<c.S1>– Warst du noch nie in Deutschland?
+Oder in Österreich oder in der Schweiz?</c>
+
+11
+00:00:47.600 --> 00:00:53.000 region:R1 align:center
+<c.S1>– Jetzt habe ich Geschenke aus Köln,
+Hamburg, Düsseldorf, Heidelberg und Berlin.</c>
+
+12
+00:00:53.040 --> 00:00:55.000 region:R1 align:center
+<c.S1>– Und welche Städte kennst du schon?</c>
+
+13
+00:00:55.160 --> 00:01:00.240 region:R1 align:center
+<c.S1>– Ich war schon mal in Hamburg und in Köln.
+In Heidelberg war ich noch nie.</c>
+
+14
+00:01:00.280 --> 00:01:02.680 region:R1 align:center
+<c.S1>Nächste Woche fahre ich nach München!</c>
+
+15
+00:01:07.040 --> 00:01:08.480 region:R1 align:center
+<c.S1>– Was ist das?</c>
+
+16
+00:01:08.760 --> 00:01:12.960 region:R1 align:center
+<c.S1>– Das ist das Brandenburger Tor.
+Eine Sehenswürdigkeit in Berlin.</c>
+
+17
+00:01:14.320 --> 00:01:15.760 region:R1 align:center
+<c.S1>– Kennst du Berlin?</c>
+
+18
+00:01:15.840 --> 00:01:19.720 region:R1 align:center
+<c.S1>– Nein. Aber Nina war schon mal in Berlin.
+Und Sebastian.</c>
+
+19
+00:01:19.760 --> 00:01:21.080 region:R1 align:center
+<c.S1>Ihr wart schon mal in Berlin, oder?</c>
+
+20
+00:01:21.120 --> 00:01:26.080 region:R1 align:center
+<c.S1>Wir beide waren schon mal in Berlin, ja.
+Wir waren sogar am Brandenburger Tor.</c>
+
+21
+00:01:36.480 --> 00:01:37.320 region:R1 align:center
+<c.S1>– Nico?</c>
+
+22
+00:01:37.360 --> 00:01:38.520 region:R1 align:center
+<c.S1>– Hm …</c>
+
+23
+00:01:40.200 --> 00:01:42.160 region:R1 align:center
+<c.S1>– Alles gut?</c>
+
+24
+00:01:44.960 --> 00:01:47.000 region:R1 align:center
+<c.S1>Kein Kommentar?</c>
+
+25
+00:01:49.880 --> 00:01:52.760 region:R1 align:center
+<c.S1>Komm! Wir spielen ein Spiel.</c>

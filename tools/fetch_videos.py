@@ -9,7 +9,7 @@ videos_index.json is produced from the DW lesson pages (Video objects in window.
 two videos: "plain" (no subtitles) and "sub" (burnt-in German subtitles). Each has several mp4 renditions.
 The app streams them (or caches them on the phone with FileTransfer); nothing is bundled into the APK.
 """
-import json, os, sys, subprocess
+import json, os, re, sys, subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX = os.path.join(ROOT, 'tools', 'videos_index.json')
 OUT = os.path.join(ROOT, 'www', 'data', 'videos.json')
@@ -33,6 +33,7 @@ def main():
         plain = pick(L['plain']['files'], PREF_PLAIN) if 'plain' in L else None
         src = L.get('sub') or L.get('plain')
         title = src['name'].split(': ', 1)[-1].replace(' (mit Untertiteln)', '').strip()
+        title = re.sub(r',(?=\S)', ', ', title)  # DW: «Eine Pizza,bitte!» (L15)
         entry = {
             'n': n,
             'title': title,                      # German episode title

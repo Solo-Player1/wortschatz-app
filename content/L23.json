@@ -1,0 +1,738 @@
+{
+  "n": 23,
+  "sentences": [
+    {
+      "id": "s23-001",
+      "de": "Ah ja, die Anzeige im Internet.",
+      "ar": "آه أيوه، الإعلان اللي على النت.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "phone"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-002",
+      "de": "Ja, die Wohnung hat eine Terrasse.",
+      "ar": "أيوه، الشقة فيها تراس.",
+      "kind": "answer",
+      "focus": [
+        "subject",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "haben",
+          "hast"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-003",
+      "de": "Hat das Haus einen Aufzug?",
+      "ar": "البيت فيه أسانسير؟",
+      "kind": "question",
+      "focus": [
+        "object",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-004",
+      "de": "Nein, im Haus ist kein Aufzug.",
+      "ar": "لأ، مفيش أسانسير في البيت.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "subject"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keinen",
+          "keine",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-005",
+      "de": "Habt ihr eine Garage?",
+      "ar": "عندكم جراج؟",
+      "kind": "question",
+      "focus": [
+        "verb:haben",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Habt",
+        "opts": [
+          "Habt",
+          "Hast",
+          "Hat"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-006",
+      "de": "Nein, eine Garage haben wir nicht.",
+      "ar": "لأ، جراج معندناش.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "word-order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "habt",
+          "hat"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-007",
+      "de": "Wir haben keine Garage.",
+      "ar": "إحنا معندناش جراج.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-008",
+      "de": "Einen Moment bitte.",
+      "ar": "لحظة لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "phone"
+      ],
+      "alts": [
+        "Bitte einen Moment."
+      ],
+      "cloze": {
+        "word": "Einen",
+        "opts": [
+          "Einen",
+          "Ein",
+          "Eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-009",
+      "de": "Wo ist mein Stift?",
+      "ar": "قلمي فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mein",
+        "opts": [
+          "mein",
+          "meine",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-010",
+      "de": "Hast du einen Stift?",
+      "ar": "معاك قلم؟",
+      "kind": "question",
+      "focus": [
+        "object",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Hat",
+          "Habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-011",
+      "de": "Nein, ich habe keinen Stift.",
+      "ar": "لأ، معيش قلم.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "keine",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-012",
+      "de": "Alles klar. Tschüss!",
+      "ar": "تمام. باي!",
+      "kind": "greeting",
+      "focus": [
+        "phone",
+        "greeting"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s23-013",
+      "de": "Hier, ein Zettel.",
+      "ar": "اتفضلي، ورقة.",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Zettel",
+        "opts": [
+          "Zettel",
+          "Anzeige",
+          "Wohnung"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-014",
+      "de": "Wen sucht ihr?",
+      "ar": "بتدوّروا على مين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "object",
+        "verb:suchen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wen",
+        "opts": [
+          "Wen",
+          "Wer",
+          "Wem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-015",
+      "de": "Wir suchen einen Mieter für Nawins Zimmer.",
+      "ar": "بندوّر على مستأجر لأوضة نافين.",
+      "kind": "answer",
+      "focus": [
+        "object",
+        "verb:suchen"
+      ],
+      "alts": [
+        "Für Nawins Zimmer suchen wir einen Mieter.",
+        "Wir suchen für Nawins Zimmer einen Mieter.",
+        "Einen Mieter suchen wir für Nawins Zimmer.",
+        "Einen Mieter für Nawins Zimmer suchen wir."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s23-016",
+      "de": "Der Mieter kommt heute.",
+      "ar": "المستأجر جاي النهارده.",
+      "kind": "statement",
+      "focus": [
+        "subject",
+        "article"
+      ],
+      "alts": [
+        "Heute kommt der Mieter."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Den",
+          "Die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-017",
+      "de": "Ich habe eine Garage, aber kein Auto.",
+      "ar": "عندي جراج، بس معنديش عربية.",
+      "kind": "statement",
+      "focus": [
+        "possession",
+        "negation"
+      ],
+      "alts": [
+        "Ich habe kein Auto, aber eine Garage.",
+        "Eine Garage habe ich, aber kein Auto."
+      ],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-018",
+      "de": "Hast du ein Auto?",
+      "ar": "عندك عربية؟",
+      "kind": "question",
+      "focus": [
+        "object",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-019",
+      "de": "Nein, ich habe kein Auto.",
+      "ar": "لأ، معنديش عربية.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-020",
+      "de": "Das ist keine Brille, das ist ein Brillenetui.",
+      "ar": "دي مش نضارة، ده جراب نضارة.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "subject"
+      ],
+      "alts": [
+        "Das ist ein Brillenetui, das ist keine Brille."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-021",
+      "de": "Nein, ich habe keine Stifte.",
+      "ar": "لأ، معيش أقلام.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s23-022",
+      "de": "Die WG hat kein Internet.",
+      "ar": "الشقة المشتركة مفيهاش إنترنت.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w23-01",
+      "q": "___ suchen Sie?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "حضرتك بتدوّر على إيه؟",
+      "reply": "Ich suche eine Wohnung.",
+      "reply_ar": "بدوّر على شقة."
+    },
+    {
+      "id": "w23-02",
+      "q": "___ sucht ihr?",
+      "answer": "Wen",
+      "opts": [
+        "Wen",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتدوّروا على مين؟",
+      "reply": "Wir suchen einen Mieter oder eine Mieterin.",
+      "reply_ar": "بندوّر على مستأجر أو مستأجرة."
+    },
+    {
+      "id": "w23-03",
+      "q": "___ hat einen Zettel?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wen",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين معاه ورقة؟",
+      "reply": "Nico hat einen Zettel.",
+      "reply_ar": "نيكو معاه ورقة."
+    },
+    {
+      "id": "w23-04",
+      "q": "___ kommt heute?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "مين جاي النهارده؟",
+      "reply": "Marvin Graupner kommt heute.",
+      "reply_ar": "مارفين جراوبنر جاي النهارده."
+    },
+    {
+      "id": "w23-05",
+      "q": "___ Zimmer hat die Wohnung?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "الشقة فيها كام أوضة؟",
+      "reply": "Die Wohnung hat drei Zimmer.",
+      "reply_ar": "الشقة فيها 3 أوض."
+    },
+    {
+      "id": "w23-06",
+      "q": "___ ist eine WG?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "يعني إيه WG؟",
+      "reply": "Eine WG ist eine Wohngemeinschaft.",
+      "reply_ar": "الـ WG يعني شقة مشتركة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g23-1",
+      "h": "الفاعل (Nominativ): مين اللي بيعمل الفعل؟",
+      "body": "أبسط جملة ألماني: فاعل + فعل متصرّف. الفاعل هو اللي بيعمل الفعل أو اللي بنتكلم عنه، وبيجاوب على سؤال Wer? (لشخص) أو Was? (لحاجة). والفعل بيتصرّف على حسب الفاعل: ich habe، du hast، die Wohnung hat، wir haben. والفاعل دايمًا في حالة الرفع (Nominativ): der/ein، die/eine، das/ein، والجمع die (ومن غير أداة نكرة).",
+      "examples": [
+        {
+          "de": "Der Mieter kommt heute.",
+          "ar": "المستأجر جاي النهارده."
+        },
+        {
+          "de": "Wer hat einen Zettel? – Nico hat einen Zettel.",
+          "ar": "مين معاه ورقة؟ – نيكو معاه ورقة."
+        },
+        {
+          "de": "Ja, die Wohnung hat eine Terrasse.",
+          "ar": "أيوه، الشقة فيها تراس."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مذكر",
+          "مؤنث",
+          "محايد",
+          "جمع"
+        ],
+        [
+          "معرّفة",
+          "der",
+          "die",
+          "das",
+          "die"
+        ],
+        [
+          "نكرة",
+          "ein",
+          "eine",
+          "ein",
+          "–"
+        ],
+        [
+          "نفي",
+          "kein",
+          "keine",
+          "kein",
+          "keine"
+        ]
+      ]
+    },
+    {
+      "id": "g23-2",
+      "h": "المفعول به (Akkusativ): المذكر بس اللي بيتغيّر",
+      "body": "أفعال كتير محتاجة مفعول به، زي haben و suchen و nehmen و essen و kennen. المفعول به بيجاوب على Wen? (لشخص) أو Was? (لحاجة). وفي حالة النصب (Akkusativ) المذكر بس اللي بيتغيّر: der بتبقى den، و ein بتبقى einen. المؤنث والمحايد والجمع زي ما هما. قارن: Der Mieter kommt heute. (فاعل) – Wir suchen einen Mieter. (مفعول)",
+      "examples": [
+        {
+          "de": "Hast du einen Stift?",
+          "ar": "معاك قلم؟"
+        },
+        {
+          "de": "Wen sucht ihr? – Wir suchen einen Mieter.",
+          "ar": "بتدوّروا على مين؟ – بندوّر على مستأجر."
+        },
+        {
+          "de": "Was suchst du? – Ich suche eine Wohnung.",
+          "ar": "بتدوّر على إيه؟ – بدوّر على شقة."
+        },
+        {
+          "de": "Hast du ein Auto?",
+          "ar": "عندك عربية؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مذكر",
+          "مؤنث",
+          "محايد",
+          "جمع"
+        ],
+        [
+          "فاعل (Nominativ)",
+          "der / ein",
+          "die / eine",
+          "das / ein",
+          "die / –"
+        ],
+        [
+          "مفعول (Akkusativ)",
+          "den / einen",
+          "die / eine",
+          "das / ein",
+          "die / –"
+        ]
+      ]
+    },
+    {
+      "id": "g23-3",
+      "h": "النفي بـ kein / keine / keinen",
+      "body": "الاسم اللي معاه ein أو مالوش أداة بننفيه بـ kein، مش بـ nicht. ونهايات kein زي ein بالظبط: ein تبقى kein، eine تبقى keine، einen تبقى keinen، والجمع دايمًا keine. خد بالك من المذكر: فاعل kein (Im Haus ist kein Aufzug.) ومفعول keinen (Ich habe keinen Stift.). ونفس الكلام لاسم من غير أداة: Die WG hat kein Internet.",
+      "examples": [
+        {
+          "de": "Hast du einen Stift? – Nein, ich habe keinen Stift.",
+          "ar": "معاك قلم؟ – لأ، معيش قلم."
+        },
+        {
+          "de": "Nein, im Haus ist kein Aufzug.",
+          "ar": "لأ، مفيش أسانسير في البيت."
+        },
+        {
+          "de": "Das ist keine Brille, das ist ein Brillenetui.",
+          "ar": "دي مش نضارة، ده جراب نضارة."
+        },
+        {
+          "de": "Hast du Stifte? – Nein, ich habe keine Stifte.",
+          "ar": "معاك أقلام؟ – لأ، معيش أقلام."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "فاعل (Nominativ)",
+          "مفعول (Akkusativ)"
+        ],
+        [
+          "مذكر (der)",
+          "kein",
+          "keinen"
+        ],
+        [
+          "مؤنث (die)",
+          "keine",
+          "keine"
+        ],
+        [
+          "محايد (das)",
+          "kein",
+          "kein"
+        ],
+        [
+          "جمع (die)",
+          "keine",
+          "keine"
+        ]
+      ]
+    },
+    {
+      "id": "g23-4",
+      "h": "عندي / معنديش … وبدوّر على …",
+      "body": "عندك حاجة؟ قول: Ich habe ein Auto. مش عندك؟ قول: Ich habe kein Auto. والاتنين مع بعض: Ich habe eine Garage, aber kein Auto. بتدوّر على حاجة؟ Ich suche eine Wohnung. وفي الحلقة ليزا قالت: Eine Garage haben wir nicht. حطّت eine Garage في أول الجملة عشان تأكّد عليها، فالنفي بقى بـ nicht في الآخر. ده أسلوب كلام، والجملة العادية: Wir haben keine Garage.",
+      "examples": [
+        {
+          "de": "Hast du ein Auto? – Nein, ich habe kein Auto.",
+          "ar": "عندك عربية؟ – لأ، معنديش عربية."
+        },
+        {
+          "de": "Ich habe eine Garage, aber kein Auto.",
+          "ar": "عندي جراج، بس معنديش عربية."
+        },
+        {
+          "de": "Habt ihr eine Garage? – Nein, eine Garage haben wir nicht.",
+          "ar": "عندكم جراج؟ – لأ، جراج معندناش."
+        },
+        {
+          "de": "Wir haben keine Garage.",
+          "ar": "إحنا معندناش جراج. (الجملة العادية)"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "عندي عربية",
+          "Ich habe ein Auto."
+        ],
+        [
+          "معنديش عربية",
+          "Ich habe kein Auto."
+        ],
+        [
+          "عندي جراج بس معنديش عربية",
+          "Ich habe eine Garage, aber kein Auto."
+        ],
+        [
+          "بدوّر على شقة",
+          "Ich suche eine Wohnung."
+        ],
+        [
+          "البيت فيه أسانسير؟",
+          "Hat das Haus einen Aufzug?"
+        ]
+      ]
+    }
+  ]
+}

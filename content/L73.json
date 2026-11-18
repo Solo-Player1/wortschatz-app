@@ -1,0 +1,794 @@
+{
+  "n": 73,
+  "sentences": [
+    {
+      "id": "s73-001",
+      "de": "Wir wohnen in einem großen Haus.",
+      "ar": "إحنا ساكنين في بيت كبير.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "dative",
+        "homeland"
+      ],
+      "alts": [
+        "In einem großen Haus wohnen wir."
+      ],
+      "cloze": {
+        "word": "großen",
+        "opts": [
+          "großen",
+          "großes",
+          "großer",
+          "große"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-002",
+      "de": "Wir haben einen kleinen Vogel.",
+      "ar": "عندنا طير صغير.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative",
+        "animal"
+      ],
+      "alts": [
+        "Einen kleinen Vogel haben wir."
+      ],
+      "cloze": {
+        "word": "kleinen",
+        "opts": [
+          "kleinen",
+          "kleiner",
+          "kleines",
+          "kleine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-003",
+      "de": "Wir wohnen am Stadtrand.",
+      "ar": "إحنا ساكنين على أطراف المدينة.",
+      "kind": "statement",
+      "focus": [
+        "homeland",
+        "place"
+      ],
+      "alts": [
+        "Am Stadtrand wohnen wir."
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "im",
+          "ins"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-004",
+      "de": "Es ist fast wie im Dorf.",
+      "ar": "تقريبًا كإنها قرية.",
+      "kind": "statement",
+      "focus": [
+        "homeland",
+        "comparison"
+      ],
+      "alts": [
+        "Fast wie im Dorf ist es."
+      ],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "als",
+          "wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-005",
+      "de": "Bei uns kennt jeder jeden.",
+      "ar": "عندنا الكل عارف الكل.",
+      "kind": "statement",
+      "focus": [
+        "homeland",
+        "verb:kennen"
+      ],
+      "alts": [
+        "Jeder kennt jeden bei uns.",
+        "Jeder kennt bei uns jeden."
+      ],
+      "cloze": {
+        "word": "jeden",
+        "opts": [
+          "jeden",
+          "jeder",
+          "jede"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-006",
+      "de": "Viele sind weggegangen, so wie wir.",
+      "ar": "ناس كتير مشيوا، زينا بالظبط.",
+      "kind": "statement",
+      "focus": [
+        "verb:weggehen",
+        "perfect"
+      ],
+      "alts": [
+        "Viele sind, so wie wir, weggegangen.",
+        "So wie wir sind viele weggegangen."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "haben",
+          "seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-007",
+      "de": "Sind deine Großeltern noch in Syrien?",
+      "ar": "جدك وجدتك لسه في سوريا؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "dein",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-008",
+      "de": "Leli sitzt jeden Tag am Fenster.",
+      "ar": "ليلي بيقعد كل يوم جنب الشباك.",
+      "kind": "statement",
+      "focus": [
+        "verb:sitzen",
+        "time"
+      ],
+      "alts": [
+        "Jeden Tag sitzt Leli am Fenster.",
+        "Am Fenster sitzt Leli jeden Tag."
+      ],
+      "cloze": {
+        "word": "sitzt",
+        "opts": [
+          "sitzt",
+          "sitzen",
+          "sitze"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-009",
+      "de": "Du sprichst schon sehr gut Deutsch!",
+      "ar": "إنتي بقيتي بتتكلمي ألماني كويس أوي! (ليزا لسلمى)",
+      "kind": "statement",
+      "focus": [
+        "verb:sprechen",
+        "compliment"
+      ],
+      "alts": [
+        "Du sprichst Deutsch schon sehr gut!",
+        "Deutsch sprichst du schon sehr gut!",
+        "Schon sehr gut sprichst du Deutsch!"
+      ],
+      "cloze": {
+        "word": "sprichst",
+        "opts": [
+          "sprichst",
+          "spricht",
+          "sprechst",
+          "sprecht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-010",
+      "de": "Wir dürfen in Deutschland bleiben!",
+      "ar": "مسموح لنا نفضل في ألمانيا!",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "homeland"
+      ],
+      "alts": [
+        "In Deutschland dürfen wir bleiben!"
+      ],
+      "cloze": {
+        "word": "dürfen",
+        "opts": [
+          "dürfen",
+          "dürft",
+          "darf",
+          "darfst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s73-011",
+      "de": "Leli ist ein kleiner Papagei.",
+      "ar": "ليلي بغبغان صغير.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "nominative",
+        "animal"
+      ],
+      "alts": [
+        "Ein kleiner Papagei ist Leli."
+      ],
+      "cloze": {
+        "word": "kleiner",
+        "opts": [
+          "kleiner",
+          "kleinen",
+          "kleine",
+          "kleines"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-012",
+      "de": "Ist das deine kleine Katze?",
+      "ar": "دي قطتك الصغيرة؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "possessive",
+        "animal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kleine",
+        "opts": [
+          "kleine",
+          "kleinen",
+          "kleiner",
+          "kleines"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-013",
+      "de": "Mein Dorf hat sogar ein kleines Kino.",
+      "ar": "قريتي حتى فيها سينما صغيرة.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "homeland"
+      ],
+      "alts": [
+        "Sogar ein kleines Kino hat mein Dorf.",
+        "Ein kleines Kino hat mein Dorf sogar."
+      ],
+      "cloze": {
+        "word": "kleines",
+        "opts": [
+          "kleines",
+          "kleiner",
+          "kleine",
+          "kleinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-014",
+      "de": "Ich finde den bunten Papagei klasse!",
+      "ar": "أنا شايف إن البغبغان الملوّن تحفة!",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "accusative",
+        "opinion"
+      ],
+      "alts": [
+        "Den bunten Papagei finde ich klasse!",
+        "Klasse finde ich den bunten Papagei!"
+      ],
+      "cloze": {
+        "word": "bunten",
+        "opts": [
+          "bunten",
+          "bunte",
+          "bunter",
+          "buntes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-015",
+      "de": "Ist der neue Nachbar sympathisch?",
+      "ar": "الجار الجديد لطيف؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "nominative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "neue",
+        "opts": [
+          "neue",
+          "neuer",
+          "neuen",
+          "neues"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-016",
+      "de": "Das große Haus steht am Stadtrand.",
+      "ar": "البيت الكبير على أطراف المدينة.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "place"
+      ],
+      "alts": [
+        "Am Stadtrand steht das große Haus."
+      ],
+      "cloze": {
+        "word": "große",
+        "opts": [
+          "große",
+          "großes",
+          "großen",
+          "großer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-017",
+      "de": "Ich freue mich über das schöne Geschenk.",
+      "ar": "أنا فرحان بالهدية الحلوة.",
+      "kind": "statement",
+      "focus": [
+        "verb:freuen",
+        "adjective"
+      ],
+      "alts": [
+        "Über das schöne Geschenk freue ich mich."
+      ],
+      "cloze": {
+        "word": "schöne",
+        "opts": [
+          "schöne",
+          "schönes",
+          "schönen",
+          "schöner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-018",
+      "de": "Im Dorf gibt es keine großen Geschäfte.",
+      "ar": "مفيش محلات كبيرة في القرية.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "negation",
+        "plural"
+      ],
+      "alts": [
+        "Es gibt im Dorf keine großen Geschäfte.",
+        "Es gibt keine großen Geschäfte im Dorf.",
+        "Keine großen Geschäfte gibt es im Dorf."
+      ],
+      "cloze": {
+        "word": "großen",
+        "opts": [
+          "großen",
+          "große",
+          "großer",
+          "großes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-019",
+      "de": "Wann seid ihr weggegangen?",
+      "ar": "إنتوا مشيتوا إمتى؟",
+      "kind": "question",
+      "focus": [
+        "verb:weggehen",
+        "perfect",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "seid",
+        "opts": [
+          "seid",
+          "habt",
+          "sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-020",
+      "de": "Erst mal trinken wir einen heißen Tee.",
+      "ar": "الأول نشرب شاي سخن.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "drink"
+      ],
+      "alts": [
+        "Wir trinken erst mal einen heißen Tee.",
+        "Einen heißen Tee trinken wir erst mal."
+      ],
+      "cloze": {
+        "word": "heißen",
+        "opts": [
+          "heißen",
+          "heißer",
+          "heiße",
+          "heißes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-021",
+      "de": "Warum bist du so nervös?",
+      "ar": "إنت متوتر كده ليه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nervös",
+        "opts": [
+          "nervös",
+          "nervöse",
+          "nervösen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s73-022",
+      "de": "Eines Tages ist alles wieder normal.",
+      "ar": "في يوم من الأيام كل حاجة هترجع طبيعية.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "adjective"
+      ],
+      "alts": [
+        "Eines Tages ist wieder alles normal.",
+        "Alles ist eines Tages wieder normal."
+      ],
+      "cloze": {
+        "word": "Eines",
+        "opts": [
+          "Eines",
+          "Einen",
+          "Ein",
+          "Eine"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w73-01",
+      "q": "___ kommst du?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wo",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "إنت منين؟",
+      "reply": "Aus Syrien, aus Damaskus.",
+      "reply_ar": "من سوريا، من دمشق."
+    },
+    {
+      "id": "w73-02",
+      "q": "___ wohnt ihr?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wohin",
+        "Wer"
+      ],
+      "ar": "إنتوا ساكنين فين؟",
+      "reply": "Am Stadtrand. Es ist fast wie im Dorf.",
+      "reply_ar": "على أطراف المدينة. تقريبًا كإنها قرية."
+    },
+    {
+      "id": "w73-03",
+      "q": "___ wohnt auch bei euch?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wie",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين كمان ساكن معاكم؟",
+      "reply": "Meine Großmutter und mein Großvater.",
+      "reply_ar": "جدتي وجدي."
+    },
+    {
+      "id": "w73-04",
+      "q": "___ heißt euer Papagei?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "البغبغان بتاعكم اسمه إيه؟",
+      "reply": "Er heißt Leli.",
+      "reply_ar": "اسمه ليلي."
+    },
+    {
+      "id": "w73-05",
+      "q": "___ Vögel habt ihr?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "عندكم كام طير؟",
+      "reply": "Einen kleinen Vogel, einen Papagei.",
+      "reply_ar": "طير واحد صغير، بغبغان."
+    },
+    {
+      "id": "w73-06",
+      "q": "___ freust du dich so?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Wo",
+        "Wie viele"
+      ],
+      "ar": "إنت فرحان كده ليه؟",
+      "reply": "Wir dürfen in Deutschland bleiben!",
+      "reply_ar": "مسموح لنا نفضل في ألمانيا!"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g73-1",
+      "h": "مراجعة: الصفة بعد ein / eine",
+      "body": "لو الصفة بعد الاسم (بعد sein أو finden) مابتتغيرش: Leli ist klein. لكن لو جت قبل الاسم على طول بتاخد نهاية. بعد ein / eine الصفة بتاخد نهاية أداة التعريف: ein kleiner Papagei (der ← -er)، eine kleine Katze (die ← -e)، ein kleines Kino (das ← -es)، والجمع من غير أداة: kleine Katzen. وفي النصب (Akkusativ) المذكّر بس اللي بيتغيّر زي den: einen kleinen Vogel.",
+      "examples": [
+        {
+          "de": "Leli ist ein kleiner Papagei.",
+          "ar": "ليلي بغبغان صغير. (رفع، مذكّر: -er)"
+        },
+        {
+          "de": "Wir haben einen kleinen Vogel.",
+          "ar": "عندنا طير صغير. (نصب، مذكّر: -en)"
+        },
+        {
+          "de": "Mein Dorf hat sogar ein kleines Kino.",
+          "ar": "قريتي حتى فيها سينما صغيرة. (نصب، محايد: -es)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "der Vogel",
+          "ein kleiner Vogel",
+          "einen kleinen Vogel"
+        ],
+        [
+          "die Katze",
+          "eine kleine Katze",
+          "eine kleine Katze"
+        ],
+        [
+          "das Dorf",
+          "ein kleines Dorf",
+          "ein kleines Dorf"
+        ],
+        [
+          "die Katzen (جمع)",
+          "kleine Katzen",
+          "kleine Katzen"
+        ]
+      ]
+    },
+    {
+      "id": "g73-2",
+      "h": "مراجعة: الصفة بعد der / die / das",
+      "body": "بعد der / die / das الموضوع أسهل: النهاية -e أو -en بس. في الرفع المفرد كله -e: der neue Nachbar، die kleine Katze، das große Haus. وفي النصب المذكّر بس اللي بيبقى -en زي den: den bunten Papagei، والمؤنّث والمحايد زي ما هم: das schöne Geschenk. والجمع دايمًا -en: die großen Geschäfte.",
+      "examples": [
+        {
+          "de": "Ist der neue Nachbar sympathisch?",
+          "ar": "الجار الجديد لطيف؟ (رفع، مذكّر: -e)"
+        },
+        {
+          "de": "Ich finde den bunten Papagei klasse!",
+          "ar": "أنا شايف إن البغبغان الملوّن تحفة! (نصب، مذكّر: -en)"
+        },
+        {
+          "de": "Ich freue mich über das schöne Geschenk.",
+          "ar": "أنا فرحان بالهدية الحلوة. (نصب بعد über، محايد: -e)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "مذكّر",
+          "der bunte Vogel",
+          "den bunten Vogel"
+        ],
+        [
+          "مؤنّث",
+          "die kleine Katze",
+          "die kleine Katze"
+        ],
+        [
+          "محايد",
+          "das große Haus",
+          "das große Haus"
+        ],
+        [
+          "جمع",
+          "die großen Geschäfte",
+          "die großen Geschäfte"
+        ]
+      ]
+    },
+    {
+      "id": "g73-3",
+      "h": "بعد mein / kein، والـ Dativ، والاستثناءات",
+      "body": "بعد mein / dein / unser / kein: في المفرد الصفة بتاخد نفس نهايات ein: deine kleine Katze، mein kleiner Bruder، keinen großen Garten. وفي الجمع زي die، يعني -en: keine großen Geschäfte. وفي الـ Dativ بعد أي أداة النهاية دايمًا -en: in einem großen Haus. وخد بالك: super و klasse وألوان زي lila و rosa مابيتغيروش أبدًا (ein super Film، ein rosa Kleid)، و teuer و dunkel بيوقّعوا الـ e: ein teures Auto.",
+      "examples": [
+        {
+          "de": "Ist das deine kleine Katze?",
+          "ar": "دي قطتك الصغيرة؟ (مفرد: زي eine)"
+        },
+        {
+          "de": "Im Dorf gibt es keine großen Geschäfte.",
+          "ar": "مفيش محلات كبيرة في القرية. (جمع: -en)"
+        },
+        {
+          "de": "Wir wohnen in einem großen Haus.",
+          "ar": "إحنا ساكنين في بيت كبير. (Dativ: -en)"
+        },
+        {
+          "de": "Das ist ein teures Auto.",
+          "ar": "دي عربية غالية. (teuer ← teures)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "مذكّر",
+          "kein großer Garten",
+          "keinen großen Garten"
+        ],
+        [
+          "مؤنّث",
+          "keine große Familie",
+          "keine große Familie"
+        ],
+        [
+          "محايد",
+          "kein großes Haus",
+          "kein großes Haus"
+        ],
+        [
+          "جمع",
+          "keine großen Geschäfte",
+          "keine großen Geschäfte"
+        ]
+      ]
+    },
+    {
+      "id": "g73-4",
+      "h": "تتكلم عن بلدك",
+      "body": "عشان تحكي عن بلدك: Ich komme aus Syrien. Wir wohnen am Stadtrand / in einem Dorf. وتوصفها: Es ist fast wie im Dorf. و bei uns = عندنا في بلدنا: Bei uns kennt jeder jeden. و so wie = زي … بالظبط: so wie wir. و weggehen = يمشي ويسيب المكان، وفي الماضي مع sein: Viele sind weggegangen. و sich über etwas freuen = يفرح بحاجة: Ich freue mich über das Geschenk.",
+      "examples": [
+        {
+          "de": "Wir wohnen am Stadtrand. Es ist fast wie im Dorf.",
+          "ar": "إحنا ساكنين على أطراف المدينة. تقريبًا كإنها قرية."
+        },
+        {
+          "de": "Am Ende sind viele weggegangen, so wie wir.",
+          "ar": "في الآخر ناس كتير مشيوا، زينا بالظبط."
+        },
+        {
+          "de": "Eines Tages ist alles wieder normal.",
+          "ar": "في يوم من الأيام كل حاجة هترجع طبيعية."
+        }
+      ],
+      "table": [
+        [
+          "بالمصري",
+          "بالألماني"
+        ],
+        [
+          "على أطراف المدينة",
+          "am Stadtrand"
+        ],
+        [
+          "في قرية",
+          "in einem Dorf"
+        ],
+        [
+          "عندنا (في بلدنا)",
+          "bei uns"
+        ],
+        [
+          "زي … بالظبط",
+          "so wie"
+        ],
+        [
+          "مشيوا (سابوا المكان)",
+          "sie sind weggegangen"
+        ],
+        [
+          "في يوم من الأيام",
+          "eines Tages"
+        ],
+        [
+          "الأول",
+          "erst mal"
+        ]
+      ]
+    }
+  ]
+}

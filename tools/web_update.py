@@ -16,6 +16,10 @@ Only web files (js/css/data/audio/lib…) can be updated like this. Native chang
 need a new APK: python tools/bump_version.py X.Y.Z, then tools/build_apk.sh.
 """
 import datetime, hashlib, json, os, re, sys, zipfile
+try:
+    sys.stdout.reconfigure(encoding='utf-8')      # Arabic release notes on a cp1252 console (web build 7 crashed printing them)
+except Exception:
+    pass
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WWW = os.path.join(ROOT, 'www')
@@ -32,10 +36,16 @@ def sha(path):
     return h.hexdigest()
 
 
+SKIP = ('.tmp', '.bak', '.orig', '~')       # leftovers of tools/editors must never ship in an update
+
+
 def snapshot():
     out = {}
     for d, _, files in os.walk(WWW):
         for n in files:
+            if n.endswith(SKIP):
+                print(f'  skipping {os.path.relpath(os.path.join(d, n), WWW)} (temporary/backup file)')
+                continue
             p = os.path.join(d, n)
             out[os.path.relpath(p, WWW).replace(os.sep, '/')] = sha(p)
     return out

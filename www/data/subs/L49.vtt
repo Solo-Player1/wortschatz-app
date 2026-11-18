@@ -1,0 +1,170 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:08.440 --> 00:00:10.960 region:R1 align:center
+<c.S1>– Wir wissen nicht, wo Yara ist.</c>
+
+2
+00:00:11.000 --> 00:00:14.440 region:R1 align:center
+<c.S1>Sie ist nicht hier und wir wissen auch nicht,
+wann sie wiederkommt.</c>
+
+3
+00:00:15.360 --> 00:00:17.640 region:R1 align:center
+<c.S1>– Du und Tarek, ihr habt den Schlüssel?</c>
+
+4
+00:00:17.680 --> 00:00:18.600 region:R1 align:center
+<c.S1>– Ja.</c>
+
+5
+00:00:18.640 --> 00:00:20.680 region:R1 align:center
+<c.S1>Yara, Tarek und ich sind Freunde.</c>
+
+6
+00:00:20.720 --> 00:00:23.600 region:R1 align:center
+<c.S1>Sie hat auch die Schlüssel fürs Restaurant.
+Wir helfen uns.</c>
+
+7
+00:00:23.640 --> 00:00:24.560 region:R1 align:center
+<c.S1>– Das ist ja toll!</c>
+
+8
+00:00:24.600 --> 00:00:25.400 region:R1 align:center
+<c.S1>– Inge!</c>
+
+9
+00:00:25.440 --> 00:00:29.240 region:R1 align:center
+<c.S1>– Ich möchte noch ein paar Brötchen kaufen.
+Kommst du mit, Nico?</c>
+
+10
+00:00:29.320 --> 00:00:31.080 region:R1 align:center
+<c.S1>– Könnt ihr mir einen Gefallen tun?</c>
+
+11
+00:00:32.480 --> 00:00:34.120 region:R1 align:center
+<c.S1>Wir brauchen noch ein paar Lebensmittel,</c>
+
+12
+00:00:34.160 --> 00:00:36.160 region:R1 align:center
+<c.S1>aber ich will Tarek im Restaurant
+nicht allein lassen.</c>
+
+13
+00:00:36.200 --> 00:00:39.000 region:R1 align:center
+<c.S1>– Wir können doch für euch einkaufen
+gehen, oder, Nico?</c>
+
+14
+00:00:39.040 --> 00:00:40.040 region:R1 align:center
+<c.S1>– Vielen Dank!</c>
+
+15
+00:00:40.080 --> 00:00:42.280 region:R1 align:center
+<c.S1>Dafür bekommt ihr das
+nächste Essen umsonst!</c>
+
+16
+00:00:43.040 --> 00:00:45.240 region:R1 align:center
+<c.S1>Oh, und könnt ihr mir noch …</c>
+
+17
+00:00:46.160 --> 00:00:49.880 region:R1 align:center
+<c.S1>ein Hähnchen, drei Gurken und
+ein Pfund Tomaten mitbringen?</c>
+
+18
+00:00:49.960 --> 00:00:51.560 region:R1 align:center
+<c.S1>– Ein Pfund Tomaten?</c>
+
+19
+00:00:51.600 --> 00:00:54.960 region:R1 align:center
+<c.S1>Das ist aber nicht viel.
+Schreibst du es auf, Nico?</c>
+
+20
+00:00:55.520 --> 00:00:57.680 region:R1 align:center
+<c.S1>– Das ist für mein Abendbrot.</c>
+
+21
+00:01:00.480 --> 00:01:02.800 region:R1 align:center
+<c.S1>– Kannst du das bitte noch einmal
+wiederholen?</c>
+
+22
+00:01:04.720 --> 00:01:06.480 region:R1 align:center
+<c.S1>– Ein Hähnchen.</c>
+
+23
+00:01:07.520 --> 00:01:08.960 region:R1 align:center
+<c.S1>– Hähn-chen!</c>
+
+24
+00:01:11.080 --> 00:01:12.440 region:R1 align:center
+<c.S1>– Drei Gurken.</c>
+
+25
+00:01:13.440 --> 00:01:16.320 region:R1 align:center
+<c.S1>– Gur-ken!</c>
+
+26
+00:01:18.320 --> 00:01:20.480 region:R1 align:center
+<c.S1>– Und ein Pfund Tomaten.</c>
+
+27
+00:01:20.560 --> 00:01:21.680 region:R1 align:center
+<c.S1>– Ein Pf…?</c>
+
+28
+00:01:21.960 --> 00:01:23.080 region:R1 align:center
+<c.S1>– Pfund!</c>
+
+29
+00:01:23.120 --> 00:01:24.320 region:R1 align:center
+<c.S1>– Ja.
+– Tomaten.</c>
+
+30
+00:01:24.360 --> 00:01:25.120 region:R1 align:center
+<c.S1>– Ein Pfund?</c>
+
+31
+00:01:25.160 --> 00:01:30.320 region:R1 align:center
+<c.S1>– Pfund. Das sind 500 Gramm,
+also ein halbes Kilo.</c>
+
+32
+00:01:32.360 --> 00:01:33.160 region:R1 align:center
+<c.S1>– Ja.</c>
+
+33
+00:01:33.280 --> 00:01:34.640 region:R1 align:center
+<c.S1>– Vielen Dank!</c>
+
+34
+00:01:35.760 --> 00:01:37.120 region:R1 align:center
+<c.S1>Und bis später!</c>
+
+35
+00:01:37.320 --> 00:01:38.160 region:R1 align:center
+<c.S1>– Tschüss!</c>
+
+36
+00:01:38.200 --> 00:01:40.120 region:R1 align:center
+<c.S1>– Dann reden wir über
+deine Tante, okay?</c>
+
+37
+00:01:40.160 --> 00:01:41.240 region:R1 align:center
+<c.S1>– Ja.</c>

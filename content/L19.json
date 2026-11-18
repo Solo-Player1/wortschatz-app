@@ -1,0 +1,815 @@
+{
+  "n": 19,
+  "sentences": [
+    {
+      "id": "s19-001",
+      "de": "Spezialitäten aus verschiedenen Ländern.",
+      "ar": "أكلات مشهورة من بلاد مختلفة.",
+      "kind": "answer",
+      "focus": [
+        "food",
+        "country",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "aus",
+        "opts": [
+          "aus",
+          "nach",
+          "bei"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-002",
+      "de": "Warst du schon mal in Schweden?",
+      "ar": "إنت رُحت السويد قبل كده؟",
+      "kind": "question",
+      "focus": [
+        "past",
+        "country"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Warst",
+        "opts": [
+          "Warst",
+          "War",
+          "Wart"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-003",
+      "de": "Ich fahre nächstes Jahr nach Norwegen!",
+      "ar": "أنا مسافر النرويج السنة الجاية!",
+      "kind": "statement",
+      "focus": [
+        "word-order",
+        "time",
+        "country"
+      ],
+      "alts": [
+        "Nächstes Jahr fahre ich nach Norwegen!",
+        "Nach Norwegen fahre ich nächstes Jahr!"
+      ],
+      "cloze": {
+        "word": "nächstes",
+        "opts": [
+          "nächstes",
+          "letztes",
+          "gestern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-004",
+      "de": "In Frankreich isst man gern Käse.",
+      "ar": "في فرنسا الناس بتحب تاكل جبنة.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "word-order",
+        "food"
+      ],
+      "alts": [
+        "Man isst in Frankreich gern Käse.",
+        "Käse isst man in Frankreich gern.",
+        "Gern isst man in Frankreich Käse.",
+        "In Frankreich isst man Käse gern.",
+        "Man isst in Frankreich Käse gern.",
+        "Man isst gern Käse in Frankreich.",
+        "Käse isst man gern in Frankreich.",
+        "Gern isst man Käse in Frankreich."
+      ],
+      "cloze": {
+        "word": "man",
+        "opts": [
+          "man",
+          "Mann",
+          "wir"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-005",
+      "de": "Sushi isst man in Japan.",
+      "ar": "السوشي بياكلوه في اليابان.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "word-order",
+        "food"
+      ],
+      "alts": [
+        "In Japan isst man Sushi.",
+        "Man isst in Japan Sushi.",
+        "Man isst Sushi in Japan."
+      ],
+      "cloze": {
+        "word": "isst",
+        "opts": [
+          "isst",
+          "esst",
+          "essen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-006",
+      "de": "In Italien isst man Pizza!",
+      "ar": "في إيطاليا بياكلوا بيتزا!",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "word-order",
+        "country"
+      ],
+      "alts": [
+        "Man isst in Italien Pizza!",
+        "Pizza isst man in Italien!",
+        "Man isst Pizza in Italien!"
+      ],
+      "cloze": {
+        "word": "In",
+        "opts": [
+          "In",
+          "Nach",
+          "Aus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-007",
+      "de": "Was isst man in Spanien?",
+      "ar": "بياكلوا إيه في إسبانيا؟",
+      "kind": "question",
+      "focus": [
+        "man",
+        "w-frage",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "man",
+        "opts": [
+          "man",
+          "Mann",
+          "ihr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-008",
+      "de": "In Spanien isst man Gazpacho!",
+      "ar": "في إسبانيا بياكلوا جازباتشو (شوربة طماطم ساقعة)!",
+      "kind": "answer",
+      "focus": [
+        "man",
+        "food",
+        "country"
+      ],
+      "alts": [
+        "Man isst in Spanien Gazpacho!",
+        "Gazpacho isst man in Spanien!",
+        "Man isst Gazpacho in Spanien!"
+      ],
+      "src": "episode"
+    },
+    {
+      "id": "s19-009",
+      "de": "Und du wohnst in Frankreich?",
+      "ar": "وإنت ساكن في فرنسا؟",
+      "kind": "question",
+      "focus": [
+        "intonation",
+        "verb:wohnen"
+      ],
+      "alts": [
+        "Und wohnst du in Frankreich?"
+      ],
+      "cloze": {
+        "word": "wohnst",
+        "opts": [
+          "wohnst",
+          "wohnt",
+          "wohne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-010",
+      "de": "Ich habe da einen Job.",
+      "ar": "أنا عندي شغل هناك.",
+      "kind": "answer",
+      "focus": [
+        "job",
+        "article"
+      ],
+      "alts": [
+        "Da habe ich einen Job.",
+        "Einen Job habe ich da."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-011",
+      "de": "Ich mag Deutschland.",
+      "ar": "أنا بحب ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "verb:mögen",
+        "country"
+      ],
+      "alts": [
+        "Deutschland mag ich."
+      ],
+      "cloze": {
+        "word": "mag",
+        "opts": [
+          "mag",
+          "magst",
+          "mögen"
+        ],
+        "accept": [
+          "liebe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s19-012",
+      "de": "In Österreich spricht man Deutsch.",
+      "ar": "في النمسا بيتكلموا ألماني.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "language",
+        "word-order"
+      ],
+      "alts": [
+        "Man spricht in Österreich Deutsch.",
+        "Deutsch spricht man in Österreich.",
+        "Man spricht Deutsch in Österreich."
+      ],
+      "cloze": {
+        "word": "spricht",
+        "opts": [
+          "spricht",
+          "sprechen",
+          "sprichst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-013",
+      "de": "Bei uns trinkt man viel Tee.",
+      "ar": "عندنا الناس بتشرب شاي كتير.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "drink",
+        "word-order"
+      ],
+      "alts": [
+        "Man trinkt bei uns viel Tee.",
+        "Viel Tee trinkt man bei uns.",
+        "Man trinkt viel Tee bei uns."
+      ],
+      "cloze": {
+        "word": "trinkt",
+        "opts": [
+          "trinkt",
+          "trinken",
+          "trinkst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-014",
+      "de": "Was ist dein Lieblingsessen?",
+      "ar": "أكلتك المفضلة إيه؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-015",
+      "de": "Mein Lieblingsessen ist Pizza.",
+      "ar": "أكلتي المفضلة البيتزا.",
+      "kind": "answer",
+      "focus": [
+        "food"
+      ],
+      "alts": [
+        "Pizza ist mein Lieblingsessen."
+      ],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-016",
+      "de": "Magst du Hamburger?",
+      "ar": "بتحب الهمبرجر؟",
+      "kind": "question",
+      "focus": [
+        "verb:mögen",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Magst",
+        "opts": [
+          "Magst",
+          "Mag",
+          "Mögt"
+        ],
+        "accept": [
+          "Liebst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-017",
+      "de": "Man isst in den USA gern Hamburger.",
+      "ar": "الناس في أمريكا بتحب تاكل همبرجر.",
+      "kind": "statement",
+      "focus": [
+        "man",
+        "country",
+        "food"
+      ],
+      "alts": [
+        "In den USA isst man gern Hamburger.",
+        "Hamburger isst man in den USA gern.",
+        "Gern isst man in den USA Hamburger.",
+        "In den USA isst man Hamburger gern.",
+        "Man isst in den USA Hamburger gern.",
+        "Man isst gern Hamburger in den USA.",
+        "Hamburger isst man gern in den USA.",
+        "Gern isst man Hamburger in den USA."
+      ],
+      "cloze": {
+        "word": "USA",
+        "opts": [
+          "USA",
+          "Japan",
+          "China"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-018",
+      "de": "Nächstes Jahr fliege ich nach China.",
+      "ar": "السنة الجاية هسافر الصين بالطيارة.",
+      "kind": "statement",
+      "focus": [
+        "word-order",
+        "time",
+        "verb:fliegen"
+      ],
+      "alts": [
+        "Ich fliege nächstes Jahr nach China.",
+        "Nach China fliege ich nächstes Jahr."
+      ],
+      "cloze": {
+        "word": "fliege",
+        "opts": [
+          "fliege",
+          "fliegst",
+          "fliegt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-019",
+      "de": "Singst du gern?",
+      "ar": "بتحب تغني؟",
+      "kind": "question",
+      "focus": [
+        "verb:singen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Singst",
+        "opts": [
+          "Singst",
+          "Singt",
+          "Singe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-020",
+      "de": "Nawin hat einen Job in Frankreich.",
+      "ar": "نافين عنده شغل في فرنسا.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "word-order"
+      ],
+      "alts": [
+        "Nawin hat in Frankreich einen Job.",
+        "In Frankreich hat Nawin einen Job.",
+        "Einen Job hat Nawin in Frankreich.",
+        "Einen Job in Frankreich hat Nawin."
+      ],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "hast",
+          "ist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-021",
+      "de": "Die Länder in Europa sind sehr verschieden.",
+      "ar": "البلاد في أوروبا مختلفة جدًا.",
+      "kind": "statement",
+      "focus": [
+        "country",
+        "plural"
+      ],
+      "alts": [
+        "In Europa sind die Länder sehr verschieden.",
+        "Sehr verschieden sind die Länder in Europa."
+      ],
+      "cloze": {
+        "word": "Länder",
+        "opts": [
+          "Länder",
+          "Land",
+          "Ländern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s19-022",
+      "de": "Dein Job in Frankreich ist cool.",
+      "ar": "شغلك في فرنسا جامد.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [
+        "Cool ist dein Job in Frankreich."
+      ],
+      "cloze": {
+        "word": "Job",
+        "opts": [
+          "Job",
+          "Jobs",
+          "Spezialität"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w19-01",
+      "q": "___ isst man in Spanien?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بياكلوا إيه في إسبانيا؟",
+      "reply": "In Spanien isst man Gazpacho.",
+      "reply_ar": "في إسبانيا بياكلوا جازباتشو."
+    },
+    {
+      "id": "w19-02",
+      "q": "___ Sprache spricht man in Österreich?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wer",
+        "Wo",
+        "Wie viel"
+      ],
+      "ar": "بيتكلموا أنهي لغة في النمسا؟",
+      "reply": "Man spricht Deutsch.",
+      "reply_ar": "بيتكلموا ألماني."
+    },
+    {
+      "id": "w19-03",
+      "q": "___ isst man Sushi?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "بياكلوا السوشي فين؟",
+      "reply": "In Japan.",
+      "reply_ar": "في اليابان."
+    },
+    {
+      "id": "w19-04",
+      "q": "___ fährst du nächstes Jahr?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "هتسافر فين السنة الجاية؟",
+      "reply": "Nach Norwegen.",
+      "reply_ar": "على النرويج."
+    },
+    {
+      "id": "w19-05",
+      "q": "___ fährt nächstes Jahr nach Norwegen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "مين مسافر النرويج السنة الجاية؟",
+      "reply": "Nina.",
+      "reply_ar": "نينا."
+    },
+    {
+      "id": "w19-06",
+      "q": "___ ist dein Lieblingsessen?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wohin",
+        "Warum"
+      ],
+      "ar": "أكلتك المفضلة إيه؟",
+      "reply": "Mein Lieblingsessen ist Sushi.",
+      "reply_ar": "أكلتي المفضلة السوشي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g19-1",
+      "h": "الضمير man = الناس / الواحد",
+      "body": "man معناها «الناس» أو «الواحد» بشكل عام، مش شخص معيّن. وحتى لو قصدك ناس كتير، الفعل بيتصرّف زي er / sie / es بالظبط، مش زي الجمع: man isst، man spricht، man trinkt. وبالمصري بنترجمها غالبًا بالجمع: In Italien isst man Pizza = في إيطاليا بياكلوا بيتزا. وخد بالك: man بـ n واحدة وبحرف صغير (إلا في أول الجملة) = الناس، لكن der Mann بـ nn وبحرف كبير دايمًا = راجل.",
+      "examples": [
+        {
+          "de": "Nico isst gern Gazpacho.",
+          "ar": "نيكو بيحب ياكل جازباتشو."
+        },
+        {
+          "de": "Er isst gern Gazpacho.",
+          "ar": "هو بيحب ياكل جازباتشو."
+        },
+        {
+          "de": "Man isst in Spanien gern Gazpacho.",
+          "ar": "في إسبانيا الناس بتحب تاكل جازباتشو."
+        },
+        {
+          "de": "In Österreich spricht man Deutsch.",
+          "ar": "في النمسا بيتكلموا ألماني."
+        }
+      ],
+      "table": [
+        [
+          "الفاعل",
+          "essen",
+          "sprechen",
+          "trinken"
+        ],
+        [
+          "er / sie / es",
+          "isst",
+          "spricht",
+          "trinkt"
+        ],
+        [
+          "man",
+          "isst",
+          "spricht",
+          "trinkt"
+        ],
+        [
+          "wir / sie (جمع)",
+          "essen",
+          "sprechen",
+          "trinken"
+        ]
+      ]
+    },
+    {
+      "id": "g19-2",
+      "h": "الجملة الخبرية: الفعل دايمًا في المكان التاني",
+      "body": "في الجملة الخبرية الفعل المصرّف مكانه ثابت: المكان التاني. الفاعل غالبًا بييجي الأول، بس مش شرط: ممكن نبدأ بالزمن (jetzt، nächstes Jahr) أو بالمكان (in Frankreich) أو حتى بالمفعول (Sushi)، حسب اللي عايز تركّز عليه. ساعتها الفاعل بيروح بعد الفعل على طول (المكان التالت). وin Frankreich كلمتين بس بيتحسبوا مكان واحد.",
+      "examples": [
+        {
+          "de": "Man isst in Frankreich gern Käse.",
+          "ar": "الناس في فرنسا بتحب تاكل جبنة. (الفاعل الأول)"
+        },
+        {
+          "de": "In Frankreich isst man gern Käse.",
+          "ar": "في فرنسا الناس بتحب تاكل جبنة. (المكان الأول)"
+        },
+        {
+          "de": "Jetzt wohne ich in Deutschland.",
+          "ar": "دلوقتي أنا ساكن في ألمانيا. (الزمن الأول)"
+        },
+        {
+          "de": "Sushi isst man in Japan.",
+          "ar": "السوشي بياكلوه في اليابان. (المفعول الأول)"
+        }
+      ],
+      "table": [
+        [
+          "1",
+          "2 (الفعل)",
+          "3",
+          "الباقي"
+        ],
+        [
+          "Man",
+          "isst",
+          "in Frankreich",
+          "gern Käse."
+        ],
+        [
+          "In Frankreich",
+          "isst",
+          "man",
+          "gern Käse."
+        ],
+        [
+          "Jetzt",
+          "wohne",
+          "ich",
+          "in Deutschland."
+        ],
+        [
+          "Nächstes Jahr",
+          "fahre",
+          "ich",
+          "nach Norwegen."
+        ],
+        [
+          "Sushi",
+          "isst",
+          "man",
+          "in Japan."
+        ]
+      ]
+    },
+    {
+      "id": "g19-3",
+      "h": "سؤال ولا خبر؟ نغمة الصوت",
+      "body": "نفس الجملة ممكن تبقى خبر أو سؤال، والفرق في نغمة الصوت في الآخر. Du wohnst in Frankreich. والصوت نازل = خبر. Und du wohnst in Frankreich? والصوت طالع = سؤال، بيبيّن إنك مستغرب أو عايز تتأكد (زي نيكو مع نافين). سؤال نعم/لا العادي بيبدأ بالفعل وصوته طالع: Wohnst du in Frankreich? أما سؤال W زي Wo wohnst du? فصوته غالبًا نازل.",
+      "examples": [
+        {
+          "de": "Du wohnst in Frankreich.",
+          "ar": "إنت ساكن في فرنسا. (خبر – الصوت نازل)"
+        },
+        {
+          "de": "Und du wohnst in Frankreich?",
+          "ar": "وإنت ساكن في فرنسا؟ (سؤال – الصوت طالع)"
+        },
+        {
+          "de": "Wohnst du in Frankreich?",
+          "ar": "إنت ساكن في فرنسا؟ (سؤال نعم/لا – الصوت طالع)"
+        },
+        {
+          "de": "Was isst man in Spanien?",
+          "ar": "بياكلوا إيه في إسبانيا؟ (سؤال W – الصوت غالبًا نازل)"
+        }
+      ],
+      "table": [
+        [
+          "النوع",
+          "مثال",
+          "الصوت في الآخر"
+        ],
+        [
+          "خبر",
+          "Du wohnst in Frankreich.",
+          "نازل"
+        ],
+        [
+          "سؤال بالنغمة بس",
+          "Du wohnst in Frankreich?",
+          "طالع"
+        ],
+        [
+          "سؤال نعم/لا",
+          "Wohnst du in Frankreich?",
+          "طالع"
+        ],
+        [
+          "سؤال W",
+          "Wo wohnst du?",
+          "غالبًا نازل"
+        ]
+      ]
+    },
+    {
+      "id": "g19-4",
+      "h": "تتكلّم عن البلاد والأكل",
+      "body": "أسماء البلاد غالبًا من غير أداة: in Japan، nach China، aus Italien. بس فيه بلاد دايمًا بأداة، زي die USA (جمع): in den USA، وdie Schweiz (مفرد): in der Schweiz. عشان تحكي عن بلدك قول Bei uns … = عندنا / في بلدنا. بتحب حاجة؟ mögen + اسم: Ich mag Deutschland. بتحب تعمل حاجة؟ الفعل + gern: Ich esse gern Käse. وأكلتك المفضلة = mein Lieblingsessen.",
+      "examples": [
+        {
+          "de": "Bei uns trinkt man viel Tee.",
+          "ar": "عندنا الناس بتشرب شاي كتير."
+        },
+        {
+          "de": "Man isst in den USA gern Hamburger.",
+          "ar": "الناس في أمريكا بتحب تاكل همبرجر."
+        },
+        {
+          "de": "Ich mag Deutschland. – Ich auch.",
+          "ar": "أنا بحب ألمانيا. – وأنا كمان."
+        },
+        {
+          "de": "Was ist dein Lieblingsessen? – Pizza.",
+          "ar": "أكلتك المفضلة إيه؟ – البيتزا."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "mögen"
+        ],
+        [
+          "ich",
+          "mag"
+        ],
+        [
+          "du",
+          "magst"
+        ],
+        [
+          "er / sie / es / man",
+          "mag"
+        ],
+        [
+          "wir",
+          "mögen"
+        ],
+        [
+          "ihr",
+          "mögt"
+        ],
+        [
+          "sie / Sie",
+          "mögen"
+        ]
+      ]
+    }
+  ]
+}

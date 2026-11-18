@@ -1,0 +1,791 @@
+{
+  "n": 61,
+  "sentences": [
+    {
+      "id": "s61-001",
+      "de": "Du musst die Schuhe nicht ausziehen.",
+      "ar": "مش لازم تقلع الجزمة.",
+      "kind": "statement",
+      "focus": [
+        "verb:ausziehen",
+        "separable",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Die Schuhe musst du nicht ausziehen."
+      ],
+      "cloze": {
+        "word": "ausziehen",
+        "opts": [
+          "ausziehen",
+          "ausgehen",
+          "aussehen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-002",
+      "de": "Ich suche nur mein Portemonnaie.",
+      "ar": "أنا بس بدوّر على محفظتي.",
+      "kind": "statement",
+      "focus": [
+        "verb:suchen",
+        "possessive"
+      ],
+      "alts": [
+        "Nur mein Portemonnaie suche ich."
+      ],
+      "cloze": {
+        "word": "mein",
+        "opts": [
+          "mein",
+          "meine",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-003",
+      "de": "Ich glaube, Nico hat es noch.",
+      "ar": "أظن إنها لسه مع نيكو.",
+      "kind": "statement",
+      "focus": [
+        "verb:glauben"
+      ],
+      "alts": [
+        "Nico hat es noch, glaube ich."
+      ],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "hast",
+          "habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-004",
+      "de": "Ich lebe seit fast einem Jahr in Deutschland.",
+      "ar": "بقالي تقريبًا سنة عايش في ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "verb:leben",
+        "time"
+      ],
+      "alts": [
+        "Seit fast einem Jahr lebe ich in Deutschland.",
+        "In Deutschland lebe ich seit fast einem Jahr."
+      ],
+      "cloze": {
+        "word": "seit",
+        "opts": [
+          "seit",
+          "vor",
+          "für"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-005",
+      "de": "Bist du alleine in Deutschland?",
+      "ar": "إنت لوحدك في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "verb:sein"
+      ],
+      "alts": [
+        "Bist du in Deutschland alleine?"
+      ],
+      "cloze": {
+        "word": "Bist",
+        "opts": [
+          "Bist",
+          "Ist",
+          "Seid"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-006",
+      "de": "Nein, ich bin mit meinen Eltern hier.",
+      "ar": "لأ، أنا هنا مع أبويا وأمي.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "dative",
+        "possessive"
+      ],
+      "alts": [
+        "Nein, ich bin hier mit meinen Eltern.",
+        "Nein, mit meinen Eltern bin ich hier."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meine",
+          "meiner",
+          "mein"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-007",
+      "de": "Und hast du Geschwister?",
+      "ar": "وعندك إخوات؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hast",
+        "opts": [
+          "hast",
+          "hat",
+          "habt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-008",
+      "de": "Ja, ich habe zwei ältere Brüder.",
+      "ar": "أيوه، عندي أخّين أكبر مني.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "plural",
+        "adjective"
+      ],
+      "alts": [
+        "Ja, zwei ältere Brüder habe ich."
+      ],
+      "cloze": {
+        "word": "Brüder",
+        "opts": [
+          "Brüder",
+          "Bruder",
+          "Brüdern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-009",
+      "de": "Meine Großeltern leben noch in Syrien.",
+      "ar": "جدّي وجدّتي لسه عايشين في سوريا.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "plural",
+        "verb:leben"
+      ],
+      "alts": [
+        "In Syrien leben meine Großeltern noch.",
+        "In Syrien leben noch meine Großeltern."
+      ],
+      "cloze": {
+        "word": "Großeltern",
+        "opts": [
+          "Großeltern",
+          "Großvater",
+          "Großmutter"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s61-010",
+      "de": "Wo ist Selmas Portemonnaie?",
+      "ar": "محفظة سلمى فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wo",
+        "opts": [
+          "Wo",
+          "Wohin",
+          "Wann",
+          "Wer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-011",
+      "de": "Das braune Portemonnaie ist in der Tasche.",
+      "ar": "المحفظة البني في الشنطة.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "dative"
+      ],
+      "alts": [
+        "In der Tasche ist das braune Portemonnaie."
+      ],
+      "cloze": {
+        "word": "braune",
+        "opts": [
+          "braune",
+          "braunes",
+          "braunen",
+          "brauner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-012",
+      "de": "Die Schuhe stehen im Flur.",
+      "ar": "الجزمة في الطرقة.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:stehen"
+      ],
+      "alts": [
+        "Im Flur stehen die Schuhe."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "ins",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-013",
+      "de": "Der kleine Junge ist mein Neffe.",
+      "ar": "الولد الصغير ده ابن أختي (أو أخويا).",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "family"
+      ],
+      "alts": [
+        "Mein Neffe ist der kleine Junge."
+      ],
+      "cloze": {
+        "word": "Neffe",
+        "opts": [
+          "Neffe",
+          "Nichte",
+          "Tante"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-014",
+      "de": "Das kleine Mädchen ist meine Nichte.",
+      "ar": "البنت الصغيرة دي بنت أخويا (أو أختي).",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "family"
+      ],
+      "alts": [
+        "Meine Nichte ist das kleine Mädchen."
+      ],
+      "cloze": {
+        "word": "kleine",
+        "opts": [
+          "kleine",
+          "kleines",
+          "kleinen",
+          "kleiner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-015",
+      "de": "Kennst du den jungen Mann?",
+      "ar": "تعرف الشاب ده؟",
+      "kind": "question",
+      "focus": [
+        "adjective",
+        "accusative",
+        "verb:kennen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "jungen",
+        "opts": [
+          "jungen",
+          "junge",
+          "junger",
+          "junges"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-016",
+      "de": "Die kleinen Kinder sind meine Enkelkinder.",
+      "ar": "العيال الصغيرين دول أحفادي.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "plural",
+        "family"
+      ],
+      "alts": [
+        "Meine Enkelkinder sind die kleinen Kinder."
+      ],
+      "cloze": {
+        "word": "kleinen",
+        "opts": [
+          "kleinen",
+          "kleine",
+          "kleiner",
+          "kleines"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-017",
+      "de": "Mein kleiner Bruder ist acht Jahre alt.",
+      "ar": "أخويا الصغير عنده تمن سنين.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "possessive",
+        "family"
+      ],
+      "alts": [
+        "Acht Jahre alt ist mein kleiner Bruder."
+      ],
+      "cloze": {
+        "word": "kleiner",
+        "opts": [
+          "kleiner",
+          "kleine",
+          "kleinen",
+          "kleines"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-018",
+      "de": "Ich habe keinen großen Bruder.",
+      "ar": "معنديش أخ كبير.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "negation",
+        "accusative"
+      ],
+      "alts": [
+        "Keinen großen Bruder habe ich."
+      ],
+      "cloze": {
+        "word": "großen",
+        "opts": [
+          "großen",
+          "großer",
+          "große",
+          "großes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-019",
+      "de": "Bist du verheiratet?",
+      "ar": "إنت متجوز؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "src": "authored"
+    },
+    {
+      "id": "s61-020",
+      "de": "Nein, ich bin ledig.",
+      "ar": "لأ، أنا مش متجوز.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bin",
+        "opts": [
+          "bin",
+          "habe",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-021",
+      "de": "Ich bin verheiratet und habe einen Sohn.",
+      "ar": "أنا متجوز وعندي ابن.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "article",
+        "verb:haben"
+      ],
+      "alts": [
+        "Ich habe einen Sohn und bin verheiratet."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s61-022",
+      "de": "Nico zieht das Jackett aus.",
+      "ar": "نيكو بيقلع الجاكيت.",
+      "kind": "statement",
+      "focus": [
+        "verb:ausziehen",
+        "separable",
+        "article"
+      ],
+      "alts": [
+        "Das Jackett zieht Nico aus."
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w61-01",
+      "q": "___ kommst du?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wo",
+        "Wer",
+        "Welche"
+      ],
+      "ar": "إنت منين؟",
+      "reply": "Ich komme aus Syrien.",
+      "reply_ar": "أنا من سوريا."
+    },
+    {
+      "id": "w61-02",
+      "q": "___ Geschwister hast du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "عندك كام أخ وأخت؟",
+      "reply": "Ich habe zwei ältere Brüder.",
+      "reply_ar": "عندي أخّين أكبر مني."
+    },
+    {
+      "id": "w61-03",
+      "q": "___ wohnen deine Großeltern?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wann",
+        "Wer"
+      ],
+      "ar": "جدّك وجدّتك ساكنين فين؟",
+      "reply": "Auf dem Land.",
+      "reply_ar": "في الريف."
+    },
+    {
+      "id": "w61-04",
+      "q": "___ ist das kleine Mädchen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wann",
+        "Warum",
+        "Wie viele"
+      ],
+      "ar": "مين البنت الصغيرة دي؟",
+      "reply": "Das ist meine Nichte.",
+      "reply_ar": "دي بنت أخويا (أو أختي)."
+    },
+    {
+      "id": "w61-05",
+      "q": "___ alt ist dein kleiner Bruder?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "أخوك الصغير عنده كام سنة؟",
+      "reply": "Er ist acht Jahre alt.",
+      "reply_ar": "عنده تمن سنين."
+    },
+    {
+      "id": "w61-06",
+      "q": "___ Farbe hat das Jackett?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wie",
+        "Wer"
+      ],
+      "ar": "الجاكيت لونه إيه؟",
+      "reply": "Es ist pink.",
+      "reply_ar": "لونه بمبي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g61-1",
+      "h": "الصفة بعد der / die / das: -e أو -en",
+      "body": "لو قبل الاسم der / die / das، نهاية الصفة بتبقى -e أو -en بس (مش زي ein). في الرفع (Nominativ) المفرد كله -e: der kleine Junge، die schwarze Tasche، das braune Portemonnaie. وفي النصب (Akkusativ) المذكّر بس اللي بيبقى -en: Kennst du den jungen Mann? والمؤنّث والمحايد زي ما هم. والجمع دايمًا -en: die kleinen Kinder.",
+      "examples": [
+        {
+          "de": "Das braune Portemonnaie ist in der Tasche.",
+          "ar": "المحفظة البني في الشنطة. (محايد رفع: -e)"
+        },
+        {
+          "de": "Kennst du den jungen Mann?",
+          "ar": "تعرف الشاب ده؟ (مذكّر نصب: -en)"
+        },
+        {
+          "de": "Die kleinen Kinder sind meine Enkelkinder.",
+          "ar": "العيال الصغيرين دول أحفادي. (جمع: -en)"
+        },
+        {
+          "de": "Nico findet das gestreifte Hemd nicht so schön.",
+          "ar": "نيكو شايف القميص المقلّم مش حلو أوي. (محايد نصب: -e برضه)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "مذكّر",
+          "der schicke Pullover",
+          "den schicken Pullover"
+        ],
+        [
+          "مؤنّث",
+          "die schicke Hose",
+          "die schicke Hose"
+        ],
+        [
+          "محايد",
+          "das schicke Hemd",
+          "das schicke Hemd"
+        ],
+        [
+          "جمع",
+          "die schicken Schuhe",
+          "die schicken Schuhe"
+        ]
+      ]
+    },
+    {
+      "id": "g61-2",
+      "h": "الصفة بعد mein / dein / kein",
+      "body": "بعد mein و dein و sein و kein: في المفرد الصفة بتاخد نفس نهايات ein اللي خدناها في درس 57: mein kleiner Bruder، meine kleine Schwester، mein kleines Kind، وفي النصب: keinen großen Bruder. لكن في الجمع بتاخد -en زي بعد die: meine kleinen Brüder، keine schicken Schuhe. والجمع من غير أداة (حتى بعد رقم) بياخد -e: zwei ältere Brüder (ältere = أكبر).",
+      "examples": [
+        {
+          "de": "Mein kleiner Bruder ist acht Jahre alt.",
+          "ar": "أخويا الصغير عنده تمن سنين. (مذكّر رفع: -er)"
+        },
+        {
+          "de": "Ich habe keinen großen Bruder.",
+          "ar": "معنديش أخ كبير. (مذكّر نصب: -en)"
+        },
+        {
+          "de": "Meine kleinen Brüder spielen Fußball.",
+          "ar": "إخواتي الصغيرين بيلعبوا كورة. (جمع: -en)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "مذكّر",
+          "kein schicker Pullover",
+          "keinen schicken Pullover"
+        ],
+        [
+          "مؤنّث",
+          "keine schicke Hose",
+          "keine schicke Hose"
+        ],
+        [
+          "محايد",
+          "kein schickes Hemd",
+          "kein schickes Hemd"
+        ],
+        [
+          "جمع",
+          "keine schicken Schuhe",
+          "keine schicken Schuhe"
+        ]
+      ]
+    },
+    {
+      "id": "g61-3",
+      "h": "Wo? + Dativ (مراجعة)",
+      "body": "بعد in، an، auf، unter، über، vor، hinter، neben، zwischen: لما السؤال Wo? (فين؟) والحاجة ثابتة في مكانها بييجي Dativ: der و das بيبقوا dem، و die بتبقى der، والجمع den والاسم بياخد -n (den Büchern). واختصار: in + dem = im، an + dem = am. لكن مع الحركة (Wohin?) بييجي Akkusativ: سلمى حطّت المحفظة in die schwarze Tasche (زي ما خدنا في درس 44).",
+      "examples": [
+        {
+          "de": "Wo ist Selmas Portemonnaie? – Auf dem Stuhl.",
+          "ar": "محفظة سلمى فين؟ – على الكرسي."
+        },
+        {
+          "de": "Die Schuhe stehen im Flur.",
+          "ar": "الجزمة في الطرقة. (in + dem = im)"
+        },
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "ar": "جدّي وجدّتي ساكنين في الريف."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Wo? → auf + Dativ"
+        ],
+        [
+          "der Stuhl",
+          "auf dem Stuhl"
+        ],
+        [
+          "die Tasche",
+          "auf der Tasche"
+        ],
+        [
+          "das Bett",
+          "auf dem Bett"
+        ],
+        [
+          "die Bücher (جمع)",
+          "auf den Büchern"
+        ]
+      ]
+    },
+    {
+      "id": "g61-4",
+      "h": "تتكلم عن عيلتك",
+      "body": "تسأل: Hast du Geschwister? وترد: Ja, ich habe zwei Brüder. أو: Nein, ich habe keine Geschwister. و die Geschwister = الإخوات (ولاد وبنات)، die Eltern = الأب والأم، die Großeltern = الجد والجدة. وخد بالك: das Mädchen محايد مع إنها بنت. والحالة الاجتماعية اللي بتتسأل في أي استمارة بتيجي بعد sein من غير نهاية: ledig، verheiratet، geschieden، verwitwet. و tot = متوفي.",
+      "examples": [
+        {
+          "de": "Und hast du Geschwister? – Ja, ich habe zwei ältere Brüder.",
+          "ar": "وعندك إخوات؟ – أيوه، عندي أخّين أكبر مني."
+        },
+        {
+          "de": "Bist du verheiratet? – Nein, ich bin ledig.",
+          "ar": "إنت متجوز؟ – لأ، أنا مش متجوز."
+        },
+        {
+          "de": "Das kleine Mädchen ist meine Nichte.",
+          "ar": "البنت الصغيرة دي بنت أخويا (أو أختي). (das Mädchen محايد)"
+        },
+        {
+          "de": "Meine Oma ist verwitwet.",
+          "ar": "جدتي أرملة."
+        }
+      ],
+      "table": [
+        [
+          "ذكر",
+          "أنثى",
+          "الاتنين (جمع)"
+        ],
+        [
+          "der Vater",
+          "die Mutter",
+          "die Eltern"
+        ],
+        [
+          "der Bruder",
+          "die Schwester",
+          "die Geschwister"
+        ],
+        [
+          "der Sohn",
+          "die Tochter",
+          "die Kinder"
+        ],
+        [
+          "der Junge",
+          "das Mädchen",
+          "die Kinder"
+        ],
+        [
+          "der Großvater / der Opa",
+          "die Großmutter / die Oma",
+          "die Großeltern"
+        ],
+        [
+          "der Enkelsohn",
+          "die Enkeltochter",
+          "die Enkelkinder"
+        ],
+        [
+          "der Neffe",
+          "die Nichte",
+          "Neffen und Nichten"
+        ],
+        [
+          "der Onkel",
+          "die Tante",
+          "Onkel und Tanten"
+        ],
+        [
+          "der Cousin",
+          "die Cousine",
+          "Cousins und Cousinen"
+        ]
+      ]
+    }
+  ]
+}

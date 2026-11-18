@@ -1,0 +1,355 @@
+{
+  "n": 69,
+  "sentences": [
+    {
+      "id": "s69-001",
+      "de": "Geht es dir gut?",
+      "ar": "إنت كويس؟",
+      "kind": "question",
+      "focus": ["health", "pronoun"],
+      "alts": [],
+      "cloze": { "word": "dir", "opts": ["dir", "dich", "du"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-002",
+      "de": "Ich habe Schmerzen.",
+      "ar": "عندي وجع.",
+      "kind": "answer",
+      "focus": ["health", "verb:haben"],
+      "alts": ["Schmerzen habe ich."],
+      "cloze": { "word": "habe", "opts": ["habe", "bin", "hat"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-003",
+      "de": "Wo tut es denn genau weh?",
+      "ar": "هو بيوجعك فين بالظبط؟",
+      "kind": "question",
+      "focus": ["verb:wehtun", "w-frage"],
+      "alts": ["Wo genau tut es denn weh?"],
+      "cloze": { "word": "tut", "opts": ["tut", "tun", "tust"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-004",
+      "de": "Ist es das Knie oder das Bein?",
+      "ar": "هي الركبة ولا الرجل؟",
+      "kind": "question",
+      "focus": ["body", "article"],
+      "alts": ["Ist es das Bein oder das Knie?"],
+      "cloze": { "word": "Knie", "opts": ["Knie", "Fuß", "Hand"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-005",
+      "de": "Haben wir etwas zum Kühlen?",
+      "ar": "عندنا حاجة نبرّد بيها؟",
+      "kind": "question",
+      "focus": ["verb:kühlen", "verb:haben"],
+      "alts": [],
+      "cloze": { "word": "Haben", "opts": ["Haben", "Hat", "Habt"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-006",
+      "de": "Ich habe mich auch verletzt.",
+      "ar": "أنا كمان اتعوّرت.",
+      "kind": "statement",
+      "focus": ["verb:verletzen", "perfect"],
+      "alts": ["Auch ich habe mich verletzt."],
+      "cloze": { "word": "mich", "opts": ["mich", "mir", "sich"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-007",
+      "de": "Ich hatte sehr starke Schmerzen am Arm.",
+      "ar": "كان عندي وجع جامد أوي في دراعي.",
+      "kind": "statement",
+      "focus": ["health", "adjective"],
+      "alts": ["Ich hatte am Arm sehr starke Schmerzen.", "Am Arm hatte ich sehr starke Schmerzen.", "Sehr starke Schmerzen hatte ich am Arm."],
+      "cloze": { "word": "starke", "opts": ["starke", "stark", "starken"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-008",
+      "de": "Ich bin zum Arzt gegangen.",
+      "ar": "رحت للدكتور.",
+      "kind": "statement",
+      "focus": ["perfect", "verb:gehen"],
+      "alts": ["Zum Arzt bin ich gegangen."],
+      "cloze": { "word": "bin", "opts": ["bin", "habe", "ist"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-009",
+      "de": "Ich glaube, ich habe noch Schmerztabletten.",
+      "ar": "أظن لسه عندي مسكّنات.",
+      "kind": "statement",
+      "focus": ["verb:glauben", "health"],
+      "alts": ["Ich habe noch Schmerztabletten, glaube ich.", "Ich glaube, Schmerztabletten habe ich noch."],
+      "cloze": { "word": "glaube", "opts": ["glaube", "glaubst", "glaubt"], "accept": ["denke"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-010",
+      "de": "Wir bringen dich zum Arzt.",
+      "ar": "هنوديك للدكتور.",
+      "kind": "statement",
+      "focus": ["verb:bringen", "pronoun"],
+      "alts": ["Zum Arzt bringen wir dich.", "Dich bringen wir zum Arzt."],
+      "cloze": { "word": "dich", "opts": ["dich", "dir", "du"] },
+      "src": "episode"
+    },
+    {
+      "id": "s69-011",
+      "de": "Was ist denn los?",
+      "ar": "مالك؟ فيه إيه؟",
+      "kind": "question",
+      "focus": ["w-frage", "health"],
+      "alts": [],
+      "cloze": { "word": "ist", "opts": ["ist", "bist", "hat"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-012",
+      "de": "Zeig mal deinen Fuß!",
+      "ar": "وريني رجلك كده!",
+      "kind": "statement",
+      "focus": ["imperative", "body"],
+      "alts": ["Zeig deinen Fuß mal!"],
+      "cloze": { "word": "deinen", "opts": ["deinen", "dein", "deine"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-013",
+      "de": "Dein Fuß ist dick. Du musst ihn kühlen.",
+      "ar": "رجلك وارمة. لازم تبرّدها.",
+      "kind": "statement",
+      "focus": ["verb:müssen", "verb:kühlen"],
+      "alts": [],
+      "cloze": { "word": "musst", "opts": ["musst", "muss", "müsst"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-014",
+      "de": "Die Wunde blutet. Soll ich ein Pflaster holen?",
+      "ar": "الجرح بينزف. تحب أجيب بلاستر؟",
+      "kind": "question",
+      "focus": ["verb:bluten", "verb:sollen"],
+      "alts": ["Soll ich ein Pflaster holen? Die Wunde blutet."],
+      "cloze": { "word": "blutet", "opts": ["blutet", "bluten", "blutest"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-015",
+      "de": "Der Arzt sagt, ich soll im Bett bleiben.",
+      "ar": "الدكتور بيقول المفروض أقعد في السرير.",
+      "kind": "statement",
+      "focus": ["verb:sollen", "health"],
+      "alts": ["Ich soll im Bett bleiben, sagt der Arzt."],
+      "cloze": { "word": "soll", "opts": ["soll", "sollst", "sollen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-016",
+      "de": "Ich bin schon wieder erkältet.",
+      "ar": "أنا واخد برد تاني.",
+      "kind": "answer",
+      "focus": ["health", "verb:sein"],
+      "alts": ["Schon wieder bin ich erkältet."],
+      "cloze": { "word": "erkältet", "opts": ["erkältet", "Erkältung", "Schnupfen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-017",
+      "de": "Ich habe Husten und Schnupfen.",
+      "ar": "عندي كحة ورشح.",
+      "kind": "answer",
+      "focus": ["health", "verb:haben"],
+      "alts": ["Ich habe Schnupfen und Husten."],
+      "cloze": { "word": "Husten", "opts": ["Husten", "erkältet", "krank"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-018",
+      "de": "Deine Stirn ist heiß. Hast du Fieber?",
+      "ar": "جبهتك سخنة. عندك سخونية؟",
+      "kind": "question",
+      "focus": ["body", "health"],
+      "alts": ["Hast du Fieber? Deine Stirn ist heiß."],
+      "cloze": { "word": "Stirn", "opts": ["Stirn", "Kopf", "Bauch"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-019",
+      "de": "Du musst mehr für dein Immunsystem tun.",
+      "ar": "لازم تهتم بمناعتك أكتر.",
+      "kind": "statement",
+      "focus": ["verb:müssen", "article"],
+      "alts": ["Du musst für dein Immunsystem mehr tun.", "Für dein Immunsystem musst du mehr tun."],
+      "cloze": { "word": "dein", "opts": ["dein", "deine", "deinen"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-020",
+      "de": "Nico ist beim Fußball gestürzt.",
+      "ar": "نيكو وقع وهو بيلعب كورة.",
+      "kind": "statement",
+      "focus": ["verb:stürzen", "perfect"],
+      "alts": ["Beim Fußball ist Nico gestürzt."],
+      "cloze": { "word": "ist", "opts": ["ist", "hat", "sind"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-021",
+      "de": "Lisa sagt, du sollst eine Schmerztablette nehmen.",
+      "ar": "ليزا بتقول المفروض تاخد حباية مسكّن.",
+      "kind": "statement",
+      "focus": ["verb:sollen", "health"],
+      "alts": ["Du sollst eine Schmerztablette nehmen, sagt Lisa."],
+      "cloze": { "word": "sollst", "opts": ["sollst", "soll", "sollt"] },
+      "src": "authored"
+    },
+    {
+      "id": "s69-022",
+      "de": "Mein Daumen ist geschwollen. Was soll ich machen?",
+      "ar": "صباع إيدي الكبير وارم. المفروض أعمل إيه؟",
+      "kind": "question",
+      "focus": ["body", "verb:sollen"],
+      "alts": ["Was soll ich machen? Mein Daumen ist geschwollen."],
+      "cloze": { "word": "Mein", "opts": ["Mein", "Meine", "Meinen"] },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w69-01",
+      "q": "___ tut es denn genau weh?",
+      "answer": "Wo",
+      "opts": ["Wo", "Wer", "Woher", "Wie viele"],
+      "ar": "هو بيوجعك فين بالظبط؟",
+      "reply": "Mein Knie tut weh.",
+      "reply_ar": "ركبتي بتوجعني."
+    },
+    {
+      "id": "w69-02",
+      "q": "___ ist denn los?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Wie"],
+      "ar": "مالك؟ فيه إيه؟",
+      "reply": "Ich habe eine Erkältung.",
+      "reply_ar": "عندي برد."
+    },
+    {
+      "id": "w69-03",
+      "q": "___ ist das passiert?",
+      "answer": "Wie",
+      "opts": ["Wie", "Wer", "Woher", "Wie viele"],
+      "ar": "ده حصل إزاي؟",
+      "reply": "Ich bin beim Fußball gestürzt.",
+      "reply_ar": "وقعت وأنا بلعب كورة."
+    },
+    {
+      "id": "w69-04",
+      "q": "___ soll ich machen?",
+      "answer": "Was",
+      "opts": ["Was", "Wer", "Wo", "Woher"],
+      "ar": "المفروض أعمل إيه؟",
+      "reply": "Bleib im Bett und trink viel Tee.",
+      "reply_ar": "خليك في السرير واشرب شاي كتير."
+    },
+    {
+      "id": "w69-05",
+      "q": "___ hast du schon Fieber?",
+      "answer": "Wie lange",
+      "opts": ["Wie lange", "Wie viel", "Wer", "Wo"],
+      "ar": "بقالك قد إيه عندك سخونية؟",
+      "reply": "Seit zwei Tagen.",
+      "reply_ar": "بقالي يومين."
+    },
+    {
+      "id": "w69-06",
+      "q": "___ hast du so schlechte Laune?",
+      "answer": "Warum",
+      "opts": ["Warum", "Wer", "Wo", "Wie viele"],
+      "ar": "مزاجك وحش كده ليه؟",
+      "reply": "Mein Kopf tut weh.",
+      "reply_ar": "دماغي بتوجعني."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g69-1",
+      "h": "müssen ولا sollen؟",
+      "body": "الاتنين معناهم إن فيه حاجة لازم تتعمل، والفرق: مين اللي عايزها؟ müssen = لازم: ضرورة، الموقف نفسه بيفرضها، ولو ماعملتهاش هتحصل مشكلة: Nico muss zum Arzt gehen (وإلا الوجع هيزيد). أما sollen = المفروض: حد تاني (طارق، الدكتور، ماما) هو اللي طلب أو نصح، وإنت تقرر هي مهمة ولا لأ: Nico soll den Fuß kühlen (طارق قال كده). عشان كده لما تحكي كلام حد، استخدم sollen.",
+      "examples": [
+        { "de": "Nico muss zum Arzt gehen.", "ar": "نيكو لازم يروح للدكتور (ضرورة، وإلا الوجع هيزيد)." },
+        { "de": "Nico soll den Fuß kühlen.", "ar": "المفروض نيكو يبرّد رجله (طارق أو الدكتور قال كده)." },
+        { "de": "Der Arzt sagt, ich soll im Bett bleiben.", "ar": "الدكتور بيقول المفروض أقعد في السرير." },
+        { "de": "Ich muss zum Arzt gehen. – Ich soll zum Arzt gehen.", "ar": "لازم أروح للدكتور (أنا شايف كده). – المفروض أروح للدكتور (حد قالّي كده)." }
+      ],
+      "table": [
+        ["", "müssen", "sollen"],
+        ["بالمصري", "لازم", "المفروض"],
+        ["مين عايز كده؟", "الموقف نفسه / أنا", "حد تاني: الدكتور، ماما، صاحبك"],
+        ["لو ماعملتهاش؟", "هتحصل مشكلة", "إنت تقرر هي مهمة ولا لأ"],
+        ["مثال", "Ich muss eine Schmerztablette nehmen.", "Lisa sagt, du sollst eine Schmerztablette nehmen."]
+      ]
+    },
+    {
+      "id": "g69-2",
+      "h": "تحكي كلام حد: فعل الأمر ← sollen",
+      "body": "لو حد قال فعل أمر (درس 68) أو نصيحة، وإنت بتحكيه، بتحوّله لـ sollen: «Kühl den Fuß!» بتبقى: Lisa sagt, ich soll den Fuß kühlen. sollen بيتصرّف مع اللي هيعمل الحاجة (ich soll، du sollst)، والفعل التاني بيروح آخر الجملة مصدر. وفي السؤال: Soll ich …? = تحب أ…؟ (عرض مساعدة)، و Was soll ich machen? = أعمل إيه؟ (طلب نصيحة).",
+      "examples": [
+        { "de": "Kühl den Fuß! – Lisa sagt, ich soll den Fuß kühlen.", "ar": "برّد رجلك! – ليزا بتقول المفروض أبرّد رجلي." },
+        { "de": "Nimm eine Schmerztablette! – Lisa sagt, du sollst eine Schmerztablette nehmen.", "ar": "خد حباية مسكّن! – ليزا بتقول المفروض تاخد حباية مسكّن." },
+        { "de": "Die Wunde blutet. Soll ich ein Pflaster holen?", "ar": "الجرح بينزف. تحب أجيب بلاستر؟" }
+      ],
+      "table": [
+        ["", "müssen", "sollen"],
+        ["ich", "muss", "soll"],
+        ["du", "musst", "sollst"],
+        ["er / sie / es", "muss", "soll"],
+        ["wir", "müssen", "sollen"],
+        ["ihr", "müsst", "sollt"],
+        ["sie / Sie", "müssen", "sollen"]
+      ]
+    },
+    {
+      "id": "g69-3",
+      "h": "تقول إنك عيّان: haben ولا sein؟",
+      "body": "المرض اللي هو اسم بييجي مع haben، وغالبًا من غير أداة: Ich habe Fieber / Husten / Schnupfen / Schmerzen. بس die Erkältung بأداة: Ich habe eine Erkältung. والصفة بتيجي مع sein: Ich bin krank / erkältet، Mein Fuß ist dick / geschwollen. وخد بالك: Ich bin erkältet = Ich habe eine Erkältung (نفس المعنى).",
+      "examples": [
+        { "de": "Ich habe Husten und Schnupfen.", "ar": "عندي كحة ورشح." },
+        { "de": "Ich bin schon wieder erkältet.", "ar": "أنا واخد برد تاني." },
+        { "de": "Deine Stirn ist heiß. Hast du Fieber?", "ar": "جبهتك سخنة. عندك سخونية؟" }
+      ],
+      "table": [
+        ["haben + اسم", "sein + صفة"],
+        ["Ich habe Fieber.", "Ich bin krank."],
+        ["Ich habe Husten.", "Ich bin erkältet."],
+        ["Ich habe Schnupfen.", "Mein Fuß ist dick."],
+        ["Ich habe eine Erkältung.", "Mein Knie ist geschwollen."],
+        ["Ich habe starke Schmerzen.", "Die Verletzung ist nicht schlimm."]
+      ]
+    },
+    {
+      "id": "g69-4",
+      "h": "wehtun: إيه اللي بيوجعك؟",
+      "body": "wehtun = يوجع، وبينفصل زي aufstehen: tut … weh. الفاعل هو الحتة اللي بتوجع، فالفعل بيتصرّف معاها: Mein Fuß tut weh، بس في الجمع: Meine Füße tun weh. وعشان تسأل: Wo tut es weh? أو Was tut dir weh? وكمان بنقول: Mir tut der Fuß weh = Mein Fuß tut weh.",
+      "examples": [
+        { "de": "Wo tut es denn genau weh?", "ar": "هو بيوجعك فين بالظبط؟" },
+        { "de": "Mein Fuß tut sehr weh.", "ar": "رجلي بتوجعني أوي." },
+        { "de": "Meine Füße tun weh.", "ar": "رجليا بتوجعني." }
+      ],
+      "table": [
+        ["الحتة", "بتوجع"],
+        ["der Daumen", "Mein Daumen tut weh."],
+        ["die Hand", "Meine Hand tut weh."],
+        ["das Knie", "Mein Knie tut weh."],
+        ["die Füße (جمع)", "Meine Füße tun weh."]
+      ]
+    }
+  ]
+}

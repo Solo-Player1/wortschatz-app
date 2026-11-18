@@ -1,0 +1,720 @@
+{
+  "n": 43,
+  "sentences": [
+    {
+      "id": "s43-001",
+      "de": "Wie kommt ihr jetzt nach Hause?",
+      "ar": "هتروّحوا إزاي دلوقتي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "transport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kommt",
+        "opts": [
+          "kommt",
+          "kommst",
+          "kommen"
+        ],
+        "accept": [
+          "fahrt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-002",
+      "de": "Fahrt ihr nicht mit dem Bus?",
+      "ar": "إنتوا مش رايحين بالأتوبيس؟",
+      "kind": "question",
+      "focus": [
+        "mit",
+        "dative",
+        "transport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "der",
+          "den",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-003",
+      "de": "Wir fahren mit der U-Bahn bis zur Uni.",
+      "ar": "هنروح بالمترو لحد الجامعة.",
+      "kind": "answer",
+      "focus": [
+        "mit",
+        "dative",
+        "transport"
+      ],
+      "alts": [
+        "Mit der U-Bahn fahren wir bis zur Uni.",
+        "Bis zur Uni fahren wir mit der U-Bahn.",
+        "Wir fahren bis zur Uni mit der U-Bahn."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "dem",
+          "die",
+          "den"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-004",
+      "de": "Den Rest gehen wir zu Fuß.",
+      "ar": "الباقي هنمشيه على رجلينا.",
+      "kind": "statement",
+      "focus": [
+        "transport",
+        "word-order"
+      ],
+      "alts": [
+        "Wir gehen den Rest zu Fuß.",
+        "Zu Fuß gehen wir den Rest."
+      ],
+      "cloze": {
+        "word": "zu",
+        "opts": [
+          "zu",
+          "mit",
+          "von"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-005",
+      "de": "Oder fahren wir mit der Straßenbahn?",
+      "ar": "ولا نروح بالترام؟",
+      "kind": "question",
+      "focus": [
+        "mit",
+        "dative",
+        "transport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Straßenbahn",
+        "opts": [
+          "Straßenbahn",
+          "Bus",
+          "Auto"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-006",
+      "de": "Mit der Straßenbahn!",
+      "ar": "بالترام!",
+      "kind": "answer",
+      "focus": [
+        "mit",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "dem",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-007",
+      "de": "Die nächste Haltestelle ist hinter der Kreuzung.",
+      "ar": "أقرب محطة ورا التقاطع.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "place"
+      ],
+      "alts": [
+        "Hinter der Kreuzung ist die nächste Haltestelle."
+      ],
+      "cloze": {
+        "word": "Haltestelle",
+        "opts": [
+          "Haltestelle",
+          "Fahrplan",
+          "Bus"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-008",
+      "de": "Es war hoffentlich schön bei mir.",
+      "ar": "أتمنى إن القعدة عندي كانت حلوة.",
+      "kind": "statement",
+      "focus": [
+        "hoffentlich",
+        "word-order"
+      ],
+      "alts": [
+        "Hoffentlich war es schön bei mir.",
+        "Hoffentlich war es bei mir schön.",
+        "Bei mir war es hoffentlich schön.",
+        "Es war hoffentlich bei mir schön.",
+        "Es war bei mir hoffentlich schön.",
+        "Schön war es hoffentlich bei mir."
+      ],
+      "cloze": {
+        "word": "hoffentlich",
+        "opts": [
+          "hoffentlich",
+          "hoffe",
+          "pünktlich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s43-009",
+      "de": "Wie kommst du zur Arbeit?",
+      "ar": "بتروح الشغل إزاي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "transport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zur",
+        "opts": [
+          "zur",
+          "zum",
+          "zu"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-010",
+      "de": "Ich fahre mit dem Motorrad zur Arbeit.",
+      "ar": "أنا بروح الشغل بالموتوسيكل.",
+      "kind": "answer",
+      "focus": [
+        "mit",
+        "dative",
+        "transport"
+      ],
+      "alts": [
+        "Mit dem Motorrad fahre ich zur Arbeit.",
+        "Zur Arbeit fahre ich mit dem Motorrad.",
+        "Ich fahre zur Arbeit mit dem Motorrad."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "das",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-011",
+      "de": "Fahren Sie mit der Bahn oder mit dem Auto?",
+      "ar": "حضرتك هتروح بالقطر ولا بالعربية؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "mit",
+        "dative",
+        "polite"
+      ],
+      "alts": [
+        "Fahren Sie mit dem Auto oder mit der Bahn?"
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-012",
+      "de": "Ich wohne mit meiner Familie in Kairo.",
+      "ar": "أنا ساكن مع عيلتي في القاهرة.",
+      "kind": "statement",
+      "focus": [
+        "mit",
+        "dative",
+        "possessive"
+      ],
+      "alts": [
+        "Mit meiner Familie wohne ich in Kairo.",
+        "In Kairo wohne ich mit meiner Familie.",
+        "Ich wohne in Kairo mit meiner Familie."
+      ],
+      "cloze": {
+        "word": "meiner",
+        "opts": [
+          "meiner",
+          "meine",
+          "meinem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-013",
+      "de": "Wie lange dauert die Fahrt?",
+      "ar": "المشوار بياخد قد إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:dauern"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "lange",
+        "opts": [
+          "lange",
+          "viel",
+          "alt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-014",
+      "de": "Der Fahrplan hängt an der Haltestelle.",
+      "ar": "جدول المواعيد متعلّق في المحطة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "dative",
+        "place"
+      ],
+      "alts": [
+        "An der Haltestelle hängt der Fahrplan."
+      ],
+      "cloze": {
+        "word": "Fahrplan",
+        "opts": [
+          "Fahrplan",
+          "Fahrkarte",
+          "Richtung"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-015",
+      "de": "Wo muss ich umsteigen?",
+      "ar": "لازم أحوّل فين؟",
+      "kind": "question",
+      "focus": [
+        "verb:umsteigen",
+        "separable",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "umsteigen",
+        "opts": [
+          "umsteigen",
+          "umsteige",
+          "steige"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-016",
+      "de": "Am Bahnhof steigen wir um.",
+      "ar": "هنحوّل في محطة القطر.",
+      "kind": "answer",
+      "focus": [
+        "verb:umsteigen",
+        "separable",
+        "word-order"
+      ],
+      "alts": [
+        "Wir steigen am Bahnhof um."
+      ],
+      "cloze": {
+        "word": "steigen",
+        "opts": [
+          "steigen",
+          "steigt",
+          "steige"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-017",
+      "de": "Wann kommen wir in Berlin an?",
+      "ar": "هنوصل برلين إمتى؟",
+      "kind": "question",
+      "focus": [
+        "verb:ankommen",
+        "separable",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kommen",
+        "opts": [
+          "kommen",
+          "kommt",
+          "kommst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-018",
+      "de": "Ich möchte eine Fahrkarte hin und zurück.",
+      "ar": "عايز تذكرة رايح جاي.",
+      "kind": "statement",
+      "focus": [
+        "transport",
+        "order"
+      ],
+      "alts": [
+        "Eine Fahrkarte hin und zurück möchte ich."
+      ],
+      "cloze": {
+        "word": "zurück",
+        "opts": [
+          "zurück",
+          "links",
+          "geradeaus"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-019",
+      "de": "Kann ich beim Fahrer eine Fahrkarte kaufen?",
+      "ar": "ممكن أشتري تذكرة من السوّاق؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "polite",
+        "transport"
+      ],
+      "alts": [
+        "Kann ich eine Fahrkarte beim Fahrer kaufen?"
+      ],
+      "cloze": {
+        "word": "Kann",
+        "opts": [
+          "Kann",
+          "Kannst",
+          "Können"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-020",
+      "de": "Welche Linie fährt in Richtung Zentrum?",
+      "ar": "أنهي خط رايح ناحية وسط البلد؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:fahren",
+        "transport"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fährt",
+        "opts": [
+          "fährt",
+          "fahrt",
+          "fahre"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s43-021",
+      "de": "Kommst du bald wieder?",
+      "ar": "هتيجي تاني قريب؟",
+      "kind": "question",
+      "focus": [
+        "verb:kommen",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Kommst",
+        "opts": [
+          "Kommst",
+          "Kommt",
+          "Kommen"
+        ]
+      },
+      "src": "episode"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w43-01",
+      "q": "___ kommst du zur Arbeit?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Was"
+      ],
+      "ar": "بتروح الشغل إزاي؟",
+      "reply": "Mit dem Bus.",
+      "reply_ar": "بالأتوبيس."
+    },
+    {
+      "id": "w43-02",
+      "q": "___ dauert die Fahrt?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viel",
+        "Wann",
+        "Wer"
+      ],
+      "ar": "المشوار بياخد قد إيه؟",
+      "reply": "Zwanzig Minuten.",
+      "reply_ar": "عشرين دقيقة."
+    },
+    {
+      "id": "w43-03",
+      "q": "___ muss ich umsteigen?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Was"
+      ],
+      "ar": "لازم أحوّل فين؟",
+      "reply": "Am Bahnhof.",
+      "reply_ar": "في محطة القطر."
+    },
+    {
+      "id": "w43-04",
+      "q": "___ kommt der Zug an?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Was",
+        "Wie viel"
+      ],
+      "ar": "القطر بيوصل إمتى؟",
+      "reply": "Um acht Uhr.",
+      "reply_ar": "الساعة تمانية."
+    },
+    {
+      "id": "w43-05",
+      "q": "___ Buslinie fährt zum Bahnhof?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wer",
+        "Wo",
+        "Wie viel"
+      ],
+      "ar": "أنهي خط أتوبيس بيروح محطة القطر؟",
+      "reply": "Die Linie drei.",
+      "reply_ar": "خط تلاتة."
+    },
+    {
+      "id": "w43-06",
+      "q": "___ kostet die Fahrkarte?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie lange",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "التذكرة بكام؟",
+      "reply": "Hin und zurück sechs Euro.",
+      "reply_ar": "رايح جاي بستة يورو."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g43-1",
+      "h": "mit + Dativ: الأداة بتتغيّر",
+      "body": "mit معناها «بـ» لو بتتكلم عن وسيلة مواصلات (mit dem Bus = بالأتوبيس)، و«مع» لو بتتكلم عن شخص (mit Emma = مع إيما). وبعد mit دايمًا حالة الجر Dativ (درس 39): der و das بيبقوا dem، و die بتبقى der، والجمع die بيبقى den والاسم بياخد n (mit den Kindern)، إلا لو آخره s أو n (mit den Autos). ونفس النهايات مع ein و mein: mit einem Taxi، mit meiner Familie. أشهر غلطة: mit das Auto ✗، الصح mit dem Auto.",
+      "examples": [
+        {
+          "de": "Fahrt ihr nicht mit dem Bus?",
+          "ar": "إنتوا مش رايحين بالأتوبيس؟ (mit + der Bus = mit dem Bus)"
+        },
+        {
+          "de": "Wir fahren mit der U-Bahn bis zur Uni.",
+          "ar": "هنروح بالمترو لحد الجامعة. (mit + die U-Bahn = mit der U-Bahn)"
+        },
+        {
+          "de": "Ich wohne mit meiner Familie in Kairo.",
+          "ar": "أنا ساكن مع عيلتي في القاهرة."
+        },
+        {
+          "de": "Ich fahre mit den Kindern zum Zoo.",
+          "ar": "أنا رايح جنينة الحيوانات مع العيال."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Nominativ",
+          "بعد mit (Dativ)"
+        ],
+        [
+          "مذكّر",
+          "der Bus / mein Freund",
+          "mit dem Bus / mit meinem Freund"
+        ],
+        [
+          "محايد",
+          "das Auto / mein Kind",
+          "mit dem Auto / mit meinem Kind"
+        ],
+        [
+          "مؤنّث",
+          "die Bahn / meine Familie",
+          "mit der Bahn / mit meiner Familie"
+        ],
+        [
+          "جمع",
+          "die Kinder / meine Kinder",
+          "mit den Kindern / mit meinen Kindern"
+        ]
+      ]
+    },
+    {
+      "id": "g43-2",
+      "h": "بتروح إزاي؟ fahren mit … / zu Fuß gehen",
+      "body": "السؤال: Wie kommst du zur Arbeit? (بتروح الشغل إزاي؟). والرد: fahren + mit + الوسيلة: Ich fahre mit dem Motorrad. ولما تتكلم عن الوسيلة: fahren = بعربية أو مواصلات أو عجلة أو موتوسيكل، و gehen = ماشي على رجلك. وخد بالك: المشي من غير mit: Ich gehe zu Fuß. (مش mit dem Fuß). والطيارة بـ fliegen: Ich fliege mit dem Flugzeug. والرد القصير ممكن من غير فعل: Mit dem Bus. / Zu Fuß.",
+      "examples": [
+        {
+          "de": "Wie kommst du zur Arbeit? – Mit dem Bus.",
+          "ar": "بتروح الشغل إزاي؟ – بالأتوبيس."
+        },
+        {
+          "de": "Ich fahre mit dem Motorrad zur Arbeit.",
+          "ar": "أنا بروح الشغل بالموتوسيكل."
+        },
+        {
+          "de": "Den Rest gehen wir zu Fuß.",
+          "ar": "الباقي هنمشيه على رجلينا."
+        }
+      ],
+      "table": [
+        [
+          "الوسيلة",
+          "بالألماني"
+        ],
+        [
+          "الأتوبيس",
+          "mit dem Bus"
+        ],
+        [
+          "القطر",
+          "mit dem Zug / mit der Bahn"
+        ],
+        [
+          "المترو / الترام",
+          "mit der U-Bahn / mit der Straßenbahn"
+        ],
+        [
+          "العربية / التاكسي",
+          "mit dem Auto / mit dem Taxi"
+        ],
+        [
+          "العجلة / الموتوسيكل",
+          "mit dem Fahrrad / mit dem Motorrad"
+        ],
+        [
+          "الطيارة",
+          "mit dem Flugzeug fliegen"
+        ],
+        [
+          "مشي",
+          "zu Fuß gehen (من غير mit)"
+        ]
+      ]
+    },
+    {
+      "id": "g43-3",
+      "h": "في المواصلات: المشوار والتحويل والتذكرة",
+      "body": "تسأل المشوار بياخد قد إيه: Wie lange dauert die Fahrt? – Zwanzig Minuten. و umsteigen (تحوّل) و ankommen (توصل) بينفصلوا زي aufstehen (درس 30): Wir steigen am Bahnhof um. / Wann kommen wir an? بس مع muss بيرجعوا كلمة واحدة في الآخر: Wo muss ich umsteigen? وتذكرة رايح جاي: eine Fahrkarte hin und zurück. و hoffentlich = أتمنى / يا رب: Hoffentlich kommt der Bus pünktlich.",
+      "examples": [
+        {
+          "de": "Wie lange dauert die Fahrt? – Zwanzig Minuten.",
+          "ar": "المشوار بياخد قد إيه؟ – عشرين دقيقة."
+        },
+        {
+          "de": "Am Bahnhof steigen wir um.",
+          "ar": "هنحوّل في محطة القطر."
+        },
+        {
+          "de": "Wo muss ich umsteigen?",
+          "ar": "لازم أحوّل فين؟"
+        },
+        {
+          "de": "Ich möchte eine Fahrkarte hin und zurück.",
+          "ar": "عايز تذكرة رايح جاي."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "المشوار بياخد قد إيه؟",
+          "Wie lange dauert die Fahrt?"
+        ],
+        [
+          "لازم أحوّل فين؟",
+          "Wo muss ich umsteigen?"
+        ],
+        [
+          "أنهي خط رايح ناحية وسط البلد؟",
+          "Welche Linie fährt in Richtung Zentrum?"
+        ],
+        [
+          "جدول المواعيد فين؟",
+          "Wo ist der Fahrplan?"
+        ],
+        [
+          "تذكرة رايح جاي لو سمحت",
+          "Eine Fahrkarte hin und zurück, bitte."
+        ],
+        [
+          "يا رب الأتوبيس ييجي في ميعاده",
+          "Hoffentlich kommt der Bus pünktlich."
+        ]
+      ]
+    }
+  ]
+}

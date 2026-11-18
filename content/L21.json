@@ -1,0 +1,717 @@
+{
+  "n": 21,
+  "sentences": [
+    {
+      "id": "s21-001",
+      "de": "Wo ist meine Brille?",
+      "ar": "نضّارتي فين؟",
+      "kind": "question",
+      "focus": [
+        "object",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-002",
+      "de": "Was suchst du?",
+      "ar": "بتدوّر على إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:suchen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "suchst",
+        "opts": [
+          "suchst",
+          "sucht",
+          "suche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-003",
+      "de": "Wo sind die Stifte und das Buch?",
+      "ar": "فين الأقلام والكتاب؟",
+      "kind": "question",
+      "focus": [
+        "plural",
+        "article",
+        "w-frage"
+      ],
+      "alts": [
+        "Wo sind das Buch und die Stifte?"
+      ],
+      "cloze": {
+        "word": "Stifte",
+        "opts": [
+          "Stifte",
+          "Stift",
+          "Stiften"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-004",
+      "de": "Sie sucht die Brille, die Stifte und das Buch.",
+      "ar": "هي بتدوّر على النضّارة والأقلام والكتاب.",
+      "kind": "statement",
+      "focus": [
+        "verb:suchen",
+        "article",
+        "plural"
+      ],
+      "alts": [
+        "Sie sucht die Brille, das Buch und die Stifte.",
+        "Sie sucht die Stifte, die Brille und das Buch.",
+        "Sie sucht die Stifte, das Buch und die Brille.",
+        "Sie sucht das Buch, die Brille und die Stifte.",
+        "Sie sucht das Buch, die Stifte und die Brille."
+      ],
+      "cloze": {
+        "word": "sucht",
+        "opts": [
+          "sucht",
+          "suchst",
+          "suche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-005",
+      "de": "Lisa gibt Deutschkurse in einer Sprachschule.",
+      "ar": "ليزا بتدّي كورسات ألماني في معهد لغة.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "place"
+      ],
+      "alts": [
+        "Lisa gibt in einer Sprachschule Deutschkurse.",
+        "In einer Sprachschule gibt Lisa Deutschkurse.",
+        "Deutschkurse gibt Lisa in einer Sprachschule."
+      ],
+      "cloze": {
+        "word": "Sprachschule",
+        "opts": [
+          "Sprachschule",
+          "Sprachschulen",
+          "Notizblock"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-006",
+      "de": "Lisa ist Lehrerin.",
+      "ar": "ليزا مدرّسة.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Lehrerin",
+        "opts": [
+          "Lehrerin",
+          "Lehrer",
+          "Lehrerinnen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-007",
+      "de": "Sie unterrichtet Deutsch.",
+      "ar": "هي بتدرّس ألماني.",
+      "kind": "statement",
+      "focus": [
+        "verb:unterrichten",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "unterrichtet",
+        "opts": [
+          "unterrichtet",
+          "unterrichtest",
+          "unterrichte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-008",
+      "de": "Wie heißt das hier auf Deutsch?",
+      "ar": "ده اسمه إيه بالألماني؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heißt",
+        "opts": [
+          "heißt",
+          "heißen",
+          "heiße"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-009",
+      "de": "Das Buch! Danke, Nico!",
+      "ar": "الكتاب! شكرًا يا نيكو!",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "object"
+      ],
+      "alts": [
+        "Danke, Nico! Das Buch!"
+      ],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s21-010",
+      "de": "Die Brille ist hier.",
+      "ar": "النضّارة هنا.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "object"
+      ],
+      "alts": [
+        "Hier ist die Brille."
+      ],
+      "cloze": {
+        "word": "Brille",
+        "opts": [
+          "Brille",
+          "Brillen",
+          "Bücher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-011",
+      "de": "Wo ist der Stift?",
+      "ar": "القلم فين؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-012",
+      "de": "Die Stifte sind hier.",
+      "ar": "الأقلام هنا.",
+      "kind": "answer",
+      "focus": [
+        "plural",
+        "article"
+      ],
+      "alts": [
+        "Hier sind die Stifte."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-013",
+      "de": "Wo sind die Bücher?",
+      "ar": "الكتب فين؟",
+      "kind": "question",
+      "focus": [
+        "plural",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bücher",
+        "opts": [
+          "Bücher",
+          "Buch",
+          "Büchern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-014",
+      "de": "Das ist der Schlüssel von Lisa.",
+      "ar": "ده مفتاح ليزا.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "possession"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-015",
+      "de": "Wo sind die Schlüssel?",
+      "ar": "المفاتيح فين؟",
+      "kind": "question",
+      "focus": [
+        "plural",
+        "article",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-016",
+      "de": "Wo ist der Radiergummi?",
+      "ar": "الأستيكة فين؟",
+      "kind": "question",
+      "focus": [
+        "article",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Radiergummi",
+        "opts": [
+          "Radiergummi",
+          "Brille",
+          "Papier"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-017",
+      "de": "Der Notizblock und das Papier sind in der Tasche.",
+      "ar": "النوتة والورق في الشنطة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "place"
+      ],
+      "alts": [
+        "Das Papier und der Notizblock sind in der Tasche.",
+        "In der Tasche sind der Notizblock und das Papier.",
+        "In der Tasche sind das Papier und der Notizblock."
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-018",
+      "de": "Der Deutschkurs ist in der Sprachschule.",
+      "ar": "كورس الألماني في معهد اللغة.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "place"
+      ],
+      "alts": [
+        "In der Sprachschule ist der Deutschkurs."
+      ],
+      "cloze": {
+        "word": "Deutschkurs",
+        "opts": [
+          "Deutschkurs",
+          "Deutschkurse",
+          "Lehrerin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-019",
+      "de": "Der Bleistift ist kaputt.",
+      "ar": "القلم الرصاص مكسور.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bleistift",
+        "opts": [
+          "Bleistift",
+          "Brille",
+          "Buch"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-020",
+      "de": "Die Lehrerin heißt Lisa.",
+      "ar": "المدرّسة اسمها ليزا.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Die",
+        "opts": [
+          "Die",
+          "Der",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-021",
+      "de": "Der Lehrer unterrichtet Deutsch.",
+      "ar": "المدرّس بيدرّس ألماني.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "job",
+        "verb:unterrichten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s21-022",
+      "de": "Der Schlüssel!",
+      "ar": "المفتاح!",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "object"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w21-01",
+      "q": "___ ist das? Die Brille von Lisa?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "إيه ده؟ نضّارة ليزا؟",
+      "reply": "Ja, Lisa sucht die Brille.",
+      "reply_ar": "أيوه، ليزا بتدوّر على النضّارة."
+    },
+    {
+      "id": "w21-02",
+      "q": "___ heißt das auf Deutsch?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "ده اسمه إيه بالألماني؟",
+      "reply": "Der Radiergummi.",
+      "reply_ar": "الأستيكة."
+    },
+    {
+      "id": "w21-03",
+      "q": "___ ist meine Brille?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Was",
+        "Wer",
+        "Wohin"
+      ],
+      "ar": "نضّارتي فين؟",
+      "reply": "Hier ist deine Brille.",
+      "reply_ar": "نضّارتك أهي."
+    },
+    {
+      "id": "w21-04",
+      "q": "___ suchst du?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتدوّر على إيه؟",
+      "reply": "Meine Brille.",
+      "reply_ar": "نضّارتي."
+    },
+    {
+      "id": "w21-05",
+      "q": "___ unterrichtet Deutsch?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين بيدرّس ألماني؟",
+      "reply": "Lisa. Sie ist Lehrerin.",
+      "reply_ar": "ليزا، هي مدرّسة."
+    },
+    {
+      "id": "w21-06",
+      "q": "___ unterrichtest du?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wohin",
+        "Wie alt"
+      ],
+      "ar": "بتدرّس إيه؟",
+      "reply": "Ich unterrichte Deutsch.",
+      "reply_ar": "بدرّس ألماني."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g21-1",
+      "h": "أدوات التعريف: der / die / das",
+      "body": "الألماني فيه ٣ أجناس للأسماء، والأداة اللي قبل الاسم هي اللي بتقولك جنسه: der للمذكّر، die للمؤنّث، das للمحايد. ومفيش قاعدة عامة، والجنس مش زي العربي (الأستيكة عندنا مؤنّث، بس der Radiergummi مذكّر)، فاحفظ كل اسم بأداته: der Stift مش Stift بس. حيلتين: الكلمة المركّبة بتاخد أداة آخر جزء (der Stift → der Bleistift)، واسم الوظيفة للست آخره -in وأداته دايمًا die (die Lehrerin).",
+      "examples": [
+        {
+          "de": "Wo ist der Stift? – Der Stift ist hier.",
+          "ar": "القلم فين؟ – القلم هنا."
+        },
+        {
+          "de": "Wo ist die Brille? – Die Brille ist hier.",
+          "ar": "النضّارة فين؟ – النضّارة هنا."
+        },
+        {
+          "de": "Wo ist das Buch? – Das Buch ist hier.",
+          "ar": "الكتاب فين؟ – الكتاب هنا."
+        }
+      ],
+      "table": [
+        [
+          "der (مذكّر)",
+          "die (مؤنّث)",
+          "das (محايد)"
+        ],
+        [
+          "der Stift",
+          "die Brille",
+          "das Buch"
+        ],
+        [
+          "der Schlüssel",
+          "die Lehrerin",
+          "das Papier"
+        ],
+        [
+          "der Radiergummi",
+          "die Sprachschule",
+          "das Handy"
+        ],
+        [
+          "der Notizblock",
+          "die Tasche",
+          "das Foto"
+        ]
+      ]
+    },
+    {
+      "id": "g21-2",
+      "h": "الجمع: die لكل الأسماء",
+      "body": "في الجمع مفيش der ولا das: الأداة دايمًا die، مهما كان جنس المفرد: der Stift → die Stifte، die Brille → die Brillen، das Buch → die Bücher. وفيه أسماء جمعها زي مفردها بالظبط: der Schlüssel → die Schlüssel، der Lehrer → die Lehrer؛ هنا die والفعل sind هما اللي بيقولولك إنه جمع. عشان كده احفظ الجمع مع الكلمة.",
+      "examples": [
+        {
+          "de": "Wo sind die Stifte? – Die Stifte sind hier.",
+          "ar": "الأقلام فين؟ – الأقلام هنا."
+        },
+        {
+          "de": "Wo sind die Bücher? – Die Bücher sind hier.",
+          "ar": "الكتب فين؟ – الكتب هنا."
+        },
+        {
+          "de": "Der Schlüssel ist hier. – Die Schlüssel sind hier.",
+          "ar": "المفتاح هنا. – المفاتيح هنا."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "المفرد",
+          "الجمع"
+        ],
+        [
+          "مذكّر",
+          "der Stift",
+          "die Stifte"
+        ],
+        [
+          "مؤنّث",
+          "die Brille",
+          "die Brillen"
+        ],
+        [
+          "محايد",
+          "das Buch",
+          "die Bücher"
+        ],
+        [
+          "مذكّر",
+          "der Schlüssel",
+          "die Schlüssel"
+        ],
+        [
+          "مؤنّث",
+          "die Lehrerin",
+          "die Lehrerinnen"
+        ]
+      ]
+    },
+    {
+      "id": "g21-3",
+      "h": "إمتى بنستخدم der / die / das؟",
+      "body": "أداة التعريف بنستخدمها لما نتكلم عن حاجة معيّنة أو حد معروف للي بيسمعنا. لما الراوي بيقول Sie sucht die Brille، يعني نضّارة ليزا بالذات، مش أي نضّارة. وكمان لما نعرف صاحب الحاجة: Das ist der Schlüssel von Lisa. بس الوظيفة بعد sein بتيجي من غير أداة: Lisa ist Lehrerin. (أداة التنكير ein / eine هتيجي في الدرس الجاي.)",
+      "examples": [
+        {
+          "de": "Sie sucht die Brille.",
+          "ar": "هي بتدوّر على النضّارة (نضّارتها هي بالذات)."
+        },
+        {
+          "de": "Das ist der Schlüssel von Lisa.",
+          "ar": "ده مفتاح ليزا."
+        },
+        {
+          "de": "Lisa ist Lehrerin.",
+          "ar": "ليزا مدرّسة. (من غير أداة)"
+        }
+      ]
+    },
+    {
+      "id": "g21-4",
+      "h": "تسأل عن اسم حاجة بالألماني",
+      "body": "عشان تسأل عن حاجة قدامك: Was ist das? = إيه ده؟ ولو عايز اسمها بالألماني: Wie heißt das auf Deutsch? (بنقول auf Deutsch مش in Deutsch). والرد عليه: الاسم بأداته، زي ما ليزا ردّت: Das Buch! ولو أكتر من حاجة: Das sind die Stifte. يعني das بتفضل زي ما هي، والفعل بس اللي بيبقى sind.",
+      "examples": [
+        {
+          "de": "Wie heißt das hier auf Deutsch? – Das Buch!",
+          "ar": "ده اسمه إيه بالألماني؟ – الكتاب!"
+        },
+        {
+          "de": "Was ist das? – Das ist der Notizblock von Nico.",
+          "ar": "إيه ده؟ – دي نوتة نيكو."
+        },
+        {
+          "de": "Das sind die Stifte von Lisa.",
+          "ar": "دي أقلام ليزا."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "إيه ده؟",
+          "Was ist das?"
+        ],
+        [
+          "ده اسمه إيه بالألماني؟",
+          "Wie heißt das auf Deutsch?"
+        ],
+        [
+          "ده / دي …",
+          "Das ist der / die / das …"
+        ],
+        [
+          "دول …",
+          "Das sind die …"
+        ]
+      ]
+    }
+  ]
+}

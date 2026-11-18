@@ -19,16 +19,22 @@ export function start(vs) {
   vs.on('board', d => { placed = d.placed; render(d.wrong); });
   vs.on('solved', d => { solvedCount = d.n; flashSolved(); });
   vs.on('intent', d => { if (vs.isHost) applyIntent(d.op, d.t); });   // الضيف بيبعت نيّة، المضيف بيطبّق
-  vs.on('endco', d => vs.end({ win: d.win, coop: true, me: d.n, peer: d.n, msg: `كوّنتوا ${d.n} من ${ROUNDS} جملة` }));
+  vs.on('endco', d => vs.end({ win: d.win, coop: true, me: d.n, peer: d.n, msg: d.msg || `كوّنتوا ${d.n} من ${ROUNDS} جملة` }));
 
   // بعد رجوع الاتصال: المضيف يعيد إرسال الجولة واللوحة الحالية (عشان صاحبك يلحق أي تغيير فات عليه).
   vs.onResync(() => { if (vs.isHost && round) { vs.send('round', { round }); vs.send('board', { placed }); vs.send('solved', { n: solvedCount }); } });
 
   if (vs.isHost) {
     const maxL = poolMaxLesson(vs.pool);
-    const pool = (vs.pool && vs.pool.kind === 'lesson' ? sentencesOf(vs.pool.lesson) : sentencesUpTo(maxL)).filter(s => tilesOf(s).length >= 2);
+    const ok = s => tilesOf(s).length >= 2;
+    let pool = (vs.pool && vs.pool.kind === 'lesson' ? sentencesOf(maxL) : sentencesUpTo(maxL)).filter(ok);
+    if (pool.length < ROUNDS) pool = sentencesUpTo(maxL).filter(ok);   // درس جمله قليلة ← جمل الدروس لحد الدرس ده (زي listFor في الأوفلاين)
     const list = vs.shuffle(pool).slice(0, ROUNDS);
-    if (list.length < 1) { vs.end({ win: false, coop: true, msg: 'مفيش جمل كفاية' }); return; }
+    if (list.length < 1) {
+      vs.send('endco', { win: false, n: 0, msg: 'مفيش جمل كفاية' });   // صاحبك كمان يخرج بدل ما يفضل مستني
+      vs.end({ win: false, coop: true, msg: 'مفيش جمل كفاية' });
+      return;
+    }
     startRound();
     function startRound() {
       if (idx >= list.length) { vs.send('endco', { win: true, n: solvedCount }); vs.end({ win: true, coop: true, me: solvedCount, peer: solvedCount, msg: `كوّنتوا ${solvedCount} من ${ROUNDS} جملة` }); return; }

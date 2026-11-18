@@ -1,0 +1,801 @@
+{
+  "n": 44,
+  "sentences": [
+    {
+      "id": "s44-001",
+      "de": "Vielleicht unter der Tastatur oder hinter dem Drucker?",
+      "ar": "يمكن تحت الكيبورد أو ورا الطابعة؟",
+      "kind": "question",
+      "focus": [
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "Vielleicht hinter dem Drucker oder unter der Tastatur?"
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-002",
+      "de": "Hier im Regal sehe ich auch nichts.",
+      "ar": "هنا في الرف برضه مش شايف حاجة.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "verb:sehen"
+      ],
+      "alts": [
+        "Ich sehe hier im Regal auch nichts.",
+        "Auch hier im Regal sehe ich nichts.",
+        "Ich sehe auch hier im Regal nichts.",
+        "Hier sehe ich im Regal auch nichts."
+      ],
+      "cloze": {
+        "word": "sehe",
+        "opts": [
+          "sehe",
+          "siehst",
+          "sieht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-003",
+      "de": "Dann ist es nicht da.",
+      "ar": "يبقى مش هنا.",
+      "kind": "statement",
+      "focus": [
+        "negation"
+      ],
+      "alts": [
+        "Es ist dann nicht da."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "sind",
+          "bist"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-004",
+      "de": "Doch, es muss da sein.",
+      "ar": "لأ، لازم يكون هنا.",
+      "kind": "answer",
+      "focus": [
+        "doch",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Doch, da muss es sein."
+      ],
+      "cloze": {
+        "word": "muss",
+        "opts": [
+          "muss",
+          "musst",
+          "müssen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-005",
+      "de": "Einen Moment bitte!",
+      "ar": "لحظة واحدة لو سمحت!",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "phrase"
+      ],
+      "alts": [
+        "Bitte einen Moment!"
+      ],
+      "cloze": {
+        "word": "Einen",
+        "opts": [
+          "Einen",
+          "Ein",
+          "Eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-006",
+      "de": "Das ist der Fahrradladen!",
+      "ar": "ده محل العجل!",
+      "kind": "statement",
+      "focus": [
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-007",
+      "de": "Yara ist nicht da.",
+      "ar": "يارا مش موجودة.",
+      "kind": "statement",
+      "focus": [
+        "negation"
+      ],
+      "alts": [
+        "Da ist Yara nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-008",
+      "de": "Aber das kann nicht sein.",
+      "ar": "بس ده مش ممكن!",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "phrase"
+      ],
+      "alts": [
+        "Das kann aber nicht sein."
+      ],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "können"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-009",
+      "de": "Wo ist Yara?",
+      "ar": "يارا فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wo",
+        "opts": [
+          "Wo",
+          "Wohin",
+          "Wann"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-010",
+      "de": "Schönen Tag noch!",
+      "ar": "نهارك سعيد!",
+      "kind": "greeting",
+      "focus": [
+        "farewell",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Schönen",
+        "opts": [
+          "Schönen",
+          "Schöner",
+          "Schöne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s44-011",
+      "de": "Wo liegt der Tacker?",
+      "ar": "الدبّاسة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:liegen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "liegt",
+        "opts": [
+          "liegt",
+          "liegst",
+          "liegen"
+        ],
+        "accept": [
+          "ist",
+          "steht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-012",
+      "de": "Der Locher und der Tacker liegen auf dem Schreibtisch.",
+      "ar": "الخرّامة والدبّاسة على المكتب.",
+      "kind": "answer",
+      "focus": [
+        "verb:liegen",
+        "dative"
+      ],
+      "alts": [
+        "Der Tacker und der Locher liegen auf dem Schreibtisch.",
+        "Auf dem Schreibtisch liegen der Locher und der Tacker.",
+        "Auf dem Schreibtisch liegen der Tacker und der Locher."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-013",
+      "de": "Die Maus liegt rechts neben der Tastatur.",
+      "ar": "الماوس جنب الكيبورد على اليمين.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "dative"
+      ],
+      "alts": [
+        "Rechts neben der Tastatur liegt die Maus."
+      ],
+      "cloze": {
+        "word": "Maus",
+        "opts": [
+          "Maus",
+          "Drucker",
+          "Bildschirm"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-014",
+      "de": "Der Stempel liegt zwischen den Briefen.",
+      "ar": "الختم بين الجوابات.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "plural"
+      ],
+      "alts": [
+        "Zwischen den Briefen liegt der Stempel."
+      ],
+      "cloze": {
+        "word": "Briefen",
+        "opts": [
+          "Briefen",
+          "Briefe",
+          "Brief"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-015",
+      "de": "Am Bildschirm hängen viele Post-Its.",
+      "ar": "فيه ورق بوست إت كتير متعلّق على الشاشة.",
+      "kind": "statement",
+      "focus": [
+        "verb:hängen",
+        "dative"
+      ],
+      "alts": [
+        "Viele Post-Its hängen am Bildschirm."
+      ],
+      "cloze": {
+        "word": "Am",
+        "opts": [
+          "Am",
+          "Ans",
+          "An"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-016",
+      "de": "Ist der Brief im Hefter?",
+      "ar": "هو الجواب في الدوسيه؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "ins",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-017",
+      "de": "Ich hänge den Kalender an die Wand.",
+      "ar": "أنا بعلّق النتيجة على الحيطة.",
+      "kind": "statement",
+      "focus": [
+        "verb:hängen",
+        "accusative",
+        "direction"
+      ],
+      "alts": [
+        "Den Kalender hänge ich an die Wand.",
+        "An die Wand hänge ich den Kalender."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-018",
+      "de": "Lisa geht in die Touristeninformation.",
+      "ar": "ليزا رايحة مكتب الاستعلامات السياحية.",
+      "kind": "statement",
+      "focus": [
+        "accusative",
+        "direction"
+      ],
+      "alts": [
+        "In die Touristeninformation geht Lisa."
+      ],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "den"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-019",
+      "de": "Ich muss los. Ich gehe ins Büro.",
+      "ar": "لازم أمشي. أنا رايح المكتب.",
+      "kind": "statement",
+      "focus": [
+        "accusative",
+        "direction",
+        "farewell"
+      ],
+      "alts": [
+        "Ich gehe ins Büro. Ich muss los."
+      ],
+      "cloze": {
+        "word": "ins",
+        "opts": [
+          "ins",
+          "im",
+          "in"
+        ],
+        "accept": [
+          "zum"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-020",
+      "de": "Der Verkehr ist heute schrecklich.",
+      "ar": "المرور النهارده فظيع.",
+      "kind": "statement",
+      "focus": [
+        "traffic",
+        "adjective"
+      ],
+      "alts": [
+        "Heute ist der Verkehr schrecklich."
+      ],
+      "cloze": {
+        "word": "schrecklich",
+        "opts": [
+          "schrecklich",
+          "pünktlich",
+          "endlich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-021",
+      "de": "Endlich kommt der Bus!",
+      "ar": "أخيرًا الأتوبيس جاي!",
+      "kind": "statement",
+      "focus": [
+        "verb:kommen",
+        "word-order"
+      ],
+      "alts": [
+        "Der Bus kommt endlich!"
+      ],
+      "cloze": {
+        "word": "kommt",
+        "opts": [
+          "kommt",
+          "kommst",
+          "kommen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s44-022",
+      "de": "Liebe Lisa, vielen Dank für den Brief!",
+      "ar": "عزيزتي ليزا، شكرًا جدًا على الجواب!",
+      "kind": "greeting",
+      "focus": [
+        "greeting",
+        "thanks"
+      ],
+      "alts": [
+        "Vielen Dank für den Brief, liebe Lisa!"
+      ],
+      "cloze": {
+        "word": "Liebe",
+        "opts": [
+          "Liebe",
+          "Lieber",
+          "Lieben"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w44-01",
+      "q": "___ liegt der Stempel?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "الختم فين؟",
+      "reply": "Zwischen den Briefen.",
+      "reply_ar": "بين الجوابات."
+    },
+    {
+      "id": "w44-02",
+      "q": "___ gehst du?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "إنت رايح فين؟",
+      "reply": "In den Fahrradladen.",
+      "reply_ar": "رايح محل العجل."
+    },
+    {
+      "id": "w44-03",
+      "q": "___ hängst du den Kalender?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "هتعلّق النتيجة فين؟",
+      "reply": "An die Wand.",
+      "reply_ar": "على الحيطة."
+    },
+    {
+      "id": "w44-04",
+      "q": "___ macht der Locher?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "الخرّامة بتعمل إيه؟",
+      "reply": "Er macht Löcher ins Papier.",
+      "reply_ar": "بتعمل خروم في الورق."
+    },
+    {
+      "id": "w44-05",
+      "q": "___ ist der Verkehr heute so schrecklich?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Wohin",
+        "Woher"
+      ],
+      "ar": "المرور النهارده فظيع كده ليه؟",
+      "reply": "Es gibt einen Stau.",
+      "reply_ar": "فيه زحمة."
+    },
+    {
+      "id": "w44-06",
+      "q": "___ Briefe liegen auf dem Schreibtisch?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "فيه كام جواب على المكتب؟",
+      "reply": "Drei Briefe.",
+      "reply_ar": "تلات جوابات."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g44-1",
+      "h": "Wo? ولا Wohin؟ — Dativ ولا Akkusativ",
+      "body": "حروف الجر التسعة (in، an، auf، über، unter، vor، hinter، neben، zwischen) اسمها «متغيّرة الحالة» عشان ليها حالتين: لو السؤال Wo? (فين؟) والحاجة ثابتة في مكانها، الاسم بعدها بيبقى Dativ. ولو السؤال Wohin? (على فين؟) وفيه حركة لمكان، الاسم بيبقى Akkusativ. و hängen بينفع في الاتنين: Der Kalender hängt an der Wand. (ثابتة) – Ich hänge den Kalender an die Wand. (حركة)",
+      "examples": [
+        {
+          "de": "Das Papier ist im Schrank.",
+          "ar": "الورق في الدولاب. (Wo? يعني Dativ)"
+        },
+        {
+          "de": "Die Stifte sind neben der Tastatur.",
+          "ar": "الأقلام جنب الكيبورد. (Wo? يعني Dativ)"
+        },
+        {
+          "de": "Ich hänge den Kalender an die Wand.",
+          "ar": "بعلّق النتيجة على الحيطة. (Wohin? يعني Akkusativ)"
+        },
+        {
+          "de": "Lisa geht in die Touristeninformation.",
+          "ar": "ليزا رايحة مكتب الاستعلامات السياحية. (Wohin? يعني Akkusativ)"
+        }
+      ],
+      "table": [
+        [
+          "الاسم",
+          "Wo? (فين؟) = Dativ",
+          "Wohin? (على فين؟) = Akkusativ"
+        ],
+        [
+          "der Schreibtisch",
+          "auf dem Schreibtisch",
+          "auf den Schreibtisch"
+        ],
+        [
+          "die Wand",
+          "an der Wand",
+          "an die Wand"
+        ],
+        [
+          "das Büro",
+          "im Büro",
+          "ins Büro"
+        ],
+        [
+          "die Briefe",
+          "zwischen den Briefen",
+          "zwischen die Briefe"
+        ]
+      ]
+    },
+    {
+      "id": "g44-2",
+      "h": "الأدوات بعد حرف الجر: Akkusativ و Dativ",
+      "body": "ده جدول DW للأدوات. في Akkusativ (Wohin?) المذكّر بس اللي بيتغيّر: den / einen، والباقي زي ما هو. في Dativ (Wo?) كله بيتغيّر: المذكّر والمحايد dem / einem، المؤنّث der / einer، والجمع den والاسم بياخد n في آخره (إلا لو آخره n أو s): zwischen den Briefen. وخد بالك: der بعد حرف الجر مع اسم مؤنّث معناها Dativ: unter der Tastatur.",
+      "examples": [
+        {
+          "de": "Vielleicht unter der Tastatur oder hinter dem Drucker?",
+          "ar": "يمكن تحت الكيبورد أو ورا الطابعة؟"
+        },
+        {
+          "de": "Der Stempel liegt zwischen den Briefen.",
+          "ar": "الختم بين الجوابات."
+        },
+        {
+          "de": "Wohin gehst du? – In den Fahrradladen.",
+          "ar": "إنت رايح فين؟ – رايح محل العجل."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Akkusativ (Wohin?)",
+          "Dativ (Wo?)"
+        ],
+        [
+          "مذكّر (der)",
+          "den / einen",
+          "dem / einem"
+        ],
+        [
+          "مؤنّث (die)",
+          "die / eine",
+          "der / einer"
+        ],
+        [
+          "محايد (das)",
+          "das / ein",
+          "dem / einem"
+        ],
+        [
+          "جمع (die)",
+          "die / –",
+          "den / – (+n)"
+        ]
+      ]
+    },
+    {
+      "id": "g44-3",
+      "h": "im ولا ins؟ am ولا ans؟",
+      "body": "حرف الجر ساعات بيتلزق في الأداة: in + dem = im و an + dem = am، ودول Dativ (Wo?). أما in + das = ins و an + das = ans فدول Akkusativ (Wohin?). قارن: Ich bin im Büro. (أنا في المكتب) – Ich gehe ins Büro. (أنا رايح المكتب). ومع الأفعال الثابتة (sein، liegen، stehen) السؤال Wo?، ومع أفعال الحركة (gehen، fahren، fliegen) السؤال Wohin?",
+      "examples": [
+        {
+          "de": "Hier im Regal sehe ich auch nichts.",
+          "ar": "هنا في الرف برضه مش شايف حاجة."
+        },
+        {
+          "de": "Ich muss los. Ich gehe ins Büro.",
+          "ar": "لازم أمشي. أنا رايح المكتب."
+        },
+        {
+          "de": "Am Bildschirm hängen viele Post-Its.",
+          "ar": "فيه ورق بوست إت كتير متعلّق على الشاشة."
+        }
+      ],
+      "table": [
+        [
+          "الاسم",
+          "Wo? (Dativ)",
+          "Wohin? (Akkusativ)"
+        ],
+        [
+          "das Büro",
+          "im Büro",
+          "ins Büro"
+        ],
+        [
+          "das Fenster",
+          "am Fenster",
+          "ans Fenster"
+        ],
+        [
+          "der Bildschirm",
+          "am Bildschirm",
+          "an den Bildschirm"
+        ],
+        [
+          "die Küche",
+          "in der Küche",
+          "in die Küche"
+        ]
+      ]
+    },
+    {
+      "id": "g44-4",
+      "h": "حاجات المكتب وجمل الدرس",
+      "body": "عشان تختار dem ولا der لازم تحفظ أداة كل حاجة: der Bildschirm، die Tastatur، die Maus، der Drucker، der Locher (بيعمل Löcher = خروم)، der Tacker، der Hefter، der Stempel، das Post-It. وجمل الدرس: Das kann nicht sein! (مش ممكن!)، Ich muss los. (لازم أمشي)، Schönen Tag noch! (نهارك سعيد)، وفي أول الجواب أو الإيميل: Lieber Nico (لراجل) / Liebe Lisa (لست).",
+      "examples": [
+        {
+          "de": "Wo liegt der Tacker? – Auf dem Schreibtisch.",
+          "ar": "الدبّاسة فين؟ – على المكتب."
+        },
+        {
+          "de": "Liebe Lisa, vielen Dank für den Brief!",
+          "ar": "عزيزتي ليزا، شكرًا جدًا على الجواب!"
+        },
+        {
+          "de": "Aber das kann nicht sein.",
+          "ar": "بس ده مش ممكن!"
+        }
+      ],
+      "table": [
+        [
+          "بالعربي",
+          "المفرد",
+          "الجمع"
+        ],
+        [
+          "الشاشة",
+          "der Bildschirm",
+          "die Bildschirme"
+        ],
+        [
+          "الكيبورد",
+          "die Tastatur",
+          "die Tastaturen"
+        ],
+        [
+          "الماوس",
+          "die Maus",
+          "die Mäuse"
+        ],
+        [
+          "الطابعة",
+          "der Drucker",
+          "die Drucker"
+        ],
+        [
+          "الخرّامة",
+          "der Locher",
+          "die Locher"
+        ],
+        [
+          "الدبّاسة",
+          "der Tacker",
+          "die Tacker"
+        ],
+        [
+          "الدوسيه (ملف الورق)",
+          "der Hefter",
+          "die Hefter"
+        ],
+        [
+          "الختم",
+          "der Stempel",
+          "die Stempel"
+        ],
+        [
+          "ورقة البوست إت",
+          "das Post-It",
+          "die Post-Its"
+        ],
+        [
+          "الخرم",
+          "das Loch",
+          "die Löcher"
+        ],
+        [
+          "الجواب",
+          "der Brief",
+          "die Briefe"
+        ]
+      ]
+    }
+  ]
+}

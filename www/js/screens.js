@@ -8,6 +8,7 @@ import { play } from './audio.js';
 import { loadVideos, videosLoaded, videoTeaserHtml, homeVideoTeaserHtml, renderVideoSettings } from './video.js';
 import { renderUpdateBanner, renderUpdateSettings } from './update.js';
 import { lessonStatus, nextStep, currentLesson, mission, level } from './mastery.js';
+import { planStatus, planTarget, fmtDate, nLessons, courseLessons } from './plan.js';
 import { sentencesOf, grammarOf } from './content.js';
 import { itemDone, typedCount, gameRecord } from './progress.js';
 import { speak, ttsStatus, installGermanVoice } from './tts.js';
@@ -147,6 +148,35 @@ function fillVideoSlot(slot, html) {
 // ====================================================================
 const starsHtml = st => `<span class="ln-stars" aria-label="${st.stars} نجوم">${[st.star1, st.star2, st.star3].map(x => (x ? '⭐' : '<i class="off">☆</i>')).join('')}<span class="${st.passed ? '' : 'off'}">🏁</span><span class="${st.crown ? '' : 'off'}">👑</span></span>`;
 
+// 📅 كارت الجدول (plan.js): مطلوب النهارده + التقدّم في A1 لحد تاريخ الهدف
+function planCardHtml() {
+  const p = planStatus();
+  if (!p.on || !p.total) return '';
+  if (p.finished) {
+    return `<section class="card plan-card done"><div class="row between"><h2>📅 جدولك</h2><span class="chip good">🎓 A1 خلص</span></div>
+      <p class="ms-title">عاش! خلّصت كل دروس A1 (${p.total} درس) — يلا على A2</p></section>`;
+  }
+  if (p.overdue) {
+    // التاريخ عدّى: مفيش كوتة مستحيلة — المهمة رجعت لدرس واحد، والكارت بيطلب تاريخ جديد
+    return `<section class="card plan-card"><div class="row between"><h2>📅 جدولك</h2><span class="chip bad">التاريخ عدّى</span></div>
+      <p class="ms-title">تاريخ الجدول (${fmtDate(p.target)}) عدّى وفاضل ${esc(nLessons(p.left))} من ${p.total}</p>
+      <p class="hint">اختار تاريخ جديد وهنوزّع الدروس الباقية على الأيام من جديد — لحد ساعتها المهمة درس واحد في اليوم.</p>
+      <div class="bar plan-bar"><i style="width:${pct(p.passed, p.total)}%"></i></div>
+      <a class="btn btn-primary" href="#/settings" style="margin-top:10px">اختار تاريخ جديد</a></section>`;
+  }
+  const [cls, label] = p.metToday ? ['good', '✓ مطلوب النهارده خلص'] : p.perDay >= 3 ? ['warn', 'محتاج تسرّع'] : ['blue', 'ماشي في المعاد'];
+  const todayLine = p.metToday
+    ? `خلّصت ${nLessons(p.doneToday)} النهارده — أي درس زيادة بيخفّف الجاي`
+    : `خلّصت ${p.doneToday} من ${p.perDay} — فاضل ${nLessons(p.leftToday)}`;
+  return `<section class="card plan-card${p.metToday ? ' done' : ''}">
+    <div class="row between"><h2>📅 جدولك لحد ${fmtDate(p.target)}</h2><span class="chip ${cls}">${label}</span></div>
+    <div class="row plan-today"><span class="plan-num">${p.perDay}</span><div class="grow"><b>${p.perDay === 1 ? 'درس مطلوب النهارده' : 'دروس مطلوبة النهارده'}</b><p class="muted small">${esc(todayLine)}</p></div></div>
+    <div class="bar${p.metToday ? ' good' : ''}"><i style="width:${pct(Math.min(p.doneToday, p.perDay), p.perDay)}%"></i></div>
+    <p class="hint plan-a1">خلّصت ${p.passed} من ${p.total} درس في <bdi>A1</bdi> · فاضل ${esc(nLessons(p.left))} في ${esc(nDays(p.daysLeft))} · وتبدأ <bdi>A2</bdi> يوم ${fmtDate(p.a2Day)}</p>
+    <div class="bar plan-bar"><i style="width:${pct(p.passed, p.total)}%"></i></div>
+  </section>`;
+}
+
 export function renderHome(root) {
   const s = settings();
   const name = String(s.name || '').trim();
@@ -189,7 +219,7 @@ export function renderHome(root) {
   ${s.introSeen ? '' : `<section class="card intro-card" id="introCard">
     <h2>إزاي تستخدم الأبلكيشن</h2>
     <ol class="intro-list">
-      <li><b>مهمة النهارده</b>: درس كل يوم — الزرار الأزرق بيوديك للخطوة الجاية على طول.</li>
+      <li><b>مهمة النهارده</b>: الدروس المطلوبة حسب 📅 جدولك — الزرار الأزرق بيوديك للخطوة الجاية على طول.</li>
       <li>كل درس: ⭐ احفظ الكلمات ← ✍️ اكتبها صح ← 🧱 كوّن جمل ← 🏁 امتحان ← 👑 تثبيت بعد ٣ أيام.</li>
       <li>العب في أي وقت — أي كلمة تغلط فيها بترجعلك في المراجعة.</li>
       <li>حافظ درس قبل كده؟ ادخل <b>امتحانه</b> على طول من صفحة الدرس، ولو نجحت يتحسب خلصان.</li>
@@ -205,6 +235,8 @@ export function renderHome(root) {
     ${cta}
     ${m.mode === 'goal' ? '' : `<a class="btn btn-ghost" href="#/lesson/${n}">خطة الدرس ${n}</a>`}
   </section>
+
+  ${planCardHtml()}
 
   <div data-slot="notify"></div>
 
@@ -445,7 +477,8 @@ function badgesHtml(v) {
     ['🌱', 'أول كلمة', v.learned >= 1], ['📚', '50 كلمة', v.learned >= 50], ['🧠', '150 كلمة', v.learned >= 150], ['🏆', 'كل الكلمات', v.total > 0 && v.learned >= v.total],
     ['✍️', '25 كلمة كتبتها صح', v.typedAll >= 25], ['🖊️', '100 كلمة كتبتها صح', v.typedAll >= 100],
     ['🧱', '50 جملة صح', sentOk >= 50], ['🔥', '3 أيام ورا بعض', v.streakBest >= 3], ['🔥', 'أسبوع كامل', v.streakBest >= 7], ['☄️', 'شهر كامل', v.streakBest >= 30],
-    ['🏁', 'أول درس خلصان', v.passed >= 1], ['🎓', '5 دروس', v.passed >= 5], ['🚀', 'الـ 15 درس', v.passed >= 15],
+    ['🏁', 'أول درس خلصان', v.passed >= 1], ['🎓', '5 دروس', v.passed >= 5], ['🚀', '15 درس', v.passed >= 15],
+    ['🛫', '40 درس', v.passed >= 40], ['🇩🇪', 'A1 كامل', v.passed >= Math.max(1, courseLessons().length)],
     ['👑', 'أول تاج', v.crowns >= 1], ['💎', '5 تيجان', v.crowns >= 5],
     ['🎮', '10 ألعاب', v.games >= 10], ['🕹️', '50 لعبة', v.games >= 50], ['🏅', 'مستوى 5', v.level >= 5], ['🌟', 'مستوى 10', v.level >= 10],
   ];
@@ -562,6 +595,14 @@ export function renderStats(root) {
 // ====================================================================
 // الإعدادات
 // ====================================================================
+// سطر حالة 📅 الجدول في الإعدادات
+function planNoteText() {
+  const p = planStatus();
+  if (!p.total) return '';
+  if (p.finished) return `خلّصت كل دروس A1 (${p.total} درس) 🎓 — يلا على A2`;
+  return `النهارده مطلوب ${nLessons(p.perDay)} · فاضل ${nLessons(p.left)} من ${p.total} في ${nDays(p.daysLeft)}${p.overdue ? ' (التاريخ عدّى)' : ` · تبدأ A2 يوم ${fmtDate(p.a2Day)}`}`;
+}
+
 const stepperHtml = (key, val, min, max, step, label) =>
   `<div class="stepper ctl" data-key="${key}" data-min="${min}" data-max="${max}" data-step="${step}" role="group" aria-label="${esc(label)}">
     <button type="button" data-d="1" aria-label="زوّد">+</button><b>${+val || min}</b><button type="button" data-d="-1" aria-label="قلّل">−</button>
@@ -672,11 +713,24 @@ export function renderSettings(root) {
   <section class="card">
     <h2 class="sec-title">مهمة النهارده</h2>
     <div class="seg" id="missionSeg" role="group" aria-label="مهمة النهارده">
-      <button type="button" data-v="lesson" aria-pressed="${mode === 'lesson'}">درس كامل كل يوم</button>
+      <button type="button" data-v="lesson" aria-pressed="${mode === 'lesson'}">دروس كاملة</button>
       <button type="button" data-v="goal" aria-pressed="${mode === 'goal'}">هدف إجابات</button>
     </div>
-    <p class="hint set-note">«درس كامل»: المهمة بتخلص لما تنجح في امتحان درس (أو تاخد تاج) النهارده. «هدف إجابات»: لما توصل للهدف اليومي (${goalOf()} إجابة).</p>
+    <p class="hint set-note">«دروس كاملة»: المهمة بتخلص لما تنجح في امتحانات الدروس المطلوبة النهارده حسب 📅 الجدول (ولو الجدول مقفول: امتحان درس واحد أو تاج). «هدف إجابات»: لما توصل للهدف اليومي (${goalOf()} إجابة).</p>
     <p class="hint set-note">التذكير بيشتغل لوحده كل ساعة من ١٠ الصبح لـ ١٠ بالليل لو مهمة النهارده لسه — وبيسكت أول ما تخلّصها.</p>
+  </section>
+
+  <section class="card">
+    <h2 class="sec-title">📅 جدول المذاكرة</h2>
+    <div class="setting-row">
+      <div><b>الجدول</b><p class="hint">بيحسبلك كام درس مطلوب كل يوم عشان تخلّص A1 في المعاد</p></div>
+      ${switchHtml('planOn', s.planOn !== false, 'جدول المذاكرة')}
+    </div>
+    <div class="setting-row col">
+      <label for="planDate"><b>أخلّص A1 يوم</b><p class="hint">لو فوّت يوم، المطلوب بيزيد لوحده في الأيام اللي بعده — ولو سبقت بيقل</p></label>
+      <input id="planDate" class="input" type="date" value="${planTarget()}" min="${today()}">
+    </div>
+    <p class="hint set-note" id="planNote">${esc(planNoteText())}</p>
   </section>
 
   <section class="card">
@@ -735,7 +789,20 @@ export function renderSettings(root) {
     store.save();
     mSeg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     replan();
-    toast(s.missionMode === 'goal' ? 'المهمة: هدف الإجابات اليومي' : 'المهمة: درس كامل كل يوم');
+    toast(s.missionMode === 'goal' ? 'المهمة: هدف الإجابات اليومي' : 'المهمة: الدروس المطلوبة حسب الجدول');
+  });
+
+  // 📅 تاريخ الجدول
+  const pd = $('#planDate');
+  if (pd) pd.addEventListener('change', () => {
+    const v = String(pd.value || '');
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return;
+    s.planTarget = v;
+    store.save();
+    replan();
+    const note = $('#planNote');
+    if (note) note.textContent = planNoteText();
+    toast(`تمام — هدفك تخلّص A1 يوم ${fmtDate(v, true)}`);
   });
 
   // الصوت الألماني
@@ -789,6 +856,7 @@ export function renderSettings(root) {
     inp.addEventListener('change', () => {
       s[inp.dataset.key] = inp.checked;
       store.save();
+      if (inp.dataset.key === 'planOn') replan();      // المهمة والتذكير بيمشوا على الجدول
       toast(inp.checked ? 'اتفعّل' : 'اتقفل');
     });
   });

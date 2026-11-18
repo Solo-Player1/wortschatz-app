@@ -1,0 +1,106 @@
+{
+  "n": 18,
+  "sentences": [
+    { "id": "s18-001", "de": "Es gibt vier Teams.", "ar": "فيه أربع فرق.", "kind": "statement", "focus": ["plural", "number"], "alts": ["Vier Teams gibt es."], "cloze": { "word": "gibt", "opts": ["gibt", "ist", "geben"] }, "src": "episode" },
+    { "id": "s18-002", "de": "Das ist Süden, das ist Norden.", "ar": "ده الجنوب، وده الشمال.", "kind": "statement", "focus": ["geo"], "alts": ["Das ist Norden, das ist Süden."], "cloze": { "word": "Norden", "opts": ["Norden", "Osten", "Westen"] }, "src": "episode" },
+    { "id": "s18-003", "de": "Ich komme aus Spanien, aus Sevilla.", "ar": "أنا من إسبانيا، من إشبيلية.", "kind": "statement", "focus": ["origin", "word-order"], "alts": ["Ich komme aus Sevilla, aus Spanien.", "Aus Spanien komme ich, aus Sevilla.", "Aus Sevilla komme ich, aus Spanien."], "cloze": { "word": "komme", "opts": ["komme", "kommst", "kommt"] }, "src": "episode" },
+    { "id": "s18-004", "de": "Spanien ist im Süden, oder?", "ar": "إسبانيا في الجنوب، مش كده؟", "kind": "question", "focus": ["geo", "confirm"], "alts": ["Im Süden ist Spanien, oder?"], "cloze": { "word": "oder", "opts": ["oder", "aber", "auch"] }, "src": "episode" },
+    { "id": "s18-005", "de": "Im Süden von Europa.", "ar": "في جنوب أوروبا.", "kind": "answer", "focus": ["geo"], "alts": [], "cloze": { "word": "von", "opts": ["von", "aus", "mit"] }, "src": "episode" },
+    { "id": "s18-006", "de": "Sevilla ist im Süden von Spanien.", "ar": "إشبيلية في جنوب إسبانيا.", "kind": "statement", "focus": ["geo", "word-order"], "alts": ["Im Süden von Spanien ist Sevilla."], "cloze": { "word": "im", "opts": ["im", "in", "am"] }, "src": "episode" },
+    { "id": "s18-007", "de": "Ich komme aus Syrien, aus Damaskus.", "ar": "أنا من سوريا، من دمشق.", "kind": "statement", "focus": ["origin"], "alts": ["Ich komme aus Damaskus, aus Syrien.", "Aus Syrien komme ich, aus Damaskus.", "Aus Damaskus komme ich, aus Syrien."], "cloze": { "word": "Syrien", "opts": ["Syrien", "Spanien", "Europa"] }, "src": "episode" },
+    { "id": "s18-008", "de": "Damaskus ist auch im Süden.", "ar": "دمشق كمان في الجنوب.", "kind": "statement", "focus": ["geo", "word-order"], "alts": ["Auch Damaskus ist im Süden.", "Im Süden ist auch Damaskus.", "Im Süden ist Damaskus auch."], "cloze": { "word": "auch", "opts": ["auch", "oder", "und"] }, "src": "episode" },
+    { "id": "s18-009", "de": "Komm jetzt! Wir gewinnen!", "ar": "تعالى دلوقتي! إحنا هنكسب!", "kind": "statement", "focus": ["verb:gewinnen"], "alts": ["Jetzt komm! Wir gewinnen!", "Wir gewinnen! Komm jetzt!", "Wir gewinnen! Jetzt komm!"], "cloze": { "word": "gewinnen", "opts": ["gewinnen", "gewinnt", "gewinnst"] }, "src": "episode" },
+    { "id": "s18-010", "de": "Nico spricht noch nicht so gut Deutsch.", "ar": "نيكو لسه مابيتكلمش ألماني كويس أوي.", "kind": "statement", "focus": ["verb:sprechen", "negation", "word-order"], "alts": ["Nico spricht Deutsch noch nicht so gut.", "Deutsch spricht Nico noch nicht so gut.", "Noch spricht Nico nicht so gut Deutsch.", "Noch spricht Nico Deutsch nicht so gut."], "cloze": { "word": "spricht", "opts": ["spricht", "sprecht", "sprichst"] }, "src": "episode" },
+    { "id": "s18-011", "de": "Wo liegt Hamburg?", "ar": "هامبورج فين؟", "kind": "question", "focus": ["w-frage", "verb:liegen"], "alts": [], "cloze": { "word": "Wo", "opts": ["Wo", "Woher", "Wer", "Was"] }, "src": "authored" },
+    { "id": "s18-012", "de": "Hamburg liegt im Norden von Deutschland.", "ar": "هامبورج في شمال ألمانيا.", "kind": "statement", "focus": ["geo", "verb:liegen", "word-order"], "alts": ["Im Norden von Deutschland liegt Hamburg."], "cloze": { "word": "liegt", "opts": ["liegt", "liegen", "liegst"] }, "src": "authored" },
+    { "id": "s18-013", "de": "Liegt Berlin im Westen?", "ar": "برلين في الغرب؟", "kind": "question", "focus": ["yes-no-question", "verb:liegen"], "alts": [], "cloze": { "word": "Liegt", "opts": ["Liegt", "Liegen", "Liegst"] }, "src": "authored" },
+    { "id": "s18-014", "de": "Nein, Berlin liegt im Osten.", "ar": "لأ، برلين في الشرق.", "kind": "answer", "focus": ["negation", "geo", "word-order"], "alts": ["Nein, im Osten liegt Berlin."], "cloze": { "word": "Nein", "opts": ["Nein", "Nicht", "Kein"] }, "src": "authored" },
+    { "id": "s18-015", "de": "Köln und Bonn liegen im Westen.", "ar": "كولونيا وبون في الغرب.", "kind": "statement", "focus": ["geo", "verb:liegen"], "alts": ["Bonn und Köln liegen im Westen.", "Im Westen liegen Köln und Bonn.", "Im Westen liegen Bonn und Köln."], "cloze": { "word": "liegen", "opts": ["liegen", "liegt", "liegst"] }, "src": "authored" },
+    { "id": "s18-016", "de": "Deutschland liegt in der Mitte von Europa.", "ar": "ألمانيا في وسط أوروبا.", "kind": "statement", "focus": ["geo"], "alts": ["In der Mitte von Europa liegt Deutschland."], "cloze": { "word": "Mitte", "opts": ["Mitte", "Norden", "Süden"] }, "src": "authored" },
+    { "id": "s18-017", "de": "Der See liegt in der Nähe von München.", "ar": "البحيرة قريبة من ميونخ.", "kind": "statement", "focus": ["geo"], "alts": ["In der Nähe von München liegt der See."], "cloze": { "word": "Nähe", "opts": ["Nähe", "Westen", "Osten"] }, "src": "authored" },
+    { "id": "s18-018", "de": "Ist Berlin die Hauptstadt von Deutschland?", "ar": "برلين هي عاصمة ألمانيا؟", "kind": "question", "focus": ["yes-no-question", "geo"], "alts": ["Ist die Hauptstadt von Deutschland Berlin?"], "cloze": { "word": "Hauptstadt", "opts": ["Hauptstadt", "Hauptstädte", "Land"] }, "src": "authored" },
+    { "id": "s18-019", "de": "Damaskus ist die Hauptstadt von Syrien.", "ar": "دمشق هي عاصمة سوريا.", "kind": "statement", "focus": ["geo", "article"], "alts": ["Die Hauptstadt von Syrien ist Damaskus."], "cloze": { "word": "die", "opts": ["die", "der", "das"] }, "src": "authored" },
+    { "id": "s18-020", "de": "Welches Team gewinnt?", "ar": "أنهي فريق هيكسب؟", "kind": "question", "focus": ["w-frage", "verb:gewinnen"], "alts": [], "cloze": { "word": "gewinnt", "opts": ["gewinnt", "gewinnen", "gewinnst"] }, "src": "authored" },
+    { "id": "s18-021", "de": "Tanzt du gern?", "ar": "بتحب ترقص؟", "kind": "question", "focus": ["yes-no-question", "verb:tanzen"], "alts": [], "cloze": { "word": "Tanzt", "opts": ["Tanzt", "Tanze", "Tanzen"] }, "src": "authored" },
+    { "id": "s18-022", "de": "Ja, ich tanze sehr gern.", "ar": "أيوه، بحب أرقص أوي.", "kind": "answer", "focus": ["verb:tanzen"], "alts": ["Ja, sehr gern tanze ich."], "cloze": { "word": "tanze", "opts": ["tanze", "tanzt", "tanzen"] }, "src": "authored" }
+  ],
+  "wfragen": [
+    { "id": "w18-01", "q": "___ liegt Sevilla?", "answer": "Wo", "opts": ["Wo", "Woher", "Wohin", "Wer"], "ar": "إشبيلية فين؟", "reply": "Im Süden von Spanien.", "reply_ar": "في جنوب إسبانيا." },
+    { "id": "w18-02", "q": "___ kommst du?", "answer": "Woher", "opts": ["Woher", "Wo", "Wer", "Was"], "ar": "إنت منين؟", "reply": "Ich komme aus Syrien, aus Damaskus.", "reply_ar": "أنا من سوريا، من دمشق." },
+    { "id": "w18-03", "q": "___ Stadt liegt im Norden?", "answer": "Welche", "opts": ["Welche", "Wo", "Was", "Wie"], "ar": "أنهي مدينة في الشمال؟", "reply": "Hamburg liegt im Norden.", "reply_ar": "هامبورج في الشمال." },
+    { "id": "w18-04", "q": "___ heißt die Hauptstadt von Ägypten?", "answer": "Wie", "opts": ["Wie", "Wo", "Wer", "Woher"], "ar": "عاصمة مصر اسمها إيه؟", "reply": "Kairo.", "reply_ar": "القاهرة." },
+    { "id": "w18-05", "q": "___ Teams gibt es?", "answer": "Wie viele", "opts": ["Wie viele", "Wie alt", "Wer", "Wo"], "ar": "فيه كام فريق؟", "reply": "Es gibt vier Teams.", "reply_ar": "فيه أربع فرق." },
+    { "id": "w18-06", "q": "___ gewinnt?", "answer": "Wer", "opts": ["Wer", "Woher", "Wo", "Wie"], "ar": "مين هيكسب؟", "reply": "Wir gewinnen!", "reply_ar": "إحنا هنكسب!" }
+  ],
+  "grammar": [
+    {
+      "id": "g18-1",
+      "h": "خبر ولا سؤال؟ مكان الفعل هو اللي بيفرق",
+      "body": "الدرس ده عن 3 أنواع جمل، واللي بيفرّق بينهم مكان الفعل المصرَّف. الجملة الخبرية (Aussagesatz): الفعل في المركز التاني، والأول غالبًا الفاعل. سؤال W (W-Frage): أداة الاستفهام الأول، بعدها الفعل، وبعدين الفاعل، والرد بمعلومة. سؤال نعم/لا (Satzfrage): الفعل الأول وبعده الفاعل، والرد بـ Ja أو Nein.",
+      "examples": [
+        { "de": "Hamburg liegt im Norden von Deutschland.", "ar": "هامبورج في شمال ألمانيا. (جملة خبرية)" },
+        { "de": "Wo liegt das? – Im Süden von Spanien.", "ar": "ده فين؟ – في جنوب إسبانيا. (سؤال W)" },
+        { "de": "Liegt Hamburg im Norden? – Ja.", "ar": "هامبورج في الشمال؟ – أيوه. (سؤال نعم/لا)" }
+      ],
+      "table": [
+        ["النوع", "1", "2", "الباقي"],
+        ["Aussagesatz", "Hamburg", "liegt", "im Norden."],
+        ["W-Frage", "Wo", "liegt", "Hamburg?"],
+        ["Satzfrage", "Liegt", "Hamburg", "im Norden?"]
+      ]
+    },
+    {
+      "id": "g18-2",
+      "h": "سؤال نعم/لا: بدّل الفعل والفاعل",
+      "body": "عشان تعمل سؤال نعم/لا من جملة خبرية، بدّل مكان الفعل والفاعل بس والباقي زي ما هو: Hamburg liegt im Norden. تبقى: Liegt Hamburg im Norden? والرد بيبدأ بـ Ja أو Nein، ولو Nein قول المعلومة الصح بعدها. وفي الكلام بنقول كمان جملة خبرية وفي آخرها oder? عشان نتأكد، زي «مش كده؟» عندنا: Spanien ist im Süden, oder?",
+      "examples": [
+        { "de": "Berlin ist eine Stadt. – Ist Berlin eine Stadt?", "ar": "برلين مدينة. – برلين مدينة؟" },
+        { "de": "Kommst du aus Spanien? – Nein, ich komme aus Syrien.", "ar": "إنت من إسبانيا؟ – لأ، أنا من سوريا." },
+        { "de": "Spanien ist im Süden, oder? – Ja, im Süden von Europa.", "ar": "إسبانيا في الجنوب، مش كده؟ – أيوه، في جنوب أوروبا." }
+      ],
+      "table": [
+        ["جملة خبرية", "سؤال نعم/لا"],
+        ["Hamburg liegt im Norden.", "Liegt Hamburg im Norden?"],
+        ["Berlin ist die Hauptstadt.", "Ist Berlin die Hauptstadt?"],
+        ["Du wohnst in Sevilla.", "Wohnst du in Sevilla?"],
+        ["Du tanzt gern.", "Tanzt du gern?"]
+      ]
+    },
+    {
+      "id": "g18-3",
+      "h": "المركز الأول مش لازم يبقى الفاعل",
+      "body": "في الجملة الخبرية الفعل لازم يفضل في المركز التاني، بس المركز الأول ممكن يبقى حاجة غير الفاعل، زي المكان، وساعتها الفاعل بييجي بعد الفعل على طول: Hamburg liegt im Norden. = Im Norden liegt Hamburg. وكلمات زي Ja و Nein و und مابتتحسبش مركز، فالفعل بيفضل تاني بعدها برضه: Ja, ich komme.",
+      "examples": [
+        { "de": "Im Norden von Deutschland liegt Hamburg.", "ar": "هامبورج في شمال ألمانيا. (بدأنا بالمكان)" },
+        { "de": "Ja, ich komme.", "ar": "أيوه، جاية. (Ja مش محسوبة)" },
+        { "de": "Und Sevilla ist im Süden von Spanien.", "ar": "وإشبيلية في جنوب إسبانيا. (und مش محسوبة)" }
+      ],
+      "table": [
+        ["0", "1", "2", "الباقي"],
+        ["", "Hamburg", "liegt", "im Norden."],
+        ["", "Im Norden", "liegt", "Hamburg."],
+        ["Ja,", "ich", "komme.", ""],
+        ["Und", "Sevilla", "ist", "im Süden."]
+      ]
+    },
+    {
+      "id": "g18-4",
+      "h": "فين بالظبط؟ liegen والاتجاهات",
+      "body": "liegen = يقع / تقع، وبنستخدمه للمدن والبلاد: Hamburg liegt im Norden. الاتجاهات الأربعة كلها der، فبنقول im (يعني in dem): im Norden، im Süden، im Osten، im Westen، ولو عايز تحدد: im Süden von Spanien. أما die Mitte و die Nähe فالاتنين مؤنث، فبنقول in der: in der Mitte von (في وسط) و in der Nähe von (قريب من). والعاصمة: die Hauptstadt von …",
+      "examples": [
+        { "de": "Deutschland liegt in der Mitte von Europa.", "ar": "ألمانيا في وسط أوروبا." },
+        { "de": "Bonn liegt in der Nähe von Köln.", "ar": "بون قريبة من كولونيا." },
+        { "de": "Kairo ist die Hauptstadt von Ägypten.", "ar": "القاهرة هي عاصمة مصر." }
+      ],
+      "table": [
+        ["بالألماني", "بالعربي", "فين؟"],
+        ["der Norden", "الشمال", "im Norden"],
+        ["der Süden", "الجنوب", "im Süden"],
+        ["der Osten", "الشرق", "im Osten"],
+        ["der Westen", "الغرب", "im Westen"],
+        ["die Mitte", "الوسط", "in der Mitte von"],
+        ["die Nähe", "القُرب", "in der Nähe von"]
+      ]
+    }
+  ]
+}

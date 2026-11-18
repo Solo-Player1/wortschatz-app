@@ -1,0 +1,106 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.480 --> 00:00:08.800 region:R1 align:center
+<c.S1>– Guten Morgen, Inge.</c>
+
+2
+00:00:09.200 --> 00:00:11.240 region:R1 align:center
+<c.S1>– Guten Morgen, Nico!</c>
+
+3
+00:00:12.320 --> 00:00:14.200 region:R1 align:center
+<c.S1>Wie siehst du denn aus?</c>
+
+4
+00:00:15.160 --> 00:00:16.160 region:R1 align:center
+<c.S1>– Wie bitte?</c>
+
+5
+00:00:16.520 --> 00:00:19.760 region:R1 align:center
+<c.S1>– Ich meine …
+Hast du den Pullover gekauft?</c>
+
+6
+00:00:19.800 --> 00:00:20.840 region:R1 align:center
+<c.S1>Ist der neu?</c>
+
+7
+00:00:20.880 --> 00:00:23.040 region:R1 align:center
+<c.S1>– Nein, das ist kein neuer Pullover.</c>
+
+8
+00:00:23.120 --> 00:00:25.840 region:R1 align:center
+<c.S1>Der Pullover ist von Sebastian.
+Meine Sachen sind …</c>
+
+9
+00:00:25.880 --> 00:00:28.240 region:R1 align:center
+<c.S1>– ... in deiner Tasche, ja, ja.</c>
+
+10
+00:00:28.840 --> 00:00:31.360 region:R1 align:center
+<c.S1>Aber der Pullover ist viel zu groß.</c>
+
+11
+00:00:31.400 --> 00:00:34.520 region:R1 align:center
+<c.S1>Und die Farbe! Ist das jetzt in?</c>
+
+12
+00:00:34.840 --> 00:00:36.120 region:R1 align:center
+<c.S1>– Das weiß ich nicht.</c>
+
+13
+00:00:36.360 --> 00:00:39.400 region:R1 align:center
+<c.S1>– Ich finde den Pullover nicht so schön.</c>
+
+14
+00:00:41.920 --> 00:00:44.120 region:R1 align:center
+<c.S1>Du brauchst neue Sachen zum Anziehen.</c>
+
+15
+00:00:44.160 --> 00:00:50.160 region:R1 align:center
+<c.S1>Du brauchst ein schickes Hemd und einen
+warmen Pullover und eine schöne Hose.</c>
+
+16
+00:00:52.000 --> 00:00:54.960 region:R1 align:center
+<c.S1>Ach Nico, kannst du gleich Brötchen kaufen?</c>
+
+17
+00:00:55.960 --> 00:00:57.320 region:R1 align:center
+<c.S1>– Ja, gerne!</c>
+
+18
+00:00:57.360 --> 00:01:01.120 region:R1 align:center
+<c.S1>– Das ist lieb von dir!
+Kauf bitte dunkle Brötchen.</c>
+
+19
+00:01:01.160 --> 00:01:02.560 region:R1 align:center
+<c.S1>Die schmecken am besten.</c>
+
+20
+00:01:03.040 --> 00:01:04.080 region:R1 align:center
+<c.S1>– Mhm.</c>
+
+21
+00:01:23.880 --> 00:01:25.280 region:R1 align:center
+<c.S1>– Nico!</c>
+
+22
+00:01:26.000 --> 00:01:30.880 region:R1 align:center
+<c.S1>– Selma! Ist das …?</c>
+
+23
+00:01:30.920 --> 00:01:32.560 region:R1 align:center
+<c.S1>– ... deine Tasche?</c>

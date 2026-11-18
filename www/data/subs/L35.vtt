@@ -1,0 +1,142 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:08.960 --> 00:00:11.200 region:R1 align:center
+<c.S1>– Max, Tarek. Wie geht’s?</c>
+
+2
+00:00:11.240 --> 00:00:13.560 region:R1 align:center
+<c.S1>– Hallo, Yanis! Uns geht’s gut, danke.
+Wie geht’s euch?</c>
+
+3
+00:00:13.600 --> 00:00:14.560 region:R1 align:center
+<c.S1>– Sehr gut, danke.</c>
+
+4
+00:00:14.600 --> 00:00:17.720 region:R1 align:center
+<c.S1>Wir hätten gern zweimal
+das Mittagsmenü mit Fisch.</c>
+
+5
+00:00:17.760 --> 00:00:19.240 region:R1 align:center
+<c.S1>– Sehr gerne. Setzt euch!</c>
+
+6
+00:00:19.280 --> 00:00:20.280 region:R1 align:center
+<c.S1>– Getränke wie immer?</c>
+
+7
+00:00:20.320 --> 00:00:22.400 region:R1 align:center
+<c.S1>– Wie immer, Tarek!</c>
+
+8
+00:00:23.200 --> 00:00:24.640 region:R1 align:center
+<c.S1>– Sind das deine Freunde?</c>
+
+9
+00:00:24.680 --> 00:00:28.400 region:R1 align:center
+<c.S1>– Ja, wir spielen oft
+zusammen Fußball.</c>
+
+10
+00:00:28.440 --> 00:00:32.320 region:R1 align:center
+<c.S1>– Apropos, Max. Wann spielen wir mal wieder
+zusammen Fußball? Diese Woche?</c>
+
+11
+00:00:32.360 --> 00:00:37.520 region:R1 align:center
+<c.S1>– Nein, diese Woche kann ich nicht.
+Aber nächste Woche geht’s.</c>
+
+12
+00:00:37.560 --> 00:00:38.920 region:R1 align:center
+<c.S1>Am Freitag oder Samstag?</c>
+
+13
+00:00:38.960 --> 00:00:39.840 region:R1 align:center
+<c.S1>– Samstag kann ich nicht.</c>
+
+14
+00:00:39.880 --> 00:00:42.120 region:R1 align:center
+<c.S1>Da treffe ich Anna nachmittags
+im Schwimmbad.</c>
+
+15
+00:00:42.160 --> 00:00:43.960 region:R1 align:center
+<c.S1>– Dann treffen wir uns am Freitag.
+Geht das?</c>
+
+16
+00:00:44.000 --> 00:00:46.680 region:R1 align:center
+<c.S1>– Ja, das geht. Ah nee, Moment!
+Das geht doch nicht.</c>
+
+17
+00:00:46.720 --> 00:00:48.040 region:R1 align:center
+<c.S1>Robert kann am Freitag nicht.</c>
+
+18
+00:00:48.080 --> 00:00:48.600 region:R1 align:center
+<c.S1>– Ah!</c>
+
+19
+00:00:48.680 --> 00:00:56.920 region:R1 align:center
+<c.S1>– Dann sind wir nur sieben, oder? Max,
+Julius, Linus, Daniel, Yanis, Lasse und ich.</c>
+
+20
+00:00:57.520 --> 00:00:59.720 region:R1 align:center
+<c.S1>Wir brauchen eine achte Person.</c>
+
+21
+00:01:02.040 --> 00:01:04.240 region:R1 align:center
+<c.S1>– Spielst du mit uns Fußball?
+Hast du Lust?</c>
+
+22
+00:01:06.400 --> 00:01:08.760 region:R1 align:center
+<c.S1>– Fußball? Ja, wann?</c>
+
+23
+00:01:08.800 --> 00:01:12.520 region:R1 align:center
+<c.S1>– Wir treffen uns nächste Woche am Freitag.
+Um wie viel Uhr, Max? Um eins?</c>
+
+24
+00:01:12.560 --> 00:01:14.400 region:R1 align:center
+<c.S1>– Das ist zu früh. Ich kann erst um zwei.</c>
+
+25
+00:01:14.440 --> 00:01:17.520 region:R1 align:center
+<c.S1>– Also nächste Woche Freitag um zwei Uhr!</c>
+
+26
+00:01:17.560 --> 00:01:18.640 region:R1 align:center
+<c.S1>– Und wo?</c>
+
+27
+00:01:18.680 --> 00:01:21.080 region:R1 align:center
+<c.S1>– Wir treffen uns hier im Restaurant.</c>
+
+28
+00:01:21.240 --> 00:01:24.600 region:R1 align:center
+<c.S1>– Okay! Ich spiele gerne Fußball!</c>
+
+29
+00:01:24.640 --> 00:01:25.320 region:R1 align:center
+<c.S1>– Super!</c>
+
+30
+00:01:25.560 --> 00:01:28.360 region:R1 align:center
+<c.S1>– Oh, Nico!
+Entschuldigung, ich bin viel zu spät!</c>

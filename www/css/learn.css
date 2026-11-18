@@ -17,6 +17,17 @@
 .mission .btn-ghost { width: 100%; margin-top: 6px; }
 .mission .hint.center { margin-top: 6px; }
 
+/* 📅 كارت الجدول (plan.js) */
+.plan-card { border-width: 2px; border-color: var(--blue-tint); }
+.plan-card.done { border-color: var(--good); }
+.plan-card h2 { font-size: 17px; }
+.plan-today { gap: 12px; align-items: center; margin: 6px 0 10px; }
+.plan-num { flex: none; min-width: 48px; height: 48px; border-radius: 14px; background: var(--blue-tint); color: var(--blue); display: grid; place-items: center; font: 800 22px var(--font-de); }
+.plan-card.done .plan-num { background: var(--good-tint); color: var(--good-text); }
+.plan-card .bar { margin-bottom: 10px; }
+.plan-a1 { margin: 4px 0 6px; }
+.plan-bar { height: 6px; margin-bottom: 0 !important; }
+
 .ln-stars { display: inline-flex; gap: 2px; font-size: 16px; line-height: 1; white-space: nowrap; }
 .ln-stars .off, .ln-stars i.off { opacity: .35; filter: grayscale(1); font-style: normal; }
 
@@ -64,6 +75,10 @@
 
 /* ---------- المراجع ---------- */
 .rf-back { margin-bottom: 6px; }
+.rf-search { margin-top: 12px; }
+.rf-scope { margin-top: 8px; }
+/* ٢٣٨ كارت فعل: الكروت اللي برّه الشاشة ما بتترسمش لحد ما توصلها (من غير كده «كل الأفعال» بتاخد ثواني على موبايل عادي) */
+.rf-verb { content-visibility: auto; contain-intrinsic-size: 600px; contain-intrinsic-size: auto 600px; }   /* أول قيمة لـ WebView 85–94 */
 .rf-tile { padding: 0; overflow: hidden; }
 .rf-tile-main { display: flex; align-items: center; gap: 12px; padding: 14px; color: var(--ink); text-decoration: none; }
 .rf-ico { font-size: 30px; flex: none; }
@@ -74,7 +89,12 @@
 .rf-table .de { font-family: var(--font-de); }
 .rf-table td:last-child { width: 48px; }
 .rf-gtable td:last-child { width: auto; }
-@media (max-width: 380px) { .rf-gtable th, .rf-gtable td { padding: 6px 4px; font-size: 14px; } }   /* جداول الدرس 10 و13 تدخل في 360px */
+/* جداول الشرح (٧٦ درس): مضغوطة على الموبايل، ولو جدول لسه أعرض من الكارت (درس 38 على 360px) بيتسحب جوّه الكارت بدل ما الصفحة كلها تتحرك */
+@media (max-width: 420px) { .rf-gtable th, .rf-gtable td { padding: 6px 4px; font-size: 14px; } }
+@media (max-width: 380px) { .rf-gtable th, .rf-gtable td { font-size: 13px; } }     /* 360px: جداول الدروس 17/63/69/72 تدخل من غير سحب */
+/* الجدول LTR (أول عمود = الألماني) → لو اتسحب يبدأ من الشمال، مش من اليمين زي باقي الصفحة */
+.rf-tscroll { direction: ltr; overflow-x: auto; margin: 8px 0; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+.rf-tscroll > .rf-table { margin: 0; }
 .rf-note { background: var(--warn-tint); color: var(--warn-text); padding: 8px 10px; border-radius: 10px; }
 .rf-ex { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px dashed var(--line); }
 .rf-ex .de { font-family: var(--font-de); font-weight: 600; }

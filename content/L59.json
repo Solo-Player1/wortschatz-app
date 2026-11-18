@@ -1,0 +1,781 @@
+{
+  "n": 59,
+  "sentences": [
+    {
+      "id": "s59-001",
+      "de": "Ja, das gefällt mir.",
+      "ar": "أيوه، ده عاجبني.",
+      "kind": "answer",
+      "focus": [
+        "verb:gefallen",
+        "dative"
+      ],
+      "alts": [
+        "Ja, mir gefällt das."
+      ],
+      "cloze": {
+        "word": "gefällt",
+        "opts": [
+          "gefällt",
+          "gefalle",
+          "gefallen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-002",
+      "de": "Wie findest du die Farbe?",
+      "ar": "إيه رأيك في اللون؟",
+      "kind": "question",
+      "focus": [
+        "verb:finden",
+        "opinion",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wie",
+        "opts": [
+          "Wie",
+          "Was",
+          "Wer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-003",
+      "de": "Das steht dir gut!",
+      "ar": "ده لايق عليك!",
+      "kind": "statement",
+      "focus": [
+        "verb:stehen",
+        "dative",
+        "clothes"
+      ],
+      "alts": [
+        "Dir steht das gut!",
+        "Gut steht dir das!"
+      ],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "du"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-004",
+      "de": "Ja, das passt auch.",
+      "ar": "أيوه، ومقاسه مظبوط كمان.",
+      "kind": "answer",
+      "focus": [
+        "verb:passen",
+        "clothes"
+      ],
+      "alts": [
+        "Ja, auch das passt."
+      ],
+      "cloze": {
+        "word": "passt",
+        "opts": [
+          "passt",
+          "passe",
+          "passen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-005",
+      "de": "Wie findest du den Pullover?",
+      "ar": "إيه رأيك في البلوفر؟",
+      "kind": "question",
+      "focus": [
+        "verb:finden",
+        "accusative",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-006",
+      "de": "Probier mal das andere Hemd an.",
+      "ar": "قيس القميص التاني كده.",
+      "kind": "statement",
+      "focus": [
+        "verb:anprobieren",
+        "imperative",
+        "separable"
+      ],
+      "alts": [
+        "Probier das andere Hemd mal an."
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "den",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-007",
+      "de": "Welche Größe ist das?",
+      "ar": "ده مقاس إيه؟",
+      "kind": "question",
+      "focus": [
+        "size",
+        "w-frage",
+        "shopping"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welches",
+          "Was"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-008",
+      "de": "Das ist zu groß.",
+      "ar": "ده كبير زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "size"
+      ],
+      "alts": [
+        "Zu groß ist das."
+      ],
+      "cloze": {
+        "word": "groß",
+        "opts": [
+          "groß",
+          "große",
+          "Größe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-009",
+      "de": "Ja, die Jacke steht dir sehr gut.",
+      "ar": "أيوه، الجاكيت لايق عليك أوي.",
+      "kind": "answer",
+      "focus": [
+        "verb:stehen",
+        "dative"
+      ],
+      "alts": [
+        "Ja, dir steht die Jacke sehr gut.",
+        "Ja, sehr gut steht dir die Jacke."
+      ],
+      "cloze": {
+        "word": "steht",
+        "opts": [
+          "steht",
+          "stehst",
+          "stehen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-010",
+      "de": "Das finde ich schön.",
+      "ar": "ده أنا شايفه حلو.",
+      "kind": "answer",
+      "focus": [
+        "verb:finden",
+        "opinion",
+        "word-order"
+      ],
+      "alts": [
+        "Ich finde das schön.",
+        "Schön finde ich das."
+      ],
+      "cloze": {
+        "word": "finde",
+        "opts": [
+          "finde",
+          "findest",
+          "findet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s59-011",
+      "de": "Steht mir die Hose?",
+      "ar": "البنطلون لايق عليّا؟",
+      "kind": "question",
+      "focus": [
+        "verb:stehen",
+        "dative",
+        "yes-no-question"
+      ],
+      "alts": [
+        "Steht die Hose mir?"
+      ],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "mich",
+          "ich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-012",
+      "de": "Welche Größe haben Sie?",
+      "ar": "مقاس حضرتك كام؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "size",
+        "formal",
+        "shopping"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "haben",
+        "opts": [
+          "haben",
+          "habt",
+          "hast"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-013",
+      "de": "Kann ich die Jacke anprobieren?",
+      "ar": "ممكن أقيس الجاكيت؟",
+      "kind": "question",
+      "focus": [
+        "verb:anprobieren",
+        "verb:können",
+        "shopping"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "anprobieren",
+        "opts": [
+          "anprobieren",
+          "anprobiere",
+          "anprobiert"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-014",
+      "de": "Wo ist die Umkleidekabine?",
+      "ar": "أوضة البروفة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "shopping",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wo",
+        "opts": [
+          "Wo",
+          "Wohin",
+          "Woher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-015",
+      "de": "Die Hose ist mir zu eng.",
+      "ar": "البنطلون ضيق عليّا زيادة.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "dative"
+      ],
+      "alts": [
+        "Mir ist die Hose zu eng.",
+        "Zu eng ist mir die Hose."
+      ],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "mich",
+          "ich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-016",
+      "de": "Das Hemd passt dem Mann nicht.",
+      "ar": "القميص مش على مقاس الراجل.",
+      "kind": "statement",
+      "focus": [
+        "verb:passen",
+        "dative",
+        "article"
+      ],
+      "alts": [
+        "Dem Mann passt das Hemd nicht."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-017",
+      "de": "Die Hose steht der Frau nicht.",
+      "ar": "البنطلون مش لايق على الست.",
+      "kind": "statement",
+      "focus": [
+        "verb:stehen",
+        "dative",
+        "article"
+      ],
+      "alts": [
+        "Der Frau steht die Hose nicht."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-018",
+      "de": "Welche Farbe gefällt dir?",
+      "ar": "أنهي لون عاجبك؟",
+      "kind": "question",
+      "focus": [
+        "verb:gefallen",
+        "dative",
+        "color"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gefällt",
+        "opts": [
+          "gefällt",
+          "gefällst",
+          "gefallen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-019",
+      "de": "Die Marke ist mir egal.",
+      "ar": "الماركة مش فارقة معايا.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "opinion",
+        "shopping"
+      ],
+      "alts": [
+        "Mir ist die Marke egal.",
+        "Egal ist mir die Marke."
+      ],
+      "cloze": {
+        "word": "egal",
+        "opts": [
+          "egal",
+          "eng",
+          "elegant"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-020",
+      "de": "Du siehst sehr elegant aus.",
+      "ar": "شكلك أنيق أوي.",
+      "kind": "statement",
+      "focus": [
+        "verb:aussehen",
+        "separable",
+        "vowel-change"
+      ],
+      "alts": [
+        "Sehr elegant siehst du aus."
+      ],
+      "cloze": {
+        "word": "siehst",
+        "opts": [
+          "siehst",
+          "sehst",
+          "sieht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-021",
+      "de": "Die Schuhe passen mir nicht.",
+      "ar": "الجزمة مش مقاسي.",
+      "kind": "statement",
+      "focus": [
+        "verb:passen",
+        "plural",
+        "dative"
+      ],
+      "alts": [
+        "Mir passen die Schuhe nicht."
+      ],
+      "cloze": {
+        "word": "passen",
+        "opts": [
+          "passen",
+          "passt",
+          "passe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s59-022",
+      "de": "Die Ärmel sind zu lang.",
+      "ar": "الأكمام طويلة زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "zu-adjective",
+        "plural",
+        "clothes"
+      ],
+      "alts": [
+        "Zu lang sind die Ärmel."
+      ],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w59-01",
+      "q": "___ findest du die Jacke?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Wem"
+      ],
+      "ar": "إيه رأيك في الجاكيت؟",
+      "reply": "Ich finde sie sehr elegant.",
+      "reply_ar": "شايفه أنيق أوي."
+    },
+    {
+      "id": "w59-02",
+      "q": "___ Größe haben Sie?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wie viel",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "مقاس حضرتك كام؟ (رسمي)",
+      "reply": "Ich habe Größe M.",
+      "reply_ar": "مقاسي M."
+    },
+    {
+      "id": "w59-03",
+      "q": "___ gefällt das Hemd?",
+      "answer": "Wem",
+      "opts": [
+        "Wem",
+        "Wer",
+        "Was",
+        "Wo"
+      ],
+      "ar": "مين عاجبه القميص؟",
+      "reply": "Mir! Das Hemd ist toll.",
+      "reply_ar": "أنا! القميص تحفة."
+    },
+    {
+      "id": "w59-04",
+      "q": "___ ist die Umkleidekabine?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "أوضة البروفة فين؟",
+      "reply": "Im ersten Stock.",
+      "reply_ar": "في الدور الأول."
+    },
+    {
+      "id": "w59-05",
+      "q": "___ Farbe hat die Hose?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wie",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "البنطلون لونه إيه؟",
+      "reply": "Sie ist beige.",
+      "reply_ar": "لونه بيج."
+    },
+    {
+      "id": "w59-06",
+      "q": "___ kostet das Paar?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "الجوز بكام؟",
+      "reply": "40 Euro.",
+      "reply_ar": "بـ 40 يورو."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g59-1",
+      "h": "أفعال مع Dativ: gefallen، passen، stehen",
+      "body": "فيه أفعال المفعول بتاعها بييجي في حالة الجر (Dativ)، وغالبًا بيبقى شخص: gefallen (يعجب)، passen (ييجي على المقاس)، stehen (يليق على). خد بالك: الهدوم هي الفاعل، فالفعل بيتصرّف معاها هي: Die Jacke steht dir، ومع الجمع: Die Schuhe passen mir. والشخص بيبقى mir / dir مش ich / du. وفي gefallen الـ a بتبقى ä مع du و er / sie / es: du gefällst، das gefällt.",
+      "examples": [
+        {
+          "de": "Das Hemd gefällt mir.",
+          "ar": "القميص عاجبني."
+        },
+        {
+          "de": "Ja, die Jacke steht dir sehr gut.",
+          "ar": "أيوه، الجاكيت لايق عليك أوي."
+        },
+        {
+          "de": "Die Schuhe passen mir nicht.",
+          "ar": "الجزمة مش مقاسي."
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "حاجة واحدة",
+          "جمع"
+        ],
+        [
+          "gefallen (يعجب)",
+          "Das Hemd gefällt mir.",
+          "Die Schuhe gefallen mir."
+        ],
+        [
+          "passen (مقاسه مظبوط)",
+          "Die Hose passt mir.",
+          "Die Hosen passen mir."
+        ],
+        [
+          "stehen (لايق على)",
+          "Die Jacke steht dir.",
+          "Die Jacken stehen dir."
+        ]
+      ]
+    },
+    {
+      "id": "g59-2",
+      "h": "الشخص في Dativ: mir، dir، dem، der، den",
+      "body": "الشخص مع gefallen و passen و stehen بييجي في Dativ، والأداة بتتغيّر زي درس 39: der و das بيبقوا dem، و die بتبقى der، والجمع den والاسم بياخد n زيادة (den Kindern). والنكرة: einem / einer. والضماير: ich بتبقى mir، و du بتبقى dir، و Sie بتبقى Ihnen. وبنسأل عن الشخص بـ Wem? (لمين؟): Wem passt das Hemd nicht? – Dem Mann.",
+      "examples": [
+        {
+          "de": "Das Hemd passt dem Mann nicht.",
+          "ar": "القميص مش على مقاس الراجل."
+        },
+        {
+          "de": "Die Hose steht der Frau nicht.",
+          "ar": "البنطلون مش لايق على الست."
+        },
+        {
+          "de": "Der Pullover passt dem Kind nicht.",
+          "ar": "البلوفر مش على مقاس الطفل."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Nominativ",
+          "Dativ",
+          "مثال"
+        ],
+        [
+          "مذكّر",
+          "der Mann",
+          "dem Mann",
+          "Das Hemd passt dem Mann nicht."
+        ],
+        [
+          "مؤنّث",
+          "die Frau",
+          "der Frau",
+          "Die Hose steht der Frau nicht."
+        ],
+        [
+          "محايد",
+          "das Kind",
+          "dem Kind",
+          "Der Pullover passt dem Kind nicht."
+        ],
+        [
+          "جمع",
+          "die Kinder",
+          "den Kindern",
+          "Die Jacken stehen den Kindern nicht."
+        ],
+        [
+          "ضمير",
+          "ich / du / Sie",
+          "mir / dir / Ihnen",
+          "Das steht Ihnen gut."
+        ]
+      ]
+    },
+    {
+      "id": "g59-3",
+      "h": "zu + صفة: Das ist mir zu groß.",
+      "body": "zu قبل الصفة = زيادة عن اللزوم، يعني فيه مشكلة (درس 27): Das ist zu groß. ولو عايز تقول إنها مش مناسبة ليك إنت، زوّد mir (Dativ): Das Hemd ist mir zu teuer = القميص غالي بالنسبة لي. وفي الهدوم بنقولها كتير: zu groß، zu klein، zu lang، zu kurz، zu eng، zu weit. وخد بالك: sehr = أوي (عادي)، لكن zu = مشكلة.",
+      "examples": [
+        {
+          "de": "Das Hemd ist mir zu teuer.",
+          "ar": "القميص غالي عليّا."
+        },
+        {
+          "de": "Die Hose ist mir zu eng.",
+          "ar": "البنطلون ضيق عليّا زيادة."
+        },
+        {
+          "de": "Die Schuhe sind mir zu klein.",
+          "ar": "الجزمة صغيرة عليّا."
+        },
+        {
+          "de": "Das Hemd passt dir nicht. Es ist zu groß.",
+          "ar": "القميص مش على مقاسك. كبير زيادة."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "كبير عليّا زيادة",
+          "Das ist mir zu groß."
+        ],
+        [
+          "صغير عليّا",
+          "Das ist mir zu klein."
+        ],
+        [
+          "طويل / قصير عليّا",
+          "Das ist mir zu lang. / zu kurz."
+        ],
+        [
+          "ضيق / واسع عليّا",
+          "Das ist mir zu eng. / zu weit."
+        ],
+        [
+          "غالي عليّا",
+          "Das ist mir zu teuer."
+        ]
+      ]
+    },
+    {
+      "id": "g59-4",
+      "h": "في محل الهدوم",
+      "body": "البيّاع ممكن يسألك: Welche Größe haben Sie? (مقاس حضرتك كام؟). وإنت تقول: Kann ich das anprobieren? وتسأل: Wo ist die Umkleidekabine? (البروفة فين؟). وتسأل صاحبك: Steht mir die Hose? أو Wie findest du …? (بـ Wie مش Was). والرد: Das steht dir gut! / Das gefällt mir. و anprobieren و aussehen بينفصلوا: Probier mal das Hemd an! / Du siehst elegant aus! (sehen: du siehst، er sieht).",
+      "examples": [
+        {
+          "de": "Welche Größe haben Sie? – Ich habe Größe M.",
+          "ar": "مقاس حضرتك كام؟ – مقاسي M."
+        },
+        {
+          "de": "Kann ich die Jacke anprobieren?",
+          "ar": "ممكن أقيس الجاكيت؟"
+        },
+        {
+          "de": "Wie findest du den Pullover? – Das steht dir gut!",
+          "ar": "إيه رأيك في البلوفر؟ – ده لايق عليك!"
+        },
+        {
+          "de": "Du siehst sehr elegant aus.",
+          "ar": "شكلك أنيق أوي."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "مقاس حضرتك كام؟",
+          "Welche Größe haben Sie?"
+        ],
+        [
+          "ممكن أقيسه؟",
+          "Kann ich das anprobieren?"
+        ],
+        [
+          "البروفة فين؟",
+          "Wo ist die Umkleidekabine?"
+        ],
+        [
+          "البنطلون لايق عليّا؟",
+          "Steht mir die Hose?"
+        ],
+        [
+          "ده عاجبني / ده لايق عليك",
+          "Das gefällt mir. / Das steht dir gut!"
+        ]
+      ]
+    }
+  ]
+}

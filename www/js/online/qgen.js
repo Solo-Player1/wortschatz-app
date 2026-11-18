@@ -4,7 +4,7 @@ import { DATA, wordsOfLesson, displayDe } from '../data.js';
 import { isSeen } from '../srs.js';
 import { studiedUpTo, sortedLessonNs } from '../mastery.js';
 import { verbsOf, verbsUpTo, PERSONS, deNumber } from '../content.js';
-import { normAr, normDe, sameWord, shuffle } from '../exercises.js';
+import { normAr, normDe, sameWord, shuffle, typeAnswer } from '../exercises.js';
 
 const ARTS = ['der', 'die', 'das'];
 const pick = a => a[Math.floor(Math.random() * a.length)];
@@ -80,11 +80,15 @@ export function verbQ(v) {                           // صرّف الفعل
   return { type: 'verb', inf: v.inf, ar: v.ar, person: p.label, options: opts, correct: opts.indexOf(right) };
 }
 
-// نسخة مصغّرة من expectedFor (عشان ما نستوردش الإنجن كله هنا)
+// نسخة مصغّرة من expectedFor (عشان ما نستوردش الإنجن كله هنا) — باقي الأنواع بنفس قواعد typeAnswer بتاعة الأوفلاين
+// (etwas sagen ← sagen، mein(e) ← mein/meine، euer/eure، auf|stehen بيتقارن من غير «|» في normDe)
 function expected(w) {
-  if (w.k === 'noun' && w.art && w.sg) return { show: `${w.art} ${w.sg}`, accept: [`${w.art} ${w.sg}`, ...(w.pl ? [`${w.art} ${w.sg}, ${w.pl}`] : [])] };
-  const de = String(displayDe(w) || '').replace(/^\((etwas|jemanden|jemandem|das)\)\s*/, '');
-  return { show: de, accept: [de] };
+  if (w.k === 'noun' && w.art && w.sg) {
+    const sg = String(w.sg).replace(/\s*\(Plural\)\s*$/, '');
+    return { show: `${w.art} ${sg}`, accept: [`${w.art} ${sg}`, ...(w.pl ? [`${w.art} ${sg}, ${w.pl}`] : [])] };
+  }
+  const { answer, accept } = typeAnswer(w);
+  return { show: answer, accept: [...new Set([answer, ...accept])] };
 }
 
 // ---------- بناء خطة ماتش race (مبارزة/حبل/حرب/سماع) ----------
@@ -92,7 +96,9 @@ export function buildRacePlan(kind, pool, rounds) {
   const maxL = poolMaxLesson(pool);
   if (kind === 'war') {        // أدوات + تصريف أفعال
     const nouns = poolWords(pool, { kinds: ['noun'], min: 4 }).filter(w => w.sg && ARTS.includes(w.art));
-    const verbs = (pool && pool.kind === 'lesson' ? verbsOf(pool.lesson) : verbsUpTo(maxL)).filter(v => v.forms && new Set(Object.values(v.forms)).size >= 2);
+    const usable = v => v.forms && new Set(Object.values(v.forms)).size >= 2;
+    let verbs = (pool && pool.kind === 'lesson' ? verbsOf(maxL) : verbsUpTo(maxL)).filter(usable);
+    if (verbs.length < 3) verbs = verbsUpTo(maxL).filter(usable);   // درس من غير أفعال جديدة كفاية ← الأفعال اللي اتعلمها لحد الدرس ده (زي listFor في games/engine.js)
     const qs = [];
     for (let i = 0; i < rounds; i++) {
       const useVerb = verbs.length && (!nouns.length || Math.random() < 0.5);

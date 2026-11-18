@@ -1,0 +1,130 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:06.960 --> 00:00:08.880 region:R1 align:center
+<c.S1>– Ich hätte gerne ein Brot.</c>
+
+2
+00:00:08.920 --> 00:00:11.440 region:R1 align:center
+<c.S1>Was kostet das Roggenbrot?</c>
+
+3
+00:00:11.480 --> 00:00:12.800 region:R1 align:center
+<c.S1>– 3,20 Euro.</c>
+
+4
+00:00:13.000 --> 00:00:14.760 region:R1 align:center
+<c.S1>– Hm. Und ein halbes?</c>
+
+5
+00:00:14.800 --> 00:00:18.840 region:R1 align:center
+<c.S1>– Die Hälfte. Ein halbes Roggenbrot
+kostet 1,60 Euro.</c>
+
+6
+00:00:19.000 --> 00:00:20.360 region:R1 align:center
+<c.S1>– Hm … Ja …</c>
+
+7
+00:00:20.520 --> 00:00:24.120 region:R1 align:center
+<c.S1>Welches Brot möchtest du denn, Nico?</c>
+
+8
+00:00:28.080 --> 00:00:29.200 region:R1 align:center
+<c.S1>– Das.</c>
+
+9
+00:00:29.480 --> 00:00:30.320 region:R1 align:center
+<c.S1>– Hm.</c>
+
+10
+00:00:31.200 --> 00:00:32.280 region:R1 align:center
+<c.S1>Ja.</c>
+
+11
+00:00:32.520 --> 00:00:37.720 region:R1 align:center
+<c.S1>Ich denke, ich nehme ein halbes Weißbrot
+und ein halbes Vollkornbrot.</c>
+
+12
+00:00:37.760 --> 00:00:39.640 region:R1 align:center
+<c.S1>– Sind Sie sich da auch sicher?</c>
+
+13
+00:00:41.040 --> 00:00:41.920 region:R1 align:center
+<c.S1>– Ja.</c>
+
+14
+00:00:42.120 --> 00:00:43.280 region:R1 align:center
+<c.S1>Danke!</c>
+
+15
+00:00:49.400 --> 00:00:51.400 region:R1 align:center
+<c.S1>– Darf es sonst noch was sein?</c>
+
+16
+00:00:51.440 --> 00:00:53.080 region:R1 align:center
+<c.S1>– Och ja,</c>
+
+17
+00:00:53.840 --> 00:00:57.800 region:R1 align:center
+<c.S1>ich hätte gerne noch zwei Stück
+Apfelkuchen. Oder, Nico?</c>
+
+18
+00:00:57.840 --> 00:00:58.720 region:R1 align:center
+<c.S1>– Ja.</c>
+
+19
+00:00:59.800 --> 00:01:01.160 region:R1 align:center
+<c.S1>– Alles klar.</c>
+
+20
+00:01:03.320 --> 00:01:06.000 region:R1 align:center
+<c.S1>Zwei Stück Apfelkuchen …</c>
+
+21
+00:01:10.320 --> 00:01:12.640 region:R1 align:center
+<c.S1>Kann ich sonst noch etwas für Sie tun?</c>
+
+22
+00:01:13.880 --> 00:01:15.520 region:R1 align:center
+<c.S1>– Nein, danke.</c>
+
+23
+00:01:16.280 --> 00:01:19.000 region:R1 align:center
+<c.S1>– Das macht dann … 8,60 Euro.</c>
+
+24
+00:01:22.360 --> 00:01:23.960 region:R1 align:center
+<c.S1>– So.
+– Danke schön.</c>
+
+25
+00:01:27.800 --> 00:01:29.720 region:R1 align:center
+<c.S1>Und 1,40 zurück.</c>
+
+26
+00:01:34.440 --> 00:01:36.240 region:R1 align:center
+<c.S1>Und Ihr Apfelkuchen.</c>
+
+27
+00:01:36.280 --> 00:01:37.360 region:R1 align:center
+<c.S1>– Danke schön.</c>
+
+28
+00:01:37.400 --> 00:01:39.960 region:R1 align:center
+<c.S1>Das dauert hier immer so lange.</c>
+
+29
+00:01:40.000 --> 00:01:40.720 region:R1 align:center
+<c.S1>– Ja.</c>

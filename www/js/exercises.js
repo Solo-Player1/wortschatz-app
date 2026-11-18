@@ -44,7 +44,7 @@ export function normDe(s) {
   return String(s == null ? '' : s)
     .normalize('NFC')
     .toLowerCase()
-    .replace(/[’‘´`'\-]/g, '')
+    .replace(/[’‘´`'\-|]/g, '')                      // «|» = علامة DW للفعل المنفصل (auf|stehen ← aufstehen)
     .replace(/[.,!?…;:"„“”«»()]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -82,6 +82,16 @@ export function synonymPair(a, b) {
 }
 // للمشتّتات واللوحات: نفس المعنى تقريبًا أو مترادفين
 export const sameWord = (a, b) => !!(a && b) && (sameMeaning(a.ar, b.ar) || synonymPair(a, b));
+// كلمة تانية بنفس معنى DW = إجابة صح برضه في الكتابة (Hallo!/Hey! «مرحباً!»، fahren «سافَرَ» / reisen «سافر»).
+// بس تشكيل DW بيفرّق بين كلمات حروفها واحدة: wie viel «كم» / der Ärmel «كُمّ»، das Haar «شعر» / sich fühlen «شَعَرَ»،
+// die Arbeit «عمل» / arbeiten «عَمِلَ» — لو التشكيل مختلف، الاسم بيتقبل مكان اسم بس (والفعل/الكلمة مكان فعل/كلمة)
+const arExact = s => String(s == null ? '' : s).replace(/ـ/g, '').replace(/[\s!.؟?…،,;:]+$/g, '').replace(/\s+/g, ' ').trim();
+export function sameGloss(a, b) {
+  if (!a || !b || a.id === b.id) return false;
+  if (synonymPair(a, b)) return true;
+  if (normAr(a.ar) !== normAr(b.ar)) return false;
+  return arExact(a.ar) === arExact(b.ar) || (a.k === 'noun') === (b.k === 'noun');
+}
 
 const KIND_AR = { noun: 'اسم', verb: 'فعل', phrase: 'جملة', word: 'كلمة' };
 
@@ -122,8 +132,10 @@ export function fallbackType(word, type) {
 // نفس النوع ونفس الدرس أولاً، بعدين نفس النوع، بعدين نفس الدرس، بعدين أي كلمة
 function pickDistractors(word, n, { text, key, skip }) {
   const used = new Set([key(text(word))]);
-  const tiers = [[], [], [], []];
+  const tiers = [[], [], [], [], [], []];
   const myLessons = new Set(word.lessons || []);
+  // ٧٦ درس: الاختيارات الغلط من كلمات اتعلّمت لحد درس الكلمة دي الأول (مش كلمات من درس 70 لواحد في درس 4)
+  const horizon = Math.max(0, ...(word.lessons || []));
   for (const w of DATA.words) {
     if (!w || w.id === word.id) continue;
     const t = text(w);
@@ -131,7 +143,8 @@ function pickDistractors(word, n, { text, key, skip }) {
     if (skip && skip(w, t)) continue;
     const sameKind = w.k === word.k;
     const sameLesson = (w.lessons || []).some(l => myLessons.has(l));
-    tiers[sameKind && sameLesson ? 0 : sameKind ? 1 : sameLesson ? 2 : 3].push(w);
+    const known = Math.min(99, ...(w.lessons || [99])) <= horizon;
+    tiers[sameKind && sameLesson ? 0 : sameKind && known ? 1 : sameLesson ? 2 : known ? 3 : sameKind ? 4 : 5].push(w);
   }
   const out = [];
   for (const tier of tiers) {
@@ -210,15 +223,59 @@ export function wrongPlurals(word, n = 2) {
 
 // ---------- الإجابة المتوقّعة في تمرين الكتابة ----------
 export function typeAnswer(word) {
-  if (isNoun(word)) return { answer: word.sg, accept: [`${word.art} ${word.sg}`] };
+  if (isNoun(word)) {
+    const sg = String(word.sg).replace(/\s*\(Plural\)\s*$/, '');                  // die Eltern (Plural) ← اسم جمع بس
+    return { answer: sg, accept: [`${word.art} ${sg}`] };
+  }
   const de = String(word.de || '');
   const marker = (de.match(/^\(([^)]*)\)\s*/) || [])[1];                        // (etwas) / (das)
   const base = de.replace(/^\([^)]*\)\s*/, '').replace(/[\s.!?…,;:]+$/g, '').trim();
   const accept = [];
   if (marker) accept.push(`${marker} ${base}`);                                   // etwas lernen / das Deutsch
-  const m = base.match(/^(?:(?:mit|bei|an|auf|für|über|von|zu)\s+)?(?:etwas|jemanden|jemandem|jemand|sich)(?:\/(?:etwas|jemanden|jemandem))?\s+(.+)$/i);
-  if (m && m[1]) accept.push(m[1]);                                               // etwas suchen → suchen
-  return { answer: base, accept };
+  // etwas suchen → suchen · markers can stack: sich etwas teilen → etwas teilen → teilen, sich auf etwas freuen → freuen
+  const MARK = /^(?:(?:mit|bei|an|auf|für|über|von|zu)\s+)?(?:etwas|jemanden|jemandem|jemand|sich)(?:\/(?:etwas|jemanden|jemandem))?\s+(.+)$/i;
+  for (let rest = base, m; (m = rest.match(MARK)) && m[1]; rest = m[1]) {
+    // «sich über etwas freuen» → «über etwas freuen» is not German (the prepositional object needs its «sich»); go on to «freuen»
+    if (/^sich\s/i.test(rest) && /^(?:mit|bei|an|auf|für|über|von|zu)\s/i.test(m[1])) continue;
+    accept.push(m[1]);
+  }
+  // reflexive verb with a prepositional object: «sich über etwas freuen» → «sich freuen» (what DW's recording says)
+  const refl = base.match(/^sich\s+(?:mit|bei|an|auf|für|über|von|zu)\s+(?:etwas|jemanden|jemandem)(?:\/(?:etwas|jemanden|jemandem))?\s+(.+)$/i);
+  if (refl) accept.push(`sich ${refl[1]}`);
+  // optional words and alternatives anywhere in the entry, also with the marker: «etwas/jemanden mit|nehmen» →
+  // «etwas mit|nehmen» / «jemanden mit|nehmen», «(auf jemanden/etwas) warten» → «auf etwas warten», «in der Nähe (von)»,
+  // «Lust (auf etwas) haben» → «Lust haben», «mein(e)» → «mein» / «meine», «euer/eure», «rechts/links in eine Straße biegen»
+  for (const s of [base, ...(marker ? [`${marker} ${base}`] : [])]) accept.push(...expandAlternatives(s));
+  // whole alternatives with a spaced slash: «sein eigener Chef sein / ihre eigene Chefin sein»
+  if (/\s\/\s/.test(base)) accept.push(...base.split(/\s+\/\s+/));
+  // DW's recording says both alternatives of one word: «euer, eure», «Lieber, Liebe» → typing both is right too
+  if (/^[^\s/]+(?:\/[^\s/]+)+$/.test(base)) accept.push(base.split('/').join(', '));
+  // the gender forms of one word: «dieser, diese, dieses» → each form (not «Ja, gern» — the forms share their start)
+  const forms = base.split(/\s*,\s*/);
+  if (forms.length >= 2 && forms.every(f => /^\p{L}{2,}$/u.test(f) && f.slice(0, 3).toLowerCase() === forms[0].slice(0, 3).toLowerCase())) accept.push(...forms);
+  return { answer: base, accept: [...new Set(accept.map(a => a.replace(/\s+/g, ' ').trim()))].filter(a => a && a !== base) };
+}
+
+// «(x)» → with and without x; «a/b» inside the text (letters only, 2+ each) → a, b. At most 3 of each, ≤ 64 results.
+function expandAlternatives(s) {
+  let out = [s];
+  for (let i = 0; i < 3; i++) {
+    const next = [];
+    for (const x of out) {
+      const m = x.match(/\(([^()]*)\)/);
+      if (m) next.push(x.replace(m[0], m[1]), x.replace(m[0], ' ')); else next.push(x);
+    }
+    out = next;
+  }
+  for (let i = 0; i < 3; i++) {
+    const next = [];
+    for (const x of out) {
+      const m = x.match(/(?<![\p{L}/])(\p{L}{2,})\/(\p{L}{2,})(?![\p{L}/])/u);
+      if (m) next.push(x.replace(m[0], m[1]), x.replace(m[0], m[2])); else next.push(x);
+    }
+    out = next;
+  }
+  return out.slice(0, 64).map(x => x.replace(/\s+/g, ' ').trim()).filter(x => x && x !== s);
 }
 
 // ---------- بناء التمرين ----------
@@ -255,10 +312,9 @@ export function makeExercise(word, type = 'mcq_de_ar') {
       const { answer, accept } = typeAnswer(word);
       ex.prompt = { ar: word.ar, hint: isNoun(word) ? 'اكتب الاسم بالألماني بأداته (der / die / das)' : 'اكتبها بالألماني' };
       ex.answer = answer;
-      // كلمة تانية ليها نفس المعنى بالعربي (Hallo / Hi، Papa / Vater) = إجابة صح برضه
-      const key = normAr(word.ar);
+      // كلمة تانية ليها نفس المعنى بالعربي (Hallo / Hi، Papa / Vater) = إجابة صح برضه (مش wie viel مكان der Ärmel)
       for (const x of DATA.words) {
-        if (x.id === word.id || (normAr(x.ar) !== key && !synonymPair(x, word))) continue;
+        if (!sameGloss(x, word)) continue;
         const t = typeAnswer(x);
         accept.push(t.answer, ...t.accept);
       }
@@ -289,9 +345,19 @@ function gradeTyped(ex, answer) {
     note = `الكتابة الصح: ${correctText}`;
   }
   // اسم اتكتب بأداة غلط → صح بس ننبّهه · من غير أداة → صح بس مش بيتحسب في ✍️ (لازم الأداة)
+  let wrongArticle = false;
   if (isNoun(w) && m && hit === m[2] && m[1] !== w.art) note = `خد بالك: الأداة الصح «${w.art}» → ${correctText}`;
   else if (isNoun(w) && !m) note = note ? `${note} — واكتب الأداة كمان عشان تتحسب في ✍️` : `صح — بس اكتب الأداة كمان: ${correctText} (عشان تتحسب في ✍️)`;
-  return note ? { ok: true, correctText, note } : { ok: true, correctText };
+  else if (!isNoun(w) && m && hit === m[2]) {
+    // أداة اختيارية «(das) Deutsch»: الأداة الغلط («der Deutsch») ما تعدّيش من غير تنبيه ولا تتحسب في ✍️
+    const withArt = [ex.answer].concat(ex.accept || []).map(String).find(t => /^(der|die|das)\s/i.test(t));
+    if (!withArt) return { ok: false, correctText };           // the entry never takes an article: «der sagen» is wrong (games/exam reject it too)
+    if (normDe(withArt).split(' ')[0] !== m[1]) { wrongArticle = true; note = `خد بالك: الأداة الصح → ${withArt}`; }
+  }
+  const res = { ok: true, correctText };
+  if (note) res.note = note;
+  if (wrongArticle) res.wrongArticle = true;
+  return res;
 }
 
 export function gradeAnswer(ex, answer) {

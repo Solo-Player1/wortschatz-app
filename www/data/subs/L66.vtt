@@ -1,0 +1,67 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:20.320 --> 00:00:21.920 region:R1 align:center
+<c.S1>– Spielt ihr gut?</c>
+
+2
+00:00:22.000 --> 00:00:24.440 region:R1 align:center
+<c.S1>– Na ja, wir können leider
+nicht so oft trainieren.</c>
+
+3
+00:00:24.520 --> 00:00:25.920 region:R1 align:center
+<c.S1>– Wie oft trainiert ihr?</c>
+
+4
+00:00:26.080 --> 00:00:28.040 region:R1 align:center
+<c.S1>– So zweimal im Monat?</c>
+
+5
+00:00:28.160 --> 00:00:31.200 region:R1 align:center
+<c.S1>Montag bis Freitag müssen alle arbeiten
+und haben Termine.</c>
+
+6
+00:00:31.400 --> 00:00:34.120 region:R1 align:center
+<c.S1>Max und ich haben einen vollen
+Terminkalender und die anderen auch.</c>
+
+7
+00:00:34.600 --> 00:00:37.520 region:R1 align:center
+<c.S1>Wir können meistens nur samstags oder
+sonntags trainieren.</c>
+
+8
+00:00:37.600 --> 00:00:39.360 region:R1 align:center
+<c.S1>Oder mal abends unter der Woche.</c>
+
+9
+00:00:40.920 --> 00:00:43.440 region:R1 align:center
+<c.S1>– Aber wir sind nicht so schlecht,
+wie du denkst.</c>
+
+10
+00:00:44.360 --> 00:00:45.880 region:R1 align:center
+<c.S1>– Wie lange spielt ihr schon zusammen?</c>
+
+11
+00:00:46.000 --> 00:00:48.440 region:R1 align:center
+<c.S1>– Seit fünf Jahren. Ungefähr.</c>
+
+12
+00:00:48.480 --> 00:00:50.040 region:R1 align:center
+<c.S1>– Hey. Helft mal mit!</c>
+
+13
+00:00:50.640 --> 00:00:53.400 region:R1 align:center
+<c.S1>Erst trainieren wir, dann wird gespielt.</c>

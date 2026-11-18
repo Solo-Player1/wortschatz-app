@@ -1,0 +1,88 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:06.880 --> 00:00:08.960 region:R1 align:center
+<c.S1>– So, hier. Hier ist Yaras Fahrradladen.</c>
+
+2
+00:00:09.000 --> 00:00:09.920 region:R1 align:center
+<c.S1>– Also dann …</c>
+
+3
+00:00:11.000 --> 00:00:13.680 region:R1 align:center
+<c.S1>– Und wie kommt ihr jetzt nach Hause?
+Fahrt ihr nicht mit dem Bus?</c>
+
+4
+00:00:13.720 --> 00:00:17.000 region:R1 align:center
+<c.S1>– Wir fahren mit der U-Bahn bis zur Uni.
+Den Rest gehen wir dann zu Fuß.</c>
+
+5
+00:00:17.080 --> 00:00:18.720 region:R1 align:center
+<c.S1>Oder fahren wir mit der Straßenbahn, Emma?</c>
+
+6
+00:00:18.760 --> 00:00:19.800 region:R1 align:center
+<c.S1>– Straßenbahn!</c>
+
+7
+00:00:19.840 --> 00:00:23.520 region:R1 align:center
+<c.S1>– Okay, also, die nächste Haltestelle
+ist direkt hinter der Kreuzung.</c>
+
+8
+00:00:23.560 --> 00:00:25.400 region:R1 align:center
+<c.S1>– Ja, das weiß ich doch, das weiß ich doch.
+– Die nächste Straße links und ...</c>
+
+9
+00:00:25.440 --> 00:00:27.000 region:R1 align:center
+<c.S1>– Emma, du musst dich jetzt verabschieden.</c>
+
+10
+00:00:27.040 --> 00:00:28.560 region:R1 align:center
+<c.S1>– Muss ich?</c>
+
+11
+00:00:30.400 --> 00:00:33.320 region:R1 align:center
+<c.S1>– Tschüss, Emma. Es war hoffentlich schön
+bei mir. Kommst du bald wieder?</c>
+
+12
+00:00:33.360 --> 00:00:35.480 region:R1 align:center
+<c.S1>– Ja! Bei dir ist es immer cool.</c>
+
+13
+00:00:35.560 --> 00:00:37.160 region:R1 align:center
+<c.S1>– Okay. Tschüss.</c>
+
+14
+00:00:39.160 --> 00:00:41.080 region:R1 align:center
+<c.S1>– Sehen wir uns wieder?</c>
+
+15
+00:00:41.640 --> 00:00:43.120 region:R1 align:center
+<c.S1>– Ich weiß es nicht.</c>
+
+16
+00:00:49.200 --> 00:00:50.960 region:R1 align:center
+<c.S1>– Viel Glück!</c>
+
+17
+00:00:51.040 --> 00:00:52.400 region:R1 align:center
+<c.S1>– Danke!</c>
+
+18
+00:00:53.160 --> 00:00:55.080 region:R1 align:center
+<c.S1>– Ciao!
+– Tschüss!</c>

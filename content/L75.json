@@ -1,0 +1,772 @@
+{
+  "n": 75,
+  "sentences": [
+    {
+      "id": "s75-001",
+      "de": "Was denkst du, Selma?",
+      "ar": "بتفكري في إيه يا سلمى؟",
+      "kind": "question",
+      "focus": [
+        "verb:denken",
+        "w-frage"
+      ],
+      "alts": [
+        "Selma, was denkst du?"
+      ],
+      "cloze": {
+        "word": "denkst",
+        "opts": [
+          "denkst",
+          "denkt",
+          "denke"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-002",
+      "de": "Es ist eine andere Heimat.",
+      "ar": "ده وطن تاني.",
+      "kind": "statement",
+      "focus": [
+        "anders",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "andere",
+        "opts": [
+          "andere",
+          "anders",
+          "anderen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-003",
+      "de": "Deutschland ist anders als die alte Heimat, oder?",
+      "ar": "ألمانيا مختلفة عن الوطن القديم، صح؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "anders"
+      ],
+      "alts": [
+        "Die alte Heimat ist anders als Deutschland, oder?"
+      ],
+      "cloze": {
+        "word": "als",
+        "opts": [
+          "als",
+          "wie",
+          "so"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-004",
+      "de": "Alles ist anders.",
+      "ar": "كل حاجة مختلفة.",
+      "kind": "statement",
+      "focus": [
+        "anders"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "anders",
+        "opts": [
+          "anders",
+          "andere",
+          "anderes"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-005",
+      "de": "Aber im Winter ist es nicht so kalt.",
+      "ar": "بس في الشتا الجو مش برد أوي كده.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "weather"
+      ],
+      "alts": [
+        "Aber es ist im Winter nicht so kalt.",
+        "Aber es ist nicht so kalt im Winter."
+      ],
+      "cloze": {
+        "word": "so",
+        "opts": [
+          "so",
+          "als",
+          "wie"
+        ],
+        "accept": [
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-006",
+      "de": "In Syrien gibt es nicht so viele Regeln wie in Deutschland.",
+      "ar": "في سوريا مفيش قواعد كتير قد ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "plural"
+      ],
+      "alts": [
+        "Es gibt in Syrien nicht so viele Regeln wie in Deutschland.",
+        "Es gibt nicht so viele Regeln in Syrien wie in Deutschland."
+      ],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "als",
+          "so"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-007",
+      "de": "Es gibt viel mehr Leben auf der Straße.",
+      "ar": "فيه حياة أكتر بكتير في الشارع.",
+      "kind": "statement",
+      "focus": [
+        "comparative",
+        "es-gibt"
+      ],
+      "alts": [
+        "Auf der Straße gibt es viel mehr Leben.",
+        "Es gibt auf der Straße viel mehr Leben."
+      ],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "sehr",
+          "viele"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-008",
+      "de": "Die Läden sind länger geöffnet.",
+      "ar": "المحلات بتفضل فاتحة لوقت أطول.",
+      "kind": "statement",
+      "focus": [
+        "comparative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "länger",
+        "opts": [
+          "länger",
+          "langer",
+          "längere"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-009",
+      "de": "Alles ist ein bisschen spontaner und lockerer.",
+      "ar": "كل حاجة فيها عفوية وروقان أكتر شوية.",
+      "kind": "statement",
+      "focus": [
+        "comparative",
+        "adjective"
+      ],
+      "alts": [
+        "Alles ist ein bisschen lockerer und spontaner."
+      ],
+      "cloze": {
+        "word": "lockerer",
+        "opts": [
+          "lockerer",
+          "lockere",
+          "lockeren"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-010",
+      "de": "Ja, eigentlich ist fast alles anders.",
+      "ar": "أيوه، في الحقيقة كل حاجة تقريبًا مختلفة.",
+      "kind": "answer",
+      "focus": [
+        "word-order",
+        "anders"
+      ],
+      "alts": [
+        "Ja, fast alles ist eigentlich anders."
+      ],
+      "cloze": {
+        "word": "eigentlich",
+        "opts": [
+          "eigentlich",
+          "hilfsbereit",
+          "spontan"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-011",
+      "de": "Die Menschen hier sind genauso nett wie in Syrien.",
+      "ar": "الناس هنا لطاف زي الناس في سوريا بالظبط.",
+      "kind": "statement",
+      "focus": [
+        "comparison"
+      ],
+      "alts": [
+        "Hier sind die Menschen genauso nett wie in Syrien.",
+        "Die Menschen sind hier genauso nett wie in Syrien."
+      ],
+      "cloze": {
+        "word": "genauso",
+        "opts": [
+          "genauso",
+          "mehr",
+          "anders"
+        ],
+        "accept": [
+          "so"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s75-012",
+      "de": "Ich denke oft an meine Familie.",
+      "ar": "بفكر في عيلتي كتير.",
+      "kind": "statement",
+      "focus": [
+        "verb:denken",
+        "accusative"
+      ],
+      "alts": [
+        "Oft denke ich an meine Familie.",
+        "An meine Familie denke ich oft."
+      ],
+      "cloze": {
+        "word": "an",
+        "opts": [
+          "an",
+          "auf",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-013",
+      "de": "Denkst du oft an deine Heimat?",
+      "ar": "بتفكر في بلدك كتير؟",
+      "kind": "question",
+      "focus": [
+        "verb:denken",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "deinen",
+          "deiner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-014",
+      "de": "Was ist in Deutschland anders?",
+      "ar": "إيه اللي مختلف في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "anders"
+      ],
+      "alts": [
+        "Was ist anders in Deutschland?"
+      ],
+      "cloze": {
+        "word": "Was",
+        "opts": [
+          "Was",
+          "Wo",
+          "Woher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-015",
+      "de": "Bei uns ist das anders.",
+      "ar": "عندنا الموضوع ده مختلف.",
+      "kind": "answer",
+      "focus": [
+        "anders",
+        "homeland"
+      ],
+      "alts": [
+        "Das ist bei uns anders."
+      ],
+      "cloze": {
+        "word": "uns",
+        "opts": [
+          "uns",
+          "wir",
+          "unser"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-016",
+      "de": "Wie funktioniert das in Deutschland?",
+      "ar": "الموضوع ده بيمشي إزاي في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "verb:funktionieren",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "funktioniert",
+        "opts": [
+          "funktioniert",
+          "funktionieren",
+          "funktionierst"
+        ],
+        "accept": [
+          "geht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-017",
+      "de": "In Deutschland gibt es mehr Regeln als in Ägypten.",
+      "ar": "في ألمانيا فيه قواعد أكتر من مصر.",
+      "kind": "statement",
+      "focus": [
+        "comparative",
+        "plural"
+      ],
+      "alts": [
+        "Es gibt in Deutschland mehr Regeln als in Ägypten.",
+        "Es gibt mehr Regeln in Deutschland als in Ägypten."
+      ],
+      "cloze": {
+        "word": "mehr",
+        "opts": [
+          "mehr",
+          "viele",
+          "meisten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-018",
+      "de": "Englisch ist einfacher als Deutsch.",
+      "ar": "الإنجليزي أسهل من الألماني.",
+      "kind": "statement",
+      "focus": [
+        "comparative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einfacher",
+        "opts": [
+          "einfacher",
+          "einfach",
+          "einfachste"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-019",
+      "de": "Ich bin nicht so spontan wie du.",
+      "ar": "أنا مش عفوي زيك.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "adjective"
+      ],
+      "alts": [
+        "So spontan wie du bin ich nicht."
+      ],
+      "cloze": {
+        "word": "spontan",
+        "opts": [
+          "spontan",
+          "spontaner",
+          "spontane"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-020",
+      "de": "Meine Nachbarn sind sehr hilfsbereit.",
+      "ar": "جيراني خدومين جدًا.",
+      "kind": "statement",
+      "focus": [
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "hilfsbereit",
+        "opts": [
+          "hilfsbereit",
+          "hilfsbereite",
+          "hilfsbereiter"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-021",
+      "de": "Irgendwann möchte ich in Deutschland leben.",
+      "ar": "في يوم من الأيام عايز أعيش في ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "word-order",
+        "verb:möchten"
+      ],
+      "alts": [
+        "Ich möchte irgendwann in Deutschland leben.",
+        "In Deutschland möchte ich irgendwann leben."
+      ],
+      "cloze": {
+        "word": "leben",
+        "opts": [
+          "leben",
+          "lebe",
+          "lebt"
+        ],
+        "accept": [
+          "wohnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s75-022",
+      "de": "Ist es in Deutschland sicher?",
+      "ar": "الدنيا أمان في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "adjective"
+      ],
+      "alts": [
+        "Ist es sicher in Deutschland?"
+      ],
+      "cloze": {
+        "word": "sicher",
+        "opts": [
+          "sicher",
+          "sichere",
+          "sicheren"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w75-01",
+      "q": "___ denkst du, Selma?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "بتفكري في إيه يا سلمى؟",
+      "reply": "Ich weiß es nicht.",
+      "reply_ar": "معرفش."
+    },
+    {
+      "id": "w75-02",
+      "q": "___ ist in Deutschland anders?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Woher",
+        "Wann"
+      ],
+      "ar": "إيه اللي مختلف في ألمانيا؟",
+      "reply": "Das Essen, das Wetter und die Sprache.",
+      "reply_ar": "الأكل والجو واللغة."
+    },
+    {
+      "id": "w75-03",
+      "q": "___ Jahreszeiten gibt es in Syrien?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "فيه كام فصل في سوريا؟",
+      "reply": "Vier, wie in Deutschland.",
+      "reply_ar": "أربعة، زي ألمانيا."
+    },
+    {
+      "id": "w75-04",
+      "q": "___ findest du Deutschland?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيه رأيك في ألمانيا؟",
+      "reply": "Ich finde Deutschland schön.",
+      "reply_ar": "شايف إن ألمانيا حلوة."
+    },
+    {
+      "id": "w75-05",
+      "q": "___ denkt oft an Syrien?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين بيفكر في سوريا كتير؟",
+      "reply": "Selma.",
+      "reply_ar": "سلمى."
+    },
+    {
+      "id": "w75-06",
+      "q": "___ möchtest du irgendwann leben?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "نفسك تعيش فين في يوم من الأيام؟",
+      "reply": "In Deutschland.",
+      "reply_ar": "في ألمانيا."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g75-1",
+      "h": "anders و anders als = مختلف / مختلف عن",
+      "body": "anders = مختلف أو بشكل مختلف، وبعد sein مابتتغيرش أبدًا: Alles ist anders. وعشان تقول «مختلف عن» قول anders als (مش anders wie): Deutschland ist anders als Syrien. لكن قدام الاسم بنستخدم ander- بنهاية زي أي صفة: eine andere Heimat (= وطن تاني). وعشان تقارن ببلدك قول: Bei uns ist das anders. (= عندنا الموضوع ده مختلف).",
+      "examples": [
+        {
+          "de": "Alles ist anders.",
+          "ar": "كل حاجة مختلفة."
+        },
+        {
+          "de": "Deutschland ist anders als die alte Heimat, oder?",
+          "ar": "ألمانيا مختلفة عن الوطن القديم، صح؟"
+        },
+        {
+          "de": "Es ist eine andere Heimat.",
+          "ar": "ده وطن تاني."
+        },
+        {
+          "de": "Bei uns ist das anders.",
+          "ar": "عندنا الموضوع ده مختلف."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "بنستخدمها إزاي",
+          "مثال"
+        ],
+        [
+          "anders",
+          "بعد sein أو مع فعل (مابتتغيرش)",
+          "Alles ist anders."
+        ],
+        [
+          "anders als",
+          "مختلف عن",
+          "anders als Syrien"
+        ],
+        [
+          "anderer / andere / anderes",
+          "قدام اسم (بنهاية زي الصفة)",
+          "eine andere Heimat"
+        ]
+      ]
+    },
+    {
+      "id": "g75-2",
+      "h": "زي بعض ولا لأ: genauso … wie و nicht so … wie",
+      "body": "لو حاجتين زي بعض بالظبط: genauso + الصفة زي ما هي + wie: Die Menschen hier sind genauso nett wie in Syrien. ولو مش قد بعض: nicht so + الصفة + wie: Ich bin nicht so spontan wie du. ومع اسم: nicht so viele Regeln wie in Deutschland. ولو مفهوم بتقارن بإيه ممكن تشيل حتة wie خالص: Im Winter ist es nicht so kalt. افتكر: بعد so و genauso دايمًا wie، مش als.",
+      "examples": [
+        {
+          "de": "Die Menschen hier sind genauso nett wie in Syrien.",
+          "ar": "الناس هنا لطاف زي الناس في سوريا بالظبط."
+        },
+        {
+          "de": "In Syrien gibt es nicht so viele Regeln wie in Deutschland.",
+          "ar": "في سوريا مفيش قواعد كتير قد ألمانيا."
+        },
+        {
+          "de": "Ich bin nicht so spontan wie du.",
+          "ar": "أنا مش عفوي زيك."
+        }
+      ],
+      "table": [
+        [
+          "المعنى",
+          "التركيب",
+          "مثال"
+        ],
+        [
+          "زي … بالظبط",
+          "genauso + صفة + wie",
+          "genauso nett wie in Syrien"
+        ],
+        [
+          "مش قد",
+          "nicht so + صفة + wie",
+          "nicht so spontan wie du"
+        ],
+        [
+          "مش كتير قد",
+          "nicht so viele + اسم + wie",
+          "nicht so viele Regeln wie in Deutschland"
+        ]
+      ]
+    },
+    {
+      "id": "g75-3",
+      "h": "أكتر من: صيغة المقارنة + als",
+      "body": "عشان تقول «أكتر» زوّد -er على الصفة: spontan تبقى spontaner، einfach تبقى einfacher. وخد بالك: locker تبقى lockerer و sicher تبقى sicherer (مش زي teuer اللي بتبقى teurer). وصفات قصيرة كتير بتاخد أوملاوت: lang تبقى länger. والشاذ: viel تبقى mehr. وبعدها als (= من): Englisch ist einfacher als Deutsch. و«أكتر بكتير» = viel + المقارنة (مش sehr): viel mehr Leben. و«أكتر شوية» = ein bisschen spontaner.",
+      "examples": [
+        {
+          "de": "Englisch ist einfacher als Deutsch.",
+          "ar": "الإنجليزي أسهل من الألماني."
+        },
+        {
+          "de": "Die Läden sind länger geöffnet.",
+          "ar": "المحلات بتفضل فاتحة لوقت أطول."
+        },
+        {
+          "de": "Es gibt viel mehr Leben auf der Straße.",
+          "ar": "فيه حياة أكتر بكتير في الشارع."
+        },
+        {
+          "de": "Alles ist ein bisschen spontaner und lockerer.",
+          "ar": "كل حاجة فيها عفوية وروقان أكتر شوية."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "المقارنة (أكتر)",
+          "مثال"
+        ],
+        [
+          "spontan",
+          "spontaner",
+          "ein bisschen spontaner"
+        ],
+        [
+          "locker",
+          "lockerer",
+          "spontaner und lockerer"
+        ],
+        [
+          "einfach",
+          "einfacher",
+          "einfacher als Deutsch"
+        ],
+        [
+          "lang",
+          "länger",
+          "länger geöffnet"
+        ],
+        [
+          "viel",
+          "mehr",
+          "mehr Regeln als in Ägypten"
+        ]
+      ]
+    },
+    {
+      "id": "g75-4",
+      "h": "an + Akkusativ، و eigentlich / irgendwann",
+      "body": "an etwas / jemanden denken = يفكّر في حاجة / حد. بعد an هنا دايمًا Akkusativ: an meinen Bruder، an meine Familie، an dich. وفرّق بينها وبين Was denkst du? (= بتفكر في إيه؟ / رأيك إيه؟). وكلمتين جداد كتير بييجوا في أول الجملة: eigentlich (= في الحقيقة) و irgendwann (= في يوم من الأيام)، وساعتها الفعل بييجي بعدهم على طول: Irgendwann möchte ich in Deutschland leben.",
+      "examples": [
+        {
+          "de": "Ich denke oft an meine Familie.",
+          "ar": "بفكر في عيلتي كتير."
+        },
+        {
+          "de": "Denkst du oft an deine Heimat?",
+          "ar": "بتفكر في بلدك كتير؟"
+        },
+        {
+          "de": "Ja, eigentlich ist fast alles anders.",
+          "ar": "أيوه، في الحقيقة كل حاجة تقريبًا مختلفة."
+        },
+        {
+          "de": "Irgendwann möchte ich in Deutschland leben.",
+          "ar": "في يوم من الأيام عايز أعيش في ألمانيا."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "an + Akkusativ",
+          "مثال"
+        ],
+        [
+          "der",
+          "an den / an meinen",
+          "an meinen Bruder"
+        ],
+        [
+          "die",
+          "an die / an meine",
+          "an meine Familie"
+        ],
+        [
+          "das",
+          "an das / an mein",
+          "an mein Dorf"
+        ],
+        [
+          "الجمع",
+          "an die / an meine",
+          "an meine Eltern"
+        ],
+        [
+          "ضمير",
+          "an mich / an dich",
+          "Ich denke an dich."
+        ]
+      ]
+    }
+  ]
+}

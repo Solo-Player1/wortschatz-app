@@ -1,0 +1,796 @@
+{
+  "n": 41,
+  "sentences": [
+    {
+      "id": "s41-001",
+      "de": "Ich gebe sie dir bald zurück.",
+      "ar": "هرجّعهملك قريب.",
+      "kind": "statement",
+      "focus": [
+        "verb:zurückgeben",
+        "separable",
+        "pronoun"
+      ],
+      "alts": [
+        "Bald gebe ich sie dir zurück."
+      ],
+      "cloze": {
+        "word": "gebe",
+        "opts": [
+          "gebe",
+          "gibst",
+          "gibt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-002",
+      "de": "Die Hose kannst du behalten.",
+      "ar": "البنطلون ممكن تخليه معاك.",
+      "kind": "statement",
+      "focus": [
+        "verb:behalten",
+        "verb:können",
+        "word-order"
+      ],
+      "alts": [
+        "Du kannst die Hose behalten."
+      ],
+      "cloze": {
+        "word": "behalten",
+        "opts": [
+          "behalten",
+          "behältst",
+          "behält"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-003",
+      "de": "Die Tasche und die Jacke brauche ich zurück.",
+      "ar": "الشنطة والجاكت محتاجهم يرجعولي.",
+      "kind": "statement",
+      "focus": [
+        "verb:brauchen",
+        "word-order"
+      ],
+      "alts": [
+        "Ich brauche die Tasche und die Jacke zurück.",
+        "Die Jacke und die Tasche brauche ich zurück.",
+        "Ich brauche die Jacke und die Tasche zurück."
+      ],
+      "cloze": {
+        "word": "brauche",
+        "opts": [
+          "brauche",
+          "brauchst",
+          "braucht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-004",
+      "de": "Ich muss noch etwas für unseren Urlaub einkaufen.",
+      "ar": "لسه لازم أشتري حاجة للإجازة بتاعتنا.",
+      "kind": "statement",
+      "focus": [
+        "verb:einkaufen",
+        "verb:müssen",
+        "word-order"
+      ],
+      "alts": [
+        "Ich muss für unseren Urlaub noch etwas einkaufen.",
+        "Für unseren Urlaub muss ich noch etwas einkaufen."
+      ],
+      "cloze": {
+        "word": "einkaufen",
+        "opts": [
+          "einkaufen",
+          "einkaufe",
+          "einkauft"
+        ],
+        "accept": [
+          "kaufen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-005",
+      "de": "Ich kaufe im Supermarkt ein.",
+      "ar": "بشتري حاجتي من السوبر ماركت.",
+      "kind": "answer",
+      "focus": [
+        "verb:einkaufen",
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "Im Supermarkt kaufe ich ein."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "am",
+          "in"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-006",
+      "de": "Wo wohnst du jetzt?",
+      "ar": "إنت ساكن فين دلوقتي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:wohnen",
+        "housing"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wohnst",
+        "opts": [
+          "wohnst",
+          "wohnt",
+          "wohne"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-007",
+      "de": "Ich wohne bei Frau Kohlhaas.",
+      "ar": "أنا ساكن عند مدام كولهاس.",
+      "kind": "answer",
+      "focus": [
+        "preposition",
+        "dative",
+        "housing"
+      ],
+      "alts": [
+        "Bei Frau Kohlhaas wohne ich."
+      ],
+      "cloze": {
+        "word": "bei",
+        "opts": [
+          "bei",
+          "von",
+          "aus",
+          "in"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-008",
+      "de": "Sie ist sehr nett und wohnt in der Kälberstraße.",
+      "ar": "هي لطيفة أوي وساكنة في شارع كِلبر.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "address",
+        "dative"
+      ],
+      "alts": [
+        "Sie wohnt in der Kälberstraße und ist sehr nett."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-009",
+      "de": "Da ist der Friedensplatz.",
+      "ar": "أهو ميدان فريدنس هناك.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "compound",
+        "place"
+      ],
+      "alts": [
+        "Der Friedensplatz ist da."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-010",
+      "de": "Ich arbeite neben dem Theater.",
+      "ar": "أنا بشتغل جنب المسرح.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "workplace"
+      ],
+      "alts": [
+        "Neben dem Theater arbeite ich."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-011",
+      "de": "Die Kälberstraße ist in der Nähe vom Restaurant.",
+      "ar": "شارع كِلبر قريب من المطعم.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "place"
+      ],
+      "alts": [
+        "In der Nähe vom Restaurant ist die Kälberstraße."
+      ],
+      "cloze": {
+        "word": "vom",
+        "opts": [
+          "vom",
+          "von",
+          "beim"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s41-012",
+      "de": "Wohnst du noch bei deinen Eltern?",
+      "ar": "إنت لسه ساكن مع أهلك؟",
+      "kind": "question",
+      "focus": [
+        "preposition",
+        "dative",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deinen",
+        "opts": [
+          "deinen",
+          "deine",
+          "dein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-013",
+      "de": "Nein, ich wohne jetzt in der Domgasse.",
+      "ar": "لأ، أنا دلوقتي ساكن في حارة دوم.",
+      "kind": "answer",
+      "focus": [
+        "address",
+        "preposition",
+        "housing"
+      ],
+      "alts": [
+        "Nein, jetzt wohne ich in der Domgasse.",
+        "Nein, in der Domgasse wohne ich jetzt."
+      ],
+      "cloze": {
+        "word": "in",
+        "opts": [
+          "in",
+          "aus",
+          "zu"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-014",
+      "de": "Ich arbeite bei der Post.",
+      "ar": "أنا بشتغل في البوستة.",
+      "kind": "answer",
+      "focus": [
+        "preposition",
+        "dative",
+        "workplace"
+      ],
+      "alts": [
+        "Bei der Post arbeite ich."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-015",
+      "de": "Mein Vater arbeitet an der Tankstelle.",
+      "ar": "أبويا بيشتغل في البنزينة.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "workplace"
+      ],
+      "alts": [
+        "An der Tankstelle arbeitet mein Vater."
+      ],
+      "cloze": {
+        "word": "an",
+        "opts": [
+          "an",
+          "aus",
+          "von"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-016",
+      "de": "Die Oper ist in der Nähe vom Bahnhof.",
+      "ar": "الأوبرا قريبة من محطة القطر.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "place"
+      ],
+      "alts": [
+        "In der Nähe vom Bahnhof ist die Oper."
+      ],
+      "cloze": {
+        "word": "Bahnhof",
+        "opts": [
+          "Bahnhof",
+          "Post",
+          "Tankstelle"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-017",
+      "de": "Kennst du den Weg zum Bahnhof?",
+      "ar": "تعرف الطريق لمحطة القطر؟",
+      "kind": "question",
+      "focus": [
+        "verb:kennen",
+        "article",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-018",
+      "de": "Wo kann ich einen Stadtplan kaufen?",
+      "ar": "أقدر أشتري خريطة للمدينة منين؟",
+      "kind": "question",
+      "focus": [
+        "verb:kaufen",
+        "verb:können",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "eine",
+          "ein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-019",
+      "de": "Mein Koffer ist noch bei Lisa.",
+      "ar": "شنطة السفر بتاعتي لسه عند ليزا.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Koffer",
+        "opts": [
+          "Koffer",
+          "Tasche",
+          "Jacke"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-020",
+      "de": "Die Post ist in der Schlossallee.",
+      "ar": "البوستة في شارع شلوس آليه.",
+      "kind": "statement",
+      "focus": [
+        "address",
+        "preposition",
+        "article"
+      ],
+      "alts": [
+        "In der Schlossallee ist die Post."
+      ],
+      "cloze": {
+        "word": "Post",
+        "opts": [
+          "Post",
+          "Bahnhof",
+          "Platz"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-021",
+      "de": "Nico schenkt Emma ein Bild.",
+      "ar": "نيكو بيهادي إيما بصورة.",
+      "kind": "statement",
+      "focus": [
+        "verb:schenken",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schenkt",
+        "opts": [
+          "schenkt",
+          "schenkst",
+          "schenken"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s41-022",
+      "de": "Das ist ein Geschenk von Emma.",
+      "ar": "دي هدية من إيما.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "von",
+        "opts": [
+          "von",
+          "aus",
+          "bei"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w41-01",
+      "q": "___ ist der Bahnhof?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "محطة القطر فين؟",
+      "reply": "In der Nähe vom Theater.",
+      "reply_ar": "قريبة من المسرح."
+    },
+    {
+      "id": "w41-02",
+      "q": "___ wohnt bei Frau Kohlhaas?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين ساكن عند مدام كولهاس؟",
+      "reply": "Nico.",
+      "reply_ar": "نيكو."
+    },
+    {
+      "id": "w41-03",
+      "q": "___ arbeitet Opa?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "جدو بيشتغل فين؟",
+      "reply": "Bei der Polizei.",
+      "reply_ar": "في البوليس."
+    },
+    {
+      "id": "w41-04",
+      "q": "___ kaufst du ein?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "بتشتري حاجتك فين؟",
+      "reply": "Im Supermarkt.",
+      "reply_ar": "من السوبر ماركت."
+    },
+    {
+      "id": "w41-05",
+      "q": "___ arbeitet an der Tankstelle?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "مين بيشتغل في البنزينة؟",
+      "reply": "Mein Vater.",
+      "reply_ar": "أبويا."
+    },
+    {
+      "id": "w41-06",
+      "q": "___ kann Nico behalten?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "نيكو يقدر يخلّي إيه معاه؟",
+      "reply": "Die zwei T-Shirts und die Hose.",
+      "reply_ar": "التيشيرتين والبنطلون."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g41-1",
+      "h": "bei + Dativ: ساكن عند / بشتغل في",
+      "body": "bei دايمًا بعده Dativ. بنستخدمه في حاجتين: ساكن عند مين: Ich wohne bei Frau Kohlhaas. / bei meinen Eltern (عند أهلي). وبتشتغل في أنهي شركة أو مؤسسة: Ich arbeite bei Siemens. ولو الاسم ليه أداة بتبقى Dativ: bei der Post / bei der Polizei. ومع der و das الأداة بتبقى dem، و bei + dem = beim: Ich habe einen Termin beim Arzt.",
+      "examples": [
+        {
+          "de": "Ich wohne bei Frau Kohlhaas.",
+          "ar": "أنا ساكن عند مدام كولهاس."
+        },
+        {
+          "de": "Wohnst du noch bei deinen Eltern?",
+          "ar": "إنت لسه ساكن مع أهلك؟"
+        },
+        {
+          "de": "Ich arbeite bei der Post.",
+          "ar": "أنا بشتغل في البوستة."
+        },
+        {
+          "de": "Ich habe morgen einen Termin beim Arzt.",
+          "ar": "عندي ميعاد عند الدكتور بكرة."
+        }
+      ],
+      "table": [
+        [
+          "عند مين / فين؟",
+          "bei + Dativ",
+          "بالمصري"
+        ],
+        [
+          "شخص",
+          "bei Frau Kohlhaas / bei Lisa",
+          "عند مدام كولهاس / عند ليزا"
+        ],
+        [
+          "الأهل (جمع)",
+          "bei meinen Eltern",
+          "عند أهلي"
+        ],
+        [
+          "اسم شركة (من غير أداة)",
+          "bei Siemens / bei Aldi",
+          "في سيمنس / في ألدي"
+        ],
+        [
+          "شركة / مؤسسة بأداة",
+          "bei der Post / bei der Polizei",
+          "في البوستة / في البوليس"
+        ],
+        [
+          "der / das",
+          "beim Arzt (= bei dem Arzt)",
+          "عند الدكتور"
+        ]
+      ]
+    },
+    {
+      "id": "g41-2",
+      "h": "von + Dativ: von Emma و in der Nähe vom …",
+      "body": "von دايمًا بعده Dativ، ومعناه «من»: Das ist ein Geschenk von Emma. وبييجي كمان في in der Nähe von (= قريب من). مع der و das بنقول vom (= von dem): in der Nähe vom Bahnhof. ومع die مفيش اختصار: von der. ومع اسم شخص أو مدينة من غير أداة: von Emma، in der Nähe von Köln. ونفس الاختصار بيحصل مع in و an: im (= in dem) و am (= an dem).",
+      "examples": [
+        {
+          "de": "Das ist ein Geschenk von Emma.",
+          "ar": "دي هدية من إيما."
+        },
+        {
+          "de": "Die Kälberstraße ist in der Nähe vom Restaurant.",
+          "ar": "شارع كِلبر قريب من المطعم."
+        },
+        {
+          "de": "Bonn liegt in der Nähe von Köln.",
+          "ar": "بون قريبة من كولونيا."
+        }
+      ],
+      "table": [
+        [
+          "حرف الجر",
+          "مذكّر / محايد (dem)",
+          "مؤنّث (der)"
+        ],
+        [
+          "bei",
+          "beim",
+          "bei der"
+        ],
+        [
+          "von",
+          "vom",
+          "von der"
+        ],
+        [
+          "in",
+          "im",
+          "in der"
+        ],
+        [
+          "an",
+          "am",
+          "an der"
+        ]
+      ]
+    },
+    {
+      "id": "g41-3",
+      "h": "in ولا an؟ مع Wo?",
+      "body": "مع السؤال Wo? (فين؟) in و an بياخدوا Dativ. in = جوّه المكان: im Supermarkt، in der Bibliothek. ومع أسامي الشوارع (Straße، Gasse، Allee) بنقول in der: in der Kälberstraße، ومع der Weg بنقول im: im Wiesenweg. an = عند المكان أو على طرفه: am Bahnhof، an der Tankstelle، ومع الميدان (Platz) بنقول am: am Friedensplatz.",
+      "examples": [
+        {
+          "de": "Ich kaufe im Supermarkt ein.",
+          "ar": "بشتري حاجتي من السوبر ماركت."
+        },
+        {
+          "de": "Die Post ist in der Schlossallee.",
+          "ar": "البوستة في شارع شلوس آليه."
+        },
+        {
+          "de": "Mein Vater arbeitet an der Tankstelle.",
+          "ar": "أبويا بيشتغل في البنزينة."
+        },
+        {
+          "de": "Das Restaurant von Max und Tarek ist am Friedensplatz.",
+          "ar": "مطعم ماكس وطارق في ميدان فريدنس."
+        }
+      ],
+      "table": [
+        [
+          "المكان",
+          "Wo? (فين؟)",
+          "مثال"
+        ],
+        [
+          "die Straße / die Gasse / die Allee",
+          "in der …",
+          "in der Kälberstraße"
+        ],
+        [
+          "der Weg",
+          "im …",
+          "im Wiesenweg"
+        ],
+        [
+          "der Supermarkt / das Restaurant",
+          "im …",
+          "im Supermarkt"
+        ],
+        [
+          "der Platz",
+          "am …",
+          "am Friedensplatz"
+        ],
+        [
+          "der Bahnhof",
+          "am …",
+          "am Bahnhof"
+        ],
+        [
+          "die Tankstelle",
+          "an der …",
+          "an der Tankstelle"
+        ]
+      ]
+    },
+    {
+      "id": "g41-4",
+      "h": "تتكلم عن سكنك وشغلك",
+      "body": "الدرس ده عشان تقول إنت ساكن فين وبتشتغل فين. تسأل: Wo wohnst du? (رسمي: Wo wohnen Sie?) والرد: Ich wohne in der …straße. أو Ich wohne bei … (عند حد). وتسأل: Wo arbeitest du? (رسمي: Wo arbeiten Sie?) والرد: Ich arbeite bei … (شركة أو مؤسسة) أو in / an / neben … (مكان). ولو عايز توصف المكان: Das ist in der Nähe vom Bahnhof.",
+      "examples": [
+        {
+          "de": "Wo wohnst du jetzt? – Ich wohne bei Frau Kohlhaas.",
+          "ar": "إنت ساكن فين دلوقتي؟ – ساكن عند مدام كولهاس."
+        },
+        {
+          "de": "Wo arbeitest du? – Ich arbeite neben dem Theater.",
+          "ar": "بتشتغل فين؟ – بشتغل جنب المسرح."
+        },
+        {
+          "de": "Wo ist die Oper? – In der Nähe vom Bahnhof.",
+          "ar": "الأوبرا فين؟ – قريبة من محطة القطر."
+        }
+      ],
+      "table": [
+        [
+          "السؤال",
+          "الرد"
+        ],
+        [
+          "Wo wohnst du? / Wo wohnen Sie?",
+          "Ich wohne in der Kälberstraße."
+        ],
+        [
+          "",
+          "Ich wohne bei Frau Kohlhaas."
+        ],
+        [
+          "Wo arbeitest du? / Wo arbeiten Sie?",
+          "Ich arbeite bei der Post."
+        ],
+        [
+          "",
+          "Ich arbeite neben dem Theater."
+        ],
+        [
+          "Wo ist das?",
+          "In der Nähe vom Restaurant."
+        ]
+      ]
+    }
+  ]
+}

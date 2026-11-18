@@ -191,6 +191,238 @@
           "ar": "القهوة بكام؟"
         }
       ]
+    },
+    {
+      "w": "Wen",
+      "ar": "مين (مفعول به)",
+      "lesson": 23,
+      "use": "بنسأل بيها عن الشخص اللي الفعل واقع عليه (حالة النصب – Akkusativ)؛ أما اللي بيعمل الفعل فسؤاله wer",
+      "examples": [
+        {
+          "de": "Wen sucht ihr?",
+          "ar": "بتدوّروا على مين؟"
+        },
+        {
+          "de": "Entschuldigung, wen suchen Sie?",
+          "ar": "لو سمحت، حضرتك بتدوّر على مين؟ (رسمي)"
+        },
+        {
+          "de": "Wen kennst du hier?",
+          "ar": "تعرف مين هنا؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie teuer",
+      "ar": "بكام",
+      "lesson": 26,
+      "use": "بنسأل بيها عن السعر (زي Wie viel kostet das?)، وبعدها الفعل sein: ist للمفرد و sind للجمع",
+      "examples": [
+        {
+          "de": "Wie teuer ist das Zimmer?",
+          "ar": "الأوضة بكام؟"
+        },
+        {
+          "de": "Wie teuer ist die Wohnung?",
+          "ar": "الشقة بكام؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie groß",
+      "ar": "مساحته قد إيه / كبير قد إيه",
+      "lesson": 26,
+      "use": "بنسأل بيها الحاجة كبيرة قد إيه، زي مساحة أوضة أو شقة، والرد بالمتر المربع: elf Quadratmeter",
+      "examples": [
+        {
+          "de": "Wie groß ist das Zimmer?",
+          "ar": "الأوضة مساحتها قد إيه؟"
+        },
+        {
+          "de": "Wie groß ist die Wohnung?",
+          "ar": "الشقة مساحتها قد إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie oft",
+      "ar": "كل قد إيه / كام مرة",
+      "lesson": 28,
+      "use": "بنسأل بيها عن عدد المرات: الحاجة دي بتحصل كل قد إيه؟",
+      "examples": [
+        {
+          "de": "Wie oft putzt ihr denn?",
+          "ar": "إنتوا بتنضّفوا كل قد إيه؟"
+        },
+        {
+          "de": "Wie oft machst du Sport?",
+          "ar": "بتلعب رياضة كل قد إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie spät",
+      "ar": "الساعة كام",
+      "lesson": 29,
+      "use": "بنسأل بيها عن الساعة دلوقتي، ونفس المعنى بالظبط: Wie viel Uhr ist es? والرد: Es ist zwölf Uhr.",
+      "examples": [
+        {
+          "de": "Wie spät ist es?",
+          "ar": "الساعة كام؟"
+        },
+        {
+          "de": "Wie viel Uhr ist es?",
+          "ar": "الساعة كام؟ (نفس المعنى)"
+        }
+      ]
+    },
+    {
+      "w": "Wie bitte",
+      "ar": "نعم؟ / بتقول إيه؟",
+      "lesson": 29,
+      "use": "مش سؤال عن معلومة: بنقولها لما مانسمعش أو مانفهمش الكلام عشان يتعاد، أو لما نستغرب كلام اتقال (زي «نعم؟!»)",
+      "examples": [
+        {
+          "de": "Wie bitte?",
+          "ar": "نعم؟ بتقول إيه؟"
+        },
+        {
+          "de": "Wie bitte? Noch einmal bitte.",
+          "ar": "نعم؟ تاني لو سمحت."
+        }
+      ]
+    },
+    {
+      "w": "Ab wann",
+      "ar": "من الساعة كام / من إمتى",
+      "lesson": 33,
+      "use": "بنسأل بيها عن وقت البداية بس، والرد بـ ab: Ab neun Uhr.",
+      "examples": [
+        {
+          "de": "Ab wann hat das Restaurant geöffnet?",
+          "ar": "المطعم بيفتح من الساعة كام؟"
+        },
+        {
+          "de": "Ab wann hast du Zeit?",
+          "ar": "إنت فاضي من الساعة كام؟"
+        }
+      ]
+    },
+    {
+      "w": "Von wann bis wann",
+      "ar": "من إمتى لإمتى",
+      "lesson": 33,
+      "use": "بنسأل بيها عن البداية والنهاية مع بعض، والرد: Ich arbeite von acht Uhr bis fünf Uhr.",
+      "examples": [
+        {
+          "de": "Von wann bis wann arbeitest du?",
+          "ar": "بتشتغل من إمتى لإمتى؟"
+        },
+        {
+          "de": "Von wann bis wann ist der Kurs?",
+          "ar": "الكورس من الساعة كام لكام؟"
+        }
+      ]
+    },
+    {
+      "w": "Um wie viel Uhr",
+      "ar": "الساعة كام (للميعاد)",
+      "lesson": 33,
+      "use": "بنسأل بيها الحاجة هتحصل الساعة كام، والرد بـ um: Um zwei Uhr. (أما الساعة دلوقتي: Wie spät ist es?)",
+      "examples": [
+        {
+          "de": "Um wie viel Uhr beginnt der Kurs?",
+          "ar": "الكورس بيبدأ الساعة كام؟"
+        },
+        {
+          "de": "Um wie viel Uhr fährt der Zug?",
+          "ar": "القطر بيقوم الساعة كام؟"
+        }
+      ]
+    },
+    {
+      "w": "Der Wievielte",
+      "ar": "كام في الشهر (التاريخ)",
+      "lesson": 34,
+      "use": "بنسأل بيها عن التاريخ، والرد بالعدد الترتيبي: Heute ist der siebzehnte Januar.",
+      "examples": [
+        {
+          "de": "Der Wievielte ist heute?",
+          "ar": "النهارده كام في الشهر؟"
+        },
+        {
+          "de": "Der Wievielte ist morgen?",
+          "ar": "بكرة كام في الشهر؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie lange",
+      "ar": "قد إيه (مدة)",
+      "lesson": 36,
+      "use": "بنسأل بيها عن المدة (وقت قد إيه)، والرد زي: zwei Tage / eine Woche / ein Jahr",
+      "examples": [
+        {
+          "de": "Wie lange bleibst du denn in Deutschland?",
+          "ar": "هتقعد في ألمانيا قد إيه؟"
+        },
+        {
+          "de": "Wie lange wohnst du schon hier?",
+          "ar": "إنت ساكن هنا بقالك قد إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wie weit",
+      "ar": "بعيد قد إيه",
+      "lesson": 42,
+      "use": "بنسأل بيها عن المسافة: المكان بعيد قد إيه؟ والرد زي: Nicht weit. أو zehn Minuten zu Fuß.",
+      "examples": [
+        {
+          "de": "Wie weit ist es bis zum Rathaus?",
+          "ar": "مبنى البلدية بعيد قد إيه؟"
+        },
+        {
+          "de": "Wie weit ist es bis zum Bahnhof?",
+          "ar": "محطة القطر بعيدة قد إيه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wieso",
+      "ar": "ليه",
+      "lesson": 53,
+      "use": "زي warum بالظبط: بنسأل بيها عن السبب",
+      "examples": [
+        {
+          "de": "Wieso willst du das wissen?",
+          "ar": "عايز تعرف ده ليه؟"
+        },
+        {
+          "de": "Wieso lernst du Deutsch?",
+          "ar": "بتتعلّم ألماني ليه؟"
+        }
+      ]
+    },
+    {
+      "w": "Wem",
+      "ar": "مين / لمين (Dativ)",
+      "lesson": 59,
+      "use": "بنسأل بيها عن الشخص في حالة الجر (Dativ)، زي مع gefallen وبعد mit؛ وعنوان درس 22 Wem gehört das? معناه «ده بتاع مين؟»",
+      "examples": [
+        {
+          "de": "Wem gefällt das Hemd?",
+          "ar": "مين عاجبه القميص؟"
+        },
+        {
+          "de": "Mit wem sprichst du?",
+          "ar": "بتتكلم مع مين؟"
+        },
+        {
+          "de": "Wem hilfst du?",
+          "ar": "بتساعد مين؟"
+        }
+      ]
     }
   ]
 }

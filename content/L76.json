@@ -1,0 +1,810 @@
+{
+  "n": 76,
+  "sentences": [
+    {
+      "id": "s76-001",
+      "de": "Das wünsche ich mir auch.",
+      "ar": "وأنا كمان نفسي في كده.",
+      "kind": "statement",
+      "focus": [
+        "verb:wünschen",
+        "reflexive"
+      ],
+      "alts": [
+        "Ich wünsche mir das auch.",
+        "Auch ich wünsche mir das.",
+        "Auch das wünsche ich mir.",
+        "Ich wünsche mir auch das."
+      ],
+      "cloze": {
+        "word": "mir",
+        "opts": [
+          "mir",
+          "mich",
+          "sich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-002",
+      "de": "Ich wünsche mir so einen Laden.",
+      "ar": "نفسي في محل زي ده.",
+      "kind": "statement",
+      "focus": [
+        "verb:wünschen",
+        "accusative"
+      ],
+      "alts": [
+        "So einen Laden wünsche ich mir."
+      ],
+      "cloze": {
+        "word": "wünsche",
+        "opts": [
+          "wünsche",
+          "wünschst",
+          "wünscht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-003",
+      "de": "Ich hätte gern einen eigenen Laden.",
+      "ar": "نفسي يبقى عندي محل بتاعي.",
+      "kind": "statement",
+      "focus": [
+        "wish",
+        "verb:haben"
+      ],
+      "alts": [
+        "Gern hätte ich einen eigenen Laden.",
+        "Einen eigenen Laden hätte ich gern.",
+        "Ich hätte einen eigenen Laden gern."
+      ],
+      "cloze": {
+        "word": "hätte",
+        "opts": [
+          "hätte",
+          "hättest",
+          "würde"
+        ],
+        "accept": [
+          "möchte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-004",
+      "de": "Ich habe immer von meinem eigenen Laden geträumt.",
+      "ar": "أنا طول عمري كنت بحلم بمحل بتاعي.",
+      "kind": "statement",
+      "focus": [
+        "verb:träumen",
+        "perfect",
+        "dative"
+      ],
+      "alts": [
+        "Von meinem eigenen Laden habe ich immer geträumt.",
+        "Immer habe ich von meinem eigenen Laden geträumt.",
+        "Ich habe von meinem eigenen Laden immer geträumt."
+      ],
+      "cloze": {
+        "word": "von",
+        "opts": [
+          "von",
+          "mit",
+          "für"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-005",
+      "de": "Du musst nur immer fleißig und hart arbeiten.",
+      "ar": "إنت بس لازم دايمًا تشتغل بجد واجتهاد.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:arbeiten"
+      ],
+      "alts": [
+        "Du musst immer nur fleißig und hart arbeiten.",
+        "Du musst nur immer hart und fleißig arbeiten.",
+        "Du musst immer nur hart und fleißig arbeiten."
+      ],
+      "cloze": {
+        "word": "fleißig",
+        "opts": [
+          "fleißig",
+          "faul",
+          "fertig"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-006",
+      "de": "Warum ist dein Fahrrad hier?",
+      "ar": "عجلتك هنا ليه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "possessive"
+      ],
+      "alts": [
+        "Warum ist hier dein Fahrrad?"
+      ],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-007",
+      "de": "Es ist kaputt. Yara wollte es reparieren.",
+      "ar": "بايظة. يارا كانت عايزة تصلّحها.",
+      "kind": "answer",
+      "focus": [
+        "verb:wollen",
+        "past"
+      ],
+      "alts": [
+        "Yara wollte es reparieren. Es ist kaputt."
+      ],
+      "cloze": {
+        "word": "wollte",
+        "opts": [
+          "wollte",
+          "wolltest",
+          "wollten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-008",
+      "de": "Ja, die Bremse funktioniert nicht.",
+      "ar": "أيوه، الفرامل مش شغّالة.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "verb:funktionieren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bremse",
+        "opts": [
+          "Bremse",
+          "Traum",
+          "Fahrrad"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-009",
+      "de": "Wie fährst du denn?",
+      "ar": "إنت سايق إزاي كده؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:fahren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "fährst",
+        "opts": [
+          "fährst",
+          "fahrst",
+          "fährt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-010",
+      "de": "Was machst du hier?",
+      "ar": "إنت بتعمل إيه هنا؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:machen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "machst",
+        "opts": [
+          "machst",
+          "macht",
+          "mache"
+        ],
+        "accept": [
+          "tust"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s76-011",
+      "de": "Lisa hätte gern eine eigene Wohnung.",
+      "ar": "ليزا نفسها يبقى عندها شقة بتاعتها.",
+      "kind": "statement",
+      "focus": [
+        "wish",
+        "verb:haben",
+        "adjective"
+      ],
+      "alts": [
+        "Gern hätte Lisa eine eigene Wohnung.",
+        "Eine eigene Wohnung hätte Lisa gern.",
+        "Lisa hätte eine eigene Wohnung gern."
+      ],
+      "cloze": {
+        "word": "eigene",
+        "opts": [
+          "eigene",
+          "eigenen",
+          "eigener"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-012",
+      "de": "Hättest du gern ein eigenes Auto?",
+      "ar": "نفسك يبقى عندك عربية بتاعتك؟",
+      "kind": "question",
+      "focus": [
+        "wish",
+        "verb:haben",
+        "adjective"
+      ],
+      "alts": [
+        "Hättest du ein eigenes Auto gern?"
+      ],
+      "cloze": {
+        "word": "eigenes",
+        "opts": [
+          "eigenes",
+          "eigene",
+          "eigenen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-013",
+      "de": "Wir hätten gern ein paar Tage frei.",
+      "ar": "نفسنا ناخد كام يوم أجازة.",
+      "kind": "statement",
+      "focus": [
+        "wish",
+        "verb:haben",
+        "quantity"
+      ],
+      "alts": [
+        "Gern hätten wir ein paar Tage frei.",
+        "Ein paar Tage hätten wir gern frei."
+      ],
+      "cloze": {
+        "word": "hätten",
+        "opts": [
+          "hätten",
+          "hätte",
+          "hättet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-014",
+      "de": "Was würdest du gern beruflich machen?",
+      "ar": "نفسك تشتغل إيه؟",
+      "kind": "question",
+      "focus": [
+        "wish",
+        "würde+infinitive",
+        "w-frage"
+      ],
+      "alts": [
+        "Was würdest du beruflich gern machen?"
+      ],
+      "cloze": {
+        "word": "würdest",
+        "opts": [
+          "würdest",
+          "würde",
+          "würdet"
+        ],
+        "accept": [
+          "möchtest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-015",
+      "de": "Ich würde gern als Koch arbeiten.",
+      "ar": "نفسي أشتغل طبّاخ.",
+      "kind": "answer",
+      "focus": [
+        "wish",
+        "würde+infinitive",
+        "job"
+      ],
+      "alts": [
+        "Als Koch würde ich gern arbeiten.",
+        "Gern würde ich als Koch arbeiten."
+      ],
+      "cloze": {
+        "word": "arbeiten",
+        "opts": [
+          "arbeiten",
+          "arbeite",
+          "arbeitest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-016",
+      "de": "Emma würde gern ein Eis essen.",
+      "ar": "إيما نفسها تاكل آيس كريم.",
+      "kind": "statement",
+      "focus": [
+        "wish",
+        "würde+infinitive"
+      ],
+      "alts": [
+        "Gern würde Emma ein Eis essen.",
+        "Ein Eis würde Emma gern essen."
+      ],
+      "cloze": {
+        "word": "essen",
+        "opts": [
+          "essen",
+          "isst",
+          "esse"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-017",
+      "de": "Ich würde gern meine Ausbildung beenden.",
+      "ar": "نفسي أخلّص التدريب المهني بتاعي.",
+      "kind": "statement",
+      "focus": [
+        "wish",
+        "würde+infinitive",
+        "verb:beenden"
+      ],
+      "alts": [
+        "Ich würde meine Ausbildung gern beenden.",
+        "Gern würde ich meine Ausbildung beenden.",
+        "Meine Ausbildung würde ich gern beenden."
+      ],
+      "cloze": {
+        "word": "beenden",
+        "opts": [
+          "beenden",
+          "beende",
+          "beendet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-018",
+      "de": "Würdest du gern in Deutschland arbeiten?",
+      "ar": "نفسك تشتغل في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "wish",
+        "würde+infinitive",
+        "yes-no-question"
+      ],
+      "alts": [
+        "Würdest du in Deutschland gern arbeiten?"
+      ],
+      "cloze": {
+        "word": "Würdest",
+        "opts": [
+          "Würdest",
+          "Würde",
+          "Würdet"
+        ],
+        "accept": [
+          "Möchtest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-019",
+      "de": "Ich träume von einem eigenen Restaurant.",
+      "ar": "أنا بحلم بمطعم بتاعي.",
+      "kind": "statement",
+      "focus": [
+        "verb:träumen",
+        "dative"
+      ],
+      "alts": [
+        "Von einem eigenen Restaurant träume ich."
+      ],
+      "cloze": {
+        "word": "einem",
+        "opts": [
+          "einem",
+          "einen",
+          "ein"
+        ],
+        "accept": [
+          "meinem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-020",
+      "de": "Mein Traum ist ein eigener Laden.",
+      "ar": "حلمي إن يبقى عندي محل بتاعي.",
+      "kind": "answer",
+      "focus": [
+        "adjective",
+        "possessive"
+      ],
+      "alts": [
+        "Ein eigener Laden ist mein Traum."
+      ],
+      "cloze": {
+        "word": "eigener",
+        "opts": [
+          "eigener",
+          "eigenen",
+          "eigenes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-021",
+      "de": "Was wünschst du dir zum Geburtstag?",
+      "ar": "نفسك في إيه لعيد ميلادك؟",
+      "kind": "question",
+      "focus": [
+        "verb:wünschen",
+        "reflexive",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dir",
+        "opts": [
+          "dir",
+          "dich",
+          "sich"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s76-022",
+      "de": "Ich suche eine neue Stelle.",
+      "ar": "بدوّر على وظيفة جديدة.",
+      "kind": "statement",
+      "focus": [
+        "verb:suchen",
+        "job"
+      ],
+      "alts": [
+        "Eine neue Stelle suche ich."
+      ],
+      "cloze": {
+        "word": "Stelle",
+        "opts": [
+          "Stelle",
+          "Traum",
+          "Laden"
+        ],
+        "accept": [
+          "Arbeit"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w76-01",
+      "q": "___ ist dein Traum?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wo",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "حلمك إيه؟",
+      "reply": "Ein eigenes Restaurant.",
+      "reply_ar": "مطعم بتاعي."
+    },
+    {
+      "id": "w76-02",
+      "q": "___ würdest du gern reisen?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wer",
+        "Was",
+        "Wie alt"
+      ],
+      "ar": "نفسك تسافر فين؟",
+      "reply": "Nach Spanien.",
+      "reply_ar": "لإسبانيا."
+    },
+    {
+      "id": "w76-03",
+      "q": "___ ist dein Fahrrad hier?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Was",
+        "Wie viele"
+      ],
+      "ar": "عجلتك هنا ليه؟",
+      "reply": "Es ist kaputt.",
+      "reply_ar": "عشان بايظة."
+    },
+    {
+      "id": "w76-04",
+      "q": "___ würdest du gern arbeiten?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wer",
+        "Wie alt"
+      ],
+      "ar": "نفسك تشتغل فين؟",
+      "reply": "In Deutschland.",
+      "reply_ar": "في ألمانيا."
+    },
+    {
+      "id": "w76-05",
+      "q": "___ hätte gern einen eigenen Laden?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين نفسه يبقى عنده محل بتاعه؟",
+      "reply": "Nico. Das ist sein Traum.",
+      "reply_ar": "نيكو. ده حلمه."
+    },
+    {
+      "id": "w76-06",
+      "q": "___ beendest du deine Ausbildung?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "هتخلّص التدريب المهني بتاعك إمتى؟",
+      "reply": "Nächstes Jahr.",
+      "reply_ar": "السنة الجاية."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g76-1",
+      "h": "التمنّي بـ hätte: Ich hätte gern …",
+      "body": "عشان تقول «نفسي يبقى عندي …» بنستخدم صيغة التمنّي (Konjunktiv II) من haben، وهي hätte، ومعاها gern (أو gerne). الواقع: Ich habe keinen eigenen Laden. (معنديش محل بتاعي) ← الأمنية: Ich hätte gern einen eigenen Laden. (نفسي يبقى عندي محل بتاعي). ودي نفس Ich hätte gern … اللي بنطلب بيها بأدب في المحل.",
+      "examples": [
+        {
+          "de": "Ich hätte gern einen eigenen Laden.",
+          "ar": "نفسي يبقى عندي محل بتاعي."
+        },
+        {
+          "de": "Lisa hätte gern eine eigene Wohnung.",
+          "ar": "ليزا نفسها يبقى عندها شقة بتاعتها."
+        },
+        {
+          "de": "Hättest du gern ein eigenes Auto?",
+          "ar": "نفسك يبقى عندك عربية بتاعتك؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "الواقع: haben",
+          "التمنّي: hätte"
+        ],
+        [
+          "ich",
+          "habe",
+          "hätte"
+        ],
+        [
+          "du",
+          "hast",
+          "hättest"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "hätte"
+        ],
+        [
+          "wir",
+          "haben",
+          "hätten"
+        ],
+        [
+          "ihr",
+          "habt",
+          "hättet"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "hätten"
+        ]
+      ]
+    },
+    {
+      "id": "g76-2",
+      "h": "باقي الأفعال: würde gern + المصدر في الآخر",
+      "body": "مع haben بنقول hätte gern، لكن مع باقي الأفعال بنقول würde + gern، والفعل التاني بيروح آخر الجملة مصدر من غير تصريف، زي möchten بالظبط. اللي بيتصرّف هو würde بس (وهي صيغة التمنّي من werden). الواقع: Emma isst kein Eis. ← الأمنية: Emma würde gern ein Eis essen. (إيما نفسها تاكل آيس كريم).",
+      "examples": [
+        {
+          "de": "Emma würde gern ein Eis essen.",
+          "ar": "إيما نفسها تاكل آيس كريم."
+        },
+        {
+          "de": "Ich würde gern meine Ausbildung beenden.",
+          "ar": "نفسي أخلّص التدريب المهني بتاعي."
+        },
+        {
+          "de": "Würdest du gern in Deutschland arbeiten?",
+          "ar": "نفسك تشتغل في ألمانيا؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "würde",
+          "المصدر في الآخر"
+        ],
+        [
+          "ich",
+          "würde gern",
+          "reisen"
+        ],
+        [
+          "du",
+          "würdest gern",
+          "reisen"
+        ],
+        [
+          "er / sie / es",
+          "würde gern",
+          "reisen"
+        ],
+        [
+          "wir",
+          "würden gern",
+          "reisen"
+        ],
+        [
+          "ihr",
+          "würdet gern",
+          "reisen"
+        ],
+        [
+          "sie / Sie",
+          "würden gern",
+          "reisen"
+        ]
+      ]
+    },
+    {
+      "id": "g76-3",
+      "h": "hätte gern ولا würde gern؟ وإزاي تسأل",
+      "body": "اسأل نفسك: نفسك في حاجة (اسم) ولا نفسك تعمل حاجة (فعل)؟ حاجة ← hätte gern + الاسم: Ich hätte gern eine neue Stelle. تعمل حاجة ← würde gern + المصدر في الآخر: Ich würde gern als Koch arbeiten. وفي سؤال أيوه/لأ الفعل بيبقى في الأول: Hättest du gern …? / Würdest du gern …? ومع أداة الاستفهام بيبقى في المكان التاني: Was würdest du gern beruflich machen?",
+      "examples": [
+        {
+          "de": "Ich hätte gern eine neue Stelle.",
+          "ar": "نفسي يبقى عندي وظيفة جديدة."
+        },
+        {
+          "de": "Ich würde gern als Koch arbeiten.",
+          "ar": "نفسي أشتغل طبّاخ."
+        },
+        {
+          "de": "Was würdest du gern beruflich machen?",
+          "ar": "نفسك تشتغل إيه؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "حاجة (اسم)",
+          "تعمل حاجة (فعل)"
+        ],
+        [
+          "جملة",
+          "Ich hätte gern eine neue Stelle.",
+          "Ich würde gern als Koch arbeiten."
+        ],
+        [
+          "سؤال أيوه/لأ",
+          "Hättest du gern ein eigenes Auto?",
+          "Würdest du gern in Deutschland arbeiten?"
+        ],
+        [
+          "سؤال بأداة استفهام",
+          "Was hättest du gern?",
+          "Was würdest du gern machen?"
+        ]
+      ]
+    },
+    {
+      "id": "g76-4",
+      "h": "تحكي عن أحلامك: träumen von، sich wünschen، eigen-",
+      "body": "Mein Traum ist … = حلمي …، وIch träume von … = بحلم بـ …، وبعد von دايمًا Dativ: von einem eigenen Restaurant. وsich etwas wünschen = نفسه في حاجة، والضمير هنا Dativ (mir / dir): Ich wünsche mir einen Laden. / Was wünschst du dir? وeigen- (بتاعي أنا) بتتصرّف زي أي صفة بعد ein: ein eigener Laden، eine eigene Wohnung، ein eigenes Auto.",
+      "examples": [
+        {
+          "de": "Ich träume von einem eigenen Restaurant.",
+          "ar": "أنا بحلم بمطعم بتاعي."
+        },
+        {
+          "de": "Was wünschst du dir zum Geburtstag?",
+          "ar": "نفسك في إيه لعيد ميلادك؟"
+        },
+        {
+          "de": "Mein Traum ist ein eigener Laden.",
+          "ar": "حلمي إن يبقى عندي محل بتاعي."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "der",
+          "die",
+          "das"
+        ],
+        [
+          "Nominativ",
+          "ein eigener Laden",
+          "eine eigene Wohnung",
+          "ein eigenes Auto"
+        ],
+        [
+          "Akkusativ",
+          "einen eigenen Laden",
+          "eine eigene Wohnung",
+          "ein eigenes Auto"
+        ],
+        [
+          "Dativ",
+          "einem eigenen Laden",
+          "einer eigenen Wohnung",
+          "einem eigenen Auto"
+        ]
+      ]
+    }
+  ]
+}

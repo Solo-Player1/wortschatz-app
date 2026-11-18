@@ -1,0 +1,98 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:10.840 --> 00:00:11.480 region:R1 align:center
+<c.S1>– Nico?</c>
+
+2
+00:00:11.520 --> 00:00:12.680 region:R1 align:center
+<c.S1>– Hmm?</c>
+
+3
+00:00:13.600 --> 00:00:15.280 region:R1 align:center
+<c.S1>– Wir haben ein Problem.</c>
+
+4
+00:00:16.400 --> 00:00:17.600 region:R1 align:center
+<c.S1>– Ein Problem?</c>
+
+5
+00:00:17.680 --> 00:00:19.640 region:R1 align:center
+<c.S1>– Ja, ein Problem.</c>
+
+6
+00:00:20.560 --> 00:00:22.800 region:R1 align:center
+<c.S1>Du kannst nur noch zwei
+Tage in der WG bleiben.</c>
+
+7
+00:00:22.840 --> 00:00:25.320 region:R1 align:center
+<c.S1>Dann musst du umziehen.
+Verstehst du?</c>
+
+8
+00:00:25.800 --> 00:00:28.040 region:R1 align:center
+<c.S1>– Okay. Kein Problem.</c>
+
+9
+00:00:28.840 --> 00:00:31.120 region:R1 align:center
+<c.S1>– Unsere Heizung ist kaputt.</c>
+
+10
+00:00:31.760 --> 00:00:35.760 region:R1 align:center
+<c.S1>Sebastian, Nina, Nawin und ich
+fahren dann in Urlaub.</c>
+
+11
+00:00:36.920 --> 00:00:38.480 region:R1 align:center
+<c.S1>– Du bist nicht da?</c>
+
+12
+00:00:41.720 --> 00:00:42.960 region:R1 align:center
+<c.S1>Ich suche mir ein Hotel.</c>
+
+13
+00:00:43.000 --> 00:00:44.720 region:R1 align:center
+<c.S1>– Nein. Das ist sehr teuer.</c>
+
+14
+00:00:44.760 --> 00:00:46.560 region:R1 align:center
+<c.S1>Eine Jugendherberge ist besser.</c>
+
+15
+00:00:47.240 --> 00:00:48.600 region:R1 align:center
+<c.S1>– Jugendherberge?</c>
+
+16
+00:00:48.640 --> 00:00:52.240 region:R1 align:center
+<c.S1>– Ja. Eine Jugendherberge oder ein Hostel.</c>
+
+17
+00:00:52.280 --> 00:00:55.480 region:R1 align:center
+<c.S1>Jugendherbergen und Hostels sind
+nicht so teuer wie ein Hotel.</c>
+
+18
+00:00:55.520 --> 00:00:57.840 region:R1 align:center
+<c.S1>Viele junge Leute übernachten dort.</c>
+
+19
+00:01:01.840 --> 00:01:03.840 region:R1 align:center
+<c.S1>Und ich frag meine Freunde und Bekannten.</c>
+
+20
+00:01:03.880 --> 00:01:06.040 region:R1 align:center
+<c.S1>Vielleicht haben sie ein Zimmer frei.</c>
+
+21
+00:01:06.800 --> 00:01:09.480 region:R1 align:center
+<c.S1>– Okay, danke.</c>

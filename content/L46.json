@@ -1,0 +1,767 @@
+{
+  "n": 46,
+  "sentences": [
+    {
+      "id": "s46-001",
+      "de": "Wo sind deine Sachen?",
+      "ar": "فين حاجتك؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "possessive",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "dein",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-002",
+      "de": "Ist das alles?",
+      "ar": "هو ده كله؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "alles",
+        "opts": [
+          "alles",
+          "allem",
+          "also"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-003",
+      "de": "Ich komme bald wieder.",
+      "ar": "هرجع قريب.",
+      "kind": "statement",
+      "focus": [
+        "verb:wiederkommen",
+        "separable"
+      ],
+      "alts": [
+        "Bald komme ich wieder."
+      ],
+      "cloze": {
+        "word": "komme",
+        "opts": [
+          "komme",
+          "kommst",
+          "kommt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-004",
+      "de": "Möchtest du Apfelsaft oder lieber eine Apfelsaftschorle?",
+      "ar": "تحب عصير تفاح ولا تفضّل عصير تفاح بالمية الفوّارة؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "drink",
+        "verb:möchten"
+      ],
+      "alts": [
+        "Möchtest du lieber Apfelsaft oder eine Apfelsaftschorle?"
+      ],
+      "cloze": {
+        "word": "lieber",
+        "opts": [
+          "lieber",
+          "liebsten",
+          "als"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-005",
+      "de": "Das ist Saft mit Mineralwasser.",
+      "ar": "ده عصير مخلوط بمية معدنية.",
+      "kind": "answer",
+      "focus": [
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mit",
+        "opts": [
+          "mit",
+          "von",
+          "für"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-006",
+      "de": "Ja, was magst du denn?",
+      "ar": "أيوه، بتحب إيه بقى؟",
+      "kind": "question",
+      "focus": [
+        "verb:mögen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "magst",
+        "opts": [
+          "magst",
+          "mag",
+          "mögt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-007",
+      "de": "Magst du Karotten?",
+      "ar": "بتحب الجزر؟",
+      "kind": "question",
+      "focus": [
+        "verb:mögen",
+        "yes-no-question",
+        "food"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Magst",
+        "opts": [
+          "Magst",
+          "Mag",
+          "Mögen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-008",
+      "de": "Ich esse gerne Karotten.",
+      "ar": "أنا بحب آكل جزر.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:essen",
+        "food"
+      ],
+      "alts": [
+        "Gerne esse ich Karotten.",
+        "Karotten esse ich gerne.",
+        "Ich esse Karotten gerne."
+      ],
+      "cloze": {
+        "word": "esse",
+        "opts": [
+          "esse",
+          "isst",
+          "esst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-009",
+      "de": "Ja, ich esse lieber Tomaten.",
+      "ar": "أيوه، أنا بفضّل آكل طماطم.",
+      "kind": "answer",
+      "focus": [
+        "comparison",
+        "verb:essen"
+      ],
+      "alts": [
+        "Ja, lieber esse ich Tomaten.",
+        "Ja, Tomaten esse ich lieber.",
+        "Ja, ich esse Tomaten lieber."
+      ],
+      "cloze": {
+        "word": "lieber",
+        "opts": [
+          "lieber",
+          "gerner",
+          "liebsten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-010",
+      "de": "Isst du Kohlrabi am liebsten?",
+      "ar": "الكرنب الساقي أكتر حاجة بتحب تاكلها؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "yes-no-question"
+      ],
+      "alts": [
+        "Isst du am liebsten Kohlrabi?"
+      ],
+      "cloze": {
+        "word": "liebsten",
+        "opts": [
+          "liebsten",
+          "lieber",
+          "gern"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-011",
+      "de": "Nein, ich finde Kohlrabi nicht so lecker.",
+      "ar": "لأ، أنا شايف إن الكرنب الساقي مش لذيذ أوي.",
+      "kind": "answer",
+      "focus": [
+        "verb:finden",
+        "negation",
+        "opinion"
+      ],
+      "alts": [
+        "Nein, Kohlrabi finde ich nicht so lecker."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s46-012",
+      "de": "Welches Gericht magst du am liebsten?",
+      "ar": "أنهي أكلة بتحبها أكتر حاجة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:mögen",
+        "comparison"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welches",
+        "opts": [
+          "Welches",
+          "Welcher",
+          "Welche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-013",
+      "de": "Ich esse am liebsten Pfannkuchen.",
+      "ar": "أكتر حاجة بحب آكلها البان كيك.",
+      "kind": "answer",
+      "focus": [
+        "comparison",
+        "food"
+      ],
+      "alts": [
+        "Am liebsten esse ich Pfannkuchen.",
+        "Pfannkuchen esse ich am liebsten.",
+        "Ich esse Pfannkuchen am liebsten."
+      ],
+      "cloze": {
+        "word": "am",
+        "opts": [
+          "am",
+          "im",
+          "um"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-014",
+      "de": "Ich trinke lieber Tee als Kaffee.",
+      "ar": "بفضّل الشاي عن القهوة.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "drink"
+      ],
+      "alts": [
+        "Lieber trinke ich Tee als Kaffee.",
+        "Tee trinke ich lieber als Kaffee.",
+        "Ich trinke Tee lieber als Kaffee."
+      ],
+      "cloze": {
+        "word": "als",
+        "opts": [
+          "als",
+          "wie",
+          "von"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-015",
+      "de": "Schmeckt dir die Suppe?",
+      "ar": "الشوربة عاجباك؟",
+      "kind": "question",
+      "focus": [
+        "verb:schmecken",
+        "dative",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Schmeckt",
+        "opts": [
+          "Schmeckt",
+          "Schmeckst",
+          "Schmecken"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-016",
+      "de": "Welcher Saft schmeckt dir?",
+      "ar": "أنهي عصير طعمه عاجبك؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:schmecken"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welcher",
+        "opts": [
+          "Welcher",
+          "Welches",
+          "Welche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-017",
+      "de": "Nico mag keinen Kohlrabi.",
+      "ar": "نيكو مابيحبش الكرنب الساقي.",
+      "kind": "statement",
+      "focus": [
+        "verb:mögen",
+        "negation",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mag",
+        "opts": [
+          "mag",
+          "magt",
+          "mögt",
+          "magst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-018",
+      "de": "Ich trinke keinen Alkohol.",
+      "ar": "أنا مابشربش كحول.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "drink",
+        "accusative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-019",
+      "de": "Ich trinke zwei Tassen Tee pro Tag.",
+      "ar": "بشرب كوبايتين شاي في اليوم.",
+      "kind": "statement",
+      "focus": [
+        "drink",
+        "number",
+        "frequency"
+      ],
+      "alts": [
+        "Pro Tag trinke ich zwei Tassen Tee.",
+        "Ich trinke pro Tag zwei Tassen Tee.",
+        "Zwei Tassen Tee trinke ich pro Tag."
+      ],
+      "cloze": {
+        "word": "pro",
+        "opts": [
+          "pro",
+          "für",
+          "um"
+        ],
+        "accept": [
+          "am"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-020",
+      "de": "Gemüse ist sehr gesund.",
+      "ar": "الخضار صحي أوي.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "isst",
+          "sind"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-021",
+      "de": "Ist das Menü vegetarisch?",
+      "ar": "هو طبق اليوم نباتي؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "article",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s46-022",
+      "de": "Ich esse fast nie Fleisch.",
+      "ar": "أنا تقريبًا مابكلش لحمة.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "frequency"
+      ],
+      "alts": [
+        "Fleisch esse ich fast nie.",
+        "Fast nie esse ich Fleisch.",
+        "Ich esse Fleisch fast nie."
+      ],
+      "cloze": {
+        "word": "fast",
+        "opts": [
+          "fast",
+          "pro",
+          "als"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w46-01",
+      "q": "___ Gericht magst du am liebsten?",
+      "answer": "Welches",
+      "opts": [
+        "Welches",
+        "Welcher",
+        "Welche",
+        "Was"
+      ],
+      "ar": "أنهي أكلة بتحبها أكتر حاجة؟",
+      "reply": "Ich esse am liebsten Pfannkuchen.",
+      "reply_ar": "أكتر حاجة بحب آكلها البان كيك."
+    },
+    {
+      "id": "w46-02",
+      "q": "___ Saft schmeckt dir?",
+      "answer": "Welcher",
+      "opts": [
+        "Welcher",
+        "Welches",
+        "Welche",
+        "Wer"
+      ],
+      "ar": "أنهي عصير طعمه عاجبك؟",
+      "reply": "Der Apfelsaft.",
+      "reply_ar": "عصير التفاح."
+    },
+    {
+      "id": "w46-03",
+      "q": "___ magst du denn?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتحب إيه بقى؟",
+      "reply": "Ich mag Karotten und Tomaten.",
+      "reply_ar": "بحب الجزر والطماطم."
+    },
+    {
+      "id": "w46-04",
+      "q": "___ Tassen Tee trinkst du pro Tag?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Woher",
+        "Wann"
+      ],
+      "ar": "بتشرب كام كوباية شاي في اليوم؟",
+      "reply": "Ich trinke drei Tassen pro Tag.",
+      "reply_ar": "بشرب تلات كوبايات في اليوم."
+    },
+    {
+      "id": "w46-05",
+      "q": "___ isst lieber Tomaten?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين بيفضّل ياكل طماطم؟",
+      "reply": "Nico isst lieber Tomaten.",
+      "reply_ar": "نيكو بيفضّل ياكل طماطم."
+    },
+    {
+      "id": "w46-06",
+      "q": "___ Getränke trinkst du gern?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Welcher",
+        "Welches",
+        "Was"
+      ],
+      "ar": "بتحب تشرب أنهي مشروبات؟",
+      "reply": "Ich trinke gern Tee und Apfelsaft.",
+      "reply_ar": "بحب أشرب شاي وعصير تفاح."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g46-1",
+      "h": "gern – lieber – am liebsten",
+      "body": "عشان تقول بتحب إيه، حط gern (أو gerne) بعد الفعل: Ich esse gern Karotten. ولو بتفضّل حاجة عن حاجة تانية قول lieber، ولو هي أكتر حاجة بتحبها خالص قول am liebsten. خد بالك: مفيش gerner، الكلمة بتتغير خالص. ولما تقارن بين حاجتين حط als قبل التانية (= عن): Ich trinke lieber Tee als Kaffee.",
+      "examples": [
+        {
+          "de": "Ich esse gerne Karotten.",
+          "ar": "بحب آكل جزر."
+        },
+        {
+          "de": "Ja, ich esse lieber Tomaten.",
+          "ar": "أيوه، بفضّل آكل طماطم."
+        },
+        {
+          "de": "Ich esse am liebsten Pfannkuchen.",
+          "ar": "أكتر حاجة بحب آكلها البان كيك."
+        },
+        {
+          "de": "Ich trinke lieber Tee als Kaffee.",
+          "ar": "بفضّل الشاي عن القهوة."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "المعنى",
+          "مثال"
+        ],
+        [
+          "gern",
+          "بحب",
+          "Ich esse gern Karotten."
+        ],
+        [
+          "lieber",
+          "بفضّل",
+          "Ich esse lieber Tomaten."
+        ],
+        [
+          "am liebsten",
+          "أكتر حاجة بحبها",
+          "Ich esse am liebsten Pfannkuchen."
+        ]
+      ]
+    },
+    {
+      "id": "g46-2",
+      "h": "mögen: ich mag، du magst",
+      "body": "mögen = يحب (أكل أو شرب أو حاجة أو شخص)، وغالبًا من غير فعل تاني: Magst du Karotten? مع ich و er / sie / es نفس الشكل mag من غير أي نهاية. في المفرد a وفي الجمع ö: wir mögen، ihr mögt. وفرّق بين Magst du …? (بتحب … عمومًا؟) و Möchtest du …? (تحب تاخد … دلوقتي؟).",
+      "examples": [
+        {
+          "de": "Ja, was magst du denn?",
+          "ar": "أيوه، بتحب إيه بقى؟"
+        },
+        {
+          "de": "Nico mag keinen Kohlrabi.",
+          "ar": "نيكو مابيحبش الكرنب الساقي."
+        },
+        {
+          "de": "Möchtest du auch etwas essen?",
+          "ar": "تحب تاكل حاجة إنت كمان؟ (دلوقتي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "mögen"
+        ],
+        [
+          "ich",
+          "mag"
+        ],
+        [
+          "du",
+          "magst"
+        ],
+        [
+          "er / sie / es",
+          "mag"
+        ],
+        [
+          "wir",
+          "mögen"
+        ],
+        [
+          "ihr",
+          "mögt"
+        ],
+        [
+          "sie / Sie",
+          "mögen"
+        ]
+      ]
+    },
+    {
+      "id": "g46-3",
+      "h": "welcher؟ welches؟ welche؟ = أنهي؟",
+      "body": "welch- = أنهي، بنسأل بيها لما نختار حاجة من كذا حاجة. آخرها بيمشي مع أداة التعريف: der Saft يبقى welcher Saft، das Gericht يبقى welches Gericht، die Suppe يبقى welche Suppe، والجمع welche Gerichte. ومع المذكّر في النصب (Akkusativ) بتبقى welchen زي den: Welchen Saft trinkst du?",
+      "examples": [
+        {
+          "de": "Welches Gericht magst du am liebsten?",
+          "ar": "أنهي أكلة بتحبها أكتر حاجة؟"
+        },
+        {
+          "de": "Welcher Saft schmeckt dir?",
+          "ar": "أنهي عصير طعمه عاجبك؟"
+        },
+        {
+          "de": "Welche Suppe isst du gern?",
+          "ar": "بتحب تاكل أنهي شوربة؟"
+        },
+        {
+          "de": "Welche Getränke trinkst du gern?",
+          "ar": "بتحب تشرب أنهي مشروبات؟ (جمع)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "der Saft",
+          "welcher Saft",
+          "welchen Saft"
+        ],
+        [
+          "das Gericht",
+          "welches Gericht",
+          "welches Gericht"
+        ],
+        [
+          "die Suppe",
+          "welche Suppe",
+          "welche Suppe"
+        ],
+        [
+          "die Gerichte",
+          "welche Gerichte",
+          "welche Gerichte"
+        ]
+      ]
+    },
+    {
+      "id": "g46-4",
+      "h": "schmecken: طعمه عاجبني ولا لأ",
+      "body": "schmecken = طعمه عاجبني. الأكل هو الفاعل والشخص بيبقى mir / dir، فالفعل بيمشي مع الأكل: Schmeckt dir die Suppe? (مش Schmeckst) وفي الجمع: Die Pfannkuchen schmecken mir. والنفي: Das schmeckt mir nicht. أو Ich mag keinen Kohlrabi. ولو مابتشربش كحول قول: Ich trinke keinen Alkohol.",
+      "examples": [
+        {
+          "de": "Schmeckt dir die Suppe?",
+          "ar": "الشوربة عاجباك؟"
+        },
+        {
+          "de": "Die Pfannkuchen schmecken mir sehr gut.",
+          "ar": "البان كيك طعمه عاجبني أوي."
+        },
+        {
+          "de": "Ich trinke keinen Alkohol.",
+          "ar": "أنا مابشربش كحول."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "طعمه عاجبني",
+          "Das schmeckt mir."
+        ],
+        [
+          "طعمه مش عاجبني",
+          "Das schmeckt mir nicht."
+        ],
+        [
+          "بحب الجزر",
+          "Ich mag Karotten."
+        ],
+        [
+          "مابحبش الكرنب الساقي",
+          "Ich mag keinen Kohlrabi."
+        ],
+        [
+          "مابشربش كحول",
+          "Ich trinke keinen Alkohol."
+        ]
+      ]
+    }
+  ]
+}

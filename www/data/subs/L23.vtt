@@ -1,0 +1,123 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:06.840 --> 00:00:07.680 region:R1 align:center
+<c.S1>– Auf Wiedersehen!</c>
+
+2
+00:00:07.720 --> 00:00:09.080 region:R1 align:center
+<c.S1>– Auf Wiedersehen! Mach’s gut!</c>
+
+3
+00:00:09.120 --> 00:00:10.320 region:R1 align:center
+<c.S1>– Ciao!
+– Tschüss!</c>
+
+4
+00:00:10.360 --> 00:00:11.960 region:R1 align:center
+<c.S1>– Bis bald! Tschüss!</c>
+
+5
+00:00:12.000 --> 00:00:13.280 region:R1 align:center
+<c.S1>– Wiedersehen!</c>
+
+6
+00:00:18.320 --> 00:00:20.360 region:R1 align:center
+<c.S1>– Oh, entschuldige!</c>
+
+7
+00:00:21.880 --> 00:00:23.080 region:R1 align:center
+<c.S1>Hallo, hier Lisa Brunner.</c>
+
+8
+00:00:24.880 --> 00:00:29.520 region:R1 align:center
+<c.S1>Ah ja, die Anzeige im Internet.
+Ja, wir suchen immer noch.</c>
+
+9
+00:00:31.480 --> 00:00:34.920 region:R1 align:center
+<c.S1>Ja, die Wohnung hat eine Terrasse.</c>
+
+10
+00:00:37.800 --> 00:00:40.320 region:R1 align:center
+<c.S1>Nein, im Haus ist kein Aufzug.</c>
+
+11
+00:00:43.800 --> 00:00:47.680 region:R1 align:center
+<c.S1>Nein, eine Garage haben wir nicht,
+aber komm doch erst mal vorbei.</c>
+
+12
+00:00:49.720 --> 00:00:51.760 region:R1 align:center
+<c.S1>Einen Moment bitte.</c>
+
+13
+00:00:51.880 --> 00:00:53.880 region:R1 align:center
+<c.S1>Ein Stift …</c>
+
+14
+00:00:56.720 --> 00:00:59.080 region:R1 align:center
+<c.S1>Wo ist mein Stift? Hast du einen Stift?</c>
+
+15
+00:00:59.120 --> 00:01:00.840 region:R1 align:center
+<c.S1>– Nein, ich hab keinen Stift.</c>
+
+16
+00:01:02.960 --> 00:01:06.880 region:R1 align:center
+<c.S1>– Ah. Einen Zettel,
+ich brauche einen Zettel.</c>
+
+17
+00:01:06.920 --> 00:01:09.440 region:R1 align:center
+<c.S1>– Hier, ein Zettel.</c>
+
+18
+00:01:09.480 --> 00:01:14.240 region:R1 align:center
+<c.S1>– Danke! Okay, also: halb vier.</c>
+
+19
+00:01:14.280 --> 00:01:17.080 region:R1 align:center
+<c.S1>Und dein Name ist Marvin Graupner?</c>
+
+20
+00:01:17.440 --> 00:01:21.480 region:R1 align:center
+<c.S1>Okay. Alles klar. Bis dann. Tschüss!</c>
+
+21
+00:01:22.520 --> 00:01:25.520 region:R1 align:center
+<c.S1>Das war ein Bewerber für Nawins Zimmer.</c>
+
+22
+00:01:25.720 --> 00:01:26.840 region:R1 align:center
+<c.S1>– Bewerber?</c>
+
+23
+00:01:27.080 --> 00:01:29.360 region:R1 align:center
+<c.S1>– Ja, Nawin geht doch nach Frankreich.</c>
+
+24
+00:01:29.400 --> 00:01:34.160 region:R1 align:center
+<c.S1>Wir suchen also einen Mieter für Nawins
+Zimmer. Er kommt heute noch.</c>
+
+25
+00:01:35.280 --> 00:01:38.400 region:R1 align:center
+<c.S1>Aber jetzt gehen wir erst mal zu deiner Tante!</c>
+
+26
+00:01:41.920 --> 00:01:43.120 region:R1 align:center
+<c.S1>– Die Tür.</c>
+
+27
+00:01:43.200 --> 00:01:45.280 region:R1 align:center
+<c.S1>– Die Tür. Richtig!</c>

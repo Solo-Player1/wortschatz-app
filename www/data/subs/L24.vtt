@@ -1,0 +1,85 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.840 --> 00:00:15.800 region:R1 align:center
+<c.S1>– Also … ich sehe was, was du nicht siehst,
+und das ist … groß und rot.</c>
+
+2
+00:00:19.880 --> 00:00:21.440 region:R1 align:center
+<c.S1>– Das Auto.</c>
+
+3
+00:00:22.080 --> 00:00:26.320 region:R1 align:center
+<c.S1>– Das Auto ist rot, aber es ist
+nicht groß, es ist klein.</c>
+
+4
+00:00:30.360 --> 00:00:31.480 region:R1 align:center
+<c.S1>– Das Haus.</c>
+
+5
+00:00:31.520 --> 00:00:33.920 region:R1 align:center
+<c.S1>– Ja, richtig! Du bist dran.</c>
+
+6
+00:00:34.480 --> 00:00:41.560 region:R1 align:center
+<c.S1>– Ich sehe was, was du nicht siehst, und das
+ist ... groß und klein.</c>
+
+7
+00:00:42.600 --> 00:00:44.720 region:R1 align:center
+<c.S1>– Ich glaube nicht …</c>
+
+8
+00:00:45.120 --> 00:00:52.960 region:R1 align:center
+<c.S1>– Ah! Ich sehe was, was du nicht siehst,
+und das ist ... groß und gelb.</c>
+
+9
+00:00:54.360 --> 00:00:55.360 region:R1 align:center
+<c.S1>– Das Haus.</c>
+
+10
+00:00:55.400 --> 00:00:56.480 region:R1 align:center
+<c.S1>– Ja.</c>
+
+11
+00:01:01.920 --> 00:01:05.920 region:R1 align:center
+<c.S1>– Das hier ist die
+August-Straußberg-Gasse 23.</c>
+
+12
+00:01:06.480 --> 00:01:08.400 region:R1 align:center
+<c.S1>Aber wo ist der Fahrradladen?</c>
+
+13
+00:01:10.080 --> 00:01:11.520 region:R1 align:center
+<c.S1>– Hier ist kein Fahrradladen.</c>
+
+14
+00:01:11.560 --> 00:01:13.680 region:R1 align:center
+<c.S1>– Ja, aber wir sind richtig.</c>
+
+15
+00:01:14.360 --> 00:01:20.040 region:R1 align:center
+<c.S1>– Ich sehe was, was du nicht siehst,
+… und das ist nicht da.</c>
+
+16
+00:01:22.920 --> 00:01:25.800 region:R1 align:center
+<c.S1>– Die Adresse ist falsch. Es gibt hier
+wirklich keinen Fahrradladen.</c>
+
+17
+00:01:25.840 --> 00:01:29.160 region:R1 align:center
+<c.S1>Es tut mir leid, Nico … Komm!</c>

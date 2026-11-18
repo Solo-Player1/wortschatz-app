@@ -1,0 +1,791 @@
+{
+  "n": 64,
+  "sentences": [
+    {
+      "id": "s64-001",
+      "de": "Wohnt jemand aus deiner Familie in Zürich?",
+      "ar": "حد من عيلتك ساكن في زيورخ؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "pronoun"
+      ],
+      "alts": [
+        "Wohnt in Zürich jemand aus deiner Familie?"
+      ],
+      "cloze": {
+        "word": "jemand",
+        "opts": [
+          "jemand",
+          "etwas",
+          "man"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-002",
+      "de": "Meine Familie wohnt in Sevilla.",
+      "ar": "عيلتي ساكنة في إشبيلية.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "verb:wohnen"
+      ],
+      "alts": [
+        "In Sevilla wohnt meine Familie."
+      ],
+      "cloze": {
+        "word": "wohnt",
+        "opts": [
+          "wohnt",
+          "wohnen",
+          "wohnst"
+        ],
+        "accept": [
+          "lebt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-003",
+      "de": "Wo wohnt dein Bruder?",
+      "ar": "أخوك ساكن فين؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-004",
+      "de": "Mein Bruder wohnt auch in München.",
+      "ar": "أخويا كمان ساكن في ميونخ.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "possessive"
+      ],
+      "alts": [
+        "Auch mein Bruder wohnt in München.",
+        "In München wohnt auch mein Bruder."
+      ],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-005",
+      "de": "Sollen wir ihn anrufen?",
+      "ar": "نتصل بيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:sollen",
+        "verb:anrufen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Sollen",
+        "opts": [
+          "Sollen",
+          "Soll",
+          "Sollt"
+        ],
+        "accept": [
+          "Wollen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-006",
+      "de": "Aber er kann dir sicher helfen!",
+      "ar": "بس أكيد يقدر يساعدك!",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "word-order"
+      ],
+      "alts": [
+        "Aber sicher kann er dir helfen!",
+        "Aber dir kann er sicher helfen!",
+        "Er kann dir aber sicher helfen!"
+      ],
+      "cloze": {
+        "word": "helfen",
+        "opts": [
+          "helfen",
+          "hilft",
+          "hilfst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-007",
+      "de": "Ich brauche keine Hilfe von meinem Bruder!",
+      "ar": "أنا مش محتاج مساعدة من أخويا!",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "negation"
+      ],
+      "alts": [
+        "Von meinem Bruder brauche ich keine Hilfe!",
+        "Ich brauche von meinem Bruder keine Hilfe!",
+        "Keine Hilfe brauche ich von meinem Bruder!"
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "nicht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-008",
+      "de": "Sollen wir weitersuchen?",
+      "ar": "نكمّل تدوير؟",
+      "kind": "question",
+      "focus": [
+        "verb:sollen",
+        "verb:weitersuchen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "weitersuchen",
+        "opts": [
+          "weitersuchen",
+          "weitersucht",
+          "weitersuche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-009",
+      "de": "Dann müssen wir warten.",
+      "ar": "يبقى لازم نستنى.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "word-order"
+      ],
+      "alts": [
+        "Wir müssen dann warten."
+      ],
+      "cloze": {
+        "word": "müssen",
+        "opts": [
+          "müssen",
+          "muss",
+          "müsst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s64-010",
+      "de": "Hast du Geschwister?",
+      "ar": "عندك إخوات؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "verb:haben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Hast",
+        "opts": [
+          "Hast",
+          "Hat",
+          "Bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-011",
+      "de": "Nein, ich bin Einzelkind.",
+      "ar": "لأ، أنا ابن وحيد.",
+      "kind": "answer",
+      "focus": [
+        "family",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Einzelkind",
+        "opts": [
+          "Einzelkind",
+          "Einzelkinder",
+          "Geschwister"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-012",
+      "de": "Ich habe einen Zwillingsbruder.",
+      "ar": "عندي أخ توأم.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "article"
+      ],
+      "alts": [
+        "Einen Zwillingsbruder habe ich."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-013",
+      "de": "Wir sind am gleichen Tag geboren.",
+      "ar": "إحنا مولودين في نفس اليوم.",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "adjective"
+      ],
+      "alts": [
+        "Am gleichen Tag sind wir geboren."
+      ],
+      "cloze": {
+        "word": "gleichen",
+        "opts": [
+          "gleichen",
+          "gleiche",
+          "gleich"
+        ],
+        "accept": [
+          "selben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-014",
+      "de": "Hast du Verwandte in Deutschland?",
+      "ar": "عندك قرايب في ألمانيا؟",
+      "kind": "question",
+      "focus": [
+        "family",
+        "verb:haben"
+      ],
+      "alts": [
+        "Hast du in Deutschland Verwandte?"
+      ],
+      "cloze": {
+        "word": "Verwandte",
+        "opts": [
+          "Verwandte",
+          "Einzelkind",
+          "Zwillingsbruder"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-015",
+      "de": "Du nervst mich!",
+      "ar": "إنت بتنرفزني!",
+      "kind": "statement",
+      "focus": [
+        "family",
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nervst",
+        "opts": [
+          "nervst",
+          "nervt",
+          "nerve"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-016",
+      "de": "Ihr sollt nicht streiten!",
+      "ar": "المفروض ماتتخانقوش!",
+      "kind": "statement",
+      "focus": [
+        "verb:sollen",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sollt",
+        "opts": [
+          "sollt",
+          "sollst",
+          "sollen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-017",
+      "de": "Mama sagt, du sollst den Hund füttern.",
+      "ar": "ماما بتقولك تأكّل الكلب.",
+      "kind": "statement",
+      "focus": [
+        "verb:sollen",
+        "verb:füttern"
+      ],
+      "alts": [
+        "Mama sagt, den Hund sollst du füttern.",
+        "Du sollst den Hund füttern, sagt Mama.",
+        "Den Hund sollst du füttern, sagt Mama."
+      ],
+      "cloze": {
+        "word": "sollst",
+        "opts": [
+          "sollst",
+          "soll",
+          "sollt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-018",
+      "de": "Soll ich dir helfen?",
+      "ar": "تحب أساعدك؟",
+      "kind": "question",
+      "focus": [
+        "verb:sollen",
+        "verb:helfen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Soll",
+        "opts": [
+          "Soll",
+          "Sollst",
+          "Sollen"
+        ],
+        "accept": [
+          "Kann"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-019",
+      "de": "Der Arzt sagt, ich soll nicht mehr rauchen.",
+      "ar": "الدكتور بيقول المفروض أبطّل تدخين.",
+      "kind": "statement",
+      "focus": [
+        "verb:sollen",
+        "verb:rauchen"
+      ],
+      "alts": [
+        "Ich soll nicht mehr rauchen, sagt der Arzt."
+      ],
+      "cloze": {
+        "word": "soll",
+        "opts": [
+          "soll",
+          "sollst",
+          "sollen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-020",
+      "de": "Ich habe viel Stress bei der Arbeit.",
+      "ar": "عندي ضغط كتير في الشغل.",
+      "kind": "statement",
+      "focus": [
+        "verb:haben",
+        "work"
+      ],
+      "alts": [
+        "Bei der Arbeit habe ich viel Stress.",
+        "Ich habe bei der Arbeit viel Stress.",
+        "Viel Stress habe ich bei der Arbeit."
+      ],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "sehr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-021",
+      "de": "Was soll ich machen?",
+      "ar": "المفروض أعمل إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:sollen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "machen",
+        "opts": [
+          "machen",
+          "mache",
+          "macht"
+        ],
+        "accept": [
+          "tun"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s64-022",
+      "de": "Hast du einen Tipp für mich?",
+      "ar": "عندك نصيحة ليّا؟",
+      "kind": "question",
+      "focus": [
+        "advice",
+        "article"
+      ],
+      "alts": [
+        "Hast du für mich einen Tipp?"
+      ],
+      "cloze": {
+        "word": "Tipp",
+        "opts": [
+          "Tipp",
+          "Tipps",
+          "Stress"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w64-01",
+      "q": "___ wohnt deine Familie?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "عيلتك ساكنة فين؟",
+      "reply": "In Sevilla.",
+      "reply_ar": "في إشبيلية."
+    },
+    {
+      "id": "w64-02",
+      "q": "___ Geschwister hast du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "عندك كام أخ وأخت؟",
+      "reply": "Keine. Ich bin Einzelkind.",
+      "reply_ar": "ولا واحد، أنا ابن وحيد."
+    },
+    {
+      "id": "w64-03",
+      "q": "___ soll den Hund füttern?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "مين المفروض يأكّل الكلب؟",
+      "reply": "Lisa soll den Hund füttern.",
+      "reply_ar": "ليزا المفروض تأكّل الكلب."
+    },
+    {
+      "id": "w64-04",
+      "q": "___ heißt deine Zwillingsschwester?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "أختك التوأم اسمها إيه؟",
+      "reply": "Sie heißt Anna.",
+      "reply_ar": "اسمها آنا."
+    },
+    {
+      "id": "w64-05",
+      "q": "___ sind Sie geboren?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Woher",
+        "Wer",
+        "Was"
+      ],
+      "ar": "حضرتك مولود فين؟ (رسمي)",
+      "reply": "Ich bin in Kairo geboren.",
+      "reply_ar": "أنا مولود في القاهرة."
+    },
+    {
+      "id": "w64-06",
+      "q": "___ rauchst du nicht mehr?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "مابقيتش تدخّن ليه؟",
+      "reply": "Der Arzt sagt, ich soll nicht mehr rauchen.",
+      "reply_ar": "الدكتور بيقول المفروض أبطّل تدخين."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g64-1",
+      "h": "تصريف sollen: ich soll، du sollst",
+      "body": "sollen معناه «المفروض»: حد تاني (ماما، الدكتور، المدير) عايزني أعمل حاجة. وهو فعل مساعد زي können و müssen و wollen، بس أسهل: الـ o مابتتغيّرش خالص. ومع ich و er / sie / es نفس الشكل ومن غير نهاية: ich soll، er soll. وباقي الضماير عادي: du sollst، wir sollen، ihr sollt، sie / Sie sollen.",
+      "examples": [
+        {
+          "de": "Der Arzt sagt, ich soll nicht mehr rauchen.",
+          "ar": "الدكتور بيقول المفروض أبطّل تدخين."
+        },
+        {
+          "de": "Mama sagt, du sollst den Hund füttern.",
+          "ar": "ماما بتقولك تأكّل الكلب."
+        },
+        {
+          "de": "Ihr sollt nicht streiten!",
+          "ar": "المفروض ماتتخانقوش!"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "sollen",
+          "müssen"
+        ],
+        [
+          "ich",
+          "soll",
+          "muss"
+        ],
+        [
+          "du",
+          "sollst",
+          "musst"
+        ],
+        [
+          "er / sie / es",
+          "soll",
+          "muss"
+        ],
+        [
+          "wir",
+          "sollen",
+          "müssen"
+        ],
+        [
+          "ihr",
+          "sollt",
+          "müsst"
+        ],
+        [
+          "sie / Sie",
+          "sollen",
+          "müssen"
+        ]
+      ]
+    },
+    {
+      "id": "g64-2",
+      "h": "جملة فيها أكتر من فعل: المساعد تاني والمصدر في الآخر",
+      "body": "لما يبقى في الجملة فعل مساعد (sollen، müssen، können)، هو بس اللي بيتصرّف وبييجي في المكان التاني، والفعل التاني بيروح آخر الجملة مصدر: Was soll ich machen? وفي سؤال أيوه ولا لأ المساعد بييجي الأول: Sollen wir weitersuchen? والفعل اللي بينفصل بيرجع كلمة واحدة في الآخر: Sollen wir ihn anrufen? (مش rufen … an).",
+      "examples": [
+        {
+          "de": "Sollen wir ihn anrufen?",
+          "ar": "نتصل بيه؟"
+        },
+        {
+          "de": "Sollen wir weitersuchen?",
+          "ar": "نكمّل تدوير؟"
+        },
+        {
+          "de": "Aber er kann dir sicher helfen!",
+          "ar": "بس أكيد يقدر يساعدك!"
+        },
+        {
+          "de": "Dann müssen wir warten.",
+          "ar": "يبقى لازم نستنى."
+        }
+      ],
+      "table": [
+        [
+          "البداية",
+          "الفعل المساعد",
+          "الوسط",
+          "الآخر = المصدر"
+        ],
+        [
+          "Ich",
+          "soll",
+          "nicht mehr",
+          "rauchen."
+        ],
+        [
+          "Was",
+          "soll",
+          "ich",
+          "machen?"
+        ],
+        [
+          "Dann",
+          "müssen",
+          "wir",
+          "warten."
+        ],
+        [
+          "–",
+          "Sollen",
+          "wir ihn",
+          "anrufen?"
+        ],
+        [
+          "–",
+          "Soll",
+          "ich dir",
+          "helfen?"
+        ]
+      ]
+    },
+    {
+      "id": "g64-3",
+      "h": "إمتى نقول sollen؟",
+      "body": "1) ننقل أمر أو نصيحة من حد تاني: Mama sagt, du sollst den Hund füttern. 2) نعرض مساعدة أو نقترح حاجة في سؤال: Soll ich dir helfen? = تحب أساعدك؟ و Sollen wir ihn anrufen? = نتصل بيه؟ 3) نطلب نصيحة: Was soll ich machen? والفرق: müssen = لازم (ضرورة)، لكن sollen = المفروض (حد تاني عايز كده).",
+      "examples": [
+        {
+          "de": "Soll ich dir helfen?",
+          "ar": "تحب أساعدك؟"
+        },
+        {
+          "de": "Was soll ich machen? Hast du einen Tipp für mich?",
+          "ar": "المفروض أعمل إيه؟ عندك نصيحة ليّا؟"
+        },
+        {
+          "de": "Ich muss arbeiten. – Ich soll arbeiten.",
+          "ar": "لازم أشتغل (ضرورة). – المفروض أشتغل (حد طالب مني كده)."
+        }
+      ],
+      "table": [
+        [
+          "الاستخدام",
+          "مثال",
+          "بالمصري"
+        ],
+        [
+          "أمر من حد تاني",
+          "Mama sagt, du sollst den Hund füttern.",
+          "ماما بتقولك تأكّل الكلب."
+        ],
+        [
+          "عرض مساعدة",
+          "Soll ich dir helfen?",
+          "تحب أساعدك؟"
+        ],
+        [
+          "اقتراح",
+          "Sollen wir weitersuchen?",
+          "نكمّل تدوير؟"
+        ],
+        [
+          "طلب نصيحة",
+          "Was soll ich machen?",
+          "المفروض أعمل إيه؟"
+        ]
+      ]
+    },
+    {
+      "id": "g64-4",
+      "h": "تتكلم عن إخواتك وقرايبك",
+      "body": "تسأل: Hast du Geschwister? وترد: Ja, ich habe einen Bruder. أو Nein, ich bin Einzelkind. (من غير أداة، زي المهن). التوأم: der Zwillingsbruder / die Zwillingsschwester. القريب: der Verwandte، والقريبة: die Verwandte، والجمع die Verwandten (ومن غير أداة: Verwandte). وبين الإخوات بنسمع: Du nervst mich! / Du spinnst! / Du langweilst mich. وكمان: Du verstehst mich. / Ich mag dich.",
+      "examples": [
+        {
+          "de": "Hast du Geschwister? – Nein, ich bin Einzelkind.",
+          "ar": "عندك إخوات؟ – لأ، أنا ابن وحيد."
+        },
+        {
+          "de": "Ich habe eine Zwillingsschwester. Wir sind am gleichen Tag geboren.",
+          "ar": "عندي أخت توأم. إحنا مولودين في نفس اليوم."
+        },
+        {
+          "de": "Du nervst mich! – Aber ich mag dich.",
+          "ar": "إنت بتنرفزني! – بس أنا بحبك."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "Du nervst mich!",
+          "إنت بتنرفزني!"
+        ],
+        [
+          "Du spinnst!",
+          "إنت اتجننت!"
+        ],
+        [
+          "Du langweilst mich.",
+          "إنت بتزهّقني."
+        ],
+        [
+          "Du verstehst mich.",
+          "إنت فاهمني."
+        ],
+        [
+          "Ich mag dich.",
+          "أنا بحبك."
+        ]
+      ]
+    }
+  ]
+}

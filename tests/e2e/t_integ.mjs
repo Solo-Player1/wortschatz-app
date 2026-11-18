@@ -74,7 +74,8 @@ async function run(mode, dark) {
   await p.hash('#/settings', 1000);
   const set = await p.evaluate(`({vd: document.querySelector('#videoSettings')?.textContent.trim().slice(0,80), up: !!document.querySelector('.up-settings'), ver: document.querySelector('.up-version')?.textContent.trim(), all: !!document.querySelector('[data-act=all]'), ow: document.documentElement.scrollWidth - innerWidth})`);
   check(`${tag} settings: video section`, !!set.vd && (mode === 'native' ? set.all : true), JSON.stringify(set));
-  check(`${tag} settings: update card`, set.up && /\d+\.\d+\.\d+/.test(set.ver || ''), set.ver);
+  // since 1.5 the label is «1.<WEB_BUILD>» (e.g. «الإصدار 1.6 (3) · البيانات v9»), not «1.1.0»
+  check(`${tag} settings: update card`, set.up && /الإصدار\s*\d+\.\d+\s*\(\d+\)/.test(set.ver || ''), set.ver);
   check(`${tag} settings: no h-overflow`, set.ow <= 0, 'overflow=' + set.ow);
   await p.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
   await p.shot(path.join(OUT, `settings-${tag}.png`));

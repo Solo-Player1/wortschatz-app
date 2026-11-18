@@ -1,0 +1,822 @@
+{
+  "n": 58,
+  "sentences": [
+    {
+      "id": "s58-001",
+      "de": "Welche Straße war das?",
+      "ar": "ده كان أنهي شارع؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "past"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welcher",
+          "Welches",
+          "Welchen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-002",
+      "de": "Das ist ein cooles T-Shirt!",
+      "ar": "ده تيشيرت جامد!",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "clothes"
+      ],
+      "alts": [
+        "Ein cooles T-Shirt ist das!"
+      ],
+      "cloze": {
+        "word": "cooles",
+        "opts": [
+          "cooles",
+          "coole",
+          "cooler",
+          "coolen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-003",
+      "de": "Du trägst gerne Mützen.",
+      "ar": "إنت بتحب تلبس طواقي.",
+      "kind": "statement",
+      "focus": [
+        "verb:tragen",
+        "likes",
+        "clothes"
+      ],
+      "alts": [
+        "Gerne trägst du Mützen.",
+        "Mützen trägst du gerne.",
+        "Du trägst Mützen gerne."
+      ],
+      "cloze": {
+        "word": "trägst",
+        "opts": [
+          "trägst",
+          "tragst",
+          "trägt",
+          "trage"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-004",
+      "de": "Welche Farbe magst du am liebsten?",
+      "ar": "بتحب أنهي لون أكتر حاجة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "color",
+        "verb:mögen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welche",
+        "opts": [
+          "Welche",
+          "Welcher",
+          "Welches",
+          "Welchen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-005",
+      "de": "Grün, das ist meine Lieblingsfarbe.",
+      "ar": "الأخضر، ده لوني المفضّل.",
+      "kind": "answer",
+      "focus": [
+        "color",
+        "possessive"
+      ],
+      "alts": [
+        "Das ist meine Lieblingsfarbe: Grün.",
+        "Meine Lieblingsfarbe, das ist Grün."
+      ],
+      "cloze": {
+        "word": "meine",
+        "opts": [
+          "meine",
+          "mein",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-006",
+      "de": "Du hast ziemlich viele grüne Sachen.",
+      "ar": "عندك حاجات خضرا كتير نوعًا ما.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "plural",
+        "color"
+      ],
+      "alts": [
+        "Ziemlich viele grüne Sachen hast du."
+      ],
+      "cloze": {
+        "word": "grüne",
+        "opts": [
+          "grüne",
+          "grünen",
+          "grüner",
+          "grünes"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-007",
+      "de": "Dieses Hemd ist grün.",
+      "ar": "القميص ده أخضر.",
+      "kind": "statement",
+      "focus": [
+        "demonstrative",
+        "color"
+      ],
+      "alts": [
+        "Grün ist dieses Hemd."
+      ],
+      "cloze": {
+        "word": "Dieses",
+        "opts": [
+          "Dieses",
+          "Dieser",
+          "Diese",
+          "Diesen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-008",
+      "de": "Nein, das ist nicht mein warmer Pullover.",
+      "ar": "لأ، ده مش البلوفر الدافي بتاعي.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "possessive",
+        "adjective"
+      ],
+      "alts": [
+        "Nein, mein warmer Pullover ist das nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-009",
+      "de": "Ich hatte ein buntes Hemd.",
+      "ar": "كان عندي قميص ملوّن.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "past"
+      ],
+      "alts": [
+        "Ein buntes Hemd hatte ich."
+      ],
+      "cloze": {
+        "word": "buntes",
+        "opts": [
+          "buntes",
+          "bunte",
+          "bunter",
+          "bunten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-010",
+      "de": "Das war mein Lieblingshemd.",
+      "ar": "ده كان قميصي المفضّل.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "past"
+      ],
+      "alts": [
+        "Mein Lieblingshemd war das."
+      ],
+      "cloze": {
+        "word": "mein",
+        "opts": [
+          "mein",
+          "meine",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s58-011",
+      "de": "Welchen Pullover ziehst du heute an?",
+      "ar": "هتلبس أنهي بلوفر النهارده؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "accusative",
+        "verb:anziehen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welchen",
+        "opts": [
+          "Welchen",
+          "Welcher",
+          "Welches",
+          "Welche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-012",
+      "de": "Ich ziehe diesen Pullover an.",
+      "ar": "هلبس البلوفر ده.",
+      "kind": "answer",
+      "focus": [
+        "demonstrative",
+        "accusative",
+        "verb:anziehen"
+      ],
+      "alts": [
+        "Diesen Pullover ziehe ich an."
+      ],
+      "cloze": {
+        "word": "diesen",
+        "opts": [
+          "diesen",
+          "dieser",
+          "dieses",
+          "diese"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-013",
+      "de": "Welcher Schal ist am schönsten?",
+      "ar": "أنهي شال أحلى واحد؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "comparison"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Welcher",
+        "opts": [
+          "Welcher",
+          "Welchen",
+          "Welches",
+          "Welche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-014",
+      "de": "Welche Farbe hat dein Schal?",
+      "ar": "الشال بتاعك لونه إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "color",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-015",
+      "de": "Mein Schal ist lila.",
+      "ar": "الشال بتاعي بنفسجي.",
+      "kind": "answer",
+      "focus": [
+        "color",
+        "possessive"
+      ],
+      "alts": [
+        "Lila ist mein Schal."
+      ],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-016",
+      "de": "Diese Mütze ist rosa.",
+      "ar": "الطاقية دي بمبي.",
+      "kind": "statement",
+      "focus": [
+        "demonstrative",
+        "color"
+      ],
+      "alts": [
+        "Rosa ist diese Mütze."
+      ],
+      "cloze": {
+        "word": "Diese",
+        "opts": [
+          "Diese",
+          "Dieser",
+          "Dieses",
+          "Diesen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-017",
+      "de": "Diese Schuhe sind braun.",
+      "ar": "الجزمة دي لونها بني.",
+      "kind": "statement",
+      "focus": [
+        "demonstrative",
+        "plural",
+        "color"
+      ],
+      "alts": [
+        "Braun sind diese Schuhe."
+      ],
+      "cloze": {
+        "word": "braun",
+        "opts": [
+          "braun",
+          "braune",
+          "braunen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-018",
+      "de": "Dieser Mantel ist ziemlich altmodisch.",
+      "ar": "البالطو ده موضته قديمة نوعًا ما.",
+      "kind": "statement",
+      "focus": [
+        "demonstrative",
+        "adjective"
+      ],
+      "alts": [
+        "Ziemlich altmodisch ist dieser Mantel."
+      ],
+      "cloze": {
+        "word": "Dieser",
+        "opts": [
+          "Dieser",
+          "Diesen",
+          "Dieses",
+          "Diese"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-019",
+      "de": "Ziehst du gern bunte Sachen an?",
+      "ar": "بتحب تلبس حاجات ملوّنة؟",
+      "kind": "question",
+      "focus": [
+        "verb:anziehen",
+        "separable",
+        "likes"
+      ],
+      "alts": [
+        "Ziehst du bunte Sachen gern an?"
+      ],
+      "cloze": {
+        "word": "Ziehst",
+        "opts": [
+          "Ziehst",
+          "Zieht",
+          "Ziehe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-020",
+      "de": "Nein, ich trage lieber Schwarz.",
+      "ar": "لأ، بفضّل ألبس أسود.",
+      "kind": "answer",
+      "focus": [
+        "verb:tragen",
+        "preference",
+        "color"
+      ],
+      "alts": [
+        "Nein, lieber trage ich Schwarz.",
+        "Nein, Schwarz trage ich lieber.",
+        "Nein, ich trage Schwarz lieber."
+      ],
+      "cloze": {
+        "word": "trage",
+        "opts": [
+          "trage",
+          "trägst",
+          "trägt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-021",
+      "de": "Ich mische gern verschiedene Farben.",
+      "ar": "بحب أخلط ألوان مختلفة.",
+      "kind": "statement",
+      "focus": [
+        "verb:mischen",
+        "likes",
+        "color"
+      ],
+      "alts": [
+        "Gern mische ich verschiedene Farben.",
+        "Verschiedene Farben mische ich gern.",
+        "Ich mische verschiedene Farben gern."
+      ],
+      "cloze": {
+        "word": "mische",
+        "opts": [
+          "mische",
+          "mischst",
+          "mischt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s58-022",
+      "de": "Ich nehme beide Hemden.",
+      "ar": "هاخد القميصين الاتنين.",
+      "kind": "answer",
+      "focus": [
+        "plural",
+        "shopping"
+      ],
+      "alts": [
+        "Beide Hemden nehme ich."
+      ],
+      "cloze": {
+        "word": "Hemden",
+        "opts": [
+          "Hemden",
+          "Hemd",
+          "Hemds"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w58-01",
+      "q": "___ Schal trägst du heute?",
+      "answer": "Welchen",
+      "opts": [
+        "Welchen",
+        "Welcher",
+        "Welche",
+        "Was"
+      ],
+      "ar": "لابس أنهي شال النهارده؟",
+      "reply": "Den roten Schal.",
+      "reply_ar": "الشال الأحمر."
+    },
+    {
+      "id": "w58-02",
+      "q": "___ Farbe hat deine Mütze?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Welcher",
+        "Welches",
+        "Wie"
+      ],
+      "ar": "الطاقية بتاعتك لونها إيه؟",
+      "reply": "Sie ist orange.",
+      "reply_ar": "لونها برتقاني."
+    },
+    {
+      "id": "w58-03",
+      "q": "___ T-Shirt nimmst du?",
+      "answer": "Welches",
+      "opts": [
+        "Welches",
+        "Welcher",
+        "Welchen",
+        "Wo"
+      ],
+      "ar": "هتاخد أنهي تيشيرت؟",
+      "reply": "Das weiße T-Shirt.",
+      "reply_ar": "التيشيرت الأبيض."
+    },
+    {
+      "id": "w58-04",
+      "q": "___ Schuhe sind am bequemsten?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Welcher",
+        "Welches",
+        "Wer"
+      ],
+      "ar": "أنهي جزمة أريح واحدة؟",
+      "reply": "Diese Turnschuhe hier.",
+      "reply_ar": "الكوتشي ده."
+    },
+    {
+      "id": "w58-05",
+      "q": "___ ist deine Lieblingsfarbe?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "لونك المفضّل إيه؟",
+      "reply": "Meine Lieblingsfarbe ist Blau.",
+      "reply_ar": "لوني المفضّل الأزرق."
+    },
+    {
+      "id": "w58-06",
+      "q": "___ findest du diesen Schal?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "إيه رأيك في الشال ده؟",
+      "reply": "Er ist ziemlich altmodisch.",
+      "reply_ar": "موضته قديمة نوعًا ما."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g58-1",
+      "h": "welcher؟ welche؟ welches؟ = أنهي؟ (مراجعة)",
+      "body": "welch- = أنهي، بنسأل بيها لما نختار حاجة معيّنة من كذا حاجة (أنهي لون؟ أنهي بلوفر؟). بتيجي قبل الاسم على طول، وآخرها زي آخر أداة التعريف بالظبط: der يبقى welcher، die يبقى welche، das يبقى welches، والجمع welche. وفي النصب (Akkusativ) المذكّر بس اللي بيتغيّر، زي den بالظبط: welchen. الباقي زي ما هو.",
+      "examples": [
+        {
+          "de": "Welche Farbe magst du am liebsten?",
+          "ar": "بتحب أنهي لون أكتر حاجة؟"
+        },
+        {
+          "de": "Welcher Schal ist am schönsten?",
+          "ar": "أنهي شال أحلى واحد؟"
+        },
+        {
+          "de": "Welchen Pullover ziehst du heute an?",
+          "ar": "هتلبس أنهي بلوفر النهارده؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "der Schal",
+          "welcher Schal",
+          "welchen Schal"
+        ],
+        [
+          "die Farbe",
+          "welche Farbe",
+          "welche Farbe"
+        ],
+        [
+          "das Hemd",
+          "welches Hemd",
+          "welches Hemd"
+        ],
+        [
+          "die Schuhe (جمع)",
+          "welche Schuhe",
+          "welche Schuhe"
+        ]
+      ]
+    },
+    {
+      "id": "g58-2",
+      "h": "dieser / diese / dieses = ده / دي",
+      "body": "dies- = ده / دي، بنشاور بيها على حاجة معيّنة قدامنا، وكتير معاها hier: Diesen Pullover hier? نهايتها زي welch- وأداة التعريف بالظبط: dieser، diese، dieses، والجمع diese، وفي النصب المذكّر diesen. وعشان كده السؤال والرد بيمشوا مع بعض: Welcher Schal? – Dieser Schal. / Welchen Pullover? – Diesen Pullover. ولو الاسم مفهوم تقدر تقولها لوحدها: Und dieses hier auch.",
+      "examples": [
+        {
+          "de": "Dieses Hemd ist grün. Und dieses hier auch.",
+          "ar": "القميص ده أخضر. وده كمان."
+        },
+        {
+          "de": "Diese Mütze ist rosa.",
+          "ar": "الطاقية دي بمبي."
+        },
+        {
+          "de": "Welchen Pullover ziehst du an? – Diesen Pullover hier.",
+          "ar": "هتلبس أنهي بلوفر؟ – البلوفر ده."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "der Mantel",
+          "dieser Mantel",
+          "diesen Mantel"
+        ],
+        [
+          "die Mütze",
+          "diese Mütze",
+          "diese Mütze"
+        ],
+        [
+          "das Hemd",
+          "dieses Hemd",
+          "dieses Hemd"
+        ],
+        [
+          "die Schuhe (جمع)",
+          "diese Schuhe",
+          "diese Schuhe"
+        ]
+      ]
+    },
+    {
+      "id": "g58-3",
+      "h": "الألوان و Lieblingsfarbe",
+      "body": "الألوان صفات: Das Hemd ist grün. ولما تيجي قبل الاسم بتاخد نهاية زي أي صفة: ein buntes Hemd، grüne Sachen. بس lila و rosa و orange مابياخدوش نهاية خالص: ein rosa T-Shirt. ولما اللون يبقى اسم بيتكتب بحرف كبير: Meine Lieblingsfarbe ist Blau. وتسأل عن اللون: Welche Farbe hat …? وLieblings- + اسم = المفضّل، والأداة من آخر جزء: die Lieblingsfarbe، das Lieblingshemd.",
+      "examples": [
+        {
+          "de": "Grün, das ist meine Lieblingsfarbe.",
+          "ar": "الأخضر، ده لوني المفضّل."
+        },
+        {
+          "de": "Welche Farbe hat dein Schal? – Er ist lila.",
+          "ar": "الشال بتاعك لونه إيه؟ – لونه بنفسجي."
+        },
+        {
+          "de": "Ich hatte ein buntes Hemd.",
+          "ar": "كان عندي قميص ملوّن."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "rot",
+          "أحمر"
+        ],
+        [
+          "blau",
+          "أزرق"
+        ],
+        [
+          "gelb",
+          "أصفر"
+        ],
+        [
+          "grün",
+          "أخضر"
+        ],
+        [
+          "schwarz",
+          "أسود"
+        ],
+        [
+          "weiß",
+          "أبيض"
+        ],
+        [
+          "grau",
+          "رمادي"
+        ],
+        [
+          "braun",
+          "بني"
+        ],
+        [
+          "lila",
+          "بنفسجي"
+        ],
+        [
+          "rosa",
+          "بمبي"
+        ],
+        [
+          "orange",
+          "برتقاني"
+        ],
+        [
+          "bunt",
+          "ملوّن"
+        ]
+      ]
+    },
+    {
+      "id": "g58-4",
+      "h": "تتكلم عن لبسك: tragen و anziehen",
+      "body": "tragen = لابس / بيلبس عمومًا، والـ a بتبقى ä مع du و er / sie / es: Du trägst gerne Mützen. أما anziehen = يلبس (الحركة نفسها)، وهو فعل بينفصل: Ich ziehe diesen Pullover an. لو بتحب تلبس حاجة قول gern، لو بتفضّلها lieber، ولو مابتحبهاش nicht gern. وكلمات تنفعك: bunt (ملوّن)، altmodisch (موضته قديمة)، ziemlich (نوعًا ما)، beide (الاتنين).",
+      "examples": [
+        {
+          "de": "Ziehst du gern bunte Sachen an? – Nein, ich trage lieber Schwarz.",
+          "ar": "بتحب تلبس حاجات ملوّنة؟ – لأ، بفضّل ألبس أسود."
+        },
+        {
+          "de": "Ich trage nicht gern Gelb.",
+          "ar": "مابحبش ألبس أصفر."
+        },
+        {
+          "de": "Dieser Mantel ist ziemlich altmodisch.",
+          "ar": "البالطو ده موضته قديمة نوعًا ما."
+        },
+        {
+          "de": "Ich nehme beide Hemden.",
+          "ar": "هاخد القميصين الاتنين."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "tragen",
+          "anziehen"
+        ],
+        [
+          "ich",
+          "trage",
+          "ziehe … an"
+        ],
+        [
+          "du",
+          "trägst",
+          "ziehst … an"
+        ],
+        [
+          "er / sie / es",
+          "trägt",
+          "zieht … an"
+        ],
+        [
+          "wir",
+          "tragen",
+          "ziehen … an"
+        ],
+        [
+          "ihr",
+          "tragt",
+          "zieht … an"
+        ],
+        [
+          "sie / Sie",
+          "tragen",
+          "ziehen … an"
+        ]
+      ]
+    }
+  ]
+}

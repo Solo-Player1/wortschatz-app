@@ -1,0 +1,815 @@
+{
+  "n": 47,
+  "sentences": [
+    {
+      "id": "s47-001",
+      "de": "Danke für deine Hilfe!",
+      "ar": "شكرًا على مساعدتك!",
+      "kind": "statement",
+      "focus": [
+        "polite",
+        "possessive"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "dein",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-002",
+      "de": "Möchtest du lieber abwaschen?",
+      "ar": "تحب تغسل المواعين أحسن؟",
+      "kind": "question",
+      "focus": [
+        "separable",
+        "verb:abwaschen",
+        "preference"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "abwaschen",
+        "opts": [
+          "abwaschen",
+          "abwäschst",
+          "wäschst"
+        ],
+        "accept": [
+          "spülen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-003",
+      "de": "Spülen, das Geschirr spülen.",
+      "ar": "يعني تغسل، تغسل المواعين.",
+      "kind": "answer",
+      "focus": [
+        "verb:spülen",
+        "housework"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Geschirr",
+        "opts": [
+          "Geschirr",
+          "Wäsche",
+          "Besen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-004",
+      "de": "Ja, ich möchte lieber abwaschen.",
+      "ar": "أيوه، أفضّل أغسل المواعين.",
+      "kind": "answer",
+      "focus": [
+        "separable",
+        "verb:möchten",
+        "preference"
+      ],
+      "alts": [
+        "Ja, lieber möchte ich abwaschen."
+      ],
+      "cloze": {
+        "word": "möchte",
+        "opts": [
+          "möchte",
+          "möchtest",
+          "möchtet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-005",
+      "de": "Alles in Ordnung?",
+      "ar": "كله تمام؟",
+      "kind": "question",
+      "focus": [
+        "phrase",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ordnung",
+        "opts": [
+          "Ordnung",
+          "ordentlich",
+          "unordentlich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-006",
+      "de": "Ich sauge nicht so oft.",
+      "ar": "أنا مش بكنس بالمكنسة الكهربا كتير.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:saugen",
+        "negation"
+      ],
+      "alts": [
+        "So oft sauge ich nicht."
+      ],
+      "cloze": {
+        "word": "sauge",
+        "opts": [
+          "sauge",
+          "saugst",
+          "saugt"
+        ],
+        "accept": [
+          "staubsauge"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-007",
+      "de": "Ich hasse Hausarbeit.",
+      "ar": "أنا بكره شغل البيت.",
+      "kind": "statement",
+      "focus": [
+        "verb:hassen",
+        "preference",
+        "housework"
+      ],
+      "alts": [
+        "Hausarbeit hasse ich."
+      ],
+      "cloze": {
+        "word": "hasse",
+        "opts": [
+          "hasse",
+          "hasst",
+          "hassen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-008",
+      "de": "Ich mag Hausarbeit auch nicht.",
+      "ar": "وأنا كمان مش بحب شغل البيت.",
+      "kind": "answer",
+      "focus": [
+        "verb:mögen",
+        "negation",
+        "preference"
+      ],
+      "alts": [
+        "Hausarbeit mag ich auch nicht.",
+        "Auch ich mag Hausarbeit nicht."
+      ],
+      "cloze": {
+        "word": "mag",
+        "opts": [
+          "mag",
+          "magst",
+          "mögen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-009",
+      "de": "Wo ist der Besen?",
+      "ar": "المقشة فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "article",
+        "housework"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s47-010",
+      "de": "Möchtest du die Wäsche aufhängen?",
+      "ar": "تحب تنشر الغسيل؟",
+      "kind": "question",
+      "focus": [
+        "separable",
+        "verb:aufhängen",
+        "verb:möchten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "aufhängen",
+        "opts": [
+          "aufhängen",
+          "aufhängst",
+          "hängst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-011",
+      "de": "Ich wasche lieber ab.",
+      "ar": "أنا أفضّل أغسل المواعين.",
+      "kind": "answer",
+      "focus": [
+        "separable",
+        "verb:abwaschen",
+        "preference"
+      ],
+      "alts": [
+        "Lieber wasche ich ab."
+      ],
+      "cloze": {
+        "word": "ab",
+        "opts": [
+          "ab",
+          "an",
+          "fern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-012",
+      "de": "Ich spüle und du trocknest ab.",
+      "ar": "أنا أغسل وإنت تنشّف.",
+      "kind": "statement",
+      "focus": [
+        "separable",
+        "verb:abtrocknen",
+        "verb:spülen"
+      ],
+      "alts": [
+        "Du trocknest ab und ich spüle."
+      ],
+      "cloze": {
+        "word": "trocknest",
+        "opts": [
+          "trocknest",
+          "trockne",
+          "trocknet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-013",
+      "de": "Ich räume die Gläser ein.",
+      "ar": "أنا برصّ الكوبايات في مكانها.",
+      "kind": "statement",
+      "focus": [
+        "separable",
+        "verb:einräumen",
+        "plural"
+      ],
+      "alts": [
+        "Die Gläser räume ich ein."
+      ],
+      "cloze": {
+        "word": "Gläser",
+        "opts": [
+          "Gläser",
+          "Glas",
+          "Gläsern"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-014",
+      "de": "Du räumst nie die Spülmaschine aus.",
+      "ar": "إنت عمرك ما بتفضّي غسالة الأطباق.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "separable",
+        "verb:ausräumen"
+      ],
+      "alts": [
+        "Nie räumst du die Spülmaschine aus.",
+        "Du räumst die Spülmaschine nie aus.",
+        "Die Spülmaschine räumst du nie aus."
+      ],
+      "cloze": {
+        "word": "räumst",
+        "opts": [
+          "räumst",
+          "räumt",
+          "räume"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-015",
+      "de": "Ich muss immer dein dreckiges Geschirr spülen.",
+      "ar": "أنا دايمًا لازم أغسل مواعينك الوسخة.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:müssen",
+        "verb:spülen"
+      ],
+      "alts": [
+        "Immer muss ich dein dreckiges Geschirr spülen.",
+        "Ich muss dein dreckiges Geschirr immer spülen.",
+        "Dein dreckiges Geschirr muss ich immer spülen."
+      ],
+      "cloze": {
+        "word": "spülen",
+        "opts": [
+          "spülen",
+          "spüle",
+          "spülst"
+        ],
+        "accept": [
+          "abwaschen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-016",
+      "de": "Nico kehrt regelmäßig den Flur.",
+      "ar": "نيكو بيكنس الطرقة بانتظام.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "verb:kehren"
+      ],
+      "alts": [
+        "Regelmäßig kehrt Nico den Flur.",
+        "Nico kehrt den Flur regelmäßig.",
+        "Den Flur kehrt Nico regelmäßig."
+      ],
+      "cloze": {
+        "word": "kehrt",
+        "opts": [
+          "kehrt",
+          "kehrst",
+          "kehren"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-017",
+      "de": "Dein Zimmer ist ständig unordentlich.",
+      "ar": "أوضتك على طول مكركبة.",
+      "kind": "statement",
+      "focus": [
+        "frequency",
+        "possessive"
+      ],
+      "alts": [
+        "Ständig ist dein Zimmer unordentlich."
+      ],
+      "cloze": {
+        "word": "Dein",
+        "opts": [
+          "Dein",
+          "Deine",
+          "Deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-018",
+      "de": "Sebastian kocht so gut wie Lisa.",
+      "ar": "سيباستيان بيطبخ حلو زي ليزا.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:kochen"
+      ],
+      "alts": [
+        "Lisa kocht so gut wie Sebastian."
+      ],
+      "cloze": {
+        "word": "so",
+        "opts": [
+          "so",
+          "als",
+          "wie"
+        ],
+        "accept": [
+          "genauso"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-019",
+      "de": "Ein Hausmann arbeitet genauso viel wie eine Hausfrau.",
+      "ar": "الراجل اللي بيقعد في البيت بيشتغل قد ست البيت بالظبط.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "housework"
+      ],
+      "alts": [
+        "Eine Hausfrau arbeitet genauso viel wie ein Hausmann."
+      ],
+      "cloze": {
+        "word": "genauso",
+        "opts": [
+          "genauso",
+          "mehr",
+          "als"
+        ],
+        "accept": [
+          "so"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-020",
+      "de": "Nico kocht nicht so gut wie Inge.",
+      "ar": "نيكو مش بيطبخ حلو زي إنجي.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "als",
+          "so"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-021",
+      "de": "Ist der Staubsauger besser als der Besen?",
+      "ar": "المكنسة الكهربا أحسن من المقشة؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "housework"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "als",
+        "opts": [
+          "als",
+          "wie",
+          "so"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s47-022",
+      "de": "Max putzt mehr als Inge.",
+      "ar": "ماكس بينضّف أكتر من إنجي.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "verb:putzen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mehr",
+        "opts": [
+          "mehr",
+          "viel",
+          "gut"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w47-01",
+      "q": "___ ist der Staubsauger?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wohin",
+        "Wann"
+      ],
+      "ar": "المكنسة الكهربا فين؟",
+      "reply": "Im Keller.",
+      "reply_ar": "في البدروم."
+    },
+    {
+      "id": "w47-02",
+      "q": "___ saugst du?",
+      "answer": "Wie oft",
+      "opts": [
+        "Wie oft",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بتكنس بالمكنسة الكهربا كل قد إيه؟",
+      "reply": "Nicht so oft.",
+      "reply_ar": "مش كتير."
+    },
+    {
+      "id": "w47-03",
+      "q": "___ macht mehr im Haushalt?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wie",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين بيعمل أكتر في شغل البيت؟",
+      "reply": "Wir machen gleich viel.",
+      "reply_ar": "إحنا بنعمل قد بعض."
+    },
+    {
+      "id": "w47-04",
+      "q": "___ machst du am liebsten im Haushalt?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إيه أكتر حاجة بتحب تعملها في شغل البيت؟",
+      "reply": "Am liebsten koche ich.",
+      "reply_ar": "أكتر حاجة بحبها الطبخ."
+    },
+    {
+      "id": "w47-05",
+      "q": "___ räumst du die Spülmaschine aus?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "بتفضّي غسالة الأطباق إمتى؟",
+      "reply": "Nach dem Frühstück.",
+      "reply_ar": "بعد الفطار."
+    },
+    {
+      "id": "w47-06",
+      "q": "___ Hausarbeiten machst du gern?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "أنهي شغل في البيت بتحب تعمله؟",
+      "reply": "Ich wasche gern ab.",
+      "reply_ar": "بحب أغسل المواعين."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g47-1",
+      "h": "المقارنة (=): so … wie و genauso … wie",
+      "body": "لما اتنين يبقوا زي بعض في حاجة بنقول: so + الصفة زي ما هي + wie (= زي / قد). ولو عايز تقول «زي بالظبط» استخدم genauso بدل so. ولو مش زي بعض حط nicht قبل so: nicht so … wie (= مش قد). خد بالك: بعد so و genauso دايمًا wie، مش als. و gleich viel = نفس القدر بالظبط.",
+      "examples": [
+        {
+          "de": "Sebastian kocht so gut wie Lisa.",
+          "ar": "سيباستيان بيطبخ حلو زي ليزا."
+        },
+        {
+          "de": "Ein Hausmann arbeitet genauso viel wie eine Hausfrau.",
+          "ar": "الراجل اللي بيقعد في البيت بيشتغل قد ست البيت بالظبط."
+        },
+        {
+          "de": "Nico kocht nicht so gut wie Inge.",
+          "ar": "نيكو مش بيطبخ حلو زي إنجي."
+        },
+        {
+          "de": "Max und Lisa putzen gleich viel.",
+          "ar": "ماكس وليزا بينضّفوا قد بعض."
+        }
+      ],
+      "table": [
+        [
+          "المعنى",
+          "بالألماني",
+          "مثال"
+        ],
+        [
+          "زي / قد",
+          "so … wie",
+          "so gut wie Lisa"
+        ],
+        [
+          "زي بالظبط",
+          "genauso … wie",
+          "genauso viel wie eine Hausfrau"
+        ],
+        [
+          "مش قد",
+          "nicht so … wie",
+          "nicht so gut wie Inge"
+        ],
+        [
+          "نفس القدر",
+          "gleich viel",
+          "Wir machen gleich viel."
+        ]
+      ]
+    },
+    {
+      "id": "g47-2",
+      "h": "المقارنة (≠): صيغة المقارنة + als",
+      "body": "لما واحد يبقى أكتر من التاني في حاجة بنستخدم صيغة المقارنة + als (= من). أغلب الصفات بتاخد -er في الآخر: häufig بتبقى häufiger، ordentlich بتبقى ordentlicher. وفيه كلمات شاذة لازم تتحفظ: gut بتبقى besser، viel بتبقى mehr، gern بتبقى lieber (والأكتر خالص: am liebsten). ومع صيغة المقارنة دايمًا als مش wie: besser als (مش besser wie).",
+      "examples": [
+        {
+          "de": "Der Staubsauger ist besser als der Besen.",
+          "ar": "المكنسة الكهربا أحسن من المقشة."
+        },
+        {
+          "de": "Max putzt mehr als Inge.",
+          "ar": "ماكس بينضّف أكتر من إنجي."
+        },
+        {
+          "de": "Ich sauge häufiger als du.",
+          "ar": "أنا بكنس بالمكنسة الكهربا أكتر منك."
+        },
+        {
+          "de": "Inge ist ordentlicher als Nico.",
+          "ar": "إنجي منظّمة أكتر من نيكو."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "صيغة المقارنة",
+          "مثال"
+        ],
+        [
+          "gut",
+          "besser",
+          "besser als der Besen"
+        ],
+        [
+          "viel",
+          "mehr",
+          "mehr als Inge"
+        ],
+        [
+          "gern",
+          "lieber",
+          "Ich wasche lieber ab."
+        ],
+        [
+          "häufig",
+          "häufiger",
+          "häufiger als du"
+        ],
+        [
+          "ordentlich",
+          "ordentlicher",
+          "ordentlicher als Nico"
+        ]
+      ]
+    },
+    {
+      "id": "g47-3",
+      "h": "أفعال بتنفصل (2): abwaschen، aufhängen، einräumen",
+      "body": "الأفعال اللي بتبدأ بـ ab، an، auf، aus، ein، mit، nach، weg، zu بتنفصل: الفعل بيتصرّف وييجي في المكان التاني، والسابقة بتروح آخر الجملة: Ich wasche lieber ab. لكن لو فيه فعل مساعد زي möchten أو müssen أو können، هو اللي بيتصرّف وييجي في المكان التاني، والفعل اللي بينفصل بيروح آخر الجملة مصدر كامل، من غير ما يتفصل: Ich möchte lieber abwaschen.",
+      "examples": [
+        {
+          "de": "Möchtest du lieber abwaschen? – Ja, ich wasche lieber ab.",
+          "ar": "تحب تغسل المواعين أحسن؟ – أيوه، أفضّل أغسل المواعين."
+        },
+        {
+          "de": "Möchtest du die Wäsche aufhängen?",
+          "ar": "تحب تنشر الغسيل؟"
+        },
+        {
+          "de": "Ich räume die Gläser ein.",
+          "ar": "أنا برصّ الكوبايات في مكانها."
+        },
+        {
+          "de": "Kannst du die Spülmaschine ausräumen?",
+          "ar": "ممكن تفضّي غسالة الأطباق؟"
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "في الجملة العادية",
+          "مع فعل مساعد"
+        ],
+        [
+          "abwaschen",
+          "Ich wasche ab.",
+          "Ich möchte abwaschen."
+        ],
+        [
+          "abtrocknen",
+          "Du trocknest ab.",
+          "Kannst du abtrocknen?"
+        ],
+        [
+          "aufhängen",
+          "Nico hängt die Wäsche auf.",
+          "Nico muss die Wäsche aufhängen."
+        ],
+        [
+          "einräumen",
+          "Ich räume die Gläser ein.",
+          "Ich möchte die Gläser einräumen."
+        ],
+        [
+          "ausräumen",
+          "Wir räumen die Spülmaschine aus.",
+          "Wir müssen die Spülmaschine ausräumen."
+        ],
+        [
+          "mitbringen",
+          "Ich bringe dir ein Glas mit.",
+          "Ich kann dir ein Glas mitbringen."
+        ]
+      ]
+    },
+    {
+      "id": "g47-4",
+      "h": "كلمات التكرار (2): ständig، häufig، regelmäßig",
+      "body": "عشان تقول بتعمل شغل البيت قد إيه: immer / ständig (دايمًا / على طول)، häufig / oft (كتير)، regelmäßig (بانتظام)، manchmal (ساعات)، selten (نادرًا)، nie / niemals (أبدًا). مكانها غالبًا بعد الفعل المتصرّف: Ich sauge häufig. ولو عايز تأكد عليها حطها في أول الجملة، والفعل يفضل في المكان التاني والفاعل بعده: Nie räumst du die Spülmaschine aus! و nie mehr = مش تاني أبدًا. والسؤال: Wie oft …?",
+      "examples": [
+        {
+          "de": "Du räumst nie die Spülmaschine aus.",
+          "ar": "إنت عمرك ما بتفضّي غسالة الأطباق."
+        },
+        {
+          "de": "Immer muss ich dein dreckiges Geschirr spülen!",
+          "ar": "دايمًا أنا اللي لازم أغسل مواعينك الوسخة!"
+        },
+        {
+          "de": "Nico kehrt regelmäßig den Flur.",
+          "ar": "نيكو بيكنس الطرقة بانتظام."
+        },
+        {
+          "de": "Ich koche nie mehr Fleisch!",
+          "ar": "مش هطبخ لحمة تاني أبدًا!"
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "المعنى"
+        ],
+        [
+          "immer / ständig",
+          "دايمًا / على طول"
+        ],
+        [
+          "häufig / oft",
+          "كتير"
+        ],
+        [
+          "regelmäßig",
+          "بانتظام"
+        ],
+        [
+          "manchmal",
+          "ساعات"
+        ],
+        [
+          "selten",
+          "نادرًا"
+        ],
+        [
+          "nie / niemals",
+          "عمري ما / أبدًا"
+        ],
+        [
+          "nie mehr",
+          "مش تاني أبدًا"
+        ]
+      ]
+    }
+  ]
+}

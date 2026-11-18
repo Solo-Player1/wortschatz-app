@@ -1,0 +1,66 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:12.640 --> 00:00:14.880 region:R1 align:center
+<c.S1>– Alles okay, Nico? Geht es dir gut?</c>
+
+2
+00:00:15.360 --> 00:00:17.000 region:R1 align:center
+<c.S1>– Ich habe Schmerzen.</c>
+
+3
+00:00:17.760 --> 00:00:18.800 region:R1 align:center
+<c.S1>– Wir sehen uns das mal an.</c>
+
+4
+00:00:18.840 --> 00:00:22.120 region:R1 align:center
+<c.S1>Wo tut es denn genau weh?
+Ist es das Knie oder das Bein?</c>
+
+5
+00:00:22.400 --> 00:00:23.560 region:R1 align:center
+<c.S1>– Der Fuß.</c>
+
+6
+00:00:26.800 --> 00:00:28.360 region:R1 align:center
+<c.S1>– Autsch.</c>
+
+7
+00:00:29.680 --> 00:00:31.080 region:R1 align:center
+<c.S1>– Haben wir etwas zum Kühlen?</c>
+
+8
+00:00:31.200 --> 00:00:32.880 region:R1 align:center
+<c.S1>– Ja. Ich hole was.</c>
+
+9
+00:00:35.000 --> 00:00:39.080 region:R1 align:center
+<c.S1>– Ich hab mich vor
+ein paar Wochen auch verletzt.</c>
+
+10
+00:00:39.240 --> 00:00:43.200 region:R1 align:center
+<c.S1>Ich hatte sehr starke Schmerzen
+am Arm und bin zum Arzt gegangen.</c>
+
+11
+00:00:43.280 --> 00:00:48.200 region:R1 align:center
+<c.S1>Ich glaube, ich hab noch Schmerztabletten.
+Ich schau gleich mal nach.</c>
+
+12
+00:00:49.000 --> 00:00:50.200 region:R1 align:center
+<c.S1>– Danke.</c>
+
+13
+00:00:57.480 --> 00:00:59.560 region:R1 align:center
+<c.S1>Wir bringen dich zum Arzt.</c>

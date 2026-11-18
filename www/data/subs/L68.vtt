@@ -1,0 +1,67 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:11.040 --> 00:00:15.000 region:R1 align:center
+<c.S1>– Yanis! Iss nicht so viele Süßigkeiten!
+Iss lieber mehr Obst!</c>
+
+2
+00:00:15.800 --> 00:00:17.160 region:R1 align:center
+<c.S1>– Es ist kein Obst da!</c>
+
+3
+00:00:18.600 --> 00:00:20.320 region:R1 align:center
+<c.S1>– Wer sollte Obst kaufen?</c>
+
+4
+00:00:21.000 --> 00:00:22.080 region:R1 align:center
+<c.S1>– Yanis!</c>
+
+5
+00:00:22.520 --> 00:00:24.080 region:R1 align:center
+<c.S1>– Oh, stimmt.</c>
+
+6
+00:00:24.240 --> 00:00:28.200 region:R1 align:center
+<c.S1>Ich wollte Äpfel, Bananen und Birnen kaufen,
+aber ich habe es vergessen.</c>
+
+7
+00:00:29.080 --> 00:00:32.960 region:R1 align:center
+<c.S1>Aber Fleisch und Gemüse vom Grill
+sind doch auch gesund.</c>
+
+8
+00:00:33.080 --> 00:00:35.240 region:R1 align:center
+<c.S1>Und dazu so ein leckerer Kartoffelsalat ...</c>
+
+9
+00:00:35.520 --> 00:00:37.560 region:R1 align:center
+<c.S1>– Hm, ja. Kartoffelsalat macht
+auch gar nicht dick.</c>
+
+10
+00:00:38.480 --> 00:00:40.280 region:R1 align:center
+<c.S1>– Wir sind doch im Urlaub.</c>
+
+11
+00:00:41.320 --> 00:00:44.320 region:R1 align:center
+<c.S1>– Wir sind nicht im Urlaub.
+Wir spielen Fußball!</c>
+
+12
+00:00:46.320 --> 00:00:48.880 region:R1 align:center
+<c.S1>– Ab morgen essen wir gesund!</c>
+
+13
+00:00:50.920 --> 00:00:53.280 region:R1 align:center
+<c.S1>– Au! Ah!</c>

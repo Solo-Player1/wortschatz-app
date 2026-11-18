@@ -1,0 +1,777 @@
+{
+  "n": 70,
+  "sentences": [
+    {
+      "id": "s70-001",
+      "de": "Haben Sie einen Termin?",
+      "ar": "حضرتك عندك ميعاد؟",
+      "kind": "question",
+      "focus": [
+        "doctor",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-002",
+      "de": "Nico hat Schmerzen am Fuß.",
+      "ar": "نيكو عنده وجع في رجله.",
+      "kind": "statement",
+      "focus": [
+        "pain",
+        "verb:haben"
+      ],
+      "alts": [
+        "Nico hat am Fuß Schmerzen.",
+        "Am Fuß hat Nico Schmerzen."
+      ],
+      "cloze": {
+        "word": "hat",
+        "opts": [
+          "hat",
+          "ist",
+          "tut"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-003",
+      "de": "Haben Sie starke Schmerzen?",
+      "ar": "حضرتك عندك وجع جامد؟",
+      "kind": "question",
+      "focus": [
+        "pain",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "starke",
+        "opts": [
+          "starke",
+          "stark",
+          "starken"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-004",
+      "de": "Es tut weh.",
+      "ar": "بيوجع.",
+      "kind": "answer",
+      "focus": [
+        "pain",
+        "verb:wehtun"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "tut",
+        "opts": [
+          "tut",
+          "tun",
+          "tust"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-005",
+      "de": "Der Arzt schaut sich das gleich an.",
+      "ar": "الدكتور هيبص على ده كمان شوية.",
+      "kind": "statement",
+      "focus": [
+        "verb:anschauen",
+        "reflexive"
+      ],
+      "alts": [
+        "Gleich schaut sich der Arzt das an.",
+        "Gleich schaut der Arzt sich das an.",
+        "Das schaut sich der Arzt gleich an.",
+        "Das schaut der Arzt sich gleich an."
+      ],
+      "cloze": {
+        "word": "sich",
+        "opts": [
+          "sich",
+          "mich",
+          "dich"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-006",
+      "de": "Er muss den Fuß röntgen.",
+      "ar": "لازم يعمل أشعة على الرجل.",
+      "kind": "statement",
+      "focus": [
+        "verb:röntgen",
+        "verb:müssen"
+      ],
+      "alts": [
+        "Den Fuß muss er röntgen."
+      ],
+      "cloze": {
+        "word": "röntgen",
+        "opts": [
+          "röntgen",
+          "röntgt",
+          "röntge"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-007",
+      "de": "Vielleicht ist er gebrochen.",
+      "ar": "يمكن تكون مكسورة.",
+      "kind": "statement",
+      "focus": [
+        "doctor",
+        "verb:sein"
+      ],
+      "alts": [
+        "Er ist vielleicht gebrochen."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "bist",
+          "sind"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-008",
+      "de": "Sie waren noch nie hier in der Praxis, oder?",
+      "ar": "حضرتك عمرك ما جيت هنا في العيادة قبل كده، صح؟",
+      "kind": "question",
+      "focus": [
+        "doctor",
+        "preposition"
+      ],
+      "alts": [
+        "Hier in der Praxis waren Sie noch nie, oder?",
+        "Sie waren hier in der Praxis noch nie, oder?",
+        "Noch nie waren Sie hier in der Praxis, oder?"
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-009",
+      "de": "Ich hätte gern Ihre Versichertenkarte.",
+      "ar": "كنت عايز كارت التأمين الصحي بتاع حضرتك.",
+      "kind": "statement",
+      "focus": [
+        "doctor",
+        "polite",
+        "possessive"
+      ],
+      "alts": [
+        "Ich hätte Ihre Versichertenkarte gern.",
+        "Ihre Versichertenkarte hätte ich gern.",
+        "Gern hätte ich Ihre Versichertenkarte."
+      ],
+      "cloze": {
+        "word": "Ihre",
+        "opts": [
+          "Ihre",
+          "Ihr",
+          "Ihren"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-010",
+      "de": "Sie haben doch eine Krankenversicherung?",
+      "ar": "حضرتك عندك تأمين صحي، صح؟",
+      "kind": "question",
+      "focus": [
+        "doctor",
+        "article"
+      ],
+      "alts": [
+        "Eine Krankenversicherung haben Sie doch?"
+      ],
+      "cloze": {
+        "word": "eine",
+        "opts": [
+          "eine",
+          "ein",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-011",
+      "de": "Bitte gehen Sie schon mal in den Behandlungsraum.",
+      "ar": "اتفضل حضرتك ادخل أوضة الكشف.",
+      "kind": "statement",
+      "focus": [
+        "doctor",
+        "imperative",
+        "preposition"
+      ],
+      "alts": [
+        "Gehen Sie bitte schon mal in den Behandlungsraum."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "dem",
+          "der"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-012",
+      "de": "Hoffentlich müssen wir nicht lange warten.",
+      "ar": "يا رب ما نضطرش نستنى كتير.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "negation"
+      ],
+      "alts": [
+        "Wir müssen hoffentlich nicht lange warten.",
+        "Lange müssen wir hoffentlich nicht warten."
+      ],
+      "cloze": {
+        "word": "müssen",
+        "opts": [
+          "müssen",
+          "muss",
+          "müsst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s70-013",
+      "de": "Hier darf man nicht rauchen.",
+      "ar": "هنا ممنوع التدخين.",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "negation"
+      ],
+      "alts": [
+        "Man darf hier nicht rauchen.",
+        "Rauchen darf man hier nicht."
+      ],
+      "cloze": {
+        "word": "darf",
+        "opts": [
+          "darf",
+          "darfst",
+          "dürfen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-014",
+      "de": "Sie dürfen keinen Kaffee trinken.",
+      "ar": "حضرتك ممنوع تشرب قهوة.",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "negation"
+      ],
+      "alts": [
+        "Keinen Kaffee dürfen Sie trinken."
+      ],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-015",
+      "de": "Du darfst den Fuß nicht bewegen.",
+      "ar": "ممنوع تحرّك رجلك.",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "negation"
+      ],
+      "alts": [
+        "Den Fuß darfst du nicht bewegen."
+      ],
+      "cloze": {
+        "word": "darfst",
+        "opts": [
+          "darfst",
+          "darf",
+          "dürft"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-016",
+      "de": "Darf ich wieder Sport machen?",
+      "ar": "مسموحلي أرجع ألعب رياضة؟",
+      "kind": "question",
+      "focus": [
+        "verb:dürfen",
+        "question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "machen",
+        "opts": [
+          "machen",
+          "mache",
+          "macht"
+        ],
+        "accept": [
+          "treiben"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-017",
+      "de": "Wie oft darf ich die Tabletten nehmen?",
+      "ar": "مسموحلي آخد الحبوب كام مرة؟",
+      "kind": "question",
+      "focus": [
+        "verb:dürfen",
+        "w-frage",
+        "medicine"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "nehmen",
+        "opts": [
+          "nehmen",
+          "nehme",
+          "nimmt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-018",
+      "de": "Darf ich mit dem Medikament Auto fahren?",
+      "ar": "مسموحلي أسوق عربية وأنا واخد الدوا ده؟",
+      "kind": "question",
+      "focus": [
+        "verb:dürfen",
+        "medicine"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "der",
+          "den"
+        ],
+        "accept": [
+          "diesem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-019",
+      "de": "Im Wartezimmer dürft ihr nur leise sprechen.",
+      "ar": "في أوضة الانتظار مسموحلكم تتكلموا بصوت واطي بس.",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "doctor"
+      ],
+      "alts": [
+        "Ihr dürft im Wartezimmer nur leise sprechen.",
+        "Nur leise dürft ihr im Wartezimmer sprechen."
+      ],
+      "cloze": {
+        "word": "dürft",
+        "opts": [
+          "dürft",
+          "darfst",
+          "dürfen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-020",
+      "de": "Schade, wir dürfen heute nicht schwimmen.",
+      "ar": "خسارة، مش مسموحلنا نعوم النهارده.",
+      "kind": "statement",
+      "focus": [
+        "verb:dürfen",
+        "negation"
+      ],
+      "alts": [
+        "Schade, heute dürfen wir nicht schwimmen."
+      ],
+      "cloze": {
+        "word": "dürfen",
+        "opts": [
+          "dürfen",
+          "dürft",
+          "darf"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-021",
+      "de": "Können Sie sofort vorbeikommen?",
+      "ar": "حضرتك تقدر تعدّي علينا حالًا؟",
+      "kind": "question",
+      "focus": [
+        "verb:vorbeikommen",
+        "verb:können"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "vorbeikommen",
+        "opts": [
+          "vorbeikommen",
+          "vorbeikommt",
+          "vorbeikommst"
+        ],
+        "accept": [
+          "kommen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s70-022",
+      "de": "Es tut gar nicht weh.",
+      "ar": "مش بيوجع خالص.",
+      "kind": "answer",
+      "focus": [
+        "pain",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "gar",
+        "opts": [
+          "gar",
+          "sehr",
+          "viel"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w70-01",
+      "q": "___ tut es weh?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Woher",
+        "Was"
+      ],
+      "ar": "بيوجعك فين؟",
+      "reply": "Am Fuß.",
+      "reply_ar": "في رجلي."
+    },
+    {
+      "id": "w70-02",
+      "q": "___ hat die Zahnärztin Sprechstunde?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Was"
+      ],
+      "ar": "دكتورة السنان مواعيدها إمتى؟",
+      "reply": "Am Montag und am Donnerstag.",
+      "reply_ar": "يوم الاتنين ويوم الخميس."
+    },
+    {
+      "id": "w70-03",
+      "q": "___ fragt nach der Versichertenkarte?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wann",
+        "Woher"
+      ],
+      "ar": "مين بيسأل على كارت التأمين؟",
+      "reply": "Die Sprechstundenhilfe.",
+      "reply_ar": "موظفة الاستقبال في العيادة."
+    },
+    {
+      "id": "w70-04",
+      "q": "___ muss der Arzt den Fuß röntgen?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "الدكتور لازم يعمل أشعة على الرجل ليه؟",
+      "reply": "Vielleicht ist er gebrochen.",
+      "reply_ar": "يمكن تكون مكسورة."
+    },
+    {
+      "id": "w70-05",
+      "q": "___ gehe ich mit dem Rezept?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "أروح بالروشتة فين؟",
+      "reply": "In die Apotheke.",
+      "reply_ar": "على الصيدلية."
+    },
+    {
+      "id": "w70-06",
+      "q": "___ wartet ihr schon?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie alt",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "بقالكم قد إيه مستنيين؟",
+      "reply": "Schon über eine Stunde.",
+      "reply_ar": "بقالنا أكتر من ساعة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g70-1",
+      "h": "dürfen = مسموح",
+      "body": "dürfen معناه «مسموح». بنستخدمه لما حد عنده سلطة يسمح بحاجة: الدكتور، الأهل، القانون. وتصريفه ماشي زي können و müssen: في المفرد الـ ü بتبقى a (ich darf، du darfst)، و ich و er / sie / es / man نفس الشكل ومن غير نهاية: ich darf، man darf. وفي الجمع الـ ü بترجع: wir dürfen، ihr dürft، sie / Sie dürfen.",
+      "examples": [
+        {
+          "de": "Sie dürfen Wasser oder Tee trinken.",
+          "ar": "حضرتك مسموحلك تشرب مية أو شاي."
+        },
+        {
+          "de": "Darf ich wieder Sport machen?",
+          "ar": "مسموحلي أرجع ألعب رياضة؟"
+        },
+        {
+          "de": "Im Wartezimmer dürft ihr nur leise sprechen.",
+          "ar": "في أوضة الانتظار مسموحلكم تتكلموا بصوت واطي بس."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "dürfen",
+          "müssen"
+        ],
+        [
+          "ich",
+          "darf",
+          "muss"
+        ],
+        [
+          "du",
+          "darfst",
+          "musst"
+        ],
+        [
+          "er / sie / es / man",
+          "darf",
+          "muss"
+        ],
+        [
+          "wir",
+          "dürfen",
+          "müssen"
+        ],
+        [
+          "ihr",
+          "dürft",
+          "müsst"
+        ],
+        [
+          "sie / Sie",
+          "dürfen",
+          "müssen"
+        ]
+      ]
+    },
+    {
+      "id": "g70-2",
+      "h": "ممنوع = dürfen + nicht / kein",
+      "body": "عشان تقول «ممنوع» حط nicht أو kein مع dürfen: kein بدل ein / eine أو قدام اسم من غير أداة (keinen Kaffee، keinen Termin)، و nicht في باقي الحالات (nicht rauchen، den Fuß nicht bewegen). وزي كل الأفعال المساعدة: dürfen هو اللي بيتصرّف وبييجي تاني، والفعل التاني مصدر في آخر الجملة. وفي سؤال أيوه ولا لأ dürfen بييجي الأول: Darf ich …?",
+      "examples": [
+        {
+          "de": "Hier darf man nicht rauchen.",
+          "ar": "هنا ممنوع التدخين."
+        },
+        {
+          "de": "Sie dürfen keinen Kaffee trinken.",
+          "ar": "حضرتك ممنوع تشرب قهوة."
+        },
+        {
+          "de": "Du darfst den Fuß nicht bewegen.",
+          "ar": "ممنوع تحرّك رجلك."
+        }
+      ],
+      "table": [
+        [
+          "البداية",
+          "dürfen",
+          "النص",
+          "الآخر = المصدر"
+        ],
+        [
+          "Hier",
+          "darf",
+          "man nicht",
+          "rauchen."
+        ],
+        [
+          "Sie",
+          "dürfen",
+          "keinen Kaffee",
+          "trinken."
+        ],
+        [
+          "Du",
+          "darfst",
+          "den Fuß nicht",
+          "bewegen."
+        ],
+        [
+          "–",
+          "Darf",
+          "ich wieder Sport",
+          "machen?"
+        ]
+      ]
+    },
+    {
+      "id": "g70-3",
+      "h": "خد بالك: nicht müssen ≠ nicht dürfen",
+      "body": "müssen = لازم. بس nicht müssen معناها «مش لازم» (براحتك)، مش «ممنوع»! Er muss nicht arbeiten = مش مضطر يشتغل، ولو عايز يشتغل عادي. أما «ممنوع» فهي nicht dürfen: Er darf nicht arbeiten = ممنوع يشتغل. فلو الدكتور قال لك Sie dürfen nicht … يبقى ماتعملهاش خالص.",
+      "examples": [
+        {
+          "de": "Er muss arbeiten. – Er muss nicht arbeiten.",
+          "ar": "لازم يشتغل. – مش لازم يشتغل (براحته)."
+        },
+        {
+          "de": "Hoffentlich müssen wir nicht lange warten.",
+          "ar": "يا رب ما نضطرش نستنى كتير."
+        },
+        {
+          "de": "Sie dürfen drei Tage nicht arbeiten.",
+          "ar": "حضرتك ممنوع تشتغل تلات أيام."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "بالمصري"
+        ],
+        [
+          "Ich muss …",
+          "لازم …"
+        ],
+        [
+          "Ich muss nicht …",
+          "مش لازم … (براحتي)"
+        ],
+        [
+          "Ich darf …",
+          "مسموحلي …"
+        ],
+        [
+          "Ich darf nicht …",
+          "ممنوع …"
+        ]
+      ]
+    },
+    {
+      "id": "g70-4",
+      "h": "في العيادة: التسجيل ووصف الوجع",
+      "body": "موظفة الاستقبال (die Sprechstundenhilfe) هتسألك: Haben Sie einen Termin? وهتطلب كارت التأمين: Ich hätte gern Ihre Versichertenkarte. وبعدين: Bitte nehmen Sie im Wartezimmer Platz (اتفضل اقعد في أوضة الانتظار). ولما توصف الوجع: Es tut weh. أو Mein Fuß tut weh. أو Ich habe Schmerzen am Fuß. ولو الوجع جامد: Ich habe starke Schmerzen.",
+      "examples": [
+        {
+          "de": "Wo tut es weh? – Am Fuß. Ich habe starke Schmerzen.",
+          "ar": "بيوجعك فين؟ – في رجلي. عندي وجع جامد."
+        },
+        {
+          "de": "Zeigen Sie mir bitte Ihre Versichertenkarte. – Bitte schön!",
+          "ar": "لو سمحت ورّيني كارت التأمين بتاع حضرتك. – اتفضل!"
+        },
+        {
+          "de": "Können Sie sofort vorbeikommen? – Ja, bis gleich!",
+          "ar": "حضرتك تقدر تعدّي علينا حالًا؟ – أيوه، أشوفك كمان شوية!"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "عندي ميعاد",
+          "Ich habe einen Termin."
+        ],
+        [
+          "رجلي بتوجعني",
+          "Mein Fuß tut weh."
+        ],
+        [
+          "عندي وجع جامد",
+          "Ich habe starke Schmerzen."
+        ],
+        [
+          "عندي سخونية خفيفة",
+          "Ich habe etwas Fieber."
+        ],
+        [
+          "مش بيوجع خالص",
+          "Es tut gar nicht weh."
+        ]
+      ]
+    }
+  ]
+}

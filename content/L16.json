@@ -1,0 +1,767 @@
+{
+  "n": 16,
+  "sentences": [
+    {
+      "id": "s16-001",
+      "de": "Zahlen Sie zusammen oder getrennt?",
+      "ar": "حضرتكم هتدفعوا مع بعض ولا كل واحد لوحده؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "pay",
+        "formal"
+      ],
+      "alts": [
+        "Zahlen Sie getrennt oder zusammen?"
+      ],
+      "cloze": {
+        "word": "getrennt",
+        "opts": [
+          "getrennt",
+          "bar",
+          "Karte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-002",
+      "de": "Was kostet das?",
+      "ar": "ده بكام؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Was",
+        "opts": [
+          "Was",
+          "Wie",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-003",
+      "de": "Die drei Pizzen mit Salami sind 22,50.",
+      "ar": "التلات بيتزا بالسلامي بـ 22 يورو و50 سنت.",
+      "kind": "statement",
+      "focus": [
+        "price",
+        "number",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "seid"
+        ],
+        "accept": [
+          "kosten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-004",
+      "de": "Das macht zusammen 40,50 Euro.",
+      "ar": "كده الحساب كله 40 يورو و50 سنت.",
+      "kind": "statement",
+      "focus": [
+        "price",
+        "number"
+      ],
+      "alts": [
+        "Zusammen macht das 40,50 Euro."
+      ],
+      "cloze": {
+        "word": "zusammen",
+        "opts": [
+          "zusammen",
+          "getrennt",
+          "Karte"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-005",
+      "de": "Zahlen Sie bar oder mit Karte?",
+      "ar": "حضرتك هتدفع كاش ولا بالكارت؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "pay",
+        "formal",
+        "verb:zahlen"
+      ],
+      "alts": [
+        "Zahlen Sie mit Karte oder bar?"
+      ],
+      "cloze": {
+        "word": "Zahlen",
+        "opts": [
+          "Zahlen",
+          "Zahlt",
+          "Zahlst"
+        ],
+        "accept": [
+          "Bezahlen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-006",
+      "de": "Ich zahle bar.",
+      "ar": "هدفع كاش.",
+      "kind": "answer",
+      "focus": [
+        "pay",
+        "verb:zahlen"
+      ],
+      "alts": [
+        "Bar zahle ich."
+      ],
+      "cloze": {
+        "word": "zahle",
+        "opts": [
+          "zahle",
+          "zahlst",
+          "zahlt"
+        ],
+        "accept": [
+          "bezahle"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-007",
+      "de": "Hier sind 45 Euro.",
+      "ar": "اتفضل، دول 45 يورو.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Euro",
+        "opts": [
+          "Euro",
+          "Euros",
+          "Cents"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-008",
+      "de": "Das stimmt so.",
+      "ar": "خلّي الباقي عشانك.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "stimmt",
+        "opts": [
+          "stimmt",
+          "macht",
+          "kostet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-009",
+      "de": "Hier ist die Rechnung.",
+      "ar": "اتفضل الفاتورة.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "article"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "die",
+        "opts": [
+          "die",
+          "der",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-010",
+      "de": "Wie viel kostet die Pizza?",
+      "ar": "البيتزا بكام؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "alt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-011",
+      "de": "Du bist eingeladen!",
+      "ar": "إنت معزوم! (الحساب عليّا)",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "verb:sein"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "bist",
+        "opts": [
+          "bist",
+          "ist",
+          "bin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s16-012",
+      "de": "Wir möchten zahlen, bitte.",
+      "ar": "عايزين نحاسب لو سمحت.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "verb:möchten",
+        "polite"
+      ],
+      "alts": [
+        "Wir möchten bitte zahlen.",
+        "Bitte, wir möchten zahlen."
+      ],
+      "cloze": {
+        "word": "möchten",
+        "opts": [
+          "möchten",
+          "möchtet",
+          "möchte"
+        ],
+        "accept": [
+          "wollen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-013",
+      "de": "Wir zahlen getrennt.",
+      "ar": "هندفع كل واحد لوحده.",
+      "kind": "answer",
+      "focus": [
+        "pay",
+        "verb:zahlen"
+      ],
+      "alts": [
+        "Getrennt zahlen wir."
+      ],
+      "cloze": {
+        "word": "zahlen",
+        "opts": [
+          "zahlen",
+          "zahlt",
+          "zahle"
+        ],
+        "accept": [
+          "bezahlen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-014",
+      "de": "Ich zahle mit Karte.",
+      "ar": "هدفع بالكارت.",
+      "kind": "answer",
+      "focus": [
+        "pay",
+        "verb:zahlen"
+      ],
+      "alts": [
+        "Mit Karte zahle ich."
+      ],
+      "cloze": {
+        "word": "Karte",
+        "opts": [
+          "Karte",
+          "bar",
+          "getrennt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-015",
+      "de": "Was kostet der Kaffee?",
+      "ar": "القهوة بكام؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "article",
+        "drink"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-016",
+      "de": "Der Kaffee kostet drei Euro.",
+      "ar": "القهوة بـ 3 يورو.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "verb:kosten",
+        "number"
+      ],
+      "alts": [
+        "Drei Euro kostet der Kaffee."
+      ],
+      "cloze": {
+        "word": "kostet",
+        "opts": [
+          "kostet",
+          "kosten",
+          "kostest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-017",
+      "de": "Was kosten die Pizzen?",
+      "ar": "البيتزات بكام؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "verb:kosten",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kosten",
+        "opts": [
+          "kosten",
+          "kostet",
+          "kostest"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-018",
+      "de": "Wie viel Euro macht das?",
+      "ar": "كده كام يورو؟",
+      "kind": "question",
+      "focus": [
+        "price",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "macht",
+        "opts": [
+          "macht",
+          "machst",
+          "machen"
+        ],
+        "accept": [
+          "kostet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-019",
+      "de": "Ein Euro hat 100 Cent.",
+      "ar": "اليورو فيه 100 سنت.",
+      "kind": "statement",
+      "focus": [
+        "price",
+        "number"
+      ],
+      "alts": [
+        "100 Cent hat ein Euro."
+      ],
+      "cloze": {
+        "word": "Cent",
+        "opts": [
+          "Cent",
+          "Cents",
+          "Euro"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-020",
+      "de": "Der Gast bezahlt das Essen.",
+      "ar": "الزبون بيدفع حساب الأكل.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "verb:bezahlen",
+        "food"
+      ],
+      "alts": [
+        "Das Essen bezahlt der Gast."
+      ],
+      "cloze": {
+        "word": "bezahlt",
+        "opts": [
+          "bezahlt",
+          "bezahle",
+          "bezahlst"
+        ],
+        "accept": [
+          "zahlt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-021",
+      "de": "Das Trinkgeld ist für die Kellnerin.",
+      "ar": "البقشيش للجرسونة.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "article"
+      ],
+      "alts": [
+        "Für die Kellnerin ist das Trinkgeld."
+      ],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s16-022",
+      "de": "Was sagt der Kellner?",
+      "ar": "الجرسون بيقول إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:sagen",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sagt",
+        "opts": [
+          "sagt",
+          "sagst",
+          "sage"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w16-01",
+      "q": "___ kostet der Kaffee?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "القهوة بكام؟",
+      "reply": "Der Kaffee kostet drei Euro.",
+      "reply_ar": "القهوة بـ 3 يورو."
+    },
+    {
+      "id": "w16-02",
+      "q": "___ kostet die Pizza?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wie alt",
+        "Wo"
+      ],
+      "ar": "البيتزا بكام؟",
+      "reply": "Zehn Euro.",
+      "reply_ar": "بـ 10 يورو."
+    },
+    {
+      "id": "w16-03",
+      "q": "___ Euro macht das?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie alt",
+        "Was",
+        "Wo"
+      ],
+      "ar": "كده كام يورو؟",
+      "reply": "Zusammen 40,50 Euro.",
+      "reply_ar": "الحساب كله 40 يورو و50 سنت."
+    },
+    {
+      "id": "w16-04",
+      "q": "___ zahlen Sie, bar oder mit Karte?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Was",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "حضرتك هتدفع إزاي، كاش ولا بالكارت؟ (رسمي)",
+      "reply": "Ich bezahle mit Karte.",
+      "reply_ar": "هدفع بالكارت."
+    },
+    {
+      "id": "w16-05",
+      "q": "___ bezahlt die Pizza?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين هيدفع حساب البيتزا؟",
+      "reply": "Lisa bezahlt die Pizza.",
+      "reply_ar": "ليزا هتدفع حساب البيتزا."
+    },
+    {
+      "id": "w16-06",
+      "q": "___ ist eingeladen?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wie",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "مين المعزوم؟",
+      "reply": "Nico ist eingeladen.",
+      "reply_ar": "نيكو هو المعزوم."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g16-1",
+      "h": "تسأل عن السعر: Was kostet …?",
+      "body": "عشان تسأل حاجة بكام: Was kostet …? أو Wie viel kostet …? الاتنين نفس المعنى. خد بالك من الفعل: حاجة واحدة ← kostet، وأكتر من حاجة (جمع) ← kosten. وعشان تسأل عن الحساب كله: Wie viel Euro macht das? والرد بيبقى: Das macht (zusammen) … Euro.",
+      "examples": [
+        {
+          "de": "Was kostet der Kaffee? – Der Kaffee kostet drei Euro.",
+          "ar": "القهوة بكام؟ – القهوة بـ 3 يورو."
+        },
+        {
+          "de": "Was kosten die Pizzen?",
+          "ar": "البيتزات بكام؟"
+        },
+        {
+          "de": "Wie viel Euro macht das? – Das macht zusammen 40,50 Euro.",
+          "ar": "كده كام يورو؟ – الحساب كله 40 يورو و50 سنت."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "بالألماني"
+        ],
+        [
+          "حاجة واحدة",
+          "Was kostet die Pizza?"
+        ],
+        [
+          "أكتر من حاجة",
+          "Was kosten die Pizzen?"
+        ],
+        [
+          "الحساب كله",
+          "Wie viel Euro macht das?"
+        ],
+        [
+          "الرد",
+          "Das macht (zusammen) … Euro."
+        ]
+      ]
+    },
+    {
+      "id": "g16-2",
+      "h": "تقرا المبلغ: Euro و Cent",
+      "body": "الألمان بيفصلوا اليورو عن السنت بفاصلة (,) مش بنقطة: 22,50 €. وبيقروا اليورو الأول وبعده السنت من غير كلمة Cent: zweiundzwanzig Euro fünfzig. ولو المبلغ أقل من يورو: 0,90 € = neunzig Cent. وبعد الرقم الكلمة بتفضل مفرد: zehn Euro و fünfzig Cent (مش Euros ولا Cents). واليورو = 100 سنت.",
+      "examples": [
+        {
+          "de": "Die drei Pizzen mit Salami sind 22,50.",
+          "ar": "التلات بيتزا بالسلامي بـ 22 يورو و50 سنت."
+        },
+        {
+          "de": "Hier sind 45 Euro.",
+          "ar": "اتفضل، دول 45 يورو."
+        },
+        {
+          "de": "Ein Euro hat 100 Cent.",
+          "ar": "اليورو فيه 100 سنت."
+        }
+      ],
+      "table": [
+        [
+          "مكتوب",
+          "بيتقري"
+        ],
+        [
+          "1,00 €",
+          "ein Euro"
+        ],
+        [
+          "0,90 €",
+          "neunzig Cent"
+        ],
+        [
+          "2,80 €",
+          "zwei Euro achtzig"
+        ],
+        [
+          "22,50 €",
+          "zweiundzwanzig Euro fünfzig"
+        ],
+        [
+          "45,00 €",
+          "fünfundvierzig Euro"
+        ]
+      ]
+    },
+    {
+      "id": "g16-3",
+      "h": "تدفع في المطعم: zahlen و bezahlen",
+      "body": "تنادي الجرسون (der Kellner) أو الجرسونة (die Kellnerin): Zahlen, bitte! هيسألك: Zahlen Sie zusammen oder getrennt? (في ألمانيا عادي كل واحد يدفع حسابه = getrennt) وبعدين: Zahlen Sie bar oder mit Karte? والفعلين zahlen و bezahlen منتظمين وبنفس المعنى، بس bezahlen غالبًا بييجي بعده الحاجة اللي بتدفع حقها: Ich bezahle die Rechnung.",
+      "examples": [
+        {
+          "de": "Zahlen Sie zusammen oder getrennt? – Wir zahlen getrennt.",
+          "ar": "هتدفعوا مع بعض ولا كل واحد لوحده؟ – هندفع كل واحد لوحده."
+        },
+        {
+          "de": "Zahlen Sie bar oder mit Karte? – Ich zahle bar.",
+          "ar": "هتدفع كاش ولا بالكارت؟ – هدفع كاش."
+        },
+        {
+          "de": "Der Gast bezahlt das Essen.",
+          "ar": "الزبون بيدفع حساب الأكل."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "zahlen",
+          "bezahlen"
+        ],
+        [
+          "ich",
+          "zahle",
+          "bezahle"
+        ],
+        [
+          "du",
+          "zahlst",
+          "bezahlst"
+        ],
+        [
+          "er / sie / es",
+          "zahlt",
+          "bezahlt"
+        ],
+        [
+          "wir",
+          "zahlen",
+          "bezahlen"
+        ],
+        [
+          "ihr",
+          "zahlt",
+          "bezahlt"
+        ],
+        [
+          "sie / Sie",
+          "zahlen",
+          "bezahlen"
+        ]
+      ]
+    },
+    {
+      "id": "g16-4",
+      "h": "البقشيش: Das stimmt so",
+      "body": "البقشيش (das Trinkgeld) في ألمانيا مش إجباري، وغالبًا حوالي 10% من الحساب. لو الحساب 40,50 وإديت 45 Euro ومش عايز باقي، قول: Das stimmt so. (أو Stimmt so.) ولو عايز باقي، قول المبلغ كله بالبقشيش: الحساب 18,50 وإديت 50؟ قول Zwanzig Euro, bitte. وهيرجّعلك 30. ولو إنت اللي عازم صاحبك، قوله: Du bist eingeladen!",
+      "examples": [
+        {
+          "de": "Hier sind 45 Euro. Das stimmt so.",
+          "ar": "اتفضل، دول 45 يورو. خلّي الباقي عشانك."
+        },
+        {
+          "de": "Das Trinkgeld ist für die Kellnerin.",
+          "ar": "البقشيش للجرسونة."
+        },
+        {
+          "de": "Du bist eingeladen!",
+          "ar": "إنت معزوم! (الحساب عليّا)"
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "الحساب لو سمحت!",
+          "Zahlen, bitte!"
+        ],
+        [
+          "خلّي الباقي عشانك",
+          "Das stimmt so."
+        ],
+        [
+          "خلّيهم 20 يورو (بالبقشيش)",
+          "Zwanzig Euro, bitte."
+        ],
+        [
+          "إنت معزوم، الحساب عليّا",
+          "Du bist eingeladen!"
+        ]
+      ]
+    }
+  ]
+}

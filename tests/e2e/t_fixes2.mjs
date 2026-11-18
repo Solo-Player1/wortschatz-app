@@ -36,7 +36,8 @@ r = await p.evaluate(`(async () => {
   for (let i = 0; i < 300; i++) {
     const a = ex.makeExercise(vater, 'mcq_de_ar'); if (a.options.some(o => !o.correct && /بابا|أبي/.test(o.text))) bad.push('vater:' + a.options.map(o => o.text).join('|'));
     const b = ex.makeExercise(papa, 'mcq_ar_de'); if (b.options.some(o => !o.correct && /Vater/.test(o.text))) bad.push('papa:' + b.options.map(o => o.text).join('|'));
-    const c = ex.makeExercise(nein, 'mcq_de_ar'); if (c.options.some(o => !o.correct && /^لا/.test(o.text))) bad.push('nein:' + c.options.map(o => o.text).join('|'));
+    // «لا» as a word (لا / لا، ليس …) — not «لاحقاً» (later), which only starts with the same letters
+    const c = ex.makeExercise(nein, 'mcq_de_ar'); if (c.options.some(o => !o.correct && /^لا(?=$|[\s،,.!؟])/.test(o.text))) bad.push('nein:' + c.options.map(o => o.text).join('|'));
   }
   const t = ex.makeExercise(vater, 'type');
   const g1 = ex.gradeAnswer(t, 'Papa'), g2 = ex.gradeAnswer(t, 'Vater'), g3 = ex.gradeAnswer(t, 'der Vater');
@@ -73,11 +74,11 @@ r = await p.evaluate(`(async () => {
   const w0 = DATA.words[0].id; store.state.progress[w0].due = t; store.save();
   const b = m.mission();
   const flag = !!store.state.days[today()].reviewDone;
-  const up = m.studiedUpTo();
-  return { a: { review: a.review, done: a.done }, b: { done: b.done, due: b.due }, flag, up };
+  const up = m.studiedUpTo(), last = m.sortedLessonNs().at(-1);
+  return { a: { review: a.review, done: a.done }, b: { done: b.done, due: b.due }, flag, up, last };
 })()`);
 check('review mission stays done after a mistake makes a word due', r.a.review && r.a.done && r.b.done && r.b.due === 1 && r.flag, JSON.stringify(r));
-check('studiedUpTo() = last lesson when all exams passed', r.up === 15, JSON.stringify(r));
+check('studiedUpTo() = last lesson when all exams passed', r.up === r.last, JSON.stringify(r));
 await p.hash('#/games', 1200);
 r = await p.evaluate(`({ exam: [...document.querySelectorAll('a[href^="#/exam/"]')].map(a => a.getAttribute('href')) })`);
 check('hub: all crowned → no useless exam re-take card', r.exam.length === 0, JSON.stringify(r));
@@ -85,9 +86,9 @@ await p.evaluate(`(async () => { const { store, todayIndex } = await import('./j
 await p.hash('#/home', 500); await p.hash('#/games', 1200);
 r = await p.evaluate(`({ exam: [...document.querySelectorAll('a[href^="#/exam/"]')].map(a => a.getAttribute('href') + ' ' + a.textContent.trim().slice(0, 40)) })`);
 check('hub: crown ready → «امتحان تثبيت الدرس 2» → crown exam', r.exam.length === 1 && r.exam[0].startsWith('#/exam/2?kind=crown') && /تثبيت/.test(r.exam[0]), JSON.stringify(r));
-r = await p.evaluate(`(async () => { const eng = await import('./js/games/engine.js'); const c = await import('./js/content.js');
-  return { up: (await import('./js/mastery.js')).studiedUpTo(), n: c.sentencesUpTo(15).length }; })()`);
-check('learned pool spans all lessons after all passed', r.up === 15 && r.n > 300, JSON.stringify(r));
+r = await p.evaluate(`(async () => { const eng = await import('./js/games/engine.js'); const c = await import('./js/content.js'); const m = await import('./js/mastery.js');
+  const up = m.studiedUpTo(); return { up, last: m.sortedLessonNs().at(-1), n: c.sentencesUpTo(up).length, n15: c.sentencesUpTo(15).length }; })()`);
+check('learned pool spans all lessons after all passed', r.up === r.last && r.n >= r.n15 && r.n15 > 300, JSON.stringify(r));
 
 // crown texts on a crowned lesson
 await p.hash('#/exam/3?kind=crown', 1500);
@@ -127,7 +128,8 @@ r = await p.evaluate(`(async () => {
   const content = await import('./js/content.js');
   const el = html => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
   const bad = []; let bRounds = 0;
-  for (const L of [5, 7, 10, 11, 12, 14, 15]) for (let run = 0; run < 25; run++) {
+  // lessons 1–15 + the new lessons where the reviewers found interchangeable questions (prices, times, «tut weh», gern)
+  for (const L of [5, 7, 10, 11, 12, 14, 15, 25, 35, 46, 47, 48, 49, 51, 66, 69, 71]) for (let run = 0; run < 12; run++) {
     const stage = document.createElement('div'); document.body.appendChild(stage);
     let over = false;
     const g = {
@@ -151,6 +153,11 @@ r = await p.evaluate(`(async () => {
         if (/^Pizza Hawaii/.test(reply)) bad.push('noun-only reply as B: ' + reply);
         if (/nummer/i.test(reply) && opts.filter(o => /nummer/i.test(o)).length > 1) bad.push('number question twice: ' + reply + ' :: ' + opts.join(' | '));
         if (opts.some(o => /ist mit (dir|Ihnen)/.test(o))) bad.push('open question offered: ' + reply + ' :: ' + opts.join(' | '));
+        // two options asking the same thing → one of the «wrong» ones also fits the reply
+        const twice = (replyRe, optRe, what) => { if (replyRe.test(reply) && opts.filter(o => optRe.test(o)).length > 1) bad.push(what + ': ' + reply + ' :: ' + opts.join(' | ')); };
+        twice(/Euro|Cent|kostet|kosten/i, /^(Wie teuer|Was kostet|Was kosten|Wie viel kostet|Wie viel kosten)/i, 'price question twice');
+        twice(/\\bUhr\\b|\\bhalb\\b|\\bum (ein|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|\\d)/i, /^(Wann|Um wie viel Uhr|Wie spät|Ab wann)/i, 'time question twice');
+        twice(/tut (mir )?weh/i, /fehlt|weh|Gips|Laune/i, 'pain question twice');
       }
       if (btns.length && !btns[0].disabled) btns[0].click();
     }
@@ -158,7 +165,7 @@ r = await p.evaluate(`(async () => {
   }
   return { bad: bad.slice(0, 4), n: bad.length, bRounds };
 })()`);
-check('wfragen «إيه السؤال؟»: no option that also answers the reply (175 games)', r.n === 0 && r.bRounds > 20, JSON.stringify(r));
+check('wfragen «إيه السؤال؟»: no option that also answers the reply (204 games, lessons 5–71)', r.n === 0 && r.bRounds > 40, JSON.stringify(r));
 
 // timer: a 5 s stall (blocked confirm / background) doesn't eat the round
 await p.evaluate(`(async () => { const { store } = await import('./js/store.js'); store.state.exams = {}; store.save(); })()`);
@@ -190,7 +197,8 @@ await p.hash('#/ref/grammar', 1200);
 r = await p.evaluate(`(() => {
   document.querySelectorAll('details.rf-g').forEach(d => d.open = true);
   const out = [];
-  document.querySelectorAll('.rf-gtable').forEach(t => { const c = t.closest('.card').getBoundingClientRect(), b = t.getBoundingClientRect(); if (b.left < c.left - 0.5 || b.right > c.right + 0.5) out.push(Math.round(b.left) + '..' + Math.round(b.right) + ' vs ' + Math.round(c.left) + '..' + Math.round(c.right)); });
+  // a table either fits its card, or sits in its own horizontal scroller (.rf-tscroll) that fits the card
+  document.querySelectorAll('.rf-gtable').forEach(t => { const box = t.closest('.rf-tscroll') || t; const c = t.closest('.card').getBoundingClientRect(), b = box.getBoundingClientRect(); if (b.left < c.left - 0.5 || b.right > c.right + 0.5) out.push(Math.round(b.left) + '..' + Math.round(b.right) + ' vs ' + Math.round(c.left) + '..' + Math.round(c.right)); });
   const sum = [...document.querySelectorAll('details.rf-g summary bdi.de')].length;
   return { out, n: document.querySelectorAll('.rf-gtable').length, sw: document.documentElement.scrollWidth, sum };
 })()`);
@@ -305,13 +313,13 @@ await p.evaluate(`window.__ln.shareMode = 'cancel'; document.querySelector('#btn
 await p.sleep(700);
 r = await p.evaluate(`({ toast: document.querySelector('.toast')?.textContent || '', open: document.querySelector('details.paste').open })`);
 check('APK backup cancelled → honest message + copy-as-text opened', /ما اتبعتتش/.test(r.toast) && r.open, JSON.stringify(r));
-// permission denied from the switch keeps the wish; granting later schedules
-await p.evaluate(`(async () => { const { store } = await import('./js/store.js'); store.state.settings.notify = false; store.save(); window.__ln.perm = 'denied'; window.__ln.reqResult = 'denied'; })()`);
-await p.hash('#/home', 500); await p.hash('#/settings', 1500);
-await p.evaluate(`document.querySelector('input[data-key=notify]').click()`);
-await p.sleep(900);
-r = await p.evaluate(`(async () => { const { store } = await import('./js/store.js'); return { notify: store.state.settings.notify, sw: document.querySelector('input[data-key=notify]').checked, state: document.querySelector('#notifyState').textContent }; })()`);
-check('denied from the switch: switch off, wish kept (notify stays true)', r.notify === true && r.sw === false && /مرفوض/.test(r.state), JSON.stringify(r));
+// permission denied — since 1.4 there is no reminder switch (reminders are always on, the app asks by itself):
+// nothing gets scheduled and nothing breaks; granting later in the phone settings schedules
+await p.evaluate(`(async () => { const { store } = await import('./js/store.js'); store.state.settings.notify = true; store.save(); window.__ln.perm = 'denied'; window.__ln.reqResult = 'denied';
+  const n = await import('./js/notify.js'); window.__lnDenied = await n.replan(); })()`);
+await p.sleep(300);
+r = await p.evaluate(`({ res: window.__lnDenied, n: window.__ln.pending.size, sw: !!document.querySelector('input[data-key=notify]') })`);
+check('permission denied: nothing scheduled (reason no-permission), no reminder switch in settings', r.res && r.res.reason === 'no-permission' && r.n === 0 && !r.sw, JSON.stringify(r));
 await p.evaluate(`(async () => { window.__ln.perm = 'granted'; const n = await import('./js/notify.js'); await n.replan(); })()`);
 await p.sleep(500);
 r = await p.evaluate(`({ n: window.__ln.pending.size })`);

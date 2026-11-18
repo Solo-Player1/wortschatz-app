@@ -1,0 +1,746 @@
+{
+  "n": 45,
+  "sentences": [
+    {
+      "id": "s45-001",
+      "de": "Ich glaube, der Kühlschrank ist zu klein.",
+      "ar": "أظن إن التلاجة صغيرة زيادة عن اللزوم.",
+      "kind": "statement",
+      "focus": [
+        "subject",
+        "article",
+        "zu-adjective"
+      ],
+      "alts": [
+        "Der Kühlschrank ist zu klein, glaube ich."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "den",
+          "die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-002",
+      "de": "Das waren die Birnen von meiner Schwester.",
+      "ar": "دي كانت الكمترى بتاعة أختي.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "plural",
+        "past"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "waren",
+        "opts": [
+          "waren",
+          "war",
+          "wart"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-003",
+      "de": "Das hier ist das Obst.",
+      "ar": "دي هنا الفاكهة.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "article"
+      ],
+      "alts": [
+        "Das ist hier das Obst.",
+        "Das ist das Obst hier."
+      ],
+      "cloze": {
+        "word": "das",
+        "opts": [
+          "das",
+          "der",
+          "die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-004",
+      "de": "Die Orangen und die Birnen kommen auf den Teller.",
+      "ar": "البرتقان والكمترى يتحطوا في الطبق.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "plural",
+        "accusative"
+      ],
+      "alts": [
+        "Die Birnen und die Orangen kommen auf den Teller.",
+        "Auf den Teller kommen die Orangen und die Birnen.",
+        "Auf den Teller kommen die Birnen und die Orangen."
+      ],
+      "cloze": {
+        "word": "kommen",
+        "opts": [
+          "kommen",
+          "kommt",
+          "kommst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-005",
+      "de": "Das Fleisch kommt hier oben hin.",
+      "ar": "اللحمة مكانها هنا فوق.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "article",
+        "place"
+      ],
+      "alts": [
+        "Hier oben kommt das Fleisch hin."
+      ],
+      "cloze": {
+        "word": "Das",
+        "opts": [
+          "Das",
+          "Der",
+          "Die"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-006",
+      "de": "Was ist das? Der Käse.",
+      "ar": "إيه ده؟ الجبنة.",
+      "kind": "question",
+      "focus": [
+        "food",
+        "article",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-007",
+      "de": "Ich hoffe, das ist okay.",
+      "ar": "أتمنى إن ده يكون تمام.",
+      "kind": "statement",
+      "focus": [
+        "verb:hoffen"
+      ],
+      "alts": [
+        "Das ist okay, hoffe ich."
+      ],
+      "cloze": {
+        "word": "hoffe",
+        "opts": [
+          "hoffe",
+          "hoffst",
+          "hofft"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-008",
+      "de": "Für ein paar Tage.",
+      "ar": "لكام يوم.",
+      "kind": "answer",
+      "focus": [
+        "time",
+        "duration"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Tage",
+        "opts": [
+          "Tage",
+          "Tag",
+          "Tagen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s45-009",
+      "de": "Ich esse kein Fleisch.",
+      "ar": "أنا مابكلش لحمة.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "food"
+      ],
+      "alts": [
+        "Kein Fleisch esse ich."
+      ],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keine",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-010",
+      "de": "Wir haben keine Butter und kein Brot.",
+      "ar": "معندناش زبدة ولا عيش.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "food",
+        "accusative"
+      ],
+      "alts": [
+        "Wir haben kein Brot und keine Butter.",
+        "Keine Butter und kein Brot haben wir.",
+        "Kein Brot und keine Butter haben wir."
+      ],
+      "cloze": {
+        "word": "keine",
+        "opts": [
+          "keine",
+          "kein",
+          "keinen",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-011",
+      "de": "Das ist kein Joghurt, das ist Quark.",
+      "ar": "ده مش زبادي، ده كوارك.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "subject",
+        "food"
+      ],
+      "alts": [
+        "Das ist Quark, das ist kein Joghurt."
+      ],
+      "cloze": {
+        "word": "kein",
+        "opts": [
+          "kein",
+          "keinen",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-012",
+      "de": "Nein, danke. Ich habe keinen Hunger.",
+      "ar": "لأ، شكرًا. أنا مش جعان.",
+      "kind": "answer",
+      "focus": [
+        "negation",
+        "accusative",
+        "polite"
+      ],
+      "alts": [
+        "Nein, danke. Keinen Hunger habe ich."
+      ],
+      "cloze": {
+        "word": "keinen",
+        "opts": [
+          "keinen",
+          "kein",
+          "keine",
+          "nicht"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-013",
+      "de": "Ich frühstücke heute nicht.",
+      "ar": "أنا مش هفطر النهارده.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "verb:frühstücken",
+        "time"
+      ],
+      "alts": [
+        "Heute frühstücke ich nicht."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-014",
+      "de": "Ich esse nicht gern Brokkoli.",
+      "ar": "أنا مابحبش آكل بروكلي.",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "food",
+        "likes"
+      ],
+      "alts": [
+        "Ich esse Brokkoli nicht gern.",
+        "Brokkoli esse ich nicht gern."
+      ],
+      "cloze": {
+        "word": "nicht",
+        "opts": [
+          "nicht",
+          "kein",
+          "keinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-015",
+      "de": "Öffnest du bitte den Kühlschrank?",
+      "ar": "تفتح التلاجة لو سمحت؟",
+      "kind": "question",
+      "focus": [
+        "accusative",
+        "verb:öffnen"
+      ],
+      "alts": [
+        "Öffnest du den Kühlschrank bitte?"
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-016",
+      "de": "Was isst du zum Frühstück?",
+      "ar": "بتاكل إيه على الفطار؟",
+      "kind": "question",
+      "focus": [
+        "food",
+        "time",
+        "verb:essen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "isst",
+        "opts": [
+          "isst",
+          "esst",
+          "esse",
+          "essen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-017",
+      "de": "Ich esse ein Brötchen und trinke einen Kakao.",
+      "ar": "باكل رغيف فينو وبشرب كاكاو.",
+      "kind": "answer",
+      "focus": [
+        "food",
+        "accusative",
+        "article"
+      ],
+      "alts": [
+        "Ich trinke einen Kakao und esse ein Brötchen."
+      ],
+      "cloze": {
+        "word": "einen",
+        "opts": [
+          "einen",
+          "ein",
+          "eine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-018",
+      "de": "Brot ist in Deutschland sehr beliebt.",
+      "ar": "العيش محبوب جدًا في ألمانيا.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "adjective"
+      ],
+      "alts": [
+        "In Deutschland ist Brot sehr beliebt."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "sind",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-019",
+      "de": "Welche Beilage möchten Sie dazu?",
+      "ar": "حضرتك تحب طبق جانبي إيه معاه؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "food",
+        "order",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "möchten",
+        "opts": [
+          "möchten",
+          "möchtest",
+          "möchte"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s45-020",
+      "de": "Mein Lieblingsessen ist Steak mit Kartoffeln.",
+      "ar": "أكلتي المفضّلة ستيك بالبطاطس.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "possessive",
+        "compound"
+      ],
+      "alts": [
+        "Steak mit Kartoffeln ist mein Lieblingsessen."
+      ],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w45-01",
+      "q": "___ isst du kein Fleisch?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "ليه مابتاكلش لحمة؟",
+      "reply": "Ich bin Vegetarier.",
+      "reply_ar": "أصل أنا نباتي."
+    },
+    {
+      "id": "w45-02",
+      "q": "___ gibt es zum Abendessen?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "فيه إيه على العشا؟",
+      "reply": "Es gibt Nudeln mit Brokkoli.",
+      "reply_ar": "فيه مكرونة بالبروكلي."
+    },
+    {
+      "id": "w45-03",
+      "q": "___ bleibt der Besuch?",
+      "answer": "Wie lange",
+      "opts": [
+        "Wie lange",
+        "Wie viel",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "الضيف هيقعد قد إيه؟",
+      "reply": "Für ein paar Tage.",
+      "reply_ar": "لكام يوم."
+    },
+    {
+      "id": "w45-04",
+      "q": "___ Brötchen möchtest du?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "تحب كام رغيف فينو؟",
+      "reply": "Zwei Brötchen, bitte.",
+      "reply_ar": "رغيفين لو سمحت."
+    },
+    {
+      "id": "w45-05",
+      "q": "___ ist die Marmelade?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Warum",
+        "Wie viele"
+      ],
+      "ar": "المربى فين؟",
+      "reply": "Im Kühlschrank, hier oben.",
+      "reply_ar": "في التلاجة، هنا فوق."
+    },
+    {
+      "id": "w45-06",
+      "q": "___ kommen die Birnen?",
+      "answer": "Wohin",
+      "opts": [
+        "Wohin",
+        "Wo",
+        "Wer",
+        "Wie viel"
+      ],
+      "ar": "الكمترى هتتحط فين؟",
+      "reply": "Auf den Teller.",
+      "reply_ar": "على الطبق."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g45-1",
+      "h": "nicht ولا kein؟",
+      "body": "kein / keine بتنفي اسم معاه ein / eine أو اسم من غير أداة، زي أغلب كلمات الأكل: Ich esse Fleisch. والنفي: Ich esse kein Fleisch. أما nicht فبتنفي الفعل أو الجملة كلها، وغالبًا بتيجي في الآخر: Ich frühstücke heute nicht. وبتيجي قبل الصفة وقبل gern وقبل المكان: nicht warm، nicht gern، nicht im Kühlschrank. ومع اسم معاه der / die / das بنستخدم nicht: Ich esse den Käse nicht.",
+      "examples": [
+        {
+          "de": "Ich esse kein Fleisch.",
+          "ar": "أنا مابكلش لحمة."
+        },
+        {
+          "de": "Ich frühstücke heute nicht.",
+          "ar": "أنا مش هفطر النهارده."
+        },
+        {
+          "de": "Ich esse nicht gern Brokkoli.",
+          "ar": "أنا مابحبش آكل بروكلي."
+        },
+        {
+          "de": "Die Butter ist nicht im Kühlschrank.",
+          "ar": "الزبدة مش في التلاجة."
+        }
+      ],
+      "table": [
+        [
+          "بننفي إيه؟",
+          "بـ",
+          "مثال"
+        ],
+        [
+          "اسم من غير أداة",
+          "kein / keine",
+          "kein Fleisch / keine Butter"
+        ],
+        [
+          "اسم معاه ein / eine",
+          "kein / keine",
+          "Das ist kein Apfel."
+        ],
+        [
+          "الفعل / الجملة كلها",
+          "nicht",
+          "Ich frühstücke nicht."
+        ],
+        [
+          "صفة، gern، مكان",
+          "nicht",
+          "nicht warm / nicht gern"
+        ],
+        [
+          "اسم معاه der / die / das",
+          "nicht",
+          "Ich esse den Käse nicht."
+        ]
+      ]
+    },
+    {
+      "id": "g45-2",
+      "h": "kein في الرفع والنصب",
+      "body": "نهايات kein زي ein بالظبط. في الرفع (الفاعل، وبعد Das ist …): kein للمذكّر والمحايد، وkeine للمؤنّث والجمع. وفي النصب (المفعول به، بعد essen و trinken و haben و Es gibt …) المذكّر بس اللي بيتغيّر: keinen. عشان كده: Das ist kein Joghurt. بس: Ich esse keinen Joghurt. وخد بالك: der Hunger مذكّر، فبنقول: Ich habe keinen Hunger.",
+      "examples": [
+        {
+          "de": "Das ist kein Joghurt, das ist Quark.",
+          "ar": "ده مش زبادي، ده كوارك. (رفع: kein)"
+        },
+        {
+          "de": "Nein, danke. Ich habe keinen Hunger.",
+          "ar": "لأ، شكرًا. أنا مش جعان. (نصب: keinen)"
+        },
+        {
+          "de": "Wir haben keine Butter und kein Brot.",
+          "ar": "معندناش زبدة ولا عيش."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "رفع (Nominativ)",
+          "نصب (Akkusativ)"
+        ],
+        [
+          "مذكّر: der Kakao",
+          "kein Kakao",
+          "keinen Kakao"
+        ],
+        [
+          "مؤنّث: die Butter",
+          "keine Butter",
+          "keine Butter"
+        ],
+        [
+          "محايد: das Brot",
+          "kein Brot",
+          "kein Brot"
+        ],
+        [
+          "جمع: die Birnen",
+          "keine Birnen",
+          "keine Birnen"
+        ]
+      ]
+    },
+    {
+      "id": "g45-3",
+      "h": "الرفع والنصب: der ولا den؟",
+      "body": "الفاعل (اللي بيعمل الفعل أو اللي بنتكلم عنه) بيبقى في حالة الرفع: Der Kühlschrank ist zu klein. والمفعول به (اللي الفعل واقع عليه) بيبقى في حالة النصب: Öffnest du bitte den Kühlschrank? والمذكّر بس اللي بيتغيّر: der تبقى den، ein تبقى einen، kein تبقى keinen. وبعد auf و in مع حركة (Wohin?) برضه نصب: auf den Teller (على الطبق)، in den Müll (في الزبالة).",
+      "examples": [
+        {
+          "de": "Ich glaube, der Kühlschrank ist zu klein.",
+          "ar": "أظن إن التلاجة صغيرة زيادة عن اللزوم. (رفع: فاعل)"
+        },
+        {
+          "de": "Öffnest du bitte den Kühlschrank?",
+          "ar": "تفتح التلاجة لو سمحت؟ (نصب: مفعول به)"
+        },
+        {
+          "de": "Ich esse ein Brötchen und trinke einen Kakao.",
+          "ar": "باكل رغيف فينو وبشرب كاكاو. (das Brötchen: ein زي ما هي – der Kakao: einen)"
+        },
+        {
+          "de": "Die Orangen und die Birnen kommen auf den Teller.",
+          "ar": "البرتقان والكمترى يتحطوا في الطبق. (Wohin? + نصب)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مذكّر",
+          "مؤنّث",
+          "محايد",
+          "جمع"
+        ],
+        [
+          "رفع",
+          "der / ein / kein",
+          "die / eine / keine",
+          "das / ein / kein",
+          "die / – / keine"
+        ],
+        [
+          "نصب",
+          "den / einen / keinen",
+          "die / eine / keine",
+          "das / ein / kein",
+          "die / – / keine"
+        ]
+      ]
+    },
+    {
+      "id": "g45-4",
+      "h": "تتكلّم عن الأكل والوجبات",
+      "body": "الوجبات: das Frühstück (الفطار)، das Mittagessen (الغدا)، das Abendessen (العشا)، وzum Frühstück = على الفطار. أكلتك المفضّلة: mein Lieblingsessen (Lieblings- + الكلمة، والأداة من آخر جزء: das Essen). beliebt = محبوب ومنتشر. وفي المطعم الجرسون بيسأل عن الطبق الجانبي (die Beilage): Welche Beilage möchten Sie dazu? وdazu = معاه.",
+      "examples": [
+        {
+          "de": "Was isst du zum Frühstück?",
+          "ar": "بتاكل إيه على الفطار؟"
+        },
+        {
+          "de": "Mein Lieblingsessen ist Steak mit Kartoffeln.",
+          "ar": "أكلتي المفضّلة ستيك بالبطاطس."
+        },
+        {
+          "de": "Brot ist in Deutschland sehr beliebt.",
+          "ar": "العيش محبوب جدًا في ألمانيا."
+        },
+        {
+          "de": "Welche Beilage möchten Sie dazu? – Reis, bitte.",
+          "ar": "حضرتك تحب طبق جانبي إيه معاه؟ – رز لو سمحت."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "على الفطار",
+          "zum Frühstück"
+        ],
+        [
+          "على الغدا",
+          "zum Mittagessen"
+        ],
+        [
+          "على العشا",
+          "zum Abendessen"
+        ],
+        [
+          "أكلتي المفضّلة",
+          "mein Lieblingsessen"
+        ],
+        [
+          "الطبق الجانبي",
+          "die Beilage"
+        ],
+        [
+          "معاه / كمان",
+          "dazu"
+        ]
+      ]
+    }
+  ]
+}

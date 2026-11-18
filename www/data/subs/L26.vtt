@@ -1,0 +1,180 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:09.160 --> 00:00:11.280 region:R1 align:center
+<c.S1>– Du willst dir das Zimmer anschauen?</c>
+
+2
+00:00:11.320 --> 00:00:13.560 region:R1 align:center
+<c.S1>– Ja. Ich suche eine neue WG.</c>
+
+3
+00:00:13.600 --> 00:00:15.480 region:R1 align:center
+<c.S1>– Wir haben telefoniert.
+Ich bin Lisa Brunner.</c>
+
+4
+00:00:15.520 --> 00:00:17.040 region:R1 align:center
+<c.S1>– Cool.</c>
+
+5
+00:00:22.000 --> 00:00:24.800 region:R1 align:center
+<c.S1>– So, das ist die Wohnung.</c>
+
+6
+00:00:26.960 --> 00:00:28.120 region:R1 align:center
+<c.S1>– Hi, Lisa.</c>
+
+7
+00:00:28.760 --> 00:00:30.080 region:R1 align:center
+<c.S1>– Das ist …</c>
+
+8
+00:00:30.120 --> 00:00:31.040 region:R1 align:center
+<c.S1>– Marvin, hi.</c>
+
+9
+00:00:32.000 --> 00:00:34.160 region:R1 align:center
+<c.S1>– Marvin möchte dein Zimmer sehen.</c>
+
+10
+00:00:34.200 --> 00:00:37.000 region:R1 align:center
+<c.S1>– Ah, hi!
+Ich bin Nawin. Freut mich.</c>
+
+11
+00:00:37.040 --> 00:00:37.640 region:R1 align:center
+<c.S1>– Hi.</c>
+
+12
+00:00:38.320 --> 00:00:39.640 region:R1 align:center
+<c.S1>– Schon okay …</c>
+
+13
+00:00:40.560 --> 00:00:41.680 region:R1 align:center
+<c.S1>– Wo ist Emma?</c>
+
+14
+00:00:41.720 --> 00:00:43.040 region:R1 align:center
+<c.S1>– Draußen mit Nina.</c>
+
+15
+00:00:43.080 --> 00:00:43.600 region:R1 align:center
+<c.S1>– Okay.</c>
+
+16
+00:00:43.640 --> 00:00:45.400 region:R1 align:center
+<c.S1>– Okay, dann fangen wir an!</c>
+
+17
+00:00:46.160 --> 00:00:48.120 region:R1 align:center
+<c.S1>– Das ist das Wohnzimmer.</c>
+
+18
+00:00:48.600 --> 00:00:51.440 region:R1 align:center
+<c.S1>– Die Fenster sind groß und
+das Zimmer ist hell.</c>
+
+19
+00:00:51.480 --> 00:00:52.440 region:R1 align:center
+<c.S1>– Cool.</c>
+
+20
+00:00:52.600 --> 00:00:54.080 region:R1 align:center
+<c.S1>Wie viele Zimmer hat die Wohnung?</c>
+
+21
+00:00:54.120 --> 00:00:57.080 region:R1 align:center
+<c.S1>– Es gibt fünf Zimmer,
+eine Küche und ein Bad.</c>
+
+22
+00:00:58.480 --> 00:01:00.520 region:R1 align:center
+<c.S1>Ja, dann komm mal mit.</c>
+
+23
+00:01:03.240 --> 00:01:04.480 region:R1 align:center
+<c.S1>– Los, los, los, los, komm!</c>
+
+24
+00:01:04.760 --> 00:01:07.000 region:R1 align:center
+<c.S1>– Das Zimmer ist bald frei.</c>
+
+25
+00:01:07.480 --> 00:01:08.880 region:R1 align:center
+<c.S1>– Ganz schön groß.</c>
+
+26
+00:01:09.680 --> 00:01:12.040 region:R1 align:center
+<c.S1>Wie viele Quadratmeter
+hat das Zimmer denn?</c>
+
+27
+00:01:12.080 --> 00:01:15.480 region:R1 align:center
+<c.S1>– Ich glaube, es hat
+zehn Quadratmeter, oder?</c>
+
+28
+00:01:15.520 --> 00:01:18.240 region:R1 align:center
+<c.S1>– Das Zimmer
+hat elf Quadratmeter.</c>
+
+29
+00:01:18.280 --> 00:01:19.360 region:R1 align:center
+<c.S1>– Ah.</c>
+
+30
+00:01:22.400 --> 00:01:24.800 region:R1 align:center
+<c.S1>– Ja, und es ist sehr ruhig.
+Keine Autos.</c>
+
+31
+00:01:25.720 --> 00:01:29.040 region:R1 align:center
+<c.S1>– So, das ist die Küche.</c>
+
+32
+00:01:29.800 --> 00:01:33.480 region:R1 align:center
+<c.S1>Die Küche ist sehr gemütlich.
+Hier sitzen wir oft.</c>
+
+33
+00:01:34.040 --> 00:01:35.800 region:R1 align:center
+<c.S1>– Wie teuer ist das Zimmer?</c>
+
+34
+00:01:36.720 --> 00:01:40.240 region:R1 align:center
+<c.S1>– Die Miete kostet mit Nebenkosten
+400 Euro im Monat.</c>
+
+35
+00:01:40.360 --> 00:01:40.880 region:R1 align:center
+<c.S1>– Okay.</c>
+
+36
+00:01:42.800 --> 00:01:44.440 region:R1 align:center
+<c.S1>Ich nehme das Zimmer!</c>
+
+37
+00:01:44.520 --> 00:01:45.720 region:R1 align:center
+<c.S1>– Super!</c>
+
+38
+00:01:47.120 --> 00:01:48.480 region:R1 align:center
+<c.S1>Es kommen noch andere Interessenten.</c>
+
+39
+00:01:48.520 --> 00:01:49.680 region:R1 align:center
+<c.S1>Aber wir rufen dich an.</c>
+
+40
+00:01:49.720 --> 00:01:53.800 region:R1 align:center
+<c.S1>– Ja, cool. Na dann! Tschüss!</c>

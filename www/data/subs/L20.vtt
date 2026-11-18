@@ -1,0 +1,114 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:12.400 --> 00:00:13.720 region:R1 align:center
+<c.S1>– War die Party gut?</c>
+
+2
+00:00:13.760 --> 00:00:16.440 region:R1 align:center
+<c.S1>– Sehr gut! Die Party war super!</c>
+
+3
+00:00:16.600 --> 00:00:18.440 region:R1 align:center
+<c.S1>– International, oder?</c>
+
+4
+00:00:18.480 --> 00:00:24.200 region:R1 align:center
+<c.S1>Marc kommt aus Frankreich, Sascha aus
+Russland und Selma aus Syrien.</c>
+
+5
+00:00:24.240 --> 00:00:28.760 region:R1 align:center
+<c.S1>– Selma – ist sie … refugee?</c>
+
+6
+00:00:29.000 --> 00:00:30.560 region:R1 align:center
+<c.S1>– Ja, sie ist ein Flüchtling.</c>
+
+7
+00:00:30.600 --> 00:00:32.080 region:R1 align:center
+<c.S1>– Flüchtling.</c>
+
+8
+00:00:32.360 --> 00:00:34.400 region:R1 align:center
+<c.S1>– Darf Selma in Deutschland bleiben?</c>
+
+9
+00:00:34.440 --> 00:00:37.440 region:R1 align:center
+<c.S1>– Keine Ahnung. Sie hat noch keine
+Aufenthaltserlaubnis.</c>
+
+10
+00:00:37.480 --> 00:00:39.360 region:R1 align:center
+<c.S1>– Sie spricht sehr gut Deutsch!</c>
+
+11
+00:00:39.400 --> 00:00:43.880 region:R1 align:center
+<c.S1>– Stimmt. Sie macht einen Deutschkurs
+und lernt sehr schnell.</c>
+
+12
+00:00:44.480 --> 00:00:47.480 region:R1 align:center
+<c.S1>Und welche Sprachen sprichst du, Nico?</c>
+
+13
+00:00:48.840 --> 00:00:51.960 region:R1 align:center
+<c.S1>– Englisch. Na ja ... ein bisschen.</c>
+
+14
+00:00:52.000 --> 00:00:55.480 region:R1 align:center
+<c.S1>– Und Spanisch und ein bisschen Deutsch.</c>
+
+15
+00:00:55.600 --> 00:01:02.120 region:R1 align:center
+<c.S1>– Ja, ich spreche Spanisch, ein bisschen
+Englisch und ein bisschen Deutsch.</c>
+
+16
+00:01:03.120 --> 00:01:04.960 region:R1 align:center
+<c.S1>Welche Sprachen sprichst du?</c>
+
+17
+00:01:05.120 --> 00:01:10.200 region:R1 align:center
+<c.S1>– Ich spreche Deutsch, Englisch und
+Italienisch, aber sehr schlecht.</c>
+
+18
+00:01:11.800 --> 00:01:14.280 region:R1 align:center
+<c.S1>– Woher kommst du?
+Welche Sprachen sprichst du?</c>
+
+19
+00:01:14.320 --> 00:01:15.560 region:R1 align:center
+<c.S1>– Ich komme aus Thailand.</c>
+
+20
+00:01:15.640 --> 00:01:21.000 region:R1 align:center
+<c.S1>Ich spreche Thai, Chinesisch, Englisch,
+Deutsch, Französisch und Italienisch.</c>
+
+21
+00:01:21.040 --> 00:01:22.240 region:R1 align:center
+<c.S1>– Wow.</c>
+
+22
+00:01:23.240 --> 00:01:24.720 region:R1 align:center
+<c.S1>– Freunde!</c>
+
+23
+00:01:25.680 --> 00:01:27.840 region:R1 align:center
+<c.S1>So, kommt mal schnell her!</c>
+
+24
+00:01:28.560 --> 00:01:34.240 region:R1 align:center
+<c.S1>Das Foto von deiner Tante Yara.
+Es gibt eine Antwort und eine Adresse.</c>

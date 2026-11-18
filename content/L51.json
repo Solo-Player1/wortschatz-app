@@ -1,0 +1,780 @@
+{
+  "n": 51,
+  "sentences": [
+    {
+      "id": "s51-001",
+      "de": "Ich hätte gerne diese Datteln.",
+      "ar": "كنت عايز التمر ده.",
+      "kind": "statement",
+      "focus": [
+        "order",
+        "polite"
+      ],
+      "alts": [
+        "Ich hätte diese Datteln gerne.",
+        "Diese Datteln hätte ich gerne.",
+        "Gerne hätte ich diese Datteln."
+      ],
+      "cloze": {
+        "word": "diese",
+        "opts": [
+          "diese",
+          "dieser",
+          "dieses"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-002",
+      "de": "Darf es sonst noch etwas sein?",
+      "ar": "أي حاجة تانية حضرتك؟",
+      "kind": "question",
+      "focus": [
+        "order",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Darf",
+        "opts": [
+          "Darf",
+          "Darfst",
+          "Dürfen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-003",
+      "de": "Bananen vielleicht? Die sind im Angebot.",
+      "ar": "موز يمكن؟ عليه عرض.",
+      "kind": "question",
+      "focus": [
+        "market",
+        "price"
+      ],
+      "alts": [
+        "Vielleicht Bananen? Die sind im Angebot."
+      ],
+      "cloze": {
+        "word": "Angebot",
+        "opts": [
+          "Angebot",
+          "Preis",
+          "Stück"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-004",
+      "de": "Ein Kilo Bananen kostet 1,10 Euro.",
+      "ar": "كيلو الموز بيورو و10 سنت.",
+      "kind": "statement",
+      "focus": [
+        "price",
+        "quantity",
+        "article"
+      ],
+      "alts": [
+        "1,10 Euro kostet ein Kilo Bananen."
+      ],
+      "cloze": {
+        "word": "Ein",
+        "opts": [
+          "Ein",
+          "Eine",
+          "Einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-005",
+      "de": "Wie viel kosten die Gurken?",
+      "ar": "الخيار بكام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price",
+        "verb:kosten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kosten",
+        "opts": [
+          "kosten",
+          "kostet",
+          "kostest"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-006",
+      "de": "Die Gurken kosten heute nur 90 Cent das Stück.",
+      "ar": "الخيار النهارده الواحدة بـ 90 سنت بس.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "number"
+      ],
+      "alts": [
+        "Heute kosten die Gurken nur 90 Cent das Stück."
+      ],
+      "cloze": {
+        "word": "Cent",
+        "opts": [
+          "Cent",
+          "Cents",
+          "Euros"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-007",
+      "de": "Ich nehme fünf Gurken!",
+      "ar": "هاخد 5 خيارات!",
+      "kind": "answer",
+      "focus": [
+        "order",
+        "verb:nehmen"
+      ],
+      "alts": [
+        "Fünf Gurken nehme ich!"
+      ],
+      "cloze": {
+        "word": "nehme",
+        "opts": [
+          "nehme",
+          "nimmst",
+          "nimmt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-008",
+      "de": "Was kosten die Tomaten?",
+      "ar": "الطماطم بكام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Was",
+        "opts": [
+          "Was",
+          "Wie",
+          "Wo"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-009",
+      "de": "Ein Pfund Tomaten kostet 2 Euro.",
+      "ar": "نص كيلو الطماطم بـ 2 يورو.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "quantity",
+        "verb:kosten"
+      ],
+      "alts": [
+        "2 Euro kostet ein Pfund Tomaten."
+      ],
+      "cloze": {
+        "word": "kostet",
+        "opts": [
+          "kostet",
+          "kosten",
+          "kostest"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-010",
+      "de": "Wie viel kostet alles zusammen?",
+      "ar": "كله على بعضه بكام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price",
+        "verb:kosten"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kostet",
+        "opts": [
+          "kostet",
+          "kosten",
+          "kostest"
+        ],
+        "accept": [
+          "macht"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-011",
+      "de": "Das macht 12,40 Euro.",
+      "ar": "كده الحساب 12 يورو و40 سنت.",
+      "kind": "answer",
+      "focus": [
+        "price",
+        "number"
+      ],
+      "alts": [
+        "12,40 Euro macht das."
+      ],
+      "cloze": {
+        "word": "macht",
+        "opts": [
+          "macht",
+          "machst",
+          "machen"
+        ],
+        "accept": [
+          "kostet"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-012",
+      "de": "Und 7,60 Euro zurück.",
+      "ar": "والباقي 7 يورو و60 سنت.",
+      "kind": "statement",
+      "focus": [
+        "pay",
+        "number"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "zurück",
+        "opts": [
+          "zurück",
+          "zusammen",
+          "getrennt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s51-013",
+      "de": "Guten Tag! Sie wünschen?",
+      "ar": "نهارك سعيد! حضرتك تؤمر بإيه؟",
+      "kind": "question",
+      "focus": [
+        "greeting",
+        "polite",
+        "market"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wünschen",
+        "opts": [
+          "wünschen",
+          "wünschst",
+          "wünsche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-014",
+      "de": "Wie teuer sind die Tomaten?",
+      "ar": "الطماطم سعرها كام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sind",
+        "opts": [
+          "sind",
+          "ist",
+          "kosten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-015",
+      "de": "Wie viel kostet ein Kilo Trauben?",
+      "ar": "كيلو العنب بكام؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "price",
+        "quantity"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "teuer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-016",
+      "de": "Die Bäuerin hat sehr süße Trauben.",
+      "ar": "المزارعة عندها عنب حلو أوي.",
+      "kind": "statement",
+      "focus": [
+        "market",
+        "article"
+      ],
+      "alts": [
+        "Sehr süße Trauben hat die Bäuerin."
+      ],
+      "cloze": {
+        "word": "Bäuerin",
+        "opts": [
+          "Bäuerin",
+          "Bauer",
+          "Bäuerinnen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-017",
+      "de": "Wie viele Gurken möchten Sie?",
+      "ar": "حضرتك عايز كام خيارة؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "plural",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Gurken",
+        "opts": [
+          "Gurken",
+          "Gurke",
+          "Obst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-018",
+      "de": "Wie viel Geld hast du?",
+      "ar": "معاك فلوس قد إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "pay"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "alt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-019",
+      "de": "Die Bauern bringen frische Produkte auf den Markt.",
+      "ar": "المزارعين بيجيبوا منتجات طازة للسوق.",
+      "kind": "statement",
+      "focus": [
+        "market",
+        "plural"
+      ],
+      "alts": [
+        "Frische Produkte bringen die Bauern auf den Markt.",
+        "Auf den Markt bringen die Bauern frische Produkte."
+      ],
+      "cloze": {
+        "word": "Bauern",
+        "opts": [
+          "Bauern",
+          "Bauer",
+          "Bäuerin"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-020",
+      "de": "Auf dem Wochenmarkt ist alles frisch.",
+      "ar": "في السوق الأسبوعي كل حاجة طازة.",
+      "kind": "statement",
+      "focus": [
+        "market",
+        "place"
+      ],
+      "alts": [
+        "Alles ist auf dem Wochenmarkt frisch.",
+        "Frisch ist auf dem Wochenmarkt alles.",
+        "Frisch ist alles auf dem Wochenmarkt."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-021",
+      "de": "Beim Discounter ist das Obst günstig.",
+      "ar": "في محل الأسعار المخفّضة الفاكهة رخيصة.",
+      "kind": "statement",
+      "focus": [
+        "market",
+        "price"
+      ],
+      "alts": [
+        "Das Obst ist beim Discounter günstig.",
+        "Günstig ist das Obst beim Discounter."
+      ],
+      "cloze": {
+        "word": "ist",
+        "opts": [
+          "ist",
+          "sind",
+          "bist"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s51-022",
+      "de": "Ich hätte gern ein Pfund Tomaten und drei Gurken.",
+      "ar": "كنت عايز نص كيلو طماطم و3 خيارات.",
+      "kind": "statement",
+      "focus": [
+        "order",
+        "quantity",
+        "article"
+      ],
+      "alts": [
+        "Ich hätte gern drei Gurken und ein Pfund Tomaten.",
+        "Ein Pfund Tomaten und drei Gurken hätte ich gern.",
+        "Drei Gurken und ein Pfund Tomaten hätte ich gern.",
+        "Gern hätte ich ein Pfund Tomaten und drei Gurken.",
+        "Gern hätte ich drei Gurken und ein Pfund Tomaten."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w51-01",
+      "q": "___ kosten die Gurken?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wer",
+        "Wo"
+      ],
+      "ar": "الخيار بكام؟",
+      "reply": "Sie kosten 90 Cent das Stück.",
+      "reply_ar": "الواحدة بـ 90 سنت."
+    },
+    {
+      "id": "w51-02",
+      "q": "___ Gurken nimmt Nico?",
+      "answer": "Wie viele",
+      "opts": [
+        "Wie viele",
+        "Wie alt",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "نيكو هياخد كام خيارة؟",
+      "reply": "Er nimmt fünf Gurken.",
+      "reply_ar": "هياخد 5 خيارات."
+    },
+    {
+      "id": "w51-03",
+      "q": "___ Geld bekommt Nico zurück?",
+      "answer": "Wie viel",
+      "opts": [
+        "Wie viel",
+        "Wie viele",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "نيكو هياخد باقي قد إيه؟",
+      "reply": "Er bekommt 7,60 Euro zurück.",
+      "reply_ar": "هياخد 7 يورو و60 سنت باقي."
+    },
+    {
+      "id": "w51-04",
+      "q": "___ ist im Angebot?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wie viele"
+      ],
+      "ar": "إيه اللي عليه عرض؟",
+      "reply": "Die Bananen sind im Angebot.",
+      "reply_ar": "الموز عليه عرض."
+    },
+    {
+      "id": "w51-05",
+      "q": "___ sind die Tomaten?",
+      "answer": "Wie teuer",
+      "opts": [
+        "Wie teuer",
+        "Wie viele",
+        "Wer",
+        "Wann"
+      ],
+      "ar": "الطماطم سعرها كام؟",
+      "reply": "Ein Pfund Tomaten kostet 2 Euro.",
+      "reply_ar": "نص كيلو الطماطم بـ 2 يورو."
+    },
+    {
+      "id": "w51-06",
+      "q": "___ kauft ihr Obst und Gemüse?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Was",
+        "Wohin",
+        "Wie alt"
+      ],
+      "ar": "بتشتروا الفاكهة والخضار فين؟",
+      "reply": "Wir kaufen alles auf dem Wochenmarkt.",
+      "reply_ar": "بنشتري كل حاجة من السوق الأسبوعي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g51-1",
+      "h": "Wie viel kostet …? – kostet ولا kosten؟",
+      "body": "عشان تسأل حاجة بكام فيه 3 أسئلة بنفس المعنى: Wie viel kostet …? = Was kostet …? = Wie teuer ist …? (teuer = غالي، ومعاها بنستخدم sein مش kosten). أداة الاستفهام في الأول، وبعدها على طول الفعل في المكان التاني، وبعده الفاعل، والفعل بيتصرّف على حسب الفاعل: حاجة واحدة ← kostet / ist، جمع ← kosten / sind. وخد بالك: ein Kilo و ein Pfund و alles مفرد: Ein Kilo Bananen kostet … (مش kosten).",
+      "examples": [
+        {
+          "de": "Wie viel kosten die Gurken? – Sie kosten 90 Cent das Stück.",
+          "ar": "الخيار بكام؟ – الواحدة بـ 90 سنت."
+        },
+        {
+          "de": "Ein Kilo Bananen kostet 1,10 Euro.",
+          "ar": "كيلو الموز بيورو و10 سنت. (ein Kilo مفرد ← kostet)"
+        },
+        {
+          "de": "Wie viel kostet alles zusammen? – Das macht 12,40 Euro.",
+          "ar": "كله على بعضه بكام؟ – كده الحساب 12 يورو و40 سنت."
+        },
+        {
+          "de": "Wie teuer sind die Tomaten?",
+          "ar": "الطماطم سعرها كام؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مفرد (حاجة واحدة)",
+          "جمع (أكتر من حاجة)"
+        ],
+        [
+          "Wie viel …?",
+          "Wie viel kostet die Gurke?",
+          "Wie viel kosten die Gurken?"
+        ],
+        [
+          "Was …?",
+          "Was kostet ein Kilo Äpfel?",
+          "Was kosten die Äpfel?"
+        ],
+        [
+          "Wie teuer …?",
+          "Wie teuer ist die Ananas?",
+          "Wie teuer sind die Tomaten?"
+        ]
+      ]
+    },
+    {
+      "id": "g51-2",
+      "h": "wie viel ولا wie viele؟",
+      "body": "wie viel = قد إيه: مع حاجة مابتتعدّش (Geld، Käse، Obst، Milch) ومع وحدات الوزن والفلوس (Gramm، Kilo، Pfund، Euro، Cent)، ودي بتفضل مفرد حتى بعد الرقم: 300 Gramm، 90 Cent. أما wie viele = كام: مع حاجة بتتعدّ، والاسم بعدها لازم يبقى جمع: Wie viele Gurken? ولو بتسأل عن السعر ومفيش اسم بعدها، دايمًا wie viel: Wie viel kostet das?",
+      "examples": [
+        {
+          "de": "Wie viel Geld hast du?",
+          "ar": "معاك فلوس قد إيه؟ (Geld مابتتعدّش)"
+        },
+        {
+          "de": "Wie viel Käse möchten Sie? – 300 Gramm, bitte.",
+          "ar": "حضرتك عايز جبنة قد إيه؟ – 300 جرام لو سمحت."
+        },
+        {
+          "de": "Wie viele Gurken möchten Sie? – Ich nehme fünf Gurken.",
+          "ar": "حضرتك عايز كام خيارة؟ – هاخد 5 خيارات."
+        }
+      ],
+      "table": [
+        [
+          "wie viel (قد إيه)",
+          "wie viele (كام)"
+        ],
+        [
+          "Wie viel Geld?",
+          "Wie viele Gurken?"
+        ],
+        [
+          "Wie viel Käse?",
+          "Wie viele Äpfel?"
+        ],
+        [
+          "Wie viel Obst?",
+          "Wie viele Bananen?"
+        ],
+        [
+          "Wie viel Gramm?",
+          "Wie viele Datteln?"
+        ]
+      ]
+    },
+    {
+      "id": "g51-3",
+      "h": "في السوق: Sie wünschen? – Ich hätte gern …",
+      "body": "البيّاع بيبدأ: Sie wünschen? أو Was darf es sein? (تؤمر بإيه؟). وإنت تطلب بأدب: Ich hätte gern(e) … (كنت عايز …) أو Ich nehme … (هاخد …). وبعدين يسألك: Darf es sonst noch etwas sein? ولو خلّصت: Nein, danke. Das ist alles. (بس كده). وفي الآخر: Das macht … Euro. ولما يرجّعلك الباقي: Und … Euro zurück.",
+      "examples": [
+        {
+          "de": "Guten Tag! Sie wünschen? – Ich hätte gerne diese Datteln.",
+          "ar": "نهارك سعيد! تؤمر بإيه؟ – كنت عايز التمر ده."
+        },
+        {
+          "de": "Darf es sonst noch etwas sein? – Nein, danke. Das ist alles.",
+          "ar": "أي حاجة تانية حضرتك؟ – لأ، شكرًا. بس كده."
+        },
+        {
+          "de": "Das macht 12,40 Euro.",
+          "ar": "كده الحساب 12 يورو و40 سنت."
+        }
+      ],
+      "table": [
+        [
+          "مين",
+          "بالألماني",
+          "يعني"
+        ],
+        [
+          "البيّاع",
+          "Sie wünschen? / Was darf es sein?",
+          "تؤمر بإيه؟"
+        ],
+        [
+          "إنت",
+          "Ich hätte gern(e) … / Ich nehme …",
+          "كنت عايز … / هاخد …"
+        ],
+        [
+          "البيّاع",
+          "Darf es sonst noch etwas sein?",
+          "أي حاجة تانية؟"
+        ],
+        [
+          "إنت",
+          "Nein, danke. Das ist alles.",
+          "لأ، شكرًا. بس كده."
+        ],
+        [
+          "البيّاع",
+          "Das macht … Euro.",
+          "كده الحساب … يورو."
+        ],
+        [
+          "البيّاع",
+          "Und … Euro zurück.",
+          "والباقي …"
+        ]
+      ]
+    },
+    {
+      "id": "g51-4",
+      "h": "Kilo و Pfund و Stück + السوق الأسبوعي",
+      "body": "الكميات: ein Kilo = 1000 جرام، ein Pfund = نص كيلو (500 جرام)، das Stück = الواحدة: 90 Cent das Stück. وفي ألمانيا فيه der Wochenmarkt: سوق في ميدان مرة أو أكتر في الأسبوع، بيبيع فيه der Bauer و die Bäuerin منتجاتهم (die Produkte) طازة (frisch)، وغالبًا أغلى شوية من der Discounter، السوبر ماركت اللي أسعاره günstig. ولو حاجة عليها عرض: Die Bananen sind im Angebot.",
+      "examples": [
+        {
+          "de": "Ein Pfund Tomaten kostet 2 Euro.",
+          "ar": "نص كيلو الطماطم بـ 2 يورو."
+        },
+        {
+          "de": "Die Gurken kosten heute nur 90 Cent das Stück.",
+          "ar": "الخيار النهارده الواحدة بـ 90 سنت بس."
+        },
+        {
+          "de": "Auf dem Wochenmarkt ist alles frisch.",
+          "ar": "في السوق الأسبوعي كل حاجة طازة."
+        },
+        {
+          "de": "Beim Discounter ist das Obst günstig.",
+          "ar": "في محل الأسعار المخفّضة الفاكهة رخيصة."
+        }
+      ],
+      "table": [
+        [
+          "بالألماني",
+          "يعني"
+        ],
+        [
+          "ein Kilo",
+          "كيلو (1000 جرام)"
+        ],
+        [
+          "ein Pfund",
+          "نص كيلو (500 جرام)"
+        ],
+        [
+          "… das Stück",
+          "الواحدة بـ …"
+        ],
+        [
+          "im Angebot sein",
+          "عليه عرض"
+        ],
+        [
+          "frisch / süß / günstig",
+          "طازة / حلو / رخيص"
+        ],
+        [
+          "der Bauer / die Bäuerin",
+          "مزارع / مزارعة"
+        ],
+        [
+          "der Wochenmarkt / der Discounter",
+          "سوق أسبوعي / سوبر ماركت رخيص"
+        ]
+      ]
+    }
+  ]
+}

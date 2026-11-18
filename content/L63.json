@@ -1,0 +1,823 @@
+{
+  "n": 63,
+  "sentences": [
+    {
+      "id": "s63-001",
+      "de": "Sie muss für ein paar Tage weg.",
+      "ar": "هي لازم تغيب كام يوم.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "time"
+      ],
+      "alts": [
+        "Für ein paar Tage muss sie weg."
+      ],
+      "cloze": {
+        "word": "muss",
+        "opts": [
+          "muss",
+          "musst",
+          "müsst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-002",
+      "de": "Wir gießen ihre Blumen.",
+      "ar": "إحنا بنسقي الورد بتاعها.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "verb:gießen"
+      ],
+      "alts": [
+        "Ihre Blumen gießen wir."
+      ],
+      "cloze": {
+        "word": "ihre",
+        "opts": [
+          "ihre",
+          "ihr",
+          "ihren",
+          "ihrem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-003",
+      "de": "Dann hat sie aufgelegt.",
+      "ar": "وبعدين قفلت السكة.",
+      "kind": "statement",
+      "focus": [
+        "verb:auflegen",
+        "perfect",
+        "phone"
+      ],
+      "alts": [
+        "Sie hat dann aufgelegt."
+      ],
+      "cloze": {
+        "word": "aufgelegt",
+        "opts": [
+          "aufgelegt",
+          "geauflegt",
+          "aufgelegen",
+          "auflegen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-004",
+      "de": "Wo bist du? Bei deinen Eltern?",
+      "ar": "إنتي فين؟ عند أهلك؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "dative",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "deinen",
+        "opts": [
+          "deinen",
+          "deine",
+          "deinem",
+          "deiner"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-005",
+      "de": "Ich habe deine neue Adresse.",
+      "ar": "معايا عنوانك الجديد.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "accusative",
+        "address"
+      ],
+      "alts": [
+        "Deine neue Adresse habe ich."
+      ],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "deinen",
+          "dein",
+          "deinem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-006",
+      "de": "Wo leben deine Eltern?",
+      "ar": "أهلك عايشين فين؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "w-frage",
+        "verb:leben"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "leben",
+        "opts": [
+          "leben",
+          "lebt",
+          "lebst"
+        ],
+        "accept": [
+          "wohnen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-007",
+      "de": "Wo ist dein Bruder?",
+      "ar": "أخوكي فين؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "family",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen",
+          "deinem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-008",
+      "de": "Er hat einen neuen Job.",
+      "ar": "عنده شغلانة جديدة.",
+      "kind": "answer",
+      "focus": [
+        "accusative",
+        "adjective",
+        "job"
+      ],
+      "alts": [
+        "Einen neuen Job hat er."
+      ],
+      "cloze": {
+        "word": "neuen",
+        "opts": [
+          "neuen",
+          "neue",
+          "neuer",
+          "neues"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-009",
+      "de": "Er kann nicht kommen.",
+      "ar": "مايقدرش ييجي.",
+      "kind": "statement",
+      "focus": [
+        "verb:können",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kann",
+        "opts": [
+          "kann",
+          "kannst",
+          "können"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s63-010",
+      "de": "Meine Tante ist Fahrradhändlerin.",
+      "ar": "خالتي تاجرة عجل.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "family",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Meine",
+        "opts": [
+          "Meine",
+          "Mein",
+          "Meinen",
+          "Meinem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-011",
+      "de": "Sie ist ihre eigene Chefin.",
+      "ar": "هي مديرة نفسها.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ihre",
+        "opts": [
+          "ihre",
+          "ihr",
+          "ihren",
+          "ihrer"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-012",
+      "de": "Mein Onkel ist Bäcker und sein eigener Chef.",
+      "ar": "عمي خبّاز ومدير نفسه.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "job",
+        "family"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "sein",
+        "opts": [
+          "sein",
+          "ihr",
+          "seine",
+          "seinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-013",
+      "de": "Ich arbeite gern mit meinen Händen.",
+      "ar": "بحب أشتغل بإيديا.",
+      "kind": "answer",
+      "focus": [
+        "possessive",
+        "dative",
+        "plural"
+      ],
+      "alts": [
+        "Gern arbeite ich mit meinen Händen.",
+        "Mit meinen Händen arbeite ich gern.",
+        "Ich arbeite mit meinen Händen gern."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meine",
+          "meinem",
+          "meiner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-014",
+      "de": "Meine Hände sind oft schmutzig.",
+      "ar": "إيديا بتبقى وسخة كتير.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "plural",
+        "adjective"
+      ],
+      "alts": [
+        "Oft sind meine Hände schmutzig."
+      ],
+      "cloze": {
+        "word": "Hände",
+        "opts": [
+          "Hände",
+          "Hand",
+          "Händen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-015",
+      "de": "Ich liebe meinen Beruf und bin unabhängig.",
+      "ar": "بحب شغلانتي وأنا مستقل.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "accusative",
+        "job"
+      ],
+      "alts": [
+        "Ich bin unabhängig und liebe meinen Beruf."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "mein",
+          "meinem",
+          "meine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-016",
+      "de": "Für meinen Vater ist das undenkbar.",
+      "ar": "بالنسبة لأبويا، ده مش وارد خالص.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "accusative",
+        "family"
+      ],
+      "alts": [
+        "Das ist für meinen Vater undenkbar."
+      ],
+      "cloze": {
+        "word": "meinen",
+        "opts": [
+          "meinen",
+          "meinem",
+          "mein",
+          "meiner"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-017",
+      "de": "Unsere Großeltern sind sehr konservativ.",
+      "ar": "جدّنا وجدّتنا محافظين أوي.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "family",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Unsere",
+        "opts": [
+          "Unsere",
+          "Unser",
+          "Unseren",
+          "Unserem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-018",
+      "de": "Ist Fahrradhändler ein typisch männlicher Beruf?",
+      "ar": "هي تجارة العجل شغلانة رجالي عادةً؟",
+      "kind": "question",
+      "focus": [
+        "job",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "männlicher",
+        "opts": [
+          "männlicher",
+          "männliche",
+          "männlichen",
+          "männliches"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-019",
+      "de": "Nein, das ist nur ein Stereotyp.",
+      "ar": "لأ، دي مجرد صورة نمطية.",
+      "kind": "answer",
+      "focus": [
+        "article",
+        "opinion"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-020",
+      "de": "Nico arbeitet bei seiner Tante.",
+      "ar": "نيكو بيشتغل عند خالته.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "dative",
+        "family"
+      ],
+      "alts": [
+        "Bei seiner Tante arbeitet Nico."
+      ],
+      "cloze": {
+        "word": "seiner",
+        "opts": [
+          "seiner",
+          "seine",
+          "seinem",
+          "seinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-021",
+      "de": "Wann heiratest du endlich?",
+      "ar": "هتتجوز إمتى بقى؟",
+      "kind": "question",
+      "focus": [
+        "verb:heiraten",
+        "family",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "heiratest",
+        "opts": [
+          "heiratest",
+          "heiratet",
+          "heirate",
+          "heiraten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s63-022",
+      "de": "Wann ist eure Hochzeit?",
+      "ar": "فرحكم إمتى؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "w-frage"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "eure",
+        "opts": [
+          "eure",
+          "euer",
+          "euren",
+          "eurer"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w63-01",
+      "q": "___ bist du Fahrradhändlerin?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Woher",
+        "Wer",
+        "Wohin"
+      ],
+      "ar": "إنتي ليه تاجرة عجل؟",
+      "reply": "Ich will meine eigene Chefin sein.",
+      "reply_ar": "عايزة أبقى مديرة نفسي."
+    },
+    {
+      "id": "w63-02",
+      "q": "___ sind deine Arbeitszeiten?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wer",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "مواعيد شغلك عاملة إزاي؟",
+      "reply": "Ich arbeite von acht bis fünf.",
+      "reply_ar": "بشتغل من تمانية لخمسة."
+    },
+    {
+      "id": "w63-03",
+      "q": "___ macht Ihr Bruder beruflich?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wie",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "أخو حضرتك بيشتغل إيه؟ (رسمي)",
+      "reply": "Er ist Bäcker.",
+      "reply_ar": "هو خبّاز."
+    },
+    {
+      "id": "w63-04",
+      "q": "Bei ___ arbeitet Nico?",
+      "answer": "wem",
+      "opts": [
+        "wem",
+        "wer",
+        "wen",
+        "wo"
+      ],
+      "ar": "نيكو بيشتغل عند مين؟",
+      "reply": "Bei seiner Tante.",
+      "reply_ar": "عند خالته."
+    },
+    {
+      "id": "w63-05",
+      "q": "___ ist deine Tante?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Wann",
+        "Warum"
+      ],
+      "ar": "خالتك فين؟",
+      "reply": "Ich glaube, in der Schweiz.",
+      "reply_ar": "أظن في سويسرا."
+    },
+    {
+      "id": "w63-06",
+      "q": "___ hat einen neuen Job?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين عنده شغلانة جديدة؟",
+      "reply": "Sarahs Bruder. Er ist in Paris.",
+      "reply_ar": "أخو سارة. هو في باريس."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g63-1",
+      "h": "ضمائر الملكية: بتاع مين؟",
+      "body": "ضمير الملكية بيقول الحاجة بتاعة مين، وبييجي قبل الاسم مكان der / die / das. أول خطوة: اختار الكلمة حسب صاحب الحاجة: نيكو (er) يبقى sein، ويارا (sie) تبقى ihr، زي «ـه» و«ـها» في العربي بالظبط. وخلّي بالك: ihr ليها معنيين (بتاعها وبتاعهم)، و Ihr بحرف كبير = بتاع حضرتك. و euer لما ياخد نهاية الـ e اللي في النص بتقع: eure Hochzeit.",
+      "examples": [
+        {
+          "de": "Wo ist dein Bruder?",
+          "ar": "أخوكي فين؟"
+        },
+        {
+          "de": "Sie ist ihre eigene Chefin.",
+          "ar": "هي مديرة نفسها."
+        },
+        {
+          "de": "Nico arbeitet bei seiner Tante.",
+          "ar": "نيكو بيشتغل عند خالته."
+        },
+        {
+          "de": "Wann ist eure Hochzeit?",
+          "ar": "فرحكم إمتى؟"
+        }
+      ],
+      "table": [
+        [
+          "الضمير",
+          "ضمير الملكية",
+          "مثال",
+          "يعني"
+        ],
+        [
+          "ich",
+          "mein",
+          "meine Tante",
+          "خالتي"
+        ],
+        [
+          "du",
+          "dein",
+          "dein Bruder",
+          "أخوك"
+        ],
+        [
+          "er / es",
+          "sein",
+          "sein Laden",
+          "محلّه"
+        ],
+        [
+          "sie (هي)",
+          "ihr",
+          "ihre Blumen",
+          "وردها"
+        ],
+        [
+          "wir",
+          "unser",
+          "unsere Großeltern",
+          "جدودنا"
+        ],
+        [
+          "ihr (إنتوا)",
+          "euer",
+          "eure Hochzeit",
+          "فرحكم"
+        ],
+        [
+          "sie (هما)",
+          "ihr",
+          "ihre Eltern",
+          "أهلهم"
+        ],
+        [
+          "Sie (رسمي)",
+          "Ihr",
+          "Ihr Bruder",
+          "أخو حضرتك"
+        ]
+      ]
+    },
+    {
+      "id": "g63-2",
+      "h": "النهايات: Nominativ و Akkusativ و Dativ",
+      "body": "تاني خطوة: النهاية، ودي بتتحدد بجنس الاسم اللي بعده وحالته، بالظبط زي ein و kein. في الرفع والنصب: المؤنث والجمع بياخدوا -e (meine Tante، meine Eltern)، والمذكر في النصب بس بياخد -en: Ich habe meinen Bruder angerufen، وبعد für كمان: für meinen Vater. والمحايد مابيتغيرش. أما Bei deinen Eltern? اللي في الحلقة فده Dativ، عشان بعد bei و mit و von بييجي Dativ: -em للمذكر والمحايد، -er للمؤنث، -en للجمع.",
+      "examples": [
+        {
+          "de": "Ich habe meinen Bruder angerufen. Aber mein Bruder kann nicht kommen.",
+          "ar": "اتصلت بأخويا، بس أخويا مايقدرش ييجي."
+        },
+        {
+          "de": "Für meinen Vater ist das undenkbar.",
+          "ar": "بالنسبة لأبويا، ده مش وارد خالص."
+        },
+        {
+          "de": "Ich habe deine neue Adresse.",
+          "ar": "معايا عنوانك الجديد."
+        },
+        {
+          "de": "Wo bist du? Bei deinen Eltern?",
+          "ar": "إنتي فين؟ عند أهلك؟"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "مذكر (der Bruder)",
+          "مؤنث (die Tante)",
+          "محايد (das Kind)",
+          "جمع (die Eltern)"
+        ],
+        [
+          "Nominativ",
+          "mein Bruder",
+          "meine Tante",
+          "mein Kind",
+          "meine Eltern"
+        ],
+        [
+          "Akkusativ",
+          "meinen Bruder",
+          "meine Tante",
+          "mein Kind",
+          "meine Eltern"
+        ],
+        [
+          "Dativ",
+          "meinem Bruder",
+          "meiner Tante",
+          "meinem Kind",
+          "meinen Eltern"
+        ],
+        [
+          "Akkusativ (euer)",
+          "euren Bruder",
+          "eure Tante",
+          "euer Kind",
+          "eure Eltern"
+        ]
+      ]
+    },
+    {
+      "id": "g63-3",
+      "h": "sein eigener Chef / ihre eigene Chefin",
+      "body": "عشان تقول إن حد شغال لحسابه ومحدش بيأمره: sein eigener Chef sein للراجل، و ihre eigene Chefin sein للست. ضمير الملكية لازم يطابق صاحب الجملة: ich: mein، du: dein، er: sein، sie: ihr. و eigen بتاخد نهاية الصفة: eigener مع Chef (مذكر)، و eigene مع Chefin (مؤنث). ولو فيه فعل مساعد زي wollen، الفعل sein بيروح آخر الجملة.",
+      "examples": [
+        {
+          "de": "Sie ist ihre eigene Chefin.",
+          "ar": "هي مديرة نفسها."
+        },
+        {
+          "de": "Mein Onkel ist Bäcker und sein eigener Chef.",
+          "ar": "عمي خبّاز ومدير نفسه."
+        },
+        {
+          "de": "Ich will meine eigene Chefin sein.",
+          "ar": "عايزة أبقى مديرة نفسي."
+        }
+      ],
+      "table": [
+        [
+          "مين؟",
+          "راجل (der Chef)",
+          "ست (die Chefin)"
+        ],
+        [
+          "ich",
+          "mein eigener Chef",
+          "meine eigene Chefin"
+        ],
+        [
+          "du",
+          "dein eigener Chef",
+          "deine eigene Chefin"
+        ],
+        [
+          "er / sie",
+          "sein eigener Chef",
+          "ihre eigene Chefin"
+        ]
+      ]
+    },
+    {
+      "id": "g63-4",
+      "h": "ليه اخترت الشغلانة دي؟",
+      "body": "هدف الدرس: تتكلم عن اختيار مهنتك وإيه اللي أهلك مستنيينه منك. تسأل: Warum bist du Fahrradhändlerin? وترد بالسبب: Ich arbeite gern mit meinen Händen. أو Ich will unabhängig sein. وعن الأهل: Meine Eltern sind konservativ. وعن الصور النمطية: typisch männlich = رجالي، typisch weiblich = ستّاتي، والرد: Das ist nur ein Stereotyp. و immer mehr = أكتر وأكتر.",
+      "examples": [
+        {
+          "de": "Warum bist du Fahrradhändlerin? – Ich arbeite gern mit meinen Händen.",
+          "ar": "إنتي ليه تاجرة عجل؟ – بحب أشتغل بإيديا."
+        },
+        {
+          "de": "Ist Fahrradhändler ein typisch männlicher Beruf? – Nein, das ist nur ein Stereotyp.",
+          "ar": "هي تجارة العجل شغلانة رجالي عادةً؟ – لأ، دي مجرد صورة نمطية."
+        },
+        {
+          "de": "Immer mehr Frauen machen eine Ausbildung zur Bäckerin.",
+          "ar": "ستات أكتر وأكتر بيتدرّبوا عشان يبقوا خبّازات."
+        }
+      ],
+      "table": [
+        [
+          "عايز تقول",
+          "بالألماني"
+        ],
+        [
+          "بحب أشتغل بإيديا",
+          "Ich arbeite gern mit meinen Händen."
+        ],
+        [
+          "عايز أبقى مستقل",
+          "Ich will unabhängig sein."
+        ],
+        [
+          "أهلي محافظين",
+          "Meine Eltern sind konservativ."
+        ],
+        [
+          "ده مش وارد عندهم",
+          "Für sie ist das undenkbar."
+        ],
+        [
+          "ده جيل تاني",
+          "Das ist eine andere Generation."
+        ],
+        [
+          "أختي متدرّبة في مخبز",
+          "Meine Schwester ist Auszubildende in einer Bäckerei."
+        ],
+        [
+          "ناس كتير بيفكروا كده",
+          "Viele Menschen denken so."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 // audio.js — تشغيل صوت DW (عنصر Audio واحد مشترك، عمره ما بيرمي خطأ)
-import { audioUrl } from './data.js';
+import { audioUrl, displayDe } from './data.js';
 import { store } from './store.js';
+import { speak } from './tts.js';
 
 let audioEl = null;
 let active = null;          // { resolve, cleanup } للتشغيل الجاري
@@ -28,6 +29,8 @@ export function stop() {
 
 // يشغّل كلمة أو رابط؛ بيرجع Promise بتتحل لما الصوت يخلص (true) أو يفشل/يتوقف (false)
 export function play(wordOrUrl) {
+  // كام كلمة DW مالهاش تسجيل (file فاضي) ← نطق التليفون الألماني، زي g.say في الألعاب
+  if (wordOrUrl && typeof wordOrUrl === 'object' && !wordOrUrl.file) { stop(); return speak(displayDe(wordOrUrl)); }
   const url = toUrl(wordOrUrl);
   const a = getEl();
   if (!url || !a) return Promise.resolve(false);

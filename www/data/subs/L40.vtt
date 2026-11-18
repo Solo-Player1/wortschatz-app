@@ -1,0 +1,67 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:35.520 --> 00:00:37.080 region:R1 align:center
+<c.S1>– Du bist so still.</c>
+
+2
+00:00:47.640 --> 00:00:49.160 region:R1 align:center
+<c.S1>Was ist denn?</c>
+
+3
+00:00:50.360 --> 00:00:53.160 region:R1 align:center
+<c.S1>– Ich will nicht mehr studieren.
+Nie wieder.</c>
+
+4
+00:00:53.640 --> 00:00:55.200 region:R1 align:center
+<c.S1>Ich hasse es.</c>
+
+5
+00:00:56.400 --> 00:00:57.560 region:R1 align:center
+<c.S1>– Aber?</c>
+
+6
+00:00:59.160 --> 00:01:00.880 region:R1 align:center
+<c.S1>– Aber meine Eltern wollen das.</c>
+
+7
+00:01:01.360 --> 00:01:03.400 region:R1 align:center
+<c.S1>Mein Vater sagt immer, ich muss studieren.</c>
+
+8
+00:01:03.880 --> 00:01:05.720 region:R1 align:center
+<c.S1>– Bist du deshalb in Deutschland?</c>
+
+9
+00:01:08.000 --> 00:01:09.760 region:R1 align:center
+<c.S1>– Ich will weg von zu Hause.</c>
+
+10
+00:01:10.360 --> 00:01:12.000 region:R1 align:center
+<c.S1>Weit weg!</c>
+
+11
+00:01:12.720 --> 00:01:14.640 region:R1 align:center
+<c.S1>– Und was willst du hier machen?</c>
+
+12
+00:01:23.160 --> 00:01:24.480 region:R1 align:center
+<c.S1>– Und?</c>
+
+13
+00:01:25.560 --> 00:01:26.440 region:R1 align:center
+<c.S1>– Ich hab den Job!</c>
+
+14
+00:01:26.480 --> 00:01:27.760 region:R1 align:center
+<c.S1>– Ja!</c>

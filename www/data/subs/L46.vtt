@@ -1,0 +1,146 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:15.640 --> 00:00:17.960 region:R1 align:center
+<c.S1>– Hallo, ihr Lieben. Kommt rein!</c>
+
+2
+00:00:18.000 --> 00:00:18.520 region:R1 align:center
+<c.S1>– Hallo!</c>
+
+3
+00:00:18.560 --> 00:00:19.320 region:R1 align:center
+<c.S1>– Danke schön!</c>
+
+4
+00:00:19.360 --> 00:00:21.720 region:R1 align:center
+<c.S1>– Wo sind deine Sachen?
+Ist das alles?</c>
+
+5
+00:00:21.760 --> 00:00:22.280 region:R1 align:center
+<c.S1>– Ja.</c>
+
+6
+00:00:22.320 --> 00:00:24.000 region:R1 align:center
+<c.S1>– Ach herrje!</c>
+
+7
+00:00:24.040 --> 00:00:26.760 region:R1 align:center
+<c.S1>– Danke noch mal, dass Nico ein
+paar Tage bei Ihnen wohnen kann.</c>
+
+8
+00:00:26.800 --> 00:00:28.760 region:R1 align:center
+<c.S1>– Ja, ja. Das ist doch kein Problem.</c>
+
+9
+00:00:28.800 --> 00:00:30.920 region:R1 align:center
+<c.S1>Möchten Sie etwas trinken?</c>
+
+10
+00:00:30.960 --> 00:00:35.480 region:R1 align:center
+<c.S1>– Ich muss leider sofort wieder gehen.
+Ich fahre heute noch in Urlaub.</c>
+
+11
+00:00:37.600 --> 00:00:38.760 region:R1 align:center
+<c.S1>Ich komme bald wieder.</c>
+
+12
+00:00:38.800 --> 00:00:41.800 region:R1 align:center
+<c.S1>– Okay. Danke, Lisa, für alles.</c>
+
+13
+00:00:42.320 --> 00:00:43.120 region:R1 align:center
+<c.S1>– Tschüss!</c>
+
+14
+00:00:43.160 --> 00:00:44.920 region:R1 align:center
+<c.S1>– Wiedersehen.</c>
+
+15
+00:00:46.040 --> 00:00:49.040 region:R1 align:center
+<c.S1>So, und du!
+Was möchtest du denn trinken?</c>
+
+16
+00:00:49.080 --> 00:00:53.760 region:R1 align:center
+<c.S1>Möchtest du Apfelsaft oder
+lieber eine Apfelsaftschorle?</c>
+
+17
+00:00:53.800 --> 00:00:56.080 region:R1 align:center
+<c.S1>– Schorle? Was ist das?</c>
+
+18
+00:00:56.440 --> 00:01:00.000 region:R1 align:center
+<c.S1>– Das ist Saft mit Mineralwasser.</c>
+
+19
+00:01:01.360 --> 00:01:03.000 region:R1 align:center
+<c.S1>– Dann nehme ich eine Schorle bitte.</c>
+
+20
+00:01:03.040 --> 00:01:04.120 region:R1 align:center
+<c.S1>– Gut.</c>
+
+21
+00:01:04.240 --> 00:01:06.880 region:R1 align:center
+<c.S1>– Möchtest du auch etwas essen?</c>
+
+22
+00:01:07.560 --> 00:01:08.240 region:R1 align:center
+<c.S1>– Jetzt?</c>
+
+23
+00:01:08.280 --> 00:01:10.440 region:R1 align:center
+<c.S1>– Ja, was magst du denn?</c>
+
+24
+00:01:10.480 --> 00:01:11.440 region:R1 align:center
+<c.S1>– Was gibt es denn?</c>
+
+25
+00:01:11.480 --> 00:01:17.680 region:R1 align:center
+<c.S1>– Es gibt Fleisch, Fisch und Gemüse.
+Magst du Karotten?</c>
+
+26
+00:01:17.760 --> 00:01:18.840 region:R1 align:center
+<c.S1>– Karotten …</c>
+
+27
+00:01:18.880 --> 00:01:21.360 region:R1 align:center
+<c.S1>– Ich esse gerne Karotten. Und du?</c>
+
+28
+00:01:21.400 --> 00:01:24.640 region:R1 align:center
+<c.S1>– Ich esse auch gern Karotten,
+aber Tomaten …</c>
+
+29
+00:01:24.960 --> 00:01:28.120 region:R1 align:center
+<c.S1>– Du isst lieber Tomaten.</c>
+
+30
+00:01:28.560 --> 00:01:30.920 region:R1 align:center
+<c.S1>– Ja, ich esse lieber Tomaten.</c>
+
+31
+00:01:30.960 --> 00:01:34.600 region:R1 align:center
+<c.S1>– Und Kohlrabi?
+Isst du Kohlrabi am liebsten?</c>
+
+32
+00:01:34.640 --> 00:01:38.800 region:R1 align:center
+<c.S1>– Nein, ich finde Kohlrabi nicht so lecker.</c>

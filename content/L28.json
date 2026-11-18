@@ -1,0 +1,734 @@
+{
+  "n": 28,
+  "sentences": [
+    {
+      "id": "s28-001",
+      "de": "Das ist mein Zimmer.",
+      "ar": "دي أوضتي.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mein",
+        "opts": [
+          "mein",
+          "meine",
+          "meinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-002",
+      "de": "Vielleicht bald dein Zimmer?",
+      "ar": "يمكن قريب تبقى أوضتك؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "dein",
+        "opts": [
+          "dein",
+          "deine",
+          "deinen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-003",
+      "de": "Ist das auch deine?",
+      "ar": "ده كمان بتاعك؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "auch",
+        "opts": [
+          "auch",
+          "und",
+          "oder"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-004",
+      "de": "Nein, das ist meine.",
+      "ar": "لأ، ده بتاعي.",
+      "kind": "answer",
+      "focus": [
+        "possessive"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s28-005",
+      "de": "Ist das mein Bad?",
+      "ar": "ده الحمّام بتاعي؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "room"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Bad",
+        "opts": [
+          "Bad",
+          "Küche",
+          "Toilette"
+        ],
+        "accept": [
+          "Badezimmer"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-006",
+      "de": "Hier duschen alle.",
+      "ar": "هنا الكل بيستحمّى.",
+      "kind": "statement",
+      "focus": [
+        "verb:duschen"
+      ],
+      "alts": [
+        "Alle duschen hier."
+      ],
+      "cloze": {
+        "word": "duschen",
+        "opts": [
+          "duschen",
+          "duscht",
+          "dusche"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-007",
+      "de": "Hier ist es nicht sehr sauber.",
+      "ar": "المكان هنا مش نضيف أوي.",
+      "kind": "statement",
+      "focus": [
+        "adjective",
+        "negation"
+      ],
+      "alts": [
+        "Es ist hier nicht sehr sauber."
+      ],
+      "cloze": {
+        "word": "sehr",
+        "opts": [
+          "sehr",
+          "viel",
+          "viele"
+        ],
+        "accept": [
+          "so"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-008",
+      "de": "Wie oft putzt ihr denn?",
+      "ar": "هو إنتوا بتنضّفوا كل قد إيه؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:putzen"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "putzt",
+        "opts": [
+          "putzt",
+          "putzen",
+          "putze"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-009",
+      "de": "Das kommt drauf an.",
+      "ar": "على حسب.",
+      "kind": "answer",
+      "focus": [
+        "phrase"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "kommt",
+        "opts": [
+          "kommt",
+          "kommen",
+          "komme"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-010",
+      "de": "Und wie sind die Nachbarn?",
+      "ar": "والجيران عاملين إزاي؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nachbarn",
+        "opts": [
+          "Nachbarn",
+          "Nachbar",
+          "Nachbarin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-011",
+      "de": "Die sind nicht zu laut, oder?",
+      "ar": "هما مش دوشة زيادة، صح؟",
+      "kind": "question",
+      "focus": [
+        "negation",
+        "confirm"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "oder",
+        "opts": [
+          "oder",
+          "aber",
+          "und"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s28-012",
+      "de": "Doch! Die sind laut und nicht nett!",
+      "ar": "بالعكس! دول دوشة ومش لطاف!",
+      "kind": "answer",
+      "focus": [
+        "doch",
+        "adjective"
+      ],
+      "alts": [],
+      "src": "episode"
+    },
+    {
+      "id": "s28-013",
+      "de": "Nawin, ist das deine Unterhose?",
+      "ar": "يا نافين، ده البوكسر بتاعك؟",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "yes-no-question"
+      ],
+      "alts": [
+        "Ist das deine Unterhose, Nawin?"
+      ],
+      "cloze": {
+        "word": "deine",
+        "opts": [
+          "deine",
+          "dein",
+          "deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-014",
+      "de": "Nein, das ist nicht seine Unterhose.",
+      "ar": "لأ، ده مش البوكسر بتاعه.",
+      "kind": "answer",
+      "focus": [
+        "possessive",
+        "negation"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "seine",
+        "opts": [
+          "seine",
+          "sein",
+          "ihr"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-015",
+      "de": "Ist das Ihr Föhn?",
+      "ar": "ده السشوار بتاع حضرتك؟ (رسمي)",
+      "kind": "question",
+      "focus": [
+        "possessive",
+        "formal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ihr",
+        "opts": [
+          "Ihr",
+          "Ihre",
+          "deine"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-016",
+      "de": "Lisa sucht ihre Armbanduhr.",
+      "ar": "ليزا بتدوّر على ساعة إيدها.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "verb:suchen"
+      ],
+      "alts": [
+        "Ihre Armbanduhr sucht Lisa."
+      ],
+      "cloze": {
+        "word": "ihre",
+        "opts": [
+          "ihre",
+          "ihr",
+          "sein"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-017",
+      "de": "Dein Handtuch ist im Bad.",
+      "ar": "الفوطة بتاعتك في الحمّام.",
+      "kind": "answer",
+      "focus": [
+        "possessive"
+      ],
+      "alts": [
+        "Im Bad ist dein Handtuch."
+      ],
+      "cloze": {
+        "word": "Dein",
+        "opts": [
+          "Dein",
+          "Deine",
+          "Deinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-018",
+      "de": "Eure Küche ist immer dreckig!",
+      "ar": "مطبخكم دايمًا وسخ!",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "adjective"
+      ],
+      "alts": [
+        "Immer ist eure Küche dreckig!"
+      ],
+      "cloze": {
+        "word": "Eure",
+        "opts": [
+          "Eure",
+          "Euer",
+          "Euren"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-019",
+      "de": "Unsere Nachbarin ist sehr nett.",
+      "ar": "جارتنا لطيفة أوي.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Unsere",
+        "opts": [
+          "Unsere",
+          "Unser",
+          "Unseren"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-020",
+      "de": "Unser Kind schläft im Kinderzimmer.",
+      "ar": "طفلنا بينام في أوضة الأطفال.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "verb:schlafen"
+      ],
+      "alts": [
+        "Im Kinderzimmer schläft unser Kind."
+      ],
+      "cloze": {
+        "word": "schläft",
+        "opts": [
+          "schläft",
+          "schlaft",
+          "schlafe"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-021",
+      "de": "Sein Zimmer ist warm und hell.",
+      "ar": "أوضته دافية ومنوّرة.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "adjective"
+      ],
+      "alts": [
+        "Sein Zimmer ist hell und warm."
+      ],
+      "cloze": {
+        "word": "Sein",
+        "opts": [
+          "Sein",
+          "Seine",
+          "Ihre"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s28-022",
+      "de": "Die Nachbarn putzen ihr Auto.",
+      "ar": "الجيران بينضّفوا عربيتهم.",
+      "kind": "statement",
+      "focus": [
+        "possessive",
+        "verb:putzen"
+      ],
+      "alts": [
+        "Ihr Auto putzen die Nachbarn."
+      ],
+      "cloze": {
+        "word": "ihr",
+        "opts": [
+          "ihr",
+          "ihre",
+          "seine"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w28-01",
+      "q": "___ oft putzt ihr denn?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Was",
+        "Wer"
+      ],
+      "ar": "هو إنتوا بتنضّفوا كل قد إيه؟",
+      "reply": "Das kommt drauf an.",
+      "reply_ar": "على حسب."
+    },
+    {
+      "id": "w28-02",
+      "q": "___ ist mein Föhn?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wer",
+        "Wohin",
+        "Wie viele"
+      ],
+      "ar": "فين السشوار بتاعي؟",
+      "reply": "Im Bad. Dein Handtuch liegt daneben.",
+      "reply_ar": "في الحمّام. والفوطة بتاعتك جنبه."
+    },
+    {
+      "id": "w28-03",
+      "q": "___ schläft im Kinderzimmer?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wo",
+        "Wie",
+        "Woher"
+      ],
+      "ar": "مين بينام في أوضة الأطفال؟",
+      "reply": "Unsere Kinder.",
+      "reply_ar": "عيالنا."
+    },
+    {
+      "id": "w28-04",
+      "q": "___ sind eure Nachbarn?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wohin",
+        "Warum",
+        "Wie viel"
+      ],
+      "ar": "جيرانكم عاملين إزاي؟",
+      "reply": "Sie sind laut und nicht nett.",
+      "reply_ar": "دوشة ومش لطاف."
+    },
+    {
+      "id": "w28-05",
+      "q": "___ ist Ihr Haus?",
+      "answer": "Wie alt",
+      "opts": [
+        "Wie alt",
+        "Wie viele",
+        "Wer",
+        "Wohin"
+      ],
+      "ar": "بيت حضرتك عمره قد إيه؟ (رسمي)",
+      "reply": "Mein Haus ist 100 Jahre alt.",
+      "reply_ar": "بيتي عمره 100 سنة."
+    },
+    {
+      "id": "w28-06",
+      "q": "___ kommt euer Mitbewohner?",
+      "answer": "Woher",
+      "opts": [
+        "Woher",
+        "Wer",
+        "Wie alt",
+        "Wie viele"
+      ],
+      "ar": "شريككم في السكن منين؟",
+      "reply": "Er kommt aus Thailand.",
+      "reply_ar": "هو من تايلاند."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g28-1",
+      "h": "ضمائر الملكية: mein ولا meine؟",
+      "body": "عشان تقول الحاجة بتاعة مين، حط ضمير الملكية مكان der / die / das أو ein / eine: بدل das Zimmer تقول mein Zimmer. في حالة الرفع (الفاعل أو بعد Das ist / Das sind): مع المذكر والمحايد من غير نهاية (mein Föhn، mein Zimmer)، ومع المؤنث والجمع بنزوّد -e (meine Unterhose، meine Bücher). يعني بيتغيّر بالظبط زي kein / keine.",
+      "examples": [
+        {
+          "de": "Das ist mein Föhn.",
+          "ar": "ده السشوار بتاعي. (der Föhn)"
+        },
+        {
+          "de": "Das ist meine Unterhose.",
+          "ar": "ده البوكسر بتاعي. (die Unterhose)"
+        },
+        {
+          "de": "Das ist mein Zimmer.",
+          "ar": "دي أوضتي. (das Zimmer)"
+        },
+        {
+          "de": "Das sind meine Bücher.",
+          "ar": "دي كتبي. (die Bücher)"
+        }
+      ],
+      "table": [
+        [
+          "الجنس",
+          "kein",
+          "mein"
+        ],
+        [
+          "مذكر: der Föhn",
+          "kein Föhn",
+          "mein Föhn"
+        ],
+        [
+          "مؤنث: die Uhr",
+          "keine Uhr",
+          "meine Uhr"
+        ],
+        [
+          "محايد: das Zimmer",
+          "kein Zimmer",
+          "mein Zimmer"
+        ],
+        [
+          "جمع: die Bücher",
+          "keine Bücher",
+          "meine Bücher"
+        ]
+      ]
+    },
+    {
+      "id": "g28-2",
+      "h": "كل شخص وضمير ملكيته",
+      "body": "كل ضمير شخصي ليه ضمير ملكية، وكلهم بياخدوا -e مع المؤنث والجمع زي mein / meine. خلّي بالك من 3 حاجات: ضمير الملكية ihr ليه معنيين: بتاعها وبتاعهم (أما ihr اللي بمعنى إنتوا فملكيتها euer). وIhr بحرف كبير = بتاع حضرتك أو حضراتكم (رسمي). وeuer لما ياخد -e بيقع منه الـ e اللي في النص: euer Bad بس eure Küche.",
+      "examples": [
+        {
+          "de": "Ist das Ihr Föhn?",
+          "ar": "ده السشوار بتاع حضرتك؟ (رسمي)"
+        },
+        {
+          "de": "Unsere Nachbarin ist sehr nett.",
+          "ar": "جارتنا لطيفة أوي."
+        },
+        {
+          "de": "Eure Küche ist immer dreckig!",
+          "ar": "مطبخكم دايمًا وسخ!"
+        }
+      ],
+      "table": [
+        [
+          "الضمير",
+          "مذكر / محايد",
+          "مؤنث / جمع",
+          "معناها"
+        ],
+        [
+          "ich",
+          "mein",
+          "meine",
+          "بتاعي"
+        ],
+        [
+          "du",
+          "dein",
+          "deine",
+          "بتاعك"
+        ],
+        [
+          "er / es",
+          "sein",
+          "seine",
+          "بتاعه"
+        ],
+        [
+          "sie (هي)",
+          "ihr",
+          "ihre",
+          "بتاعها"
+        ],
+        [
+          "wir",
+          "unser",
+          "unsere",
+          "بتاعنا"
+        ],
+        [
+          "ihr (إنتوا)",
+          "euer",
+          "eure",
+          "بتاعكم"
+        ],
+        [
+          "sie (هما)",
+          "ihr",
+          "ihre",
+          "بتاعهم"
+        ],
+        [
+          "Sie (رسمي)",
+          "Ihr",
+          "Ihre",
+          "بتاع حضرتك"
+        ]
+      ]
+    },
+    {
+      "id": "g28-3",
+      "h": "sein ولا ihr؟",
+      "body": "sein ولا ihr بيتحدد بصاحب الحاجة، زي العربي بالظبط: سيباستيان راجل، يبقى أوضته = sein Zimmer. ليزا ست، يبقى أوضتها = ihr Zimmer. ولو صاحبها محايد زي das Kind برضه sein. وبعد كده النهاية -e بتتحدد بجنس الحاجة نفسها مش بصاحبها: seine Uhr = ساعته، ihre Uhr = ساعتها.",
+      "examples": [
+        {
+          "de": "Das ist Sebastian. Das ist sein Zimmer.",
+          "ar": "ده سيباستيان. ودي أوضته."
+        },
+        {
+          "de": "Das ist Lisa. Das ist ihr Zimmer.",
+          "ar": "دي ليزا. ودي أوضتها."
+        },
+        {
+          "de": "Lisa sucht ihre Armbanduhr.",
+          "ar": "ليزا بتدوّر على ساعة إيدها."
+        }
+      ],
+      "table": [
+        [
+          "صاحب الحاجة",
+          "das Zimmer",
+          "die Uhr"
+        ],
+        [
+          "Sebastian (er)",
+          "sein Zimmer",
+          "seine Uhr"
+        ],
+        [
+          "Lisa (sie)",
+          "ihr Zimmer",
+          "ihre Uhr"
+        ]
+      ]
+    },
+    {
+      "id": "g28-4",
+      "h": "بتاع مين؟ وإمتى نقول Doch",
+      "body": "تسأل: Ist das dein Handtuch? ولو بتاعك: Ja, das ist mein Handtuch. ولو مش بتاعك: Nein, das ist nicht mein Handtuch (النفي بـ nicht قبل ضمير الملكية). ولو السؤال منفي وإنت عايز تقول العكس، رد بـ Doch، زي الفيديو: Die sind nicht zu laut, oder? – Doch! وفي الفيديو الكلام عن die Unterhose فشالوا الاسم: Ist das auch deine? – Nein, das ist meine. (شيل الاسم كده مع المؤنث والجمع بس.)",
+      "examples": [
+        {
+          "de": "Ist das dein Handtuch? – Ja, das ist mein Handtuch.",
+          "ar": "دي الفوطة بتاعتك؟ – أيوه، دي الفوطة بتاعتي."
+        },
+        {
+          "de": "Nein, das ist nicht mein Handtuch.",
+          "ar": "لأ، دي مش الفوطة بتاعتي."
+        },
+        {
+          "de": "Die sind nicht zu laut, oder? – Doch!",
+          "ar": "هما مش دوشة زيادة، صح؟ – بالعكس، دوشة!"
+        }
+      ],
+      "table": [
+        [
+          "السؤال",
+          "أيوه",
+          "لأ"
+        ],
+        [
+          "Ist das dein Föhn?",
+          "Ja, das ist mein Föhn.",
+          "Nein, das ist nicht mein Föhn."
+        ],
+        [
+          "Ist das nicht dein Föhn?",
+          "Doch, das ist mein Föhn.",
+          "Nein, das ist nicht mein Föhn."
+        ]
+      ]
+    }
+  ]
+}

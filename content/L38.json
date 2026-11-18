@@ -1,0 +1,802 @@
+{
+  "n": 38,
+  "sentences": [
+    {
+      "id": "s38-001",
+      "de": "Was muss ein Bankkaufmann machen?",
+      "ar": "موظف البنك لازم يعمل إيه؟",
+      "kind": "question",
+      "focus": [
+        "verb:müssen",
+        "w-frage",
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "muss",
+        "opts": [
+          "muss",
+          "musst",
+          "müssen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-002",
+      "de": "Manchmal muss ein Bankkaufmann Geld zählen.",
+      "ar": "ساعات موظف البنك لازم يعدّ فلوس.",
+      "kind": "answer",
+      "focus": [
+        "verb:müssen",
+        "verb:zählen",
+        "word-order"
+      ],
+      "alts": [
+        "Ein Bankkaufmann muss manchmal Geld zählen.",
+        "Geld muss ein Bankkaufmann manchmal zählen."
+      ],
+      "cloze": {
+        "word": "zählen",
+        "opts": [
+          "zählen",
+          "zählt",
+          "zähle"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-003",
+      "de": "Ein Bankkaufmann muss Kunden beraten.",
+      "ar": "موظف البنك لازم ينصح العملا.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:beraten",
+        "job"
+      ],
+      "alts": [
+        "Kunden muss ein Bankkaufmann beraten."
+      ],
+      "cloze": {
+        "word": "beraten",
+        "opts": [
+          "beraten",
+          "berät",
+          "berätst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-004",
+      "de": "Er muss Finanzen überprüfen.",
+      "ar": "هو لازم يراجع الحسابات.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:überprüfen",
+        "job"
+      ],
+      "alts": [
+        "Finanzen muss er überprüfen."
+      ],
+      "cloze": {
+        "word": "überprüfen",
+        "opts": [
+          "überprüfen",
+          "überprüft",
+          "überprüfe"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-005",
+      "de": "Er muss Termine mit Kunden organisieren.",
+      "ar": "هو لازم يرتّب مواعيد مع العملا.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:organisieren",
+        "plural"
+      ],
+      "alts": [
+        "Er muss mit Kunden Termine organisieren.",
+        "Termine mit Kunden muss er organisieren.",
+        "Mit Kunden muss er Termine organisieren.",
+        "Termine muss er mit Kunden organisieren."
+      ],
+      "cloze": {
+        "word": "Termine",
+        "opts": [
+          "Termine",
+          "Termin",
+          "Terminen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-006",
+      "de": "Es ist viel Büroarbeit.",
+      "ar": "ده شغل مكتب كتير.",
+      "kind": "statement",
+      "focus": [
+        "job"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "viel",
+        "opts": [
+          "viel",
+          "viele",
+          "sehr"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-007",
+      "de": "Du musst E-Mails schreiben und Verträge unterschreiben.",
+      "ar": "لازم تكتب إيميلات وتمضي عقود.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:unterschreiben",
+        "word-order"
+      ],
+      "alts": [
+        "Du musst Verträge unterschreiben und E-Mails schreiben."
+      ],
+      "cloze": {
+        "word": "musst",
+        "opts": [
+          "musst",
+          "muss",
+          "müsst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-008",
+      "de": "Das müssen wir im Restaurant auch.",
+      "ar": "إحنا كمان لازم نعمل كده في المطعم.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "word-order"
+      ],
+      "alts": [
+        "Das müssen wir auch im Restaurant.",
+        "Wir müssen das im Restaurant auch.",
+        "Wir müssen das auch im Restaurant.",
+        "Im Restaurant müssen wir das auch.",
+        "Auch im Restaurant müssen wir das."
+      ],
+      "cloze": {
+        "word": "müssen",
+        "opts": [
+          "müssen",
+          "müsst",
+          "muss"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-009",
+      "de": "Wir müssen viel arbeiten.",
+      "ar": "إحنا لازم نشتغل كتير.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "word-order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "arbeiten",
+        "opts": [
+          "arbeiten",
+          "arbeitet",
+          "arbeite"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-010",
+      "de": "Hier sind wir die Chefs.",
+      "ar": "هنا إحنا المديرين.",
+      "kind": "statement",
+      "focus": [
+        "job",
+        "plural"
+      ],
+      "alts": [
+        "Wir sind hier die Chefs.",
+        "Wir sind die Chefs hier."
+      ],
+      "cloze": {
+        "word": "Chefs",
+        "opts": [
+          "Chefs",
+          "Chef",
+          "Chefin"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-011",
+      "de": "Eine Sekretärin muss Meetings planen und Hotels buchen.",
+      "ar": "السكرتيرة لازم ترتّب الاجتماعات وتحجز الفنادق.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:planen",
+        "verb:buchen"
+      ],
+      "alts": [
+        "Eine Sekretärin muss Hotels buchen und Meetings planen."
+      ],
+      "cloze": {
+        "word": "buchen",
+        "opts": [
+          "buchen",
+          "bucht",
+          "buche"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-012",
+      "de": "Ein Elektriker muss Geräte reparieren.",
+      "ar": "الكهربائي لازم يصلّح الأجهزة.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:reparieren",
+        "plural"
+      ],
+      "alts": [
+        "Geräte muss ein Elektriker reparieren."
+      ],
+      "cloze": {
+        "word": "Geräte",
+        "opts": [
+          "Geräte",
+          "Gerät",
+          "Geräten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-013",
+      "de": "Jeder Mitarbeiter muss die Geräte kontrollieren.",
+      "ar": "كل موظف لازم يشيّك على الأجهزة.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:kontrollieren",
+        "jeder"
+      ],
+      "alts": [
+        "Die Geräte muss jeder Mitarbeiter kontrollieren."
+      ],
+      "cloze": {
+        "word": "Jeder",
+        "opts": [
+          "Jeder",
+          "Jede",
+          "Jedes"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-014",
+      "de": "Sie müssen hier unterschreiben.",
+      "ar": "حضرتك لازم تمضي هنا. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "verb:unterschreiben",
+        "polite"
+      ],
+      "alts": [
+        "Hier müssen Sie unterschreiben."
+      ],
+      "cloze": {
+        "word": "müssen",
+        "opts": [
+          "müssen",
+          "müsst",
+          "musst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-015",
+      "de": "Du musst natürlich immer freundlich sein.",
+      "ar": "طبعًا لازم تبقى لطيف دايمًا.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "adjective"
+      ],
+      "alts": [
+        "Natürlich musst du immer freundlich sein."
+      ],
+      "cloze": {
+        "word": "freundlich",
+        "opts": [
+          "freundlich",
+          "freundliche",
+          "freundlichen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-016",
+      "de": "Ich muss jeden Tag Vokabeln lernen.",
+      "ar": "لازم أحفظ كلمات كل يوم.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "time",
+        "jeder"
+      ],
+      "alts": [
+        "Jeden Tag muss ich Vokabeln lernen.",
+        "Vokabeln muss ich jeden Tag lernen."
+      ],
+      "cloze": {
+        "word": "jeden",
+        "opts": [
+          "jeden",
+          "jeder",
+          "jede"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-017",
+      "de": "Kannst du mir einen Teller bringen?",
+      "ar": "ممكن تجيبلي طبق؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "verb:bringen",
+        "polite"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Kannst",
+        "opts": [
+          "Kannst",
+          "Kann",
+          "Könnt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-018",
+      "de": "Der Fisch war sehr lecker.",
+      "ar": "السمك كان طعمه حلو أوي.",
+      "kind": "statement",
+      "focus": [
+        "food",
+        "adjective"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "lecker",
+        "opts": [
+          "lecker",
+          "freundlich",
+          "pünktlich"
+        ],
+        "accept": [
+          "gut"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s38-019",
+      "de": "Mein Traumberuf ist Erzieherin.",
+      "ar": "وظيفة أحلامي إني أبقى مدرّسة حضانة.",
+      "kind": "answer",
+      "focus": [
+        "job",
+        "possessive"
+      ],
+      "alts": [
+        "Erzieherin ist mein Traumberuf."
+      ],
+      "cloze": {
+        "word": "Mein",
+        "opts": [
+          "Mein",
+          "Meine",
+          "Meinen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-020",
+      "de": "Kannst du heute ins Fitnessstudio mitkommen?",
+      "ar": "تقدر تيجي معايا الجيم النهارده؟",
+      "kind": "question",
+      "focus": [
+        "verb:können",
+        "separable",
+        "word-order"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "mitkommen",
+        "opts": [
+          "mitkommen",
+          "mitkommst",
+          "kommst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-021",
+      "de": "Nein, heute muss ich arbeiten.",
+      "ar": "لأ، النهارده لازم أشتغل.",
+      "kind": "answer",
+      "focus": [
+        "verb:müssen",
+        "word-order"
+      ],
+      "alts": [
+        "Nein, ich muss heute arbeiten."
+      ],
+      "cloze": {
+        "word": "muss",
+        "opts": [
+          "muss",
+          "musst",
+          "müssen"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s38-022",
+      "de": "Jetzt muss ich aufstehen.",
+      "ar": "لازم أقوم دلوقتي.",
+      "kind": "statement",
+      "focus": [
+        "verb:müssen",
+        "separable",
+        "word-order"
+      ],
+      "alts": [
+        "Ich muss jetzt aufstehen."
+      ],
+      "cloze": {
+        "word": "aufstehen",
+        "opts": [
+          "aufstehen",
+          "aufstehe",
+          "stehe"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w38-01",
+      "q": "___ muss ein Bankkaufmann machen?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "موظف البنك لازم يعمل إيه؟",
+      "reply": "Er muss Kunden beraten.",
+      "reply_ar": "لازم ينصح العملا."
+    },
+    {
+      "id": "w38-02",
+      "q": "___ arbeitet eine Erzieherin?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "مدرّسة الحضانة بتشتغل فين؟",
+      "reply": "Im Kindergarten.",
+      "reply_ar": "في الحضانة."
+    },
+    {
+      "id": "w38-03",
+      "q": "___ ist dein Traumberuf?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Woher"
+      ],
+      "ar": "إيه وظيفة أحلامك؟",
+      "reply": "Mein Traumberuf ist Koch.",
+      "reply_ar": "وظيفة أحلامي إني أبقى طبّاخ."
+    },
+    {
+      "id": "w38-04",
+      "q": "___ müsst ihr morgen aufstehen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "لازم تصحوا إمتى بكرة؟",
+      "reply": "Um sechs Uhr.",
+      "reply_ar": "الساعة ستة."
+    },
+    {
+      "id": "w38-05",
+      "q": "___ ist das Arbeitstreffen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "اجتماع الشغل إمتى؟",
+      "reply": "Am Montag um zehn Uhr.",
+      "reply_ar": "يوم الاتنين الساعة عشرة."
+    },
+    {
+      "id": "w38-06",
+      "q": "___ muss den Vertrag unterschreiben?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين لازم يمضي العقد؟",
+      "reply": "Der Chef.",
+      "reply_ar": "المدير."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g38-1",
+      "h": "müssen = لازم (زي können)",
+      "body": "müssen معناها لازم: حاجة ضرورية ومفيش اختيار. وهو فعل مساعد زي können (درس 35)، وتصريفه شاذ: مع ich و er / sie / es نفس الشكل ومن غير نهاية (ich muss، er muss)، وفي المفرد الـ ü بتبقى u (ich muss، du musst)، ومع الجمع الـ ü بترجع (wir müssen، ihr müsst، sie / Sie müssen).",
+      "examples": [
+        {
+          "de": "Ich muss jeden Tag Vokabeln lernen.",
+          "ar": "لازم أحفظ كلمات كل يوم."
+        },
+        {
+          "de": "Du musst E-Mails schreiben.",
+          "ar": "لازم تكتب إيميلات."
+        },
+        {
+          "de": "Wann müsst ihr morgen aufstehen?",
+          "ar": "لازم تصحوا إمتى بكرة؟"
+        },
+        {
+          "de": "Sie müssen hier unterschreiben.",
+          "ar": "حضرتك لازم تمضي هنا. (رسمي)"
+        }
+      ],
+      "table": [
+        [
+          "",
+          "können",
+          "müssen"
+        ],
+        [
+          "ich",
+          "kann",
+          "muss"
+        ],
+        [
+          "du",
+          "kannst",
+          "musst"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "muss"
+        ],
+        [
+          "wir",
+          "können",
+          "müssen"
+        ],
+        [
+          "ihr",
+          "könnt",
+          "müsst"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "müssen"
+        ]
+      ]
+    },
+    {
+      "id": "g38-2",
+      "h": "جملة فيها فعلين: المساعد تاني والمصدر في الآخر",
+      "body": "الفعل المساعد (müssen، können، möchten) هو اللي بيتصرّف وبييجي تاني حاجة في الجملة، والفعل التاني بيروح آخر الجملة مصدر من غير تصريف. ولو الفعل التاني بينفصل (درس 30)، بيرجع كلمة واحدة في الآخر: Ich stehe jetzt auf. لكن Ich muss jetzt aufstehen. باقي الكلام يتنقل عادي، بس الفعلين مكانهم ثابت: Morgen muss ich arbeiten. وفي سؤال أيوه ولا لأ المساعد بييجي الأول: Kannst du mitkommen?",
+      "examples": [
+        {
+          "de": "Ich muss morgen arbeiten.",
+          "ar": "لازم أشتغل بكرة."
+        },
+        {
+          "de": "Morgen muss ich arbeiten.",
+          "ar": "بكرة لازم أشتغل. (نفس المعنى)"
+        },
+        {
+          "de": "Jetzt muss ich aufstehen.",
+          "ar": "لازم أقوم دلوقتي."
+        },
+        {
+          "de": "Was muss ein Bankkaufmann machen?",
+          "ar": "موظف البنك لازم يعمل إيه؟"
+        }
+      ],
+      "table": [
+        [
+          "1",
+          "2 = الفعل المساعد",
+          "النص",
+          "الآخر = المصدر"
+        ],
+        [
+          "Ich",
+          "muss",
+          "morgen",
+          "arbeiten."
+        ],
+        [
+          "Morgen",
+          "muss",
+          "ich",
+          "arbeiten."
+        ],
+        [
+          "Jetzt",
+          "muss",
+          "ich",
+          "aufstehen."
+        ],
+        [
+          "Er",
+          "muss",
+          "Kunden",
+          "beraten."
+        ],
+        [
+          "Was",
+          "muss",
+          "ein Bankkaufmann",
+          "machen?"
+        ]
+      ]
+    },
+    {
+      "id": "g38-3",
+      "h": "können ولا müssen؟",
+      "body": "können = أقدر / ممكن (عندي القدرة أو الفرصة). müssen = لازم (مضطر ومفيش اختيار). زي مثال DW: Ich kann aufstehen. يعني أقدر أقوم (مش عيّان). Ich muss aufstehen. يعني لازم أقوم (ورايا شغل). و Kannst du …? كمان طريقة مؤدبة تطلب بيها حاجة: Kannst du mir einen Teller bringen?",
+      "examples": [
+        {
+          "de": "Ich kann aufstehen.",
+          "ar": "أقدر أقوم. (مش عيّان)"
+        },
+        {
+          "de": "Ich muss aufstehen.",
+          "ar": "لازم أقوم. (ورايا شغل)"
+        },
+        {
+          "de": "Kannst du mir einen Teller bringen?",
+          "ar": "ممكن تجيبلي طبق؟"
+        },
+        {
+          "de": "Kannst du heute mitkommen? – Nein, heute muss ich arbeiten.",
+          "ar": "تقدر تيجي معايا النهارده؟ – لأ، النهارده لازم أشتغل."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "können",
+          "müssen"
+        ],
+        [
+          "المعنى",
+          "أقدر / ممكن",
+          "لازم"
+        ],
+        [
+          "مثال",
+          "Ich kann das reparieren.",
+          "Ich muss das reparieren."
+        ],
+        [
+          "بالعربي",
+          "أقدر أصلّحه.",
+          "لازم أصلّحه."
+        ]
+      ]
+    },
+    {
+      "id": "g38-4",
+      "h": "تشرح شغلك: Was muss ein … machen?",
+      "body": "عشان تسأل عن شغل حد: Was muss ein Bankkaufmann machen? والرد: Er muss … والمهمة مصدر في الآخر. ولو المهام كتير، بنرصّهم في الآخر (الحاجة وبعدها المصدر) وبينهم und: Du musst E-Mails schreiben und Verträge unterschreiben. وخد بالك: der Chef = المدير مش الشيف، والطبّاخ اسمه der Koch. والمؤنث بـ -in: die Sekretärin، die Erzieherin.",
+      "examples": [
+        {
+          "de": "Was muss ein Bankkaufmann machen?",
+          "ar": "موظف البنك لازم يعمل إيه؟"
+        },
+        {
+          "de": "Eine Sekretärin muss Meetings planen und Hotels buchen.",
+          "ar": "السكرتيرة لازم ترتّب الاجتماعات وتحجز الفنادق."
+        },
+        {
+          "de": "Hier sind wir die Chefs.",
+          "ar": "هنا إحنا المديرين."
+        }
+      ],
+      "table": [
+        [
+          "الوظيفة",
+          "لازم … (muss)"
+        ],
+        [
+          "der Bankkaufmann / die Bankkauffrau",
+          "Geld zählen, Kunden beraten"
+        ],
+        [
+          "der Sekretär / die Sekretärin",
+          "Meetings planen, Hotels buchen"
+        ],
+        [
+          "der Elektriker / die Elektrikerin",
+          "Geräte reparieren"
+        ],
+        [
+          "der Erzieher / die Erzieherin",
+          "mit Kindern spielen"
+        ],
+        [
+          "der Kellner / die Kellnerin",
+          "Teller bringen, freundlich sein"
+        ]
+      ]
+    }
+  ]
+}

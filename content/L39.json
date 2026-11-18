@@ -1,0 +1,795 @@
+{
+  "n": 39,
+  "sentences": [
+    {
+      "id": "s39-001",
+      "de": "Sie hat um vierzehn Uhr ein Bewerbungsgespräch.",
+      "ar": "عندها مقابلة شغل الساعة 2 الضهر.",
+      "kind": "statement",
+      "focus": [
+        "article",
+        "time"
+      ],
+      "alts": [
+        "Um vierzehn Uhr hat sie ein Bewerbungsgespräch.",
+        "Sie hat ein Bewerbungsgespräch um vierzehn Uhr."
+      ],
+      "cloze": {
+        "word": "ein",
+        "opts": [
+          "ein",
+          "eine",
+          "einen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-002",
+      "de": "Die Bewerbungsgespräche finden normalerweise im Besprechungsraum statt.",
+      "ar": "مقابلات الشغل عادةً بتتعمل في أوضة الاجتماعات.",
+      "kind": "statement",
+      "focus": [
+        "verb:stattfinden",
+        "dative"
+      ],
+      "alts": [
+        "Normalerweise finden die Bewerbungsgespräche im Besprechungsraum statt.",
+        "Im Besprechungsraum finden die Bewerbungsgespräche normalerweise statt.",
+        "Im Besprechungsraum finden normalerweise die Bewerbungsgespräche statt.",
+        "Normalerweise finden im Besprechungsraum die Bewerbungsgespräche statt."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "in",
+          "ins"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-003",
+      "de": "Wo finden wir den Besprechungsraum?",
+      "ar": "نلاقي أوضة الاجتماعات فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:finden"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "dem",
+          "der"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-004",
+      "de": "In der dritten Etage.",
+      "ar": "في الدور التالت.",
+      "kind": "answer",
+      "focus": [
+        "dative",
+        "ordinal"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "die",
+          "dem"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-005",
+      "de": "Heute finden die Bewerbungsgespräche neben der Kantine statt.",
+      "ar": "النهارده مقابلات الشغل بتتعمل جنب الكانتين.",
+      "kind": "statement",
+      "focus": [
+        "verb:stattfinden",
+        "dative",
+        "word-order"
+      ],
+      "alts": [
+        "Die Bewerbungsgespräche finden heute neben der Kantine statt.",
+        "Neben der Kantine finden heute die Bewerbungsgespräche statt.",
+        "Neben der Kantine finden die Bewerbungsgespräche heute statt.",
+        "Heute finden neben der Kantine die Bewerbungsgespräche statt."
+      ],
+      "cloze": {
+        "word": "finden",
+        "opts": [
+          "finden",
+          "findet",
+          "finde"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-006",
+      "de": "Sie nehmen den Aufzug.",
+      "ar": "حضرتك هتاخد الأسانسير. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "verb:nehmen",
+        "formal"
+      ],
+      "alts": [
+        "Nehmen Sie den Aufzug."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-007",
+      "de": "Da gehen Sie links, dann rechts und wieder links.",
+      "ar": "هناك حضرتك هتمشي شمال، وبعدين يمين، وشمال تاني. (رسمي)",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "verb:gehen"
+      ],
+      "alts": [
+        "Gehen Sie da links, dann rechts und wieder links.",
+        "Sie gehen da links, dann rechts und wieder links."
+      ],
+      "cloze": {
+        "word": "gehen",
+        "opts": [
+          "gehen",
+          "geht",
+          "gehst"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-008",
+      "de": "Der Besprechungsraum ist rechts.",
+      "ar": "أوضة الاجتماعات على اليمين.",
+      "kind": "statement",
+      "focus": [
+        "direction",
+        "article"
+      ],
+      "alts": [
+        "Rechts ist der Besprechungsraum."
+      ],
+      "cloze": {
+        "word": "Der",
+        "opts": [
+          "Der",
+          "Die",
+          "Das"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-009",
+      "de": "Wir sind hier, neben den Toiletten.",
+      "ar": "إحنا هنا، جنب الحمّامات.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "plural"
+      ],
+      "alts": [
+        "Hier sind wir, neben den Toiletten."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "dem",
+          "der"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-010",
+      "de": "Zwischen den Konferenzräumen.",
+      "ar": "بين أوض المؤتمرات.",
+      "kind": "answer",
+      "focus": [
+        "dative",
+        "plural"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Konferenzräumen",
+        "opts": [
+          "Konferenzräumen",
+          "Konferenzräume",
+          "Konferenzraum"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s39-011",
+      "de": "Wo ist der Aufzug?",
+      "ar": "الأسانسير فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "place"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Wo",
+        "opts": [
+          "Wo",
+          "Wohin",
+          "Woher"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-012",
+      "de": "Der Aufzug ist neben dem Empfang.",
+      "ar": "الأسانسير جنب الاستقبال.",
+      "kind": "answer",
+      "focus": [
+        "dative",
+        "preposition"
+      ],
+      "alts": [
+        "Neben dem Empfang ist der Aufzug."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "den",
+          "der"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-013",
+      "de": "Wo finde ich das Sekretariat?",
+      "ar": "ألاقي السكرتارية فين؟",
+      "kind": "question",
+      "focus": [
+        "w-frage",
+        "verb:finden"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "finde",
+        "opts": [
+          "finde",
+          "findest",
+          "findet"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-014",
+      "de": "Das Sekretariat ist im Erdgeschoss.",
+      "ar": "السكرتارية في الدور الأرضي.",
+      "kind": "answer",
+      "focus": [
+        "dative",
+        "place"
+      ],
+      "alts": [
+        "Im Erdgeschoss ist das Sekretariat."
+      ],
+      "cloze": {
+        "word": "im",
+        "opts": [
+          "im",
+          "in",
+          "am"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-015",
+      "de": "Wir wohnen in der ersten Etage.",
+      "ar": "إحنا ساكنين في الدور الأول.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "ordinal",
+        "verb:wohnen"
+      ],
+      "alts": [
+        "In der ersten Etage wohnen wir."
+      ],
+      "cloze": {
+        "word": "ersten",
+        "opts": [
+          "ersten",
+          "erste",
+          "erster"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-016",
+      "de": "Das Bild hängt an der Wand.",
+      "ar": "الصورة متعلّقة على الحيطة.",
+      "kind": "statement",
+      "focus": [
+        "verb:hängen",
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "An der Wand hängt das Bild."
+      ],
+      "cloze": {
+        "word": "an",
+        "opts": [
+          "an",
+          "auf",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-017",
+      "de": "Die Lampe hängt über dem Tisch.",
+      "ar": "اللمبة متعلّقة فوق الترابيزة.",
+      "kind": "statement",
+      "focus": [
+        "verb:hängen",
+        "dative"
+      ],
+      "alts": [
+        "Über dem Tisch hängt die Lampe."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "der",
+          "den"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-018",
+      "de": "Das Buch liegt auf dem Tisch.",
+      "ar": "الكتاب محطوط على الترابيزة.",
+      "kind": "statement",
+      "focus": [
+        "verb:liegen",
+        "preposition"
+      ],
+      "alts": [
+        "Auf dem Tisch liegt das Buch."
+      ],
+      "cloze": {
+        "word": "auf",
+        "opts": [
+          "auf",
+          "über",
+          "an"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-019",
+      "de": "Die Garderobe ist unter der Treppe.",
+      "ar": "الشمّاعة تحت السلّم.",
+      "kind": "statement",
+      "focus": [
+        "preposition",
+        "dative"
+      ],
+      "alts": [
+        "Unter der Treppe ist die Garderobe."
+      ],
+      "cloze": {
+        "word": "unter",
+        "opts": [
+          "unter",
+          "zwischen",
+          "in"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-020",
+      "de": "Das Taxi wartet vor dem Gebäude.",
+      "ar": "التاكسي مستني قدّام المبنى.",
+      "kind": "statement",
+      "focus": [
+        "verb:warten",
+        "dative"
+      ],
+      "alts": [
+        "Vor dem Gebäude wartet das Taxi."
+      ],
+      "cloze": {
+        "word": "dem",
+        "opts": [
+          "dem",
+          "der",
+          "das"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-021",
+      "de": "Der Notausgang ist hinter der Cafeteria.",
+      "ar": "مخرج الطوارئ ورا الكافيتريا.",
+      "kind": "statement",
+      "focus": [
+        "dative",
+        "preposition"
+      ],
+      "alts": [
+        "Hinter der Cafeteria ist der Notausgang."
+      ],
+      "cloze": {
+        "word": "der",
+        "opts": [
+          "der",
+          "dem",
+          "die"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s39-022",
+      "de": "Ist die Bibliothek im Untergeschoss?",
+      "ar": "هي المكتبة في البدروم؟",
+      "kind": "question",
+      "focus": [
+        "yes-no-question",
+        "dative"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Ist",
+        "opts": [
+          "Ist",
+          "Sind",
+          "Bist"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w39-01",
+      "q": "___ ist der Aufzug?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wer"
+      ],
+      "ar": "الأسانسير فين؟",
+      "reply": "Der Aufzug ist neben der Treppe.",
+      "reply_ar": "الأسانسير جنب السلم."
+    },
+    {
+      "id": "w39-02",
+      "q": "Entschuldigung, ___ suchen Sie?",
+      "answer": "wen",
+      "opts": [
+        "wen",
+        "wer",
+        "woher",
+        "wie alt"
+      ],
+      "ar": "لا مؤاخذة، حضرتك بتدوّر على مين؟ (رسمي)",
+      "reply": "Wir suchen Lisa Brunner.",
+      "reply_ar": "إحنا بندوّر على ليزا برونر."
+    },
+    {
+      "id": "w39-03",
+      "q": "___ hat um vierzehn Uhr ein Bewerbungsgespräch?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Wen",
+        "Was",
+        "Wo"
+      ],
+      "ar": "مين عنده مقابلة شغل الساعة 2 الضهر؟",
+      "reply": "Lisa hat ein Bewerbungsgespräch.",
+      "reply_ar": "ليزا عندها مقابلة شغل."
+    },
+    {
+      "id": "w39-04",
+      "q": "___ hängt das Bild?",
+      "answer": "Wo",
+      "opts": [
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Wie viele"
+      ],
+      "ar": "الصورة متعلّقة فين؟",
+      "reply": "Das Bild hängt an der Wand neben der Tür.",
+      "reply_ar": "الصورة متعلّقة على الحيطة جنب الباب."
+    },
+    {
+      "id": "w39-05",
+      "q": "___ Nummer hat der Besprechungsraum?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Wie alt",
+        "Wo",
+        "Wer"
+      ],
+      "ar": "أوضة الاجتماعات رقمها كام؟",
+      "reply": "Der Besprechungsraum hat die Nummer 431.",
+      "reply_ar": "أوضة الاجتماعات رقمها 431."
+    },
+    {
+      "id": "w39-06",
+      "q": "Entschuldigung, ___ finde ich die Kantine?",
+      "answer": "wo",
+      "opts": [
+        "wo",
+        "wohin",
+        "wer",
+        "wie alt"
+      ],
+      "ar": "لا مؤاخذة، ألاقي الكانتين فين؟",
+      "reply": "Die Kantine ist im Erdgeschoss.",
+      "reply_ar": "الكانتين في الدور الأرضي."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g39-1",
+      "h": "حالة الجر (Dativ): dem و der و den",
+      "body": "لما بنقول الحاجة فين بحرف جر زي in أو neben، الاسم بيبقى في حالة الجر (Dativ) والأداة بتتغيّر: der و das بيبقوا dem، و die بتبقى der، والجمع die بيبقى den والاسم نفسه بياخد n زيادة (den Konferenzräumen)، إلا لو آخره n أو s أصلًا (den Toiletten). والنكرة: ein بتبقى einem، و eine بتبقى einer. وافتكر: im = in dem، و am = an dem.",
+      "examples": [
+        {
+          "de": "Der Aufzug ist neben dem Empfang.",
+          "ar": "الأسانسير جنب الاستقبال."
+        },
+        {
+          "de": "Heute finden die Bewerbungsgespräche neben der Kantine statt.",
+          "ar": "النهارده مقابلات الشغل بتتعمل جنب الكانتين."
+        },
+        {
+          "de": "Wir sind hier, neben den Toiletten.",
+          "ar": "إحنا هنا، جنب الحمّامات."
+        },
+        {
+          "de": "Ich arbeite in einem Büro.",
+          "ar": "أنا بشتغل في مكتب."
+        }
+      ],
+      "table": [
+        [
+          "",
+          "Nominativ",
+          "Dativ",
+          "مثال"
+        ],
+        [
+          "مذكّر",
+          "der / ein",
+          "dem / einem",
+          "neben dem Empfang"
+        ],
+        [
+          "محايد",
+          "das / ein",
+          "dem / einem",
+          "vor dem Gebäude"
+        ],
+        [
+          "مؤنّث",
+          "die / eine",
+          "der / einer",
+          "an der Wand"
+        ],
+        [
+          "جمع",
+          "die",
+          "den + n",
+          "zwischen den Räumen"
+        ]
+      ]
+    },
+    {
+      "id": "g39-2",
+      "h": "حروف الجر متغيّرة الحالة: Wo? + Dativ",
+      "body": "دول 9 حروف جر بيقولوا الحاجة فين: in، an، auf، über، unter، vor، hinter، neben، zwischen. لما السؤال Wo? (فين؟) والحاجة ثابتة في مكانها، اللي بعدهم بيبقى Dativ. واسمهم «متغيّرة الحالة» عشان مع الحركة لمكان (Wohin? = رايح فين؟) بياخدوا Akkusativ: Sie fahren in die vierte Etage. ودي هنشرحها في درس 44.",
+      "examples": [
+        {
+          "de": "Wo ist der Aufzug? – Neben dem Empfang.",
+          "ar": "الأسانسير فين؟ – جنب الاستقبال."
+        },
+        {
+          "de": "Der Notausgang ist hinter der Cafeteria.",
+          "ar": "مخرج الطوارئ ورا الكافيتريا."
+        },
+        {
+          "de": "Das Taxi wartet vor dem Gebäude.",
+          "ar": "التاكسي مستني قدّام المبنى."
+        }
+      ],
+      "table": [
+        [
+          "حرف الجر",
+          "معناه",
+          "مثال (Wo?)"
+        ],
+        [
+          "in",
+          "في / جوّه",
+          "im Erdgeschoss"
+        ],
+        [
+          "an",
+          "على (حيطة / باب)",
+          "an der Wand"
+        ],
+        [
+          "auf",
+          "على (فوقه ولامسه)",
+          "auf dem Tisch"
+        ],
+        [
+          "über",
+          "فوق (مش لامسه)",
+          "über dem Tisch"
+        ],
+        [
+          "unter",
+          "تحت",
+          "unter der Treppe"
+        ],
+        [
+          "vor",
+          "قدّام",
+          "vor dem Gebäude"
+        ],
+        [
+          "hinter",
+          "ورا",
+          "hinter der Cafeteria"
+        ],
+        [
+          "neben",
+          "جنب",
+          "neben der Kantine"
+        ],
+        [
+          "zwischen",
+          "بين",
+          "zwischen den Räumen"
+        ]
+      ]
+    },
+    {
+      "id": "g39-3",
+      "h": "auf ولا über ولا an؟ و hängen / liegen / stehen",
+      "body": "auf = على، فوقه ولامسه: Das Buch liegt auf dem Tisch. über = فوقه بس مش لامسه: Die Lampe hängt über dem Tisch. an = على حاجة واقفة زي الحيطة أو الباب: Das Bild hängt an der Wand. وعشان نقول الحاجة فين بنستخدم: hängen (متعلّق)، liegen (محطوط / مفرود)، stehen (واقف)، وبعدهم حرف الجر + Dativ.",
+      "examples": [
+        {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "ar": "الكتاب محطوط على الترابيزة."
+        },
+        {
+          "de": "Die Lampe hängt über dem Tisch.",
+          "ar": "اللمبة متعلّقة فوق الترابيزة."
+        },
+        {
+          "de": "Das Bild hängt an der Wand.",
+          "ar": "الصورة متعلّقة على الحيطة."
+        }
+      ],
+      "table": [
+        [
+          "الفعل",
+          "معناه",
+          "مثال"
+        ],
+        [
+          "hängen",
+          "متعلّق",
+          "Das Schild hängt an der Tür."
+        ],
+        [
+          "liegen",
+          "محطوط / مفرود",
+          "Meine Tasche liegt unter dem Stuhl."
+        ],
+        [
+          "stehen",
+          "واقف",
+          "Das Taxi steht vor dem Gebäude."
+        ]
+      ]
+    },
+    {
+      "id": "g39-4",
+      "h": "فين جوّه المبنى؟ الأدوار والاتجاهات",
+      "body": "تسأل: Wo finde ich …? أو Wo ist …? والأدوار: im Untergeschoss (البدروم)، im Erdgeschoss (الأرضي)، in der ersten / zweiten / dritten Etage، والعدد الترتيبي بعد in der بياخد n (زي am dritten Mai). والاتجاه: links (شمال)، rechts (يمين). و stattfinden = يتعمل (اجتماع، مقابلة) وبينفصل: Das Treffen findet im Konferenzraum statt.",
+      "examples": [
+        {
+          "de": "Wo finde ich das Sekretariat? – Im Erdgeschoss.",
+          "ar": "ألاقي السكرتارية فين؟ – في الدور الأرضي."
+        },
+        {
+          "de": "Die Bewerbungsgespräche finden in der vierten Etage statt.",
+          "ar": "مقابلات الشغل بتتعمل في الدور الرابع."
+        },
+        {
+          "de": "Da gehen Sie links, dann rechts.",
+          "ar": "هناك حضرتك هتمشي شمال، وبعدين يمين."
+        }
+      ],
+      "table": [
+        [
+          "الدور",
+          "بالألماني",
+          "فين؟"
+        ],
+        [
+          "البدروم",
+          "das Untergeschoss",
+          "im Untergeschoss"
+        ],
+        [
+          "الأرضي",
+          "das Erdgeschoss",
+          "im Erdgeschoss"
+        ],
+        [
+          "الأول",
+          "die erste Etage",
+          "in der ersten Etage"
+        ],
+        [
+          "التاني",
+          "die zweite Etage",
+          "in der zweiten Etage"
+        ],
+        [
+          "التالت",
+          "die dritte Etage",
+          "in der dritten Etage"
+        ]
+      ]
+    }
+  ]
+}

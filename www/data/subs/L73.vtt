@@ -1,0 +1,89 @@
+WEBVTT
+
+STYLE
+::cue(.S1) {
+color: white;
+background-color: black;
+font-size: 156%;
+line-height: normal;
+font-family: Arial;
+}
+
+1
+00:00:07.000 --> 00:00:09.760 region:R1 align:center
+<c.S1>– Wir wohnen in Damaskus
+in einem großen Haus.</c>
+
+2
+00:00:09.840 --> 00:00:13.040 region:R1 align:center
+<c.S1>Meine Großmutter und mein Großvater
+wohnen auch bei uns.</c>
+
+3
+00:00:13.520 --> 00:00:16.520 region:R1 align:center
+<c.S1>Wir haben auch einen kleinen Vogel,
+einen Papagei.</c>
+
+4
+00:00:16.640 --> 00:00:18.240 region:R1 align:center
+<c.S1>Er heißt Leli.</c>
+
+5
+00:00:19.600 --> 00:00:20.840 region:R1 align:center
+<c.S1>Wir wohnen am Stadtrand.</c>
+
+6
+00:00:20.880 --> 00:00:23.960 region:R1 align:center
+<c.S1>Es ist fast wie im Dorf.
+Bei uns kennt jeder jeden.</c>
+
+7
+00:00:24.720 --> 00:00:26.720 region:R1 align:center
+<c.S1>Aber am Ende sind viele weggegangen.</c>
+
+8
+00:00:26.760 --> 00:00:27.840 region:R1 align:center
+<c.S1>So wie wir.</c>
+
+9
+00:00:30.880 --> 00:00:33.880 region:R1 align:center
+<c.S1>– Sind deine Großeltern noch in Syrien?</c>
+
+10
+00:00:35.440 --> 00:00:36.760 region:R1 align:center
+<c.S1>– Leli auch.</c>
+
+11
+00:00:36.920 --> 00:00:39.520 region:R1 align:center
+<c.S1>Meine Großmutter schreibt,
+dass er jeden Tag am Fenster sitzt</c>
+
+12
+00:00:39.560 --> 00:00:41.000 region:R1 align:center
+<c.S1>und auf uns wartet.</c>
+
+13
+00:00:43.840 --> 00:00:44.720 region:R1 align:center
+<c.S1>– Aya?!</c>
+
+14
+00:00:45.760 --> 00:00:47.080 region:R1 align:center
+<c.S1>Aya?!</c>
+
+15
+00:00:49.000 --> 00:00:51.760 region:R1 align:center
+<c.S1>– Ich finde, du sprichst schon
+sehr gut Deutsch, Selma!</c>
+
+16
+00:00:51.800 --> 00:00:53.480 region:R1 align:center
+<c.S1>Wirklich klasse!</c>
+
+17
+00:00:56.320 --> 00:00:57.840 region:R1 align:center
+<c.S1>– Mama?</c>
+
+18
+00:01:03.280 --> 00:01:07.320 region:R1 align:center
+<c.S1>Die Aufenthaltserlaubnis!
+Wir dürfen in Deutschland bleiben!</c>

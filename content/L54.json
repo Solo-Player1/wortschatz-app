@@ -1,0 +1,794 @@
+{
+  "n": 54,
+  "sentences": [
+    {
+      "id": "s54-001",
+      "de": "Wir können die Tasche nicht mitnehmen.",
+      "ar": "مينفعش ناخد الشنطة معانا.",
+      "kind": "statement",
+      "focus": [
+        "verb:mitnehmen",
+        "verb:können",
+        "separable"
+      ],
+      "alts": [
+        "Die Tasche können wir nicht mitnehmen.",
+        "Mitnehmen können wir die Tasche nicht."
+      ],
+      "cloze": {
+        "word": "mitnehmen",
+        "opts": [
+          "mitnehmen",
+          "mitnimmt",
+          "mitnehmt"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-002",
+      "de": "Das ist nicht unsere Tasche!",
+      "ar": "دي مش شنطتنا!",
+      "kind": "statement",
+      "focus": [
+        "negation",
+        "possessive"
+      ],
+      "alts": [
+        "Unsere Tasche ist das nicht!"
+      ],
+      "cloze": {
+        "word": "unsere",
+        "opts": [
+          "unsere",
+          "unser",
+          "unseren"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-003",
+      "de": "Wir haben sie gefunden.",
+      "ar": "إحنا لقيناها.",
+      "kind": "answer",
+      "focus": [
+        "verb:finden",
+        "perfect"
+      ],
+      "alts": [
+        "Gefunden haben wir sie."
+      ],
+      "cloze": {
+        "word": "gefunden",
+        "opts": [
+          "gefunden",
+          "gefindet",
+          "finden"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-004",
+      "de": "Im Oktober ist es schon kalt.",
+      "ar": "في أكتوبر الجو بيبقى برد خلاص.",
+      "kind": "statement",
+      "focus": [
+        "time",
+        "weather"
+      ],
+      "alts": [
+        "Es ist im Oktober schon kalt.",
+        "Schon im Oktober ist es kalt.",
+        "Es ist schon im Oktober kalt."
+      ],
+      "cloze": {
+        "word": "Im",
+        "opts": [
+          "Im",
+          "Am",
+          "Um"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-005",
+      "de": "Im November wird es immer kälter.",
+      "ar": "في نوفمبر الجو بيبرد أكتر وأكتر.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "time",
+        "weather"
+      ],
+      "alts": [
+        "Es wird im November immer kälter.",
+        "Immer kälter wird es im November."
+      ],
+      "cloze": {
+        "word": "kälter",
+        "opts": [
+          "kälter",
+          "kalter",
+          "kältesten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-006",
+      "de": "Ich will nicht frieren!",
+      "ar": "مش عايز أسقع!",
+      "kind": "statement",
+      "focus": [
+        "verb:frieren",
+        "verb:wollen"
+      ],
+      "alts": [
+        "Frieren will ich nicht!"
+      ],
+      "cloze": {
+        "word": "frieren",
+        "opts": [
+          "frieren",
+          "friere",
+          "friert"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-007",
+      "de": "Im letzten Jahr war es schlimm mit der Kälte.",
+      "ar": "السنة اللي فاتت البرد كان وحش.",
+      "kind": "statement",
+      "focus": [
+        "weather",
+        "time",
+        "past"
+      ],
+      "alts": [
+        "Im letzten Jahr war es mit der Kälte schlimm.",
+        "Es war im letzten Jahr schlimm mit der Kälte.",
+        "Es war im letzten Jahr mit der Kälte schlimm.",
+        "Mit der Kälte war es im letzten Jahr schlimm.",
+        "Schlimm war es im letzten Jahr mit der Kälte."
+      ],
+      "cloze": {
+        "word": "Kälte",
+        "opts": [
+          "Kälte",
+          "kalt",
+          "kälter"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-008",
+      "de": "Im Dezember und Januar ist es immer am kältesten!",
+      "ar": "في ديسمبر ويناير الجو دايمًا بيبقى أبرد ما يكون!",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "time"
+      ],
+      "alts": [
+        "Es ist im Dezember und Januar immer am kältesten!",
+        "Es ist immer im Dezember und Januar am kältesten!",
+        "Am kältesten ist es immer im Dezember und Januar!",
+        "Immer im Dezember und Januar ist es am kältesten!",
+        "Im Januar und Dezember ist es immer am kältesten!",
+        "Es ist im Januar und Dezember immer am kältesten!",
+        "Es ist immer im Januar und Dezember am kältesten!",
+        "Am kältesten ist es immer im Januar und Dezember!",
+        "Immer im Januar und Dezember ist es am kältesten!"
+      ],
+      "cloze": {
+        "word": "kältesten",
+        "opts": [
+          "kältesten",
+          "kälter",
+          "kaltesten",
+          "kältsten"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-009",
+      "de": "Nimm es mit!",
+      "ar": "خده معاك!",
+      "kind": "statement",
+      "focus": [
+        "verb:mitnehmen",
+        "imperative",
+        "separable"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Nimm",
+        "opts": [
+          "Nimm",
+          "Nimmst",
+          "Nehmen"
+        ]
+      },
+      "src": "episode"
+    },
+    {
+      "id": "s54-010",
+      "de": "Welche Jahreszeit findest du am schönsten?",
+      "ar": "أنهي فصل في السنة شايفه الأحلى؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "w-frage",
+        "verb:finden"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "schönsten",
+        "opts": [
+          "schönsten",
+          "schöner",
+          "schönste"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-011",
+      "de": "Ich finde den Sommer am schönsten.",
+      "ar": "أنا شايف إن الصيف هو الأحلى.",
+      "kind": "answer",
+      "focus": [
+        "comparison",
+        "verb:finden",
+        "accusative"
+      ],
+      "alts": [
+        "Den Sommer finde ich am schönsten.",
+        "Am schönsten finde ich den Sommer."
+      ],
+      "cloze": {
+        "word": "den",
+        "opts": [
+          "den",
+          "der",
+          "dem"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-012",
+      "de": "Im Frühling ist es manchmal regnerisch.",
+      "ar": "في الربيع ساعات الدنيا بتمطر.",
+      "kind": "statement",
+      "focus": [
+        "season",
+        "weather"
+      ],
+      "alts": [
+        "Es ist im Frühling manchmal regnerisch.",
+        "Manchmal ist es im Frühling regnerisch.",
+        "Es ist manchmal im Frühling regnerisch."
+      ],
+      "cloze": {
+        "word": "Im",
+        "opts": [
+          "Im",
+          "In",
+          "Am"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-013",
+      "de": "Im Sommer ist es warm und sonnig.",
+      "ar": "في الصيف الجو بيبقى دافي ومشمس.",
+      "kind": "statement",
+      "focus": [
+        "season",
+        "weather"
+      ],
+      "alts": [
+        "Es ist im Sommer warm und sonnig.",
+        "Im Sommer ist es sonnig und warm.",
+        "Es ist im Sommer sonnig und warm.",
+        "Warm und sonnig ist es im Sommer.",
+        "Sonnig und warm ist es im Sommer."
+      ],
+      "cloze": {
+        "word": "sonnig",
+        "opts": [
+          "sonnig",
+          "sonnige",
+          "Sonntag"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-014",
+      "de": "Im Herbst ist es nass und windig.",
+      "ar": "في الخريف الدنيا بتبقى مبلولة وفيها هوا.",
+      "kind": "statement",
+      "focus": [
+        "season",
+        "weather"
+      ],
+      "alts": [
+        "Es ist im Herbst nass und windig.",
+        "Im Herbst ist es windig und nass.",
+        "Es ist im Herbst windig und nass.",
+        "Nass und windig ist es im Herbst.",
+        "Windig und nass ist es im Herbst."
+      ],
+      "cloze": {
+        "word": "windig",
+        "opts": [
+          "windig",
+          "windige",
+          "Winter"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-015",
+      "de": "Im Herbst werden die Blätter gelb.",
+      "ar": "في الخريف ورق الشجر بيصفرّ.",
+      "kind": "statement",
+      "focus": [
+        "season",
+        "plural",
+        "verb:werden"
+      ],
+      "alts": [
+        "Die Blätter werden im Herbst gelb.",
+        "Gelb werden die Blätter im Herbst."
+      ],
+      "cloze": {
+        "word": "werden",
+        "opts": [
+          "werden",
+          "wird",
+          "wirst"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-016",
+      "de": "Fährst du im Winter Ski?",
+      "ar": "بتتزحلق على التلج في الشتا؟",
+      "kind": "question",
+      "focus": [
+        "season",
+        "yes-no-question",
+        "verb:fahren"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "Fährst",
+        "opts": [
+          "Fährst",
+          "Fahrst",
+          "Fährt"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-017",
+      "de": "Der Sommer ist wärmer als der Frühling.",
+      "ar": "الصيف أدفى من الربيع.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "season"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "wärmer",
+        "opts": [
+          "wärmer",
+          "warmer",
+          "wärmsten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-018",
+      "de": "In Kairo ist es heißer als in Berlin.",
+      "ar": "في القاهرة الجو أحرّ من برلين.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "weather"
+      ],
+      "alts": [
+        "Es ist in Kairo heißer als in Berlin."
+      ],
+      "cloze": {
+        "word": "als",
+        "opts": [
+          "als",
+          "wie",
+          "von"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-019",
+      "de": "Ist der Film spannender als das Buch?",
+      "ar": "هو الفيلم مشوّق أكتر من الكتاب؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "yes-no-question"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "spannender",
+        "opts": [
+          "spannender",
+          "spannend",
+          "spannendsten"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-020",
+      "de": "Wer kocht besser, Max oder Lisa?",
+      "ar": "مين بيطبخ أحسن، ماكس ولا ليزا؟",
+      "kind": "question",
+      "focus": [
+        "comparison",
+        "w-frage"
+      ],
+      "alts": [
+        "Wer kocht besser, Lisa oder Max?"
+      ],
+      "cloze": {
+        "word": "besser",
+        "opts": [
+          "besser",
+          "guter",
+          "bester"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-021",
+      "de": "Der Frühling ist genauso schön wie der Herbst.",
+      "ar": "الربيع حلو زي الخريف بالظبط.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "season"
+      ],
+      "alts": [
+        "Der Herbst ist genauso schön wie der Frühling."
+      ],
+      "cloze": {
+        "word": "wie",
+        "opts": [
+          "wie",
+          "als",
+          "so"
+        ]
+      },
+      "src": "authored"
+    },
+    {
+      "id": "s54-022",
+      "de": "Der Herbst ist nicht so warm wie der Sommer.",
+      "ar": "الخريف مش دافي قد الصيف.",
+      "kind": "statement",
+      "focus": [
+        "comparison",
+        "negation",
+        "season"
+      ],
+      "alts": [],
+      "cloze": {
+        "word": "so",
+        "opts": [
+          "so",
+          "als",
+          "am"
+        ]
+      },
+      "src": "authored"
+    }
+  ],
+  "wfragen": [
+    {
+      "id": "w54-01",
+      "q": "___ gibt es viele Blumen?",
+      "answer": "Wann",
+      "opts": [
+        "Wann",
+        "Wer",
+        "Woher",
+        "Wie alt"
+      ],
+      "ar": "إمتى بيبقى فيه ورد كتير؟",
+      "reply": "Im Frühling.",
+      "reply_ar": "في الربيع."
+    },
+    {
+      "id": "w54-02",
+      "q": "___ ist schwerer, die Tasche oder der Koffer?",
+      "answer": "Was",
+      "opts": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "ar": "إيه الأتقل، الشنطة ولا شنطة السفر؟",
+      "reply": "Der Koffer ist schwerer.",
+      "reply_ar": "شنطة السفر أتقل."
+    },
+    {
+      "id": "w54-03",
+      "q": "___ Stadt ist bekannter, Berlin oder Bonn?",
+      "answer": "Welche",
+      "opts": [
+        "Welche",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "أنهي مدينة معروفة أكتر، برلين ولا بون؟",
+      "reply": "Berlin ist bekannter.",
+      "reply_ar": "برلين معروفة أكتر."
+    },
+    {
+      "id": "w54-04",
+      "q": "___ frierst du?",
+      "answer": "Warum",
+      "opts": [
+        "Warum",
+        "Wer",
+        "Woher",
+        "Wohin"
+      ],
+      "ar": "إنت سقعان ليه؟",
+      "reply": "Ich habe keine Jacke.",
+      "reply_ar": "معيش جاكيت."
+    },
+    {
+      "id": "w54-05",
+      "q": "___ hat die Tasche verloren?",
+      "answer": "Wer",
+      "opts": [
+        "Wer",
+        "Was",
+        "Wo",
+        "Wie"
+      ],
+      "ar": "مين ضيّع الشنطة؟",
+      "reply": "Nico. Zwei Männer haben sie gefunden.",
+      "reply_ar": "نيكو. واتنين رجالة لقوها."
+    },
+    {
+      "id": "w54-06",
+      "q": "___ ist es im Winter in Deutschland?",
+      "answer": "Wie",
+      "opts": [
+        "Wie",
+        "Wo",
+        "Wer",
+        "Woher"
+      ],
+      "ar": "الجو بيبقى عامل إزاي في الشتا في ألمانيا؟",
+      "reply": "Kalt und dunkel.",
+      "reply_ar": "برد وضلمة."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g54-1",
+      "h": "صيغة المقارنة والتفضيل: kalt – kälter – am kältesten",
+      "body": "عشان تقول «أكتر» زوّد -er على الصفة: schwer بتبقى schwerer. وعشان تقول «الأكتر خالص» قول am + الصفة + -sten: am schwersten. صفات قصيرة كتير فيها a أو o أو u بتاخد أوملاوت: warm، wärmer، am wärmsten. ولو الصفة القصيرة آخرها t أو d أو s أو ß أو z أو sch بنزوّد e قبل -sten عشان النطق يسهل: am kältesten، am heißesten. (شاذة: groß بتبقى am größten.)",
+      "examples": [
+        {
+          "de": "Im Oktober ist es schon kalt.",
+          "ar": "في أكتوبر الجو بيبقى برد خلاص."
+        },
+        {
+          "de": "Im November wird es immer kälter.",
+          "ar": "في نوفمبر الجو بيبرد أكتر وأكتر."
+        },
+        {
+          "de": "Im Dezember und Januar ist es immer am kältesten!",
+          "ar": "في ديسمبر ويناير الجو دايمًا بيبقى أبرد ما يكون!"
+        },
+        {
+          "de": "Der Koffer ist am schwersten.",
+          "ar": "شنطة السفر هي الأتقل."
+        }
+      ],
+      "table": [
+        [
+          "الصفة",
+          "مقارنة (أكتر)",
+          "تفضيل (الأكتر خالص)"
+        ],
+        [
+          "schwer",
+          "schwerer",
+          "am schwersten"
+        ],
+        [
+          "schön",
+          "schöner",
+          "am schönsten"
+        ],
+        [
+          "warm",
+          "wärmer",
+          "am wärmsten"
+        ],
+        [
+          "kalt",
+          "kälter",
+          "am kältesten"
+        ],
+        [
+          "heiß",
+          "heißer",
+          "am heißesten"
+        ]
+      ]
+    },
+    {
+      "id": "g54-2",
+      "h": "كلمات شاذة: gut، gern، viel",
+      "body": "فيه كلمات مابتمشيش على القاعدة ولازم تتحفظ زي ما هي: gut بتبقى besser و am besten، و gern بتبقى lieber و am liebsten، و viel بتبقى mehr و am meisten. خد بالك: «أحسن» هي besser مش guter، ومفيش حاجة اسمها gerner ولا vieler. وزي أي صيغة مقارنة، بعدها als: Max kocht besser als Lisa.",
+      "examples": [
+        {
+          "de": "Max kocht besser als Lisa.",
+          "ar": "ماكس بيطبخ أحسن من ليزا."
+        },
+        {
+          "de": "Wer kocht besser, Max oder Lisa?",
+          "ar": "مين بيطبخ أحسن، ماكس ولا ليزا؟"
+        },
+        {
+          "de": "Im Winter fahre ich am liebsten Ski.",
+          "ar": "في الشتا أكتر حاجة بحبها إني أتزحلق على التلج."
+        }
+      ],
+      "table": [
+        [
+          "الكلمة",
+          "مقارنة",
+          "تفضيل"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ]
+      ]
+    },
+    {
+      "id": "g54-3",
+      "h": "المقارنة: als ولا wie؟",
+      "body": "لو حاجة أكتر من حاجة: صيغة المقارنة + als (= من): wärmer als der Frühling. لو الاتنين زي بعض: so أو genauso + الصفة زي ما هي + wie (= زي / قد): genauso schön wie der Herbst. ولو مش قد بعض: nicht so + الصفة + wie. افتكر: بعد صيغة المقارنة دايمًا als، وبعد so و genauso دايمًا wie، فماتقولش wärmer wie.",
+      "examples": [
+        {
+          "de": "Der Sommer ist wärmer als der Frühling.",
+          "ar": "الصيف أدفى من الربيع."
+        },
+        {
+          "de": "In Kairo ist es heißer als in Berlin.",
+          "ar": "في القاهرة الجو أحرّ من برلين."
+        },
+        {
+          "de": "Der Frühling ist genauso schön wie der Herbst.",
+          "ar": "الربيع حلو زي الخريف بالظبط."
+        },
+        {
+          "de": "Der Herbst ist nicht so warm wie der Sommer.",
+          "ar": "الخريف مش دافي قد الصيف."
+        }
+      ],
+      "table": [
+        [
+          "المعنى",
+          "التركيب",
+          "مثال"
+        ],
+        [
+          "أكتر من",
+          "-er + als",
+          "wärmer als der Frühling"
+        ],
+        [
+          "زي بالظبط",
+          "genauso … wie",
+          "genauso schön wie der Herbst"
+        ],
+        [
+          "مش قد",
+          "nicht so … wie",
+          "nicht so warm wie der Sommer"
+        ]
+      ]
+    },
+    {
+      "id": "g54-4",
+      "h": "فصول السنة والشهور: im",
+      "body": "عشان تقول «في» فصل أو شهر استخدم im (= in + dem)، لإن الفصول الأربعة وكل الشهور مذكّر: der Frühling، der Sommer، der Herbst، der Winter. لكن مع الأيام بنقول am: am Montag. والجو بنوصفه بـ es: Im Winter ist es kalt. و immer + صيغة المقارنة معناها «أكتر وأكتر»: Im November wird es immer kälter.",
+      "examples": [
+        {
+          "de": "Im Frühling ist es manchmal regnerisch.",
+          "ar": "في الربيع ساعات الدنيا بتمطر."
+        },
+        {
+          "de": "Im Sommer ist es warm und sonnig.",
+          "ar": "في الصيف الجو بيبقى دافي ومشمس."
+        },
+        {
+          "de": "Im Herbst ist es nass und windig.",
+          "ar": "في الخريف الدنيا بتبقى مبلولة وفيها هوا."
+        },
+        {
+          "de": "Im Winter ist es kalt und dunkel.",
+          "ar": "في الشتا الجو بيبقى برد وضلمة."
+        }
+      ],
+      "table": [
+        [
+          "الفصل",
+          "بالألماني",
+          "الجو"
+        ],
+        [
+          "الربيع",
+          "im Frühling",
+          "manchmal regnerisch"
+        ],
+        [
+          "الصيف",
+          "im Sommer",
+          "warm und sonnig"
+        ],
+        [
+          "الخريف",
+          "im Herbst",
+          "nass und windig"
+        ],
+        [
+          "الشتا",
+          "im Winter",
+          "kalt und dunkel"
+        ]
+      ]
+    }
+  ]
+}
