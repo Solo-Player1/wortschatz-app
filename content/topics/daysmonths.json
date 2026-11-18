@@ -1,0 +1,364 @@
+{
+  "id": "daysmonths",
+  "title": "الأيام والشهور والفصول: am Montag، im Mai، im Sommer",
+  "icon": "📅",
+  "lesson": 31,
+  "summary": "هتعرف أسماء الأيام والشهور والفصول، وإمتى تقول am و im و um، وإزاي تقول التاريخ صح.",
+  "sections": [
+    {
+      "h": "أيام الأسبوع (درس 31): كلها der، والأسبوع بيبدأ بالاتنين",
+      "body": "في ألمانيا الأسبوع بيبدأ يوم الاتنين (Montag) مش السبت أو الحد زي عندنا، والويك إند (das Wochenende، درس 32) هو السبت والحد، مش الجمعة والسبت. وكل أيام الأسبوع مذكّر (der): ستة منهم آخرهم Tag (= يوم)، والكلمة المركّبة أداتها من آخر جزء (درس 14): der Tag، يبقى der Montag و der Freitag. وحتى der Mittwoch (معناها «نص الأسبوع») مذكّر زيهم، مع إن آخرها جاي من die Woche المؤنّث. وفي مواعيد المحلات والعيادات هتلاقيهم مختصرين: Mo.–Fr. = من الاتنين للجمعة.",
+      "table": [
+        ["بالمصري", "اليوم", "النطق", "مختصر"],
+        ["الاتنين", "der Montag", "مونتاغ", "Mo."],
+        ["التلات", "der Dienstag", "دينستاغ", "Di."],
+        ["الأربع", "der Mittwoch", "ميتفوخ", "Mi."],
+        ["الخميس", "der Donnerstag", "دونرستاغ", "Do."],
+        ["الجمعة", "der Freitag", "فرايتاغ", "Fr."],
+        ["السبت", "der Samstag", "زامستاغ", "Sa."],
+        ["الحد", "der Sonntag", "زونتاغ", "So."]
+      ],
+      "examples": [
+        { "de": "Welcher Tag ist heute? – Heute ist Montag.", "ar": "النهارده يوم إيه؟ – النهارده الاتنين.", "lesson": 31 },
+        { "de": "Heute ist Freitag. Morgen ist Wochenende!", "ar": "النهارده الجمعة. بكرة الويك إند!", "lesson": 32 },
+        { "de": "Am Samstag und am Sonntag arbeite ich nicht.", "ar": "يوم السبت ويوم الحد مش هشتغل.", "lesson": 31 }
+      ]
+    },
+    {
+      "h": "الشهور (درس 34) وفصول السنة: برضه كلها der",
+      "body": "أسماء الشهور قريبة من اللي بنقولها في مصر، وكلها مذكّر: der Januar … der Dezember. بس خد بالك من النطق: J بتتنطق «ي»: Januar «يانوار»، Juni «يوني»، Juli «يولي»، و S قبل حرف متحرك بتتنطق «ز»: September «زيبتمبر»، و März «ميرتس»، Mai «ماي»، Dezember «ديتسمبر». ولو Juni و Juli بيلخبطوك: Juni فيها n زي يونيو، و Juli فيها l زي يوليو. والفصول الأربعة كمان مذكّر: der Frühling، der Sommer، der Herbst، der Winter (درس 54)، لكن كلمة «فصل» نفسها die Jahreszeit، عشان آخر جزء die Zeit. (عمود الفصل في الجدول تقريبي.)",
+      "table": [
+        ["#", "الشهر", "بالمصري", "الفصل"],
+        ["1", "der Januar", "يناير", "Winter"],
+        ["2", "der Februar", "فبراير", "Winter"],
+        ["3", "der März", "مارس", "Frühling"],
+        ["4", "der April", "أبريل", "Frühling"],
+        ["5", "der Mai", "مايو", "Frühling"],
+        ["6", "der Juni", "يونيو", "Sommer"],
+        ["7", "der Juli", "يوليو", "Sommer"],
+        ["8", "der August", "أغسطس", "Sommer"],
+        ["9", "der September", "سبتمبر", "Herbst"],
+        ["10", "der Oktober", "أكتوبر", "Herbst"],
+        ["11", "der November", "نوفمبر", "Herbst"],
+        ["12", "der Dezember", "ديسمبر", "Winter"]
+      ],
+      "examples": [
+        { "de": "Mein Geburtstag ist im Mai.", "ar": "عيد ميلادي في مايو.", "lesson": 34 },
+        { "de": "Der Sommer in Ägypten ist sehr heiß.", "ar": "الصيف في مصر حر أوي.", "lesson": 54 },
+        { "de": "Welche Jahreszeit magst du am liebsten? – Den Frühling.", "ar": "بتحب أنهي فصل أكتر حاجة؟ – الربيع.", "lesson": 54 }
+      ]
+    },
+    {
+      "h": "إمتى؟ am مع اليوم، im مع الشهر والفصل، um مع الساعة",
+      "body": "ده أهم جزء. عشان ترد على Wann? (إمتى؟): اليوم بـ am: am Montag (درس 31)، وكمان am Wochenende، والتاريخ am 3. Mai، وأوقات اليوم am Morgen و am Abend. الشهر والفصل بـ im: im Mai، im Sommer. والساعة بـ um: um acht Uhr (درس 29). ولو هتقول اليوم والساعة، اليوم الأول: am Montag um acht Uhr. و am = an + dem، و im = in + dem (dem هي der أو das بعد حروف الجر دي، وهتفهمها أكتر في درس 39). والاستثناء اللي لازم تحفظه: in der Nacht (بـ in مش an، و der عشان die Nacht مؤنّث). والغلطة المشهورة عندنا إننا نترجم «في مايو» لـ in Mai ✗، والصح im Mai ✓. ولو بتعرف إنجليزي: on Monday = am Montag، in May = im Mai، at 8 = um 8، بس in the morning = am Morgen، و at night = in der Nacht.",
+      "table": [
+        ["الوقت", "بالمصري", "بالألماني"],
+        ["يوم", "يوم الاتنين", "am Montag"],
+        ["الويك إند", "في الويك إند", "am Wochenende"],
+        ["تاريخ", "يوم 3 مايو", "am 3. Mai"],
+        ["جزء من اليوم", "المسا", "am Abend"],
+        ["الليل (استثناء)", "بالليل", "in der Nacht"],
+        ["شهر", "في مايو", "im Mai"],
+        ["فصل", "في الصيف", "im Sommer"],
+        ["ساعة", "الساعة 8", "um 8 Uhr"]
+      ],
+      "examples": [
+        { "de": "Am Mittwoch wasche ich mit Opa das Auto.", "ar": "يوم الأربع هغسل العربية مع جدو.", "lesson": 31 },
+        { "de": "Am Montag um acht Uhr habe ich einen Termin.", "ar": "يوم الاتنين الساعة 8 عندي ميعاد.", "lesson": 31 },
+        { "de": "Im August fahren wir nach Ägypten.", "ar": "في أغسطس هنسافر مصر.", "lesson": 34 },
+        { "de": "Im Winter ist es in Deutschland kalt.", "ar": "في الشتا الجو في ألمانيا بيبقى برد.", "lesson": 54 }
+      ]
+    },
+    {
+      "h": "من غير am ولا in: heute، morgen، gestern",
+      "body": "زي العربي بالظبط: بنقول «النهارده» و«بكرة» من غير «في». فـ heute و morgen و gestern و vorgestern و übermorgen (الاتنين دول في درس 34) مابنحطّش قبلهم am ولا in: Morgen habe ich Zeit. ولما تقول النهارده يوم إيه، برضه مفيش am: Heute ist Dienstag. / Gestern war Montag. (بس حرف جر زي bis عادي ييجي قبلهم: Bis morgen! = أشوفك بكرة.) وخد بالك: morgen بحرف صغير = بكرة (وبحرف كبير في أول الجملة بس)، لكن der Morgen = الصبح (am Morgen)، و Guten Morgen = صباح الخير. ولو بدأت الجملة بكلمة وقت، الفعل ييجي بعدها على طول وبعده الفاعل (درس 31): Morgen arbeite ich ✓، مش Morgen ich arbeite ✗.",
+      "table": [
+        ["بالمصري", "بالألماني"],
+        ["أول إمبارح", "vorgestern"],
+        ["إمبارح", "gestern"],
+        ["النهارده", "heute"],
+        ["بكرة", "morgen"],
+        ["بعد بكرة", "übermorgen"],
+        ["النهارده بالليل", "heute Abend"],
+        ["بكرة الصبح", "morgen früh"]
+      ],
+      "examples": [
+        { "de": "Hast du morgen Zeit?", "ar": "إنت فاضي بكرة؟", "lesson": 32 },
+        { "de": "Gestern war Montag.", "ar": "إمبارح كان الاتنين.", "lesson": 31 },
+        { "de": "Morgen arbeite ich von acht bis zwölf.", "ar": "بكرة هشتغل من 8 لحد 12.", "lesson": 29 },
+        { "de": "Was machst du heute Abend?", "ar": "هتعمل إيه النهارده بالليل؟", "lesson": 30 }
+      ]
+    },
+    {
+      "h": "التاريخ: Der Wievielte ist heute? (درس 34)",
+      "body": "النهارده يوم إيه في الأسبوع؟ = Welcher Tag ist heute? – Heute ist Montag. أما التاريخ: Der Wievielte ist heute? والرد بالعدد الترتيبي (التالت، السابع…) مش العادي زي ما بنقول «3 مايو»، يعني زي الإنجليزي the third of May: Heute ist der dritte Mai. من 1 لـ 19 بنزوّد te ومن 20 بنزوّد ste، والشواذ في الجدول (erste، dritte، siebte، و achte بـ t واحدة). بعد der العدد آخره e، وبعد am آخره en: am dritten Mai. وخد بالك: الشهر لوحده im Mai، لكن يوم معيّن في الشهر am 3. Mai. وفي الكتابة النقطة بعد الرقم معناها ترتيبي (3. = dritte)، والتاريخ بيتكتب يوم.شهر.سنة زي مصر: 03.05.2026. والسنة لوحدها من غير in: 2027 أو im Jahr 2027 (مش in 2027 زي الإنجليزي).",
+      "table": [
+        ["مكتوب", "Heute ist der …", "am …"],
+        ["1.", "erste", "ersten"],
+        ["2.", "zweite", "zweiten"],
+        ["3.", "dritte", "dritten"],
+        ["7.", "siebte", "siebten"],
+        ["8.", "achte", "achten"],
+        ["19.", "neunzehnte", "neunzehnten"],
+        ["20.", "zwanzigste", "zwanzigsten"],
+        ["30.", "dreißigste", "dreißigsten"]
+      ],
+      "examples": [
+        { "de": "Der Wievielte ist heute? – Heute ist der dritte Mai.", "ar": "النهارده كام في الشهر؟ – النهارده 3 مايو.", "lesson": 34 },
+        { "de": "Wann hast du Geburtstag? – Am zwölften März.", "ar": "عيد ميلادك إمتى؟ – يوم 12 مارس.", "lesson": 34 },
+        { "de": "Heute ist der 22. Oktober.", "ar": "النهارده 22 أكتوبر. (بتتقري: der zweiundzwanzigste Oktober)", "lesson": 34 }
+      ]
+    },
+    {
+      "h": "jeden Tag، nächste Woche، letztes Jahr: النهاية من أداة الكلمة",
+      "body": "الأيام والشهور والفصول كلها der، لكن كلمات الوقت التانية مش كلها der: der Tag و der Monat، بس die Woche، و das Jahr و das Wochenende (عشان das Ende). وده بيفرق في تعبيرات الوقت اللي من غير حرف جر، لإن النهاية بتمشي مع الأداة: مع der بنزوّد en (زي den، عشان التعبير ده في حالة النصب)، ومع die بنزوّد e، ومع das بنزوّد es. يعني jeden Tag، jede Woche، jedes Jahr، ونفس الحكاية مع dies- (ده) و nächst- (الجاي) و letzt- (اللي فات): nächsten Monat، letztes Wochenende. ولإن الأيام والفصول der، بنقول كمان jeden Montag و nächsten Sommer. (jeden Tag من درس 30، و dies- و nächst- في درس 35، والقاعدة كاملة مع jede و jedes في درس 66)",
+      "table": [
+        ["", "der Monat", "die Woche", "das Jahr"],
+        ["كل", "jeden Monat", "jede Woche", "jedes Jahr"],
+        ["ده / دي", "diesen Monat", "diese Woche", "dieses Jahr"],
+        ["الجاي", "nächsten Monat", "nächste Woche", "nächstes Jahr"],
+        ["اللي فات", "letzten Monat", "letzte Woche", "letztes Jahr"]
+      ],
+      "examples": [
+        { "de": "Diese Woche kann ich nicht. Aber nächste Woche geht es.", "ar": "الأسبوع ده مش هقدر. بس الأسبوع الجاي ينفع.", "lesson": 35 },
+        { "de": "Jeden Monat bezahle ich die Miete.", "ar": "كل شهر بدفع الإيجار.", "lesson": 30 },
+        { "de": "Nächstes Jahr wohne ich in Deutschland.", "ar": "السنة الجاية هسكن في ألمانيا.", "lesson": 19 }
+      ]
+    },
+    {
+      "h": "am Montag ولا montags؟ و von … bis (درس 66)",
+      "body": "am Montag = يوم الاتنين، وغالبًا بنقصد اتنين معيّن. أما montags فمعناها دايمًا «كل اتنين»، يعني عادة بتتكرر كل أسبوع: بتتكتب بحرف صغير وفي آخرها s ومن غير am (وفي أول الجملة بحرف كبير): Samstags spielen wir Fußball. = Jeden Samstag spielen wir Fußball. وزيها morgens و abends (درس 34) = كل يوم الصبح / كل يوم بالليل، أما am Morgen و am Abend فممكن يبقوا لمرة واحدة أو عادة. ولو فترة من يوم ليوم: von Montag bis Freitag (درس 33)، ومن تاريخ لتاريخ: vom ersten bis zum siebten November (vom = von + dem، zum = zu + dem، والعدد آخره en زي بعد am).",
+      "table": [
+        ["غالبًا يوم معيّن", "كل أسبوع (عادة)"],
+        ["am Montag", "montags"],
+        ["am Freitag", "freitags"],
+        ["am Samstag", "samstags"],
+        ["am Sonntag", "sonntags"]
+      ],
+      "examples": [
+        { "de": "Sonntags haben die Supermärkte geschlossen.", "ar": "كل حد السوبر ماركتات بتبقى قافلة.", "lesson": 66 },
+        { "de": "Wir haben von Montag bis Freitag geöffnet.", "ar": "إحنا فاتحين من الاتنين للجمعة.", "lesson": 33 },
+        { "de": "Vom ersten bis zum siebten November habe ich Frühdienst.", "ar": "من 1 لحد 7 نوفمبر عندي وردية الصبح.", "lesson": 34 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "___ Sonntag koche ich mit Nico.",
+      "answer": "Am",
+      "opts": ["Am", "Im", "Um"],
+      "ar": "يوم الحد هطبخ مع نيكو.",
+      "why": "عشان تقول إمتى «يوم الحد» بنستخدم am (= an + dem): am Sonntag. و im للشهور والفصول، و um للساعة.",
+      "lesson": 31
+    },
+    {
+      "q": "Der Kurs beginnt ___ neun Uhr.",
+      "answer": "um",
+      "opts": ["um", "am", "in"],
+      "ar": "الكورس بيبدأ الساعة تسعة.",
+      "why": "مع الساعة um: um neun Uhr = الساعة تسعة. ومش in (in + مدة معناها «كمان»).",
+      "lesson": 29
+    },
+    {
+      "q": "Ich habe ___ Mai Urlaub.",
+      "answer": "im",
+      "opts": ["im", "in", "am"],
+      "ar": "عندي إجازة في مايو.",
+      "why": "مع الشهور im (= in + dem)، لإن الشهور مذكّر. «في مايو» مش in Mai، الصح im Mai.",
+      "lesson": 34
+    },
+    {
+      "q": "Welcher Tag ist heute? – Heute ist ___.",
+      "answer": "Dienstag",
+      "opts": ["Dienstag", "am Dienstag", "im Dienstag"],
+      "ar": "النهارده يوم إيه؟ – النهارده التلات.",
+      "why": "لما بتقول النهارده يوم إيه مفيش am: Heute ist Dienstag. الـ am لما تقول حاجة بتحصل إمتى: Am Dienstag spiele ich Fußball.",
+      "lesson": 31
+    },
+    {
+      "q": "Heute ist Montag. Gestern war ___.",
+      "answer": "Sonntag",
+      "opts": ["Sonntag", "Dienstag", "Samstag"],
+      "ar": "النهارده الاتنين. إمبارح كان الحد.",
+      "why": "gestern = إمبارح، واليوم اللي قبل الاتنين هو الحد (Sonntag). أما Dienstag فده بكرة، و Samstag ده أول إمبارح. و gestern معاها war عشان ماضي (درس 17).",
+      "lesson": 31
+    },
+    {
+      "q": "___ Sonntag ist in Deutschland sehr ruhig.",
+      "answer": "Der",
+      "opts": ["Der", "Die", "Das"],
+      "ar": "يوم الحد في ألمانيا بيبقى هادي أوي.",
+      "why": "كل أيام الأسبوع مذكّر: der Sonntag. وفعلًا يوم الحد في ألمانيا هادي وأغلب المحلات قافلة.",
+      "lesson": 31
+    },
+    {
+      "q": "Was machst du ___ Wochenende?",
+      "answer": "am",
+      "opts": ["am", "im", "um"],
+      "ar": "هتعمل إيه في الويك إند؟",
+      "why": "بنقول am Wochenende زي am Montag. حتى لو أداته das، برضه an + dem = am.",
+      "lesson": 32
+    },
+    {
+      "q": "___ Wochenende ist zu kurz!",
+      "answer": "Das",
+      "opts": ["Das", "Der", "Die"],
+      "ar": "الويك إند قصير زيادة عن اللزوم!",
+      "why": "Wochenende أداته das عشان آخر جزء das Ende (الكلمة المركّبة، درس 14)، مش der زي الأيام.",
+      "lesson": 32
+    },
+    {
+      "q": "Am Montag ___ Fußball.",
+      "answer": "spiele ich",
+      "opts": ["spiele ich", "ich spiele", "spielen ich"],
+      "ar": "يوم الاتنين هلعب كورة.",
+      "why": "لما الجملة تبدأ بالوقت، الفعل ييجي تاني حاجة وبعده الفاعل: Am Montag spiele ich، مش Am Montag ich spiele.",
+      "lesson": 31
+    },
+    {
+      "q": "___ der Nacht schläft Emma.",
+      "answer": "In",
+      "opts": ["In", "Am", "Im"],
+      "ar": "بالليل إيما بتنام.",
+      "why": "أوقات اليوم بـ am (am Abend)، بس الليل استثناء بـ in: in der Nacht، و der مش dem عشان die Nacht مؤنّث. فـ Am و Im غلط هنا.",
+      "lesson": 30
+    },
+    {
+      "q": "Ich arbeite von Montag ___ Freitag.",
+      "answer": "bis",
+      "opts": ["bis", "zu", "nach"],
+      "ar": "بشتغل من الاتنين للجمعة.",
+      "why": "من … لحد … = von … bis …، سواء أيام (von Montag bis Freitag) أو ساعات (von acht bis zwölf).",
+      "lesson": 31
+    },
+    {
+      "q": "Ich lerne ___ Tag Deutsch.",
+      "answer": "jeden",
+      "opts": ["jeden", "jede", "jedes"],
+      "ar": "بذاكر ألماني كل يوم.",
+      "why": "der Tag مذكّر، والتعبير ده في حالة النصب فبيبقى jeden زي den. (مع die Woche: jede Woche)",
+      "lesson": 30
+    },
+    {
+      "q": "___ Jahr war ich in Berlin.",
+      "answer": "Letztes",
+      "opts": ["Letztes", "Letzten", "Letzte"],
+      "ar": "السنة اللي فاتت كنت في برلين.",
+      "why": "das Jahr محايد، فبنقول letztes Jahr (زي nächstes Jahr)، ومن غير حرف جر.",
+      "lesson": 17
+    },
+    {
+      "q": "Wann hast du Geburtstag? – ___ dreizehnten September.",
+      "answer": "Am",
+      "opts": ["Am", "Im", "Um"],
+      "ar": "عيد ميلادك إمتى؟ – يوم 13 سبتمبر.",
+      "why": "مع التاريخ (يوم + شهر) بنقول am حتى لو فيه شهر: am 13. September. الشهر لوحده بس هو اللي بـ im.",
+      "lesson": 34
+    },
+    {
+      "q": "Heute ist der ___ April.",
+      "answer": "dritte",
+      "opts": ["dritte", "drei", "dritten"],
+      "ar": "النهارده 3 أبريل.",
+      "why": "التاريخ بالعدد الترتيبي (التالت) مش drei، وبعد der آخره e: der dritte April.",
+      "lesson": 34
+    },
+    {
+      "q": "Lisa hat am ___ Juli Geburtstag.",
+      "answer": "siebten",
+      "opts": ["siebten", "siebte", "sieben"],
+      "ar": "عيد ميلاد ليزا يوم 7 يوليو.",
+      "why": "بعد am العدد الترتيبي آخره en: am siebten Juli. (sieben = سبعة، siebte = السابع)",
+      "lesson": 34
+    },
+    {
+      "q": "Der ___ ist heute? – Heute ist der erste Juni.",
+      "answer": "Wievielte",
+      "opts": ["Wievielte", "Wie viel", "Welcher"],
+      "ar": "النهارده كام في الشهر؟ – النهارده 1 يونيو.",
+      "why": "سؤال التاريخ: Der Wievielte ist heute? (حرفيًا: النهارده الكام؟). أما Welcher Tag ist heute? فبتسأل عن اليوم في الأسبوع.",
+      "lesson": 34
+    },
+    {
+      "q": "Morgen ist der ___ Oktober.",
+      "answer": "zwanzigste",
+      "opts": ["zwanzigste", "zwanzigte", "zwanzig"],
+      "ar": "بكرة 20 أكتوبر.",
+      "why": "من 1 لـ 19 بنزوّد te (vierte، zwölfte)، ومن 20 وطالع بنزوّد ste: zwanzigste، dreißigste.",
+      "lesson": 34
+    },
+    {
+      "q": "Heute ist Donnerstag. Übermorgen ist ___.",
+      "answer": "Samstag",
+      "opts": ["Samstag", "Freitag", "Dienstag"],
+      "ar": "النهارده الخميس. بعد بكرة السبت.",
+      "why": "übermorgen = بعد بكرة: Donnerstag، بعده Freitag (بكرة)، وبعده Samstag.",
+      "lesson": 34
+    },
+    {
+      "q": "Max hat ___ zehnten bis zum zwanzigsten Mai Urlaub.",
+      "answer": "vom",
+      "opts": ["vom", "von", "am"],
+      "ar": "ماكس عنده إجازة من 10 لحد 20 مايو.",
+      "why": "من تاريخ لتاريخ: vom … bis zum … (vom = von + dem)، والعدد بعدها آخره en زي بعد am. و von zehnten من غير dem غلط، و am لتاريخ واحد بس، مش لفترة «من … لحد …».",
+      "lesson": 34
+    },
+    {
+      "q": "___ Monat habe ich Urlaub.",
+      "answer": "Nächsten",
+      "opts": ["Nächsten", "Nächste", "Nächstes"],
+      "ar": "الشهر الجاي عندي إجازة.",
+      "why": "der Monat مذكّر، والتعبير في حالة النصب فبياخد en زي den: nächsten Monat. (nächste Woche، nächstes Jahr)",
+      "lesson": 35
+    },
+    {
+      "q": "___ Sommer ist es warm und sonnig.",
+      "answer": "Im",
+      "opts": ["Im", "In", "Am"],
+      "ar": "في الصيف الجو بيبقى دافي ومشمس.",
+      "why": "مع الفصول im زي الشهور، لإن الفصول مذكّر: im Sommer = in dem Sommer. و In Sommer غلط.",
+      "lesson": 54
+    },
+    {
+      "q": "Ich finde ___ Herbst am schönsten.",
+      "answer": "den",
+      "opts": ["den", "die", "das"],
+      "ar": "أنا شايف إن الخريف هو الأحلى.",
+      "why": "der Herbst مذكّر، وهنا مفعول به (حالة النصب) فـ der بتبقى den.",
+      "lesson": 54
+    },
+    {
+      "q": "Wir haben ___ Deutschkurs.",
+      "answer": "dienstags",
+      "opts": ["dienstags", "am Dienstags", "im Dienstag"],
+      "ar": "عندنا كورس ألماني كل تلات.",
+      "why": "dienstags = كل تلات (عادة بتتكرر): بحرف صغير وفي آخرها s ومن غير am.",
+      "lesson": 66
+    }
+  ],
+  "lists": {
+    "days": [
+      { "de": "Montag", "ar": "الاتنين" },
+      { "de": "Dienstag", "ar": "التلات" },
+      { "de": "Mittwoch", "ar": "الأربع" },
+      { "de": "Donnerstag", "ar": "الخميس" },
+      { "de": "Freitag", "ar": "الجمعة" },
+      { "de": "Samstag", "ar": "السبت" },
+      { "de": "Sonntag", "ar": "الحد" }
+    ],
+    "months": [
+      { "de": "Januar", "ar": "يناير" },
+      { "de": "Februar", "ar": "فبراير" },
+      { "de": "März", "ar": "مارس" },
+      { "de": "April", "ar": "أبريل" },
+      { "de": "Mai", "ar": "مايو" },
+      { "de": "Juni", "ar": "يونيو" },
+      { "de": "Juli", "ar": "يوليو" },
+      { "de": "August", "ar": "أغسطس" },
+      { "de": "September", "ar": "سبتمبر" },
+      { "de": "Oktober", "ar": "أكتوبر" },
+      { "de": "November", "ar": "نوفمبر" },
+      { "de": "Dezember", "ar": "ديسمبر" }
+    ]
+  }
+}

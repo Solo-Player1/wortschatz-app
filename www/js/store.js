@@ -16,6 +16,7 @@ const DEFAULTS = () => ({
   xp: 0,
   lastSession: null,
   vs: { wins: 0, losses: 0, ties: 0, played: 0, best: {} },   // نتايج اللعب مع صاحبك (بتتحفظ في النسخة الاحتياطية)
+  reading: {},                                           // قطع القراءة: id → {best, last, tries, words, done, self?}
   videos: {},                                            // الحلقات المحفوظة على التليفون: n → {uri, bytes, date}
   updates: { lastCheck: 0, available: null, dismissed: 0, wsUrl: '' },   // wsUrl بيجي من ملف التحديثات على GitHub
 });

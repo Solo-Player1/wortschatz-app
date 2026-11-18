@@ -147,7 +147,8 @@ function launch(root, game, pool, isHost, peerName) {
   const mod = vsGame(game); if (!mod) { toast('لعبة مش موجودة'); location.hash = '#/vs'; return; }
   try { vs && vs.destroy(); } catch (e) { /* ignore */ }
   const onExit = reason => {
-    if (reason === 'quit') { location.hash = '#/vs'; return; }
+    // الماتش بيترسم في نفس #/vs → تغيير الهاش مش هيعمل حاجة؛ نرسم اللوبي تاني (وده بيقفل الماتش ويرجّع شريط التابات)
+    if (reason === 'quit') { if (location.hash === '#/vs') renderVs(root); else location.hash = '#/vs'; return; }
     if (reason === 'rematch') { launch(root, game, pool, isHost, peerName); return; }
   };
   vs = makeVs(root, { meta: mod.meta, net, isHost, meName: myName(), peerName, pool, onExit });

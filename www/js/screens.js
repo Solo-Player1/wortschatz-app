@@ -15,6 +15,7 @@ import { speak, ttsStatus, installGermanVoice } from './tts.js';
 import { notifySupported, notifyPermission, requestNotifyPermission, replan } from './notify.js';
 import { grammarHtml, wireRefSay } from './reference.js';
 import { shareText, shareFile, isNative, plugin } from './native.js';
+import { hasGeminiKey, getGeminiKey, setGeminiKey, testGeminiKey, errorText } from './gemini.js';
 
 const STAGE_AR = { new: 'جديدة', learning: 'بتتعلمها', known: 'عارفها', mastered: 'ثابتة' };
 const KIND_AR = { noun: 'اسم', verb: 'فعل', phrase: 'جملة', word: 'كلمة' };
@@ -243,10 +244,12 @@ export function renderHome(root) {
   ${c.due > 0 ? `<a class="card list-item link due-card" href="#/session"><span class="due-num">${c.due}</span><div class="grow"><b>كلمات مستحقة للمراجعة</b><p class="muted small">المراجعة في وقتها = مش هتنسى</p></div><span class="btn btn-navy">راجع</span></a>` : ''}
 
   <div class="grid2 home-quick">
-    <a class="card quick" href="#/games"><span>🎮</span><b>الألعاب</b><small>12 لعبة بالقلوب</small></a>
+    <a class="card quick" href="#/games"><span>🎮</span><b>الألعاب</b><small>13 لعبة بالقلوب</small></a>
     <a class="card quick" href="#/session"><span>🎯</span><b>مذاكرة حرة</b><small>${esc(planText(c, c.total - c.new > 0))}</small></a>
     <a class="card quick" href="#/ref"><span>📒</span><b>المراجع</b><small>أفعال · استفهام · حروف · أرقام</small></a>
     <a class="card quick" href="#/stats"><span>📈</span><b>إحصائياتي</b><small>${countPassed()} درس خلصان من ${DATA.lessons.length}</small></a>
+    <a class="card quick" href="#/read"><span>📖</span><b>قطع القراءة</b><small>اقرا واكتب فهمك — Gemini يصحّح</small></a>
+    <a class="card quick" href="#/ref/topics"><span>🧩</span><b>قواعد مهمة</b><small>der/ein · mein · ihr · حروف الجر …</small></a>
   </div>
 
   <section class="card home-games">
@@ -339,6 +342,8 @@ export function renderLessons(root) {
       <a class="hg" href="#/ref/verbs"><span>🔁</span>الأفعال</a>
       <a class="hg" href="#/ref/wwords"><span>❓</span>الاستفهام</a>
       <a class="hg" href="#/ref/grammar"><span>📖</span>الشرح</a>
+      <a class="hg" href="#/ref/topics"><span>🧩</span>قواعد مهمة</a>
+      <a class="hg" href="#/read"><span>📄</span>القراءة</a>
       <a class="hg" href="#/library"><span>📚</span>المكتبة</a>
     </div>
   </section>
@@ -733,6 +738,14 @@ export function renderSettings(root) {
     <p class="hint set-note" id="planNote">${esc(planNoteText())}</p>
   </section>
 
+  <section class="card" id="geminiCard">
+    <h2 class="sec-title">🤖 تصحيح القراءة (Gemini)</h2>
+    <p class="hint">في <a href="#/read">قطع القراءة</a> بتكتب بالعربي فهمت إيه، و Gemini بيقولك فهمت كام في المية. محتاج مفتاح مجاني من Google AI Studio — بيتحفظ على الموبايل ده بس (مش في النسخة الاحتياطية)، ومش بيتبعت غير لجوجل.</p>
+    <p class="set-note" id="geminiState">${hasGeminiKey() ? '✓ المفتاح محفوظ' : 'لسه مفيش مفتاح'}</p>
+    <div class="row rf-try"><input id="geminiKey" class="input" type="password" autocomplete="off" spellcheck="false" dir="ltr" placeholder="الصق المفتاح هنا" aria-label="مفتاح Gemini"><button type="button" class="btn btn-primary" id="geminiSave">احفظ وجرّب</button></div>
+    <button type="button" class="btn btn-ghost" id="geminiClear" ${hasGeminiKey() ? '' : 'hidden'}>امسح المفتاح</button>
+  </section>
+
   <section class="card">
     <h2 class="sec-title">الصوت</h2>
     <div class="setting-row"><div><b>أصوات الألعاب</b><p class="hint">صوت الصح والغلط والفوز</p></div>${switchHtml('gameSounds', s.gameSounds !== false, 'أصوات الألعاب')}</div>
@@ -804,6 +817,27 @@ export function renderSettings(root) {
     if (note) note.textContent = planNoteText();
     toast(`تمام — هدفك تخلّص A1 يوم ${fmtDate(v, true)}`);
   });
+
+  // 🤖 مفتاح Gemini (على الجهاز بس)
+  const gState = $('#geminiState'), gInput = $('#geminiKey'), gSave = $('#geminiSave'), gClear = $('#geminiClear');
+  gSave.addEventListener('click', async () => {
+    const k = gInput.value.trim() || getGeminiKey();          // فاضي = جرّب المفتاح المحفوظ تاني
+    if (!k) { toast('الصق المفتاح الأول'); return; }
+    gSave.disabled = true; gState.textContent = 'بجرّب المفتاح…';
+    try {
+      const model = await testGeminiKey(k);
+      setGeminiKey(k);
+      gInput.value = '';
+      gState.textContent = `✓ المفتاح شغّال ومحفوظ (${model})`;
+      toast('مفتاح Gemini شغّال ✓');
+    } catch (e) {
+      // المفتاح بيتحفظ برضه لو المشكلة مش منه (نت/حد مجاني) — عشان ما يلزقوش تاني، بس بنقول إنه لسه ما اتجرّبش
+      const kept = !!e && e.code !== 'badkey';
+      if (kept) { setGeminiKey(k); gInput.value = ''; }
+      gState.textContent = errorText(e) + (kept ? ' (المفتاح اتحفظ بس لسه ما اتجرّبش — دوس «احفظ وجرّب» تاني بعدين)' : '');
+    } finally { gSave.disabled = false; gClear.hidden = !hasGeminiKey(); }
+  });
+  gClear.addEventListener('click', () => { setGeminiKey(''); gState.textContent = 'لسه مفيش مفتاح'; gClear.hidden = true; toast('اتمسح المفتاح'); });
 
   // الصوت الألماني
   const tState = $('#ttsState'), tInstall = $('#btnTtsInstall');

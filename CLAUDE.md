@@ -35,7 +35,8 @@ www/                    the app (served as-is by Capacitor; web updates replace 
   audio/*.mp3           DW word recordings (1714 files) — w.file; downloaded by extract_dw.py
   img/posters/L<n>.webp episode posters 480×270 (tools/build_videos_index.py --posters)
   lib/                  library docs (PDF/HTML guides & exams) — new files only after asking Abdullah
-content/                SOURCE of content.json: L01..L76.json + verbs.json + wwords.json + alphabet.json
+content/                SOURCE of content.json: L01..L76.json + verbs.json + wwords.json + alphabet.json + topics/<id>.json
+reading/passages.json   SOURCE of the 20 reading passages (build_content.py copies it to www/data/passages.json)
 tools/                  Python build tools (run from project root, see "Pipelines")
   cache/L<id>.html      cached DW lesson pages (Apollo state: words, videos, subtitle links, exercise names)
 tests/                  engine.test.mjs + plan.test.mjs + grading.test.mjs (node) · e2e/ (Edge headless via CDP)
@@ -58,13 +59,16 @@ SPEC.md · GAMES_SPEC.md · CONTENT_SPEC.md · README.md   detailed contracts (o
 | `#/ref/:page` | references: verbs, wwords, alphabet, numbers, grammar (reference.js) |
 | `#/video/:n` | episode player + download (video.js) |
 | `#/vs` | play with your friend online (online/*) |
+| `#/read` · `#/read/:id` | 📖 reading passages: new words + quiz → text (TTS) → write your understanding in Arabic → Gemini grades % (reading.js + gemini.js) |
+| `#/ref/topics` · `#/ref/topic?id=` | 🧩 the 8 grammar topics Abdullah asked for (page + quiz game `#/game/grammar?topic=`) |
 | `#/stats` · `#/settings` · `#/library` · `#/lib/:id` | stats & badges · settings · library |
 
 **State** (`store.js`, localStorage key `ws:v1`): `settings` (theme, dailyGoal, newPerSession, typing, autoplay, name,
 missionMode `lesson|goal`, notify*, gameSounds, **planOn**, **planTarget** `YYYY-MM-DD`…), `progress[wordId]`
 (SRS box/due/seen/ok/bad + typed), `items[itemId]` (sentences/wfragen/verbs results), `exams[n]` (`passed`/`crown` =
 **day index**, best, tries), `games`, `days[YYYY-MM-DD]` (done, xp, sessions, new, exams, crowns…), `streak`, `xp`,
-`vs`, `videos` (device), `updates` (device). Day math: `today()`, `dayIndex()`, `todayIndex()`, `dateFromIndex()`.
+`vs`, `reading` (passage id → best/last/tries/words/done), `videos` (device), `updates` (device). The Gemini key lives in its own
+localStorage key **`ws:gemini`** (device-only, never in backups, never in the app files — the repo and update zips are public). Day math: `today()`, `dayIndex()`, `todayIndex()`, `dateFromIndex()`.
 
 ## Module map (`www/js`)
 | module | role · key exports |
@@ -84,9 +88,11 @@ missionMode `lesson|goal`, notify*, gameSounds, **planOn**, **planTarget** `YYYY
 | `reference.js` · `library.js` · `video.js` | references (verbs page: default = verbs up to `studiedUpTo()`, «كل الأفعال» switch, tolerant search: ä=a=ae, Arabic hamza/tashkeel/verb prefixes, DW's MSA gloss, pronouns ignored, 140 ms debounce, `content-visibility` cards; `grammarHtml()` wraps each table in `.rf-tscroll` so wide tables scroll inside their card) · library (iframe/pdf.js) · videos (stream + FileTransfer download) |
 | `audio.js` · `tts.js` | DW mp3 playback (single Audio element) · German TTS (native TtsPlugin or Web Speech) |
 | `native.js` | the only module touching `window.Capacitor` · `isNative plugin shareText shareFile openExternal` |
+| `back.js` | Android back button (`@capacitor/app` backButton): fullscreen → session dialog → cancelable `app-back` window event (a page with inner steps calls `preventDefault`; its listener must check its OWN node's `isConnected`, `#view` is always connected) → running session/game/online ✕ → library iframe exam asks first → previous calm page (history trimmed on revisit) → home minimizes the app · `initBackButton handleBack backTarget parentOf` |
+| `reading.js` · `gemini.js` | 📖 passages (`www/data/passages.json`, lazy, render token) · back inside a passage steps back (grading/error → «فهمك», text kept, a late Gemini reply ignored) · Gemini REST (`x-goog-api-key`, models: flash-lite-latest → 3.5-flash-lite → flash-latest on 404/5xx/bad; key/quota/network/timeout stop at once; structured JSON score/understood/missed/wrong/feedback; `errorText` in Egyptian) · finishing a passage gives XP once + bumps the streak |
 | `update.js` · `version.js` | update check (manifest) + banner · generated version constants (`WEB_BUILD`) |
 | `ui.js` | `el esc toast applyTheme deHtml shuffle confetti …` |
-| `games/` | `engine.js` (shared shell: start screen, hearts, combo, sfx, `runGame`), `rounds.js` (typeBox/choiceGrid/tiles/askTiles…), `hub.js`, `index.js` (registry `GAME_IDS`), one file per game: alphabet articles cloze listen-write memory numbers rain scramble sentence truefalse verbs wfragen. `wfragen.js` «إيه السؤال؟»: a wrong option may share no stem with the reply, its own reply must not look alike (`replyCore`: stems + #time/#price/#like), generic and «Warum» questions only as a last resort, B rounds only for replies with a real verb form (from the verb table) — regression check in `t_fixes2.mjs` (lessons 5–71) |
+| `games/` | `engine.js` (shared shell: start screen, hearts, combo, sfx, `runGame`), `rounds.js` (typeBox/choiceGrid/tiles/askTiles…), `hub.js`, `index.js` (registry `GAME_IDS`), one file per game: alphabet articles cloze listen-write memory numbers rain scramble sentence truefalse verbs wfragen grammar (🧩 topic quizzes, `?topic=`). `wfragen.js` «إيه السؤال؟»: a wrong option may share no stem with the reply, its own reply must not look alike (`replyCore`: stems + #time/#price/#like), generic and «Warum» questions only as a last resort, B rounds only for replies with a real verb form (from the verb table) — regression check in `t_fixes2.mjs` (lessons 5–71) |
 | `online/` | `net.js` (WebSocket + auto-reconnect/rejoin, RTT), `presence.js` (warm connection + ping badge), `lobby.js`, `engine2.js` (shared vs UI, resync), `qgen.js` (host builds questions), `race.js` (speed games), `games/build.js`, `games/bingo.js` |
 
 ## Data schemas (short)
@@ -115,13 +121,17 @@ missionMode `lesson|goal`, notify*, gameSounds, **planOn**, **planTarget** `YYYY
 1. `python tools/lesson_pack.py <n> [--vocab]` — DW words, DW grammar topic, episode dialogue, known vocabulary.
 2. write `content/L<NN>.json` → `python tools/check_content.py <n>` until 0 ERROR (also checks episode claims).
 3. verbs / question words: edit `content/verbs.json` · `content/wwords.json` → `python tools/check_verbs.py` until 0 ERROR.
+   Grammar topics: `content/topics/<id>.json` (sections + quiz, daysmonths also `lists`) → `python tools/check_topics.py`.
 4. `python tools/build_content.py` → `www/data/content.json` (`MAX_LESSON = 77`; links sentence words to word ids).
 
 **Release** (ask Abdullah first!) — web update: `python tools/web_update.py make --notes "..."` (bumps `WEB_BUILD`,
-zips changed `www/` files vs `updates/baseline-3.json`, writes the manifest web entry) → `gh release create web-<n>
+zips changed `www/` files vs `updates/baseline-<versionCode>.json`, writes the manifest web entry) → `gh release create web-<n>
 dist/www-<n>.zip` → push `updates/manifest.json` (order matters; raw.githubusercontent caches ~5 min). Version label =
 `1.<WEB_BUILD>`. APK: `tools/bump_version.py` (**resets WEB_BUILD to 0** — set it back by hand) + `tools/build_apk.cmd`
 (JDK/SDK in `C:\Users\abdel\AndroidDev`, keystore in `android/keystore/` — same key or updates won't install).
+Current: **1.8 (versionCode 4, WEB_BUILD 8, 18/11/2026)** — an APK because it added the native `@capacitor/app` plugin
+(back button); web updates now diff against `updates/baseline-4.json`. Publish order: release asset first, then push the
+manifest. (The unused GitHub release `web-7` from the same morning was never in the manifest.)
 
 ## Tests
 - `node tests/plan.test.mjs` · `node tests/grading.test.mjs` (DW notations in typed answers, no mangled DW entries) —

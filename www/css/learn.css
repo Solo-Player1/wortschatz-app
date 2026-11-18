@@ -136,3 +136,41 @@ a.card.list-item { display: flex; align-items: center; gap: 12px; text-decoratio
 a.card.list-item b { font-family: var(--font-head); }
 
 .credit { margin: 18px 0 6px; }
+
+/* ---------- 📖 قطع القراءة (reading.js) ---------- */
+.rd-head .chips-row { margin-top: 8px; }
+.rd-level .sec-title .muted { font-weight: 500; }
+.rd-item { gap: 10px; }
+.rd-item .rd-ico { font-size: 22px; flex: none; }
+.rd-item.done b { color: var(--good-text, var(--good)); }
+.rd-title h1 { margin-bottom: 2px; }
+.rd-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 10px; }
+.rd-steps span { text-align: center; font-size: 12.5px; padding: 6px 2px; border-radius: 8px; background: var(--surface-2); color: var(--muted); }
+.rd-steps span.on { background: var(--blue); color: #fff; font-weight: 700; }
+.rd-words .list-item { gap: 10px; }
+.rd-words .de { font-family: var(--font-de); font-size: 17px; }
+.rd-quiz h2 { font: 800 26px var(--font-de); margin: 10px 0 14px; overflow-wrap: anywhere; }
+.rd-opt.ok { background: var(--good-tint); border-color: var(--good); }
+.rd-opt.bad { background: var(--bad-tint, #fde8e8); border-color: var(--bad, #d33); }
+.rd-text { font: 500 18px/1.9 var(--font-de); color: var(--ink); text-align: left; overflow-wrap: anywhere; margin: 8px 0 12px; }
+.rd-text.sm { font-size: 15.5px; line-height: 1.75; }
+.rd-text p { margin: 0 0 12px; }
+.rd-text mark { background: var(--warn-tint); color: inherit; border-radius: 4px; padding: 0 2px; }
+.rd-words-mini, .rd-peek, .rd-ref { margin: 8px 0 12px; }
+.rd-words-mini summary, .rd-peek summary, .rd-ref summary { cursor: pointer; font-weight: 700; padding: 4px 0; }
+.rd-answer { width: 100%; font-size: 16px; line-height: 1.8; resize: vertical; min-height: 150px; margin: 6px 0 10px; text-align: right; }
+.rd-wait .rd-spin { display: inline-block; animation: rd-pulse 1.2s ease-in-out infinite; }
+@keyframes rd-pulse { 50% { transform: scale(1.15); opacity: .6; } }
+.rd-score .rd-pct { font: 900 54px var(--font-head); line-height: 1.1; margin: 6px 0; }
+.rd-score.good .rd-pct { color: var(--good); }
+.rd-score.warn .rd-pct { color: var(--warn-text, #b7791f); }
+.rd-score.bad .rd-pct { color: var(--bad, #d33); }
+.rd-list { margin: 6px 0 0; padding-inline-start: 20px; line-height: 1.8; }
+.rd-list li { margin-bottom: 6px; overflow-wrap: anywhere; }
+.rd-list .de { font-family: var(--font-de); font-weight: 600; }
+.rd-ref-text { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; line-height: 1.9; margin: 8px 0 12px; }
+.rd-ref-text p { margin: 0 0 8px; }
+.rd-mine { border-inline-start: 3px solid var(--blue); padding-inline-start: 10px; margin: 8px 0 12px; }
+.rd-mine p { margin: 4px 0 0; white-space: pre-wrap; }
+.warn-text { color: var(--warn-text, #b7791f); }
+#geminiCard .rf-try .input { font: 500 14px var(--font-de); text-align: left; min-width: 0; }

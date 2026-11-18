@@ -1,0 +1,318 @@
+{
+  "id": "articles",
+  "title": "التعريف والتنكير: der / die / das ولا ein / eine؟",
+  "icon": "🏷️",
+  "lesson": 21,
+  "summary": "هتعرف إمتى تقول der وإمتى ein، وإمتى من غير أداة خالص، وإزاي تخمّن جنس الاسم.",
+  "sections": [
+    {
+      "h": "der / die / das = the = «ال»",
+      "body": "في العربي الاسم لوحده من غير «ال» بيبقى نكرة (كتاب)، وبـ «ال» بيبقى معرفة (الكتاب). الإنجليزي نفس الفكرة: a book و the book. والألماني كمان: der / die / das هي أداة التعريف (= the = «ال»)، وein / eine هي أداة التنكير (= a / an). وein معناها الأصلي «واحد»، زي ما بنقول بالمصري «واحد صاحبي». الفرق الكبير إن «ال» و the شكل واحد مع كل الأسماء، لكن في الألماني الأداة بتتغيّر على حسب جنس الاسم، وكمان في الجمع ولما الاسم يبقى مفعول به (هتشوفهم تحت).",
+      "table": [
+        ["بالعربي", "بالإنجليزي", "بالألماني"],
+        ["كتاب", "a book", "ein Buch"],
+        ["الكتاب", "the book", "das Buch"],
+        ["شنطة", "a bag", "eine Tasche"],
+        ["الشنطة", "the bag", "die Tasche"]
+      ],
+      "examples": [
+        { "de": "Das ist ein Buch.", "ar": "ده كتاب.", "lesson": 22 },
+        { "de": "Wo ist das Buch? – Das Buch ist hier.", "ar": "الكتاب فين؟ – الكتاب هنا.", "lesson": 21 }
+      ]
+    },
+    {
+      "h": "ein / eine مش زي a / an",
+      "body": "في الإنجليزي a ولا an على حسب أول صوت في الكلمة: a book، an apple. لكن في الألماني ein ولا eine على حسب جنس الاسم، ومالهاش دعوة بأول حرف: ein مع المذكّر والمحايد، وeine مع المؤنّث. يعني an idea = eine Idee (die Idee)، وan apple = ein Apfel (der Apfel). ولما الاسم المذكّر يبقى مفعول به (Akkusativ، بعد haben و suchen و kennen…) der بتبقى den وein بتبقى einen، والمؤنّث والمحايد زي ما هما (درس 23 و25). وخد بالك: das اللي في «Das ist …» معناها «ده / دي»، وبتفضل das مع أي اسم: Das ist eine Tasche.",
+      "table": [
+        ["", "مذكّر", "مؤنّث", "محايد"],
+        ["معرّف", "der", "die", "das"],
+        ["نكرة", "ein", "eine", "ein"],
+        ["مفعول به", "den / einen", "die / eine", "das / ein"]
+      ],
+      "examples": [
+        { "de": "Ich habe eine Idee.", "ar": "عندي فكرة.", "lesson": 14 },
+        { "de": "Das ist ein Stift. Das ist eine Brille.", "ar": "ده قلم. ودي نضّارة.", "lesson": 22 },
+        { "de": "Wir suchen einen Mitbewohner.", "ar": "بندوّر على شريك سكن.", "lesson": 25 }
+      ]
+    },
+    {
+      "h": "أول مرة ein، وبعد كده der: زي العربي بالظبط",
+      "body": "أول مرة تذكر حاجة والسامع لسه مايعرفهاش، قول ein / eine. ولما تبقى معروفة ليكم إنتوا الاتنين، قول der / die / das. وده نفس اللي بتعمله في العربي من غير ما تاخد بالك: «نيكو معاه موبايل. الموبايل جديد.» والحاجة بتبقى معروفة لما تكون اتذكرت قبل كده، أو تكونوا عارفين هي بتاعة مين (die Tasche von Jenny = الشنطة بتاعة جيني)، أو مفيش غيرها (die Sonne = الشمس)، أو تكون باينة من الموقف (Sie sucht die Brille = بتدوّر على نضّارتها هي). وخد بالك من فخ العربي: «مفتاح ليزا» و«عاصمة مصر» من غير «ال»، بس معروفين، فبالألماني بـ der / die: der Schlüssel von Lisa، die Hauptstadt von Ägypten.",
+      "table": [
+        ["إمتى؟", "الأداة", "مثال"],
+        ["أول مرة / مش محدّدة", "ein / eine", "Das ist eine Tasche."],
+        ["اتذكرت قبل كده", "der / die / das", "Die Tasche ist rot."],
+        ["عارفين صاحبها", "der / die / das", "die Tasche von Jenny"],
+        ["مفيش غيرها", "der / die / das", "die Hauptstadt von Ägypten"]
+      ],
+      "examples": [
+        { "de": "Nico hat ein Handy. Das Handy ist neu.", "ar": "نيكو معاه موبايل. الموبايل جديد.", "lesson": 24 },
+        { "de": "Das ist eine Tasche. Und das ist die Tasche von Jenny.", "ar": "دي شنطة. ودي الشنطة بتاعة جيني.", "lesson": 22 },
+        { "de": "Berlin ist die Hauptstadt von Deutschland.", "ar": "برلين هي عاصمة ألمانيا. («عاصمة» من غير «ال»، بس معروفة ← die)", "lesson": 18 },
+        { "de": "Sie sucht die Brille.", "ar": "بتدوّر على النضّارة. (نضّارتها هي بالذات، مش أي نضّارة)", "lesson": 21 }
+      ]
+    },
+    {
+      "h": "الجمع: مفيش ein خالص",
+      "body": "ein معناها «واحد»، فمالهاش جمع. الجمع النكرة بييجي من غير أداة: ein Buch → Bücher، زي «كتاب ← كتب» في العربي و a book → books في الإنجليزي. والجمع المعرّف أداته die لكل الأجناس، حتى لو المفرد der أو das: der Stift → die Stifte، das Buch → die Bücher. وdie دي بتفضل زي ما هي مع الفاعل والمفعول به، ومابتتغيّرش غير في حالة الجر (درس 39). والنفي: kein Buch → keine Bücher (درس 23). ولو الجمع زي المفرد (der Schlüssel → die Schlüssel)، die والفعل sind هما اللي بيقولولك إنه جمع.",
+      "table": [
+        ["", "مفرد", "جمع"],
+        ["معرّف", "das Buch", "die Bücher"],
+        ["نكرة", "ein Buch", "Bücher"],
+        ["نفي", "kein Buch", "keine Bücher"]
+      ],
+      "examples": [
+        { "de": "Das sind Wörterbücher.", "ar": "دي قواميس.", "lesson": 22 },
+        { "de": "Das sind fünf Stifte. Die Stifte kosten 7,50 Euro.", "ar": "دول 5 أقلام. الأقلام بـ 7 يورو و50 سنت.", "lesson": 22 },
+        { "de": "Hier leben viele Kinder.", "ar": "فيه عيال كتير عايشين هنا.", "lesson": 25 }
+      ]
+    },
+    {
+      "h": "من غير أداة: أسامي الناس والبلاد واللغات",
+      "body": "فيه أسماء بتيجي من غير أداة: أسامي الناس (Nico، Lisa، Herr Müller)، والمدن وأغلب البلاد (in Berlin، aus Ägypten)، واللغات بعد sprechen (Ich spreche Arabisch)، والوظيفة بعد sein غالبًا (Lisa ist Lehrerin). بس فيه بلاد قليلة ليها أداة ولازم تتحفظ معاها: die Schweiz، die Türkei، die USA (جمع)، زي ما عندنا «مصر» من غير «ال» و«العراق» بـ «ال». وفي حلقة درس 21 نيكو سأل ليزا: Du bist eine Lehrerin? وده صح برضه، بس الأشهر إن الوظيفة تيجي من غير أداة. ولو قبل الوظيفة صفة لازم ein / eine: Lisa ist eine gute Lehrerin (ده هتاخده في درس 57). وفي جنوب ألمانيا ممكن تسمع «der Nico» في الكلام، بس إنت قول الاسم لوحده.",
+      "table": [
+        ["النوع", "مثال"],
+        ["أسامي الناس", "Das ist Nico."],
+        ["المدن وأغلب البلاد", "Ich komme aus Ägypten."],
+        ["بلاد ليها أداة", "die Schweiz / die Türkei / die USA"],
+        ["اللغات", "Ich spreche Arabisch."],
+        ["الوظيفة بعد sein", "Lisa ist Lehrerin."]
+      ],
+      "examples": [
+        { "de": "Nico kommt aus Spanien. Er wohnt jetzt in Deutschland.", "ar": "نيكو من إسبانيا. ساكن دلوقتي في ألمانيا.", "lesson": 7 },
+        { "de": "Ich war noch nie in der Schweiz.", "ar": "عمري ما كنت في سويسرا. (بعد in الأداة بتبقى der: دي حالة الجر، درس 39)", "lesson": 17 },
+        { "de": "Lisa ist Lehrerin. Sie unterrichtet Deutsch.", "ar": "ليزا مدرّسة. بتدرّس ألماني.", "lesson": 21 }
+      ]
+    },
+    {
+      "h": "بتتكلم بشكل عام؟ هنا العربي بيلخبطك",
+      "body": "في العربي بنحط «ال» حتى لما نتكلم بشكل عام: «بحب الشاي»، «بحب الأطفال». الألماني (زي الإنجليزي) لأ: الأكل والشرب اللي مابيتعدّش (Tee، Wasser، Käse) والجمع (Kinder)، لما تتكلم عنهم بشكل عام، بييجوا من غير أداة: Ich mag Tee. = I like tea. ولو قلت Ich mag den Tee يبقى قصدك شاي معيّن. ولما تطلب كوباية بتقول ein، زي «واحد شاي» عندنا: Ein Wasser, bitte! والمذكّر بيبقى einen، عشان المعنى Ich möchte einen Tee: Einen Tee, bitte! (درس 14). وفيه عبارات ثابتة من غير أداة: Ich habe Hunger / Durst (درس 15).",
+      "table": [
+        ["بالعربي", "بالألماني"],
+        ["بحب الشاي", "Ich mag Tee."],
+        ["بحب الجبنة", "Ich mag Käse."],
+        ["بحب الأطفال", "Ich mag Kinder."],
+        ["أنا جعان", "Ich habe Hunger."]
+      ],
+      "examples": [
+        { "de": "Ich trinke gern Tee.", "ar": "بحب أشرب شاي (بشكل عام).", "lesson": 14 },
+        { "de": "Einen Tee, bitte!", "ar": "واحد شاي لو سمحت!", "lesson": 14 },
+        { "de": "Ich mag Kinder.", "ar": "بحب الأطفال.", "lesson": 25 }
+      ]
+    },
+    {
+      "h": "إزاي تعرف جنس الاسم؟",
+      "body": "القاعدة الأساسية (درس 14 و21): احفظ كل اسم بأداته، der Stift مش Stift. وماتترجمش الجنس من العربي: «الأوضة» مؤنّث بس das Zimmer، و«الأستيكة» مؤنّث بس der Radiergummi. الراجل غالبًا der والست die (der Vater، die Mutter)، بس das Kind و das Mädchen (البنت!) محايد. والعلامات اللي في الجدول بتساعدك، بس خد بالك: -in لازم تكون لست (der Wein و der Termin مش ستات!)، و-chen لازم تكون تصغير (der Kuchen مذكّر)، وأيام الأسبوع كلها der بس das Wochenende محايد (عشان das Ende). ولما حد يسألك Wie heißt das auf Deutsch? رد بالاسم وأداته: Das Buch!",
+      "table": [
+        ["العلامة", "الأداة", "مثال"],
+        ["كلمة مركّبة", "أداة آخر جزء", "das Wörterbuch"],
+        ["-in (للست)", "die", "die Lehrerin"],
+        ["-ung", "die", "die Wohnung"],
+        ["-heit / -keit / -tät", "die", "die Universität"],
+        ["-chen (تصغير)", "das", "das Mädchen"],
+        ["فعل بقى اسم", "das", "das Essen"],
+        ["أيام الأسبوع / الشهور / الفصول", "der", "der Montag"]
+      ],
+      "examples": [
+        { "de": "Das Wörterbuch ist neu.", "ar": "القاموس جديد. (عشان das Buch)", "lesson": 24 },
+        { "de": "Die Lehrerin heißt Lisa.", "ar": "المدرّسة اسمها ليزا.", "lesson": 21 },
+        { "de": "Die Wohnung ist billig.", "ar": "الشقة رخيصة.", "lesson": 24 },
+        { "de": "Das Essen ist sehr gut.", "ar": "الأكل حلو أوي.", "lesson": 16 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ich komme aus ___.",
+      "answer": "Ägypten",
+      "opts": ["Ägypten", "das Ägypten", "die Ägypten"],
+      "ar": "أنا من مصر.",
+      "why": "أغلب البلاد والمدن من غير أداة: aus Ägypten، in Kairo. زي «مصر» في العربي من غير «ال».",
+      "lesson": 7
+    },
+    {
+      "q": "___ Milch ist im Kühlschrank.",
+      "answer": "Die",
+      "opts": ["Die", "Der", "Das"],
+      "ar": "اللبن في التلاجة.",
+      "why": "die Milch مؤنّث، مع إن «اللبن» عندنا مذكّر. الجنس مابيتنقلش من العربي: احفظ الاسم بأداته.",
+      "lesson": 14
+    },
+    {
+      "q": "Ich habe ___ Idee!",
+      "answer": "eine",
+      "opts": ["eine", "ein", "einen"],
+      "ar": "عندي فكرة!",
+      "why": "Idee مؤنّث (die Idee)، فبنقول eine، حتى لو بالإنجليزي an idea. ein / eine بيمشوا بالجنس مش بأول حرف.",
+      "lesson": 14
+    },
+    {
+      "q": "Ich esse gern ___.",
+      "answer": "Käse",
+      "opts": ["Käse", "der Käse", "ein Käse"],
+      "ar": "بحب آكل الجبنة.",
+      "why": "بتتكلم عن الجبنة بشكل عام، فمن غير أداة. بالعربي بنقول «بحب الجبنة» بـ «ال»، بس الألماني لأ.",
+      "lesson": 15
+    },
+    {
+      "q": "Ich habe ___. Hast du Wasser?",
+      "answer": "Durst",
+      "opts": ["Durst", "ein Durst", "der Durst"],
+      "ar": "أنا عطشان. معاك مية؟",
+      "why": "Hunger و Durst بييجوا مع haben ومن غير أداة: Ich habe Durst = أنا عطشان.",
+      "lesson": 15
+    },
+    {
+      "q": "___ Rechnung, bitte!",
+      "answer": "Die",
+      "opts": ["Die", "Der", "Das"],
+      "ar": "الحساب لو سمحت!",
+      "why": "الاسم اللي آخره -ung أداته die: die Rechnung، die Wohnung، die Heizung.",
+      "lesson": 16
+    },
+    {
+      "q": "Kairo ist ___ Hauptstadt von Ägypten.",
+      "answer": "die",
+      "opts": ["die", "eine", "der"],
+      "ar": "القاهرة هي عاصمة مصر.",
+      "why": "مصر ليها عاصمة واحدة بس، فهي معروفة ← die، حتى لو «عاصمة مصر» بالعربي من غير «ال». وeine Hauptstadt يعني «عاصمة من كذا عاصمة»، وده غلط هنا.",
+      "lesson": 18
+    },
+    {
+      "q": "Ich spreche ___ und ein bisschen Deutsch.",
+      "answer": "Arabisch",
+      "opts": ["Arabisch", "das Arabisch", "ein Arabisch"],
+      "ar": "بتكلم عربي وشوية ألماني.",
+      "why": "اللغة بعد sprechen من غير أداة: Ich spreche Arabisch / Deutsch / Englisch.",
+      "lesson": 20
+    },
+    {
+      "q": "___ liegt südlich von Deutschland.",
+      "answer": "Die Schweiz",
+      "opts": ["Die Schweiz", "Schweiz", "Das Schweiz"],
+      "ar": "سويسرا جنوب ألمانيا.",
+      "why": "die Schweiz من البلاد القليلة اللي ليها أداة، ولازم تقولها معاها: die Schweiz، die Türkei، die USA.",
+      "lesson": 20
+    },
+    {
+      "q": "Wie heißt das auf Deutsch? – ___ Notizblock.",
+      "answer": "Der",
+      "opts": ["Der", "Die", "Das"],
+      "ar": "ده اسمه إيه بالألماني؟ – النوتة.",
+      "why": "der Notizblock مذكّر (عشان der Block)، مع إن «النوتة» عندنا مؤنّث. ولما تقول اسم حاجة بالألماني قوله بأداته.",
+      "lesson": 21
+    },
+    {
+      "q": "Das ___ die Stifte von Nico.",
+      "answer": "sind",
+      "opts": ["sind", "ist", "seid"],
+      "ar": "دي الأقلام بتاعة نيكو.",
+      "why": "das في «Das ist / Das sind» معناها «ده / دي / دول» ومابتتغيّرش؛ الفعل بس اللي بيبقى sind مع الجمع.",
+      "lesson": 21
+    },
+    {
+      "q": "Nico hat ___ Tante in Deutschland. Sie heißt Yara.",
+      "answer": "eine",
+      "opts": ["eine", "die", "ein"],
+      "ar": "نيكو عنده خالة في ألمانيا. اسمها يارا.",
+      "why": "أول مرة نذكرها والسامع مايعرفهاش ← eine (وein غلط: die Tante مؤنّث). بعد كده تبقى معروفة: die Tante von Nico.",
+      "lesson": 22
+    },
+    {
+      "q": "Ist das ___ Brille von Lisa?",
+      "answer": "die",
+      "opts": ["die", "ein", "der"],
+      "ar": "دي النضّارة بتاعة ليزا؟",
+      "why": "عارفين صاحبتها (von Lisa) فبقت محدّدة ← أداة تعريف. وBrille مؤنّث ← die (ein و der غلط عشان الجنس).",
+      "lesson": 22
+    },
+    {
+      "q": "Was ist das? – Das sind ___.",
+      "answer": "Bücher",
+      "opts": ["Bücher", "ein Bücher", "eine Bücher"],
+      "ar": "إيه ده؟ – دي كتب.",
+      "why": "ein / eine معناها «واحد»، فمالهاش جمع. الجمع النكرة من غير أداة: Bücher، زي «كتب» من غير «ال».",
+      "lesson": 22
+    },
+    {
+      "q": "Hast du ___ Stift? – Ja, hier, bitte.",
+      "answer": "einen",
+      "opts": ["einen", "ein", "eine"],
+      "ar": "معاك قلم؟ – أيوه، اتفضل.",
+      "why": "أي قلم، مش قلم معيّن ← نكرة. وStift مذكّر ومفعول به بعد haben، فبنقول einen.",
+      "lesson": 23
+    },
+    {
+      "q": "Emma hat ein Fahrrad. ___ Fahrrad ist rot.",
+      "answer": "Das",
+      "opts": ["Das", "Ein", "Der"],
+      "ar": "إيما عندها عجلة. العجلة حمرا.",
+      "why": "تاني مرة نذكر العجلة بقت معروفة ← das (das Fahrrad). زي العربي بالظبط: «عجلة» وبعدين «العجلة».",
+      "lesson": 24
+    },
+    {
+      "q": "Lisa hat zwei Schlüssel. ___ Schlüssel sind neu.",
+      "answer": "Die",
+      "opts": ["Die", "Der", "Ein"],
+      "ar": "ليزا معاها مفتاحين. المفاتيح جديدة.",
+      "why": "Schlüssel جمعه زي مفرده، فـ die والفعل sind هما اللي بيقولولك إنه جمع (der Schlüssel، die Schlüssel).",
+      "lesson": 24
+    },
+    {
+      "q": "Das Haus hat einen Garten. ___ Garten ist klein.",
+      "answer": "Der",
+      "opts": ["Der", "Ein", "Den"],
+      "ar": "البيت فيه جنينة. الجنينة صغيرة.",
+      "why": "الجنينة اتذكرت قبل كده فبقت معروفة ← der. وden غلط: Garten هنا فاعل (هو اللي صغير) مش مفعول به.",
+      "lesson": 25
+    },
+    {
+      "q": "Kennt ihr ___ Fahrradladen von Yara?",
+      "answer": "den",
+      "opts": ["den", "der", "das"],
+      "ar": "تعرفوا محل العجل بتاع يارا؟",
+      "why": "محل معيّن (بتاع يارا) ← أداة تعريف. وFahrradladen مذكّر ومفعول به بعد kennen، فبنقول den.",
+      "lesson": 25
+    },
+    {
+      "q": "Die Wohnung ist schön, aber ___ Küche ist klein.",
+      "answer": "die",
+      "opts": ["die", "eine", "der"],
+      "ar": "الشقة حلوة، بس المطبخ صغير.",
+      "why": "المطبخ ده بتاع الشقة اللي بنتكلم عنها، فهو معروف ← أداة تعريف، وdie عشان die Küche مؤنّث (مع إن «المطبخ» مذكّر). وبالعربي برضه بنقول «المطبخ» بـ «ال».",
+      "lesson": 26
+    },
+    {
+      "q": "___ Schlafzimmer ist sehr hell.",
+      "answer": "Das",
+      "opts": ["Das", "Die", "Der"],
+      "ar": "أوضة النوم منوّرة أوي.",
+      "why": "الكلمة المركّبة بتاخد أداة آخر جزء: das Zimmer → das Schlafzimmer، مع إن «الأوضة» عندنا مؤنّث.",
+      "lesson": 26
+    },
+    {
+      "q": "___ Winter in Deutschland ist kalt.",
+      "answer": "Der",
+      "opts": ["Der", "Die", "Das"],
+      "ar": "الشتا في ألمانيا برد.",
+      "why": "الفصول الأربعة der: der Frühling، der Sommer، der Herbst، der Winter. ونفس الكلام لأيام الأسبوع والشهور: der Montag، der Mai.",
+      "lesson": 54
+    },
+    {
+      "q": "Heute scheint ___ Sonne.",
+      "answer": "die",
+      "opts": ["die", "eine", "der"],
+      "ar": "الشمس طالعة النهارده.",
+      "why": "مفيش غير شمس واحدة، فهي معروفة لكل الناس ← die. زي «الشمس» في العربي بالظبط.",
+      "lesson": 56
+    },
+    {
+      "q": "___ Mädchen heißt Emma.",
+      "answer": "Das",
+      "opts": ["Das", "Die", "Der"],
+      "ar": "البنت اسمها إيما.",
+      "why": "الاسم اللي آخره -chen (تصغير) أداته das، حتى لو بنت: das Mädchen مش die.",
+      "lesson": 61
+    }
+  ]
+}

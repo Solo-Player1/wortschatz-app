@@ -1,6 +1,6 @@
 // Monkey test: every game, light + dark, 360 + 390 — start, play randomly until the results screen, no errors/overflow.
 import { launch } from './cdp.mjs';
-const GAMES = (process.argv[2] || 'listen-write,articles,scramble,sentence,wfragen,verbs,numbers,alphabet,truefalse,memory,cloze,rain').split(',');
+const GAMES = (process.argv[2] || 'listen-write,articles,scramble,sentence,wfragen,verbs,numbers,alphabet,truefalse,memory,cloze,rain,grammar').split(',');
 const results = [];
 const check = (n, ok, extra = '') => results.push(`${ok ? 'PASS' : 'FAIL'} ${n}${extra ? ' — ' + extra : ''}`);
 const MONKEY = `async () => {

@@ -1,6 +1,6 @@
 {
   "name": "wortschatz-app",
-  "version": "1.5.0",
+  "version": "1.8.0",
   "private": true,
   "description": "Mein Wortschatz - German vocabulary app (Nicos Weg A1)",
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@capacitor/android": "^8.6.0",
+    "@capacitor/app": "^8.1.2",
     "@capacitor/cli": "^8.6.0",
     "@capacitor/core": "^8.6.0",
     "@capacitor/file-transfer": "^2.0.6",

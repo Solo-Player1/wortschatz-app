@@ -1,0 +1,317 @@
+{
+  "id": "possessive",
+  "title": "ضمائر الملكية: mein، dein، sein، ihr …",
+  "icon": "👜",
+  "lesson": 28,
+  "summary": "هتعرف تختار sein ولا ihr، وإمتى mein وإمتى meine أو meinen — للناس وللحاجات.",
+  "sections": [
+    {
+      "h": "mein = بتاعي: كلمة لوحدها قبل الاسم",
+      "body": "في العربي الملكية بتتلزق في آخر الكلمة: أوضتي، أوضتك، أوضته. في الألماني (زي my و your في الإنجليزي) دي كلمة لوحدها قبل الاسم، وبتاخد مكان الأداة: بدل das Zimmer تقول mein Zimmer، من غير das خالص. عشان كده اسمها بالألماني Possessivartikel يعني «أداة ملكية» (و DW بتسميها بالعربي «ضمائر الملكية»). وإنت أصلًا خدت mein و dein و Ihr في درس 4: Mein Name ist … وخد بالك: sein (بتاعه) مكتوبة زي الفعل sein (يكون) بالظبط: sein Vater = أبوه، لكن er ist من الفعل.",
+      "table": [
+        ["الضمير", "الملكية", "إنجليزي", "بالمصري"],
+        ["ich", "mein", "my", "بتاعي"],
+        ["du", "dein", "your", "بتاعك"],
+        ["er / es", "sein", "his / its", "بتاعه"],
+        ["sie (هي)", "ihr", "her", "بتاعها"],
+        ["wir", "unser", "our", "بتاعنا"],
+        ["ihr (إنتوا)", "euer", "your", "بتاعكم"],
+        ["sie (هما)", "ihr", "their", "بتاعهم"],
+        ["Sie (رسمي)", "Ihr", "your", "بتاع حضرتك"]
+      ],
+      "examples": [
+        { "de": "Das ist mein Zimmer.", "ar": "دي أوضتي.", "lesson": 28 },
+        { "de": "Wie ist Ihr Name?", "ar": "اسم حضرتك إيه؟ (رسمي)", "lesson": 4 },
+        { "de": "Nico sucht seine Tasche.", "ar": "نيكو بيدوّر على شنطته. (من حلقة 6)", "lesson": 6 }
+      ]
+    },
+    {
+      "h": "mein ولا meine؟ النهاية بتمشي مع الحاجة",
+      "body": "النهاية مالهاش دعوة بيك إنت، بتتحدد بالاسم اللي بعدها، بالظبط زي kein (درس 23). لما الاسم فاعل (حالة الرفع) أو بعد الفعل sein (Das ist / Das sind …): مع der و das من غير نهاية (mein Vater، mein Kind)، ومع die والجمع بنزوّد -e (meine Mutter، meine Eltern). زي «بتاعي / بتاعتي / بتوعي» في المصري: بتتغيّر حسب الحاجة مش حسب اللي بيتكلم. فليزا بتقول mein Vater، ونيكو بيقول meine Mutter. بس المهم جنس الكلمة في الألماني مش في العربي: «الفوطة بتاعتي» مؤنث عندنا، لكن das Handtuch محايد، فبنقول mein Handtuch.",
+      "table": [
+        ["الاسم", "kein", "mein", "زي المصري"],
+        ["der Vater", "kein", "mein", "بتاعي"],
+        ["die Mutter", "keine", "meine", "بتاعتي"],
+        ["das Kind", "kein", "mein", "بتاعي"],
+        ["die Eltern", "keine", "meine", "بتوعي"]
+      ],
+      "examples": [
+        { "de": "Lisa ist nicht meine Mama. Sie ist meine Tante.", "ar": "ليزا مش مامتي، هي خالتي. (إيما بتقول: meine عشان die Mama و die Tante)", "lesson": 4 },
+        { "de": "Mein Vater ist Polizist.", "ar": "أبويا ظابط شرطة. (der Vater = mein)", "lesson": 8 },
+        { "de": "Das sind meine Bücher.", "ar": "دي كتبي. (جمع = meine)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "sein ولا ihr؟ صاحب الحاجة الأول",
+      "body": "أول خطوة: الكلمة نفسها بتتحدد بصاحب الحاجة: نيكو (er) يبقى sein، وليزا (sie) تبقى ihr، زي «ـه» و«ـها» في العربي و his و her في الإنجليزي. تاني خطوة: النهاية بتتحدد بالحاجة نفسها زي ما شفنا فوق: -e مع die والجمع. يعني seine Mutter = أمه: sein عشان نيكو، و -e عشان die Mutter. وده نفس اللي بنعمله في المصري: «بتاعته» = بتاعت (الحاجة مؤنث) + ـه (صاحبها راجل). ولما تحط ضمير مكان الاسم: Nicos Tante = die Tante von Nico = seine Tante.",
+      "table": [
+        ["", "der Vater", "die Mutter", "die Eltern"],
+        ["Nico (er)", "sein Vater", "seine Mutter", "seine Eltern"],
+        ["Lisa (sie)", "ihr Vater", "ihre Mutter", "ihre Eltern"]
+      ],
+      "examples": [
+        { "de": "Das ist Yara und das ist ihr Fahrradladen.", "ar": "دي يارا، وده محل العجل بتاعها. (ihr عشان يارا، ومن غير -e عشان der Fahrradladen)", "lesson": 28 },
+        { "de": "Nico kommt aus Spanien. Seine Eltern wohnen in Sevilla.", "ar": "نيكو من إسبانيا، وأهله ساكنين في إشبيلية. (sein عشان نيكو، و -e عشان الجمع)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "ihr ولا Ihr ولا euer؟",
+      "body": "ihr أكتر كلمة بتلخبط، ولحد درس 28 ليها 3 معاني: أولًا ihr قبل اسم = بتاعها أو بتاعهم، والكلام هو اللي بيوضّح: Lisa und ihr Föhn. تانيًا Ihr بحرف كبير = بتاع حضرتك أو حضراتكم (رسمي)، وبتتنطق زي ihr بالظبط (وفي أول الجملة أي ihr بتتكتب كبير، فالكلام برضه هو اللي بيوضّح). تالتًا ihr = إنتوا، ودي فاعل والفعل بيتصرّف معاها: ihr wohnt، ihr seid، Habt ihr Hunger? (يعني إنتوا جعانين؟ مش «جوعها»). وفي درس 74 هتاخد معنى رابع: ihr = ليها، زي Ich helfe ihr (بساعدها). وملكية «إنتوا» مش ihr، دي euer، ولما تزوّد نهاية الـ e اللي في النص عادةً بتقع: euer Haus بس eure Küche. أما unser فالـ -er جزء من الكلمة ومابتقعش: unser Haus، unsere Küche.",
+      "table": [
+        ["", "مذكر / محايد", "مؤنث / جمع"],
+        ["unser (إحنا)", "unser Haus", "unsere Küche"],
+        ["euer (إنتوا)", "euer Haus", "eure Küche"],
+        ["ihr (هي / هما)", "ihr Haus", "ihre Küche"],
+        ["Ihr (حضرتك)", "Ihr Haus", "Ihre Küche"]
+      ],
+      "examples": [
+        { "de": "Gut, und wie war euer Tag?", "ar": "تمام، وإنتوا يومكم كان عامل إيه؟", "lesson": 31 },
+        { "de": "Unsere Heizung ist kaputt.", "ar": "التدفئة بتاعتنا بايظة.", "lesson": 28 },
+        { "de": "Lisa und Nina putzen ihre Küche.", "ar": "ليزا ونينا بينضّفوا مطبخهم. (ihre هنا = بتاعهم، و -e عشان die Küche)", "lesson": 28 },
+        { "de": "Ist das Ihr Handy?", "ar": "ده موبايل حضرتك؟ (رسمي)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "لما صاحب الحاجة يبقى حاجة: das Auto und sein Motor",
+      "body": "مش بس الناس، الحاجة كمان ممكن تبقى صاحبة حاجة: شباك الأوضة، شوارع المدينة. الإنجليزي بيقول its لأي حاجة مهما كان جنسها، إنما الألماني مفيهوش كلمة زي its: لو صاحب الحاجة der أو das يبقى sein، ولو die أو جمع يبقى ihr. والمهم جنسه في الألماني مش في العربي: das Auto محايد، فبنقول das Auto und sein Motor مع إننا بنقول «العربية وموتورها». أما die Stadt und ihre Straßen فزي العربي. وكمان das Kind und seine Mutter، وأسماء المدن ومعظم البلاد محايدة: Köln und sein Dom.",
+      "table": [
+        ["صاحب الحاجة", "بالعربي", "بالألماني"],
+        ["das Zimmer", "شباكها", "sein Fenster"],
+        ["das Auto", "موتورها", "sein Motor"],
+        ["der Kühlschrank", "بابها", "seine Tür"],
+        ["die Stadt", "شوارعها", "ihre Straßen"]
+      ],
+      "examples": [
+        { "de": "Das Zimmer ist klein, aber sein Fenster ist groß.", "ar": "الأوضة صغيرة، بس شباكها كبير. (das Zimmer محايد = sein)", "lesson": 28 },
+        { "de": "Köln ist schön, und sein Dom ist sehr alt.", "ar": "كولونيا حلوة، والكاتدرائية بتاعتها قديمة أوي. (Köln محايد = sein)", "lesson": 28 },
+        { "de": "Das Kind sucht seine Mutter.", "ar": "العيل بيدوّر على مامته. (das Kind محايد = sein)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "meinen: لما الحاجة مفعول به (Akkusativ — درس 37)",
+      "body": "بعد أفعال زي haben و suchen و kennen و mögen و lieben و brauchen و anrufen، الاسم بيبقى مفعول به في حالة النصب (Akkusativ، زي den و einen في درس 23). ساعتها المذكر بس هو اللي بيتغيّر وبياخد -en، بالظبط زي einen و keinen: Ich mag meinen Job. أما المؤنث والمحايد والجمع فزي ما هم. ونفس الحكاية مع الكل: deinen، seinen، ihren، unseren، euren، Ihren. وخد بالك: بعد الفعل sein (Das ist / Das sind) مفيش مفعول به، فبنقول Das ist mein Vater مش meinen.",
+      "table": [
+        ["", "Nominativ", "Akkusativ"],
+        ["der Vater", "mein Vater", "meinen Vater"],
+        ["die Mutter", "meine Mutter", "meine Mutter"],
+        ["das Kind", "mein Kind", "mein Kind"],
+        ["die Eltern", "meine Eltern", "meine Eltern"]
+      ],
+      "examples": [
+        { "de": "Klar mag ich meinen Job.", "ar": "أكيد بحب شغلانتي. (der Job = meinen)", "lesson": 37 },
+        { "de": "Ich mag meine Arbeit.", "ar": "أنا بحب شغلي. (die Arbeit = meine زي ما هي)", "lesson": 37 },
+        { "de": "Emma liebt ihren Opa.", "ar": "إيما بتحب جدّها. (ihr عشان إيما، و -en عشان der Opa مفعول به)", "lesson": 37 }
+      ]
+    },
+    {
+      "h": "بعد mit و bei: meinem و meiner (Dativ — درس 39)",
+      "body": "بعد حروف جر زي mit و bei و von بييجي حالة الجر Dativ (هتاخدها في درس 39 و 41 و 43، وتاني في درس 63)، والنهايات بتتغيّر تاني، برضه زي kein بالظبط: مع der و das -em (meinem)، ومع die -er (meiner)، ومع الجمع -en، والاسم نفسه بياخد -n كمان (إلا لو آخره n أو s): mit meinen Freunden. وفي حلقة 63 بيسألوا: Bei deinen Eltern? يعني عند أهلك؟",
+      "table": [
+        ["", "Nominativ", "Akkusativ", "Dativ"],
+        ["der Vater", "mein", "meinen", "meinem"],
+        ["die Mutter", "meine", "meine", "meiner"],
+        ["das Kind", "mein", "mein", "meinem"],
+        ["die Eltern", "meine", "meine", "meinen"]
+      ],
+      "examples": [
+        { "de": "Emma spielt mit ihrer Freundin.", "ar": "إيما بتلعب مع صاحبتها. (die Freundin = -er)", "lesson": 43 },
+        { "de": "Am Wochenende gehe ich mit meinen Freunden ins Kino.", "ar": "في الويك إند بروح السينما مع صحابي. (جمع = -en، و Freunde + n)", "lesson": 43 },
+        { "de": "Wo bist du? Bei deinen Eltern?", "ar": "إنتي فين؟ عند أهلك؟ (من حلقة 63)", "lesson": 41 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "___ Name ist Emma.",
+      "answer": "Mein",
+      "opts": ["Mein", "Meine", "Meinen"],
+      "ar": "اسمي إيما.",
+      "why": "der Name مذكر وهنا فاعل، والمذكر في الفاعل من غير نهاية: Mein. (زي درس 4: Mein Name ist …)",
+      "lesson": 4
+    },
+    {
+      "q": "Wie ist ___ Vorname?",
+      "answer": "Ihr",
+      "opts": ["Ihr", "Ihre", "Ihren"],
+      "ar": "اسم حضرتك الأول إيه؟",
+      "why": "der Vorname مذكر، يبقى Ihr من غير نهاية. و Ihr (بتاع حضرتك) بحرف كبير دايمًا.",
+      "lesson": 6
+    },
+    {
+      "q": "Ich bin Lisa und das ist ___ Vater.",
+      "answer": "mein",
+      "opts": ["mein", "meine", "meinen"],
+      "ar": "أنا ليزا، وده أبويا.",
+      "why": "النهاية بتمشي مع الاسم مش مع اللي بيتكلم: der Vater مذكر، يبقى mein حتى لو اللي بتتكلم بنت. و meinen بتيجي مع المذكر لما يبقى مفعول به (درس 37)، وبعد Das ist مفيش مفعول به.",
+      "lesson": 7
+    },
+    {
+      "q": "Wie ist ___ Telefonnummer?",
+      "answer": "deine",
+      "opts": ["deine", "dein", "deinen"],
+      "ar": "رقم تليفونك كام؟",
+      "why": "die Telefonnummer مؤنث، والمؤنث بياخد -e: deine.",
+      "lesson": 10
+    },
+    {
+      "q": "Wo ist ___ Brille?",
+      "answer": "meine",
+      "opts": ["meine", "mein", "meinen"],
+      "ar": "النضارة بتاعتي فين؟",
+      "why": "die Brille مؤنث، يبقى -e: meine.",
+      "lesson": 21
+    },
+    {
+      "q": "Das ist ___ Handtuch.",
+      "answer": "mein",
+      "opts": ["mein", "meine", "meinen"],
+      "ar": "دي الفوطة بتاعتي.",
+      "why": "das Handtuch محايد، والمحايد من غير نهاية: mein، حتى لو «الفوطة» مؤنث في العربي.",
+      "lesson": 28
+    },
+    {
+      "q": "Das sind ___ Eltern.",
+      "answer": "meine",
+      "opts": ["meine", "mein", "meinen"],
+      "ar": "دول أبويا وأمي.",
+      "why": "die Eltern جمع، والجمع بياخد -e: meine.",
+      "lesson": 28
+    },
+    {
+      "q": "Wir wohnen hier. Das ist ___ Haus.",
+      "answer": "unser",
+      "opts": ["unser", "unsere", "unseren"],
+      "ar": "إحنا ساكنين هنا. ده بيتنا.",
+      "why": "das Haus محايد، يبقى unser من غير نهاية. والـ -er جزء من الكلمة نفسها مش نهاية.",
+      "lesson": 28
+    },
+    {
+      "q": "Das ist Lisas Zimmer. Das ist ___ Zimmer.",
+      "answer": "ihr",
+      "opts": ["ihr", "ihre", "sein", "seine"],
+      "ar": "دي أوضة ليزا. دي أوضتها.",
+      "why": "صاحبة الأوضة ليزا (هي)، يبقى ihr. و das Zimmer محايد، يبقى من غير -e.",
+      "lesson": 28
+    },
+    {
+      "q": "Das ist Nico und das ist ___ Tante Yara.",
+      "answer": "seine",
+      "opts": ["seine", "sein", "ihre", "ihr"],
+      "ar": "ده نيكو، ودي خالته يارا.",
+      "why": "صاحب الخالة نيكو (هو)، يبقى sein. و die Tante مؤنث، يبقى -e: seine (زي «خالته» = الخالة بتاعته).",
+      "lesson": 28
+    },
+    {
+      "q": "Lisa ist nett und ___ Vater ist auch nett.",
+      "answer": "ihr",
+      "opts": ["ihr", "ihre", "sein", "seine"],
+      "ar": "ليزا لطيفة، وأبوها كمان لطيف.",
+      "why": "ihr عشان ليزا، ومن غير -e عشان der Vater مذكر. الـ -e مش عشان ليزا بنت، الـ -e بتيجي من الاسم اللي بعدها.",
+      "lesson": 28
+    },
+    {
+      "q": "Die Nachbarn sind laut. ___ Kinder sind auch laut.",
+      "answer": "Ihre",
+      "opts": ["Ihre", "Ihr", "Seine", "Sein"],
+      "ar": "الجيران دوشة، وعيالهم كمان دوشة.",
+      "why": "صاحب العيال die Nachbarn (جمع)، يبقى ihr = بتاعهم. و Kinder جمع، يبقى -e: Ihre. (الـ I كبيرة هنا عشان أول الجملة بس، مش رسمي)",
+      "lesson": 28
+    },
+    {
+      "q": "Lisa und Nina, ist ___ Wohnung groß?",
+      "answer": "eure",
+      "opts": ["eure", "euer", "euren"],
+      "ar": "يا ليزا ويا نينا، شقتكم كبيرة؟",
+      "why": "بتكلم ليزا ونينا = ihr (إنتوا)، وملكيتها euer. و die Wohnung مؤنث يبقى -e: euer + e = eure.",
+      "lesson": 28
+    },
+    {
+      "q": "Das Auto ist alt, aber ___ Radio funktioniert noch.",
+      "answer": "sein",
+      "opts": ["sein", "ihr", "seine", "ihre"],
+      "ar": "العربية قديمة، بس الراديو بتاعها لسه شغال.",
+      "why": "صاحب الراديو das Auto (محايد)، يبقى sein، مع إننا بنقول «بتاعها» في العربي. و das Radio محايد، يبقى من غير -e.",
+      "lesson": 28
+    },
+    {
+      "q": "Die Wohnung ist klein, aber ___ Küche ist groß.",
+      "answer": "ihre",
+      "opts": ["ihre", "seine", "ihr", "sein"],
+      "ar": "الشقة صغيرة، بس مطبخها كبير.",
+      "why": "صاحبة المطبخ die Wohnung (مؤنث)، يبقى ihr. و die Küche مؤنث، يبقى -e: ihre.",
+      "lesson": 28
+    },
+    {
+      "q": "Das Haus ist schön, aber ___ Fenster sind klein.",
+      "answer": "seine",
+      "opts": ["seine", "sein", "ihre", "ihr"],
+      "ar": "البيت حلو، بس شبابيكه صغيرة.",
+      "why": "صاحب الشبابيك das Haus (محايد)، يبقى sein. و Fenster هنا جمع (sind)، يبقى -e: seine.",
+      "lesson": 28
+    },
+    {
+      "q": "Kennst du ___ Vater? Er ist Polizist.",
+      "answer": "meinen",
+      "opts": ["meinen", "mein", "meine"],
+      "ar": "تعرف أبويا؟ هو ظابط شرطة.",
+      "why": "بعد kennen الاسم مفعول به، و der Vater مذكر يبقى -en: meinen. (لكن Das ist mein Vater من غير -en)",
+      "lesson": 37
+    },
+    {
+      "q": "Max liebt ___ Restaurant.",
+      "answer": "sein",
+      "opts": ["sein", "seinen", "seine"],
+      "ar": "ماكس بيحب مطعمه.",
+      "why": "das Restaurant محايد، والمحايد مابيتغيّرش في المفعول به: sein مش seinen. وفي المفعول به الـ -en للمذكر بس.",
+      "lesson": 37
+    },
+    {
+      "q": "Lisa ruft ___ Vater an.",
+      "answer": "ihren",
+      "opts": ["ihren", "ihr", "ihre", "seinen"],
+      "ar": "ليزا بتتصل بأبوها.",
+      "why": "ihr عشان ليزا، و der Vater مذكر ومفعول به (بعد anrufen)، يبقى -en: ihren. (في العربي بنقول «بتتصل بأبوها»، بس anrufen بياخد مفعول به على طول من غير حرف جر)",
+      "lesson": 37
+    },
+    {
+      "q": "Mögen Sie ___ Beruf?",
+      "answer": "Ihren",
+      "opts": ["Ihren", "Ihr", "Ihre", "Sie"],
+      "ar": "حضرتك بتحب مهنتك؟",
+      "why": "مع Sie بنقول Ihr بحرف كبير، و der Beruf مذكر ومفعول به (بعد mögen)، يبقى -en: Ihren.",
+      "lesson": 37
+    },
+    {
+      "q": "Wie findet ihr ___ Chef?",
+      "answer": "euren",
+      "opts": ["euren", "euer", "eure"],
+      "ar": "إيه رأيكم في المدير بتاعكم؟",
+      "why": "ihr (إنتوا) ملكيتها euer، و der Chef مذكر ومفعول به (بعد finden): euer + en = euren (والـ e اللي في النص بتقع).",
+      "lesson": 37
+    },
+    {
+      "q": "Der Kühlschrank ist neu, aber ___ Tür ist kaputt.",
+      "answer": "seine",
+      "opts": ["seine", "ihre", "sein", "ihr"],
+      "ar": "التلاجة جديدة، بس بابها بايظ.",
+      "why": "صاحب الباب der Kühlschrank (مذكر)، يبقى sein، مع إن التلاجة مؤنث في العربي. و die Tür مؤنث، يبقى -e: seine.",
+      "lesson": 39
+    },
+    {
+      "q": "Nico arbeitet bei ___ Tante.",
+      "answer": "seiner",
+      "opts": ["seiner", "seine", "seinem", "seinen"],
+      "ar": "نيكو بيشتغل عند خالته.",
+      "why": "sein عشان نيكو، وبعد bei بييجي Dativ، و die Tante مؤنث، يبقى -er: seiner.",
+      "lesson": 41
+    },
+    {
+      "q": "Lisa fährt mit ___ Fahrrad zur Arbeit.",
+      "answer": "ihrem",
+      "opts": ["ihrem", "ihrer", "ihren", "ihr"],
+      "ar": "ليزا بتروح الشغل بعجلتها.",
+      "why": "بعد mit بييجي Dativ، و das Fahrrad محايد، يبقى -em: ihrem (و ihr عشان ليزا).",
+      "lesson": 43
+    }
+  ]
+}

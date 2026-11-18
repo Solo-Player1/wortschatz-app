@@ -117,9 +117,27 @@ def main():
             warn(f'verb {v.get("inf")}: needs 6 forms')
     verbs = [v for v in verbs if int(v.get('lesson', 99)) <= MAX_LESSON]
 
+    # 🧩 قواعد مهمة: content/topics/<id>.json (صفحة + كويز لكل موضوع) — بالترتيب ده في المراجع
+    TOPIC_ORDER = ['articles', 'indefinite', 'family', 'possessive', 'ihr', 'adjectives', 'prepositions', 'daysmonths']
+    topics = []
+    for tid in TOPIC_ORDER:
+        tp = os.path.join(SRC, 'topics', f'{tid}.json')
+        if os.path.exists(tp):
+            t = load(tp)
+            ok = [q for q in t.get('quiz', []) if q.get('q', '').count('___') == 1 and q.get('answer') in (q.get('opts') or [])]
+            if len(ok) != len(t.get('quiz', [])):
+                warn(f'topic {tid}: {len(t.get("quiz", [])) - len(ok)} quiz item(s) dropped (needs one ___ and the answer in opts) — run tools/check_topics.py')
+            t['quiz'] = ok
+            topics.append(t)
     data = {'version': 1, 'sentences': sentences, 'wfragen': wfragen, 'grammar': grammar,
-            'verbs': verbs, 'wwords': [w for w in wwords if int(w.get('lesson', 99)) <= MAX_LESSON], 'alphabet': alphabet}
+            'verbs': verbs, 'wwords': [w for w in wwords if int(w.get('lesson', 99)) <= MAX_LESSON], 'alphabet': alphabet,
+            'topics': topics}
     os.makedirs(os.path.dirname(out), exist_ok=True)
+    # 📖 قطع القراءة: reading/passages.json → www/data/passages.json (بيتحمّل لما تفتح القراءة بس)
+    rp = os.path.join(ROOT, 'reading', 'passages.json')
+    if os.path.exists(rp):
+        with open(os.path.join(os.path.dirname(out), 'passages.json'), 'w', encoding='utf-8', newline='\n') as f:
+            json.dump(load(rp), f, ensure_ascii=False, separators=(',', ':'))
     with open(out, 'w', encoding='utf-8', newline='\n') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     for w in warns:

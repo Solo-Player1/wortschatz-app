@@ -392,7 +392,7 @@ function makeContext(root, mod, meta, sel, params, { replay, intro }) {
 
     // ---------- النتيجة ----------
     // صح: بيرجّع Promise<boolean> (true = كمّل)
-    correct({ points = 10, wordId, typed = false, itemId, msg, quiet = false, ms = 650 } = {}) {
+    correct({ points = 10, wordId, typed = false, itemId, msg, quiet = false, ms = 650, wait = false } = {}) {
       if (st.over) return Promise.resolve(false);
       st.combo++; st.bestCombo = Math.max(st.bestCombo, st.combo); st.right++;
       const gain = Math.round(points * mult());
@@ -404,7 +404,7 @@ function makeContext(root, mod, meta, sel, params, { replay, intro }) {
       drawScore(gain);
       sfx.ok();
       if (quiet) return Promise.resolve(true);
-      return feedback(true, msg || randomPraise(), { ms });
+      return feedback(true, msg || randomPraise(), { ms, wait });   // wait: شرح طويل (قواعد مهمة) يفضل لحد «متابعة»
     },
     // غلط: بيقلّل قلب ويعرض الإجابة الصح. wait=true → يستنى «متابعة». بيرجّع Promise<boolean>
     wrong({ wordId, typed = false, itemId, correctHtml = '', msg, wait = true, cost = 1, label, ms = 1300 } = {}) {

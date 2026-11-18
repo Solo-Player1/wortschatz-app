@@ -1,0 +1,339 @@
+{
+  "id": "prepositions",
+  "title": "حروف الجر: in، an، auf، nach، zu، mit …",
+  "icon": "📍",
+  "lesson": 11,
+  "summary": "هتعرف تختار حرف الجر الصح للمكان والوقت والناس، وليه الأداة بتتغيّر بعده (dem، den …).",
+  "sections": [
+    {
+      "h": "ليه حروف الجر بتلخبط؟",
+      "body": "في العربي بنستخدم «في» و«من» و«لـ» في حاجات كتير، لكن في الألماني كل واحد منهم ليه كذا ترجمة، فلو ترجمت كلمة بكلمة هتغلط. الحل: قبل ما تختار الحرف اسأل نفسك: السؤال هنا Wo? (فين؟ ثابت في مكانه) ولا Wohin? (رايح فين؟) ولا Woher? (جاي منين؟) ولا Wann? (إمتى؟). وحتى الإنجليزي مش هيكفّيك: to ممكن تبقى nach أو zu أو in. الجدول ده الخريطة كلها، والتفاصيل في الأجزاء الجاية.",
+      "table": [
+        ["بالعربي", "بالألماني", "مثال"],
+        ["في (مكان)", "in / an / auf", "in Kairo"],
+        ["في (وقت)", "um / am / im", "am Montag"],
+        ["من", "aus / von", "aus Ägypten"],
+        ["لـ (رايح)", "nach / zu / in", "nach Berlin"],
+        ["عند", "bei", "bei Lisa"],
+        ["مع / بـ", "mit", "mit dem Bus"],
+        ["من غير", "ohne", "ohne Zucker"],
+        ["لـ / عشان", "für", "für mich"]
+      ],
+      "examples": [
+        { "de": "Ich komme aus Ägypten und wohne in Kairo.", "ar": "أنا من مصر وساكن في القاهرة.", "lesson": 11 },
+        { "de": "Im Mai bin ich in Berlin.", "ar": "في مايو هبقى في برلين. («في» مرتين، بس بالألماني im للشهر و in للمدينة)", "lesson": 34 },
+        { "de": "Ich fahre mit Lisa nach Berlin.", "ar": "أنا مسافر برلين مع ليزا. (مع = mit، ورايح مدينة = nach)", "lesson": 17 }
+      ]
+    },
+    {
+      "h": "Wo? Wohin? Woher? — فين؟ رايح فين؟ جاي منين؟",
+      "body": "مع المدن والبلاد: Woher? ردها aus، و Wo? ردها in، و Wohin? ردها nach. ومع sein بنقول in مش nach: Ich war in Berlin (درس 17). والبلد اللي ليها أداة (die Schweiz، die Türkei، die USA) مابتاخدش nach، بتاخد in: in die Schweiz (رايح) و in der Schweiz (فين)، و die USA جمع: in die USA و in den USA. ومع الناس: bei Lisa = عند ليزا، zu Lisa = رايح لليزا، von Lisa = جاي من عند ليزا (درس 41 و42). ومع الأماكن: zu يعني لحد عند المكان (zum Bahnhof)، و in يعني لجوّه (ins Kino). والبيت ليه كلمتين ثابتين: zu Hause = في البيت، nach Hause = للبيت. وخد بالك: بالمصري بنقول «رايح السينما» من غير حرف، لكن في الألماني لازم حرف: ins Kino، zur Arbeit، nach Deutschland.",
+      "table": [
+        ["", "Wo? فين؟", "Wohin? رايح فين؟", "Woher? منين؟"],
+        ["مدينة / بلد", "in Berlin", "nach Berlin", "aus Berlin"],
+        ["بلد بأداة", "in der Schweiz", "in die Schweiz", "aus der Schweiz"],
+        ["مبنى", "im Kino", "ins Kino", "aus dem Kino"],
+        ["شخص", "bei Lisa", "zu Lisa", "von Lisa"],
+        ["الدكتور", "beim Arzt", "zum Arzt", "vom Arzt"],
+        ["البيت", "zu Hause", "nach Hause", "von zu Hause"]
+      ],
+      "examples": [
+        { "de": "Wohin fährst du? – Nach München.", "ar": "إنت رايح فين؟ – ميونخ.", "lesson": 17 },
+        { "de": "Ich war noch nie in der Schweiz.", "ar": "عمري ما كنت في سويسرا.", "lesson": 17 },
+        { "de": "Mein Koffer ist noch bei Lisa.", "ar": "شنطة السفر بتاعتي لسه عند ليزا.", "lesson": 41 },
+        { "de": "Danach gehen wir nach Hause.", "ar": "بعد كده هنروّح.", "lesson": 32 }
+      ]
+    },
+    {
+      "h": "إمتى؟ um، am، im، von … bis، vor، nach",
+      "body": "بالعربي بنقول «الساعة تمانية» و«يوم الاتنين» و«في مايو»، لكن في الألماني كل نوع وقت ليه حرف: um + الساعة، و am + اليوم أو جزء من اليوم أو التاريخ (am siebten Juli، درس 34)، و im + الشهر أو الفصل: im Mai (درس 34)، im Sommer (درس 54). ولو بتعرف إنجليزي: at 8 / on Monday / in May = um 8 / am Montag / im Mai بالظبط، بس in the evening = am Abend، و at night = in der Nacht. و heute و morgen و gestern و jeden Tag من غير أي حرف. والمدة: von … bis. و vor = قبل، nach = بعد، وبعدهم Dativ: vor dem Essen، nach der Arbeit (درس 72). بس «كمان عشر دقايق» أو «بعد عشر دقايق» من دلوقتي = in zehn Minuten (درس 33)، مش nach.",
+      "table": [
+        ["Wann? إمتى؟", "الحرف", "مثال"],
+        ["الساعة", "um", "um acht Uhr"],
+        ["اليوم / التاريخ", "am", "am Montag"],
+        ["جزء من اليوم", "am", "am Abend"],
+        ["بالليل (استثناء)", "in der", "in der Nacht"],
+        ["الشهر / الفصل", "im", "im Mai"],
+        ["مدة", "von … bis", "von neun bis fünf"],
+        ["قبل / بعد", "vor / nach", "nach der Arbeit"],
+        ["كمان … (من دلوقتي)", "in", "in zehn Minuten"],
+        ["النهارده / بكرة", "من غير", "heute / morgen"]
+      ],
+      "examples": [
+        { "de": "Am Montag um acht Uhr habe ich einen Termin.", "ar": "عندي ميعاد يوم الاتنين الساعة تمانية. (اليوم الأول وبعده الساعة)", "lesson": 31 },
+        { "de": "Im Dezember habe ich Urlaub.", "ar": "عندي إجازة في ديسمبر.", "lesson": 34 },
+        { "de": "Ich arbeite von neun bis fünf.", "ar": "بشتغل من تسعة لحد خمسة.", "lesson": 29 },
+        { "de": "Nach dem Frühstück geht Nico zum Sprachkurs.", "ar": "بعد الفطار نيكو بيروح كورس اللغة.", "lesson": 72 }
+      ]
+    },
+    {
+      "h": "mit، ohne، für: مع / بـ، من غير، لـ",
+      "body": "mit = «مع» لشخص (mit Lisa)، و«بـ» لحاجة أو وسيلة مواصلات: Tee mit Milch = شاي بلبن، mit dem Bus = بالأتوبيس (درس 43). ohne = «من غير» (ohne Zucker)، و für = «لـ / عشان» (Das ist für dich). بس المشي: zu Fuß مش mit dem Fuß. والمهم: بعد mit حالة جر (Dativ)، وبعد für و ohne حالة نصب (Akkusativ)، والفرق باين في الضماير: mit mir بس für mich، زي Was ist mit dir? و Für mich bitte einen Kaffee من درس 14 (وباقي الضماير في درس 62 و74). وأشهر غلطة: mit das Auto ✗، الصح mit dem Auto.",
+      "table": [
+        ["", "mit (Dativ)", "für / ohne (Akkusativ)"],
+        ["ich", "mit mir", "für mich"],
+        ["du", "mit dir", "für dich"],
+        ["er", "mit ihm", "für ihn"],
+        ["sie", "mit ihr", "für sie"],
+        ["wir", "mit uns", "für uns"],
+        ["ihr", "mit euch", "für euch"],
+        ["sie / Sie", "mit ihnen / Ihnen", "für sie / Sie"]
+      ],
+      "examples": [
+        { "de": "Am Sonntag koche ich mit Nico.", "ar": "يوم الحد هطبخ مع نيكو.", "lesson": 31 },
+        { "de": "Wir fahren mit der U-Bahn bis zur Uni.", "ar": "هنروح بالمترو لحد الجامعة.", "lesson": 43 },
+        { "de": "Nina nimmt die Pizza ohne Schinken.", "ar": "نينا بتاخد البيتزا من غير لحم خنزير.", "lesson": 15 },
+        { "de": "Der Tee ist für dich.", "ar": "الشاي ده عشانك.", "lesson": 14 }
+      ]
+    },
+    {
+      "h": "in، an، auf — Wo? جر، Wohin? نصب",
+      "body": "in = جوّه (im Kühlschrank). an = على حاجة واقفة زي الحيطة والباب، أو على طرف الحاجة وجنبها (an der Wand، am Fenster، am Bahnhof). auf = فوق سطح ولامسه، أو في مكان مفتوح (auf dem Tisch، auf dem Markt). يعني «على» ممكن تبقى an أو auf، و«في» ممكن تبقى in أو an أو auf (auf dem Foto = في الصورة). والحروف دي (ومعاهم über، unter، vor، hinter، neben، zwischen) حالتها بتتغيّر: لو الحاجة ثابتة (Wo?، مع sein و wohnen و liegen) يبقى جر (Dativ): Ich bin im Kino. ولو فيه حركة لمكان (Wohin?، مع gehen و fahren) يبقى نصب (Akkusativ): Ich gehe ins Kino. ده هتاخده بالتفصيل في درس 39 و42 و44 و49.",
+      "table": [
+        ["", "Wo? = Dativ", "Wohin? = Akkusativ"],
+        ["der Tisch", "auf dem Tisch", "auf den Tisch"],
+        ["die Wand", "an der Wand", "an die Wand"],
+        ["das Kino", "im Kino", "ins Kino"],
+        ["die Küche", "in der Küche", "in die Küche"]
+      ],
+      "examples": [
+        { "de": "Das Buch liegt auf dem Tisch.", "ar": "الكتاب على الترابيزة.", "lesson": 39 },
+        { "de": "Wo seid ihr? – Wir sind im Park.", "ar": "إنتوا فين؟ – إحنا في الجنينة.", "lesson": 42 },
+        { "de": "Wohin geht ihr? – Wir gehen in den Park.", "ar": "رايحين فين؟ – رايحين الجنينة.", "lesson": 42 },
+        { "de": "Ich hänge den Kalender an die Wand.", "ar": "بعلّق النتيجة على الحيطة. (فيه حركة، يعني Akkusativ)", "lesson": 44 }
+      ]
+    },
+    {
+      "h": "الاختصارات: im، am، ins، zum، zur، beim، vom",
+      "body": "الحرف بيتلزق في الأداة، وفي التعبيرات دي بنقول الشكل المختصر على طول: am Montag، مش an dem Montag. الاختصار بيحصل مع dem و das بس، والوحيد مع der هو zur (= zu der). يعني مع المؤنّث مفيش اختصار غير zur (in der Küche، bei der Post، von der Arbeit)، ومع الجمع مفيش خالص (zu den Eltern)، ولا مع ein (zu einem Arzt). وافتكر: im و am جر، ومع المكان بيردّوا على Wo?، لكن ins نصب (Wohin?): Ich bin im Kino. / Ich gehe ins Kino.",
+      "table": [
+        ["الاختصار", "أصله", "مثال"],
+        ["im", "in dem", "im Kino"],
+        ["ins", "in das", "ins Kino"],
+        ["am", "an dem", "am Montag"],
+        ["zum", "zu dem", "zum Arzt"],
+        ["zur", "zu der", "zur Arbeit"],
+        ["beim", "bei dem", "beim Arzt"],
+        ["vom", "von dem", "vom Bahnhof"]
+      ],
+      "examples": [
+        { "de": "Entschuldigung, wie komme ich zum Bahnhof?", "ar": "لو سمحت، أروح محطة القطر إزاي؟", "lesson": 42 },
+        { "de": "Wie kommst du zur Arbeit? – Zu Fuß.", "ar": "بتروح الشغل إزاي؟ – مشي.", "lesson": 43 },
+        { "de": "Die Oper ist in der Nähe vom Bahnhof.", "ar": "الأوبرا قريبة من محطة القطر.", "lesson": 41 },
+        { "de": "Nina hat um acht einen Termin beim Arzt.", "ar": "نينا عندها ميعاد عند الدكتور الساعة تمانية.", "lesson": 29 }
+      ]
+    },
+    {
+      "h": "الخلاصة: جر ولا نصب بعد حرف الجر؟",
+      "body": "في العربي الاسم بعد أي حرف جر بيبقى مجرور (في البيتِ). وفي الألماني حروف كتير زي العربي: بعدها جر (Dativ)، بس اللي بيتغيّر غالبًا هو الأداة مش آخر الكلمة. دايمًا جر: aus، bei، mit، nach، von، zu (و seit في درس 66)، حتى لو المعنى «رايح»: zum Arzt مش zu den Arzt. دايمًا نصب (Akkusativ): für و ohne (و durch في درس 42). أما in و an و auf واللي زيهم فعلى حسب السؤال: Wo? جر، Wohin? نصب. وفي الجمع بعد الجر الاسم بياخد n زيادة: mit den Kindern، إلا لو آخره n أو s.",
+      "table": [
+        ["", "جر (Dativ)", "نصب (Akkusativ)"],
+        ["دايمًا", "aus, bei, mit, nach, von, zu", "für, ohne"],
+        ["in / an / auf", "Wo? فين؟", "Wohin? رايح فين؟"],
+        ["der", "dem / einem", "den / einen"],
+        ["die", "der / einer", "die / eine"],
+        ["das", "dem / einem", "das / ein"],
+        ["جمع", "den (+n)", "die"]
+      ],
+      "examples": [
+        { "de": "Wohnst du noch bei deinen Eltern?", "ar": "إنت لسه ساكن عند أهلك؟", "lesson": 41 },
+        { "de": "Ich fahre mit den Kindern zum Zoo.", "ar": "أنا رايح جنينة الحيوانات مع العيال.", "lesson": 43 },
+        { "de": "Das Geschenk ist für meinen Bruder.", "ar": "الهدية دي لأخويا.", "lesson": 62 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Woher kommst du? – Ich komme ___ Ägypten.",
+      "answer": "aus",
+      "opts": ["aus", "in", "zu"],
+      "ar": "إنت منين؟ – أنا من مصر.",
+      "why": "Woher? = منين؟ والرد بـ aus + البلد.",
+      "lesson": 11
+    },
+    {
+      "q": "Für ___ bitte einen Tee.",
+      "answer": "mich",
+      "opts": ["mich", "mir", "ich"],
+      "ar": "ليّا شاي لو سمحت.",
+      "why": "بعد für بييجي ضمير نصب (Akkusativ): mich، مش mir.",
+      "lesson": 14
+    },
+    {
+      "q": "Ich möchte einen Kaffee ___ Milch, aber ohne Zucker.",
+      "answer": "mit",
+      "opts": ["mit", "für", "von"],
+      "ar": "عايز قهوة بلبن، بس من غير سكر.",
+      "why": "«بـ» مع حاجة = mit (Kaffee mit Milch)، و«من غير» = ohne.",
+      "lesson": 14
+    },
+    {
+      "q": "Das Wasser ist ___ Kühlschrank.",
+      "answer": "im",
+      "opts": ["im", "ins", "in den"],
+      "ar": "المية في التلاجة.",
+      "why": "المية ثابتة (ist)، يعني Wo? والحالة جر: in dem Kühlschrank = im Kühlschrank.",
+      "lesson": 14
+    },
+    {
+      "q": "Ich fahre ___ München.",
+      "answer": "nach",
+      "opts": ["nach", "zu", "in die"],
+      "ar": "أنا مسافر ميونخ.",
+      "why": "رايح مدينة أو بلد من غير أداة يبقى nach.",
+      "lesson": 17
+    },
+    {
+      "q": "Nächstes Jahr fahren wir ___ die Schweiz.",
+      "answer": "in",
+      "opts": ["in", "nach", "zu"],
+      "ar": "السنة الجاية هنسافر سويسرا.",
+      "why": "die Schweiz ليها أداة، فمابتاخدش nach، ورايح لها يبقى in die Schweiz.",
+      "lesson": 19
+    },
+    {
+      "q": "Nina ist ___ zehn bis drei in der Schule.",
+      "answer": "von",
+      "opts": ["von", "um", "am"],
+      "ar": "نينا في المدرسة من عشرة لحد تلاتة.",
+      "why": "مدة من … لحد … = von … bis.",
+      "lesson": 29
+    },
+    {
+      "q": "Der Unterricht beginnt ___ acht Uhr.",
+      "answer": "um",
+      "opts": ["um", "am", "im"],
+      "ar": "الدرس بيبدأ الساعة تمانية.",
+      "why": "ساعة محددة يبقى um (زي at 8 بالإنجليزي).",
+      "lesson": 31
+    },
+    {
+      "q": "___ Samstag spiele ich Fußball.",
+      "answer": "Am",
+      "opts": ["Am", "Um", "Im"],
+      "ar": "يوم السبت بلعب كورة.",
+      "why": "الأيام بـ am (= an dem)، زي on Saturday بالإنجليزي.",
+      "lesson": 31
+    },
+    {
+      "q": "___ der Nacht ist es hier sehr ruhig.",
+      "answer": "In",
+      "opts": ["In", "Am", "Um"],
+      "ar": "بالليل الدنيا هنا هادية أوي.",
+      "why": "الاستثناء: in der Nacht، مع إن الباقي am Morgen و am Abend.",
+      "lesson": 31
+    },
+    {
+      "q": "Es ist spät. Ich gehe jetzt ___ Hause.",
+      "answer": "nach",
+      "opts": ["nach", "zu", "in"],
+      "ar": "الوقت اتأخر. أنا مروّح دلوقتي.",
+      "why": "رايح البيت = nach Hause. أما zu Hause = في البيت.",
+      "lesson": 32
+    },
+    {
+      "q": "Am Freitag gehen wir ___ Kino.",
+      "answer": "ins",
+      "opts": ["ins", "im", "in"],
+      "ar": "يوم الجمعة هنروح السينما.",
+      "why": "رايحين (Wohin?) يبقى نصب: in das Kino = ins Kino. أما im Kino = في السينما.",
+      "lesson": 32
+    },
+    {
+      "q": "Ich gehe nie ohne ___ Handy aus dem Haus.",
+      "answer": "mein",
+      "opts": ["mein", "meinem", "meine"],
+      "ar": "عمري ما بخرج من البيت من غير موبايلي.",
+      "why": "بعد ohne نصب (Akkusativ)، و das Handy في النصب زي ما هو: mein Handy، مش meinem.",
+      "lesson": 32
+    },
+    {
+      "q": "Ich habe ___ Juli Geburtstag.",
+      "answer": "im",
+      "opts": ["im", "am", "um"],
+      "ar": "عيد ميلادي في يوليو.",
+      "why": "الشهور بـ im (= in dem)، زي in July بالإنجليزي.",
+      "lesson": 34
+    },
+    {
+      "q": "Das Bild hängt ___ Wand.",
+      "answer": "an der",
+      "opts": ["an der", "an die", "auf der"],
+      "ar": "الصورة متعلّقة على الحيطة.",
+      "why": "على حيطة يبقى an (مش auf). والصورة ثابتة (Wo?) يبقى جر: die Wand بتبقى der Wand.",
+      "lesson": 39
+    },
+    {
+      "q": "Lisa ist heute nicht ___ Hause.",
+      "answer": "zu",
+      "opts": ["zu", "nach", "in"],
+      "ar": "ليزا مش في البيت النهارده.",
+      "why": "في البيت (Wo?) = zu Hause. أما nach Hause فللي رايح البيت.",
+      "lesson": 40
+    },
+    {
+      "q": "Nico wohnt ___ Frau Kohlhaas.",
+      "answer": "bei",
+      "opts": ["bei", "zu", "nach"],
+      "ar": "نيكو ساكن عند مدام كولهاس.",
+      "why": "«عند» حد (Wo?) = bei. أما zu فللي رايح لحد.",
+      "lesson": 41
+    },
+    {
+      "q": "Das ist ein Geschenk ___ Emma.",
+      "answer": "von",
+      "opts": ["von", "aus", "zu"],
+      "ar": "دي هدية من إيما.",
+      "why": "«من» شخص = von. أما aus فـ«من» بلد أو من جوّه مكان (aus Ägypten).",
+      "lesson": 41
+    },
+    {
+      "q": "Ich gehe heute ___ Arzt.",
+      "answer": "zum",
+      "opts": ["zum", "beim", "zur"],
+      "ar": "أنا رايح للدكتور النهارده.",
+      "why": "رايح لحد (Wohin?) يبقى zu، و zu + dem Arzt = zum Arzt. أما beim Arzt = عند الدكتور (Wo?).",
+      "lesson": 42
+    },
+    {
+      "q": "Am Wochenende fahre ich ___ meinen Eltern.",
+      "answer": "zu",
+      "opts": ["zu", "bei", "nach"],
+      "ar": "في الويك إند هروح لأهلي.",
+      "why": "رايح لناس يبقى zu. و nach بنستخدمها مع المدن والبلاد، مش مع الناس. وبعد zu جر: meinen Eltern.",
+      "lesson": 42
+    },
+    {
+      "q": "Ich fahre mit ___ Bus zur Arbeit.",
+      "answer": "dem",
+      "opts": ["dem", "den", "der", "das"],
+      "ar": "بروح الشغل بالأتوبيس.",
+      "why": "بعد mit دايمًا جر (Dativ)، و der Bus بيبقى dem Bus.",
+      "lesson": 43
+    },
+    {
+      "q": "Wohin geht ihr? – Wir gehen ___ Markt.",
+      "answer": "auf den",
+      "opts": ["auf den", "auf dem", "in die"],
+      "ar": "رايحين فين؟ – رايحين السوق.",
+      "why": "السوق المفتوح بياخد auf (درس 49). و Wohin? (فيه حركة لمكان) يبقى نصب: der Markt بيبقى den Markt. ولو Wo? تبقى auf dem Markt. و in die غلط عشان der Markt مذكّر.",
+      "lesson": 49
+    },
+    {
+      "q": "Der Kuchen ist für ___ Vater.",
+      "answer": "meinen",
+      "opts": ["meinen", "meinem", "mein"],
+      "ar": "الكيكة لأبويا.",
+      "why": "بعد für نصب (Akkusativ)، والمذكّر بس اللي بيتغيّر: für meinen Vater، مش meinem.",
+      "lesson": 62
+    },
+    {
+      "q": "Nach ___ Arbeit gehe ich nach Hause.",
+      "answer": "der",
+      "opts": ["der", "die", "dem"],
+      "ar": "بعد الشغل بروّح.",
+      "why": "nach هنا = بعد، وبعدها جر (Dativ)، و die Arbeit بتبقى der Arbeit. و nach Hause = للبيت.",
+      "lesson": 72
+    }
+  ]
+}

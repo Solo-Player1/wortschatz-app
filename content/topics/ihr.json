@@ -1,0 +1,153 @@
+{
+  "id": "ihr",
+  "title": "ihr ولا ihre ولا Ihr؟",
+  "icon": "🎭",
+  "lesson": 8,
+  "summary": "هتعرف تفرّق بين ihr «إنتوا» و«بتاعها» و«بتاعهم» و Ihr «بتاع حضرتك» و ihr «ليها»، وإمتى تقول ihre و ihren.",
+  "sections": [
+    {
+      "h": "كلمة واحدة بخمس معاني",
+      "body": "في العربي كل معنى ليه كلمته: «إنتوا»، «ـها»، «ـهم»، «حضرتك»، «ليها». الألماني بيقول كل دول بكلمة واحدة: ihr، وعشان كده بتلخبط. بس كل معنى ليه علامة. لو فيها نهاية (ihre، ihren) يبقى ملكية أكيد. ولو ihr من غير نهاية اسأل نفسك: (1) هي الفاعل والفعل متصرّف معاها (ihr seid، ihr habt، ihr kommt)؟ يبقى «إنتوا»، حتى لو بعدها اسم: Habt ihr Hunger? = إنتوا جعانين؟ والاختبار: ينفع تحط du مكانها وتغيّر الفعل (Hast du Hunger?). (2) لازقة في اسم وينفع تحط mein مكانها (ihr Vater ← mein Vater)؟ يبقى «بتاعها» أو «بتاعهم»، ولو مكتوبة Ihr بـ I كبيرة في نص الجملة يبقى «بتاع حضرتك». (3) لوحدها وفيه فاعل تاني (Ich helfe ihr) أو قبلها حرف جر (bei ihr)؟ يبقى «ليها / عندها»، ودي في درس 74. وفي الكلام مفيش حروف كبيرة، فالسياق هو اللي بيوضح.",
+      "table": [
+        ["العلامة", "ihr هنا", "مثال"],
+        ["فعلها seid / habt / -t", "إنتوا", "Habt ihr Hunger?"],
+        ["قبل اسم، وينفع mein مكانها", "بتاعها / بتاعهم", "ihr Vater, ihre Kinder"],
+        ["I كبيرة في نص الجملة", "بتاع حضرتك", "Wie ist Ihre Adresse?"],
+        ["لوحدها، والفاعل حد تاني", "ليها (درس 74)", "Ich helfe ihr."]
+      ],
+      "examples": [
+        { "de": "Woher kommt ihr?", "ar": "إنتوا منين؟ (kommt متصرّف مع ihr، ومفيش فاعل غيرها ← إنتوا)", "lesson": 8 },
+        { "de": "Habt ihr Durst?", "ar": "إنتوا عطشانين؟ (بعدها اسم، بس habt فعل ihr، وينفع تقول Hast du Durst? ← إنتوا)", "lesson": 15 },
+        { "de": "Lisa hat Geburtstag. Kommt ihr Vater auch?", "ar": "النهارده عيد ميلاد ليزا. هو أبوها جاي كمان؟ (ihr لازقة في Vater، وينفع mein Vater ← بتاعها)", "lesson": 28 },
+        { "de": "Max und Tarek leiten ihr Restaurant.", "ar": "ماكس وطارق بيديروا المطعم بتاعهم. (ihr = بتاعهم)", "lesson": 37 },
+        { "de": "Wie ist Ihre Adresse?", "ar": "عنوان حضرتك إيه؟ (Ihre بـ I كبيرة في نص الجملة = بتاع حضرتك)", "lesson": 12 },
+        { "de": "Ich helfe ihr.", "ar": "أنا بساعدها. (الفاعل ich، و ihr لوحدها ← ليها، درس 74)", "lesson": 74 }
+      ]
+    },
+    {
+      "h": "ihr = إنتوا: الفعل بيفضحها",
+      "body": "ihr هي جمع du (درس 8): بتكلّم بيها اتنين أو أكتر من اللي بتقول لكل واحد فيهم du، زي صحابك وأهلك والأطفال. زي العربي بالظبط: إنت = du، إنتوا = ihr (الإنجليزي بيقول you للاتنين). أما الرسمي، لواحد أو أكتر، فـ Sie: «حضرتك» و«حضراتكم» الاتنين Sie، مش ihr. وعلامة ihr هي الفعل: في المضارع آخره -t دايمًا (ihr kommt، ihr möchtet)، ما عدا ihr seid. بس ihr kommt شكلها زي sie kommt، فالفعل بيفضحها بجد مع sein و haben و möchten والأفعال اللي الـ e فيها بتبقى i مع du و er (درس 15): ihr seid / sie ist، ihr habt / sie hat، ihr nehmt / sie nimmt. وخلي بالك: ممكن ييجي بعد ihr اسم وتفضل «إنتوا»: Habt ihr Hunger? (حلقة درس 14) يعني إنتوا جعانين؟ مش «جوعها». وفي حلقة درس 46 هتسمع Hallo, ihr Lieben! يعني «أهلًا يا حبايب»، و ihr هنا برضه = إنتوا.",
+      "table": [
+        ["الفعل", "ihr (إنتوا)", "er / sie (هي)", "sie / Sie"],
+        ["sein", "seid", "ist", "sind"],
+        ["haben", "habt", "hat", "haben"],
+        ["kommen", "kommt", "kommt", "kommen"],
+        ["nehmen", "nehmt", "nimmt", "nehmen"]
+      ],
+      "examples": [
+        { "de": "Kennt ihr Yaras Fahrradladen?", "ar": "تعرفوا محل العجل بتاع يارا؟ (من حلقة درس 14: بعدها اسم، بس kennt فعلها ← إنتوا)", "lesson": 14 },
+        { "de": "Ihr sprecht gut Deutsch.", "ar": "إنتوا بتتكلموا ألماني كويس. (sprecht مش spricht)", "lesson": 8 },
+        { "de": "Du und Tarek, ihr habt den Schlüssel?", "ar": "إنت وطارق، المفتاح معاكم؟ (du + حد تاني = ihr، من حلقة درس 49)", "lesson": 33 },
+        { "de": "Herr und Frau Müller, wo wohnen Sie?", "ar": "يا أستاذ مولر ويا مدام مولر، حضراتكم ساكنين فين؟ (رسمي = Sie مش ihr)", "lesson": 8 }
+      ]
+    },
+    {
+      "h": "ihr / ihre = بتاعها وبتاعهم",
+      "body": "ihr كمان ضمير ملكية (درس 28)، وبيتختار بصاحب الحاجة زي «ـها» و«ـه» في العربي: لو صاحبها sie (هي) يبقى ihr = بتاعها، ولو er أو es يبقى sein = بتاعه. والمفاجأة إن sie (هما) كمان ملكيتها ihr! العربي بيفرّق بين «أوضتها» و«أوضتهم»، لكن الألماني بيقول الاتنين ihr Zimmer. طب أعرف منين؟ من الكلام اللي قبلها: لو عن واحدة يبقى بتاعها، ولو عن أكتر من واحد يبقى بتاعهم.",
+      "table": [
+        ["صاحبها", "das Haus", "die Wohnung"],
+        ["Lisa = هي", "ihr Haus", "ihre Wohnung"],
+        ["Lisa und Nina = هما", "ihr Haus", "ihre Wohnung"],
+        ["Sebastian = هو", "sein Haus", "seine Wohnung"]
+      ],
+      "examples": [
+        { "de": "Das ist Lisa. Das ist ihr Zimmer.", "ar": "دي ليزا. ودي أوضتها.", "lesson": 28 },
+        { "de": "Das sind Lisa und Nina. Das ist ihre Küche.", "ar": "دول ليزا ونينا. وده مطبخهم.", "lesson": 28 },
+        { "de": "Das ist Sebastian. Das ist sein Zimmer.", "ar": "ده سيباستيان. ودي أوضته. (هو ← sein)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "ihr ولا ihre ولا ihren؟ النهاية بتاعة الحاجة",
+      "body": "صاحب الحاجة بيختار الكلمة (ihr ولا sein)، لكن الحاجة نفسها هي اللي بتختار النهاية، بالظبط زي kein (درس 23 و 28). في الفاعل وبعد Das ist: مع der و das من غير نهاية (ihr Vater، ihr Auto)، ومع die والجمع ihre (ihre Mutter، ihre Kinder). يعني ihr Vater صح مع إن الكلام عن ست: الـ -e بتيجي من die، مش من الست. وده زي «بتاع» عندنا بالظبط، بتتغيّر على حسب الحاجة: البيت بتاعها، الشنطة بتاعتها، الكتب بتوعها. بس الجنس الألماني هو اللي بيحكم: das Auto ← ihr Auto، مع إن «العربية» عندنا مؤنث. ولما المذكّر يبقى مفعول به (Akkusativ) بيبقى ihren زي einen: Lisa sucht ihren Schlüssel (درس 37). وفي الـ Dativ (درس 39، وتاني في درس 63) هتقابل ihrem و ihrer، و ihren تاني مع الجمع.",
+      "table": [
+        ["", "Nominativ", "Akkusativ (درس 37)", "Dativ (درس 39)"],
+        ["der Vater", "ihr Vater", "ihren Vater", "ihrem Vater"],
+        ["die Mutter", "ihre Mutter", "ihre Mutter", "ihrer Mutter"],
+        ["das Kind", "ihr Kind", "ihr Kind", "ihrem Kind"],
+        ["die Kinder", "ihre Kinder", "ihre Kinder", "ihren Kindern"]
+      ],
+      "examples": [
+        { "de": "Lisa sucht ihre Armbanduhr.", "ar": "ليزا بتدوّر على ساعة إيدها. (die Uhr ← ihre)", "lesson": 28 },
+        { "de": "Lisa und Nina putzen ihr Bad.", "ar": "ليزا ونينا بينضّفوا الحمّام بتاعهم. (das Bad ← ihr)", "lesson": 28 },
+        { "de": "Das sind die Nachbarn und ihre Kinder.", "ar": "دول الجيران وولادهم. (الجمع ← ihre)", "lesson": 28 },
+        { "de": "Nina sucht ihren Pass.", "ar": "نينا بتدوّر على الباسبور بتاعها. (der Pass مفعول به ← ihren، درس 37)", "lesson": 37 }
+      ]
+    },
+    {
+      "h": "Ihr / Ihre بـ I كبيرة = بتاع حضرتك",
+      "body": "Sie الرسمية ليها ملكية هي كمان: Ihr / Ihre = بتاع حضرتك أو بتاع حضراتكم. بتتكتب دايمًا بـ I كبيرة حتى في نص الجملة زي Sie بالظبط، ونهاياتها زي ihr بالظبط: Ihr Name، Ihre Adresse، Ihren Pass (درس 37). وهتشوفها كتير في الاستمارات والمصالح: Wie ist Ihr Name? و Wie ist Ihre Telefonnummer? (درس 4 و 10). وفي الكتابة الحرف الكبير بيفرّق: Haben Sie ihre Handynummer? (حلقة درس 62) يعني حضرتك معاك رقم موبايلها؟ بس خلي بالك من فخّين: (1) أول كلمة في الجملة دايمًا بحرف كبير، فـ Ihr في أول الجملة ممكن تبقى أي معنى، والفعل أو السياق هو اللي بيحدد. (2) في الكلام مفيش حروف كبيرة خالص.",
+      "table": [
+        ["", "بتاع حضرتك", "بتاعها / بتاعهم"],
+        ["der Name", "Ihr Name", "ihr Name"],
+        ["die Adresse", "Ihre Adresse", "ihre Adresse"],
+        ["der Pass (مفعول به)", "Ihren Pass", "ihren Pass"]
+      ],
+      "examples": [
+        { "de": "Yara ist Ihre Tante.", "ar": "يارا تبقى خالة حضرتك. (الموظف بيكلّم نيكو في حلقة درس 12)", "lesson": 12 },
+        { "de": "Haben Sie ihre Handynummer?", "ar": "حضرتك معاك رقم موبايلها؟ (من حلقة درس 62: Sie = حضرتك، و ihre بحرف صغير = بتاعتها، يعني يارا)", "lesson": 28 },
+        { "de": "Ihr seid toll!", "ar": "إنتوا تحفة! (Ihr في أول الجملة، والفعل seid ← إنتوا)", "lesson": 17 },
+        { "de": "Ihr Auto ist rot.", "ar": "عربيتها حمرا. (أو عربيتهم، أو عربية حضرتك: في أول الجملة السياق بس هو اللي بيحدد)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "بتاعكم = euer، مش ihr!",
+      "body": "ده أكبر فخ: ihr (إنتوا) ملكيتها مش ihr. الملكية اللي شكلها ihr بتاعة sie (هي / هما) و Sie (حضرتك)، أما ihr (إنتوا) فملكيتها كلمة تانية خالص: euer = بتاعكم (درس 28). يعني لو قلت لصحابك ihr Auto، هيفهموا «عربيتها» أو «عربيتهم»، مش «عربيتكم». و euer لما ياخد نهاية الـ e اللي في النص بتقع: euer Auto بس eure Wohnung، و euren في الـ Akkusativ (درس 37).",
+      "table": [
+        ["الضمير", "يعني", "الملكية"],
+        ["sie", "هي", "ihr / ihre"],
+        ["sie", "هما", "ihr / ihre"],
+        ["Sie", "حضرتك", "Ihr / Ihre"],
+        ["ihr", "إنتوا", "euer / eure"]
+      ],
+      "examples": [
+        { "de": "Eure Küche ist immer dreckig!", "ar": "مطبخكم دايمًا وسخ!", "lesson": 28 },
+        { "de": "Woher kommt euer Mitbewohner?", "ar": "شريككم في السكن منين؟", "lesson": 28 },
+        { "de": "Ist das euer Auto? – Nein, das ist ihr Auto.", "ar": "دي عربيتكم؟ – لأ، دي عربيتهم. (ihr = بتاعها أو بتاعهم، أما بتاعكم فـ euer)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "ihr = ليها (درس 74)، و ihnen و Ihnen و euch",
+      "body": "آخر معنى: ihr = ليها، ودي الـ Dativ بتاع sie (هي)، هتاخدها في درس 74. بتيجي بعد أفعال زي helfen: Ich helfe ihr = بساعدها (مش sie!)، وبعد حروف جر زي mit و bei: mit ihr = معاها، bei ihr = عندها. زي her في الإنجليزي: I help her = Ich helfe ihr، بس I see her = Ich sehe sie (Akkusativ، درس 62). وزي Wie geht es Ihnen? (درس 1) بتسأل Wie geht es ihr? = هي عاملة إيه؟ والرد Ihr geht es gut، مش Sie geht es gut. وماتخلطش: ليهم = ihnen، ولحضرتك = Ihnen، وليكم (إنتوا) = euch: Ich helfe euch. وآخر فخ في درس 74: Ich schenke ihr Blumen = هجيب لها ورد. بعدها اسم بس معناها «ليها»، لأن «وردها» كانت هتبقى ihre Blumen (الجمع بياخد -e)، زي حلقة درس 63: wir sollen ihre Blumen gießen = المفروض نسقي الورد بتاعها.",
+      "table": [
+        ["", "هي", "هما", "حضرتك"],
+        ["فاعل (Nominativ)", "sie", "sie", "Sie"],
+        ["Akkusativ (درس 62)", "sie", "sie", "Sie"],
+        ["Dativ (درس 74)", "ihr", "ihnen", "Ihnen"],
+        ["ملكية (درس 28)", "ihr / ihre", "ihr / ihre", "Ihr / Ihre"]
+      ],
+      "examples": [
+        { "de": "Helft ihr Lisa? – Ja, wir helfen ihr.", "ar": "هتساعدوا ليزا؟ – أيوه، هنساعدها. (الأولى إنتوا، والتانية ليها)", "lesson": 74 },
+        { "de": "Emma ist acht Jahre alt. Lisa spielt oft mit ihr.", "ar": "إيما عندها 8 سنين. ليزا بتلعب معاها كتير. (mit ihr = معاها)", "lesson": 74 },
+        { "de": "Ich helfe euch.", "ar": "هساعدكم. (إنتوا ← euch، مش ihr)", "lesson": 74 },
+        { "de": "Meine Oma hat Geburtstag. Ich schenke ihr Blumen.", "ar": "النهارده عيد ميلاد تيتة. هجيب لها ورد هدية. (ihr = ليها، مش «وردها»)", "lesson": 74 },
+        { "de": "Yara ist nicht da. Wir gießen ihre Blumen.", "ar": "يارا مش موجودة. إحنا بنسقي الورد بتاعها. (ihre بالـ -e = بتاعها)", "lesson": 63 }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "Woher ___ ihr?", "answer": "kommt", "opts": ["kommt", "kommen", "kommst"], "ar": "إنتوا منين؟", "why": "مع ihr (إنتوا) الفعل في المضارع آخره -t: ihr kommt. kommen لـ wir و sie و Sie، و kommst لـ du.", "lesson": 8 },
+    { "q": "Wo ___ ihr? – Wir sind hier!", "answer": "seid", "opts": ["seid", "sind", "ist"], "ar": "إنتوا فين؟ – إحنا هنا!", "why": "seid = sein مع ihr بس. sind لـ wir و sie و Sie، و ist لـ er و sie (هي).", "lesson": 8 },
+    { "q": "Lisa und Max kommen aus Deutschland. ___ sprechen Deutsch.", "answer": "Sie", "opts": ["Sie", "Ihr", "Er"], "ar": "ليزا وماكس من ألمانيا. هما بيتكلموا ألماني.", "why": "ليزا وماكس = هما = sie، وفعلها sprechen. ihr (إنتوا) فعلها sprecht، و er لواحد بس. و Sie هنا بحرف كبير عشان أول الجملة.", "lesson": 8 },
+    { "q": "Herr Müller, Frau Schneider, kommen ___ heute?", "answer": "Sie", "opts": ["Sie", "ihr", "du"], "ar": "يا أستاذ مولر ويا مدام شنايدر، حضراتكم جايين النهارده؟", "why": "حضراتكم (رسمي، أكتر من واحد) = Sie مع kommen. ihr للصحاب والعيلة بس، وكان الفعل هيبقى kommt.", "lesson": 8 },
+    { "q": "Frau Schneider, wie ist ___ Telefonnummer?", "answer": "Ihre", "opts": ["Ihre", "Ihr", "Ihren"], "ar": "يا مدام شنايدر، رقم تليفون حضرتك كام؟", "why": "die Telefonnummer مؤنّث، فبتاع حضرتك = Ihre (زي meine Telefonnummer)، وبـ I كبيرة عشان رسمي.", "lesson": 10 },
+    { "q": "Was ___ ihr trinken?", "answer": "möchtet", "opts": ["möchtet", "möchten", "möchte"], "ar": "تحبوا تشربوا إيه؟", "why": "ihr möchtet: مع ihr آخر الفعل -t. möchten لـ wir و sie و Sie، و möchte لـ ich و er.", "lesson": 14 },
+    { "q": "Was ___ ihr? – Wir nehmen eine Pizza.", "answer": "nehmt", "opts": ["nehmt", "nimmt", "nehmen"], "ar": "هتاخدوا إيه؟ – هناخد بيتزا.", "why": "nehmen بيتغيّر مع du و er بس (nimmst، nimmt). مع ihr عادي: ihr nehmt.", "lesson": 15 },
+    { "q": "Lisa und Nina, ___ ihr Hunger?", "answer": "habt", "opts": ["habt", "haben", "hat"], "ar": "يا ليزا ونينا، إنتوا جعانين؟", "why": "haben مع ihr = habt. hat لـ er و sie (هي)، و haben لـ wir و sie و Sie. وخد بالك: Hunger بعد ihr مش معناها «جوعها»: ihr هنا الفاعل = إنتوا.", "lesson": 15 },
+    { "q": "___ seid sehr nett!", "answer": "Ihr", "opts": ["Ihr", "Sie", "Du"], "ar": "إنتوا لطاف أوي!", "why": "seid مع ihr بس (إنتوا). و Ihr هنا بحرف كبير عشان أول الجملة، مش عشان رسمي: الرسمي Sie sind، و du bist.", "lesson": 25 },
+    { "q": "Emma ist bei Lotte, und ___ Mutter ist im Flugzeug.", "answer": "ihre", "opts": ["ihre", "sie", "ihr"], "ar": "إيما عند لوته، ومامتها في الطيارة.", "why": "ihre هنا = بتاعتها (إيما)، و die Mutter مؤنّث فلازم -e: ihre مش ihr. و sie يعني «هي» مش «بتاعها».", "lesson": 28 },
+    { "q": "Das ist Lisa. ___ ihr Vater Polizist?", "answer": "Ist", "opts": ["Ist", "Seid", "Sind"], "ar": "دي ليزا. هو أبوها ظابط شرطة؟", "why": "ihr Vater = أبوها (ليزا)، يعني الفاعل der Vater (هو)، فالفعل ist. Seid مع ihr (إنتوا) بس، و Sind للجمع.", "lesson": 28 },
+    { "q": "Lisa und Nina sind nett. ___ ihre Nachbarn auch nett?", "answer": "Sind", "opts": ["Sind", "Seid", "Ist"], "ar": "ليزا ونينا لطاف. وجيرانهم لطاف هما كمان؟", "why": "ihre بالـ -e ملكية أكيد = بتاعهم، والفاعل die Nachbarn (جمع = هما)، فالفعل sind. seid لـ ihr (إنتوا) بس.", "lesson": 28 },
+    { "q": "Das ist Yara. ___ Fahrradladen ist im Zentrum.", "answer": "Ihr", "opts": ["Ihr", "Ihre", "Ihren"], "ar": "دي يارا. محل العجل بتاعها في وسط البلد.", "why": "Ihr هنا = بتاعها (يارا)، وبحرف كبير عشان أول الجملة بس. و der Fahrradladen مذكّر وفاعل، فمن غير نهاية.", "lesson": 28 },
+    { "q": "Die Nachbarn putzen ___ Auto.", "answer": "ihr", "opts": ["ihr", "ihre", "ihren"], "ar": "الجيران بينضّفوا عربيتهم.", "why": "ihr هنا = بتاعهم (الجيران). و das Auto محايد فمن غير نهاية، حتى وهو مفعول به.", "lesson": 28 },
+    { "q": "Die Eltern lieben ___ Kinder.", "answer": "ihre", "opts": ["ihre", "ihr", "ihren"], "ar": "الأهل بيحبوا ولادهم.", "why": "ihre = بتاعهم (الأهل)، و Kinder جمع، والجمع بياخد -e: ihre Kinder. و ihren هنا غلط: في المفعول به الـ -en للمذكر بس.", "lesson": 28 },
+    { "q": "Kennt ihr ___ Eltern?", "answer": "ihre", "opts": ["ihre", "ihr", "ihren"], "ar": "تعرفوا أهلها؟", "why": "أول ihr = إنتوا (الفاعل، و kennt متصرّف معاها). التانية لازقة في Eltern = بتاعها، و Eltern جمع ← ihre.", "lesson": 28 },
+    { "q": "___ ihr ihre Adresse?", "answer": "Habt", "opts": ["Habt", "Hat", "Haben"], "ar": "معاكم عنوانها؟", "why": "ihr من غير نهاية هنا هي الفاعل = إنتوا، وفعلها habt. أما ihre بالـ -e فملكية أكيد: عنوانها.", "lesson": 28 },
+    { "q": "Herr Müller, ist das ___ Fahrrad?", "answer": "Ihr", "opts": ["Ihr", "Sie", "Ihre"], "ar": "يا أستاذ مولر، دي عجلة حضرتك؟", "why": "بتاع حضرتك = Ihr، و das Fahrrad محايد فمن غير نهاية. و Sie لوحدها = «حضرتك» مش «بتاع حضرتك».", "lesson": 28 },
+    { "q": "Habt ihr ___ Hausaufgaben?", "answer": "eure", "opts": ["eure", "euer", "ihr"], "ar": "معاكم الواجب بتاعكم؟", "why": "الكلام للي قدامك (ihr = إنتوا)، والملكية بتاعة ihr هي euer مش ihr. و Hausaufgaben جمع ← eure.", "lesson": 28 },
+    { "q": "Lisa und Max besuchen ___ Freund Nico.", "answer": "ihren", "opts": ["ihren", "ihr", "ihre"], "ar": "ليزا وماكس بيزوروا صاحبهم نيكو.", "why": "der Freund مذكّر ومفعول به بعد besuchen ← ihren. و ihren هنا = بتاعهم (ليزا وماكس).", "lesson": 37 },
+    { "q": "Frau Schneider, haben Sie ___ Pass?", "answer": "Ihren", "opts": ["Ihren", "Ihr", "Ihre"], "ar": "يا مدام شنايدر، الباسبور بتاع حضرتك معاكي؟", "why": "Sie ← Ihr بـ I كبيرة (بتاع حضرتك)، و der Pass مذكّر ومفعول به بعد haben ← Ihren.", "lesson": 37 },
+    { "q": "Emma sucht ihre Tasche. Ich helfe ___.", "answer": "ihr", "opts": ["ihr", "sie", "ihre"], "ar": "إيما بتدوّر على شنطتها. أنا هساعدها.", "why": "helfen بياخد Dativ، و sie (هي) في الـ Dativ = ihr. «Ich helfe sie» غلط، و ihre ملكية (بتاعتها) مش «ليها».", "lesson": 74 },
+    { "q": "Yara ist Nicos Tante. Nico arbeitet bei ___.", "answer": "ihr", "opts": ["ihr", "sie", "ihre"], "ar": "يارا تبقى خالة نيكو. نيكو بيشتغل عندها.", "why": "بعد bei بييجي Dativ، و sie (هي) في الـ Dativ = ihr: bei ihr = عندها.", "lesson": 74 },
+    { "q": "Wie geht es Emma? – ___ geht es gut.", "answer": "Ihr", "opts": ["Ihr", "Sie", "Ihre"], "ar": "إيما عاملة إيه؟ – هي كويسة.", "why": "Wie geht es …? بييجي مع Dativ (زي Wie geht es Ihnen?)، و sie (هي) في الـ Dativ = ihr. «Sie geht es gut» غلطة مشهورة.", "lesson": 74 }
+  ]
+}

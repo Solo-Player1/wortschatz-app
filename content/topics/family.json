@@ -1,0 +1,312 @@
+{
+  "id": "family",
+  "title": "عمتي وعمته وعمتها: meine / seine / ihre Tante",
+  "icon": "👪",
+  "lesson": 28,
+  "summary": "هتعرف تقول عمتي وعمته وعمتها بالألماني: إمتى sein وإمتى ihr، وليه meine Tante بس mein Onkel، وإزاي تقول Nicos Tante.",
+  "sections": [
+    {
+      "h": "Tante = عمة أو خالة",
+      "body": "العربي بيفرّق بين أخت الأب (عمة) وأخت الأم (خالة)، لكن الألماني عنده كلمة واحدة للاتنين: die Tante. ونفس الحكاية: der Onkel = عم أو خال. وكمان مرات عمك أو خالك بتقولها Tante، وجوز عمتك أو خالتك Onkel. والكلمتين ليهم نفس أصل «طنط» و«أونكل» عندنا (من الفرنساوي)، وزي ما بنقول «طنط ليزا» إيما بتقول Tante Lisa. عشان كده Nicos Tante ممكن تبقى عمته أو خالته والكلمة مابتقولش (في التطبيق بنترجمها «خالة نيكو»)، ولو لازم توضّح بتقول: die Schwester von meinem Vater = أخت أبويا (درس 41). وأداة كلمات العيلة غالبًا زي جنس الشخص: der للراجل و die للست، إلا das Kind (طفل أو طفلة) و das Mädchen (بنت، درس 61).",
+      "table": [
+        ["راجل (der)", "ست (die)", "الاتنين (جمع)"],
+        ["der Vater", "die Mutter", "die Eltern"],
+        ["der Opa", "die Oma", "die Großeltern"],
+        ["der Sohn", "die Tochter", "die Kinder"],
+        ["der Bruder", "die Schwester", "die Geschwister"],
+        ["der Onkel", "die Tante", "Onkel und Tanten"]
+      ],
+      "examples": [
+        { "de": "Lisa ist nicht meine Mama. Sie ist meine Tante.", "ar": "ليزا مش مامتي. هي خالتي. (إيما في الحلقة، درس 4)", "lesson": 4 },
+        { "de": "Wie war dein Tag, Tante Lisa?", "ar": "يومك كان عامل إزاي يا طنط ليزا؟", "lesson": 31 },
+        { "de": "Das sind meine Eltern.", "ar": "دول أهلي. (die Eltern = الأب والأم)", "lesson": 17 }
+      ]
+    },
+    {
+      "h": "عمتي = meine Tante: كلمة قبل الاسم",
+      "body": "في العربي الملكية حرف بنلزقه في آخر الاسم: عمتي، عمتك، عمته. أما الألماني فبيحط كلمة قبل الاسم مكان der / die / das، زي الإنجليزي my aunt: die Tante ← meine Tante. ولكل ضمير كلمة ملكية، ودي اللي DW بتسميها «ضمائر الملكية» (درس 28، شوف الجدول). وخلي بالك من 3 حاجات: (1) sein هنا مش الفعل sein (يكون)، دي كلمة تانية معناها «بتاعه». (2) ihr ليها معنيين: بتاعها وبتاعهم، و Ihr بحرف كبير = بتاع حضرتك (أو حضراتكم)، أما ihr اللي بمعنى «إنتوا» فملكيتها euer. (3) مفيش أداة مع كلمة الملكية: meine Tante، مش die meine Tante.",
+      "table": [
+        ["الضمير", "الملكية", "مع Tante", "يعني"],
+        ["ich", "mein", "meine Tante", "عمتي"],
+        ["du", "dein", "deine Tante", "عمتك"],
+        ["er / es", "sein", "seine Tante", "عمته"],
+        ["sie (هي)", "ihr", "ihre Tante", "عمتها"],
+        ["wir", "unser", "unsere Tante", "عمتنا"],
+        ["ihr (إنتوا)", "euer", "eure Tante", "عمتكم"],
+        ["sie (هما)", "ihr", "ihre Tante", "عمتهم"],
+        ["Sie (رسمي)", "Ihr", "Ihre Tante", "عمة حضرتك"]
+      ],
+      "examples": [
+        { "de": "Das ist meine Tante.", "ar": "دي عمتي.", "lesson": 4 },
+        { "de": "Ist das deine Tante?", "ar": "دي عمتك؟", "lesson": 4 },
+        { "de": "Wie heißt Ihre Tante?", "ar": "عمة حضرتك اسمها إيه؟ (رسمي)", "lesson": 12 }
+      ]
+    },
+    {
+      "h": "sein ولا ihr؟ بص على صاحب الحاجة",
+      "body": "أهم سؤال: الحاجة دي بتاعة مين؟ لو صاحبها er (نيكو، der Vater) أو es (das Kind) ← sein. ولو صاحبها sie (إيما، die Mutter) ← ihr. زي «ـه» و«ـها» في العربي، و his و her في الإنجليزي. نيكو راجل، يبقى خالته = seine Tante. إيما بنت، يبقى خالتها = ihre Tante. ولو الصحاب أكتر من واحد (sie = هما) ← ihr = بتاعهم. وماتبصش على الشخص التاني: يارا ست، بس هي خالة نيكو، يبقى Yara ist seine Tante.",
+      "table": [
+        ["صاحب الحاجة", "بالألماني", "بالعربي"],
+        ["Nico (er)", "seine Tante", "خالته"],
+        ["Emma (sie)", "ihre Tante", "خالتها"],
+        ["das Kind (es)", "seine Tante", "خالته"],
+        ["die Kinder (sie)", "ihre Tante", "خالتهم"]
+      ],
+      "examples": [
+        { "de": "Das ist Nico, und das ist seine Tante Yara.", "ar": "ده نيكو، ودي خالته يارا.", "lesson": 28 },
+        { "de": "Das ist Emma, und das ist ihre Tante Lisa.", "ar": "دي إيما، ودي خالتها ليزا.", "lesson": 28 },
+        { "de": "Die Kinder suchen ihre Mama.", "ar": "العيال بيدوّروا على مامتهم.", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "النهاية من الحاجة نفسها: mein Onkel بس meine Tante",
+      "body": "تاني خطوة: النهاية، ودي بتتحدد بالحاجة نفسها مش بصاحبها. لو أداة الحاجة die (مؤنث أو جمع) زوّد -e: meine Tante، seine Mutter، ihre Eltern. ولو der أو das من غير نهاية: mein Onkel، sein Vater، ihr Kind. (ده في حالة الرفع: بعد Das ist أو لما الاسم يبقى فاعل.) يعني seine فيها معلومتين زي «عمته» بالظبط: sein- زي «ـه» بتقول بتاع مين، و -e بتقول إن الحاجة مؤنثة (أو جمع) زي التاء. عشان كده ihr Onkel (عمها) من غير -e مع إن صاحبته بنت، و seine Tante (عمته) بـ -e مع إن صاحبها راجل. و euer لما ياخد -e بيبقى eure (eure Tante)، أما unser فمابيقعش منه حاجة: unsere Tante.",
+      "table": [
+        ["", "Onkel (der)", "Tante (die)"],
+        ["ich", "mein Onkel (عمي)", "meine Tante (عمتي)"],
+        ["er", "sein Onkel (عمه)", "seine Tante (عمته)"],
+        ["sie (هي)", "ihr Onkel (عمها)", "ihre Tante (عمتها)"]
+      ],
+      "examples": [
+        { "de": "Das ist Lisa, und das ist ihr Vater.", "ar": "دي ليزا، وده أبوها. (ihr من غير -e عشان der Vater)", "lesson": 28 },
+        { "de": "Tim und seine Tante wohnen in Köln.", "ar": "تيم وعمته ساكنين في كولونيا. (seine بـ -e عشان die Tante)", "lesson": 28 },
+        { "de": "Das sind seine Kinder.", "ar": "دول عياله. (seine بـ -e عشان die Kinder جمع)", "lesson": 28 }
+      ]
+    },
+    {
+      "h": "Nicos Tante = خالة نيكو: الاسم + s",
+      "body": "لما صاحب الحاجة ليه اسم، زوّد s في آخر الاسم وحطه قبل الحاجة: Nicos Tante = خالة نيكو، Yaras Fahrradladen = محل العجل بتاع يارا. زي الإنجليزي Nico's aunt، بس من غير ' (بنكتب Nicos). والـ s دي مابتتغيرش: راجل أو ست (Nicos، Yaras)، مذكر أو مؤنث (Nicos Pass، Nicos Tante). ومن غير أداة، زي العربي بالظبط: بنقول «خالة نيكو» مش «الخالة نيكو»، يبقى Nicos Tante مش die Nicos Tante. ولو الاسم آخره s أو x أو z بنحط ' بس: Max' Restaurant. وفي الكلام كتير بيقولوها بـ von، وساعتها الأداة بترجع: die Tante von Nico. وبعدها تقدر تكمّل بـ sein / ihr: Nicos Tasche ← seine Tasche، Yaras Laden ← ihr Laden.",
+      "table": [
+        ["بالعربي", "الاسم + s", "أو بـ von"],
+        ["خالة نيكو", "Nicos Tante", "die Tante von Nico"],
+        ["مامة إيما", "Emmas Mutter", "die Mutter von Emma"],
+        ["محل يارا", "Yaras Laden", "der Laden von Yara"],
+        ["مطعم ماكس", "Max' Restaurant", "das Restaurant von Max"]
+      ],
+      "examples": [
+        { "de": "Kennt ihr Yaras Fahrradladen?", "ar": "تعرفوا محل العجل بتاع يارا؟", "lesson": 14 },
+        { "de": "Emmas Mutter ist im Flugzeug.", "ar": "مامة إيما في الطيارة.", "lesson": 13 },
+        { "de": "Nicos Tasche und sein Pass sind immer noch weg.", "ar": "شنطة نيكو والباسبور بتاعه لسه ضايعين. (Nicos وبعدين sein)", "lesson": 36 },
+        { "de": "Das ist die Tante von Nico.", "ar": "دي خالة نيكو. (مع von الأداة بترجع)", "lesson": 13 }
+      ]
+    },
+    {
+      "h": "تسأل وترد عن العيلة",
+      "body": "تسأل عن حد: Wer ist das? والرد: Das ist meine Tante. ولو عايز تتأكد: Ist das dein Vater? وفي الرد اقلب dein لـ mein: Ja, das ist mein Vater. والنفي قبل كلمة الملكية بـ nicht: Nein, das ist nicht mein Vater. أما kein فماينفعش قبل mein أو dein (kein mein Vater غلط)، عشان الاتنين بياخدوا مكان الأداة. وتسأل عن الاسم: Wie heißt deine Mutter? – Meine Mutter heißt …",
+      "examples": [
+        { "de": "Wer ist das? – Das ist meine Tante.", "ar": "مين دي؟ – دي عمتي.", "lesson": 5 },
+        { "de": "Ist das dein Vater? – Nein, das ist nicht mein Vater.", "ar": "ده أبوك؟ – لأ، ده مش أبويا.", "lesson": 8 },
+        { "de": "Wie heißt deine Mutter? – Meine Mutter heißt Anna.", "ar": "مامتك اسمها إيه؟ – مامتي اسمها آنا.", "lesson": 8 }
+      ]
+    },
+    {
+      "h": "بعد كده: meinen Onkel و bei meiner Tante",
+      "body": "الجداول اللي فاتت كلها في حالة الرفع (Nominativ). بعد كده النهاية بتتغيّر حسب دور الاسم في الجملة (فاعل ولا مفعول به ولا بعد حرف جر)، بالظبط زي ein و kein: لما يبقى مفعول به (حالة النصب Akkusativ، درس 37) المذكر بس بياخد -en: Ich rufe meinen Onkel an. والمؤنث والمحايد والجمع زي ما هما: Ich besuche meine Tante. وبعد bei و mit و von و zu (حالة الجر Dativ، درس 39 و 41 و 43): -em مع der و das، و -er مع die، و -en مع الجمع: bei meinem Onkel، bei meiner Tante، bei meinen Eltern (والاسم نفسه في الجمع بياخد n زيادة: mit meinen Kindern، إلا لو آخره n أو s زي Eltern). وإنت سمعت ده في الحلقات من بدري: Er hat ein Foto von seiner Tante (درس 8). ماتشغلش بالك بيه دلوقتي، ودرس 63 بيراجعه كله.",
+      "table": [
+        ["", "Onkel (der)", "Tante (die)", "Eltern (جمع)"],
+        ["Nominativ", "mein", "meine", "meine"],
+        ["Akkusativ", "meinen", "meine", "meine"],
+        ["Dativ", "meinem", "meiner", "meinen"]
+      ],
+      "examples": [
+        { "de": "Kennst du meinen Vater?", "ar": "تعرف أبويا؟ (مفعول به: meinen)", "lesson": 37 },
+        { "de": "Er hat ein Foto von seiner Tante.", "ar": "معاه صورة لخالته. (بعد von: seiner)", "lesson": 41 },
+        { "de": "Wo bist du? Bei deinen Eltern?", "ar": "إنتي فين؟ عند أهلك؟ (بعد bei: deinen)", "lesson": 41 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Das ist Yara. Sie ist ___ Tante.",
+      "answer": "meine",
+      "opts": ["meine", "mein", "meinen"],
+      "ar": "دي يارا. هي خالتي.",
+      "why": "die Tante مؤنث، فـ mein بتاخد -e: meine Tante.",
+      "lesson": 4
+    },
+    {
+      "q": "___ Onkel wohnt in Kairo.",
+      "answer": "Mein",
+      "opts": ["Mein", "Meine", "Meinen"],
+      "ar": "عمي ساكن في القاهرة.",
+      "why": "der Onkel مذكر، فمن غير نهاية: mein Onkel. (Meine Onkel يعني أعمامي، وساعتها الفعل يبقى wohnen)",
+      "lesson": 12
+    },
+    {
+      "q": "Nein, Lisa ist ___ meine Mama.",
+      "answer": "nicht",
+      "opts": ["nicht", "kein", "keine"],
+      "ar": "لأ، ليزا مش مامتي.",
+      "why": "قبل meine / deine بننفي بـ nicht. وماينفعش kein قبل meine (kein meine Mama غلط)، عشان الاتنين مكانهم مكان الأداة.",
+      "lesson": 4
+    },
+    {
+      "q": "Ist das ___ Onkel? – Ja, das ist mein Onkel.",
+      "answer": "dein",
+      "opts": ["dein", "deine", "deinen"],
+      "ar": "ده عمك؟ – أيوه، ده عمي.",
+      "why": "der Onkel مذكر ← dein من غير -e. وفي الرد dein بتبقى mein.",
+      "lesson": 12
+    },
+    {
+      "q": "Herr González, Yara ist ___ Tante.",
+      "answer": "Ihre",
+      "opts": ["Ihre", "Ihr", "Sie"],
+      "ar": "يا أستاذ جونزاليس، يارا تبقى خالة حضرتك.",
+      "why": "مع Herr + اسم العيلة الكلام رسمي ← Ihr بحرف كبير، و Tante مؤنث ← Ihre. و Sie ضمير (حضرتك) مش ملكية.",
+      "lesson": 12
+    },
+    {
+      "q": "___ Eltern wohnen in Sevilla.",
+      "answer": "Meine",
+      "opts": ["Meine", "Mein", "Meinen"],
+      "ar": "أهلي ساكنين في إشبيلية.",
+      "why": "die Eltern جمع، والجمع زي المؤنث بياخد -e: meine Eltern.",
+      "lesson": 17
+    },
+    {
+      "q": "Yara ist ___ Tante.",
+      "answer": "Nicos",
+      "opts": ["Nicos", "Nico", "von Nico"],
+      "ar": "يارا تبقى خالة نيكو.",
+      "why": "خالة نيكو = Nicos Tante: الاسم + s قبل الحاجة ومن غير أداة. ولو عايز von لازم الأداة: die Tante von Nico.",
+      "lesson": 13
+    },
+    {
+      "q": "Hier ist ___ Fahrradladen.",
+      "answer": "Yaras",
+      "opts": ["Yaras", "der Yaras", "Yara"],
+      "ar": "هنا محل العجل بتاع يارا.",
+      "why": "Yaras = الاسم + s (من غير s غلط)، ومن غير أداة قبله، زي «محل يارا» في العربي من غير «الـ».",
+      "lesson": 14
+    },
+    {
+      "q": "Das ist der Fahrradladen ___ Yara.",
+      "answer": "von",
+      "opts": ["von", "aus", "zu"],
+      "ar": "ده محل العجل بتاع يارا.",
+      "why": "بتاع فلان = von + الاسم، وهنا الأداة بترجع: der Fahrradladen von Yara = Yaras Fahrradladen.",
+      "lesson": 14
+    },
+    {
+      "q": "Yara ist Nicos Tante. Sie ist ___ Tante.",
+      "answer": "seine",
+      "opts": ["seine", "ihre", "sein", "ihr"],
+      "ar": "يارا خالة نيكو. هي خالته.",
+      "why": "الخالة دي بتاعة مين؟ بتاعة نيكو (er) ← sein، و Tante مؤنث ← seine. ماتبصش على يارا نفسها!",
+      "lesson": 28
+    },
+    {
+      "q": "Lisa ist Emmas Tante. Sie ist ___ Tante.",
+      "answer": "ihre",
+      "opts": ["ihre", "seine", "ihr", "sein"],
+      "ar": "ليزا خالة إيما. هي خالتها.",
+      "why": "بتاعة إيما (sie) ← ihr، و Tante مؤنث ← ihre.",
+      "lesson": 28
+    },
+    {
+      "q": "Herr Brunner ist Lisas Vater. Er ist ___ Vater.",
+      "answer": "ihr",
+      "opts": ["ihr", "sein", "ihre", "seine"],
+      "ar": "الأستاذ برونر أبو ليزا. هو أبوها.",
+      "why": "الأب ده بتاع ليزا (sie) ← ihr، و der Vater مذكر ← من غير -e. و er ده الأب نفسه، مش صاحب الحاجة.",
+      "lesson": 28
+    },
+    {
+      "q": "Wir wohnen in Kairo, und ___ Tante wohnt in Bonn.",
+      "answer": "unsere",
+      "opts": ["unsere", "unser", "unseren"],
+      "ar": "إحنا ساكنين في القاهرة، وعمتنا ساكنة في بون.",
+      "why": "بتاعتنا (wir) ← unser، و Tante مؤنث ← unsere.",
+      "lesson": 28
+    },
+    {
+      "q": "Kinder, wo ist ___ Mama?",
+      "answer": "eure",
+      "opts": ["eure", "euer", "euren"],
+      "ar": "يا ولاد، مامتكم فين؟",
+      "why": "بتكلّم أكتر من واحد (ihr = إنتوا) ← euer، ومع -e الـ e اللي في النص بتقع: eure Mama.",
+      "lesson": 28
+    },
+    {
+      "q": "Kinder, ist das ___ Opa?",
+      "answer": "euer",
+      "opts": ["euer", "eure", "euren"],
+      "ar": "يا ولاد، ده جدكم؟",
+      "why": "der Opa مذكر ← من غير نهاية، فـ euer بيفضل زي ما هو: euer Opa.",
+      "lesson": 31
+    },
+    {
+      "q": "Max und Tarek haben ein Restaurant. Das ist ___ Restaurant.",
+      "answer": "ihr",
+      "opts": ["ihr", "ihre", "ihren"],
+      "ar": "ماكس وطارق عندهم مطعم. ده مطعمهم.",
+      "why": "صحاب المطعم اتنين (sie = هما) ← ihr = بتاعهم. و das Restaurant محايد ← من غير -e.",
+      "lesson": 33
+    },
+    {
+      "q": "Ich rufe ___ Vater an.",
+      "answer": "meinen",
+      "opts": ["meinen", "mein", "meinem", "meine"],
+      "ar": "هتصل بأبويا.",
+      "why": "der Vater مذكر وهنا مفعول به (Akkusativ) ← -en: meinen Vater. (درس 37)",
+      "lesson": 37
+    },
+    {
+      "q": "Nico sucht ___ Tante.",
+      "answer": "seine",
+      "opts": ["seine", "seinen", "seinem", "sein"],
+      "ar": "نيكو بيدوّر على خالته.",
+      "why": "المؤنث مابيتغيرش في النصب: seine Tante. الـ -en للمذكر بس.",
+      "lesson": 37
+    },
+    {
+      "q": "Emma liebt ___ Opa.",
+      "answer": "ihren",
+      "opts": ["ihren", "ihr", "ihrem", "ihre"],
+      "ar": "إيما بتحب جدها.",
+      "why": "جد إيما ← ihr، و der Opa مذكر وهنا مفعول به ← ihren.",
+      "lesson": 37
+    },
+    {
+      "q": "Nicos Pass ist in ___ Tasche.",
+      "answer": "seiner",
+      "opts": ["seiner", "seine", "seinem", "seinen"],
+      "ar": "باسبور نيكو في شنطته.",
+      "why": "in + مكان ثابت (Wo?) ← Dativ، و die Tasche مؤنث ← -er: seiner Tasche. (درس 39)",
+      "lesson": 39
+    },
+    {
+      "q": "Die Schwester von meinem Vater ist meine ___.",
+      "answer": "Tante",
+      "opts": ["Tante", "Onkel", "Mutter"],
+      "ar": "أخت أبويا تبقى عمتي.",
+      "why": "عمة أو خالة بالألماني كلمة واحدة: die Tante. و meine قبل اسم مفرد يبقى مؤنث، فـ Onkel مايمشيش.",
+      "lesson": 41
+    },
+    {
+      "q": "Emma ist bei ___ Tante Lisa.",
+      "answer": "ihrer",
+      "opts": ["ihrer", "ihre", "ihrem", "ihren"],
+      "ar": "إيما عند خالتها ليزا.",
+      "why": "بعد bei ← Dativ، وإيما ← ihr، و Tante مؤنث ← ihrer.",
+      "lesson": 41
+    },
+    {
+      "q": "Ich wohne bei ___ Eltern.",
+      "answer": "meinen",
+      "opts": ["meinen", "meine", "meinem", "meiner"],
+      "ar": "أنا ساكن عند أهلي.",
+      "why": "بعد bei ← Dativ، والجمع في الـ Dativ ← -en: bei meinen Eltern.",
+      "lesson": 41
+    },
+    {
+      "q": "Der Bruder von meiner Mutter ist mein ___.",
+      "answer": "Onkel",
+      "opts": ["Onkel", "Tante", "Vater"],
+      "ar": "أخو أمي يبقى خالي.",
+      "why": "خال أو عم بالألماني كلمة واحدة: der Onkel. و mein من غير -e مايمشيش مع Tante.",
+      "lesson": 61
+    }
+  ]
+}

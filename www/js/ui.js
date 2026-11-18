@@ -8,7 +8,9 @@ export function el(html) {
 export const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // نص عربي جواه كلام ألماني: كل جملة ألماني بتتحط في <bdi> عشان علامة الاستفهام والترتيب ما يتلخبطوش
-const LATIN_RUN = /[A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß0-9'’\-\/]*(?:[ ,.:;!?…]+[A-Za-zÄÖÜäöüß0-9'’\-\/]+)*[.!?…]*/g;
+// (الـ «-» اللي لازقة في أول نهاية زي «-en» / «-e» بتدخل جوّا الـ bdi — غير كده في الصفحة العربي بتظهر «en-»)
+// (و «–» / «→» بين كلمتين ألماني بيفضلوا جوّا نفس الـ bdi: «Mo.–Fr.» و«der Tisch → den Tisch» ما يتقلبوش)
+const LATIN_RUN = /-?[A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß0-9'’\-\/]*(?:[ ,.:;!?…–→]+[A-Za-zÄÖÜäöüß0-9'’\-\/]+)*[.!?…]*/g;
 export function mixHtml(s) {
   s = String(s ?? '');
   let out = '', last = 0;

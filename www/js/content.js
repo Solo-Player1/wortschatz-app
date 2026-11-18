@@ -3,9 +3,11 @@
 export const CONTENT = {
   ready: false, version: 0,
   sentences: [], byId: new Map(),
-  wfragen: [], grammar: {}, verbs: [], wwords: [],
+  wfragen: [], grammar: {}, verbs: [], wwords: [], topics: [],
   alphabet: { letters: [], spelling: [] },
 };
+// 🧩 قواعد مهمة (content/topics): صفحة + كويز لكل موضوع
+export const topicById = id => CONTENT.topics.find(t => t.id === id) || null;
 
 let loading = null;
 export function loadContent() {
@@ -22,6 +24,7 @@ export function loadContent() {
       CONTENT.verbs = (j.verbs || []).filter(v => v && v.inf && v.forms);
       CONTENT.wwords = j.wwords || [];
       CONTENT.alphabet = j.alphabet || { letters: [], spelling: [] };
+      CONTENT.topics = (j.topics || []).filter(t => t && t.id && Array.isArray(t.sections));
       CONTENT.byId = new Map();
       for (const s of CONTENT.sentences) CONTENT.byId.set(s.id, s);
       for (const q of CONTENT.wfragen) CONTENT.byId.set(q.id, q);

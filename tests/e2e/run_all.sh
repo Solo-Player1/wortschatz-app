@@ -30,6 +30,7 @@ run "grading unit tests (DW notations)" 60 node "$ROOT/tests/grading.test.mjs"
 run "grading in games/exam/online" 120 node t_grading.mjs
 run "study plan (home card, mission, settings)" 200 node t_plan.mjs
 run "every lesson page 1-76 + references (verbs scope/search, question words, grammar)" 600 node t_lessons.mjs
+run "1.8 features: back button, reading + Gemini (mocked), Gemini key, grammar topics" 300 node t_features.mjs
 run "integration (video/update) — its only expected FAIL is the mocked native video URL" 200 node t_integ.mjs
 run "study flow" 300 node t_flow.mjs
 for L in 1 7 9 14 16 40 76; do run "exam+drill L$L (9 checks)" 400 node t_exam.mjs $L; done

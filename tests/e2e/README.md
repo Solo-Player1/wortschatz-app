@@ -17,6 +17,7 @@ bash tests/e2e/run_all.sh
 | `t_plan.mjs` | 📅 study plan: home card quota, mission follows it, quota met → done, settings date/switch, overdue state, 390 light + 360 dark |
 | `t_grading.mjs` | typed answers in games/exam/online for DW notations: `auf\|stehen`, `mein(e)`, `euer/eure`, `die Eltern (Plural)`, `etwas sagen` |
 | `t_lessons.mjs` | every lesson page 1–76 with its cards opened (title, words + Arabic-letter pronunciation, sentences, grammar, episode teaser, no sideways overflow, every grammar table fits its card) + references: verbs (default = up to your lesson, «كل الأفعال», search: ä/ae, Arabic prefixes, DW gloss, «ich stehe auf»), question words, grammar — 390 light + 360 dark |
+| `t_features.mjs` | 1.8: Android back button (mocked Capacitor App plugin: lesson→lessons→home→minimize, video→lesson, game ✕, passage steps), 📖 reading (word quiz repeats mistakes, text, write, Gemini grade with a mocked API, bad-key message), the Gemini key in settings (device-only, not in backups), 🧩 the 8 grammar topics (pages + quiz) |
 | `t_exam.mjs <lesson>` | lesson exam solved correctly → passed; 3 wrong → the LOSE card (not just a text match); sentence drill → ⭐3 — run_all does lessons 1 7 9 14 16 40 76 |
 | `t_notify.mjs` | hourly reminders 10–22 for 7 days, permission asked by the app itself, silenced when the mission / 📅 quota is done |
 | `t_monkey.mjs` | every game at 390 light / 360 dark: reaches results, no overflow, no console errors |

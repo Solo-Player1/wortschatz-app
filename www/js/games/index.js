@@ -2,7 +2,7 @@
 // التحميل lazy: الملف بيتحمّل أول ما نحتاجه، ولو ناقص اللعبة بتختفي من غير ما الأبلكيشن يقع
 export const GAME_IDS = [
   'listen-write', 'articles', 'scramble', 'sentence', 'wfragen', 'verbs',
-  'numbers', 'alphabet', 'truefalse', 'memory', 'cloze', 'rain',
+  'numbers', 'alphabet', 'truefalse', 'memory', 'cloze', 'rain', 'grammar',
 ];
 
 const cache = new Map();

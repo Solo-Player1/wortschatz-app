@@ -13,14 +13,17 @@ import * as exam from './exam.js';
 import * as ref from './reference.js';
 import * as notify from './notify.js';
 import * as online from './online/lobby.js';
+import { initBackButton } from './back.js';
+import { plugin } from './native.js';
+import * as reading from './reading.js';
 
 const TITLES = {
   home: 'Wortschatz', lessons: 'الدروس', lesson: 'الدرس', session: 'مذاكرة', match: 'لعبة التوصيل', stats: 'إحصائياتي',
   settings: 'الإعدادات', video: 'فيديو الدرس', library: 'المكتبة', lib: 'المكتبة', games: 'الألعاب', game: 'لعبة',
-  exam: 'امتحان الدرس', drill: 'جمل الدرس', ref: 'مراجع', vs: 'العب مع صاحبك',
+  exam: 'امتحان الدرس', drill: 'جمل الدرس', ref: 'مراجع', vs: 'العب مع صاحبك', read: 'قطع القراءة',
 };
 const IMMERSIVE = new Set(['session', 'match', 'video', 'lib', 'exam', 'drill']);
-const TAB_OF = { lesson: 'lessons', video: 'lessons', lib: 'library', game: 'games', exam: 'lessons', drill: 'lessons', ref: 'lessons', stats: 'home', vs: 'games' };
+const TAB_OF = { lesson: 'lessons', video: 'lessons', lib: 'library', game: 'games', exam: 'lessons', drill: 'lessons', ref: 'lessons', stats: 'home', vs: 'games', read: 'home' };
 
 function parseRoute() {
   const h = (location.hash || '#/home').replace(/^#\/?/, '');
@@ -61,6 +64,7 @@ function render() {
       case 'drill': exam.renderDrill(view, { lesson: +r.arg }); break;
       case 'ref': ref.renderRef(view, { page: r.arg || '', params: r.params }); break;
       case 'vs': online.renderVs(view, r.params); break;
+      case 'read': reading.renderRead(view, r.arg); break;
       default: screens.renderHome(view);
     }
   } catch (e) {
@@ -83,9 +87,13 @@ async function boot() {
     await Promise.all([loadData(), loadContent()]);
   } catch (e) {
     document.getElementById('view').innerHTML = `<div class="card"><p>مش قادر أحمّل بيانات الدروس.</p><p class="muted">${String(e.message || e)}</p></div>`;
+    // الـ App plugin بيبلع زرار الرجوع لو مفيش listener: هنا الرجوع يقفل التطبيق (والفتحة الجاية بترجّع تحديث بايظ)
+    const App = plugin('App');
+    if (App && typeof App.addListener === 'function') App.addListener('backButton', () => App.exitApp());
     return;
   }
   window.addEventListener('hashchange', render);
+  initBackButton();           // زرار الرجوع بتاع أندرويد: خطوة لورا جوه التطبيق بدل ما يقفله (back.js)
   // رابط لنفس الصفحة اللي إحنا فيها (زي «🧱 كمّل جمل الدرس» بعد التدريب) → نعيد رسمها بدل ما الضغطة تضيع
   document.addEventListener('click', e => {
     const a = e.target.closest && e.target.closest('a[href^="#/"]');

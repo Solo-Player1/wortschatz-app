@@ -4,7 +4,7 @@ import { DATA } from './data.js';
 import { esc, el, toast, mixHtml } from './ui.js';
 import { play } from './audio.js';
 import { speak } from './tts.js';
-import { CONTENT, PERSONS, deNumber, grammarOf } from './content.js';
+import { CONTENT, PERSONS, deNumber, grammarOf, topicById } from './content.js';
 import { sortedLessonNs, studiedUpTo } from './mastery.js';
 
 const sayBtn = (text, label = 'اسمع') => `<button type="button" class="btn btn-icon sm rf-say" data-say="${esc(text)}" aria-label="${esc(label)}">🔊</button>`;
@@ -22,7 +22,7 @@ function wire(root) {
   });
 }
 
-export function renderRef(root, { page = '' } = {}) {
+export function renderRef(root, { page = '', params = {} } = {}) {
   // كونتينر جديد كل مرة (الـ #view نفسه بيفضل، فما نركّبش listeners عليه)
   root.innerHTML = '<div class="rf-page"></div>';
   const box = root.firstElementChild;
@@ -32,9 +32,41 @@ export function renderRef(root, { page = '' } = {}) {
     case 'alphabet': alphabetPage(box); break;
     case 'numbers': numbersPage(box); break;
     case 'grammar': grammarPage(box); break;
+    case 'topics': topicsPage(box); break;
+    case 'topic': topicPage(box, params.id); break;
     default: indexPage(box);
   }
   wire(box);
+}
+
+// ---------------- 🧩 قواعد مهمة (content/topics) ----------------
+function topicsPage(root) {
+  const ts = CONTENT.topics;
+  if (!ts.length) { root.innerHTML = back + empty('القواعد لسه ما اتحمّلتش'); return; }
+  root.innerHTML = `${back}<section class="card tint flat"><h1>🧩 قواعد مهمة</h1><p class="hint">المواضيع اللي بتلخبط — كل موضوع شرح بالمصري وأمثلة بالصوت، وكويز تلعب عليه.</p>
+      <a class="btn btn-primary btn-big" href="#/game/grammar">🎮 كويز على كل المواضيع</a></section>
+    <div class="list">${ts.map(t => `<a class="card list-item link rf-topic" href="#/ref/topic?id=${esc(t.id)}">
+      <span class="rf-ico" aria-hidden="true">${esc(t.icon || '📘')}</span>
+      <div class="grow"><b>${mixHtml(t.title)}</b><p class="muted small">${mixHtml(t.summary || '')}</p></div>
+      ${lessonChip(t.lesson)}</a>`).join('')}</div>`;
+}
+
+function topicPage(root, id) {
+  const t = topicById(id);
+  if (!t) { root.innerHTML = '<a class="btn btn-ghost rf-back" href="#/ref/topics">→ القواعد</a>' + empty('الموضوع ده مش موجود'); return; }
+  const L = t.lists || {};
+  const listTable = (rows, head) => `<div class="rf-tscroll"><table class="rf-table rf-gtable" dir="ltr"><tbody><tr><th>${head}</th><th>بالعربي</th><th></th></tr>${rows.map(x => `<tr><td><b class="de">${esc(x.de)}</b></td><td>${esc(x.ar)}</td><td>${sayBtn(x.de)}</td></tr>`).join('')}</tbody></table></div>`;
+  root.innerHTML = `<a class="btn btn-ghost rf-back" href="#/ref/topics">→ القواعد</a>
+    <section class="card tint flat"><h1>${esc(t.icon || '')} ${mixHtml(t.title)}</h1><p class="hint">${mixHtml(t.summary || '')}</p>
+      <a class="btn btn-primary btn-big" href="#/game/grammar?topic=${esc(t.id)}">🎮 العب على الموضوع ده · ${(t.quiz || []).length} سؤال</a></section>
+    <section class="card rf-topic-body">${t.sections.map(p => `<div class="rf-point">
+      <h3>${mixHtml(p.h)}</h3>
+      <p>${mixHtml(p.body)}</p>
+      ${p.table && p.table.length ? `<div class="rf-tscroll"><table class="rf-table rf-gtable" dir="ltr"><tbody>${p.table.map((r, i) => `<tr>${r.map(c => (i === 0 ? `<th>${esc(c)}</th>` : `<td>${esc(c)}</td>`)).join('')}</tr>`).join('')}</tbody></table></div>` : ''}
+      ${(p.examples || []).map(x => `<div class="rf-ex"><div class="grow"><bdi class="de">${esc(x.de)}</bdi><div class="muted small">${mixHtml(x.ar)}</div></div>${sayBtn(x.de)}</div>`).join('')}
+    </div>`).join('')}</section>
+    ${(L.days || []).length ? `<section class="card"><h2 class="sec-title">أيام الأسبوع</h2>${listTable(L.days, 'Tag')}</section>` : ''}
+    ${(L.months || []).length ? `<section class="card"><h2 class="sec-title">الشهور</h2>${listTable(L.months, 'Monat')}</section>` : ''}`;
 }
 
 function indexPage(root) {
@@ -44,6 +76,7 @@ function indexPage(root) {
     ${tile('#/ref/wwords', '❓', 'أدوات الاستفهام', 'Wie, Was, Wo, Woher, Wer … بأمثلة', '#/game/wfragen')}
     ${tile('#/ref/alphabet', '🔠', 'الحروف الألمانية', 'نطق كل حرف + التهجّي (Buchstabieren)', '#/game/alphabet')}
     ${tile('#/ref/numbers', '🔢', 'الأرقام', 'من 0 لحد 999 999 — اكتب أي رقم واسمعه', '#/game/numbers')}
+    ${tile('#/ref/topics', '🧩', 'قواعد مهمة', `${CONTENT.topics.length || 8} مواضيع بتلخبط: der/ein · ein/kein · mein/sein · ihr/ihre · الصفة · حروف الجر · الأيام والشهور`, '#/game/grammar')}
     ${tile('#/ref/grammar', '📖', 'شرح الدروس', 'القواعد المهمة في كل درس بالمصري', '')}`;
 }
 

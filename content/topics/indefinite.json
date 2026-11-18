@@ -1,0 +1,148 @@
+{
+  "id": "indefinite",
+  "title": "أدوات التنكير: ein و eine و kein",
+  "icon": "☝️",
+  "lesson": 22,
+  "summary": "هتفهم إمتى تقول ein أو eine أو einen، وليه بنقول kein مش nicht ein، وليه الجمع مالوش ein.",
+  "sections": [
+    {
+      "h": "ein و eine: زي a / an في الإنجليزي",
+      "body": "أداة التنكير (ein / eine) بتيجي قبل اسم مفرد مش محدّد: «أي واحد»، أو حاجة بنذكرها لأول مرة. في الإنجليزي بتختار a ولا an على حسب النطق (a book، an apple)، لكن في الألماني على حسب جنس الاسم: der و das ياخدوا ein، و die تاخد eine. ده لما الاسم فاعل أو بعد Das ist؛ المذكّر بس بيتغيّر لما يبقى مفعول به (شوف einen تحت). وفي العربي النكرة مالهاش كلمة لوحدها («شنطة» من غير «ال» وخلاص)، عشان كده أشهر غلطة عندنا إننا ننساها: Das ist Tasche ✗، الصح Das ist eine Tasche ✓. وخد بالك: ein نفس الكلمة للمذكّر والمحايد، فمش هتعرف منها الجنس؛ احفظ الاسم دايمًا بـ der / die / das.",
+      "table": [
+        ["الجنس", "معرّف (the)", "نكرة (a / an)"],
+        ["مذكّر", "der Stift", "ein Stift"],
+        ["مؤنّث", "die Tasche", "eine Tasche"],
+        ["محايد", "das Buch", "ein Buch"]
+      ],
+      "examples": [
+        { "de": "Das ist eine Tafel.", "ar": "دي سبّورة.", "lesson": 22 },
+        { "de": "Das ist ein Ordner.", "ar": "ده كلاسير.", "lesson": 22 },
+        { "de": "Das ist ein Wörterbuch.", "ar": "ده قاموس.", "lesson": 22 }
+      ]
+    },
+    {
+      "h": "ein ولا der؟ زي «شنطة» و«الشنطة»",
+      "body": "ein / eine لحاجة مش محدّدة: أي واحدة، أو أول مرة نذكرها والسامع مايعرفهاش. der / die / das لحاجة معروفة لينا وللي بيسمعنا، أو عارفين صاحبها. يعني زي a و the في الإنجليزي، وزي «شنطة» و«الشنطة» عندنا. في حلقة درس 22 المدرّسة قالت: Das ist eine Tasche (أي شنطة)، وبعدين: Das ist die Tasche von Jenny (شنطة معيّنة). وعادةً أول مرة نذكر الحاجة بـ ein، وبعد كده بـ der / die / das.",
+      "table": [
+        ["", "English", "عربي", "Deutsch"],
+        ["نكرة", "a bag", "شنطة", "eine Tasche"],
+        ["معرّف", "the bag", "الشنطة", "die Tasche"]
+      ],
+      "examples": [
+        { "de": "Das ist eine Tasche.", "ar": "دي شنطة (أي شنطة).", "lesson": 22 },
+        { "de": "Das ist die Tasche von Jenny.", "ar": "دي الشنطة بتاعة جيني (شنطة معيّنة).", "lesson": 22 },
+        { "de": "Ich habe ein Auto. Das Auto ist rot.", "ar": "عندي عربية. العربية حمرا.", "lesson": 24 }
+      ]
+    },
+    {
+      "h": "einen: المذكّر بس بيتغيّر مع المفعول به",
+      "body": "في الإنجليزي a مابتتغيّرش، سواء الاسم فاعل أو مفعول به (a pen في الحالتين). لكن الألماني زي الفصحى: فيه حالة رفع وحالة نصب، زي «هذا قلمٌ» و«أريدُ قلمًا». لما الاسم المذكّر يبقى مفعول به (Akkusativ = حالة النصب، درس 23 و 25)، ein بتبقى einen: Das ist ein Stift، لكن Ich möchte einen Stift. والفرق عن العربي إن المذكّر بس اللي بيتغيّر: eine و ein بتوع المؤنّث والمحايد زي ما هما. والمفعول به بييجي بعد أفعال زي haben و suchen و möchten و nehmen و Es gibt. وخد بالك: بعد sein (Das ist … / Hier ist …) الاسم مش مفعول به، فبيفضل ein: Das ist einen Stift ✗.",
+      "table": [
+        ["", "Nominativ (رفع)", "Akkusativ (نصب)"],
+        ["مذكّر", "ein Stift", "einen Stift"],
+        ["مؤنّث", "eine Tasche", "eine Tasche"],
+        ["محايد", "ein Auto", "ein Auto"]
+      ],
+      "examples": [
+        { "de": "Das ist ein Stift. – Hast du einen Stift?", "ar": "ده قلم. – معاك قلم؟", "lesson": 23 },
+        { "de": "Wir suchen einen Mieter für Nawins Zimmer.", "ar": "بندوّر على مستأجر لأوضة نافين.", "lesson": 23 },
+        { "de": "Ich nehme eine Pizza und einen Salat.", "ar": "هاخد بيتزا وسلطة. (eine Pizza زي ما هي، لكن der Salat بقى einen Salat)", "lesson": 23 },
+        { "de": "Ich lese ein Buch.", "ar": "أنا بقرا كتاب. (das Buch: ein زي ما هي)", "lesson": 23 }
+      ]
+    },
+    {
+      "h": "الجمع: مالوش ein خالص",
+      "body": "ein معناها الأصلي «واحد» (زي الرقم eins)، وزي ما بنقول «واحد صاحبي»، فمينفعش يبقى ليها جمع. الجمع النكرة بييجي من غير أداة خالص، زي الإنجليزي (an apple، والجمع apples) والعربي (تفاحة، والجمع تفاح): ein Apfel، والجمع Äpfel بس. وماتتلخبطش: die بتاعة المؤنّث و die بتاعة الجمع شكلهم واحد، لكن eine للمؤنّث المفرد بس: eine Tasche، إنما Äpfel من غير أداة (eine Äpfel ✗). والجمع المعرّف die، والنفي keine. وفيه كمان مفرد بييجي من غير أداة: المهنة بعد sein (Lisa ist Lehrerin، ولو قبلها صفة بترجع eine: eine gute Lehrerin، ده هتاخده في درس 57)، والحاجة اللي مابتتعدّش لما نتكلم عنها بشكل عام: Ich trinke gern Kaffee. بس لو قصدك فنجان واحد: Ich möchte einen Kaffee.",
+      "table": [
+        ["", "مفرد", "جمع"],
+        ["نكرة", "ein Apfel", "Äpfel"],
+        ["معرّف", "der Apfel", "die Äpfel"],
+        ["نفي", "kein Apfel", "keine Äpfel"]
+      ],
+      "examples": [
+        { "de": "Das ist ein Wörterbuch. Das sind Wörterbücher.", "ar": "ده قاموس. ودول قواميس.", "lesson": 22 },
+        { "de": "Wir haben keine Äpfel.", "ar": "معندناش تفاح.", "lesson": 30 },
+        { "de": "Lisa ist Lehrerin.", "ar": "ليزا مدرّسة. (من غير eine)", "lesson": 21 },
+        { "de": "Für mich bitte einen Kaffee.", "ar": "ليّا واحد قهوة لو سمحت. (فنجان واحد)", "lesson": 14 }
+      ]
+    },
+    {
+      "h": "kein: نفي ein (زي no / not a)",
+      "body": "عشان تنفي اسم معاه ein / eine، ماتقولش nicht ein، قول kein (درس 23). kein زي no أو not a في الإنجليزي: I have no pen = I don't have a pen = Ich habe keinen Stift. في العربي النفي بييجي على «معايا» (معيش قلم)، لكن الألماني بينفي الاسم نفسه: keinen Stift بالحرف «ولا قلم». نهايات kein زي ein بالظبط (kein، keine، keinen)، والزيادة إن kein ليها جمع: keine، بنفس شكل المؤنّث (زي die). وكمان بننفي بيها الاسم اللي من غير أداة خالص (زي Internet و Kaffee والمهنة): Die WG hat kein Internet. / Ich bin kein Lehrer.",
+      "table": [
+        ["إيجابي", "منفي"],
+        ["Das ist ein Hotel.", "Das ist kein Hotel."],
+        ["Ich habe einen Stift.", "Ich habe keinen Stift."],
+        ["Wir haben eine Garage.", "Wir haben keine Garage."],
+        ["Die WG hat Internet.", "Die WG hat kein Internet."],
+        ["Ich habe Kinder.", "Ich habe keine Kinder."]
+      ],
+      "examples": [
+        { "de": "Hast du einen Stift? – Nein, ich habe keinen Stift.", "ar": "معاك قلم؟ – لأ، معيش قلم.", "lesson": 23 },
+        { "de": "Das ist keine Brille, das ist ein Brillenetui.", "ar": "دي مش نضارة، ده جراب نضارة.", "lesson": 23 },
+        { "de": "Hier ist kein Fahrradladen.", "ar": "مفيش محل عجل هنا. (بعد ist: kein)", "lesson": 24 },
+        { "de": "Es gibt hier keinen Fahrradladen.", "ar": "هنا مفيش محل عجل. (بعد Es gibt: keinen)", "lesson": 24 }
+      ]
+    },
+    {
+      "h": "kein ولا nicht؟",
+      "body": "اسأل نفسك: الاسم ده من غير نفي كان هيبقى معاه ein، أو مالوش أداة خالص؟ يبقى kein. أي حاجة تانية بننفيها بـ nicht: الفعل (Ich komme nicht)، الصفة (nicht groß، درس 26)، gern (nicht gern)، المكان، والاسم اللي معاه der / die / das أو mein (درس 28 و 45). وأسامي الناس والمدن برضه بـ nicht، مع إنها من غير أداة: Das ist nicht Nico. وقارن: Ich habe kein Auto = معنديش عربية خالص، لكن Ich habe das Auto nicht = العربية (اللي بنتكلم عنها) مش معايا.",
+      "table": [
+        ["بننفي إيه؟", "بـ", "مثال"],
+        ["اسم معاه ein", "kein", "kein Auto"],
+        ["اسم من غير أداة", "kein", "kein Internet"],
+        ["اسم معاه der / die / das", "nicht", "Ich habe das Auto nicht."],
+        ["اسم معاه mein", "nicht", "nicht mein Auto"],
+        ["فعل، صفة، gern", "nicht", "nicht groß / nicht gern"]
+      ],
+      "examples": [
+        { "de": "Das Auto ist nicht groß.", "ar": "العربية مش كبيرة.", "lesson": 24 },
+        { "de": "Das ist nicht mein Zimmer.", "ar": "دي مش أوضتي.", "lesson": 28 },
+        { "de": "Ich habe kein Auto.", "ar": "معنديش عربية خالص.", "lesson": 23 },
+        { "de": "Ich habe das Auto nicht.", "ar": "العربية (اللي بنتكلم عنها) مش معايا.", "lesson": 45 }
+      ]
+    },
+    {
+      "h": "الجدول كله + معاينة الـ Dativ: einem و einer",
+      "body": "دي كل الأشكال في جدول واحد. عمود الـ Dativ (حالة الجر) هتاخده بالتفصيل في درس 39 و 43، بس هتسمعه من دلوقتي. زي العربي، بعد حرف الجر الاسم بيبقى مجرور (في بيتٍ). في الألماني ده بيحصل بعد حروف معيّنة، زي mit و bei و von، و in لما السؤال Wo? (فين؟)، والأداة هنا بتتغيّر مع التلات أجناس: المذكّر والمحايد einem، والمؤنّث einer. والجمع برضه من غير أداة، والاسم بياخد n في آخره لو مش آخره n أو s (mit Freunden). وفي درس 25 هتحفظها كجمل جاهزة: in einer WG، in einem Hochhaus.",
+      "table": [
+        ["", "Nominativ", "Akkusativ", "Dativ (درس 39)"],
+        ["مذكّر", "ein / kein", "einen / keinen", "einem / keinem"],
+        ["مؤنّث", "eine / keine", "eine / keine", "einer / keiner"],
+        ["محايد", "ein / kein", "ein / kein", "einem / keinem"],
+        ["جمع", "– / keine", "– / keine", "– / keinen"]
+      ],
+      "examples": [
+        { "de": "Lisa gibt Deutschkurse in einer Sprachschule.", "ar": "ليزا بتدّي كورسات ألماني في معهد لغة.", "lesson": 21 },
+        { "de": "Ich wohne in einem Hochhaus.", "ar": "أنا ساكن في عمارة عالية.", "lesson": 25 },
+        { "de": "Ich wohne mit Freunden in einer WG.", "ar": "أنا ساكن مع شوية صحاب في شقة مشتركة.", "lesson": 43 }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "Das ist ___ Tafel.", "answer": "eine", "opts": ["eine", "ein", "einen"], "ar": "دي سبّورة.", "why": "die Tafel مؤنّث، فأداتها النكرة eine.", "lesson": 22 },
+    { "q": "Das ist ___ Ordner.", "answer": "ein", "opts": ["einen", "ein", "eine"], "ar": "ده كلاسير.", "why": "der Ordner مذكّر، يبقى ein. وبعد Das ist مفيش مفعول به، فمفيش einen.", "lesson": 22 },
+    { "q": "Die Kursteilnehmer schreiben ___.", "answer": "Sätze", "opts": ["ein Sätze", "eine Sätze", "Sätze", "einen Sätze"], "ar": "المشتركين في الكورس بيكتبوا جُمل.", "why": "Sätze جمع، والجمع النكرة من غير أداة خالص. ein و eine للمفرد بس.", "lesson": 22 },
+    { "q": "Nimmst du eine Pizza oder ___ Salat?", "answer": "einen", "opts": ["ein", "eine", "einen"], "ar": "هتاخد بيتزا ولا سلطة؟", "why": "der Salat مذكّر ومفعول به بعد nehmen، يبقى einen. أما eine Pizza فزي ما هي، عشان die Pizza مؤنّث.", "lesson": 15 },
+    { "q": "Hast du ___ Auto?", "answer": "ein", "opts": ["einen", "eine", "ein"], "ar": "عندك عربية؟", "why": "das Auto محايد، والمحايد بيفضل ein حتى وهو مفعول به بعد haben.", "lesson": 23 },
+    { "q": "Die Wohnung hat ___ Terrasse.", "answer": "eine", "opts": ["einen", "eine", "ein"], "ar": "الشقة فيها تراس.", "why": "die Terrasse مؤنّث، والمؤنّث بيفضل eine حتى بعد haben. einen للمذكّر بس.", "lesson": 23 },
+    { "q": "Wir suchen ___ Mieter.", "answer": "einen", "opts": ["ein", "einen", "eine"], "ar": "بندوّر على مستأجر.", "why": "der Mieter مذكّر، وهنا مفعول به بعد suchen، يبقى einen.", "lesson": 23 },
+    { "q": "Hast du einen Stift? – Nein, ich habe ___ Stift.", "answer": "keinen", "opts": ["nicht", "kein", "keinen", "keine"], "ar": "معاك قلم؟ – لأ، معيش قلم.", "why": "نفي einen Stift هو keinen Stift (نفس النهاية -en). و nicht مابتنفيش اسم معاه ein.", "lesson": 23 },
+    { "q": "Nein, im Haus ist ___ Aufzug.", "answer": "kein", "opts": ["keinen", "kein", "nicht", "keine"], "ar": "لأ، مفيش أسانسير في البيت.", "why": "der Aufzug هنا فاعل (بعد ist)، فبنقول kein من غير -en.", "lesson": 23 },
+    { "q": "Wir haben ___ Garage.", "answer": "keine", "opts": ["keine", "keinen", "nicht", "kein"], "ar": "معندناش جراج.", "why": "die Garage مؤنّث، يبقى keine. والمؤنّث مابيتغيّرش مع المفعول به.", "lesson": 23 },
+    { "q": "Hast du Stifte? – Nein, ich habe ___ Stifte.", "answer": "keine", "opts": ["kein", "keinen", "keine"], "ar": "معاك أقلام؟ – لأ، معيش أقلام.", "why": "Stifte جمع، والجمع نفيه keine حتى لو المفرد مذكّر (der Stift). keinen للمذكّر المفرد بس.", "lesson": 23 },
+    { "q": "Nein, danke. Ich habe ___ Hunger.", "answer": "keinen", "opts": ["kein", "keine", "keinen"], "ar": "لأ، شكرًا. أنا مش جعان.", "why": "der Hunger مذكّر ومفعول به بعد haben، يبقى keinen. بالعربي «مش جعان»، بس الألماني بيقول «معنديش جوع».", "lesson": 23 },
+    { "q": "Ich bin ___ Student.", "answer": "kein", "opts": ["keinen", "kein", "keine"], "ar": "أنا مش طالب.", "why": "المهنة بعد sein من غير أداة (Ich bin Student)، ونفيها kein. وبعد sein مفيش keinen.", "lesson": 23 },
+    { "q": "Ich trinke ___ gern Kaffee.", "answer": "nicht", "opts": ["kein", "nicht", "keinen"], "ar": "مابحبش أشرب قهوة.", "why": "gern بننفيها بـ nicht: nicht gern. kein بتيجي قبل اسم بس.", "lesson": 13 },
+    { "q": "Das Zimmer ist ___ groß.", "answer": "nicht", "opts": ["nicht", "kein", "keine"], "ar": "الأوضة مش كبيرة.", "why": "groß صفة، والصفة بننفيها بـ nicht. kein قبل الاسم بس.", "lesson": 24 },
+    { "q": "Das ist ___ Hotel, das ist eine Jugendherberge.", "answer": "kein", "opts": ["nicht ein", "keine", "kein", "keinen"], "ar": "ده مش فندق، ده بيت شباب.", "why": "نفي ein Hotel هو kein Hotel. «nicht ein» مش بنقولها كده.", "lesson": 25 },
+    { "q": "Lisa wohnt in ___ WG.", "answer": "einer", "opts": ["eine", "einem", "einer"], "ar": "ليزا ساكنة في شقة مشتركة.", "why": "wohnen in = فين؟ يعني Dativ، و die WG مؤنّث، يبقى einer.", "lesson": 25 },
+    { "q": "Es gibt ___ Keller.", "answer": "einen", "opts": ["einen", "ein", "eine"], "ar": "فيه بدروم.", "why": "بعد Es gibt بييجي مفعول به (Akkusativ)، و der Keller مذكّر، يبقى einen.", "lesson": 26 },
+    { "q": "Gibt es hier einen Supermarkt? – Nein, hier gibt es ___ Supermarkt.", "answer": "keinen", "opts": ["kein", "keinen", "keine"], "ar": "فيه سوبر ماركت هنا؟ – لأ، مفيش سوبر ماركت هنا.", "why": "بعد Es gibt مفعول به، و der Supermarkt مذكّر، يبقى keinen (زي einen).", "lesson": 26 },
+    { "q": "Das ist ___ mein Handy.", "answer": "nicht", "opts": ["kein", "keine", "nicht"], "ar": "ده مش موبايلي.", "why": "الاسم معاه mein، فبننفي بـ nicht. kein بتيجي مكان ein، ومينفعش تيجي جنب mein.", "lesson": 28 },
+    { "q": "Im Kühlschrank sind ___.", "answer": "Äpfel", "opts": ["ein Apfel", "Äpfel", "einen Apfel", "eine Äpfel"], "ar": "فيه تفاح في التلاجة.", "why": "sind يعني أكتر من حاجة، والجمع النكرة من غير ein: Äpfel بس.", "lesson": 30 },
+    { "q": "Wir fahren mit ___ Taxi zum Bahnhof.", "answer": "einem", "opts": ["ein", "einer", "einem"], "ar": "إحنا رايحين محطة القطر بتاكسي.", "why": "بعد mit دايمًا Dativ، و das Taxi محايد، يبقى einem.", "lesson": 43 },
+    { "q": "Ich esse ___ Fleisch.", "answer": "kein", "opts": ["keine", "kein", "keinen"], "ar": "أنا مابكلش لحمة.", "why": "das Fleisch محايد ومن غير أداة، ونفيه kein.", "lesson": 45 },
+    { "q": "Ich esse den Käse ___.", "answer": "nicht", "opts": ["keinen", "kein", "nicht"], "ar": "مش هاكل الجبنة دي.", "why": "den Käse معاه أداة تعريف (جبنة معيّنة)، فبننفي بـ nicht في الآخر.", "lesson": 45 }
+  ]
+}

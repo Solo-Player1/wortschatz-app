@@ -1,0 +1,144 @@
+{
+  "id": "adjectives",
+  "title": "الصفة والموصوف: ein großes Haus و Das Haus ist groß",
+  "icon": "🎨",
+  "lesson": 24,
+  "summary": "هتفهم إن الصفة في الألماني بتيجي قبل الاسم (عكس العربي)، وإمتى تفضل زي ما هي (Das Haus ist groß) وإمتى تاخد نهاية (ein großes Haus).",
+  "sections": [
+    {
+      "h": "مين بيسبق مين؟ الصفة قبل الاسم",
+      "body": "في العربي الموصوف بييجي الأول وبعده الصفة: «بيت كبير»، «عربية حمرا». في الألماني العكس، زي الإنجليزي: الصفة قبل الاسم، a big house = ein großes Haus. والترتيب ثابت: الأداة، بعدها الصفة، وفي الآخر الاسم. وإنت أصلًا بتقول كده من أول درس من غير ما تاخد بالك: Guten Tag = «نهار سعيد»، و Guten (من gut) جت قبل Tag؛ و Gute Reise (درس 3) = «رحلة سعيدة». وأشهر غلطة عندنا الترجمة الحرفية من العربي: ein Haus groß ✗. وخد بالك: الصفة عادةً بتتكتب بحرف صغير حتى وهي قبل الاسم (ein großes Haus)، والاسم هو اللي بحرف كبير؛ و Guten Tag بـ G كبيرة عشان في أول الجملة.",
+      "table": [
+        ["عربي", "English", "Deutsch"],
+        ["بيت كبير", "a big house", "ein großes Haus"],
+        ["شقة صغيرة", "a small flat", "eine kleine Wohnung"],
+        ["عربية حمرا", "a red car", "ein rotes Auto"],
+        ["نهار سعيد", "good day", "Guten Tag"]
+      ],
+      "examples": [
+        { "de": "Das ist ein großes Haus.", "ar": "ده بيت كبير.", "lesson": 24 },
+        { "de": "Ich suche eine kleine Wohnung.", "ar": "بدوّر على شقة صغيرة.", "lesson": 24 },
+        { "de": "Morgen ist ein langer Tag.", "ar": "بكرة يوم طويل.", "lesson": 29 }
+      ]
+    },
+    {
+      "h": "«البيت الكبير» و«البيت كبير»: وصف ولا جملة؟",
+      "body": "في العربي «ال» بتفرق جامد: «البيت الكبير» لسه مش جملة (لازم تكمّل: البيت الكبير غالي)، لكن «البيت كبير» جملة كاملة. في الألماني الوصف = الأداة + الصفة + الاسم: das große Haus، والأداة مرة واحدة بس في الأول، مش زي العربي اللي بنحط فيه «ال» على الاسم وعلى الصفة: das Haus das große ✗. والجملة = الاسم + ist + الصفة في الآخر: Das Haus ist groß. وخد بالك: الجملة العربي دي مفيهاش فعل، لكن الجملة الألماني لازم فيها فعل، فماتنساش ist (أو sind في الجمع): Das Haus groß ✗.",
+      "table": [
+        ["", "عربي", "English", "Deutsch"],
+        ["وصف", "البيت الكبير …", "the big house …", "das große Haus …"],
+        ["جملة", "البيت كبير.", "The house is big.", "Das Haus ist groß."]
+      ],
+      "examples": [
+        { "de": "Das Haus ist groß.", "ar": "البيت كبير. (جملة كاملة)", "lesson": 24 },
+        { "de": "Das große Haus ist teuer.", "ar": "البيت الكبير غالي. (الوصف das große Haus + ist teuer = جملة)", "lesson": 24 },
+        { "de": "Die Fenster sind groß und das Zimmer ist hell.", "ar": "الشبابيك كبيرة والأوضة منوّرة. (من حلقة درس 26)", "lesson": 26 }
+      ]
+    },
+    {
+      "h": "بعد sein الصفة لوحدها: من غير نهاية خالص",
+      "body": "لما الصفة تيجي بعد sein (bin، ist، sind …) بتفضل زي ما هي: نفس الكلمة مع der و die و das، مع المفرد والجمع، مع الراجل والست. وده عكس العربي: بنقول «الشقة كبيرة» و«الكراسي قديمة» والصفة بتتغيّر مع الاسم، لكن في الألماني Die Wohnung ist groß و Die Stühle sind alt، واللي بيتغيّر sein بس. عشان كده ماتقولش Die Wohnung ist große ✗ لمجرد إن «كبيرة» فيها تاء. يعني الألماني في النص: في الوصف الصفة بتتغيّر زي العربي، وفي الجملة ثابتة زي الإنجليزي (شوف الجدول). ونفس الكلام بعد werden (Im Winter wird es kalt، درس 54)، و finden (Ich finde das Sofa bequem، درس 27)، و aussehen (Du siehst gut aus، درس 59). أما größer (أكبر) فدي صيغة المقارنة، موضوع تاني في درس 47 و 54.",
+      "table": [
+        ["", "وصف", "جملة"],
+        ["عربي", "شقة كبيرة", "الشقة كبيرة."],
+        ["English", "a big flat", "The flat is big."],
+        ["Deutsch", "eine große Wohnung", "Die Wohnung ist groß."]
+      ],
+      "examples": [
+        { "de": "Die Wohnung ist klein, aber sie ist billig.", "ar": "الشقة صغيرة، بس رخيصة.", "lesson": 24 },
+        { "de": "Unsere Heizung ist kaputt.", "ar": "التدفئة عندنا بايظة. (من حلقة درس 25)", "lesson": 25 },
+        { "de": "Ich finde das Sofa sehr bequem.", "ar": "أنا شايف الكنبة مريحة أوي.", "lesson": 27 },
+        { "de": "Im Winter wird es kalt.", "ar": "في الشتا الجو بيبرد.", "lesson": 54 }
+      ]
+    },
+    {
+      "h": "لما الصفة توصف الفعل: برضه من غير نهاية",
+      "body": "الصفة ممكن كمان توصف الفعل نفسه: بيعمل الحاجة إزاي؟ وساعتها برضه مالهاش نهاية. وهنا الألماني أسهل من الإنجليزي: الإنجليزي بيغيّر الكلمة (slow ← slowly، good ← well)، لكن الألماني بيستخدم الصفة زي ما هي: Der Zug fährt langsam، Er kocht gut. وكلمات زي sehr و zu و nicht بتيجي قبل الصفة على طول ومابتتغيّرش أبدًا: sehr schnell، zu groß (درس 27)، nicht laut (درس 26). وقبل الاسم sehr بتقعد بين الأداة والصفة: ein sehr schönes Sofa.",
+      "table": [
+        ["", "English", "Deutsch"],
+        ["قبل الاسم", "a slow train", "ein langsamer Zug"],
+        ["بيوصف الفعل", "The train goes slowly.", "Der Zug fährt langsam."],
+        ["قبل الاسم", "a good cook", "ein guter Koch"],
+        ["بيوصف الفعل", "He cooks well.", "Er kocht gut."]
+      ],
+      "examples": [
+        { "de": "Langsam bitte. Sie sprechen sehr schnell.", "ar": "بالراحة لو سمحت، حضرتك بتتكلم بسرعة أوي. (رسمي)", "lesson": 20 },
+        { "de": "Max fährt sehr schnell.", "ar": "ماكس بيسوق بسرعة أوي.", "lesson": 20 },
+        { "de": "Der Schrank ist viel zu groß.", "ar": "الدولاب كبير زيادة عن اللزوم بكتير. (من حلقة درس 27)", "lesson": 27 }
+      ]
+    },
+    {
+      "h": "قبل الاسم: الصفة بتاخد نهاية (مقدمة بسيطة)",
+      "body": "أول ما الصفة تيجي قبل الاسم لازم تاخد نهاية (إلا كام صفة قليلة زي super، شوف آخر الصفحة)، والنهاية على حسب اللي قبلها. خلينا دلوقتي في حالة الرفع (Nominativ): الفاعل، واللي بعد Das ist. الفكرة إن جنس الاسم لازم يبان: بعد der / die / das الأداة بيّنت الجنس خلاص، فالصفة بتاخد -e وبس: der große Tisch، die große Lampe، das große Bett. لكن ein واحدة للمذكّر والمحايد، فالصفة هي اللي بتبيّن الجنس، وبتاخد آخر حرف من der / die / das: ein großer Tisch (der)، eine große Lampe (die)، ein großes Bett (das). والجمع بعد die آخره -en (die großen Tische)، ومن غير أداة -e (große Tische). وإنت أصلًا حفظت ده في درس 24: anderer، andere، anderes. والتفاصيل في درس 57 و 61.",
+      "table": [
+        ["", "بعد der / die / das", "بعد ein / eine"],
+        ["مذكّر", "der große Tisch", "ein großer Tisch"],
+        ["مؤنّث", "die große Lampe", "eine große Lampe"],
+        ["محايد", "das große Bett", "ein großes Bett"],
+        ["جمع", "die großen Tische", "große Tische (من غير ein)"]
+      ],
+      "examples": [
+        { "de": "Das ist eine gute Idee.", "ar": "دي فكرة حلوة. (die Idee ← eine gute)", "lesson": 35 },
+        { "de": "Ich möchte ein anderes T-Shirt.", "ar": "عايز تي شيرت تاني. (das T-Shirt ← ein anderes)", "lesson": 24 },
+        { "de": "Der Tisch ist groß. Das ist ein großer Tisch.", "ar": "الترابيزة كبيرة. دي ترابيزة كبيرة. (بعد ist: groß، وقبل الاسم: großer)", "lesson": 57 }
+      ]
+    },
+    {
+      "h": "المفعول به المذكّر والـ Dativ: -en (درس 57 و 61 و 73)",
+      "body": "ده هتاخده بالتفصيل في درس 57 و 61 و 73، بس خد الفكرة من دلوقتي: مع المفعول به (حالة النصب Akkusativ: بعد haben و brauchen و kaufen …) المذكّر بس اللي بيتغيّر: زي ما der بتبقى den و ein بتبقى einen، الصفة بتبقى -en في الحالتين: den großen Tisch، einen großen Tisch. والمؤنّث والمحايد والجمع زي ما هم. وده سر Guten Tag و Schönen Tag noch (درس 44): أصلها Ich wünsche Ihnen einen guten Tag (بتمنّى لحضرتك يوم سعيد)، يعني Tag مفعول به. وفي حالة الجر Dativ (بعد mit و bei، و in لما السؤال Wo?) الصفة بعد أي أداة آخرها -en، مع كل الأجناس ومع الجمع: in einem großen Haus، in einer kleinen Wohnung، mit dem neuen Auto (درس 73).",
+      "table": [
+        ["", "بعد der", "بعد ein"],
+        ["رفع (Nominativ)", "der große Tisch", "ein großer Tisch"],
+        ["نصب (Akkusativ)", "den großen Tisch", "einen großen Tisch"],
+        ["جر (Dativ)", "dem großen Tisch", "einem großen Tisch"]
+      ],
+      "examples": [
+        { "de": "Ich kaufe einen neuen Tisch.", "ar": "هشتري ترابيزة جديدة. (مفعول به، مذكّر: -en)", "lesson": 57 },
+        { "de": "Schönen Tag noch!", "ar": "يومك سعيد! (أصلها: einen schönen Tag)", "lesson": 44 },
+        { "de": "Wir wohnen in einem großen Haus.", "ar": "إحنا ساكنين في بيت كبير. (Dativ: -en، من حلقة درس 73)", "lesson": 73 }
+      ]
+    },
+    {
+      "h": "بعد kein و mein، وحاجات صغيرة",
+      "body": "بعد kein و mein و dein و unser: في المفرد الصفة بتاخد نفس نهايات ein: mein kleiner Bruder، meine kleine Schwester، mein kleines Kind. وفي الجمع -en زي بعد die: meine kleinen Brüder، keine großen Geschäfte (درس 61 و 73). ولو فيه صفتين ورا بعض، الاتنين بياخدوا نفس النهاية: der nette junge Mann (حلقة درس 36). والأعداد الترتيبية بتتصرّف زي الصفة بالظبط: der dritte Mai (درس 34)، in der ersten Etage (درس 39). وشوية صفات بيتغيّر شكلها قبل الاسم: teuer ← ein teures Auto، hoch ← eine hohe Miete، dunkel ← ein dunkler Flur (درس 57 و 60). و super و lila و rosa مابيتغيّروش خالص: ein super Film (درس 57 و 58).",
+      "table": [
+        ["الصفة", "بعد ist", "قبل الاسم"],
+        ["teuer", "Das Auto ist teuer.", "ein teures Auto"],
+        ["hoch", "Die Miete ist hoch.", "eine hohe Miete"],
+        ["dunkel", "Der Flur ist dunkel.", "ein dunkler Flur"],
+        ["super", "Der Film ist super.", "ein super Film"]
+      ],
+      "examples": [
+        { "de": "Im Dorf gibt es keine großen Geschäfte.", "ar": "مفيش محلات كبيرة في القرية. (جمع بعد keine: -en)", "lesson": 73 },
+        { "de": "Der nette junge Mann kann gern ein paar Tage bei mir wohnen.", "ar": "الشاب اللطيف ده ممكن يقعد عندي كام يوم. (إنجي في حلقة درس 36)", "lesson": 36 },
+        { "de": "Wir wohnen in der ersten Etage.", "ar": "إحنا ساكنين في الدور الأول.", "lesson": 39 },
+        { "de": "Das ist ein teures Auto.", "ar": "دي عربية غالية. (teuer ← teures)", "lesson": 73 }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "___ Reise!", "answer": "Gute", "opts": ["Gute", "Guten", "Gut"], "ar": "رحلة سعيدة!", "why": "die Reise مؤنّث، فالصفة قبلها آخرها -e: Gute Reise. ولاحظ إن الصفة جت قبل الاسم، عكس العربي (رحلة سعيدة).", "lesson": 3 },
+    { "q": "Der Kühlschrank ist ___.", "answer": "kaputt", "opts": ["kaputt", "kaputte", "kaputtes"], "ar": "التلاجة بايظة.", "why": "بعد ist الصفة لوحدها من غير أي نهاية: kaputt زي ما هي، أيًا كان جنس الاسم.", "lesson": 14 },
+    { "q": "Das ist ___.", "answer": "ein gutes Restaurant", "opts": ["ein gutes Restaurant", "ein Restaurant gut", "ein Restaurant gutes"], "ar": "ده مطعم كويس.", "why": "الصفة قبل الاسم زي الإنجليزي (a good restaurant): ein + gutes + Restaurant. «ein Restaurant gut» ترجمة حرفية من العربي وغلط.", "lesson": 16 },
+    { "q": "Die Party ist ___!", "answer": "toll", "opts": ["toll", "tolle", "tolles"], "ar": "الحفلة جامدة!", "why": "في العربي «جامدة» فيها تاء عشان الحفلة مؤنّث، لكن في الألماني الصفة بعد ist مابتتغيّرش حتى مع die: toll.", "lesson": 17 },
+    { "q": "Selma lernt sehr ___.", "answer": "schnell", "opts": ["schnell", "schnelle", "schnelles"], "ar": "سلمى بتتعلّم بسرعة أوي.", "why": "schnell هنا بتوصف الفعل (بتتعلّم إزاي؟)، فمالهاش نهاية. والإنجليزي بيزوّد -ly (quickly)، لكن الألماني لأ.", "lesson": 20 },
+    { "q": "Nico sucht ___.", "answer": "ein kleines Zimmer", "opts": ["ein kleines Zimmer", "ein Zimmer klein", "ein Zimmer kleines"], "ar": "نيكو بيدوّر على أوضة صغيرة.", "why": "الترتيب: الأداة، بعدها الصفة، وفي الآخر الاسم: ein + kleines + Zimmer، زي a small room. مش زي العربي (أوضة صغيرة).", "lesson": 24 },
+    { "q": "___ ist sehr teuer.", "answer": "Das neue Auto", "opts": ["Das neue Auto", "Das Auto neue", "Das Auto das neue"], "ar": "العربية الجديدة غالية أوي.", "why": "في العربي «ال» على الاسم وعلى الصفة (العربية الجديدة)، لكن في الألماني الأداة مرة واحدة في الأول وبعدها الصفة: das neue Auto.", "lesson": 24 },
+    { "q": "Hier ist ein ___ Fahrradladen.", "answer": "anderer", "opts": ["anderer", "anderes", "anderen"], "ar": "هنا فيه محل عجل تاني.", "why": "der Fahrradladen مذكّر، و ein مابتبيّنش الجنس، فالصفة بتاخد -er (من der): ein anderer Fahrradladen، زي درس 24.", "lesson": 24 },
+    { "q": "Der Balkon ist ___.", "answer": "groß", "opts": ["groß", "großer", "große"], "ar": "البلكونة كبيرة.", "why": "صحيح der Balkon مذكّر، بس الـ -er دي بتيجي قبل الاسم وبس (ein großer Balkon). بعد ist الصفة لوحدها: groß.", "lesson": 25 },
+    { "q": "Lisa ist ___.", "answer": "nett", "opts": ["nett", "nette", "nettes"], "ar": "ليزا لطيفة.", "why": "بعد sein الصفة واحدة للراجل وللست: Nico ist nett و Lisa ist nett. العربي بيقول لطيف ولطيفة، الألماني لأ.", "lesson": 25 },
+    { "q": "Das Zimmer ___.", "answer": "ist hell", "opts": ["ist hell", "hell", "helles"], "ar": "الأوضة منوّرة.", "why": "الجملة العربي مفيهاش فعل (الأوضة منوّرة)، لكن الألماني لازم فيها ist: Das Zimmer ist hell، والصفة من غير نهاية.", "lesson": 26 },
+    { "q": "Die Stühle sind ___ und der Schrank ist viel zu groß.", "answer": "alt", "opts": ["alt", "alten", "altes"], "ar": "الكراسي قديمة والدولاب كبير زيادة عن اللزوم بكتير.", "why": "حتى في الجمع، الصفة بعد sind من غير نهاية: alt. اللي بيتغيّر هو الفعل بس (sind بدل ist).", "lesson": 27 },
+    { "q": "Wie findest du die Küche? – Ich finde sie ___.", "answer": "gemütlich", "opts": ["gemütlich", "gemütliche", "gemütliches"], "ar": "إيه رأيك في المطبخ؟ – شايفه مريح.", "why": "بعد finden، زي بعد sein، الصفة من غير نهاية، حتى لو الاسم مؤنّث (die Küche): Ich finde sie gemütlich.", "lesson": 27 },
+    { "q": "Das ist ___.", "answer": "ein sehr schönes Sofa", "opts": ["ein sehr schönes Sofa", "sehr ein schönes Sofa", "ein schönes sehr Sofa"], "ar": "دي كنبة حلوة أوي.", "why": "sehr بتيجي قبل الصفة على طول ومابتتغيّرش: ein + sehr + schönes + Sofa، زي a very nice sofa.", "lesson": 27 },
+    { "q": "Lisa kocht sehr ___.", "answer": "gut", "opts": ["gut", "gute", "guten"], "ar": "ليزا بتطبخ حلو أوي.", "why": "gut هنا بتوصف الطبخ نفسه (بتطبخ إزاي؟)، فمن غير نهاية. الإنجليزي بيقول well مش good، والألماني gut في الحالتين.", "lesson": 31 },
+    { "q": "Aber ich habe keine ___ Arbeit an einer Schule.", "answer": "feste", "opts": ["feste", "festen", "fester"], "ar": "بس معنديش شغل ثابت في مدرسة. (ليزا)", "why": "die Arbeit مؤنّث، والصفة بعد eine / keine في المفرد آخرها -e زي die: keine feste Arbeit.", "lesson": 37 },
+    { "q": "Wie wird das Wetter morgen? – Es wird ___.", "answer": "sonnig", "opts": ["sonnig", "sonnige", "sonniges"], "ar": "الجو هيبقى عامل إيه بكرة؟ – هيبقى مشمس.", "why": "werden زي sein: الصفة بعده من غير نهاية. Es wird sonnig = هيبقى مشمس.", "lesson": 56 },
+    { "q": "Das ist ein ___ T-Shirt!", "answer": "cooles", "opts": ["cooles", "cooler", "coole"], "ar": "ده تي شيرت جامد!", "why": "das T-Shirt محايد، و ein مابتبيّنش الجنس، فالصفة بتاخد -es (من das): ein cooles T-Shirt.", "lesson": 57 },
+    { "q": "Du brauchst einen ___ Pullover.", "answer": "warmen", "opts": ["warmen", "warmer", "warmes", "warm"], "ar": "إنت محتاج بلوفر دافي.", "why": "der Pullover مذكّر ومفعول به (einen)، فالصفة -en زي den: einen warmen Pullover.", "lesson": 57 },
+    { "q": "Du brauchst ___ Sachen zum Anziehen.", "answer": "neue", "opts": ["neue", "neuen", "neues"], "ar": "إنت محتاج هدوم جديدة تلبسها.", "why": "Sachen جمع ومن غير أداة، فالصفة آخرها -e: neue Sachen. (بعد die بتبقى -en: die neuen Sachen)", "lesson": 57 },
+    { "q": "Der ___ Junge ist mein Neffe.", "answer": "kleine", "opts": ["kleine", "kleiner", "kleinen"], "ar": "الولد الصغير ده ابن أخويا (أو أختي).", "why": "بعد der الأداة بيّنت الجنس خلاص، فالصفة -e بس: der kleine Junge. أما بعد ein: ein kleiner Junge.", "lesson": 61 },
+    { "q": "Mein ___ Bruder ist acht Jahre alt.", "answer": "kleiner", "opts": ["kleiner", "kleine", "kleinen"], "ar": "أخويا الصغير عنده تمن سنين.", "why": "mein زي ein: مابتبيّنش الجنس، فالصفة بتاخد -er (من der): mein kleiner Bruder. و alt في الآخر بعد ist من غير نهاية.", "lesson": 61 },
+    { "q": "Wir fahren mit dem ___ Auto.", "answer": "neuen", "opts": ["neuen", "neuem", "neues"], "ar": "إحنا رايحين بالعربية الجديدة.", "why": "بعد mit دايمًا Dativ، والصفة في الـ Dativ بعد أي أداة آخرها -en: mit dem neuen Auto. الـ -m بتاعة dem بس.", "lesson": 73 }
+  ]
+}
